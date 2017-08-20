@@ -1,0 +1,466 @@
+﻿Log file open, 08/19/17 18:26:36
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1520713611) SRandInit(1520713611).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.075244
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.20-01.26.37:093][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.20-01.26.37:093][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.20-01.26.37:114][  0]LogInit: Computer: LCIVAN-238-00
+[2017.08.20-01.26.37:114][  0]LogInit: User: studentuser
+[2017.08.20-01.26.37:114][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.20-01.26.37:114][  0]LogInit: High frequency timer resolution =4.101562 MHz
+[2017.08.20-01.26.37:114][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.20-01.26.37:114][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.20-01.26.37:114][  0]LogMemory: Process Physical Memory: 274.24 MB used, 274.24 MB peak
+[2017.08.20-01.26.37:114][  0]LogMemory: Process Virtual Memory: 260.77 MB used, 260.77 MB peak
+[2017.08.20-01.26.37:114][  0]LogMemory: Physical Memory: 4613.56 MB used,  11669.89 MB free, 16283.45 MB total
+[2017.08.20-01.26.37:114][  0]LogMemory: Virtual Memory: 638.49 MB used,  11669.89 MB free, 134217728.00 MB total
+[2017.08.20-01.26.37:160][  0]LogInit: Using OS detected language (en-US).
+[2017.08.20-01.26.37:160][  0]LogInit: Using OS detected locale (en-CA).
+[2017.08.20-01.26.37:162][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.20-01.26.37:790][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.20-01.26.37:819][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.20-01.26.37:819][  0]LogD3D11RHI:       8120/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.20-01.26.37:826][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.08.20-01.26.37:826][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.20-01.26.37:826][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.20-01.26.37:826][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.20-01.26.37:826][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.20-01.26.37:832][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.20-01.26.37:832][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.20-01.26.37:832][  0]LogWindows: EnumDisplayDevices:
+[2017.08.20-01.26.37:832][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.20-01.26.37:832][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.20-01.26.37:832][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.20-01.26.37:833][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.20-01.26.37:833][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.20-01.26.37:833][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.20-01.26.37:833][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.20-01.26.37:833][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.08.20-01.26.37:833][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.20-01.26.37:833][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.08.20-01.26.37:833][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.08.20-01.26.37:833][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.20-01.26.37:855][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.20-01.26.37:864][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.20-01.26.37:912][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (D:/CastleGuardPhase2-master/CastleGuardPhase2-master/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/2220/).
+[2017.08.20-01.26.37:912][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/8A241AAB442DE9538E9D0C91AA8A3257/'.
+[2017.08.20-01.26.37:912][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.20-01.26.38:613][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.20-01.26.38:647][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.20-01.26.38:681][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.20-01.26.38:714][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.20-01.26.38:749][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.20-01.26.38:784][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.20-01.26.38:821][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.20-01.26.38:855][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.20-01.26.38:885][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.20-01.26.38:920][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.20-01.26.38:953][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.20-01.26.38:987][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.20-01.26.39:021][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.20-01.26.39:056][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.20-01.26.39:089][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.20-01.26.39:156][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.20-01.26.39:156][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.20-01.26.39:185][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.20-01.26.39:256][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.20-01.26.39:277][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.20-01.26.39:311][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.20-01.26.39:346][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.20-01.26.39:381][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.20-01.26.39:416][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.20-01.26.39:416][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.20-01.26.39:753][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.20-01.26.39:834][  0]LogDerivedDataCache: Loaded boot cache 0.08s 103MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.20-01.26.39:835][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.20-01.26.39:835][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardPhase2-master/CastleGuardPhase2-master/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.20-01.26.39:835][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.20-01.26.39:835][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardPhase2-master/CastleGuardPhase2-master/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.20-01.26.39:835][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.20-01.26.39:846][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.20-01.26.39:858][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.20-01.26.39:865][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.20-01.26.39:865][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.20-01.26.39:866][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.20-01.26.39:866][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.20-01.26.40:084][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.20-01.26.40:138][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.20-01.26.40:246][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.20-01.26.40:275][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.20-01.26.40:306][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.20-01.26.40:306][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.20-01.26.40:306][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.20-01.26.40:692][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.08.20-01.26.40:744][  0]LogAssetRegistry: FAssetRegistry took 0.0244 seconds to start up
+[2017.08.20-01.26.40:784][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.024636 seconds
+[2017.08.20-01.26.40:789][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.20-01.26.40:789][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.20-01.26.40:789][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.20-01.26.40:833][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.20-01.26.42:457][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.20-01.26.42:489][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.20-01.26.42:858][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.20-01.26.43:121][  0]SourceControl: Info Source control is disabled
+[2017.08.20-01.26.43:145][  0]SourceControl: Info Source control is disabled
+[2017.08.20-01.26.43:180][  0]SourceControl: Info Source control is disabled
+[2017.08.20-01.26.43:215][  0]SourceControl: Info Source control is disabled
+[2017.08.20-01.26.43:659][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.20-01.26.44:060][  0]LogEngine: Initializing Engine...
+[2017.08.20-01.26.44:094][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.08.20-01.26.44:257][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.20-01.26.44:257][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.20-01.26.44:348][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.20-01.26.44:358][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.20-01.26.44:376][  0]LogInit: FAudioDevice initialized.
+[2017.08.20-01.26.44:419][  0]LogDerivedDataCache: Saved boot cache 0.04s 91MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.20-01.26.44:434][  0]LogInit: Texture streaming: Enabled
+[2017.08.20-01.26.44:507][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.20-01.26.44:656][  0]LogInit: Transaction tracking system initialized
+[2017.08.20-01.26.44:864][  0]BlueprintLog: New page: Editor Load
+[2017.08.20-01.26.45:490][  0]LocalizationService: Info Localization service is disabled
+[2017.08.20-01.26.45:956][  0]LogConsoleResponse:Display: 
+[2017.08.20-01.26.46:053][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.20-01.26.46:053][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.20-01.26.46:726][  0]SourceControl: Info Source control is disabled
+[2017.08.20-01.26.46:726][  0]Cmd: MAP LOAD FILE="D:/CastleGuardPhase2-master/CastleGuardPhase2-master/CastleGuardReborn/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.20-01.26.46:735][  0]LightingResults: New page: Lighting Build
+[2017.08.20-01.26.46:762][  0]MapCheck: New page: Map Check
+[2017.08.20-01.26.46:762][  0]LightingResults: New page: Lighting Build
+[2017.08.20-01.26.46:774][  0]LogLinker:Warning: Can't find file '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData'
+[2017.08.20-01.26.46:774][  0]LogLinker:Warning: Can't find file for asset '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData' while loading D:/CastleGuardPhase2-master/CastleGuardPhase2-master/CastleGuardReborn/Content/VirtualRealityBP/Maps/StartupMap.umap.
+[2017.08.20-01.26.46:774][  0]LoadErrors:Error: Error /Game/VirtualRealityBP/Maps/StartupMap : Can't find file for asset. /Game/VirtualRealityBP/Maps/StartupMap_BuiltData
+[2017.08.20-01.26.47:015][  0]LogLinker:Warning: Can't find file '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData'
+[2017.08.20-01.26.47:015][  0]LogLinker:Warning: Can't find file for asset '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData' while loading D:/CastleGuardPhase2-master/CastleGuardPhase2-master/CastleGuardReborn/Content/VirtualRealityBP/Maps/StartupMap.umap.
+[2017.08.20-01.26.47:015][  0]LoadErrors:Error: Error /Game/VirtualRealityBP/Maps/StartupMap : Can't find file for asset. /Game/VirtualRealityBP/Maps/StartupMap_BuiltData
+[2017.08.20-01.26.47:036][  0]LogLinker:Warning: Can't find file '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData'
+[2017.08.20-01.26.47:036][  0]LoadErrors: Info Failed to load /Game/VirtualRealityBP/Maps/StartupMap_BuiltData.StartupMap_BuiltData Referenced by PersistentLevel
+[2017.08.20-01.26.47:036][  0]LogLinker:Warning: Can't find file for asset '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData' while loading NULL.
+[2017.08.20-01.26.47:036][  0]LoadErrors: Info Failed to load /Game/VirtualRealityBP/Maps/StartupMap_BuiltData.StartupMap_BuiltData Referenced by PersistentLevel
+[2017.08.20-01.26.47:070][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.08.20-01.26.47:075][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.20-01.26.47:082][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.20-01.26.47:115][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.959ms to complete.
+[2017.08.20-01.26.47:115][  0]LogFileHelpers: Loading map 'StartupMap' took 0.389
+[2017.08.20-01.26.47:171][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.20-01.26.47:223][  0]LogCollectionManager: Loaded 0 collections in 0.000939 seconds
+[2017.08.20-01.26.47:285][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardPhase2-master/CastleGuardPhase2-master/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.08.20-01.26.47:286][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardPhase2-master/CastleGuardPhase2-master/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.08.20-01.26.47:286][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardPhase2-master/CastleGuardPhase2-master/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.08.20-01.26.47:286][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.20-01.26.47:292][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2329 classes and 491 folders.
+[2017.08.20-01.26.47:335][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.20-01.26.47:357][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.20-01.26.47:386][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.20-01.26.47:413][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.20-01.26.47:416][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.20-01.26.47:418][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.20-01.26.47:423][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.20-01.26.47:493][  0]LogRenderer: Reallocating scene render targets to support 1196x576 NumSamples 1 (Frame:1).
+[2017.08.20-01.26.47:577][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.20-01.26.47:630][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.20-01.26.47:630][  0]LogLoad: (Engine Initialization) Total time: 11.77 seconds
+[2017.08.20-01.26.47:630][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
+[2017.08.20-01.26.47:630][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.20-01.26.47:630][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.20-01.26.47:641][  0]LogOcInput: OculusInput pre-init called
+[2017.08.20-01.26.47:641][  0]LogHMD: Starting GearVRController plugin
+[2017.08.20-01.26.47:652][  0]LogAssetRegistry: Asset discovery search completed in 6.9306 seconds
+[2017.08.20-01.26.47:654][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.20-01.26.47:654][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2017.08.20-01.26.47:656][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.20-01.26.50:914][389]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.20-01.26.52:831][612]Cmd: MAP LOAD FILE="D:/CastleGuardPhase2-master/CastleGuardPhase2-master/CastleGuardReborn/Content/Vive/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.20-01.26.52:833][612]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.20-01.26.52:840][612]LightingResults: New page: Lighting Build
+[2017.08.20-01.26.52:840][612]LoadErrors: New page: Loading map: default.umap
+[2017.08.20-01.26.52:842][612]MapCheck: New page: Map Check
+[2017.08.20-01.26.52:842][612]LightingResults: New page: Lighting Build
+[2017.08.20-01.26.53:700][612]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.20-01.26.53:718][612]LogBlueprint:Error: [Compiler CatapultFiringPosition1] Error This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2017.08.20-01.26.53:718][612]LogBlueprint:Error: [Compiler CatapultFiringPosition1] Error This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2017.08.20-01.26.53:718][612]LogBlueprint:Error: [Compiler CatapultFiringPosition1] Error This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2017.08.20-01.26.53:718][612]LogBlueprint:Error: [Compiler CatapultFiringPosition1] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.08.20-01.26.53:719][612]LogBlueprint:Error: [Compiler CatapultFiringPosition1] Error This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2017.08.20-01.26.53:719][612]LogBlueprint:Error: [Compiler CatapultFiringPosition1] Error This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2017.08.20-01.26.53:722][612]LogBlueprint:Warning: [Compiler CatapultFiringPosition1] Warning [0017.87] Compile of CatapultFiringPosition1 failed. 6 Fatal Issue(s) 0 Warning(s) [in 7 ms] (/Game/Vive/Blueprints/AI/CatapultProjectiles/CatapultFiringPosition1.CatapultFiringPosition1)
+[2017.08.20-01.26.53:722][612]LogBlueprint:Warning: [Compiler CatapultFiringPosition1] Warning [0017.87] Compile of CatapultFiringPosition1 failed. 6 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Vive/Blueprints/AI/CatapultProjectiles/CatapultFiringPosition1.CatapultFiringPosition1)
+[2017.08.20-01.26.53:722][612]LogBlueprint:Warning: [Compiler CatapultFiringPosition1] Warning [0017.87] Compile of CatapultFiringPosition1 failed. 6 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Vive/Blueprints/AI/CatapultProjectiles/CatapultFiringPosition1.CatapultFiringPosition1)
+[2017.08.20-01.26.55:278][612]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.08.20-01.26.55:284][612]LogAIModule: Creating AISystem for world default
+[2017.08.20-01.26.55:395][612]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.20-01.26.55:476][612]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.20-01.26.55:513][612]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.407ms to complete.
+[2017.08.20-01.26.55:513][612]LogFileHelpers: Loading map 'default' took 2.683
+[2017.08.20-01.30.27:811][ 55]LogTemp: Repeting last play command: Simulate
+[2017.08.20-01.30.27:952][ 55]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.30.27:952][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.20-01.30.32:924][169]LogTemp: Repeting last play command: Simulate
+[2017.08.20-01.30.32:934][169]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.30.32:934][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.20-01.30.33:651][169]PIE: New page: SIE session: default (Aug 19, 2017, 11:30:33 AM)
+[2017.08.20-01.30.33:651][169]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.08.20-01.30.33:799][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.147360s)
+[2017.08.20-01.30.33:799][169]LogAIModule: Creating AISystem for world default
+[2017.08.20-01.30.33:799][169]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2017.08.20-01.30.33:800][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.148698s)
+[2017.08.20-01.30.33:813][169]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.20-01.30.33:819][169]LogInit: FAudioDevice initialized.
+[2017.08.20-01.30.33:858][169]LogLoad: Game class is 'ViveGameMode_C'
+[2017.08.20-01.30.33:866][169]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.08.19-18.30.33
+[2017.08.20-01.30.33:867][169]LogWorld: Bringing up level for play took: 0.008453
+[2017.08.20-01.30.33:896][169]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.08.20-01.30.33:897][169]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.20-01.30.33:912][169]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.20-01.30.33:912][169]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 1.763
+[2017.08.20-01.30.33:917][169]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.30.34:288][201]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.20-01.30.34:288][201]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.20-01.30.34:294][202]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_128
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.20-01.30.34:294][202]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.20-01.30.34:655][245]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.30.34:689][245]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.30.38:175][629]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 112 classes and 0 folders.
+[2017.08.20-01.30.38:598][629]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.08.20-01.30.38:598][629]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_CatapultRock_C /Engine/Transient.World_0:PersistentLevel.BP_CatapultRock_C_0
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:UserConstructionScript:00D9
+[2017.08.20-01.30.38:601][629]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.20-01.30.38:632][630]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.20-01.30.56:498][761]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.08.20-01.30.56:498][761]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.08.20-01.30.56:714][784]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.20-01.30.56:730][785]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.08.20-01.30.56:730][785]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_CatapultRock_C /Engine/Transient.World_1:PersistentLevel.BP_CatapultRock_C_1
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:UserConstructionScript:00D9
+[2017.08.20-01.31.12:538][628]LogTemp: Repeting last play command: Simulate
+[2017.08.20-01.31.12:552][628]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.31.12:552][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.20-01.31.12:552][628]PIE: New page: SIE session: default (Aug 19, 2017, 11:31:12 AM)
+[2017.08.20-01.31.12:552][628]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.08.20-01.31.12:690][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137914s)
+[2017.08.20-01.31.12:690][628]LogAIModule: Creating AISystem for world default
+[2017.08.20-01.31.12:690][628]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2017.08.20-01.31.12:691][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.139068s)
+[2017.08.20-01.31.12:714][628]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.20-01.31.12:720][628]LogInit: FAudioDevice initialized.
+[2017.08.20-01.31.12:750][628]LogLoad: Game class is 'ViveGameMode_C'
+[2017.08.20-01.31.12:758][628]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.08.19-18.31.12
+[2017.08.20-01.31.12:759][628]LogWorld: Bringing up level for play took: 0.008127
+[2017.08.20-01.31.12:760][628]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.20-01.31.12:763][628]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.20-01.31.12:763][628]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.615
+[2017.08.20-01.31.12:766][628]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.31.13:283][664]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.20-01.31.13:283][664]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.20-01.31.13:303][666]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_128
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.20-01.31.13:303][666]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.20-01.31.14:436][777]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.08.20-01.31.14:600][793]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.08.20-01.31.16:419][974]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.20-01.31.16:419][974]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.20-01.31.28:894][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.31.28:938][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.31.32:112][464]LogEditorViewport: Clicking on Actor (LMB): Actor (CatapultSpawnPoint)
+[2017.08.20-01.31.33:787][662]LogEditorViewport: Clicking on Actor (LMB): Actor (SoldierSpawnPoint)
+[2017.08.20-01.31.34:118][699]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
+[2017.08.20-01.31.35:588][850]LogEditorViewport: Clicking on Actor (LMB): Actor (ArcherSpawnpoint)
+[2017.08.20-01.31.36:789][971]LogTemp: Repeting last play command: Simulate
+[2017.08.20-01.31.36:799][971]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.31.36:799][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.20-01.31.36:799][971]PIE: New page: SIE session: default (Aug 19, 2017, 11:31:36 AM)
+[2017.08.20-01.31.36:799][971]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.08.20-01.31.36:930][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.130130s)
+[2017.08.20-01.31.36:930][971]LogAIModule: Creating AISystem for world default
+[2017.08.20-01.31.36:930][971]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2017.08.20-01.31.36:931][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.131372s)
+[2017.08.20-01.31.36:948][971]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.20-01.31.36:954][971]LogInit: FAudioDevice initialized.
+[2017.08.20-01.31.36:981][971]LogLoad: Game class is 'ViveGameMode_C'
+[2017.08.20-01.31.36:989][971]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.08.19-18.31.36
+[2017.08.20-01.31.36:990][971]LogWorld: Bringing up level for play took: 0.008065
+[2017.08.20-01.31.36:991][971]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.20-01.31.36:995][971]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.20-01.31.36:995][971]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.846
+[2017.08.20-01.31.37:002][971]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.31.37:540][ 13]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.20-01.31.37:540][ 13]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.20-01.31.37:552][ 14]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_128
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.20-01.31.37:552][ 14]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.20-01.31.38:160][ 82]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.31.38:205][ 82]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.32.16:596][639]LogEditorViewport: Clicking on Actor (LMB): ArcherPathStops_C (ArcherPathStops)
+[2017.08.20-01.32.17:183][705]LogEditorViewport: Clicking on Actor (LMB): ArcherPathStops_C (ArcherPathStops)
+[2017.08.20-01.32.26:822][767]LogTemp: Repeting last play command: Simulate
+[2017.08.20-01.32.26:833][767]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.32.26:833][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.20-01.32.26:833][767]PIE: New page: SIE session: default (Aug 19, 2017, 11:32:26 AM)
+[2017.08.20-01.32.26:833][767]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.08.20-01.32.26:971][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.138253s)
+[2017.08.20-01.32.26:972][767]LogAIModule: Creating AISystem for world default
+[2017.08.20-01.32.26:972][767]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2017.08.20-01.32.26:973][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.139468s)
+[2017.08.20-01.32.26:991][767]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.20-01.32.26:996][767]LogInit: FAudioDevice initialized.
+[2017.08.20-01.32.27:026][767]LogLoad: Game class is 'ViveGameMode_C'
+[2017.08.20-01.32.27:035][767]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.08.19-18.32.27
+[2017.08.20-01.32.27:036][767]LogWorld: Bringing up level for play took: 0.009235
+[2017.08.20-01.32.27:036][767]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.20-01.32.27:040][767]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.20-01.32.27:040][767]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.892
+[2017.08.20-01.32.27:068][767]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.32.27:565][810]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.20-01.32.27:565][810]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.20-01.32.27:581][812]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_128
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.20-01.32.27:581][812]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.20-01.32.28:716][916]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.08.20-01.32.28:889][931]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.08.20-01.32.30:491][ 81]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.20-01.32.30:491][ 81]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.20-01.32.59:907][757]LogBlueprintUserMessages: [ArcherAttackPosition4_775] End Overlap
+[2017.08.20-01.33.23:799][953]LogBlueprintUserMessages: [CatapultAttackPositions_71] End Overlap
+[2017.08.20-01.33.31:788][811]LogBlueprintUserMessages: [BP_CatapultRock_C_0] HitDoor
+[2017.08.20-01.33.38:789][650]LogBlueprintUserMessages: [BP_CatapultRock_C_1] HitDoor
+[2017.08.20-01.33.45:798][490]LogBlueprintUserMessages: [BP_CatapultRock_C_2] HitDoor
+[2017.08.20-01.33.52:800][329]LogBlueprintUserMessages: [BP_CatapultRock_C_3] HitDoor
+[2017.08.20-01.33.59:799][168]LogBlueprintUserMessages: [BP_CatapultRock_C_4] HitDoor
+[2017.08.20-01.34.06:805][  2]LogBlueprintUserMessages: [BP_CatapultRock_C_5] HitDoor
+[2017.08.20-01.34.13:811][842]LogBlueprintUserMessages: [BP_CatapultRock_C_6] HitDoor
+[2017.08.20-01.34.20:810][681]LogBlueprintUserMessages: [BP_CatapultRock_C_7] HitDoor
+[2017.08.20-01.34.27:808][518]LogBlueprintUserMessages: [BP_CatapultRock_C_8] HitDoor
+[2017.08.20-01.34.34:495][ 63]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.34.34:570][ 63]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.34.47:798][597]LogTemp: Repeting last play command: Simulate
+[2017.08.20-01.34.47:809][597]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.34.47:809][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.20-01.34.47:809][597]PIE: New page: SIE session: default (Aug 19, 2017, 11:34:47 AM)
+[2017.08.20-01.34.47:809][597]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.08.20-01.34.47:942][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133042s)
+[2017.08.20-01.34.47:943][597]LogAIModule: Creating AISystem for world default
+[2017.08.20-01.34.47:943][597]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2017.08.20-01.34.47:943][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.134304s)
+[2017.08.20-01.34.47:962][597]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.20-01.34.47:968][597]LogInit: FAudioDevice initialized.
+[2017.08.20-01.34.48:001][597]LogLoad: Game class is 'ViveGameMode_C'
+[2017.08.20-01.34.48:010][597]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.08.19-18.34.48
+[2017.08.20-01.34.48:011][597]LogWorld: Bringing up level for play took: 0.009579
+[2017.08.20-01.34.48:011][597]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.20-01.34.48:015][597]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.20-01.34.48:015][597]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.133
+[2017.08.20-01.34.48:041][597]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.34.48:549][641]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.20-01.34.48:550][641]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.20-01.34.48:560][642]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_128
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.20-01.34.48:560][642]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.20-01.34.49:699][745]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.08.20-01.34.49:857][758]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.08.20-01.34.55:263][223]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.08.20-01.34.56:228][301]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.08.20-01.35.21:168][156]LogEditorViewport: Clicking on Actor (LMB): ArcherAi_C (ArcherAi)
+[2017.08.20-01.35.22:860][300]LogBlueprintUserMessages: [ArcherAttackPosition4_775] End Overlap
+[2017.08.20-01.35.30:038][972]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.35.30:104][972]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.35.32:621][231]LogTemp: Repeting last play command: Simulate
+[2017.08.20-01.35.32:632][231]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.35.32:632][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.20-01.35.32:632][231]PIE: New page: SIE session: default (Aug 19, 2017, 11:35:32 AM)
+[2017.08.20-01.35.32:632][231]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.08.20-01.35.32:766][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134292s)
+[2017.08.20-01.35.32:767][231]LogAIModule: Creating AISystem for world default
+[2017.08.20-01.35.32:767][231]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2017.08.20-01.35.32:768][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.135557s)
+[2017.08.20-01.35.32:789][231]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.20-01.35.32:794][231]LogInit: FAudioDevice initialized.
+[2017.08.20-01.35.32:825][231]LogLoad: Game class is 'ViveGameMode_C'
+[2017.08.20-01.35.32:834][231]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.08.19-18.35.32
+[2017.08.20-01.35.32:835][231]LogWorld: Bringing up level for play took: 0.009603
+[2017.08.20-01.35.32:836][231]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.20-01.35.32:840][231]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.20-01.35.32:840][231]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.691
+[2017.08.20-01.35.32:866][231]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.35.33:373][271]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.20-01.35.33:373][271]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.20-01.35.33:385][272]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_128
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.20-01.35.33:385][272]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.20-01.35.34:521][390]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.08.20-01.35.34:683][409]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.08.20-01.36.07:641][722]LogBlueprintUserMessages: [ArcherAttackPosition4_775] End Overlap
+[2017.08.20-01.36.29:601][619]LogBlueprintUserMessages: [CatapultAttackPositions_71] End Overlap
+[2017.08.20-01.36.35:281][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.20-01.36.35:341][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
