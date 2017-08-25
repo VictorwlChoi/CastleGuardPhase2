@@ -1,0 +1,847 @@
+﻿Log file open, 08/22/17 17:33:50
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-582934835) SRandInit(-582934835).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.078974
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.23-00.33.51:311][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.23-00.33.51:311][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.23-00.33.51:322][  0]LogInit: Computer: LCIVAN-238-00
+[2017.08.23-00.33.51:322][  0]LogInit: User: studentuser
+[2017.08.23-00.33.51:322][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.23-00.33.51:322][  0]LogInit: High frequency timer resolution =4.101559 MHz
+[2017.08.23-00.33.51:323][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.23-00.33.51:323][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.23-00.33.51:323][  0]LogMemory: Process Physical Memory: 274.00 MB used, 274.00 MB peak
+[2017.08.23-00.33.51:323][  0]LogMemory: Process Virtual Memory: 260.85 MB used, 260.85 MB peak
+[2017.08.23-00.33.51:323][  0]LogMemory: Physical Memory: 4576.65 MB used,  11706.80 MB free, 16283.45 MB total
+[2017.08.23-00.33.51:323][  0]LogMemory: Virtual Memory: 638.49 MB used,  11706.80 MB free, 134217728.00 MB total
+[2017.08.23-00.33.51:369][  0]LogInit: Using OS detected language (en-US).
+[2017.08.23-00.33.51:369][  0]LogInit: Using OS detected locale (en-CA).
+[2017.08.23-00.33.51:371][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.23-00.33.52:032][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.23-00.33.52:065][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.23-00.33.52:065][  0]LogD3D11RHI:       8120/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.23-00.33.52:070][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.08.23-00.33.52:070][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.23-00.33.52:071][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.23-00.33.52:071][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.23-00.33.52:071][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.23-00.33.52:078][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.23-00.33.52:078][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.23-00.33.52:078][  0]LogWindows: EnumDisplayDevices:
+[2017.08.23-00.33.52:078][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.23-00.33.52:078][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.23-00.33.52:078][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.23-00.33.52:078][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.23-00.33.52:078][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.23-00.33.52:078][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.23-00.33.52:078][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.23-00.33.52:078][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.08.23-00.33.52:078][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.23-00.33.52:078][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.08.23-00.33.52:078][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.08.23-00.33.52:078][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.23-00.33.52:103][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.23-00.33.52:118][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.23-00.33.52:166][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/21188/).
+[2017.08.23-00.33.52:166][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/47D8484744F4755DF7B90786C764742F/'.
+[2017.08.23-00.33.52:166][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.23-00.33.52:868][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.23-00.33.52:903][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.23-00.33.52:937][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.23-00.33.52:971][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.23-00.33.53:007][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.23-00.33.53:044][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.23-00.33.53:080][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.23-00.33.53:115][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.23-00.33.53:146][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.23-00.33.53:180][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.23-00.33.53:214][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.23-00.33.53:247][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.23-00.33.53:280][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.23-00.33.53:314][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.23-00.33.53:348][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.23-00.33.53:415][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.23-00.33.53:415][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.23-00.33.53:441][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.23-00.33.53:511][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.23-00.33.53:531][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.23-00.33.53:565][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.23-00.33.53:598][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.23-00.33.53:631][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.23-00.33.53:665][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.23-00.33.53:665][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.23-00.33.54:017][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.23-00.33.54:103][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.23-00.33.54:103][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.23-00.33.54:103][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.23-00.33.54:103][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.23-00.33.54:103][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.23-00.33.54:103][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.23-00.33.54:115][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.23-00.33.54:127][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.23-00.33.54:142][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.23-00.33.54:142][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.23-00.33.54:143][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.23-00.33.54:143][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.23-00.33.54:376][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.23-00.33.54:432][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.23-00.33.54:547][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.23-00.33.54:577][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.23-00.33.54:608][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.23-00.33.54:608][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.23-00.33.54:608][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.23-00.33.55:008][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.08.23-00.33.55:060][  0]LogAssetRegistry: FAssetRegistry took 0.0244 seconds to start up
+[2017.08.23-00.33.55:134][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.057333 seconds
+[2017.08.23-00.33.55:139][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.23-00.33.55:139][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.23-00.33.55:139][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.23-00.33.55:184][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.23-00.33.56:842][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.23-00.33.56:872][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.23-00.33.57:243][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.23-00.33.57:513][  0]SourceControl: Info Source control is disabled
+[2017.08.23-00.33.57:538][  0]SourceControl: Info Source control is disabled
+[2017.08.23-00.33.57:569][  0]SourceControl: Info Source control is disabled
+[2017.08.23-00.33.57:600][  0]SourceControl: Info Source control is disabled
+[2017.08.23-00.33.58:049][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.23-00.33.58:521][  0]LogEngine: Initializing Engine...
+[2017.08.23-00.33.58:565][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.08.23-00.33.58:972][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.23-00.33.58:972][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.23-00.33.59:077][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.23-00.33.59:092][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.23-00.33.59:107][  0]LogInit: FAudioDevice initialized.
+[2017.08.23-00.33.59:154][  0]LogDerivedDataCache: Saved boot cache 0.05s 103MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.23-00.33.59:174][  0]LogInit: Texture streaming: Enabled
+[2017.08.23-00.33.59:246][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.23-00.33.59:426][  0]LogInit: Transaction tracking system initialized
+[2017.08.23-00.33.59:657][  0]BlueprintLog: New page: Editor Load
+[2017.08.23-00.34.00:386][  0]LocalizationService: Info Localization service is disabled
+[2017.08.23-00.34.00:914][  0]LogConsoleResponse:Display: 
+[2017.08.23-00.34.01:283][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.23-00.34.01:283][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.23-00.34.02:085][  0]SourceControl: Info Source control is disabled
+[2017.08.23-00.34.02:087][  0]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.23-00.34.02:088][  0]LightingResults: New page: Lighting Build
+[2017.08.23-00.34.02:120][  0]MapCheck: New page: Map Check
+[2017.08.23-00.34.02:120][  0]LightingResults: New page: Lighting Build
+[2017.08.23-00.34.03:173][  0]LogBlueprint:Error: [Compiler CatapultFiringPosition1] Error This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2017.08.23-00.34.03:173][  0]LogBlueprint:Error: [Compiler CatapultFiringPosition1] Error This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2017.08.23-00.34.03:173][  0]LogBlueprint:Error: [Compiler CatapultFiringPosition1] Error This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2017.08.23-00.34.03:173][  0]LogBlueprint:Error: [Compiler CatapultFiringPosition1] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.08.23-00.34.03:174][  0]LogBlueprint:Error: [Compiler CatapultFiringPosition1] Error This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2017.08.23-00.34.03:174][  0]LogBlueprint:Error: [Compiler CatapultFiringPosition1] Error This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2017.08.23-00.34.03:178][  0]LogBlueprint:Warning: [Compiler CatapultFiringPosition1] Warning [0013.24] Compile of CatapultFiringPosition1 failed. 6 Fatal Issue(s) 0 Warning(s) [in 9 ms] (/Game/Vive/Blueprints/AI/CatapultProjectiles/CatapultFiringPosition1.CatapultFiringPosition1)
+[2017.08.23-00.34.03:178][  0]LogBlueprint:Warning: [Compiler CatapultFiringPosition1] Warning [0013.24] Compile of CatapultFiringPosition1 failed. 6 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Vive/Blueprints/AI/CatapultProjectiles/CatapultFiringPosition1.CatapultFiringPosition1)
+[2017.08.23-00.34.03:178][  0]LogBlueprint:Warning: [Compiler CatapultFiringPosition1] Warning [0013.24] Compile of CatapultFiringPosition1 failed. 6 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Vive/Blueprints/AI/CatapultProjectiles/CatapultFiringPosition1.CatapultFiringPosition1)
+[2017.08.23-00.34.04:457][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.08.23-00.34.04:579][  0]LogAIModule: Creating AISystem for world default
+[2017.08.23-00.34.05:395][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.23-00.34.05:465][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.23-00.34.05:502][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.947ms to complete.
+[2017.08.23-00.34.05:502][  0]LogFileHelpers: Loading map 'default' took 3.416
+[2017.08.23-00.34.05:667][  0]LogCollectionManager: Loaded 0 collections in 0.000960 seconds
+[2017.08.23-00.34.05:742][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.08.23-00.34.05:742][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.08.23-00.34.05:742][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.08.23-00.34.05:742][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.23-00.34.05:750][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2329 classes and 491 folders.
+[2017.08.23-00.34.05:798][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.23-00.34.06:094][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.23-00.34.06:131][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.23-00.34.06:194][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.23-00.34.06:207][  0]LogSlate: Took 0.004242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.23-00.34.06:212][  0]LogSlate: Took 0.003933 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.23-00.34.06:222][  0]LogSlate: Took 0.004511 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.23-00.34.06:338][  0]LogRenderer: Reallocating scene render targets to support 1196x576 NumSamples 1 (Frame:1).
+[2017.08.23-00.34.06:443][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.23-00.34.06:501][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.23-00.34.06:502][  0]LogLoad: (Engine Initialization) Total time: 16.56 seconds
+[2017.08.23-00.34.06:502][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.35 seconds
+[2017.08.23-00.34.06:502][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.23-00.34.06:502][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.23-00.34.06:851][  0]LogOcInput: OculusInput pre-init called
+[2017.08.23-00.34.06:851][  0]LogHMD: Starting GearVRController plugin
+[2017.08.23-00.34.06:851][  0]LogSteamVRController: Controller role for device 3 is 2 (invalid=0, left=1, right=2).
+[2017.08.23-00.34.06:851][  0]LogSteamVRController:Warning: Controller device 3 is being assigned to its prefered role 'right'.
+[2017.08.23-00.34.06:851][  0]LogSteamVRController: Controller device 3 is being assigned unreal hand 1 (left=0, right=1).
+[2017.08.23-00.34.06:867][  0]LogAssetRegistry: Asset discovery search completed in 11.8280 seconds
+[2017.08.23-00.34.06:868][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.23-00.34.06:868][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2017.08.23-00.34.06:873][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.23-00.34.06:945][  0]LogSlate: Took 0.003614 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.23-00.34.07:534][  3]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.23-00.34.07:913][  3]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.08.23-00.34.08:647][  3]LogLinker:Warning: Can't resolve asset name
+[2017.08.23-00.34.08:733][  3]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.23-00.34.08:882][  3]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.23-00.34.09:071][  3]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.08.23-00.34.09:818][  3]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.08.23-00.34.09:819][  3]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_CatapultRock_C /Engine/Transient.World_8:PersistentLevel.BP_CatapultRock_C_0
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:UserConstructionScript:00D9
+[2017.08.23-00.34.09:830][  3]LogSlate: Took 0.004184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.23-00.34.09:995][  4]LogSlate: Took 0.004244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.23-00.34.13:876][384]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2017.08.23-00.34.19:763][ 48]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.34.19:763][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-00.34.22:018][ 48]PIE: New page: PIE session: default (Aug 22, 2017, 10:34:22 AM)
+[2017.08.23-00.34.22:018][ 48]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.08.23-00.34.22:174][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.156324s)
+[2017.08.23-00.34.22:174][ 48]LogAIModule: Creating AISystem for world default
+[2017.08.23-00.34.22:175][ 48]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2017.08.23-00.34.22:175][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.157842s)
+[2017.08.23-00.34.22:207][ 48]LogInit: XAudio2 using 'Realtek Digital Output (Realtek Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.23-00.34.22:217][ 48]LogInit: FAudioDevice initialized.
+[2017.08.23-00.34.22:309][ 48]LogLoad: Game class is 'ViveGameMode_C'
+[2017.08.23-00.34.22:318][ 48]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.08.22-17.34.22
+[2017.08.23-00.34.22:321][ 48]LogWorld: Bringing up level for play took: 0.010229
+[2017.08.23-00.34.22:351][ 48]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.08.23-00.34.22:351][ 48]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.23-00.34.22:351][ 48]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.23-00.34.22:351][ 48]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.23-00.34.22:360][ 48]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.23-00.34.22:364][ 48]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 2.038
+[2017.08.23-00.34.22:364][ 48]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.34.22:469][ 49]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.08.23-00.34.22:811][ 75]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.34.22:811][ 75]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.34.22:833][ 77]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_128
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.34.22:833][ 77]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.34.23:850][168]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.08.23-00.34.23:850][168]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:04C2
+[2017.08.23-00.34.23:850][168]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.08.23-00.34.24:016][183]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.08.23-00.34.25:950][356]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.34.25:950][356]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.34.26:589][413]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.34.26:752][413]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.34.34:315][267]LogEditorViewport: Clicking on Actor (LMB): Vive_Pawn_C (Vive_Pawn)
+[2017.08.23-00.34.38:496][735]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.08.23-00.34.44:548][373]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.08.23-00.34.51:937][194]LogTemp: Repeting last play command: VR Preview
+[2017.08.23-00.34.51:954][194]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.34.51:954][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-00.34.51:954][194]PIE: New page: PIE session: default (Aug 22, 2017, 10:34:51 AM)
+[2017.08.23-00.34.51:954][194]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.08.23-00.34.52:102][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.147787s)
+[2017.08.23-00.34.52:103][194]LogAIModule: Creating AISystem for world default
+[2017.08.23-00.34.52:103][194]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2017.08.23-00.34.52:104][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.150101s)
+[2017.08.23-00.34.52:136][194]LogInit: XAudio2 using 'Realtek Digital Output (Realtek Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.23-00.34.52:147][194]LogInit: FAudioDevice initialized.
+[2017.08.23-00.34.52:223][194]LogLoad: Game class is 'ViveGameMode_C'
+[2017.08.23-00.34.52:233][194]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.08.22-17.34.52
+[2017.08.23-00.34.52:234][194]LogWorld: Bringing up level for play took: 0.009070
+[2017.08.23-00.34.52:234][194]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.23-00.34.52:234][194]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.23-00.34.52:234][194]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.23-00.34.52:240][194]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.23-00.34.52:245][194]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.081
+[2017.08.23-00.34.52:246][194]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.34.52:701][224]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.34.52:701][224]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.34.52:712][225]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_128
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.34.52:713][225]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.34.53:764][261]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.08.23-00.34.53:764][261]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:04C2
+[2017.08.23-00.34.53:764][261]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.08.23-00.34.54:440][263]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.08.23-00.35.19:184][815]LogSteamVRController: Controller role for device 4 is 0 (invalid=0, left=1, right=2).
+[2017.08.23-00.35.19:184][815]LogSteamVRController: Putting controller 4 on the left hand because there is already a controller for the right.
+[2017.08.23-00.35.19:185][815]LogSteamVRController: Controller device 4 is being assigned unreal hand 0 (left=0, right=1).
+[2017.08.23-00.35.21:521][ 24]LogBlueprintUserMessages: [Vive_Pawn_452] true
+[2017.08.23-00.35.25:823][409]LogBlueprintUserMessages: [Vive_Pawn_452] false
+[2017.08.23-00.35.29:551][743]LogBlueprintUserMessages: [ArcherAttackPosition4_775] End Overlap
+[2017.08.23-00.35.49:066][490]LogBlueprintUserMessages: [CatapultAttackPositions_71] End Overlap
+[2017.08.23-00.35.56:179][126]LogBlueprintUserMessages: [Vive_Pawn_452] true
+[2017.08.23-00.35.57:050][204]LogBlueprintUserMessages: [BP_CatapultRock_C_0] HitDoor
+[2017.08.23-00.36.04:055][831]LogBlueprintUserMessages: [BP_CatapultRock_C_1] HitDoor
+[2017.08.23-00.36.11:059][458]LogBlueprintUserMessages: [BP_CatapultRock_C_2] HitDoor
+[2017.08.23-00.36.18:061][ 85]LogBlueprintUserMessages: [BP_CatapultRock_C_3] HitDoor
+[2017.08.23-00.36.25:065][712]LogBlueprintUserMessages: [BP_CatapultRock_C_4] HitDoor
+[2017.08.23-00.36.32:068][339]LogBlueprintUserMessages: [BP_CatapultRock_C_5] HitDoor
+[2017.08.23-00.36.39:073][966]LogBlueprintUserMessages: [BP_CatapultRock_C_6] HitDoor
+[2017.08.23-00.36.46:077][593]LogBlueprintUserMessages: [BP_CatapultRock_C_7] HitDoor
+[2017.08.23-00.36.47:774][745]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_C_7
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.36.47:774][745]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.36.53:078][219]LogBlueprintUserMessages: [BP_CatapultRock_C_8] HitDoor
+[2017.08.23-00.36.53:302][239]LogBlueprintUserMessages: [CatapultAttackPositions_71] End Overlap
+[2017.08.23-00.37.09:086][652]LogBlueprintUserMessages: [Vive_Pawn_452] false
+[2017.08.23-00.37.24:332][ 17]LogBlueprintUserMessages: [Vive_Pawn_452] true
+[2017.08.23-00.37.38:116][234]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.37.38:273][234]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.39.25:694][258]LogTemp: Repeting last play command: VR Preview
+[2017.08.23-00.39.25:712][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.39.25:712][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-00.39.25:712][258]PIE: New page: PIE session: default (Aug 22, 2017, 10:39:25 AM)
+[2017.08.23-00.39.25:712][258]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.08.23-00.39.25:852][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140141s)
+[2017.08.23-00.39.25:853][258]LogAIModule: Creating AISystem for world default
+[2017.08.23-00.39.25:854][258]LogPlayLevel: PIE: World Init took: (0.001810s)
+[2017.08.23-00.39.25:855][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.142689s)
+[2017.08.23-00.39.25:884][258]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.23-00.39.25:891][258]LogInit: FAudioDevice initialized.
+[2017.08.23-00.39.25:976][258]LogLoad: Game class is 'ViveGameMode_C'
+[2017.08.23-00.39.25:984][258]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.08.22-17.39.25
+[2017.08.23-00.39.25:986][258]LogWorld: Bringing up level for play took: 0.009002
+[2017.08.23-00.39.25:986][258]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.23-00.39.25:986][258]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.23-00.39.25:986][258]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.23-00.39.25:993][258]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.23-00.39.25:997][258]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.328
+[2017.08.23-00.39.25:998][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.39.26:462][284]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.39.26:462][284]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.39.26:473][285]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_128
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.39.26:473][285]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.39.27:490][376]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.08.23-00.39.27:490][376]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:04C2
+[2017.08.23-00.39.27:490][376]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.08.23-00.39.27:657][391]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.08.23-00.39.29:686][428]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.39.29:687][428]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.39.44:737][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.39.44:881][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.39.58:860][338]LogTemp: Repeting last play command: VR Preview
+[2017.08.23-00.39.58:877][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.39.58:877][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-00.39.58:877][338]PIE: New page: PIE session: default (Aug 22, 2017, 10:39:58 AM)
+[2017.08.23-00.39.58:877][338]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.08.23-00.39.59:026][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149274s)
+[2017.08.23-00.39.59:027][338]LogAIModule: Creating AISystem for world default
+[2017.08.23-00.39.59:027][338]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2017.08.23-00.39.59:028][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.150851s)
+[2017.08.23-00.39.59:053][338]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.23-00.39.59:059][338]LogInit: FAudioDevice initialized.
+[2017.08.23-00.39.59:142][338]LogLoad: Game class is 'ViveGameMode_C'
+[2017.08.23-00.39.59:151][338]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.08.22-17.39.59
+[2017.08.23-00.39.59:152][338]LogWorld: Bringing up level for play took: 0.009036
+[2017.08.23-00.39.59:152][338]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.23-00.39.59:152][338]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.23-00.39.59:152][338]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.23-00.39.59:158][338]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.23-00.39.59:163][338]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.837
+[2017.08.23-00.39.59:164][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.39.59:613][364]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.39.59:613][364]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.39.59:626][365]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_128
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.39.59:626][365]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.40.00:652][457]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.08.23-00.40.00:652][457]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:04C2
+[2017.08.23-00.40.00:652][457]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.08.23-00.40.00:809][471]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.08.23-00.40.02:551][627]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_128
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.40.02:551][627]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.40.02:752][645]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.40.02:752][645]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.40.03:090][675]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_128
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.40.03:090][675]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.40.13:452][603]Set new viewmode: ShaderComplexity
+[2017.08.23-00.40.15:931][760]Set new viewmode: Wireframe
+[2017.08.23-00.40.25:407][137]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.40.25:585][137]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.40.27:313][303]LogTemp: Repeting last play command: VR Preview
+[2017.08.23-00.40.27:329][303]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.40.27:329][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-00.40.27:329][303]PIE: New page: PIE session: default (Aug 22, 2017, 10:40:27 AM)
+[2017.08.23-00.40.27:329][303]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.08.23-00.40.27:474][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.144686s)
+[2017.08.23-00.40.27:475][303]LogAIModule: Creating AISystem for world default
+[2017.08.23-00.40.27:475][303]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2017.08.23-00.40.27:476][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.146492s)
+[2017.08.23-00.40.27:508][303]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.23-00.40.27:514][303]LogInit: FAudioDevice initialized.
+[2017.08.23-00.40.27:598][303]LogLoad: Game class is 'ViveGameMode_C'
+[2017.08.23-00.40.27:609][303]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.08.22-17.40.27
+[2017.08.23-00.40.27:610][303]LogWorld: Bringing up level for play took: 0.011666
+[2017.08.23-00.40.27:611][303]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.23-00.40.27:611][303]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.23-00.40.27:611][303]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.23-00.40.27:616][303]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.23-00.40.27:623][303]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 1.297
+[2017.08.23-00.40.27:624][303]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.40.28:092][332]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.40.28:093][332]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.40.28:104][333]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_128
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.40.28:104][333]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.40.28:596][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.40.28:749][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.40.44:036][783]LogTemp: Repeting last play command: VR Preview
+[2017.08.23-00.40.44:052][783]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.40.44:052][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-00.40.44:052][783]PIE: New page: PIE session: default (Aug 22, 2017, 10:40:44 AM)
+[2017.08.23-00.40.44:052][783]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.08.23-00.40.44:201][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148670s)
+[2017.08.23-00.40.44:201][783]LogAIModule: Creating AISystem for world default
+[2017.08.23-00.40.44:201][783]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2017.08.23-00.40.44:202][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.150424s)
+[2017.08.23-00.40.44:227][783]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.23-00.40.44:233][783]LogInit: FAudioDevice initialized.
+[2017.08.23-00.40.44:308][783]LogLoad: Game class is 'ViveGameMode_C'
+[2017.08.23-00.40.44:317][783]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.08.22-17.40.44
+[2017.08.23-00.40.44:318][783]LogWorld: Bringing up level for play took: 0.009650
+[2017.08.23-00.40.44:319][783]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.23-00.40.44:319][783]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.23-00.40.44:319][783]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.23-00.40.44:326][783]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.23-00.40.44:330][783]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.004
+[2017.08.23-00.40.44:331][783]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.40.44:780][813]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock2_178
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.40.44:780][813]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.40.44:803][815]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_128
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.40.44:804][815]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.40.45:819][906]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.08.23-00.40.45:819][906]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:04C2
+[2017.08.23-00.40.45:819][906]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.08.23-00.40.45:987][921]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.08.23-00.41.07:673][852]LogBlueprintUserMessages: [Vive_Pawn_452] true
+[2017.08.23-00.41.20:862][ 33]LogBlueprintUserMessages: [ArcherAttackPosition4_775] End Overlap
+[2017.08.23-00.41.40:878][825]LogBlueprintUserMessages: [CatapultAttackPositions_71] End Overlap
+[2017.08.23-00.41.48:864][539]LogBlueprintUserMessages: [BP_CatapultRock_C_0] HitDoor
+[2017.08.23-00.41.55:867][166]LogBlueprintUserMessages: [BP_CatapultRock_C_1] HitDoor
+[2017.08.23-00.41.59:074][453]LogBlueprintUserMessages: [Vive_Pawn_452] false
+[2017.08.23-00.42.02:873][793]LogBlueprintUserMessages: [BP_CatapultRock_C_2] HitDoor
+[2017.08.23-00.42.06:334][103]LogBlueprintUserMessages: [Vive_Pawn_452] true
+[2017.08.23-00.42.09:875][420]LogBlueprintUserMessages: [BP_CatapultRock_C_3] HitDoor
+[2017.08.23-00.42.14:309][817]LogBlueprintUserMessages: [Vive_Pawn_452] false
+[2017.08.23-00.42.16:877][ 47]LogBlueprintUserMessages: [BP_CatapultRock_C_4] HitDoor
+[2017.08.23-00.42.23:494][639]LogBlueprintUserMessages: [Vive_Pawn_452] true
+[2017.08.23-00.42.23:883][674]LogBlueprintUserMessages: [BP_CatapultRock_C_5] HitDoor
+[2017.08.23-00.42.25:346][805]LogBlueprintUserMessages: [Vive_Pawn_452] false
+[2017.08.23-00.42.30:887][301]LogBlueprintUserMessages: [BP_CatapultRock_C_6] HitDoor
+[2017.08.23-00.42.32:829][474]LogBlueprintUserMessages: [Vive_Pawn_452] true
+[2017.08.23-00.42.33:973][576]LogBlueprintUserMessages: [Vive_Pawn_452] false
+[2017.08.23-00.42.36:693][820]LogBlueprintUserMessages: [Vive_Pawn_452] true
+[2017.08.23-00.42.37:890][927]LogBlueprintUserMessages: [BP_CatapultRock_C_7] HitDoor
+[2017.08.23-00.42.44:892][553]LogBlueprintUserMessages: [BP_CatapultRock_C_8] HitDoor
+[2017.08.23-00.42.44:959][559]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_C_7
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.42.44:959][559]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.42.51:895][180]LogBlueprintUserMessages: [BP_CatapultRock_C_9] HitDoor
+[2017.08.23-00.42.52:132][201]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_C_8
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.42.52:132][201]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.42.53:404][315]LogBlueprintUserMessages: [Vive_Pawn_452] false
+[2017.08.23-00.42.55:170][473]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_C_8
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.42.55:171][473]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.42.58:899][807]LogBlueprintUserMessages: [BP_CatapultRock_C_10] HitDoor
+[2017.08.23-00.42.59:135][828]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_C_9
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.42.59:135][828]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.43.05:902][434]LogBlueprintUserMessages: [BP_CatapultRock_C_11] HitDoor
+[2017.08.23-00.43.06:136][455]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_C_10
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.43.06:136][455]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.43.09:022][713]LogBlueprintUserMessages: [Vive_Pawn_452] true
+[2017.08.23-00.43.12:906][ 61]LogBlueprintUserMessages: [BP_CatapultRock_C_12] HitDoor
+[2017.08.23-00.43.13:142][ 82]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_C_11
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.43.13:142][ 82]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.43.13:488][113]LogBlueprintUserMessages: [CatapultAttackPositions_71] End Overlap
+[2017.08.23-00.43.20:143][709]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_CatapultRock_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_CatapultRock_C_12
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:ExecuteUbergraph_BP_CatapultRock:0020
+[2017.08.23-00.43.20:143][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_CatapultRock' from node: Branch in graph: EventGraph in object: BP_CatapultRock with description: Accessed None trying to read property K2Node_Event_Other
+[2017.08.23-00.43.21:416][823]LogBlueprintUserMessages: [Vive_Pawn_452] false
+[2017.08.23-00.43.29:606][556]LogBlueprintUserMessages: [Vive_Pawn_452] true
+[2017.08.23-00.43.45:960][ 19]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.43.46:116][ 19]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.08.23-00.57.21:498][559]BlueprintLog: New page: Compile BP_Arrow
+[2017.08.23-01.01.50:304][785]BlueprintLog: New page: Compile BP_Arrow
+[2017.08.23-01.26.37:273][230]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.23-01.26.37:453][230]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.23-01.26.37:502][230]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.23-01.26.37:554][230]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.23-01.26.37:606][230]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.23-01.26.37:832][231]Cmd: QUIT_EDITOR
+[2017.08.23-01.26.37:855][231]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.23-01.26.37:866][231]LogExit: Preparing to exit.
+[2017.08.23-01.26.39:012][231]LogExit: Editor shut down
+[2017.08.23-01.26.39:018][231]LogExit: Transaction tracking system shut down
+[2017.08.23-01.26.39:140][231]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.23-01.26.39:140][231]LogExit: Object subsystem successfully closed.
+[2017.08.23-01.26.39:162][231]LogD3D11RHI: Shutdown
+[2017.08.23-01.26.39:162][231]LogD3D11RHI: CleanupD3DDevice
+[2017.08.23-01.26.39:164][231]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.23-01.26.39:189][231]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.08.23-01.26.39:189][231]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (534)
+[2017.08.23-01.26.39:189][231]LogModuleManager: Shutting down and abandoning module SkeletonEditor (532)
+[2017.08.23-01.26.39:189][231]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (530)
+[2017.08.23-01.26.39:189][231]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.08.23-01.26.39:189][231]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.08.23-01.26.39:190][231]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.23-01.26.39:190][231]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.23-01.26.39:190][231]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.23-01.26.39:191][231]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.23-01.26.39:191][231]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.23-01.26.39:192][231]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.23-01.26.39:192][231]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.23-01.26.39:192][231]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.23-01.26.39:192][231]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' was aborted.
+[2017.08.23-01.26.39:192][231]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' was aborted.
+[2017.08.23-01.26.39:192][231]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' was aborted.
+[2017.08.23-01.26.39:192][231]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.23-01.26.39:192][231]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.23-01.26.39:192][231]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.23-01.26.39:193][231]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.23-01.26.39:193][231]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.23-01.26.39:193][231]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.23-01.26.39:193][231]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.23-01.26.39:193][231]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.23-01.26.39:193][231]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.23-01.26.39:193][231]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.23-01.26.39:193][231]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.23-01.26.39:193][231]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.23-01.26.39:193][231]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.23-01.26.39:194][231]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.23-01.26.39:195][231]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.23-01.26.39:196][231]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.23-01.26.39:197][231]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.23-01.26.39:198][231]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.23-01.26.39:199][231]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.23-01.26.39:199][231]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.23-01.26.39:199][231]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.23-01.26.39:200][231]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.23-01.26.39:200][231]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.23-01.26.39:200][231]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.23-01.26.39:657][231]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.23-01.26.39:657][231]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.23-01.26.39:657][231]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.23-01.26.39:657][231]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.23-01.26.39:657][231]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.23-01.26.39:657][231]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.23-01.26.39:658][231]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.23-01.26.39:658][231]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.23-01.26.39:658][231]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.23-01.26.39:659][231]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.23-01.26.39:659][231]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.23-01.26.39:659][231]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.23-01.26.39:659][231]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.23-01.26.39:659][231]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.23-01.26.39:659][231]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.23-01.26.39:659][231]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.23-01.26.39:659][231]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.23-01.26.39:659][231]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.23-01.26.39:659][231]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.23-01.26.39:660][231]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.23-01.26.39:660][231]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.23-01.26.39:661][231]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.23-01.26.39:661][231]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.23-01.26.39:661][231]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.23-01.26.39:726][231]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.23-01.26.39:726][231]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.23-01.26.39:727][231]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.23-01.26.39:728][231]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.23-01.26.39:728][231]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.23-01.26.39:728][231]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.23-01.26.39:728][231]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.23-01.26.39:729][231]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.23-01.26.39:729][231]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.23-01.26.39:729][231]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.23-01.26.39:734][231]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.23-01.26.39:734][231]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.23-01.26.39:734][231]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.23-01.26.39:735][231]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.23-01.26.39:736][231]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.23-01.26.39:736][231]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.23-01.26.39:736][231]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.23-01.26.39:736][231]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.23-01.26.39:736][231]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.23-01.26.39:736][231]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.23-01.26.39:736][231]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.23-01.26.39:738][231]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.23-01.26.39:738][231]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.23-01.26.39:738][231]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.23-01.26.39:738][231]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.23-01.26.39:738][231]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.23-01.26.39:738][231]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.23-01.26.39:738][231]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.23-01.26.39:738][231]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.23-01.26.39:738][231]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.23-01.26.39:746][231]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.23-01.26.39:747][231]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.23-01.26.39:747][231]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.23-01.26.39:747][231]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.23-01.26.39:747][231]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.23-01.26.39:747][231]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.23-01.26.39:747][231]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.23-01.26.39:747][231]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.23-01.26.39:747][231]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.23-01.26.39:747][231]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.23-01.26.39:747][231]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.23-01.26.39:747][231]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.23-01.26.39:747][231]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.23-01.26.39:748][231]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.23-01.26.39:748][231]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.23-01.26.39:748][231]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.23-01.26.39:748][231]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.23-01.26.39:748][231]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.23-01.26.39:748][231]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.23-01.26.39:748][231]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.23-01.26.39:748][231]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.23-01.26.39:748][231]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.23-01.26.39:749][231]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.23-01.26.39:750][231]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.23-01.26.39:750][231]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.23-01.26.39:750][231]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.23-01.26.39:750][231]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.23-01.26.39:750][231]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.23-01.26.39:751][231]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.23-01.26.39:751][231]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.23-01.26.39:751][231]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.23-01.26.39:751][231]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.23-01.26.39:751][231]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.23-01.26.39:751][231]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.23-01.26.39:752][231]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.23-01.26.39:752][231]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.23-01.26.39:752][231]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.23-01.26.39:753][231]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.23-01.26.39:753][231]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.23-01.26.39:754][231]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.23-01.26.39:754][231]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.23-01.26.39:754][231]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.23-01.26.39:754][231]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.23-01.26.39:754][231]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.23-01.26.39:754][231]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.23-01.26.39:855][231]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.23-01.26.39:960][231]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.23-01.26.39:969][231]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.23-01.26.39:969][231]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.23-01.26.39:969][231]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.23-01.26.39:970][231]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.23-01.26.39:970][231]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.23-01.26.39:970][231]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.23-01.26.39:970][231]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.23-01.26.39:971][231]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.23-01.26.39:971][231]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.23-01.26.39:971][231]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.23-01.26.39:971][231]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.23-01.26.39:971][231]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.23-01.26.39:971][231]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.23-01.26.39:971][231]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.23-01.26.39:971][231]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.23-01.26.39:972][231]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.23-01.26.39:972][231]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.23-01.26.39:974][231]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.23-01.26.39:974][231]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.23-01.26.39:974][231]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.23-01.26.39:974][231]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.23-01.26.39:975][231]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.23-01.26.39:976][231]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.23-01.26.39:978][231]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.23-01.26.39:978][231]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.23-01.26.39:978][231]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.23-01.26.39:979][231]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.23-01.26.39:979][231]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.23-01.26.39:981][231]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.23-01.26.39:981][231]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.23-01.26.39:981][231]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.23-01.26.39:981][231]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.23-01.26.39:981][231]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.23-01.26.39:981][231]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.23-01.26.40:171][231]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.23-01.26.40:171][231]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/' was aborted.
+[2017.08.23-01.26.40:171][231]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.23-01.26.40:171][231]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.23-01.26.40:181][231]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.23-01.26.40:182][231]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.23-01.26.40:182][231]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.23-01.26.40:182][231]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.23-01.26.40:182][231]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.23-01.26.40:183][231]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.23-01.26.40:183][231]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.23-01.26.40:183][231]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.23-01.26.40:184][231]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.23-01.26.40:250][231]LogDerivedDataCache: Shutdown
+[2017.08.23-01.26.40:250][231]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.23-01.26.40:250][231]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.23-01.26.40:250][231]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.23-01.26.40:251][231]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.23-01.26.40:251][231]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.23-01.26.40:251][231]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.23-01.26.40:252][231]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.23-01.26.40:253][231]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.23-01.26.40:253][231]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.23-01.26.40:253][231]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.23-01.26.40:253][231]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.23-01.26.40:254][231]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.23-01.26.40:255][231]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.23-01.26.40:255][231]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.23-01.26.40:255][231]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDB46C8C6-499B-5F6A-7B3A-8397DE47BF03%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=982011a7482c1cbdc2ce3cbeaef51dbe%7C2f3e48cbc1c5407bbd0670115d7b8004%7C70012bb2-c253-4297-934e-6257f569ac01&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.23-01.26.40:272][231]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.23-01.26.40:273][231]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.23-01.26.40:274][231]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.23-01.26.40:274][231]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.23-01.26.40:274][231]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.23-01.26.40:275][231]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.23-01.26.40:275][231]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.23-01.26.40:275][231]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.23-01.26.40:275][231]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.23-01.26.40:278][231]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.23-01.26.40:279][231]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.23-01.26.40:279][231]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.23-01.26.40:279][231]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.23-01.26.40:279][231]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.23-01.26.40:279][231]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.23-01.26.40:279][231]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.23-01.26.40:279][231]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.23-01.26.40:279][231]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.23-01.26.40:279][231]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.23-01.26.40:280][231]LogExit: Exiting.
+[2017.08.23-01.26.40:290][231]Log file closed, 08/22/17 18:26:40
