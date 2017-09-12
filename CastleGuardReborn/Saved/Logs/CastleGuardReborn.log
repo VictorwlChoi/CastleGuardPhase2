@@ -1632,3 +1632,1337 @@ LogInit: Object subsystem initialized
 [2017.09.12-02.45.23:803][279]LogOutputDevice:Error: ntdll.dll!0x0000000068E90D51
 [2017.09.12-02.45.23:803][279]LogOutputDevice:Error: 
 [2017.09.12-02.45.23:809][279]LogStats:                SubmitErrorReport -  0.000 s
+[2017.09.12-02.45.24:044][279]LogStats:                    SendNewReport -  0.236 s
+[2017.09.12-02.45.24:045][279]LogStats:             FDebug::EnsureFailed -  0.401 s
+[2017.09.12-02.45.24:045][279]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.45.24:045][279]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:352][405]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:352][405]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:353][405]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:355][405]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:361][406]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:362][406]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:369][407]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:371][407]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:378][408]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:379][408]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:385][409]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:386][409]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:388][409]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:393][410]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:395][410]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.15:396][410]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-02.46.32:847][503]BlueprintLog: New page: Compile CatapultPathStops
+[2017.09.12-02.46.47:873][854]BlueprintLog: New page: Compile CatapultPathStops
+[2017.09.12-02.47.44:711][206]LogEditorViewport: Clicking on Actor (LMB): CatapultAttackPositions_C (CatapultAttackPositions)
+[2017.09.12-02.47.46:840][457]LogEditorViewport: Clicking on Actor (LMB): CatapultPathStops_C (AiStops_Catapult41)
+[2017.09.12-02.47.48:088][603]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.09.12-02.47.48:920][699]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.09.12-02.47.49:270][739]LogEditorViewport: Clicking on Actor (LMB): SoldierPathStops_C (AiStops_Soldier41)
+[2017.09.12-02.47.51:474][998]LogEditorViewport: Clicking on Actor (LMB): CatapultPathStops_C (AiStops_Catapult40)
+[2017.09.12-02.47.53:237][205]LogEditorViewport: Clicking on Actor (LMB): CatapultPathStops_C (AiStops_Catapult41)
+[2017.09.12-02.53.12:286][439]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.09.12-02.53.16:645][873]LogTemp: Repeting last play command: Simulate
+[2017.09.12-02.53.16:675][873]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-02.53.16:675][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-02.53.16:675][873]PIE: New page: SIE session: default (Sep 11, 2017, 12:53:16 PM)
+[2017.09.12-02.53.16:675][873]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.09.12-02.53.16:813][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137593s)
+[2017.09.12-02.53.16:814][873]LogAIModule: Creating AISystem for world default
+[2017.09.12-02.53.16:814][873]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2017.09.12-02.53.16:814][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.138943s)
+[2017.09.12-02.53.16:846][873]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.12-02.53.16:851][873]LogInit: FAudioDevice initialized.
+[2017.09.12-02.53.16:884][873]LogLoad: Game class is 'ViveGameMode_C'
+[2017.09.12-02.53.16:894][873]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.09.11-19.53.16
+[2017.09.12-02.53.16:895][873]LogWorld: Bringing up level for play took: 0.009390
+[2017.09.12-02.53.16:895][873]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.12-02.53.16:895][873]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-02.53.16:898][873]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-02.53.16:898][873]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.729
+[2017.09.12-02.53.16:908][873]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-02.53.18:231][ 17]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-02.53.18:297][ 17]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-02.53.20:238][239]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-02.53.20:238][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-02.53.20:238][239]PIE: New page: PIE session: default (Sep 11, 2017, 12:53:20 PM)
+[2017.09.12-02.53.20:238][239]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.09.12-02.53.20:371][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132651s)
+[2017.09.12-02.53.20:372][239]LogAIModule: Creating AISystem for world default
+[2017.09.12-02.53.20:372][239]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2017.09.12-02.53.20:372][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.134028s)
+[2017.09.12-02.53.20:402][239]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.12-02.53.20:407][239]LogInit: FAudioDevice initialized.
+[2017.09.12-02.53.20:491][239]LogLoad: Game class is 'ViveGameMode_C'
+[2017.09.12-02.53.20:500][239]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.09.11-19.53.20
+[2017.09.12-02.53.20:501][239]LogWorld: Bringing up level for play took: 0.009131
+[2017.09.12-02.53.20:501][239]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-02.53.20:501][239]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-02.53.20:501][239]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.09.12-02.53.20:504][239]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.09.12-02.53.20:510][239]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.883
+[2017.09.12-02.53.20:510][239]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-02.53.20:615][240]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.09.12-02.53.21:956][356]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.09.12-02.53.22:459][401]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.09.12-02.53.45:616][473]LogSteamVRController: Controller role for device 3 is 0 (invalid=0, left=1, right=2).
+[2017.09.12-02.53.45:616][473]LogSteamVRController:Warning: Controller device 3 has no role set.  There is no 'right' controller according to steamvr, so we are pickign that.
+[2017.09.12-02.53.45:616][473]LogSteamVRController: Controller device 3 is being assigned unreal hand 1 (left=0, right=1).
+[2017.09.12-02.53.46:164][522]LogSteamVRController: Controller role for device 4 is 0 (invalid=0, left=1, right=2).
+[2017.09.12-02.53.46:164][522]LogSteamVRController: Putting controller 4 on the left hand because there is already a controller for the right.
+[2017.09.12-02.53.46:164][522]LogSteamVRController: Controller device 4 is being assigned unreal hand 0 (left=0, right=1).
+[2017.09.12-02.53.47:850][673]LogScript:Warning: Accessed None trying to read property firearrow
+	Vive_Pawn_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:17B4
+[2017.09.12-02.53.47:850][673]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property firearrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property firearrow
+[2017.09.12-02.54.06:482][341]LogScript:Warning: Accessed None trying to read property firearrow
+	Vive_Pawn_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:17B4
+[2017.09.12-02.54.06:482][341]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property firearrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property firearrow
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.14:590][ 67]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:364][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:364][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:365][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:365][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:365][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:365][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:365][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:365][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:365][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:365][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:365][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:365][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:365][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:365][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:365][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.18:365][405]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.24:228][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:228][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:228][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:228][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:228][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:228][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:228][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:228][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:228][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:228][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:228][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:229][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:229][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:229][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:229][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.24:229][929]LogBlueprintUserMessages: [Vive_Pawn_605] 39.993591
+[2017.09.12-02.54.28:249][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.28:250][289]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.32:092][633]LogBlueprintUserMessages: [Vive_Pawn_605] 39.822578
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.35:700][956]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.38:693][224]LogBlueprintUserMessages: [Vive_Pawn_605] 38.586411
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.42:033][523]LogBlueprintUserMessages: [Vive_Pawn_605] 39.604462
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.46:021][880]LogBlueprintUserMessages: [Vive_Pawn_605] 38.73465
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.49:305][174]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.54:677][655]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.54.58:151][966]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:207][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:208][329]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.02:219][330]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_Arrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Arrow_C_14
+	Function /Game/Vive/Blueprints/BP_Arrow.BP_Arrow_C:ExecuteUbergraph_BP_Arrow:0045
+[2017.09.12-02.55.02:219][330]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_Arrow' from node: Branch in graph: EventGraph in object: BP_Arrow with description: Accessed None trying to read property K2Node_Event_Other
+[2017.09.12-02.55.04:059][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:059][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:059][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:059][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:059][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:059][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:059][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:059][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:060][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:060][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:060][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:060][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:060][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:060][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:060][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:060][495]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.04:988][578]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:327][698]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.06:328][698]LogBlueprintUserMessages: [BP_FireArrow_C_0] Hello
+[2017.09.12-02.55.06:342][699]LogBlueprintUserMessages: [BP_FireArrow_C_0] Hello
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-02.55.10:281][ 52]LogBlueprintUserMessages: [BP_FireArrow_C_1] Hello
+[2017.09.12-02.55.10:295][ 53]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 2501
+[2017.09.12-02.55.10:295][ 53]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Vive/Blueprints/AI/BatteringRamOld.BatteringRamOld_C:ReceiveTick
+	Function /Game/Vive/Blueprints/AI/BatteringRamOld.BatteringRamOld_C:ExecuteUbergraph_BatteringRamOld
+
+[2017.09.12-02.55.10:305][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.10:307][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.10:308][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.10:526][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.10:528][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.10:528][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.10:616][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.10:616][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.10:617][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:834][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:850][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:858][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:858][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:858][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:858][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:866][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:866][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:874][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:874][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:882][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:882][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:890][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:890][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:898][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:898][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:906][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:906][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:914][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:914][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:922][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:922][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:930][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:930][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:938][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:938][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:946][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:946][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:953][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:954][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:962][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:962][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:970][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:970][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:977][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:978][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:985][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:986][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:994][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.26:994][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:001][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:002][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:009][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:011][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:017][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:018][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:025][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:026][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:033][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:033][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:042][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:042][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:050][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:050][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:058][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:058][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:066][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:067][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:074][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:074][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:082][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:082][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:090][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:090][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:098][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:098][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:106][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:106][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:114][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:114][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:122][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:123][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:130][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:130][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:137][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:138][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:145][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:146][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:153][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:154][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:162][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:162][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:169][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:170][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:178][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:179][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:185][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:186][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:193][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:194][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:202][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:202][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:209][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:210][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:218][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:218][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:226][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:226][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:234][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:235][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:242][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:242][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:250][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:250][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:258][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:258][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:266][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:266][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:274][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:274][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:282][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:282][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:290][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:291][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:297][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:298][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:306][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:306][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:314][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:314][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:321][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:322][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:353][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:354][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:361][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:362][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:369][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:370][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:377][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:378][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:385][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:385][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:393][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:393][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:402][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:402][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:410][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:410][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:418][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:418][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:426][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:426][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:434][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:434][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:442][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:442][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:450][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:450][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:458][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:458][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:466][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:466][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:561][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.27:562][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.28:034][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.28:034][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-02.55.38:406][ 53]LogBlueprintUserMessages: [BP_FireArrow_C_1] Hello
+[2017.09.12-02.55.38:407][ 53]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-02.55.38:461][ 53]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-02.55.54:863][  9]LogTemp: Repeting last play command: VR Preview
+[2017.09.12-02.55.54:892][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-02.55.54:892][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-02.55.54:892][  9]PIE: New page: PIE session: default (Sep 11, 2017, 12:55:54 PM)
+[2017.09.12-02.55.54:892][  9]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.09.12-02.55.55:027][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134966s)
+[2017.09.12-02.55.55:028][  9]LogAIModule: Creating AISystem for world default
+[2017.09.12-02.55.55:028][  9]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2017.09.12-02.55.55:029][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.136637s)
+[2017.09.12-02.55.55:058][  9]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.12-02.55.55:063][  9]LogInit: FAudioDevice initialized.
+[2017.09.12-02.55.55:132][  9]LogLoad: Game class is 'ViveGameMode_C'
+[2017.09.12-02.55.55:142][  9]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.09.11-19.55.55
+[2017.09.12-02.55.55:143][  9]LogWorld: Bringing up level for play took: 0.010243
+[2017.09.12-02.55.55:143][  9]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.12-02.55.55:143][  9]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-02.55.55:143][  9]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-02.55.55:143][  9]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.09.12-02.55.55:146][  9]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.09.12-02.55.55:153][  9]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.473
+[2017.09.12-02.55.55:154][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-02.55.56:619][486]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.09.12-02.55.57:116][660]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.09.12-02.56.00:973][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-02.56.01:054][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.00.02:631][760]LogEditorViewport: Clicking on Actor (LMB): BatteringRamAttackPosition_C (BatteringRamAttackPosition2)
+[2017.09.12-03.00.47:959][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.12-03.00.48:784][232]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.12-03.00.49:723][335]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.12-03.00.50:860][465]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.12-03.01.06:106][268]BlueprintLog: New page: Compile BatteringRamAttackPosition
+[2017.09.12-03.01.06:862][308]LogSavePackage: Save=29.50ms
+[2017.09.12-03.01.06:862][308]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BatteringRamAttackPosition4DED121E46B927C452BFB4A1D2872623.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/BatteringRamAttackPosition.uasset'
+[2017.09.12-03.01.06:863][308]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/BatteringRamAttackPosition.uasset
+[2017.09.12-03.01.39:882][252]BlueprintLog: New page: Compile BatteringRamAttackPosition
+[2017.09.12-03.01.50:690][506]LogEditorTransaction: Undo Change Bool Pin Value
+[2017.09.12-03.01.50:989][539]LogEditorTransaction: Undo Create Pin Link
+[2017.09.12-03.01.52:103][670]LogEditorTransaction: Undo Move Node
+[2017.09.12-03.01.57:661][334]Cmd: TRANSACTION UNDO
+[2017.09.12-03.01.57:661][334]LogEditorTransaction: Undo Delete current selection
+[2017.09.12-03.01.58:285][406]Cmd: TRANSACTION UNDO
+[2017.09.12-03.01.58:285][406]LogEditorTransaction: Undo Delete current selection
+[2017.09.12-03.01.59:147][507]Cmd: TRANSACTION UNDO
+[2017.09.12-03.01.59:147][507]LogEditorTransaction: Undo Add Node
+[2017.09.12-03.01.59:567][555]Cmd: TRANSACTION UNDO
+[2017.09.12-03.01.59:567][555]LogEditorTransaction: Undo Create Pin Link
+[2017.09.12-03.01.59:970][601]Cmd: TRANSACTION UNDO
+[2017.09.12-03.01.59:970][601]LogEditorTransaction: Undo Add Node
+[2017.09.12-03.02.00:582][672]Cmd: TRANSACTION UNDO
+[2017.09.12-03.02.00:582][672]LogEditorTransaction: Undo Move Node
+[2017.09.12-03.02.06:177][341]LogEditorTransaction: Redo Move Node
+[2017.09.12-03.02.06:467][373]LogEditorTransaction: Redo Add Node
+[2017.09.12-03.02.07:906][543]LogEditorTransaction: Undo Add Node
+[2017.09.12-03.02.08:402][600]LogEditorTransaction: Undo Move Node
+[2017.09.12-03.02.09:099][681]LogEditorTransaction: Undo Add Node
+[2017.09.12-03.02.10:035][791]LogEditorTransaction: Redo Add Node
+[2017.09.12-03.02.25:369][591]BlueprintLog: New page: Compile BatteringRamAttackPosition
+[2017.09.12-03.04.51:337][ 54]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:345][ 55]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:345][ 55]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:346][ 55]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:348][ 55]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:353][ 56]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:354][ 56]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:356][ 56]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:362][ 57]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:364][ 57]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:371][ 58]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:372][ 58]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:379][ 59]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:381][ 59]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:387][ 60]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:389][ 60]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:395][ 61]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:397][ 61]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:404][ 62]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:406][ 62]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:412][ 63]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:414][ 63]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:420][ 64]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:422][ 64]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:429][ 65]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:431][ 65]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:437][ 66]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:439][ 66]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:445][ 67]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:447][ 67]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:454][ 68]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:456][ 68]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:462][ 69]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:464][ 69]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:470][ 70]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:472][ 70]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:478][ 71]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:480][ 71]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:487][ 72]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:489][ 72]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:495][ 73]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:498][ 73]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:504][ 74]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:506][ 74]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:512][ 75]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:514][ 75]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:521][ 76]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:523][ 76]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:529][ 77]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:531][ 77]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:537][ 78]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:539][ 78]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:545][ 79]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:547][ 79]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:554][ 80]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:556][ 80]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:562][ 81]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:564][ 81]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:570][ 82]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:573][ 82]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:579][ 83]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:581][ 83]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:587][ 84]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:589][ 84]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:595][ 85]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:597][ 85]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:604][ 86]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:606][ 86]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:612][ 87]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:614][ 87]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:620][ 88]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:622][ 88]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:628][ 89]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:630][ 89]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:637][ 90]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:639][ 90]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:645][ 91]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:647][ 91]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:653][ 92]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:655][ 92]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:662][ 93]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:664][ 93]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:670][ 94]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:672][ 94]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:678][ 95]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:680][ 95]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:687][ 96]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:689][ 96]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:696][ 97]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:697][ 97]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:704][ 98]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:706][ 98]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:712][ 99]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:714][ 99]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:720][100]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:722][100]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:729][101]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:731][101]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:737][102]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:739][102]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:745][103]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:748][103]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:754][104]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:756][104]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:762][105]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:764][105]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:770][106]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:772][106]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:779][107]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:781][107]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:787][108]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:789][108]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:795][109]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:797][109]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:804][110]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:805][110]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:812][111]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:814][111]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:820][112]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:822][112]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:829][113]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:830][113]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:837][114]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:839][114]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:845][115]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:847][115]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:854][116]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:856][116]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:862][117]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:864][117]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:871][118]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:872][118]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:879][119]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:881][119]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:887][120]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:889][120]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:896][121]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:898][121]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:904][122]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:906][122]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:912][123]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:914][123]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:921][124]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:922][124]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:929][125]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:931][125]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:937][126]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:939][126]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:945][127]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:947][127]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:954][128]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:956][128]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:962][129]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:964][129]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:970][130]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:972][130]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:979][131]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:980][131]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:987][132]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:989][132]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:995][133]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.51:997][133]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:003][134]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:006][134]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:012][135]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:014][135]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:020][136]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:022][136]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:028][137]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:031][137]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:037][138]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:039][138]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:044][139]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:045][139]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:048][139]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:053][140]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:054][140]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.04.52:056][140]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.12-03.05.03:260][475]LogSlate: Took 0.003191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.12-03.05.36:053][378]Cmd: TRANSACTION UNDO
+[2017.09.12-03.05.36:053][378]LogEditorTransaction: Undo Replace Pin Variable
+[2017.09.12-03.05.47:088][692]BlueprintLog: New page: Compile BatteringRamAttackPosition
+[2017.09.12-03.07.13:992][995]BlueprintLog: New page: Compile BatteringRamAttackPosition
+[2017.09.12-03.07.58:090][243]BlueprintLog: New page: Compile CatapultAttackPositions
+[2017.09.12-03.08.02:587][724]LogTemp: Repeting last play command: VR Preview
+[2017.09.12-03.08.02:614][724]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.08.02:614][724]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.09.12-03.08.02:614][724]LogPlayLevel: [PlayLevel] Compiling BP_FireArrow before play...
+[2017.09.12-03.08.02:778][724]LogPlayLevel: PlayLevel: Blueprint regeneration took 163 ms (1 blueprints)
+[2017.09.12-03.08.02:778][724]PIE: New page: PIE session: default (Sep 11, 2017, 1:08:02 PM)
+[2017.09.12-03.08.02:778][724]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.09.12-03.08.02:912][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134310s)
+[2017.09.12-03.08.02:913][724]LogAIModule: Creating AISystem for world default
+[2017.09.12-03.08.02:913][724]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2017.09.12-03.08.02:914][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.135621s)
+[2017.09.12-03.08.02:940][724]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.12-03.08.02:946][724]LogInit: FAudioDevice initialized.
+[2017.09.12-03.08.03:019][724]LogLoad: Game class is 'ViveGameMode_C'
+[2017.09.12-03.08.03:028][724]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.09.11-20.08.03
+[2017.09.12-03.08.03:029][724]LogWorld: Bringing up level for play took: 0.009441
+[2017.09.12-03.08.03:029][724]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.12-03.08.03:029][724]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.08.03:029][724]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.08.03:029][724]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.09.12-03.08.03:033][724]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.09.12-03.08.03:038][724]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 1.412
+[2017.09.12-03.08.03:039][724]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.08.04:487][834]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.09.12-03.08.05:012][881]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.09.12-03.08.19:813][204]LogScript:Warning: Accessed None trying to read property firearrow
+	Vive_Pawn_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:17B4
+[2017.09.12-03.08.19:813][204]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property firearrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property firearrow
+[2017.09.12-03.08.20:494][265]LogScript:Warning: Accessed None trying to read property firearrow
+	Vive_Pawn_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:17B4
+[2017.09.12-03.08.20:494][265]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property firearrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property firearrow
+[2017.09.12-03.08.21:747][377]LogScript:Warning: Accessed None trying to read property firearrow
+	Vive_Pawn_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:17B4
+[2017.09.12-03.08.21:747][377]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property firearrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property firearrow
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:666][549]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.23:677][550]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	BP_Arrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Arrow_C_3
+	Function /Game/Vive/Blueprints/BP_Arrow.BP_Arrow_C:ExecuteUbergraph_BP_Arrow:0045
+[2017.09.12-03.08.23:677][550]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_BP_Arrow' from node: Branch in graph: EventGraph in object: BP_Arrow with description: Accessed None trying to read property K2Node_Event_Other
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.25:520][715]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.32:167][310]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.37:182][759]LogBlueprintUserMessages: [BP_FireArrow_C_0] Hello
+[2017.09.12-03.08.37:194][760]LogBlueprintUserMessages: [BP_FireArrow_C_0] Hello
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.08.39:639][979]LogBlueprintUserMessages: [BP_FireArrow_C_1] Hello
+[2017.09.12-03.08.39:653][980]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 2609
+[2017.09.12-03.08.39:653][980]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Vive/Blueprints/AI/BatteringRamOld.BatteringRamOld_C:ReceiveTick
+	Function /Game/Vive/Blueprints/AI/BatteringRamOld.BatteringRamOld_C:ExecuteUbergraph_BatteringRamOld
+
+[2017.09.12-03.08.39:662][980]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-03.08.39:665][980]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-03.08.39:665][980]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-03.08.40:206][980]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-03.08.40:209][980]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-03.08.40:209][980]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-03.08.40:846][980]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-03.08.40:849][980]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-03.08.40:850][980]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-03.08.49:385][980]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-03.08.49:386][980]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.09.12-03.08.59:779][980]LogBlueprintUserMessages: [BP_FireArrow_C_1] Hello
+[2017.09.12-03.08.59:780][980]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.08.59:834][980]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.09.12:111][445]LogTemp: Repeting last play command: VR Preview
+[2017.09.12-03.09.12:135][445]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.09.12:135][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-03.09.12:135][445]PIE: New page: PIE session: default (Sep 11, 2017, 1:09:12 PM)
+[2017.09.12-03.09.12:135][445]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.09.12-03.09.12:270][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134251s)
+[2017.09.12-03.09.12:270][445]LogAIModule: Creating AISystem for world default
+[2017.09.12-03.09.12:271][445]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2017.09.12-03.09.12:271][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.135596s)
+[2017.09.12-03.09.12:296][445]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.12-03.09.12:301][445]LogInit: FAudioDevice initialized.
+[2017.09.12-03.09.12:376][445]LogLoad: Game class is 'ViveGameMode_C'
+[2017.09.12-03.09.12:387][445]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.09.11-20.09.12
+[2017.09.12-03.09.12:388][445]LogWorld: Bringing up level for play took: 0.011632
+[2017.09.12-03.09.12:388][445]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.12-03.09.12:388][445]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.09.12:389][445]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.09.12:389][445]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.09.12-03.09.12:392][445]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.09.12-03.09.12:399][445]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.772
+[2017.09.12-03.09.12:399][445]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.09.13:863][919]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.09.12-03.09.14:360][ 88]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.09.12-03.09.20:092][165]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.09.20:172][165]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.09.34:047][819]LogTemp: Repeting last play command: VR Preview
+[2017.09.12-03.09.34:070][819]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.09.34:070][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-03.09.34:070][819]PIE: New page: PIE session: default (Sep 11, 2017, 1:09:34 PM)
+[2017.09.12-03.09.34:070][819]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.09.12-03.09.34:206][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135408s)
+[2017.09.12-03.09.34:206][819]LogAIModule: Creating AISystem for world default
+[2017.09.12-03.09.34:207][819]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2017.09.12-03.09.34:207][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.136718s)
+[2017.09.12-03.09.34:241][819]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.12-03.09.34:246][819]LogInit: FAudioDevice initialized.
+[2017.09.12-03.09.34:330][819]LogLoad: Game class is 'ViveGameMode_C'
+[2017.09.12-03.09.34:340][819]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.09.11-20.09.34
+[2017.09.12-03.09.34:340][819]LogWorld: Bringing up level for play took: 0.009629
+[2017.09.12-03.09.34:341][819]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.09.34:341][819]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.09.34:341][819]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.09.12-03.09.34:344][819]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.09.12-03.09.34:348][819]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.722
+[2017.09.12-03.09.34:349][819]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.09.35:644][924]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.09.35:800][924]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.09.37:785][148]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.09.37:785][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-03.09.37:785][148]PIE: New page: SIE session: default (Sep 11, 2017, 1:09:37 PM)
+[2017.09.12-03.09.37:785][148]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.09.12-03.09.37:917][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132243s)
+[2017.09.12-03.09.37:917][148]LogAIModule: Creating AISystem for world default
+[2017.09.12-03.09.37:918][148]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2017.09.12-03.09.37:919][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.134463s)
+[2017.09.12-03.09.37:950][148]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.12-03.09.37:955][148]LogInit: FAudioDevice initialized.
+[2017.09.12-03.09.37:987][148]LogLoad: Game class is 'ViveGameMode_C'
+[2017.09.12-03.09.37:996][148]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.09.11-20.09.37
+[2017.09.12-03.09.37:997][148]LogWorld: Bringing up level for play took: 0.009550
+[2017.09.12-03.09.37:998][148]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.12-03.09.37:998][148]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.09.38:001][148]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.09.38:001][148]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.374
+[2017.09.12-03.09.38:008][148]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.09.39:495][254]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.09.12-03.09.40:013][293]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.09.12-03.09.51:003][197]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.09.51:055][197]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.09.56:578][844]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.09.12-03.09.59:725][153]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.09.12-03.10.12:701][613]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.10.12:701][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-03.10.12:701][613]PIE: New page: PIE session: default (Sep 11, 2017, 1:10:12 PM)
+[2017.09.12-03.10.12:702][613]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.09.12-03.10.12:853][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.151452s)
+[2017.09.12-03.10.12:854][613]LogAIModule: Creating AISystem for world default
+[2017.09.12-03.10.12:854][613]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2017.09.12-03.10.12:855][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.152986s)
+[2017.09.12-03.10.12:885][613]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.12-03.10.12:890][613]LogInit: FAudioDevice initialized.
+[2017.09.12-03.10.12:975][613]LogLoad: Game class is 'ViveGameMode_C'
+[2017.09.12-03.10.12:986][613]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.09.11-20.10.12
+[2017.09.12-03.10.12:987][613]LogWorld: Bringing up level for play took: 0.011064
+[2017.09.12-03.10.12:987][613]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.12-03.10.12:988][613]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.10.12:988][613]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.10.12:988][613]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.09.12-03.10.12:991][613]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.09.12-03.10.13:000][613]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.628
+[2017.09.12-03.10.13:000][613]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.10.14:456][736]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.09.12-03.10.14:948][780]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.47:162][664]LogBlueprintUserMessages: [Vive_Pawn_605] 21.369968
+[2017.09.12-03.10.48:425][777]LogScript:Warning: Accessed None trying to read property firearrow
+	Vive_Pawn_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:17B4
+[2017.09.12-03.10.48:425][777]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property firearrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property firearrow
+[2017.09.12-03.10.50:011][919]LogScript:Warning: Accessed None trying to read property firearrow
+	Vive_Pawn_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:17B4
+[2017.09.12-03.10.50:011][919]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property firearrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property firearrow
+[2017.09.12-03.10.50:637][975]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.09.12-03.10.55:908][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.10.55:909][447]LogBlueprintUserMessages: [BP_FireArrow_C_0] Hello
+[2017.09.12-03.10.55:926][448]LogBlueprintUserMessages: [BP_FireArrow_C_0] Hello
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:573][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:574][935]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.09.12-03.11.12:574][935]LogBlueprintUserMessages: [BP_FireArrow_C_1] Hello
+[2017.09.12-03.11.12:585][936]LogBlueprintUserMessages: [BP_FireArrow_C_1] Hello
+[2017.09.12-03.11.22:282][803]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.11.22:434][803]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.11.30:740][759]LogEditorViewport: Clicking on Actor (LMB): Vive_Pawn_C (Vive_Pawn)
+[2017.09.12-03.11.33:146][ 41]LogTemp: Repeting last play command: VR Preview
+[2017.09.12-03.11.33:169][ 41]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.11.33:170][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-03.11.33:170][ 41]PIE: New page: PIE session: default (Sep 11, 2017, 1:11:33 PM)
+[2017.09.12-03.11.33:170][ 41]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.09.12-03.11.33:303][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133360s)
+[2017.09.12-03.11.33:304][ 41]LogAIModule: Creating AISystem for world default
+[2017.09.12-03.11.33:304][ 41]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2017.09.12-03.11.33:305][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.134847s)
+[2017.09.12-03.11.33:337][ 41]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.12-03.11.33:342][ 41]LogInit: FAudioDevice initialized.
+[2017.09.12-03.11.33:419][ 41]LogLoad: Game class is 'ViveGameMode_C'
+[2017.09.12-03.11.33:429][ 41]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.09.11-20.11.33
+[2017.09.12-03.11.33:430][ 41]LogWorld: Bringing up level for play took: 0.009905
+[2017.09.12-03.11.33:430][ 41]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.11.33:430][ 41]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.11.33:430][ 41]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.09.12-03.11.33:433][ 41]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.09.12-03.11.33:439][ 41]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.188
+[2017.09.12-03.11.33:440][ 41]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.11.34:889][161]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.09.12-03.11.35:392][206]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.09.12-03.11.42:911][879]LogScript:Warning: Accessed None trying to read property firearrow
+	Vive_Pawn_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:17B4
+[2017.09.12-03.11.42:911][879]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property firearrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property firearrow
+[2017.09.12-03.11.44:642][ 33]LogScript:Warning: Accessed None trying to read property firearrow
+	Vive_Pawn_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:17B4
+[2017.09.12-03.11.44:642][ 33]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property firearrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property firearrow
+[2017.09.12-03.11.45:335][ 95]LogScript:Warning: Accessed None trying to read property firearrow
+	Vive_Pawn_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:17B4
+[2017.09.12-03.11.45:335][ 95]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property firearrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property firearrow
+[2017.09.12-03.11.47:624][300]LogScript:Warning: Accessed None trying to read property firearrow
+	Vive_Pawn_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:17B4
+[2017.09.12-03.11.47:625][300]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property firearrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property firearrow
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.03:452][717]LogBlueprintUserMessages: [Vive_Pawn_605] 39.754585
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.09:282][239]LogBlueprintUserMessages: [Vive_Pawn_605] 36.908066
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.15:169][766]LogBlueprintUserMessages: [Vive_Pawn_605] 23.30685
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.21:502][333]LogBlueprintUserMessages: [Vive_Pawn_605] 35.006798
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.25:668][706]LogBlueprintUserMessages: [Vive_Pawn_605] 29.701462
+[2017.09.12-03.12.26:920][818]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [Vive_Pawn_605] 35.843735
+[2017.09.12-03.12.29:678][ 65]LogBlueprintUserMessages: [BP_FireArrow_C_0] Hello
+[2017.09.12-03.12.29:691][ 66]LogBlueprintUserMessages: [BP_FireArrow_C_0] Hello
+[2017.09.12-03.12.35:019][542]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.12.35:164][542]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.12.43:304][478]LogEditorViewport: Clicking on Actor (LMB): Vive_Pawn_C (Vive_Pawn)
+[2017.09.12-03.12.45:649][723]LogEditorViewport: Clicking on Actor (LMB): CatapultPathStops_C (AiStops_Catapult41)
+[2017.09.12-03.13.32:537][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Maps/default" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Maps/default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.12-03.13.35:362][270]LogSavePackage: Save=2784.03ms
+[2017.09.12-03.13.35:362][270]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default8327912641A9F6358E3CD68E03174DA3.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Maps/default.umap'
+[2017.09.12-03.13.35:367][270]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Maps/default.umap
+[2017.09.12-03.13.35:398][270]LogFileHelpers: Saving map 'default' took 2.901
+[2017.09.12-03.13.35:455][270]LogSavePackage: Save=48.22ms
+[2017.09.12-03.13.35:455][270]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/CatapultAttackPositions2EF6E9E445E2104F2EFDF3BB1FFFF705.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/CatapultAttackPositions.uasset'
+[2017.09.12-03.13.35:457][270]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/CatapultAttackPositions.uasset
+[2017.09.12-03.13.35:466][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/AI/Catapult" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/Catapult.uasset" SILENT=true
+[2017.09.12-03.13.35:598][270]LogSavePackage: Save=126.67ms
+[2017.09.12-03.13.35:598][270]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Catapult996ECA244E5912F9DD08E98A3A57D133.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/Catapult.uasset'
+[2017.09.12-03.13.35:599][270]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/Catapult.uasset
+[2017.09.12-03.13.35:602][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/AI/CatapultPathStops" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/CatapultPathStops.uasset" SILENT=true
+[2017.09.12-03.13.35:636][270]LogSavePackage: Save=28.19ms
+[2017.09.12-03.13.35:636][270]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/CatapultPathStops0C40E15F42E5FC5F500E54A0130C9795.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/CatapultPathStops.uasset'
+[2017.09.12-03.13.35:637][270]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/CatapultPathStops.uasset
+[2017.09.12-03.13.35:646][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/AI/BatteringRamOld" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/BatteringRamOld.uasset" SILENT=true
+[2017.09.12-03.13.35:766][270]LogSavePackage: Save=114.35ms
+[2017.09.12-03.13.35:766][270]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BatteringRamOld2DB82D6943A029E7483A5BB406C2DBE7.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/BatteringRamOld.uasset'
+[2017.09.12-03.13.35:767][270]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/BatteringRamOld.uasset
+[2017.09.12-03.13.35:818][270]LogSavePackage: Save=43.85ms
+[2017.09.12-03.13.35:818][270]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BatteringRamAttackPositionC25235B24B454F091C3C3582F405557C.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/BatteringRamAttackPosition.uasset'
+[2017.09.12-03.13.35:819][270]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/BatteringRamAttackPosition.uasset
+[2017.09.12-03.13.35:829][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_FireArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_FireArrow.uasset" SILENT=true
+[2017.09.12-03.13.35:874][270]LogSavePackage: Save=40.03ms
+[2017.09.12-03.13.35:874][270]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_FireArrowE1B8DA644C36DC2D23B43EA0C6F1D8AD.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_FireArrow.uasset'
+[2017.09.12-03.13.35:876][270]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_FireArrow.uasset
+[2017.09.12-03.14.42:593][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.14.42:593][258]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.09.12-03.14.42:593][258]LogPlayLevel: [PlayLevel] Compiling BP_FireArrow before play...
+[2017.09.12-03.14.42:749][258]LogPlayLevel: PlayLevel: Blueprint regeneration took 156 ms (1 blueprints)
+[2017.09.12-03.14.42:750][258]PIE: New page: SIE session: default (Sep 11, 2017, 1:14:42 PM)
+[2017.09.12-03.14.42:750][258]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.09.12-03.14.42:882][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132188s)
+[2017.09.12-03.14.42:883][258]LogAIModule: Creating AISystem for world default
+[2017.09.12-03.14.42:883][258]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2017.09.12-03.14.42:883][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.133554s)
+[2017.09.12-03.14.42:908][258]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.12-03.14.42:913][258]LogInit: FAudioDevice initialized.
+[2017.09.12-03.14.42:951][258]LogLoad: Game class is 'ViveGameMode_C'
+[2017.09.12-03.14.42:961][258]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.09.11-20.14.42
+[2017.09.12-03.14.42:962][258]LogWorld: Bringing up level for play took: 0.009118
+[2017.09.12-03.14.42:962][258]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.12-03.14.42:962][258]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.14.42:966][258]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.14.42:966][258]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 1.339
+[2017.09.12-03.14.42:974][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.14.44:442][419]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.09.12-03.14.44:610][439]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.14.44:677][439]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.14.45:427][524]LogTemp: Repeting last play command: Simulate
+[2017.09.12-03.14.45:450][524]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.14.45:450][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-03.14.45:450][524]PIE: New page: SIE session: default (Sep 11, 2017, 1:14:45 PM)
+[2017.09.12-03.14.45:450][524]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.09.12-03.14.45:585][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135093s)
+[2017.09.12-03.14.45:586][524]LogAIModule: Creating AISystem for world default
+[2017.09.12-03.14.45:586][524]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2017.09.12-03.14.45:586][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.136435s)
+[2017.09.12-03.14.45:621][524]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.12-03.14.45:626][524]LogInit: FAudioDevice initialized.
+[2017.09.12-03.14.45:660][524]LogLoad: Game class is 'ViveGameMode_C'
+[2017.09.12-03.14.45:669][524]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.09.11-20.14.45
+[2017.09.12-03.14.45:670][524]LogWorld: Bringing up level for play took: 0.009504
+[2017.09.12-03.14.45:670][524]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.12-03.14.45:670][524]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.14.45:673][524]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.14.45:673][524]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.047
+[2017.09.12-03.14.45:680][524]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.14.46:611][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.14.46:663][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.14.48:936][895]LogTemp: Repeting last play command: Simulate
+[2017.09.12-03.14.48:958][895]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.14.48:958][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-03.14.48:958][895]PIE: New page: SIE session: default (Sep 11, 2017, 1:14:48 PM)
+[2017.09.12-03.14.48:958][895]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.09.12-03.14.49:090][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131178s)
+[2017.09.12-03.14.49:090][895]LogAIModule: Creating AISystem for world default
+[2017.09.12-03.14.49:090][895]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2017.09.12-03.14.49:092][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.133457s)
+[2017.09.12-03.14.49:124][895]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.12-03.14.49:129][895]LogInit: FAudioDevice initialized.
+[2017.09.12-03.14.49:160][895]LogLoad: Game class is 'ViveGameMode_C'
+[2017.09.12-03.14.49:170][895]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.09.11-20.14.49
+[2017.09.12-03.14.49:171][895]LogWorld: Bringing up level for play took: 0.009742
+[2017.09.12-03.14.49:171][895]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.12-03.14.49:171][895]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.14.49:174][895]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.14.49:174][895]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.453
+[2017.09.12-03.14.49:181][895]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.14.50:993][ 98]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.09.12-03.14.51:501][159]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.09.12-03.15.54:592][595]LogEditorViewport: Clicking on Actor (LMB): BatteringRamOld_C (BatteringRamOld)
+[2017.09.12-03.16.18:371][244]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.09.12-03.16.19:961][370]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2017.09.12-03.16.31:222][379]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.16.31:283][379]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.17.11:082][133]BlueprintLog: New page: Compile BatteringRamOld
+[2017.09.12-03.17.12:291][233]LogTemp: Repeting last play command: Simulate
+[2017.09.12-03.17.12:313][233]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.17.12:313][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-03.17.12:313][233]PIE: New page: SIE session: default (Sep 11, 2017, 1:17:12 PM)
+[2017.09.12-03.17.12:314][233]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.09.12-03.17.12:447][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133681s)
+[2017.09.12-03.17.12:448][233]LogAIModule: Creating AISystem for world default
+[2017.09.12-03.17.12:448][233]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2017.09.12-03.17.12:448][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.135335s)
+[2017.09.12-03.17.12:474][233]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.12-03.17.12:479][233]LogInit: FAudioDevice initialized.
+[2017.09.12-03.17.12:521][233]LogLoad: Game class is 'ViveGameMode_C'
+[2017.09.12-03.17.12:530][233]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.09.11-20.17.12
+[2017.09.12-03.17.12:531][233]LogWorld: Bringing up level for play took: 0.009350
+[2017.09.12-03.17.12:531][233]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.12-03.17.12:531][233]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.17.12:535][233]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.12-03.17.12:535][233]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.908
+[2017.09.12-03.17.12:545][233]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.17.14:111][379]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.09.12-03.17.14:615][420]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.09.12-03.30.44:240][ 39]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.30.44:299][ 39]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.09.12-03.50.41:317][337]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2017.09.12-03.50.42:214][440]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.09.12-03.50.48:735][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.12-03.50.50:280][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.12-03.50.51:498][523]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.12-03.50.53:930][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.12-03.50.54:988][920]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.12-03.51.02:198][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Maps/default" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Maps/default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.12-03.51.05:025][751]LogSavePackage: Save=2790.89ms
+[2017.09.12-03.51.05:025][751]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/defaultF8A641684519F70A1DCDF4977C83D4E8.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Maps/default.umap'
+[2017.09.12-03.51.05:030][751]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Maps/default.umap
+[2017.09.12-03.51.05:055][751]LogFileHelpers: Saving map 'default' took 2.899
+[2017.09.12-03.51.05:058][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/AI/Catapult" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/Catapult.uasset" SILENT=true
+[2017.09.12-03.51.05:177][751]LogSavePackage: Save=114.99ms
+[2017.09.12-03.51.05:177][751]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Catapult01895DBE4CC99AF537FE40B37B5FC345.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/Catapult.uasset'
+[2017.09.12-03.51.05:178][751]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/Catapult.uasset
+[2017.09.12-03.51.05:190][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/AI/BatteringRamOld" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/BatteringRamOld.uasset" SILENT=true
+[2017.09.12-03.51.05:308][751]LogSavePackage: Save=112.41ms
+[2017.09.12-03.51.05:308][751]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BatteringRamOldEBEB2A15480E414BABC4A1B4285E70CD.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/BatteringRamOld.uasset'
+[2017.09.12-03.51.05:309][751]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/BatteringRamOld.uasset
