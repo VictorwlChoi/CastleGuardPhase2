@@ -1,0 +1,1761 @@
+﻿Log file open, 10/31/17 15:55:27
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1170339053) SRandInit(1170339053).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.536612
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.31-22.55.27:861][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.31-22.55.27:861][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.31-22.55.27:896][  0]LogInit: Computer: LCIVAN-238-00
+[2017.10.31-22.55.27:896][  0]LogInit: User: studentuser
+[2017.10.31-22.55.27:896][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.31-22.55.27:896][  0]LogInit: High frequency timer resolution =4.101565 MHz
+[2017.10.31-22.55.27:896][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.31-22.55.27:896][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.31-22.55.27:896][  0]LogMemory: Process Physical Memory: 276.80 MB used, 276.80 MB peak
+[2017.10.31-22.55.27:896][  0]LogMemory: Process Virtual Memory: 272.73 MB used, 272.73 MB peak
+[2017.10.31-22.55.27:896][  0]LogMemory: Physical Memory: 5780.50 MB used,  10502.95 MB free, 16283.45 MB total
+[2017.10.31-22.55.27:896][  0]LogMemory: Virtual Memory: 650.96 MB used,  10502.95 MB free, 134217728.00 MB total
+[2017.10.31-22.55.28:126][  0]LogInit: Using OS detected language (en-US).
+[2017.10.31-22.55.28:126][  0]LogInit: Using OS detected locale (en-CA).
+[2017.10.31-22.55.28:170][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.31-22.55.31:109][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.31-22.55.31:150][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.10.31-22.55.31:150][  0]LogD3D11RHI:       8120/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.31-22.55.31:156][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.10.31-22.55.31:156][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.31-22.55.31:157][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.31-22.55.31:157][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.31-22.55.31:157][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.31-22.55.31:164][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.31-22.55.31:164][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.31-22.55.31:164][  0]LogWindows: EnumDisplayDevices:
+[2017.10.31-22.55.31:164][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.10.31-22.55.31:164][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.31-22.55.31:164][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.31-22.55.31:164][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.31-22.55.31:164][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.10.31-22.55.31:164][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.10.31-22.55.31:164][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.10.31-22.55.31:164][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.31-22.55.31:164][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.10.31-22.55.31:165][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.10.31-22.55.31:165][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.10.31-22.55.31:168][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.31-22.55.31:197][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.31-22.55.31:239][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.31-22.55.31:299][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/15116/).
+[2017.10.31-22.55.31:299][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/842444C74ADBE409197BDE8697B632AD/'.
+[2017.10.31-22.55.31:299][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.31-22.55.32:899][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.31-22.55.32:935][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.31-22.55.32:981][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.31-22.55.33:017][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.31-22.55.33:058][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.31-22.55.33:095][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.31-22.55.33:132][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.31-22.55.33:169][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.31-22.55.33:202][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.31-22.55.33:241][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.31-22.55.33:278][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.31-22.55.33:317][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.31-22.55.33:355][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.31-22.55.33:392][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.31-22.55.33:428][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.31-22.55.33:501][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.31-22.55.33:501][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.31-22.55.33:529][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.31-22.55.33:617][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.31-22.55.33:639][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.31-22.55.33:678][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.31-22.55.33:717][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.31-22.55.33:753][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.31-22.55.33:792][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.31-22.55.33:792][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.31-22.55.34:286][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.31-22.55.34:728][  0]LogDerivedDataCache: Loaded boot cache 0.44s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.31-22.55.34:728][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.31-22.55.34:729][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.31-22.55.34:729][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.31-22.55.34:729][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.31-22.55.34:729][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.31-22.55.34:749][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.31-22.55.34:762][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.31-22.55.34:786][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.31-22.55.34:790][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.31-22.55.34:803][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.31-22.55.34:803][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.31-22.55.35:441][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.31-22.55.35:590][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.31-22.55.35:809][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.31-22.55.35:850][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.31-22.55.35:889][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.31-22.55.35:889][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.31-22.55.35:889][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.31-22.55.37:088][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.10.31-22.55.37:186][  0]LogAssetRegistry: FAssetRegistry took 0.0290 seconds to start up
+[2017.10.31-22.55.37:272][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.054991 seconds
+[2017.10.31-22.55.37:276][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.31-22.55.37:276][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.10.31-22.55.37:276][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.31-22.55.37:327][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.31-22.55.42:186][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.31-22.55.42:223][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.31-22.55.42:788][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.31-22.55.43:285][  0]SourceControl: Info Source control is disabled
+[2017.10.31-22.55.43:356][  0]SourceControl: Info Source control is disabled
+[2017.10.31-22.55.43:397][  0]SourceControl: Info Source control is disabled
+[2017.10.31-22.55.43:436][  0]SourceControl: Info Source control is disabled
+[2017.10.31-22.55.44:016][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.31-22.55.44:552][  0]LogEngine: Initializing Engine...
+[2017.10.31-22.55.47:017][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.10.31-22.55.47:670][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.31-22.55.47:670][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.31-22.55.47:825][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.31-22.55.47:846][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.31-22.55.47:870][  0]LogInit: FAudioDevice initialized.
+[2017.10.31-22.55.47:920][  0]LogDerivedDataCache: Saved boot cache 0.05s 103MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.31-22.55.47:942][  0]LogInit: Texture streaming: Enabled
+[2017.10.31-22.55.48:035][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.31-22.55.48:260][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.31-22.55.48:293][  0]LogInit: Transaction tracking system initialized
+[2017.10.31-22.55.48:618][  0]BlueprintLog: New page: Editor Load
+[2017.10.31-22.55.49:590][  0]LocalizationService: Info Localization service is disabled
+[2017.10.31-22.55.50:273][  0]LogConsoleResponse:Display: 
+[2017.10.31-22.55.50:704][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.31-22.55.50:704][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.31-22.55.51:737][  0]SourceControl: Info Source control is disabled
+[2017.10.31-22.55.51:738][  0]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.31-22.55.51:799][  0]LightingResults: New page: Lighting Build
+[2017.10.31-22.55.51:842][  0]MapCheck: New page: Map Check
+[2017.10.31-22.55.51:842][  0]LightingResults: New page: Lighting Build
+[2017.10.31-22.55.55:790][  0]LogTexture:Display: Building textures: Paladin_specular (AutoDXT, 2048X2048)
+[2017.10.31-22.55.56:732][  0]LogTexture:Display: Building textures: Paladin_normal (BC5, 2048X2048)
+[2017.10.31-22.55.57:101][  0]LogStaticMesh: Building static mesh MergedRam...
+[2017.10.31-22.56.00:194][  0]LogStaticMesh: Built static mesh [3.09s] /Game/StaticMeshes/MergedRam.MergedRam
+[2017.10.31-22.56.00:390][  0]LogMaterial: Missing cached shader map for material initialShadingGroup, compiling. 
+[2017.10.31-22.56.00:438][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Working_On_Device.Working_On_Device
+[2017.10.31-22.56.00:457][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Pushing_In_Place.Pushing_In_Place
+[2017.10.31-22.56.00:463][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/sword_and_shield_slash.sword_and_shield_slash
+[2017.10.31-22.56.00:468][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Sword_And_Shield_Run_In_Place.Sword_And_Shield_Run_In_Place
+[2017.10.31-22.56.00:470][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/sword_and_shield_idle.sword_and_shield_idle
+[2017.10.31-22.56.00:503][  0]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.10.31-22.56.00:514][  0]LogStaticMesh: Building static mesh Merged_Catapult_mesh...
+[2017.10.31-22.56.00:955][  0]LogStaticMesh: Built static mesh [0.44s] /Game/StaticMeshes/Merged_Catapult_mesh.Merged_Catapult_mesh
+[2017.10.31-22.56.01:131][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_Erika/Animations/standing_Run_In_Place.standing_Run_In_Place
+[2017.10.31-22.56.01:137][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_Erika/Animations/Shooting_Arrow_Anim.Shooting_Arrow_Anim
+[2017.10.31-22.56.01:163][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.10.31-22.56.01:472][  0]LogTexture:Display: Building textures: Erika_Archer_Clothes_normal (BC5, 2048X2048)
+[2017.10.31-22.56.02:149][  0]LogTexture:Display: Building textures: Erika_Archer_Clothes_diffuse (AutoDXT, 2048X2048)
+[2017.10.31-22.56.03:258][  0]LogMaterial: Missing cached shader map for material Akai_MAT, compiling. 
+[2017.10.31-22.56.03:527][  0]LogTexture:Display: Building textures: FemaleFitA_Body_diffuse (AutoDXT, 2048X2048)
+[2017.10.31-22.56.05:663][  0]LogMaterial: Missing cached shader map for material Lashes_MAT, compiling. 
+[2017.10.31-22.56.05:903][  0]LogTexture:Display: Building textures: FemaleFitA_StdNM (BC5, 2048X2048)
+[2017.10.31-22.56.06:484][  0]LogMaterial: Missing cached shader map for material EyeSpec_MAT, compiling. 
+[2017.10.31-22.56.06:729][  0]LogTexture:Display: Building textures: Bow_NM (BC5, 2048X2048)
+[2017.10.31-22.56.07:462][  0]LogTexture:Display: Building textures: Bow_DIFF (AutoDXT, 2048X2048)
+[2017.10.31-22.56.09:134][  0]LogMaterial: Missing cached shader map for material Bow_MAT, compiling. 
+[2017.10.31-22.56.09:176][  0]LogMaterial: Missing cached shader map for material Body_MAT, compiling. 
+[2017.10.31-22.56.09:264][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.10.31-22.56.09:448][  0]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 64X64)
+[2017.10.31-22.56.09:562][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.10.31-22.56.09:704][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2017.10.31-22.56.09:812][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2017.10.31-22.56.10:018][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2017.10.31-22.56.10:105][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2017.10.31-22.56.10:250][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 512X512)
+[2017.10.31-22.56.10:353][  0]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 512X512)
+[2017.10.31-22.56.10:412][  0]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2017.10.31-22.56.10:453][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.10.31-22.56.10:515][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 64X64)
+[2017.10.31-22.56.10:534][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.10.31-22.56.10:652][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2017.10.31-22.56.10:788][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2017.10.31-22.56.10:927][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2017.10.31-22.56.11:058][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2017.10.31-22.56.11:172][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 512X512)
+[2017.10.31-22.56.11:241][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 512X512)
+[2017.10.31-22.56.11:281][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2017.10.31-22.56.11:313][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.10.31-22.56.11:412][  0]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 64X32)
+[2017.10.31-22.56.11:423][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2017.10.31-22.56.11:510][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2017.10.31-22.56.11:599][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512)
+[2017.10.31-22.56.11:700][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 1024X512)
+[2017.10.31-22.56.11:783][  0]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 1024X512)
+[2017.10.31-22.56.11:863][  0]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 512X256)
+[2017.10.31-22.56.11:911][  0]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 512X256)
+[2017.10.31-22.56.11:939][  0]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128)
+[2017.10.31-22.56.11:964][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
+[2017.10.31-22.56.11:985][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X256)
+[2017.10.31-22.56.11:995][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X256)
+[2017.10.31-22.56.12:005][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X256)
+[2017.10.31-22.56.12:015][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X256)
+[2017.10.31-22.56.12:025][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X256)
+[2017.10.31-22.56.12:035][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 512X128)
+[2017.10.31-22.56.12:037][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 1024X128)
+[2017.10.31-22.56.12:042][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
+[2017.10.31-22.56.12:192][  0]LogTexture:Display: Building textures: Paladin_diffuse (AutoDXT, 2048X2048)
+[2017.10.31-22.56.13:133][  0]LogMaterial: Missing cached shader map for material Paladin_MAT, compiling. 
+[2017.10.31-22.56.13:618][  0]LogAIModule: Creating AISystem for world default
+[2017.10.31-22.56.15:096][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.31-22.56.15:248][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.31-22.56.15:322][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.502ms to complete.
+[2017.10.31-22.56.15:322][  0]LogFileHelpers: Loading map 'default' took 23.584
+[2017.10.31-22.56.15:758][  0]LogCollectionManager: Loaded 0 collections in 0.003070 seconds
+[2017.10.31-22.56.15:877][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.10.31-22.56.15:877][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.10.31-22.56.15:877][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.10.31-22.56.15:877][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.31-22.56.15:891][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2330 classes and 494 folders.
+[2017.10.31-22.56.16:002][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.31-22.56.16:490][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2017.10.31-22.56.16:594][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.10.31-22.56.16:748][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.31-22.56.16:768][  0]LogSlate: Took 0.008335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.31-22.56.16:778][  0]LogSlate: Took 0.007378 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.31-22.56.16:792][  0]LogSlate: Took 0.006756 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.31-22.56.16:799][  0]LogSlate: Took 0.006657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.10.31-22.56.17:061][  0]LogRenderer: Reallocating scene render targets to support 1196x576 NumSamples 1 (Frame:1).
+[2017.10.31-22.56.17:318][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.31-22.56.17:449][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.31-22.56.17:450][  0]LogLoad: (Engine Initialization) Total time: 52.44 seconds
+[2017.10.31-22.56.17:450][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.66 seconds
+[2017.10.31-22.56.17:450][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.31-22.56.17:450][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.31-22.56.17:790][  0]LogOcInput: OculusInput pre-init called
+[2017.10.31-22.56.17:790][  0]LogHMD: Starting GearVRController plugin
+[2017.10.31-22.56.17:790][  0]LogSteamVRController: Controller role for device 1 is 2 (invalid=0, left=1, right=2).
+[2017.10.31-22.56.17:791][  0]LogSteamVRController:Warning: Controller device 1 is being assigned to its prefered role 'right'.
+[2017.10.31-22.56.17:791][  0]LogSteamVRController: Controller device 1 is being assigned unreal hand 1 (left=0, right=1).
+[2017.10.31-22.56.17:791][  0]LogSteamVRController: Controller role for device 2 is 1 (invalid=0, left=1, right=2).
+[2017.10.31-22.56.17:791][  0]LogSteamVRController: Putting controller 2 on the left hand because there is already a controller for the right.
+[2017.10.31-22.56.17:791][  0]LogSteamVRController: Controller device 2 is being assigned unreal hand 0 (left=0, right=1).
+[2017.10.31-22.56.17:826][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.31-22.56.18:139][  1]LogAssetRegistry: Asset discovery search completed in 40.9760 seconds
+[2017.10.31-22.56.18:143][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.31-22.56.18:143][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000265 seconds (updated 0 objects)
+[2017.10.31-22.56.18:798][  3]LogSlate: Took 0.005847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.31-22.56.23:324][ 54]LogStreaming:Warning: Failed to open ANSI TEXT file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/HardwareSurvey/dxdiag.txt
+[2017.10.31-22.56.23:334][ 55]LogStreaming:Warning: Failed to open ANSI TEXT file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/HardwareSurvey/dxdiag.txt
+[2017.10.31-22.56.23:347][ 56]LogStreaming:Warning: Failed to open ANSI TEXT file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/HardwareSurvey/dxdiag.txt
+[2017.10.31-22.56.23:356][ 57]LogStreaming:Warning: Failed to open ANSI TEXT file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/HardwareSurvey/dxdiag.txt
+[2017.10.31-22.56.23:400][ 58]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2017.10.31-22.56.23:400][ 58]LogSynthBenchmark:Display: ===============
+[2017.10.31-22.56.23:400][ 58]LogSynthBenchmark:Display: Main Processor:
+[2017.10.31-22.56.23:579][ 58]LogSynthBenchmark:Display:          ... 0.019873 s/Run 'RayIntersect'
+[2017.10.31-22.56.23:579][ 58]LogSynthBenchmark:Display:          ... 0.015904 s/Run 'Fractal'
+[2017.10.31-22.56.23:579][ 58]LogSynthBenchmark:Display: 
+[2017.10.31-22.56.23:579][ 58]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 16
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display:   NumberOfCores (logical): 8
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display:   CPU Perf Index 0: 128.9 (weight 1.00)
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display:   CPU Perf Index 1: 179.8 (weight 1.50)
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display:  
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display: Graphics:
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 1070'
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display:   Vendor Id: 0x10DE
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display:   Device Id: 0x1B81
+[2017.10.31-22.56.23:580][ 58]LogSynthBenchmark:Display:   Device Revision: 0xA1
+[2017.10.31-22.56.23:581][ 58]LogSynthBenchmark:Display:   GPU Memory: 8121/0/8142 MB
+[2017.10.31-22.56.23:665][ 58]LogSynthBenchmark:Display:   GPU first test: 0.01s
+[2017.10.31-22.56.23:665][ 58]LogSynthBenchmark:Display:          ... 8.476 s/GigaPix, Confidence=89% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2017.10.31-22.56.23:665][ 58]LogSynthBenchmark:Display:          ... 8.020 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2017.10.31-22.56.23:665][ 58]LogSynthBenchmark:Display:          ... 6.697 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2017.10.31-22.56.23:665][ 58]LogSynthBenchmark:Display:          ... 29.097 s/GigaPix, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2017.10.31-22.56.23:666][ 58]LogSynthBenchmark:Display:          ... 1.195 s/GigaPix, Confidence=89% 'Bandwidth' (likely to be very inaccurate)
+[2017.10.31-22.56.23:666][ 58]LogSynthBenchmark:Display:          ... 16.046 s/GigaVert, Confidence=60% 'VertThroughPut1' (likely to be very inaccurate)
+[2017.10.31-22.56.23:666][ 58]LogSynthBenchmark:Display:          ... 6.752 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2017.10.31-22.56.23:822][ 58]LogSynthBenchmark:Display:   GPU second test: 0.09s
+[2017.10.31-22.56.23:823][ 58]LogSynthBenchmark:Display:          ... 12.478 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2017.10.31-22.56.23:823][ 58]LogSynthBenchmark:Display:          ... 10.337 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2017.10.31-22.56.23:823][ 58]LogSynthBenchmark:Display:          ... 9.464 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be inaccurate)
+[2017.10.31-22.56.23:823][ 58]LogSynthBenchmark:Display:          ... 55.733 s/GigaPix, Confidence=89% 'FillOnly' (likely to be inaccurate)
+[2017.10.31-22.56.23:823][ 58]LogSynthBenchmark:Display:          ... 1.270 s/GigaPix, Confidence=89% 'Bandwidth' (likely to be inaccurate)
+[2017.10.31-22.56.23:823][ 58]LogSynthBenchmark:Display:          ... 6.140 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be inaccurate)
+[2017.10.31-22.56.23:824][ 58]LogSynthBenchmark:Display:          ... 5.326 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2017.10.31-22.56.24:644][ 58]LogSynthBenchmark:Display:   GPU third test: 0.76s
+[2017.10.31-22.56.24:644][ 58]LogSynthBenchmark:Display:          ... 16.362 s/GigaPix, Confidence=89% 'ALUHeavyNoise'
+[2017.10.31-22.56.24:645][ 58]LogSynthBenchmark:Display:          ... 13.117 s/GigaPix, Confidence=89% 'TexHeavy'
+[2017.10.31-22.56.24:645][ 58]LogSynthBenchmark:Display:          ... 12.345 s/GigaPix, Confidence=81% 'DepTexHeavy'
+[2017.10.31-22.56.24:645][ 58]LogSynthBenchmark:Display:          ... 78.102 s/GigaPix, Confidence=89% 'FillOnly'
+[2017.10.31-22.56.24:645][ 58]LogSynthBenchmark:Display:          ... 1.459 s/GigaPix, Confidence=100% 'Bandwidth'
+[2017.10.31-22.56.24:645][ 58]LogSynthBenchmark:Display:          ... 4.419 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2017.10.31-22.56.24:645][ 58]LogSynthBenchmark:Display:          ... 6.045 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2017.10.31-22.56.24:645][ 58]LogSynthBenchmark:Display:   GPU Final Results:
+[2017.10.31-22.56.24:645][ 58]LogSynthBenchmark:Display:          ... 16.362 s/GigaPix, Confidence=89% 'ALUHeavyNoise'
+[2017.10.31-22.56.24:645][ 58]LogSynthBenchmark:Display:          ... 13.117 s/GigaPix, Confidence=89% 'TexHeavy'
+[2017.10.31-22.56.24:645][ 58]LogSynthBenchmark:Display:          ... 12.345 s/GigaPix, Confidence=81% 'DepTexHeavy'
+[2017.10.31-22.56.24:645][ 58]LogSynthBenchmark:Display:          ... 78.102 s/GigaPix, Confidence=89% 'FillOnly'
+[2017.10.31-22.56.24:645][ 58]LogSynthBenchmark:Display:          ... 1.459 s/GigaPix, Confidence=100% 'Bandwidth'
+[2017.10.31-22.56.24:645][ 58]LogSynthBenchmark:Display:          ... 4.419 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2017.10.31-22.56.24:646][ 58]LogSynthBenchmark:Display:          ... 6.045 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2017.10.31-22.56.24:646][ 58]LogSynthBenchmark:Display: 
+[2017.10.31-22.56.24:646][ 58]LogSynthBenchmark:Display:   GPU Perf Index 0: 355.6 (weight 1.00)
+[2017.10.31-22.56.24:646][ 58]LogSynthBenchmark:Display:   GPU Perf Index 1: 176.1 (weight 0.10)
+[2017.10.31-22.56.24:646][ 58]LogSynthBenchmark:Display:   GPU Perf Index 2: 320.9 (weight 0.10)
+[2017.10.31-22.56.24:646][ 58]LogSynthBenchmark:Display:   GPU Perf Index 3: 306.7 (weight 3.00)
+[2017.10.31-22.56.24:646][ 58]LogSynthBenchmark:Display:   GPU Perf Index 4: 136.1 (weight 1.00)
+[2017.10.31-22.56.24:646][ 58]LogSynthBenchmark:Display:   GPU Perf Index 5: 287.5 (weight 0.00)
+[2017.10.31-22.56.24:646][ 58]LogSynthBenchmark:Display:   GPU Perf Index 6: 342.1 (weight 0.00)
+[2017.10.31-22.56.24:646][ 58]LogSynthBenchmark:Display:   CPUIndex: 159.4
+[2017.10.31-22.56.24:646][ 58]LogSynthBenchmark:Display:   GPUIndex: 281.1
+[2017.10.31-22.56.24:646][ 58]LogSynthBenchmark:Display: 
+[2017.10.31-22.56.24:646][ 58]LogSynthBenchmark:Display:          ... Total Time: 1.246696 sec
+[2017.10.31-22.56.28:180][345]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.31-22.56.28:858][345]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2017.10.31-22.56.29:825][345]LogLinker:Warning: Can't resolve asset name
+[2017.10.31-22.56.29:848][345]LogSlate: Took 0.006104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.31-22.56.30:380][346]LogSlate: Took 0.006528 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.31-22.56.41:472][956]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.56.43:996][193]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.56.45:280][334]LogTemp: Repeting last play command: VR Preview
+[2017.10.31-22.56.45:409][334]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.31-22.56.45:409][334]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-22.56.45:411][334]PIE: New page: PIE session: default (Oct 31, 2017, 8:56:45 AM)
+[2017.10.31-22.56.45:411][334]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.10.31-22.56.45:683][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.271819s)
+[2017.10.31-22.56.45:684][334]LogAIModule: Creating AISystem for world default
+[2017.10.31-22.56.45:684][334]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2017.10.31-22.56.45:685][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.273982s)
+[2017.10.31-22.56.45:711][334]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.31-22.56.45:717][334]LogInit: FAudioDevice initialized.
+[2017.10.31-22.56.45:800][334]LogLoad: Game class is 'ViveGameMode_C'
+[2017.10.31-22.56.45:811][334]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.10.31-15.56.45
+[2017.10.31-22.56.45:814][334]LogWorld: Bringing up level for play took: 0.012404
+[2017.10.31-22.56.45:850][334]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.10.31-22.56.45:850][334]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.31-22.56.45:851][334]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.31-22.56.45:851][334]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.31-22.56.45:863][334]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.31-22.56.45:867][334]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.291
+[2017.10.31-22.56.45:868][334]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.31-22.56.45:906][335]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.10.31-22.56.47:166][446]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.10.31-22.56.47:167][446]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.10.31-22.56.47:167][446]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.10.31-22.56.47:377][465]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.10.31-22.56.51:255][812]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.10.31-22.56.51:468][831]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.10.31-22.56.55:187][164]LogBlueprintUserMessages: [Catapult_C_1] Handle1
+[2017.10.31-22.56.55:187][164]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_4
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.10.31-22.56.55:187][164]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.10.31-22.56.55:400][183]LogBlueprintUserMessages: [Catapult_C_1] Handle2
+[2017.10.31-22.56.57:689][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.57:690][388]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.56.59:275][529]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle1
+[2017.10.31-22.56.59:487][548]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle2
+[2017.10.31-22.57.01:969][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:969][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:969][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:969][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:969][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:969][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:969][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:969][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:970][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:970][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:970][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:970][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:970][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:970][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:970][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.01:970][770]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:134][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:134][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:134][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:135][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:135][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:135][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:135][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:135][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:135][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:135][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:135][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:135][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:135][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:135][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:136][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.04:136][964]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:910][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:910][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:910][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:910][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:910][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:910][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:910][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:911][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:911][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:911][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:911][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:911][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:911][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:911][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:911][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.05:911][123]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:978][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.07:979][308]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:563][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:563][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:563][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:563][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:563][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:563][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:563][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:563][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:563][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:563][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:563][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:563][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:563][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:564][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:564][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.11:564][629]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:361][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:361][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:361][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:361][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:361][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:361][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:361][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:361][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:361][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:361][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:361][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:361][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:362][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:362][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:362][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.15:362][969]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.19:371][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:371][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:371][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:371][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:371][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:371][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:371][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:371][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:371][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:372][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:372][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:372][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:372][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:372][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:372][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.19:372][327]LogBlueprintUserMessages: [Vive_Pawn_605] 37.778992
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:906][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.25:907][912]LogBlueprintUserMessages: [Vive_Pawn_605] 38.763062
+[2017.10.31-22.57.33:177][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:177][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:177][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:177][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:177][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:177][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:177][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:177][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:177][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:177][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:177][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:177][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:177][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:178][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:178][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.33:178][563]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.35:546][775]LogCharacterMovement: Catapult_C_1 is stuck and failed to move! Velocity: X=228.89 Y=-328.04 Z=0.00 Location: X=14360.30 Y=12009.53 Z=458.86 Normal: X=-0.00 Y=-0.00 Z=-1.00 PenetrationDepth:22.304 Actor:BatteringRamOld_C_0 Component:StaticMesh BoneName:None (0 other events since notify)
+[2017.10.31-22.57.36:216][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.36:217][835]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:719][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:719][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:719][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:720][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:720][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:720][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:720][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:720][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:720][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:720][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:720][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:720][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:720][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:720][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:720][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.38:720][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:242][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:243][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:243][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:243][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:243][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:243][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:243][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:243][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:243][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:243][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:243][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:243][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:243][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:243][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:244][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:244][285]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.41:845][339]LogBlueprintUserMessages: [CatapultAttackPositions_71] End Overlap
+[2017.10.31-22.57.41:847][339]LogBlueprintUserMessages: [CatapultAttackPositions_71] End Overlap
+[2017.10.31-22.57.45:677][679]LogBlueprintUserMessages: [ArcherAttackPosition2_285] End Overlap
+[2017.10.31-22.57.45:832][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.45:833][693]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:450][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:450][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:450][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:450][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:451][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:451][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:451][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:451][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:451][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:451][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:451][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:451][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:451][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:451][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:451][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:451][927]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.48:706][950]LogBlueprintUserMessages: [ArcherAIArrow_C_0] ArrowHitPlayer
+[2017.10.31-22.57.48:706][950]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.57.48:706][950]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.57.48:706][950]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.57.48:706][950]LogBlueprintUserMessages: [ArcherAIArrow_C_0] 0.0
+[2017.10.31-22.57.50:112][ 76]LogBlueprintUserMessages: [ArcherAIArrow_C_1] ArrowHitPlayer
+[2017.10.31-22.57.50:112][ 76]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.57.50:112][ 76]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.57.50:112][ 76]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.57.50:113][ 76]LogBlueprintUserMessages: [ArcherAIArrow_C_1] 0.0
+[2017.10.31-22.57.51:060][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:060][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:060][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:060][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:060][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:061][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:061][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:061][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:061][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:061][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:061][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:061][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:061][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:061][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:061][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:061][161]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.51:712][219]LogBlueprintUserMessages: [ArcherAIArrow_C_2] ArrowHitPlayer
+[2017.10.31-22.57.51:713][219]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.57.51:713][219]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_2
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.57.51:713][219]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.57.51:714][219]LogBlueprintUserMessages: [ArcherAIArrow_C_2] 0.0
+[2017.10.31-22.57.52:400][281]LogBlueprintUserMessages: [ArcherAttackPosition5_1030] End Overlap
+[2017.10.31-22.57.53:429][373]LogBlueprintUserMessages: [ArcherAIArrow_C_3] ArrowHitPlayer
+[2017.10.31-22.57.53:429][373]LogBlueprintUserMessages: [ArcherAIArrow_C_3] 75.0
+[2017.10.31-22.57.53:699][397]LogBlueprintUserMessages: [ArcherAIArrow_C_4] ArrowHitPlayer
+[2017.10.31-22.57.53:699][397]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.57.53:699][397]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_4
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.57.53:699][397]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.57.53:700][397]LogBlueprintUserMessages: [ArcherAIArrow_C_4] 0.0
+[2017.10.31-22.57.55:104][523]LogBlueprintUserMessages: [ArcherAIArrow_C_5] ArrowHitPlayer
+[2017.10.31-22.57.55:104][523]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.57.55:104][523]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_5
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.57.55:104][523]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.57.55:105][523]LogBlueprintUserMessages: [ArcherAIArrow_C_5] 0.0
+[2017.10.31-22.57.55:226][534]LogBlueprintUserMessages: [ArcherAIArrow_C_6] ArrowHitPlayer
+[2017.10.31-22.57.55:226][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.57.55:226][534]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_6
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.57.55:226][534]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.57.55:226][534]LogBlueprintUserMessages: [ArcherAIArrow_C_6] 0.0
+[2017.10.31-22.57.55:866][591]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.10.31-22.57.56:660][659]LogBlueprintUserMessages: [ArcherAIArrow_C_7] ArrowHitPlayer
+[2017.10.31-22.57.56:660][659]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.57.56:660][659]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_7
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.57.56:660][659]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.57.56:661][659]LogBlueprintUserMessages: [ArcherAIArrow_C_7] 0.0
+[2017.10.31-22.57.57:108][699]LogBlueprintUserMessages: [ArcherAIArrow_C_8] ArrowHitPlayer
+[2017.10.31-22.57.57:108][699]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.57.57:108][699]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_8
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.57.57:109][699]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.57.57:109][699]LogBlueprintUserMessages: [ArcherAIArrow_C_8] 0.0
+[2017.10.31-22.57.57:972][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:972][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:972][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:972][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:972][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:972][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:973][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:973][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:973][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:973][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:973][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:973][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:973][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:973][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:973][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.57:973][777]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.57.58:388][808]LogBlueprintUserMessages: [ArcherAIArrow_C_9] ArrowHitPlayer
+[2017.10.31-22.57.58:388][808]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.57.58:389][808]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_9
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.57.58:389][808]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.57.58:389][808]LogBlueprintUserMessages: [ArcherAIArrow_C_9] 0.0
+[2017.10.31-22.57.58:700][836]LogBlueprintUserMessages: [ArcherAIArrow_C_10] ArrowHitPlayer
+[2017.10.31-22.57.58:700][836]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.57.58:700][836]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_10
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.57.58:700][836]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.57.58:700][836]LogBlueprintUserMessages: [ArcherAIArrow_C_10] 0.0
+[2017.10.31-22.58.00:108][962]LogBlueprintUserMessages: [ArcherAIArrow_C_11] ArrowHitPlayer
+[2017.10.31-22.58.00:108][962]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.00:108][962]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_11
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.00:108][962]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.00:108][962]LogBlueprintUserMessages: [ArcherAIArrow_C_11] 0.0
+[2017.10.31-22.58.00:264][976]LogBlueprintUserMessages: [ArcherAIArrow_C_12] ArrowHitPlayer
+[2017.10.31-22.58.00:264][976]LogBlueprintUserMessages: [ArcherAIArrow_C_12] 75.0
+[2017.10.31-22.58.01:707][105]LogBlueprintUserMessages: [ArcherAIArrow_C_13] ArrowHitPlayer
+[2017.10.31-22.58.01:707][105]LogBlueprintUserMessages: [ArcherAIArrow_C_13] 50.0
+[2017.10.31-22.58.02:129][143]LogBlueprintUserMessages: [ArcherAIArrow_C_14] ArrowHitPlayer
+[2017.10.31-22.58.02:129][143]LogBlueprintUserMessages: [ArcherAIArrow_C_14] 25.0
+[2017.10.31-22.58.02:654][190]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.10.31-22.58.03:415][258]LogBlueprintUserMessages: [ArcherAIArrow_C_15] ArrowHitPlayer
+[2017.10.31-22.58.03:415][258]LogBlueprintUserMessages: [ArcherAIArrow_C_15] 0.0
+[2017.10.31-22.58.03:649][279]LogBlueprintUserMessages: [ArcherAIArrow_C_16] ArrowHitPlayer
+[2017.10.31-22.58.03:649][279]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.03:649][279]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_16
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.03:649][279]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.03:650][279]LogBlueprintUserMessages: [ArcherAIArrow_C_16] 0.0
+[2017.10.31-22.58.04:990][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:990][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:990][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:990][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:990][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:990][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:990][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:991][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:991][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:991][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:991][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:991][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:991][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:991][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:991][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.04:991][399]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.05:080][407]LogBlueprintUserMessages: [ArcherAIArrow_C_17] ArrowHitPlayer
+[2017.10.31-22.58.05:080][407]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.05:081][407]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_17
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.05:081][407]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.05:081][407]LogBlueprintUserMessages: [ArcherAIArrow_C_17] 0.0
+[2017.10.31-22.58.05:272][424]LogBlueprintUserMessages: [ArcherAIArrow_C_18] ArrowHitPlayer
+[2017.10.31-22.58.05:272][424]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.05:273][424]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_18
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.05:273][424]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.05:273][424]LogBlueprintUserMessages: [ArcherAIArrow_C_18] 0.0
+[2017.10.31-22.58.06:654][547]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.10.31-22.58.06:698][551]LogBlueprintUserMessages: [ArcherAIArrow_C_19] ArrowHitPlayer
+[2017.10.31-22.58.06:698][551]LogBlueprintUserMessages: [ArcherAIArrow_C_19] 0.0
+[2017.10.31-22.58.07:121][589]LogBlueprintUserMessages: [ArcherAIArrow_C_20] ArrowHitPlayer
+[2017.10.31-22.58.07:121][589]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.07:121][589]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_20
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.07:121][589]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.07:122][589]LogBlueprintUserMessages: [ArcherAIArrow_C_20] 0.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:284][689]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.08:408][700]LogBlueprintUserMessages: [ArcherAIArrow_C_21] ArrowHitPlayer
+[2017.10.31-22.58.08:408][700]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.08:408][700]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_21
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.08:408][700]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.08:408][700]LogBlueprintUserMessages: [ArcherAIArrow_C_21] 0.0
+[2017.10.31-22.58.08:641][721]LogBlueprintUserMessages: [ArcherAIArrow_C_22] ArrowHitPlayer
+[2017.10.31-22.58.08:641][721]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.08:641][721]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_22
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.08:641][721]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.08:642][721]LogBlueprintUserMessages: [ArcherAIArrow_C_22] 0.0
+[2017.10.31-22.58.10:094][851]LogBlueprintUserMessages: [ArcherAIArrow_C_23] ArrowHitPlayer
+[2017.10.31-22.58.10:095][851]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.10:095][851]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_23
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.10:095][851]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.10:095][851]LogBlueprintUserMessages: [ArcherAIArrow_C_23] 0.0
+[2017.10.31-22.58.10:273][867]LogBlueprintUserMessages: [ArcherAIArrow_C_24] ArrowHitPlayer
+[2017.10.31-22.58.10:273][867]LogBlueprintUserMessages: [ArcherAIArrow_C_24] -25.0
+[2017.10.31-22.58.10:663][902]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.10.31-22.58.11:680][993]LogBlueprintUserMessages: [ArcherAIArrow_C_25] ArrowHitPlayer
+[2017.10.31-22.58.11:680][993]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.11:680][993]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_25
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.11:680][993]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.11:680][993]LogBlueprintUserMessages: [ArcherAIArrow_C_25] 0.0
+[2017.10.31-22.58.12:126][ 33]LogBlueprintUserMessages: [ArcherAIArrow_C_26] ArrowHitPlayer
+[2017.10.31-22.58.12:126][ 33]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.12:126][ 33]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_26
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.12:126][ 33]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.12:126][ 33]LogBlueprintUserMessages: [ArcherAIArrow_C_26] 0.0
+[2017.10.31-22.58.13:400][147]LogBlueprintUserMessages: [ArcherAIArrow_C_27] ArrowHitPlayer
+[2017.10.31-22.58.13:400][147]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.13:400][147]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_27
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.13:400][147]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.13:401][147]LogBlueprintUserMessages: [ArcherAIArrow_C_27] 0.0
+[2017.10.31-22.58.13:644][169]LogBlueprintUserMessages: [ArcherAIArrow_C_28] ArrowHitPlayer
+[2017.10.31-22.58.13:645][169]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.13:645][169]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_28
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.13:645][169]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.13:645][169]LogBlueprintUserMessages: [ArcherAIArrow_C_28] 0.0
+[2017.10.31-22.58.14:672][261]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.10.31-22.58.15:098][297]LogBlueprintUserMessages: [ArcherAIArrow_C_29] ArrowHitPlayer
+[2017.10.31-22.58.15:099][297]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.15:099][297]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_29
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.15:099][297]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.15:099][297]LogBlueprintUserMessages: [ArcherAIArrow_C_29] 0.0
+[2017.10.31-22.58.15:265][310]LogBlueprintUserMessages: [ArcherAIArrow_C_30] ArrowHitPlayer
+[2017.10.31-22.58.15:265][310]LogBlueprintUserMessages: [ArcherAIArrow_C_30] -25.0
+[2017.10.31-22.58.15:276][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:276][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:276][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:276][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:276][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:276][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:276][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:276][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:276][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:276][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:276][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:276][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:276][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:277][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:277][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.15:277][311]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.16:694][438]LogBlueprintUserMessages: [ArcherAIArrow_C_31] ArrowHitPlayer
+[2017.10.31-22.58.16:694][438]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.16:694][438]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_31
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.16:694][438]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.16:694][438]LogBlueprintUserMessages: [ArcherAIArrow_C_31] 0.0
+[2017.10.31-22.58.17:120][476]LogBlueprintUserMessages: [ArcherAIArrow_C_32] ArrowHitPlayer
+[2017.10.31-22.58.17:120][476]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.17:121][476]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_32
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.17:121][476]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.17:121][476]LogBlueprintUserMessages: [ArcherAIArrow_C_32] 0.0
+[2017.10.31-22.58.18:415][590]LogBlueprintUserMessages: [ArcherAIArrow_C_33] ArrowHitPlayer
+[2017.10.31-22.58.18:415][590]LogBlueprintUserMessages: [ArcherAIArrow_C_33] -25.0
+[2017.10.31-22.58.18:683][613]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.10.31-22.58.18:705][615]LogBlueprintUserMessages: [ArcherAIArrow_C_34] ArrowHitPlayer
+[2017.10.31-22.58.18:705][615]LogBlueprintUserMessages: [ArcherAIArrow_C_34] -50.0
+[2017.10.31-22.58.19:051][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:051][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:052][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:052][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:052][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:052][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:052][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:052][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:052][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:052][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:052][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:052][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:052][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:052][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:052][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.19:052][645]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.20:068][736]LogBlueprintUserMessages: [ArcherAIArrow_C_35] ArrowHitPlayer
+[2017.10.31-22.58.20:068][736]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.20:068][736]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_35
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.20:068][736]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.20:069][736]LogBlueprintUserMessages: [ArcherAIArrow_C_35] 0.0
+[2017.10.31-22.58.20:268][754]LogBlueprintUserMessages: [ArcherAIArrow_C_36] ArrowHitPlayer
+[2017.10.31-22.58.20:269][754]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.20:269][754]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_36
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.20:269][754]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.20:269][754]LogBlueprintUserMessages: [ArcherAIArrow_C_36] 0.0
+[2017.10.31-22.58.21:687][877]LogBlueprintUserMessages: [ArcherAIArrow_C_37] ArrowHitPlayer
+[2017.10.31-22.58.21:687][877]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.21:687][877]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_37
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.21:687][877]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.21:687][877]LogBlueprintUserMessages: [ArcherAIArrow_C_37] 0.0
+[2017.10.31-22.58.22:134][905]LogBlueprintUserMessages: [ArcherAIArrow_C_38] ArrowHitPlayer
+[2017.10.31-22.58.22:135][905]LogBlueprintUserMessages: [ArcherAIArrow_C_38] -50.0
+[2017.10.31-22.58.22:222][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:222][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:222][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:222][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:223][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:223][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:223][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:223][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:223][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:223][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:223][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:223][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:223][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:223][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:223][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.22:223][910]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.23:407][ 15]LogBlueprintUserMessages: [ArcherAIArrow_C_39] ArrowHitPlayer
+[2017.10.31-22.58.23:407][ 15]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.23:407][ 15]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_39
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.23:407][ 15]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.23:408][ 15]LogBlueprintUserMessages: [ArcherAIArrow_C_39] 0.0
+[2017.10.31-22.58.23:697][ 41]LogBlueprintUserMessages: [ArcherAIArrow_C_40] ArrowHitPlayer
+[2017.10.31-22.58.23:697][ 41]LogBlueprintUserMessages: [ArcherAIArrow_C_40] -75.0
+[2017.10.31-22.58.24:702][125]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.10.31-22.58.25:075][152]LogBlueprintUserMessages: [ArcherAIArrow_C_41] ArrowHitPlayer
+[2017.10.31-22.58.25:075][152]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.25:075][152]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_41
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.25:075][152]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.25:075][152]LogBlueprintUserMessages: [ArcherAIArrow_C_41] 0.0
+[2017.10.31-22.58.25:284][166]LogBlueprintUserMessages: [ArcherAIArrow_C_42] ArrowHitPlayer
+[2017.10.31-22.58.25:284][166]LogBlueprintUserMessages: [ArcherAIArrow_C_42] -100.0
+[2017.10.31-22.58.25:375][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:375][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:375][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:375][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:375][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:375][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:375][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:375][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:375][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:375][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:375][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:375][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:376][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:376][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:376][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.25:376][170]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.26:669][281]LogBlueprintUserMessages: [ArcherAIArrow_C_43] ArrowHitPlayer
+[2017.10.31-22.58.26:669][281]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.26:669][281]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_43
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.26:670][281]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.26:670][281]LogBlueprintUserMessages: [ArcherAIArrow_C_43] 0.0
+[2017.10.31-22.58.27:127][322]LogBlueprintUserMessages: [ArcherAIArrow_C_44] ArrowHitPlayer
+[2017.10.31-22.58.27:127][322]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.27:127][322]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_44
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.27:128][322]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.27:128][322]LogBlueprintUserMessages: [ArcherAIArrow_C_44] 0.0
+[2017.10.31-22.58.27:706][374]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.10.31-22.58.28:389][435]LogBlueprintUserMessages: [ArcherAIArrow_C_45] ArrowHitPlayer
+[2017.10.31-22.58.28:389][435]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.28:389][435]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_45
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.28:390][435]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.28:390][435]LogBlueprintUserMessages: [ArcherAIArrow_C_45] 0.0
+[2017.10.31-22.58.28:534][448]LogBlueprintUserMessages: [Vive_Pawn_605] false
+[2017.10.31-22.58.28:702][463]LogBlueprintUserMessages: [ArcherAIArrow_C_46] ArrowHitPlayer
+[2017.10.31-22.58.28:702][463]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.28:702][463]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_46
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.28:702][463]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.28:703][463]LogBlueprintUserMessages: [ArcherAIArrow_C_46] 0.0
+[2017.10.31-22.58.30:063][585]LogBlueprintUserMessages: [ArcherAIArrow_C_47] ArrowHitPlayer
+[2017.10.31-22.58.30:064][585]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.30:064][585]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_47
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.30:064][585]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.30:064][585]LogBlueprintUserMessages: [ArcherAIArrow_C_47] 0.0
+[2017.10.31-22.58.30:255][602]LogBlueprintUserMessages: [ArcherAIArrow_C_48] ArrowHitPlayer
+[2017.10.31-22.58.30:255][602]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.30:255][602]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_48
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.30:255][602]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.30:255][602]LogBlueprintUserMessages: [ArcherAIArrow_C_48] 0.0
+[2017.10.31-22.58.30:711][643]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.10.31-22.58.31:673][729]LogBlueprintUserMessages: [ArcherAIArrow_C_49] ArrowHitPlayer
+[2017.10.31-22.58.31:673][729]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.31:673][729]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_49
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.31:673][729]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.31:673][729]LogBlueprintUserMessages: [ArcherAIArrow_C_49] 0.0
+[2017.10.31-22.58.31:762][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:762][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:762][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:762][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:762][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:763][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:763][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:763][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:763][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:763][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:763][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:763][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:763][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:763][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:763][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.31:763][737]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.32:130][770]LogBlueprintUserMessages: [ArcherAIArrow_C_50] ArrowHitPlayer
+[2017.10.31-22.58.32:130][770]LogBlueprintUserMessages: [ArcherAIArrow_C_50] -75.0
+[2017.10.31-22.58.33:393][883]LogBlueprintUserMessages: [ArcherAIArrow_C_51] ArrowHitPlayer
+[2017.10.31-22.58.33:393][883]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.33:393][883]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_51
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.33:394][883]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.33:394][883]LogBlueprintUserMessages: [ArcherAIArrow_C_51] 0.0
+[2017.10.31-22.58.33:694][910]LogBlueprintUserMessages: [ArcherAIArrow_C_52] ArrowHitPlayer
+[2017.10.31-22.58.33:694][910]LogBlueprintUserMessages: [ArcherAIArrow_C_52] -100.0
+[2017.10.31-22.58.33:717][912]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.10.31-22.58.35:057][ 32]LogBlueprintUserMessages: [ArcherAIArrow_C_53] ArrowHitPlayer
+[2017.10.31-22.58.35:057][ 32]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.35:057][ 32]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_53
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.35:057][ 32]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.35:058][ 32]LogBlueprintUserMessages: [ArcherAIArrow_C_53] 0.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:113][ 37]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.35:258][ 50]LogBlueprintUserMessages: [ArcherAIArrow_C_54] ArrowHitPlayer
+[2017.10.31-22.58.35:258][ 50]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.35:259][ 50]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_54
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.35:259][ 50]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.35:259][ 50]LogBlueprintUserMessages: [ArcherAIArrow_C_54] 0.0
+[2017.10.31-22.58.36:676][177]LogBlueprintUserMessages: [ArcherAIArrow_C_55] ArrowHitPlayer
+[2017.10.31-22.58.36:676][177]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.36:676][177]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_55
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.36:677][177]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.36:677][177]LogBlueprintUserMessages: [ArcherAIArrow_C_55] 0.0
+[2017.10.31-22.58.36:721][181]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.10.31-22.58.37:135][218]LogBlueprintUserMessages: [ArcherAIArrow_C_56] ArrowHitPlayer
+[2017.10.31-22.58.37:135][218]LogBlueprintUserMessages: [ArcherAIArrow_C_56] -100.0
+[2017.10.31-22.58.38:307][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:308][323]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-22.58.38:396][331]LogBlueprintUserMessages: [ArcherAIArrow_C_57] ArrowHitPlayer
+[2017.10.31-22.58.38:396][331]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.38:397][331]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_57
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.38:397][331]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.38:397][331]LogBlueprintUserMessages: [ArcherAIArrow_C_57] 0.0
+[2017.10.31-22.58.38:699][358]LogBlueprintUserMessages: [ArcherAIArrow_C_58] ArrowHitPlayer
+[2017.10.31-22.58.38:699][358]LogBlueprintUserMessages: [ArcherAIArrow_C_58] -125.0
+[2017.10.31-22.58.39:726][450]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.10.31-22.58.40:062][480]LogBlueprintUserMessages: [ArcherAIArrow_C_59] ArrowHitPlayer
+[2017.10.31-22.58.40:062][480]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.40:062][480]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_59
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.40:062][480]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.40:063][480]LogBlueprintUserMessages: [ArcherAIArrow_C_59] 0.0
+[2017.10.31-22.58.40:250][497]LogBlueprintUserMessages: [ArcherAIArrow_C_60] ArrowHitPlayer
+[2017.10.31-22.58.40:250][497]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.40:250][497]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_60
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.40:250][497]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.40:251][497]LogBlueprintUserMessages: [ArcherAIArrow_C_60] 0.0
+[2017.10.31-22.58.41:681][625]LogBlueprintUserMessages: [ArcherAIArrow_C_61] ArrowHitPlayer
+[2017.10.31-22.58.41:681][625]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.41:681][625]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_61
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.41:681][625]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.41:681][625]LogBlueprintUserMessages: [ArcherAIArrow_C_61] 0.0
+[2017.10.31-22.58.42:139][666]LogBlueprintUserMessages: [ArcherAIArrow_C_62] ArrowHitPlayer
+[2017.10.31-22.58.42:139][666]LogBlueprintUserMessages: [ArcherAIArrow_C_62] -125.0
+[2017.10.31-22.58.42:730][719]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.10.31-22.58.43:422][781]LogBlueprintUserMessages: [ArcherAIArrow_C_63] ArrowHitPlayer
+[2017.10.31-22.58.43:422][781]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.43:422][781]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_63
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.43:422][781]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.43:423][781]LogBlueprintUserMessages: [ArcherAIArrow_C_63] 0.0
+[2017.10.31-22.58.43:701][806]LogBlueprintUserMessages: [ArcherAIArrow_C_64] ArrowHitPlayer
+[2017.10.31-22.58.43:701][806]LogBlueprintUserMessages: [ArcherAIArrow_C_64] -150.0
+[2017.10.31-22.58.45:063][928]LogBlueprintUserMessages: [ArcherAIArrow_C_65] ArrowHitPlayer
+[2017.10.31-22.58.45:063][928]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.45:064][928]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_65
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.45:064][928]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.45:064][928]LogBlueprintUserMessages: [ArcherAIArrow_C_65] 0.0
+[2017.10.31-22.58.45:256][945]LogBlueprintUserMessages: [ArcherAIArrow_C_66] ArrowHitPlayer
+[2017.10.31-22.58.45:256][945]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.45:256][945]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_66
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.45:256][945]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.45:256][945]LogBlueprintUserMessages: [ArcherAIArrow_C_66] 0.0
+[2017.10.31-22.58.45:735][985]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.10.31-22.58.46:708][ 72]LogBlueprintUserMessages: [ArcherAIArrow_C_67] ArrowHitPlayer
+[2017.10.31-22.58.46:709][ 72]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.46:709][ 72]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_67
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.46:709][ 72]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.46:709][ 72]LogBlueprintUserMessages: [ArcherAIArrow_C_67] 0.0
+[2017.10.31-22.58.47:131][109]LogBlueprintUserMessages: [ArcherAIArrow_C_68] ArrowHitPlayer
+[2017.10.31-22.58.47:131][109]LogBlueprintUserMessages: [ArcherAIArrow_C_68] -150.0
+[2017.10.31-22.58.48:427][225]LogBlueprintUserMessages: [ArcherAIArrow_C_69] ArrowHitPlayer
+[2017.10.31-22.58.48:427][225]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.48:427][225]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_69
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.48:427][225]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.48:428][225]LogBlueprintUserMessages: [ArcherAIArrow_C_69] 0.0
+[2017.10.31-22.58.48:694][249]LogBlueprintUserMessages: [ArcherAIArrow_C_70] ArrowHitPlayer
+[2017.10.31-22.58.48:694][249]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.48:694][249]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_70
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.48:694][249]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.48:695][249]LogBlueprintUserMessages: [ArcherAIArrow_C_70] 0.0
+[2017.10.31-22.58.48:739][253]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.10.31-22.58.50:100][375]LogBlueprintUserMessages: [ArcherAIArrow_C_71] ArrowHitPlayer
+[2017.10.31-22.58.50:100][375]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.50:101][375]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_71
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.50:101][375]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.50:101][375]LogBlueprintUserMessages: [ArcherAIArrow_C_71] 0.0
+[2017.10.31-22.58.50:280][391]LogBlueprintUserMessages: [ArcherAIArrow_C_72] ArrowHitPlayer
+[2017.10.31-22.58.50:280][391]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.50:280][391]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_72
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.50:280][391]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.50:280][391]LogBlueprintUserMessages: [ArcherAIArrow_C_72] 0.0
+[2017.10.31-22.58.51:743][522]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.10.31-22.58.53:429][673]LogBlueprintUserMessages: [ArcherAIArrow_C_75] ArrowHitPlayer
+[2017.10.31-22.58.53:429][673]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.53:430][673]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_75
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.53:430][673]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.53:430][673]LogBlueprintUserMessages: [ArcherAIArrow_C_75] 0.0
+[2017.10.31-22.58.53:696][697]LogBlueprintUserMessages: [ArcherAIArrow_C_76] ArrowHitPlayer
+[2017.10.31-22.58.53:697][697]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.53:697][697]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_76
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.53:697][697]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.53:697][697]LogBlueprintUserMessages: [ArcherAIArrow_C_76] 0.0
+[2017.10.31-22.58.54:747][791]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.10.31-22.58.55:127][825]LogBlueprintUserMessages: [ArcherAIArrow_C_77] ArrowHitPlayer
+[2017.10.31-22.58.55:127][825]LogBlueprintUserMessages: [ArcherAIArrow_C_77] -150.0
+[2017.10.31-22.58.55:261][837]LogBlueprintUserMessages: [ArcherAIArrow_C_78] ArrowHitPlayer
+[2017.10.31-22.58.55:261][837]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-22.58.55:261][837]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_78
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-22.58.55:262][837]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-22.58.55:262][837]LogBlueprintUserMessages: [ArcherAIArrow_C_78] 0.0
+[2017.10.31-22.58.55:988][902]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.31-22.58.56:163][902]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.31-23.00.41:877][253]LogTemp: Repeting last play command: VR Preview
+[2017.10.31-23.00.41:901][253]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.31-23.00.41:901][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-23.00.41:901][253]PIE: New page: PIE session: default (Oct 31, 2017, 9:00:41 AM)
+[2017.10.31-23.00.41:902][253]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.10.31-23.00.42:087][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.185167s)
+[2017.10.31-23.00.42:088][253]LogAIModule: Creating AISystem for world default
+[2017.10.31-23.00.42:089][253]LogPlayLevel: PIE: World Init took: (0.001499s)
+[2017.10.31-23.00.42:089][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.187710s)
+[2017.10.31-23.00.42:116][253]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.31-23.00.42:124][253]LogInit: FAudioDevice initialized.
+[2017.10.31-23.00.42:198][253]LogLoad: Game class is 'ViveGameMode_C'
+[2017.10.31-23.00.42:209][253]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.10.31-16.00.42
+[2017.10.31-23.00.42:211][253]LogWorld: Bringing up level for play took: 0.011393
+[2017.10.31-23.00.42:211][253]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.31-23.00.42:211][253]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.31-23.00.42:211][253]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.31-23.00.42:217][253]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.31-23.00.42:224][253]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.066
+[2017.10.31-23.00.42:224][253]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.31-23.00.43:539][368]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.10.31-23.00.43:540][368]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.10.31-23.00.43:540][368]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.10.31-23.00.43:752][387]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.10.31-23.00.47:617][733]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.10.31-23.00.47:840][753]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.10.31-23.00.51:561][ 86]LogBlueprintUserMessages: [Catapult_C_1] Handle1
+[2017.10.31-23.00.51:561][ 86]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_4
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.10.31-23.00.51:561][ 86]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.10.31-23.00.51:773][105]LogBlueprintUserMessages: [Catapult_C_1] Handle2
+[2017.10.31-23.00.52:108][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.31-23.00.52:292][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.31-23.01.11:728][159]LogTemp: Repeting last play command: VR Preview
+[2017.10.31-23.01.11:749][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.31-23.01.11:750][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-23.01.11:750][159]PIE: New page: PIE session: default (Oct 31, 2017, 9:01:11 AM)
+[2017.10.31-23.01.11:750][159]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.10.31-23.01.11:901][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.151212s)
+[2017.10.31-23.01.11:902][159]LogAIModule: Creating AISystem for world default
+[2017.10.31-23.01.11:902][159]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2017.10.31-23.01.11:903][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.153218s)
+[2017.10.31-23.01.11:923][159]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.31-23.01.11:930][159]LogInit: FAudioDevice initialized.
+[2017.10.31-23.01.12:005][159]LogLoad: Game class is 'ViveGameMode_C'
+[2017.10.31-23.01.12:015][159]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.10.31-16.01.12
+[2017.10.31-23.01.12:016][159]LogWorld: Bringing up level for play took: 0.010765
+[2017.10.31-23.01.12:017][159]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.31-23.01.12:017][159]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.31-23.01.12:017][159]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.31-23.01.12:022][159]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.31-23.01.12:028][159]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.13
+[2017.10.31-23.01.12:029][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.31-23.01.13:395][279]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.10.31-23.01.13:396][279]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.10.31-23.01.13:396][279]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.10.31-23.01.13:609][298]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.10.31-23.01.17:474][644]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.10.31-23.01.17:687][663]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.10.31-23.01.21:408][996]LogBlueprintUserMessages: [Catapult_C_1] Handle1
+[2017.10.31-23.01.21:408][996]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_4
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.10.31-23.01.21:408][996]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.10.31-23.01.21:620][ 15]LogBlueprintUserMessages: [Catapult_C_1] Handle2
+[2017.10.31-23.01.25:495][362]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle1
+[2017.10.31-23.01.25:707][381]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle2
+[2017.10.31-23.02.01:762][609]LogCharacterMovement: Catapult_C_1 is stuck and failed to move! Velocity: X=228.82 Y=-328.08 Z=0.00 Location: X=14361.36 Y=12008.19 Z=458.56 Normal: X=-0.00 Y=-0.00 Z=-1.00 PenetrationDepth:22.832 Actor:BatteringRamOld_C_0 Component:StaticMesh BoneName:None (0 other events since notify)
+[2017.10.31-23.02.11:894][514]LogBlueprintUserMessages: [ArcherAttackPosition2_285] End Overlap
+[2017.10.31-23.02.14:924][785]LogBlueprintUserMessages: [ArcherAIArrow_C_0] ArrowHitPlayer
+[2017.10.31-23.02.14:924][785]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.02.14:924][785]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.02.14:924][785]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.02.14:925][785]LogBlueprintUserMessages: [ArcherAIArrow_C_0] 0.0
+[2017.10.31-23.02.15:995][881]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.31-23.02.16:183][881]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.31-23.02.20:777][364]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.31-23.02.36:570][104]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.02.36:571][104]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Engine/Transient.World_10:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.10.31-23.02.36:571][104]LogScript:Warning: Accessed None
+	ArcherAIArrow_C /Engine/Transient.World_10:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.10.31-23.02.48:429][410]BlueprintLog: New page: Compile BP_Arrow
+[2017.10.31-23.02.50:202][568]LogTemp: Repeting last play command: VR Preview
+[2017.10.31-23.02.50:231][568]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.31-23.02.50:231][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-23.02.50:231][568]PIE: New page: PIE session: default (Oct 31, 2017, 9:02:50 AM)
+[2017.10.31-23.02.50:231][568]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.10.31-23.02.50:380][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148716s)
+[2017.10.31-23.02.50:380][568]LogAIModule: Creating AISystem for world default
+[2017.10.31-23.02.50:381][568]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2017.10.31-23.02.50:382][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.151027s)
+[2017.10.31-23.02.50:415][568]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.31-23.02.50:423][568]LogInit: FAudioDevice initialized.
+[2017.10.31-23.02.50:502][568]LogLoad: Game class is 'ViveGameMode_C'
+[2017.10.31-23.02.50:512][568]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.10.31-16.02.50
+[2017.10.31-23.02.50:514][568]LogWorld: Bringing up level for play took: 0.011064
+[2017.10.31-23.02.50:514][568]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.31-23.02.50:514][568]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.31-23.02.50:514][568]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.31-23.02.50:518][568]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.31-23.02.50:524][568]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.366
+[2017.10.31-23.02.50:524][568]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.31-23.02.51:868][683]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.10.31-23.02.51:869][683]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.10.31-23.02.51:869][683]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.10.31-23.02.52:082][702]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.10.31-23.02.55:957][ 49]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.10.31-23.02.56:170][ 68]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.10.31-23.02.59:889][401]LogBlueprintUserMessages: [Catapult_C_1] Handle1
+[2017.10.31-23.02.59:889][401]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_4
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.10.31-23.02.59:890][401]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.10.31-23.03.00:102][420]LogBlueprintUserMessages: [Catapult_C_1] Handle2
+[2017.10.31-23.03.03:967][766]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle1
+[2017.10.31-23.03.04:190][786]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle2
+[2017.10.31-23.03.29:580][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:580][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:580][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:580][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:580][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:580][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:580][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:581][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:581][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:581][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:581][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:581][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:581][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:581][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:581][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.29:581][ 59]LogBlueprintUserMessages: [Vive_Pawn_605] 40.0
+[2017.10.31-23.03.40:246][ 14]LogCharacterMovement: Catapult_C_1 is stuck and failed to move! Velocity: X=228.85 Y=-328.06 Z=0.00 Location: X=14360.29 Y=12009.64 Z=458.83 Normal: X=-0.00 Y=-0.00 Z=-1.00 PenetrationDepth:22.599 Actor:BatteringRamOld_C_0 Component:StaticMesh BoneName:None (0 other events since notify)
+[2017.10.31-23.03.41:399][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:399][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:399][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:399][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:400][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:400][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:400][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:400][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:400][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:400][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:400][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:400][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:400][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:400][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:400][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.41:400][117]LogBlueprintUserMessages: [Vive_Pawn_605] 30.568417
+[2017.10.31-23.03.46:544][578]LogBlueprintUserMessages: [CatapultAttackPositions_71] End Overlap
+[2017.10.31-23.03.46:546][578]LogBlueprintUserMessages: [CatapultAttackPositions_71] End Overlap
+[2017.10.31-23.03.52:678][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:678][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:678][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:678][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:678][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:678][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:678][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:678][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:678][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:678][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:678][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:678][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:678][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:678][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:679][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.52:679][125]LogBlueprintUserMessages: [Vive_Pawn_605] 25.899399
+[2017.10.31-23.03.53:405][190]LogBlueprintUserMessages: [ArcherAIArrow_C_0] ArrowHitPlayer
+[2017.10.31-23.03.53:405][190]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.03.53:405][190]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.03.53:405][190]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.03.53:406][190]LogBlueprintUserMessages: [ArcherAIArrow_C_0] 0.0
+[2017.10.31-23.03.54:801][315]LogBlueprintUserMessages: [ArcherAIArrow_C_1] ArrowHitPlayer
+[2017.10.31-23.03.54:801][315]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.03.54:802][315]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.03.54:802][315]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.03.54:802][315]LogBlueprintUserMessages: [ArcherAIArrow_C_1] 0.0
+[2017.10.31-23.03.56:388][457]LogBlueprintUserMessages: [ArcherAIArrow_C_2] ArrowHitPlayer
+[2017.10.31-23.03.56:388][457]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.03.56:388][457]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_2
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.03.56:388][457]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.03.56:389][457]LogBlueprintUserMessages: [ArcherAIArrow_C_2] 0.0
+[2017.10.31-23.03.57:091][520]LogBlueprintUserMessages: [ArcherAttackPosition5_1030] End Overlap
+[2017.10.31-23.03.58:130][613]LogBlueprintUserMessages: [ArcherAIArrow_C_3] ArrowHitPlayer
+[2017.10.31-23.03.58:130][613]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.03.58:130][613]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_3
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.03.58:131][613]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.03.58:131][613]LogBlueprintUserMessages: [ArcherAIArrow_C_3] 0.0
+[2017.10.31-23.03.58:398][637]LogBlueprintUserMessages: [ArcherAIArrow_C_4] ArrowHitPlayer
+[2017.10.31-23.03.58:398][637]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.03.58:398][637]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_4
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.03.58:399][637]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.03.58:399][637]LogBlueprintUserMessages: [ArcherAIArrow_C_4] 0.0
+[2017.10.31-23.03.59:805][763]LogBlueprintUserMessages: [ArcherAIArrow_C_5] ArrowHitPlayer
+[2017.10.31-23.03.59:805][763]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.03.59:805][763]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_5
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.03.59:805][763]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.03.59:806][763]LogBlueprintUserMessages: [ArcherAIArrow_C_5] 0.0
+[2017.10.31-23.03.59:952][776]LogBlueprintUserMessages: [ArcherAIArrow_C_6] ArrowHitPlayer
+[2017.10.31-23.03.59:952][776]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.03.59:952][776]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_6
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.03.59:953][776]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.03.59:953][776]LogBlueprintUserMessages: [ArcherAIArrow_C_6] 0.0
+[2017.10.31-23.04.01:391][905]LogBlueprintUserMessages: [ArcherAIArrow_C_7] ArrowHitPlayer
+[2017.10.31-23.04.01:391][905]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.01:391][905]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_7
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.01:391][905]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.01:391][905]LogBlueprintUserMessages: [ArcherAIArrow_C_7] 0.0
+[2017.10.31-23.04.01:826][944]LogBlueprintUserMessages: [ArcherAIArrow_C_8] ArrowHitPlayer
+[2017.10.31-23.04.01:826][944]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.01:826][944]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_8
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.01:827][944]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.01:827][944]LogBlueprintUserMessages: [ArcherAIArrow_C_8] 0.0
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.02:139][972]LogBlueprintUserMessages: [Vive_Pawn_605] 30.034416
+[2017.10.31-23.04.03:123][ 60]LogBlueprintUserMessages: [ArcherAIArrow_C_9] ArrowHitPlayer
+[2017.10.31-23.04.03:123][ 60]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.03:123][ 60]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_9
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.03:123][ 60]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.03:123][ 60]LogBlueprintUserMessages: [ArcherAIArrow_C_9] 0.0
+[2017.10.31-23.04.03:401][ 85]LogBlueprintUserMessages: [ArcherAIArrow_C_10] ArrowHitPlayer
+[2017.10.31-23.04.03:402][ 85]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.03:402][ 85]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_10
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.03:402][ 85]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.03:402][ 85]LogBlueprintUserMessages: [ArcherAIArrow_C_10] 0.0
+[2017.10.31-23.04.04:808][211]LogBlueprintUserMessages: [ArcherAIArrow_C_11] ArrowHitPlayer
+[2017.10.31-23.04.04:809][211]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.04:809][211]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_11
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.04:809][211]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.04:809][211]LogBlueprintUserMessages: [ArcherAIArrow_C_11] 0.0
+[2017.10.31-23.04.04:954][224]LogBlueprintUserMessages: [ArcherAIArrow_C_12] ArrowHitPlayer
+[2017.10.31-23.04.04:954][224]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.04:954][224]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_12
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.04:954][224]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.04:954][224]LogBlueprintUserMessages: [ArcherAIArrow_C_12] 0.0
+[2017.10.31-23.04.06:294][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:294][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:294][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:294][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:294][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:294][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:295][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:295][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:295][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:295][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:295][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:295][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:295][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:295][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:295][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:295][344]LogBlueprintUserMessages: [Vive_Pawn_605] 30.376549
+[2017.10.31-23.04.06:394][353]LogBlueprintUserMessages: [ArcherAIArrow_C_13] ArrowHitPlayer
+[2017.10.31-23.04.06:394][353]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.06:394][353]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_13
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.06:395][353]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.06:395][353]LogBlueprintUserMessages: [ArcherAIArrow_C_13] 0.0
+[2017.10.31-23.04.06:830][392]LogBlueprintUserMessages: [ArcherAIArrow_C_14] ArrowHitPlayer
+[2017.10.31-23.04.06:830][392]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.06:830][392]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_14
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.06:831][392]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.06:831][392]LogBlueprintUserMessages: [ArcherAIArrow_C_14] 0.0
+[2017.10.31-23.04.07:289][433]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.10.31-23.04.08:129][508]LogBlueprintUserMessages: [ArcherAIArrow_C_15] ArrowHitPlayer
+[2017.10.31-23.04.08:129][508]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.08:129][508]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_15
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.08:130][508]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.08:130][508]LogBlueprintUserMessages: [ArcherAIArrow_C_15] 0.0
+[2017.10.31-23.04.08:393][532]LogBlueprintUserMessages: [ArcherAIArrow_C_16] ArrowHitPlayer
+[2017.10.31-23.04.08:393][532]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.08:393][532]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_16
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.08:394][532]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.08:394][532]LogBlueprintUserMessages: [ArcherAIArrow_C_16] 0.0
+[2017.10.31-23.04.09:803][658]LogBlueprintUserMessages: [ArcherAIArrow_C_17] ArrowHitPlayer
+[2017.10.31-23.04.09:803][658]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.09:803][658]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_17
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.09:804][658]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.09:804][658]LogBlueprintUserMessages: [ArcherAIArrow_C_17] 0.0
+[2017.10.31-23.04.09:957][672]LogBlueprintUserMessages: [ArcherAIArrow_C_18] ArrowHitPlayer
+[2017.10.31-23.04.09:958][672]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.09:958][672]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_18
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.09:958][672]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.09:958][672]LogBlueprintUserMessages: [ArcherAIArrow_C_18] 0.0
+[2017.10.31-23.04.11:297][792]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.10.31-23.04.11:388][800]LogBlueprintUserMessages: [ArcherAIArrow_C_19] ArrowHitPlayer
+[2017.10.31-23.04.11:388][800]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.11:388][800]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_19
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.11:389][800]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.11:389][800]LogBlueprintUserMessages: [ArcherAIArrow_C_19] 0.0
+[2017.10.31-23.04.11:834][840]LogBlueprintUserMessages: [ArcherAIArrow_C_20] ArrowHitPlayer
+[2017.10.31-23.04.11:834][840]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.11:834][840]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_20
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.11:834][840]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.11:835][840]LogBlueprintUserMessages: [ArcherAIArrow_C_20] 0.0
+[2017.10.31-23.04.13:129][956]LogBlueprintUserMessages: [ArcherAIArrow_C_21] ArrowHitPlayer
+[2017.10.31-23.04.13:129][956]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.13:129][956]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_21
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.13:129][956]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.13:130][956]LogBlueprintUserMessages: [ArcherAIArrow_C_21] 0.0
+[2017.10.31-23.04.13:398][980]LogBlueprintUserMessages: [ArcherAIArrow_C_22] ArrowHitPlayer
+[2017.10.31-23.04.13:398][980]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.13:398][980]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_22
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.13:398][980]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.13:399][980]LogBlueprintUserMessages: [ArcherAIArrow_C_22] 0.0
+[2017.10.31-23.04.14:806][106]LogBlueprintUserMessages: [ArcherAIArrow_C_23] ArrowHitPlayer
+[2017.10.31-23.04.14:807][106]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.14:807][106]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_23
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.14:807][106]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.14:807][106]LogBlueprintUserMessages: [ArcherAIArrow_C_23] 0.0
+[2017.10.31-23.04.14:958][118]LogBlueprintUserMessages: [ArcherAIArrow_C_24] ArrowHitPlayer
+[2017.10.31-23.04.14:959][118]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.14:959][118]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_24
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.14:959][118]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.14:959][118]LogBlueprintUserMessages: [ArcherAIArrow_C_24] 0.0
+[2017.10.31-23.04.15:304][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:304][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:304][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:304][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:304][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:304][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:304][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:305][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:305][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:305][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:305][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:305][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:305][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:305][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:305][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:305][149]LogBlueprintUserMessages: [Vive_Pawn_605] 27.705822
+[2017.10.31-23.04.15:305][149]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.10.31-23.04.16:388][246]LogBlueprintUserMessages: [ArcherAIArrow_C_25] ArrowHitPlayer
+[2017.10.31-23.04.16:388][246]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.16:388][246]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_25
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.16:388][246]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.16:389][246]LogBlueprintUserMessages: [ArcherAIArrow_C_25] 0.0
+[2017.10.31-23.04.16:835][286]LogBlueprintUserMessages: [ArcherAIArrow_C_26] ArrowHitPlayer
+[2017.10.31-23.04.16:835][286]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.16:835][286]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_26
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.16:835][286]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.16:836][286]LogBlueprintUserMessages: [ArcherAIArrow_C_26] 0.0
+[2017.10.31-23.04.18:134][402]LogBlueprintUserMessages: [ArcherAIArrow_C_27] ArrowHitPlayer
+[2017.10.31-23.04.18:135][402]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.18:135][402]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_27
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.18:135][402]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.18:135][402]LogBlueprintUserMessages: [ArcherAIArrow_C_27] 0.0
+[2017.10.31-23.04.18:402][426]LogBlueprintUserMessages: [ArcherAIArrow_C_28] ArrowHitPlayer
+[2017.10.31-23.04.18:402][426]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.31-23.04.18:402][426]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAIArrow_C_28
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:ExecuteUbergraph_ArcherAIArrow:00DD
+[2017.10.31-23.04.18:402][426]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ArcherAIArrow' from node: Print String in graph: EventGraph in object: ArcherAIArrow with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.10.31-23.04.18:402][426]LogBlueprintUserMessages: [ArcherAIArrow_C_28] 0.0
+[2017.10.31-23.04.19:306][507]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.10.31-23.04.19:609][513]LogD3D11RHI:Error: Result failed 
+ at D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Query.cpp:134 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_REMOVED
+[2017.10.31-23.04.19:612][513]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.10.31-23.04.37:409][513]LogCrashTracker: 
+
+
+[2017.10.31-23.04.37:415][513]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.10.31-23.04.37:416][513]LogCrashTracker: 
+
+
+[2017.10.31-23.04.37:416][513]LogWindows:Error: === Critical error: ===
+[2017.10.31-23.04.37:416][513]LogWindows:Error: 
+[2017.10.31-23.04.37:416][513]LogWindows:Error: Fatal error: [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 798] 
+[2017.10.31-23.04.37:416][513]LogWindows:Error: Rendering thread exception:
+[2017.10.31-23.04.37:416][513]LogWindows:Error: Fatal error: [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 182] 
+[2017.10.31-23.04.37:416][513]LogWindows:Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0005 - 'REMOVED')
+[2017.10.31-23.04.37:416][513]LogWindows:Error: 
+[2017.10.31-23.04.37:416][513]LogWindows:Error: 
+[2017.10.31-23.04.37:416][513]LogWindows:Error: KERNELBASE.dll!0x0000000006F09E08
+[2017.10.31-23.04.37:416][513]LogWindows:Error: UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformoutputdevices.cpp:120]
+[2017.10.31-23.04.37:416][513]LogWindows:Error: UE4Editor-Core.dll!FOutputDevice::Logf__VA() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:70]
+[2017.10.31-23.04.37:416][513]LogWindows:Error: UE4Editor-Core.dll!FDebug::AssertFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:349]
+[2017.10.31-23.04.37:416][513]LogWindows:Error: UE4Editor-D3D11RHI.dll!TerminateOnDeviceRemoved() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\windows\d3d11rhi\private\d3d11util.cpp:192]
+[2017.10.31-23.04.37:417][513]LogWindows:Error: UE4Editor-D3D11RHI.dll!VerifyD3D11Result() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\windows\d3d11rhi\private\d3d11util.cpp:231]
+[2017.10.31-23.04.37:417][513]LogWindows:Error: UE4Editor-D3D11RHI.dll!FD3D11DynamicRHI::GetQueryData() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\windows\d3d11rhi\private\d3d11query.cpp:135]
+[2017.10.31-23.04.37:417][513]LogWindows:Error: UE4Editor-D3D11RHI.dll!FD3D11DynamicRHI::RHIGetRenderQueryResult() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\windows\d3d11rhi\private\d3d11query.cpp:50]
+[2017.10.31-23.04.37:417][513]LogWindows:Error: UE4Editor-Renderer.dll!FetchVisibilityForPrimitives_Range<1>() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\scenevisibility.cpp:725]
+[2017.10.31-23.04.37:417][513]LogWindows:Error: UE4Editor-Renderer.dll!FetchVisibilityForPrimitives() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\scenevisibility.cpp:1231]
+[2017.10.31-23.04.37:417][513]LogWindows:Error: UE4Editor-Renderer.dll!OcclusionCull() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\scenevisibility.cpp:1299]
+[2017.10.31-23.04.37:417][513]LogWindows:Error: UE4Editor-Renderer.dll!FSceneRenderer::ComputeViewVisibility() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\scenevisibility.cpp:2580]
+[2017.10.31-23.04.37:417][513]LogWindows:Error: UE4Editor-Renderer.dll!FDeferredShadingSceneRenderer::InitViews() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\scenevisibility.cpp:2875]
+[2017.10.31-23.04.37:418][513]LogWindows:Error: UE4Editor-Renderer.dll!FDeferredShadingSceneRenderer::Render() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\deferredshadingrenderer.cpp:577]
+[2017.10.31-23.04.37:418][513]LogWindows:Error: UE4Editor-Renderer.dll!RenderViewFamily_RenderThread() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\scenerendering.cpp:1821]
+[2017.10.31-23.04.37:418][513]LogWindows:Error: UE4Editor-Renderer.dll!TGraphTask<`FRendererModule::BeginRenderingViewFamily'::`26'::EURCMacro_FDrawSceneCommand>::ExecuteTask() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:883]
+[2017.10.31-23.04.37:418][513]LogWindows:Error: UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:954]
+[2017.10.31-23.04.37:418][513]LogWindows:Error: UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:701]
+[2017.10.31-23.04.37:418][513]LogWindows:Error: UE4Editor-RenderCore.dll!RenderingThreadMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\rendercore\private\renderingthread.cpp:327]
+[2017.10.31-23.04.37:418][513]LogWindows:Error: UE4Editor-RenderCore.dll!FRenderingThread::Run() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\rendercore\private\renderingthread.cpp:461]
+[2017.10.31-23.04.37:418][513]LogWindows:Error: UE4Editor-Core.dll!FRunnableThreadWin::Run() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsrunnablethread.cpp:76]
+[2017.10.31-23.04.37:419][513]LogWindows:Error: UE4Editor-Core.dll!FRunnableThreadWin::GuardedRun() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsrunnablethread.cpp:33]
+[2017.10.31-23.04.37:419][513]LogWindows:Error: KERNEL32.DLL!0x0000000008FD2774
+[2017.10.31-23.04.37:419][513]LogWindows:Error: ntdll.dll!0x000000000A9F0D51
+[2017.10.31-23.04.37:419][513]LogWindows:Error: ntdll.dll!0x000000000A9F0D51
+[2017.10.31-23.04.37:419][513]LogWindows:Error: 
+[2017.10.31-23.04.37:419][513]LogWindows:Error: 
+[2017.10.31-23.04.37:419][513]LogWindows:Error: 
+[2017.10.31-23.04.37:419][513]LogWindows:Error: 
+[2017.10.31-23.04.37:433][513]LogExit: Executing StaticShutdownAfterError
+[2017.10.31-23.04.37:452][513]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.10.31-23.04.37:453][513]Log file closed, 10/31/17 16:04:37

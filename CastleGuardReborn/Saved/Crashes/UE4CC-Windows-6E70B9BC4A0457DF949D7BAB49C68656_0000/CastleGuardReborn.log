@@ -1,0 +1,979 @@
+﻿Log file open, 10/29/17 17:18:00
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1800387949) SRandInit(1800387949).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.082444
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.30-00.18.00:442][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.30-00.18.00:442][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.30-00.18.00:459][  0]LogInit: Computer: LCIVAN-238-00
+[2017.10.30-00.18.00:459][  0]LogInit: User: studentuser
+[2017.10.30-00.18.00:459][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.30-00.18.00:459][  0]LogInit: High frequency timer resolution =4.101558 MHz
+[2017.10.30-00.18.00:459][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.30-00.18.00:459][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.30-00.18.00:459][  0]LogMemory: Process Physical Memory: 275.07 MB used, 275.07 MB peak
+[2017.10.30-00.18.00:459][  0]LogMemory: Process Virtual Memory: 272.91 MB used, 272.91 MB peak
+[2017.10.30-00.18.00:459][  0]LogMemory: Physical Memory: 8268.89 MB used,  8014.55 MB free, 16283.45 MB total
+[2017.10.30-00.18.00:459][  0]LogMemory: Virtual Memory: 650.49 MB used,  8014.55 MB free, 134217728.00 MB total
+[2017.10.30-00.18.00:506][  0]LogInit: Using OS detected language (en-US).
+[2017.10.30-00.18.00:506][  0]LogInit: Using OS detected locale (en-CA).
+[2017.10.30-00.18.00:508][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.30-00.18.01:155][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.30-00.18.01:187][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.10.30-00.18.01:187][  0]LogD3D11RHI:       8120/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.30-00.18.01:193][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.10.30-00.18.01:193][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.30-00.18.01:193][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.30-00.18.01:193][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.30-00.18.01:193][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.30-00.18.01:199][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.30-00.18.01:200][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.30-00.18.01:200][  0]LogWindows: EnumDisplayDevices:
+[2017.10.30-00.18.01:200][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.10.30-00.18.01:200][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.30-00.18.01:200][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.30-00.18.01:200][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.30-00.18.01:200][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.10.30-00.18.01:200][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.10.30-00.18.01:200][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.10.30-00.18.01:200][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.30-00.18.01:200][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.10.30-00.18.01:200][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.10.30-00.18.01:200][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.10.30-00.18.01:200][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.30-00.18.01:224][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.30-00.18.01:239][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.30-00.18.01:287][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/4236/).
+[2017.10.30-00.18.01:287][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/7DACF869478B6BF59A5719B75B00B070/'.
+[2017.10.30-00.18.01:287][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.30-00.18.02:024][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.30-00.18.02:061][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.30-00.18.02:096][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.30-00.18.02:131][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.30-00.18.02:168][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.30-00.18.02:205][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.30-00.18.02:241][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.30-00.18.02:276][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.30-00.18.02:308][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.30-00.18.02:343][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.30-00.18.02:379][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.30-00.18.02:417][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.30-00.18.02:453][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.30-00.18.02:490][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.30-00.18.02:526][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.30-00.18.02:599][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.30-00.18.02:599][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.30-00.18.02:628][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.30-00.18.02:706][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.30-00.18.02:729][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.30-00.18.02:764][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.30-00.18.02:801][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.30-00.18.02:836][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.30-00.18.02:870][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.30-00.18.02:870][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.30-00.18.03:220][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.30-00.18.03:299][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.30-00.18.03:299][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.30-00.18.03:299][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.30-00.18.03:299][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.30-00.18.03:299][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.30-00.18.03:299][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.30-00.18.03:310][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.30-00.18.03:321][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.30-00.18.03:352][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.30-00.18.03:352][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.30-00.18.03:353][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.30-00.18.03:353][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.30-00.18.03:576][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.30-00.18.03:634][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.30-00.18.03:800][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.30-00.18.03:833][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.30-00.18.03:868][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.30-00.18.03:868][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.30-00.18.03:868][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.30-00.18.04:371][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.10.30-00.18.04:421][  0]LogAssetRegistry: FAssetRegistry took 0.0241 seconds to start up
+[2017.10.30-00.18.04:475][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.038033 seconds
+[2017.10.30-00.18.04:479][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.30-00.18.04:479][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.30-00.18.04:479][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.30-00.18.04:528][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.30-00.18.06:274][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.30-00.18.06:305][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.30-00.18.06:730][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.30-00.18.07:107][  0]SourceControl: Info Source control is disabled
+[2017.10.30-00.18.07:126][  0]SourceControl: Info Source control is disabled
+[2017.10.30-00.18.07:161][  0]SourceControl: Info Source control is disabled
+[2017.10.30-00.18.07:194][  0]SourceControl: Info Source control is disabled
+[2017.10.30-00.18.07:673][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.30-00.18.08:135][  0]LogEngine: Initializing Engine...
+[2017.10.30-00.18.08:168][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.10.30-00.18.08:450][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.30-00.18.08:450][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.30-00.18.08:550][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.30-00.18.08:562][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.30-00.18.08:570][  0]LogInit: FAudioDevice initialized.
+[2017.10.30-00.18.08:612][  0]LogDerivedDataCache: Saved boot cache 0.04s 103MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.30-00.18.08:630][  0]LogInit: Texture streaming: Enabled
+[2017.10.30-00.18.08:700][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.30-00.18.08:856][  0]LogInit: Transaction tracking system initialized
+[2017.10.30-00.18.09:078][  0]BlueprintLog: New page: Editor Load
+[2017.10.30-00.18.09:746][  0]LocalizationService: Info Localization service is disabled
+[2017.10.30-00.18.10:224][  0]LogConsoleResponse:Display: 
+[2017.10.30-00.18.10:437][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.30-00.18.10:437][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.30-00.18.11:150][  0]SourceControl: Info Source control is disabled
+[2017.10.30-00.18.11:151][  0]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.30-00.18.11:176][  0]LightingResults: New page: Lighting Build
+[2017.10.30-00.18.11:205][  0]MapCheck: New page: Map Check
+[2017.10.30-00.18.11:205][  0]LightingResults: New page: Lighting Build
+[2017.10.30-00.18.14:033][  0]LogTexture:Display: Building textures: FemaleFitA_Body_diffuse (AutoDXT, 2048X2048)
+[2017.10.30-00.18.15:631][  0]LogMaterial: Missing cached shader map for material Lashes_MAT, compiling. 
+[2017.10.30-00.18.15:801][  0]LogTexture:Display: Building textures: FemaleFitA_StdNM (BC5, 2048X2048)
+[2017.10.30-00.18.16:188][  0]LogMaterial: Missing cached shader map for material EyeSpec_MAT, compiling. 
+[2017.10.30-00.18.16:428][  0]LogTexture:Display: Building textures: Bow_NM (BC5, 2048X2048)
+[2017.10.30-00.18.17:151][  0]LogTexture:Display: Building textures: Bow_DIFF (AutoDXT, 2048X2048)
+[2017.10.30-00.18.18:922][  0]LogMaterial: Missing cached shader map for material Bow_MAT, compiling. 
+[2017.10.30-00.18.18:967][  0]LogMaterial: Missing cached shader map for material Body_MAT, compiling. 
+[2017.10.30-00.18.19:190][  0]LogTexture:Display: Building textures: Erika_Archer_Clothes_normal (BC5, 2048X2048)
+[2017.10.30-00.18.19:932][  0]LogTexture:Display: Building textures: Erika_Archer_Clothes_diffuse (AutoDXT, 2048X2048)
+[2017.10.30-00.18.21:050][  0]LogMaterial: Missing cached shader map for material Akai_MAT, compiling. 
+[2017.10.30-00.18.21:106][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_Erika/Animations/standing_Run_In_Place.standing_Run_In_Place
+[2017.10.30-00.18.21:177][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Working_On_Device.Working_On_Device
+[2017.10.30-00.18.21:196][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Pushing_In_Place.Pushing_In_Place
+[2017.10.30-00.18.21:204][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/sword_and_shield_slash.sword_and_shield_slash
+[2017.10.30-00.18.21:209][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Sword_And_Shield_Run_In_Place.Sword_And_Shield_Run_In_Place
+[2017.10.30-00.18.21:213][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/sword_and_shield_idle.sword_and_shield_idle
+[2017.10.30-00.18.21:336][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.10.30-00.18.21:725][  0]LogTexture:Display: Building textures: Paladin_normal (BC5, 2048X2048)
+[2017.10.30-00.18.22:367][  0]LogTexture:Display: Building textures: Paladin_specular (AutoDXT, 2048X2048)
+[2017.10.30-00.18.23:271][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_Erika/Animations/Shooting_Arrow_Anim.Shooting_Arrow_Anim
+[2017.10.30-00.18.23:413][  0]LogTexture:Display: Building textures: Paladin_diffuse (AutoDXT, 2048X2048)
+[2017.10.30-00.18.24:390][  0]LogMaterial: Missing cached shader map for material Paladin_MAT, compiling. 
+[2017.10.30-00.18.24:483][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.10.30-00.18.24:695][  0]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 64X64)
+[2017.10.30-00.18.24:725][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.10.30-00.18.24:884][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2017.10.30-00.18.25:013][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2017.10.30-00.18.25:246][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2017.10.30-00.18.25:336][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2017.10.30-00.18.25:489][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 512X512)
+[2017.10.30-00.18.25:586][  0]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 512X512)
+[2017.10.30-00.18.25:637][  0]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2017.10.30-00.18.25:675][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.10.30-00.18.25:740][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 64X64)
+[2017.10.30-00.18.25:761][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.10.30-00.18.25:879][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2017.10.30-00.18.26:019][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2017.10.30-00.18.26:158][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2017.10.30-00.18.26:288][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2017.10.30-00.18.26:417][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 512X512)
+[2017.10.30-00.18.26:487][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 512X512)
+[2017.10.30-00.18.26:529][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2017.10.30-00.18.26:561][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.10.30-00.18.26:664][  0]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 64X32)
+[2017.10.30-00.18.26:675][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2017.10.30-00.18.26:767][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2017.10.30-00.18.26:865][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512)
+[2017.10.30-00.18.26:974][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 1024X512)
+[2017.10.30-00.18.27:061][  0]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 1024X512)
+[2017.10.30-00.18.27:145][  0]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 512X256)
+[2017.10.30-00.18.27:198][  0]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 512X256)
+[2017.10.30-00.18.27:228][  0]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128)
+[2017.10.30-00.18.27:253][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
+[2017.10.30-00.18.27:272][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X256)
+[2017.10.30-00.18.27:281][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X256)
+[2017.10.30-00.18.27:290][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X256)
+[2017.10.30-00.18.27:299][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X256)
+[2017.10.30-00.18.27:308][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X256)
+[2017.10.30-00.18.27:317][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 512X128)
+[2017.10.30-00.18.27:319][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 1024X128)
+[2017.10.30-00.18.27:324][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
+[2017.10.30-00.18.27:873][  0]LogAIModule: Creating AISystem for world default
+[2017.10.30-00.18.29:783][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.30-00.18.29:932][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.30-00.18.30:005][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.793ms to complete.
+[2017.10.30-00.18.30:005][  0]LogFileHelpers: Loading map 'default' took 18.854
+[2017.10.30-00.18.30:083][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.30-00.18.30:342][  0]LogCollectionManager: Loaded 0 collections in 0.002380 seconds
+[2017.10.30-00.18.30:459][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.10.30-00.18.30:459][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.10.30-00.18.30:459][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.10.30-00.18.30:459][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.30-00.18.30:472][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2330 classes and 494 folders.
+[2017.10.30-00.18.30:563][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.10.30-00.18.31:110][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.30-00.18.31:184][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.30-00.18.31:293][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.30-00.18.31:302][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.30-00.18.31:304][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.30-00.18.31:322][  0]LogSlate: Took 0.009769 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.30-00.18.31:335][  0]LogSlate: Took 0.011398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.10.30-00.18.31:584][  0]LogRenderer: Reallocating scene render targets to support 1196x576 NumSamples 1 (Frame:1).
+[2017.10.30-00.18.31:724][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.30-00.18.31:809][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.30-00.18.31:810][  0]LogLoad: (Engine Initialization) Total time: 33.07 seconds
+[2017.10.30-00.18.31:810][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.46 seconds
+[2017.10.30-00.18.31:810][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.30-00.18.31:810][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.30-00.18.31:820][  0]LogOcInput: OculusInput pre-init called
+[2017.10.30-00.18.31:820][  0]LogHMD: Starting GearVRController plugin
+[2017.10.30-00.18.31:821][  0]LogSteamVRController: Controller role for device 1 is 2 (invalid=0, left=1, right=2).
+[2017.10.30-00.18.31:821][  0]LogSteamVRController:Warning: Controller device 1 is being assigned to its prefered role 'right'.
+[2017.10.30-00.18.31:821][  0]LogSteamVRController: Controller device 1 is being assigned unreal hand 1 (left=0, right=1).
+[2017.10.30-00.18.31:821][  0]LogSteamVRController: Controller role for device 2 is 1 (invalid=0, left=1, right=2).
+[2017.10.30-00.18.31:821][  0]LogSteamVRController: Putting controller 2 on the left hand because there is already a controller for the right.
+[2017.10.30-00.18.31:821][  0]LogSteamVRController: Controller device 2 is being assigned unreal hand 0 (left=0, right=1).
+[2017.10.30-00.18.31:866][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.30-00.18.31:957][  1]LogAssetRegistry: Asset discovery search completed in 27.5580 seconds
+[2017.10.30-00.18.31:961][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.30-00.18.31:961][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000361 seconds (updated 0 objects)
+[2017.10.30-00.18.32:870][ 82]LogSlate: Took 0.009658 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.30-00.23.47:420][352]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.10.30-00.23.47:420][352]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Engine/Transient.World_6:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.10.30-00.23.47:421][352]LogScript:Warning: Accessed None
+	ArcherAIArrow_C /Engine/Transient.World_6:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.10.30-00.23.53:184][ 37]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.30-00.27.40:207][798]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.30-00.27.40:219][798]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\CastleGuardCurrent\CastleGuardPhase2\CastleGuardReborn\Content\AnimationAssets\CustomTest\CG_ShieldCharacter_anim_pushing.fbx)
+[2017.10.30-00.27.40:238][798]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.30-00.27.40:238][798]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.30-00.27.40:238][798]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.30-00.27.40:238][798]LogFbx: ItemName: NodeAttribute, ItemCount : 42
+[2017.10.30-00.27.40:238][798]LogFbx: ItemName: Model, ItemCount : 43
+[2017.10.30-00.27.40:238][798]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.30-00.27.40:238][798]LogFbx: ItemName: AnimationCurveNode, ItemCount : 158
+[2017.10.30-00.27.40:238][798]LogFbx: ItemName: AnimationCurve, ItemCount : 244
+[2017.10.30-00.27.40:245][798]LogFbx: Loading FBX Scene from D:\CastleGuardCurrent\CastleGuardPhase2\CastleGuardReborn\Content\AnimationAssets\CustomTest\CG_ShieldCharacter_anim_pushing.fbx
+[2017.10.30-00.27.40:264][798]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.30-00.27.45:119][798]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:\CastleGuardCurrent\CastleGuardPhase2\CastleGuardReborn\Content\AnimationAssets\CustomTest\CG_ShieldCharacter_character.fbx)
+[2017.10.30-00.28.35:141][783]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\CastleGuardCurrent\CastleGuardPhase2\CastleGuardReborn\Content\AnimationAssets\CustomTest\CG_ShieldCharacter_character.fbx)
+[2017.10.30-00.28.35:146][783]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.30-00.28.35:146][783]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.30-00.28.35:146][783]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.30-00.28.35:147][783]LogFbx: ItemName: NodeAttribute, ItemCount : 38
+[2017.10.30-00.28.35:147][783]LogFbx: ItemName: Model, ItemCount : 47
+[2017.10.30-00.28.35:147][783]LogFbx: ItemName: Geometry, ItemCount : 9
+[2017.10.30-00.28.35:147][783]LogFbx: ItemName: Material, ItemCount : 1
+[2017.10.30-00.28.35:147][783]LogFbx: ItemName: AnimationCurveNode, ItemCount : 35
+[2017.10.30-00.28.35:147][783]LogFbx: ItemName: Pose, ItemCount : 9
+[2017.10.30-00.28.35:147][783]LogFbx: ItemName: Deformer, ItemCount : 122
+[2017.10.30-00.28.35:151][783]LogFbx: Loading FBX Scene from D:\CastleGuardCurrent\CastleGuardPhase2\CastleGuardReborn\Content\AnimationAssets\CustomTest\CG_ShieldCharacter_character.fbx
+[2017.10.30-00.28.35:177][783]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.30-00.28.52:226][783]LogFbx: Loading FBX Scene from D:\CastleGuardCurrent\CastleGuardPhase2\CastleGuardReborn\Content\AnimationAssets\CustomTest\CG_ShieldCharacter_character.fbx
+[2017.10.30-00.28.52:242][783]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.30-00.28.52:245][783]LogFbx: =================================================
+[2017.10.30-00.28.52:245][783]LogFbx: Dumping Node START [ShieldM_Base] 
+[2017.10.30-00.28.52:245][783]LogFbx: 	Total Deformer Count -1693039696.
+[2017.10.30-00.28.52:245][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:245][783]LogFbx: =================================================
+[2017.10.30-00.28.52:246][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:246][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Base (Type Mesh).
+[2017.10.30-00.28.52:246][783]LogFbx: Dumping Node END [ShieldM_Base]
+[2017.10.30-00.28.52:246][783]LogFbx: =================================================
+[2017.10.30-00.28.52:246][783]LogFbx: Dumping Node START [ShieldM_Helmet] 
+[2017.10.30-00.28.52:246][783]LogFbx: 	Total Deformer Count -1693039696.
+[2017.10.30-00.28.52:246][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:246][783]LogFbx: =================================================
+[2017.10.30-00.28.52:246][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:246][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Helmet (Type Mesh).
+[2017.10.30-00.28.52:246][783]LogFbx: Dumping Node END [ShieldM_Helmet]
+[2017.10.30-00.28.52:246][783]LogFbx: =================================================
+[2017.10.30-00.28.52:246][783]LogFbx: Dumping Node START [ShieldM_Underskirt] 
+[2017.10.30-00.28.52:246][783]LogFbx: 	Total Deformer Count -722956960.
+[2017.10.30-00.28.52:246][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:246][783]LogFbx: =================================================
+[2017.10.30-00.28.52:246][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:246][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Underskirt (Type Mesh).
+[2017.10.30-00.28.52:246][783]LogFbx: Dumping Node END [ShieldM_Underskirt]
+[2017.10.30-00.28.52:246][783]LogFbx: =================================================
+[2017.10.30-00.28.52:246][783]LogFbx: Dumping Node START [ShieldM_Arm_R] 
+[2017.10.30-00.28.52:246][783]LogFbx: 	Total Deformer Count -1693037616.
+[2017.10.30-00.28.52:246][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:246][783]LogFbx: =================================================
+[2017.10.30-00.28.52:246][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:246][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Arm_R (Type Mesh).
+[2017.10.30-00.28.52:247][783]LogFbx: Dumping Node END [ShieldM_Arm_R]
+[2017.10.30-00.28.52:247][783]LogFbx: =================================================
+[2017.10.30-00.28.52:247][783]LogFbx: Dumping Node START [ShieldM_BootTop_L] 
+[2017.10.30-00.28.52:247][783]LogFbx: 	Total Deformer Count -1693037616.
+[2017.10.30-00.28.52:247][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:247][783]LogFbx: =================================================
+[2017.10.30-00.28.52:247][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:247][783]LogFbx: 		[Node Attribute Child 1] ShieldM_BootTop_L (Type Mesh).
+[2017.10.30-00.28.52:247][783]LogFbx: Dumping Node END [ShieldM_BootTop_L]
+[2017.10.30-00.28.52:247][783]LogFbx: =================================================
+[2017.10.30-00.28.52:247][783]LogFbx: Dumping Node START [ShieldM_BootTop_R] 
+[2017.10.30-00.28.52:247][783]LogFbx: 	Total Deformer Count -1681011760.
+[2017.10.30-00.28.52:247][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:247][783]LogFbx: =================================================
+[2017.10.30-00.28.52:247][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:248][783]LogFbx: 		[Node Attribute Child 1] ShieldM_BootTop_R (Type Mesh).
+[2017.10.30-00.28.52:248][783]LogFbx: Dumping Node END [ShieldM_BootTop_R]
+[2017.10.30-00.28.52:248][783]LogFbx: =================================================
+[2017.10.30-00.28.52:248][783]LogFbx: Dumping Node START [ShieldM_Shirt_Base] 
+[2017.10.30-00.28.52:248][783]LogFbx: 	Total Deformer Count -1622016480.
+[2017.10.30-00.28.52:248][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:248][783]LogFbx: =================================================
+[2017.10.30-00.28.52:248][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:248][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Shirt_Base (Type Mesh).
+[2017.10.30-00.28.52:248][783]LogFbx: Dumping Node END [ShieldM_Shirt_Base]
+[2017.10.30-00.28.52:248][783]LogFbx: =================================================
+[2017.10.30-00.28.52:248][783]LogFbx: Dumping Node START [ShieldM_Belt] 
+[2017.10.30-00.28.52:248][783]LogFbx: 	Total Deformer Count -1680999120.
+[2017.10.30-00.28.52:248][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:248][783]LogFbx: =================================================
+[2017.10.30-00.28.52:248][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:248][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Belt (Type Mesh).
+[2017.10.30-00.28.52:248][783]LogFbx: Dumping Node END [ShieldM_Belt]
+[2017.10.30-00.28.52:248][783]LogFbx: =================================================
+[2017.10.30-00.28.52:248][783]LogFbx: Dumping Node START [ShieldM_Arm_L] 
+[2017.10.30-00.28.52:248][783]LogFbx: 	Total Deformer Count -1680999120.
+[2017.10.30-00.28.52:248][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:248][783]LogFbx: =================================================
+[2017.10.30-00.28.52:248][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:249][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Arm_L (Type Mesh).
+[2017.10.30-00.28.52:249][783]LogFbx: Dumping Node END [ShieldM_Arm_L]
+[2017.10.30-00.28.52:249][783]LogFbx: =================================================
+[2017.10.30-00.28.52:249][783]LogFbx: Dumping Node START [ShieldM_Base] 
+[2017.10.30-00.28.52:249][783]LogFbx: 	Total Deformer Count -1680999120.
+[2017.10.30-00.28.52:249][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:249][783]LogFbx: =================================================
+[2017.10.30-00.28.52:249][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:249][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Base (Type Mesh).
+[2017.10.30-00.28.52:249][783]LogFbx: Dumping Node END [ShieldM_Base]
+[2017.10.30-00.28.52:249][783]LogFbx: =================================================
+[2017.10.30-00.28.52:249][783]LogFbx: Dumping Node START [ShieldM_Helmet] 
+[2017.10.30-00.28.52:250][783]LogFbx: 	Total Deformer Count -1680999120.
+[2017.10.30-00.28.52:250][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:250][783]LogFbx: =================================================
+[2017.10.30-00.28.52:250][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:250][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Helmet (Type Mesh).
+[2017.10.30-00.28.52:250][783]LogFbx: Dumping Node END [ShieldM_Helmet]
+[2017.10.30-00.28.52:250][783]LogFbx: =================================================
+[2017.10.30-00.28.52:250][783]LogFbx: Dumping Node START [ShieldM_Underskirt] 
+[2017.10.30-00.28.52:250][783]LogFbx: 	Total Deformer Count -1625863680.
+[2017.10.30-00.28.52:250][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:250][783]LogFbx: =================================================
+[2017.10.30-00.28.52:250][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:250][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Underskirt (Type Mesh).
+[2017.10.30-00.28.52:250][783]LogFbx: Dumping Node END [ShieldM_Underskirt]
+[2017.10.30-00.28.52:250][783]LogFbx: =================================================
+[2017.10.30-00.28.52:250][783]LogFbx: Dumping Node START [ShieldM_Arm_R] 
+[2017.10.30-00.28.52:250][783]LogFbx: 	Total Deformer Count -1681010480.
+[2017.10.30-00.28.52:250][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:250][783]LogFbx: =================================================
+[2017.10.30-00.28.52:250][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:250][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Arm_R (Type Mesh).
+[2017.10.30-00.28.52:250][783]LogFbx: Dumping Node END [ShieldM_Arm_R]
+[2017.10.30-00.28.52:250][783]LogFbx: =================================================
+[2017.10.30-00.28.52:250][783]LogFbx: Dumping Node START [ShieldM_BootTop_L] 
+[2017.10.30-00.28.52:251][783]LogFbx: 	Total Deformer Count -1681010480.
+[2017.10.30-00.28.52:251][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:251][783]LogFbx: =================================================
+[2017.10.30-00.28.52:251][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:251][783]LogFbx: 		[Node Attribute Child 1] ShieldM_BootTop_L (Type Mesh).
+[2017.10.30-00.28.52:251][783]LogFbx: Dumping Node END [ShieldM_BootTop_L]
+[2017.10.30-00.28.52:251][783]LogFbx: =================================================
+[2017.10.30-00.28.52:251][783]LogFbx: Dumping Node START [ShieldM_BootTop_R] 
+[2017.10.30-00.28.52:251][783]LogFbx: 	Total Deformer Count -1681010480.
+[2017.10.30-00.28.52:251][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:251][783]LogFbx: =================================================
+[2017.10.30-00.28.52:251][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:251][783]LogFbx: 		[Node Attribute Child 1] ShieldM_BootTop_R (Type Mesh).
+[2017.10.30-00.28.52:251][783]LogFbx: Dumping Node END [ShieldM_BootTop_R]
+[2017.10.30-00.28.52:252][783]LogFbx: =================================================
+[2017.10.30-00.28.52:252][783]LogFbx: Dumping Node START [ShieldM_Shirt_Base] 
+[2017.10.30-00.28.52:252][783]LogFbx: 	Total Deformer Count -755354720.
+[2017.10.30-00.28.52:252][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:252][783]LogFbx: =================================================
+[2017.10.30-00.28.52:252][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:252][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Shirt_Base (Type Mesh).
+[2017.10.30-00.28.52:252][783]LogFbx: Dumping Node END [ShieldM_Shirt_Base]
+[2017.10.30-00.28.52:252][783]LogFbx: =================================================
+[2017.10.30-00.28.52:252][783]LogFbx: Dumping Node START [ShieldM_Belt] 
+[2017.10.30-00.28.52:252][783]LogFbx: 	Total Deformer Count -1680999520.
+[2017.10.30-00.28.52:252][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:252][783]LogFbx: =================================================
+[2017.10.30-00.28.52:252][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:252][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Belt (Type Mesh).
+[2017.10.30-00.28.52:252][783]LogFbx: Dumping Node END [ShieldM_Belt]
+[2017.10.30-00.28.52:252][783]LogFbx: =================================================
+[2017.10.30-00.28.52:252][783]LogFbx: Dumping Node START [ShieldM_Arm_L] 
+[2017.10.30-00.28.52:252][783]LogFbx: 	Total Deformer Count -1680999520.
+[2017.10.30-00.28.52:252][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:252][783]LogFbx: =================================================
+[2017.10.30-00.28.52:252][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:252][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Arm_L (Type Mesh).
+[2017.10.30-00.28.52:252][783]LogFbx: Dumping Node END [ShieldM_Arm_L]
+[2017.10.30-00.28.52:252][783]LogFbx: =================================================
+[2017.10.30-00.28.52:253][783]LogFbx: Dumping Node START [ShieldM_Base] 
+[2017.10.30-00.28.52:253][783]LogFbx: 	Total Deformer Count -1680999520.
+[2017.10.30-00.28.52:253][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:253][783]LogFbx: =================================================
+[2017.10.30-00.28.52:253][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:253][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Base (Type Mesh).
+[2017.10.30-00.28.52:253][783]LogFbx: Dumping Node END [ShieldM_Base]
+[2017.10.30-00.28.52:253][783]LogFbx: =================================================
+[2017.10.30-00.28.52:253][783]LogFbx: Dumping Node START [ShieldM_Helmet] 
+[2017.10.30-00.28.52:253][783]LogFbx: 	Total Deformer Count -1680999520.
+[2017.10.30-00.28.52:253][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:253][783]LogFbx: =================================================
+[2017.10.30-00.28.52:253][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:253][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Helmet (Type Mesh).
+[2017.10.30-00.28.52:253][783]LogFbx: Dumping Node END [ShieldM_Helmet]
+[2017.10.30-00.28.52:253][783]LogFbx: =================================================
+[2017.10.30-00.28.52:253][783]LogFbx: Dumping Node START [ShieldM_Underskirt] 
+[2017.10.30-00.28.52:253][783]LogFbx: 	Total Deformer Count -666556800.
+[2017.10.30-00.28.52:253][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:253][783]LogFbx: =================================================
+[2017.10.30-00.28.52:253][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:253][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Underskirt (Type Mesh).
+[2017.10.30-00.28.52:253][783]LogFbx: Dumping Node END [ShieldM_Underskirt]
+[2017.10.30-00.28.52:253][783]LogFbx: =================================================
+[2017.10.30-00.28.52:253][783]LogFbx: Dumping Node START [ShieldM_Arm_R] 
+[2017.10.30-00.28.52:253][783]LogFbx: 	Total Deformer Count -1681011200.
+[2017.10.30-00.28.52:254][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:254][783]LogFbx: =================================================
+[2017.10.30-00.28.52:254][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:254][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Arm_R (Type Mesh).
+[2017.10.30-00.28.52:254][783]LogFbx: Dumping Node END [ShieldM_Arm_R]
+[2017.10.30-00.28.52:254][783]LogFbx: =================================================
+[2017.10.30-00.28.52:254][783]LogFbx: Dumping Node START [ShieldM_BootTop_L] 
+[2017.10.30-00.28.52:254][783]LogFbx: 	Total Deformer Count -1681011200.
+[2017.10.30-00.28.52:254][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:254][783]LogFbx: =================================================
+[2017.10.30-00.28.52:254][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:254][783]LogFbx: 		[Node Attribute Child 1] ShieldM_BootTop_L (Type Mesh).
+[2017.10.30-00.28.52:254][783]LogFbx: Dumping Node END [ShieldM_BootTop_L]
+[2017.10.30-00.28.52:254][783]LogFbx: =================================================
+[2017.10.30-00.28.52:254][783]LogFbx: Dumping Node START [ShieldM_BootTop_R] 
+[2017.10.30-00.28.52:254][783]LogFbx: 	Total Deformer Count -1681011200.
+[2017.10.30-00.28.52:254][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:254][783]LogFbx: =================================================
+[2017.10.30-00.28.52:254][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:254][783]LogFbx: 		[Node Attribute Child 1] ShieldM_BootTop_R (Type Mesh).
+[2017.10.30-00.28.52:254][783]LogFbx: Dumping Node END [ShieldM_BootTop_R]
+[2017.10.30-00.28.52:254][783]LogFbx: =================================================
+[2017.10.30-00.28.52:254][783]LogFbx: Dumping Node START [ShieldM_Shirt_Base] 
+[2017.10.30-00.28.52:254][783]LogFbx: 	Total Deformer Count -1686003488.
+[2017.10.30-00.28.52:254][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:254][783]LogFbx: =================================================
+[2017.10.30-00.28.52:255][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:255][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Shirt_Base (Type Mesh).
+[2017.10.30-00.28.52:255][783]LogFbx: Dumping Node END [ShieldM_Shirt_Base]
+[2017.10.30-00.28.52:255][783]LogFbx: =================================================
+[2017.10.30-00.28.52:255][783]LogFbx: Dumping Node START [ShieldM_Belt] 
+[2017.10.30-00.28.52:255][783]LogFbx: 	Total Deformer Count -1681004640.
+[2017.10.30-00.28.52:255][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:255][783]LogFbx: =================================================
+[2017.10.30-00.28.52:255][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:255][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Belt (Type Mesh).
+[2017.10.30-00.28.52:255][783]LogFbx: Dumping Node END [ShieldM_Belt]
+[2017.10.30-00.28.52:255][783]LogFbx: =================================================
+[2017.10.30-00.28.52:255][783]LogFbx: Dumping Node START [ShieldM_Arm_L] 
+[2017.10.30-00.28.52:255][783]LogFbx: 	Total Deformer Count -1681004640.
+[2017.10.30-00.28.52:255][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:255][783]LogFbx: =================================================
+[2017.10.30-00.28.52:255][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:255][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Arm_L (Type Mesh).
+[2017.10.30-00.28.52:255][783]LogFbx: Dumping Node END [ShieldM_Arm_L]
+[2017.10.30-00.28.52:255][783]LogFbx: =================================================
+[2017.10.30-00.28.52:255][783]LogFbx: Dumping Node START [ShieldM_Helmet] 
+[2017.10.30-00.28.52:255][783]LogFbx: 	Total Deformer Count -1681004640.
+[2017.10.30-00.28.52:255][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:255][783]LogFbx: =================================================
+[2017.10.30-00.28.52:255][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:255][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Helmet (Type Mesh).
+[2017.10.30-00.28.52:255][783]LogFbx: Dumping Node END [ShieldM_Helmet]
+[2017.10.30-00.28.52:255][783]LogFbx: =================================================
+[2017.10.30-00.28.52:255][783]LogFbx: Dumping Node START [ShieldM_Underskirt] 
+[2017.10.30-00.28.52:256][783]LogFbx: 	Total Deformer Count -840422752.
+[2017.10.30-00.28.52:256][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:256][783]LogFbx: =================================================
+[2017.10.30-00.28.52:256][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:256][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Underskirt (Type Mesh).
+[2017.10.30-00.28.52:256][783]LogFbx: Dumping Node END [ShieldM_Underskirt]
+[2017.10.30-00.28.52:256][783]LogFbx: =================================================
+[2017.10.30-00.28.52:256][783]LogFbx: Dumping Node START [ShieldM_Arm_R] 
+[2017.10.30-00.28.52:256][783]LogFbx: 	Total Deformer Count -1680998880.
+[2017.10.30-00.28.52:256][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:256][783]LogFbx: =================================================
+[2017.10.30-00.28.52:256][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:256][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Arm_R (Type Mesh).
+[2017.10.30-00.28.52:256][783]LogFbx: Dumping Node END [ShieldM_Arm_R]
+[2017.10.30-00.28.52:256][783]LogFbx: =================================================
+[2017.10.30-00.28.52:256][783]LogFbx: Dumping Node START [ShieldM_BootTop_L] 
+[2017.10.30-00.28.52:256][783]LogFbx: 	Total Deformer Count -1680998880.
+[2017.10.30-00.28.52:256][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:256][783]LogFbx: =================================================
+[2017.10.30-00.28.52:256][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:256][783]LogFbx: 		[Node Attribute Child 1] ShieldM_BootTop_L (Type Mesh).
+[2017.10.30-00.28.52:256][783]LogFbx: Dumping Node END [ShieldM_BootTop_L]
+[2017.10.30-00.28.52:256][783]LogFbx: =================================================
+[2017.10.30-00.28.52:256][783]LogFbx: Dumping Node START [ShieldM_BootTop_R] 
+[2017.10.30-00.28.52:257][783]LogFbx: 	Total Deformer Count -1680998880.
+[2017.10.30-00.28.52:257][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:257][783]LogFbx: =================================================
+[2017.10.30-00.28.52:257][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:257][783]LogFbx: 		[Node Attribute Child 1] ShieldM_BootTop_R (Type Mesh).
+[2017.10.30-00.28.52:257][783]LogFbx: Dumping Node END [ShieldM_BootTop_R]
+[2017.10.30-00.28.52:257][783]LogFbx: =================================================
+[2017.10.30-00.28.52:257][783]LogFbx: Dumping Node START [ShieldM_Shirt_Base] 
+[2017.10.30-00.28.52:257][783]LogFbx: 	Total Deformer Count -1130570752.
+[2017.10.30-00.28.52:257][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:257][783]LogFbx: =================================================
+[2017.10.30-00.28.52:257][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:257][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Shirt_Base (Type Mesh).
+[2017.10.30-00.28.52:258][783]LogFbx: Dumping Node END [ShieldM_Shirt_Base]
+[2017.10.30-00.28.52:258][783]LogFbx: =================================================
+[2017.10.30-00.28.52:258][783]LogFbx: Dumping Node START [ShieldM_Belt] 
+[2017.10.30-00.28.52:258][783]LogFbx: 	Total Deformer Count -1681005840.
+[2017.10.30-00.28.52:258][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:258][783]LogFbx: =================================================
+[2017.10.30-00.28.52:258][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:258][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Belt (Type Mesh).
+[2017.10.30-00.28.52:258][783]LogFbx: Dumping Node END [ShieldM_Belt]
+[2017.10.30-00.28.52:258][783]LogFbx: =================================================
+[2017.10.30-00.28.52:258][783]LogFbx: Dumping Node START [ShieldM_Arm_L] 
+[2017.10.30-00.28.52:258][783]LogFbx: 	Total Deformer Count -1681360208.
+[2017.10.30-00.28.52:258][783]LogFbx: 		[Node 1]  (Type Skin).
+[2017.10.30-00.28.52:258][783]LogFbx: =================================================
+[2017.10.30-00.28.52:258][783]LogFbx: 	Attribute () Type (4).
+[2017.10.30-00.28.52:258][783]LogFbx: 		[Node Attribute Child 1] ShieldM_Arm_L (Type Mesh).
+[2017.10.30-00.28.52:258][783]LogFbx: Dumping Node END [ShieldM_Arm_L]
+[2017.10.30-00.28.52:269][783]LogFbx: Valid bind pose for Pose (skinCluster1) - ShieldM_Base
+[2017.10.30-00.28.52:270][783]LogFbx: Valid bind pose for Pose (skinCluster2) - ShieldM_Base
+[2017.10.30-00.28.52:270][783]LogFbx: Valid bind pose for Pose (skinCluster3) - ShieldM_Base
+[2017.10.30-00.28.52:270][783]LogFbx: Valid bind pose for Pose (skinCluster4) - ShieldM_Base
+[2017.10.30-00.28.52:270][783]LogFbx: Valid bind pose for Pose (skinCluster5) - ShieldM_Base
+[2017.10.30-00.28.52:270][783]LogFbx: Valid bind pose for Pose (skinCluster6) - ShieldM_Base
+[2017.10.30-00.28.52:270][783]LogFbx: Valid bind pose for Pose (skinCluster7) - ShieldM_Base
+[2017.10.30-00.28.52:270][783]LogFbx: Valid bind pose for Pose (skinCluster8) - ShieldM_Base
+[2017.10.30-00.28.52:271][783]LogFbx: Valid bind pose for Pose (skinCluster9) - ShieldM_Base
+[2017.10.30-00.28.52:272][783]LogLinker: Can't find file '/Game/AnimationAssets/CustomTest/lambert1'
+[2017.10.30-00.28.52:272][783]LogLinker: Can't find file '/Game/AnimationAssets/CustomTest/lambert1'
+[2017.10.30-00.28.52:273][783]LogMaterial:Warning: Material /Game/AnimationAssets/CustomTest/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.10.30-00.28.52:275][783]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.10.30-00.28.52:304][783]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.10.30-00.28.52:344][783]LogFbx: Triangulating skeletal mesh ShieldM_Base
+[2017.10.30-00.28.52:422][783]LogFbx: Triangulating skeletal mesh ShieldM_Helmet
+[2017.10.30-00.28.52:471][783]LogFbx: Triangulating skeletal mesh ShieldM_Underskirt
+[2017.10.30-00.28.52:473][783]LogFbx: Triangulating skeletal mesh ShieldM_Arm_R
+[2017.10.30-00.28.52:479][783]LogFbx: Triangulating skeletal mesh ShieldM_BootTop_L
+[2017.10.30-00.28.52:481][783]LogFbx: Triangulating skeletal mesh ShieldM_BootTop_R
+[2017.10.30-00.28.52:482][783]LogFbx: Triangulating skeletal mesh ShieldM_Shirt_Base
+[2017.10.30-00.28.52:501][783]LogFbx: Triangulating skeletal mesh ShieldM_Belt
+[2017.10.30-00.28.52:503][783]LogFbx: Triangulating skeletal mesh ShieldM_Arm_L
+[2017.10.30-00.28.52:515][783]LogFbx:Warning: Bones digested - 36  Depth of hierarchy - 12
+[2017.10.30-00.28.52:554][783]LogSkeletalMesh: Section 0: 3306 vertices, 35 active bones
+[2017.10.30-00.28.52:556][783]LogSkeletalMesh: Section 0: Material=0, 2404 triangles
+[2017.10.30-00.28.52:558][783]LogLinker: Can't find file '/Game/AnimationAssets/CustomTest/CG_ShieldCharacter_character_Skeleton'
+[2017.10.30-00.28.52:558][783]LogLinker: Can't find file '/Game/AnimationAssets/CustomTest/CG_ShieldCharacter_character_Skeleton'
+[2017.10.30-00.28.52:560][783]LogLinker: Can't find file '/Game/AnimationAssets/CustomTest/CG_ShieldCharacter_character_PhysicsAsset'
+[2017.10.30-00.28.52:560][783]LogLinker: Can't find file '/Game/AnimationAssets/CustomTest/CG_ShieldCharacter_character_PhysicsAsset'
+[2017.10.30-00.28.52:568][783]FBXImport:Warning: Warning Mesh 'ShieldM_Base' has no UV set. Creating a default set. 
+[2017.10.30-00.29.41:041][ 89]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\CastleGuardCurrent\CastleGuardPhase2\CastleGuardReborn\Content\AnimationAssets\CustomTest\TestAnim\CG_ShieldCharacter_anim_pushing.fbx)
+[2017.10.30-00.29.41:045][ 89]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.30-00.29.41:045][ 89]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.30-00.29.41:045][ 89]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.30-00.29.41:045][ 89]LogFbx: ItemName: NodeAttribute, ItemCount : 42
+[2017.10.30-00.29.41:045][ 89]LogFbx: ItemName: Model, ItemCount : 43
+[2017.10.30-00.29.41:045][ 89]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.30-00.29.41:045][ 89]LogFbx: ItemName: AnimationCurveNode, ItemCount : 158
+[2017.10.30-00.29.41:045][ 89]LogFbx: ItemName: AnimationCurve, ItemCount : 244
+[2017.10.30-00.29.41:049][ 89]LogFbx: Loading FBX Scene from D:\CastleGuardCurrent\CastleGuardPhase2\CastleGuardReborn\Content\AnimationAssets\CustomTest\TestAnim\CG_ShieldCharacter_anim_pushing.fbx
+[2017.10.30-00.29.41:066][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.30-00.29.46:277][ 89]LogFbx: Loading FBX Scene from D:\CastleGuardCurrent\CastleGuardPhase2\CastleGuardReborn\Content\AnimationAssets\CustomTest\TestAnim\CG_ShieldCharacter_anim_pushing.fbx
+[2017.10.30-00.29.46:293][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.30-00.29.46:296][ 89]LogFbx: SortedLinks :(0) Rig_grp
+[2017.10.30-00.29.46:296][ 89]LogFbx: SortedLinks :(1) SKN_COG_jnt
+[2017.10.30-00.29.46:296][ 89]LogFbx: SortedLinks :(2) SKN_spine1_jnt
+[2017.10.30-00.29.46:296][ 89]LogFbx: SortedLinks :(3) SKN_spine2_jnt
+[2017.10.30-00.29.46:296][ 89]LogFbx: SortedLinks :(4) SKN_spine3_jnt
+[2017.10.30-00.29.46:296][ 89]LogFbx: SortedLinks :(5) SKN_neck1_jnt
+[2017.10.30-00.29.46:296][ 89]LogFbx: SortedLinks :(6) SKN_neck2_jnt
+[2017.10.30-00.29.46:296][ 89]LogFbx: SortedLinks :(7) SKN_head_endJnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(8) SKN_L_clavicle_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(9) SKN_L_shoulder_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(10) SKN_L_elbow_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(11) SKN_L_wrist_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(12) SKN_L_hand1_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(13) SKN_L_hand2_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(14) SKN_L_hand3_endJnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(15) SKN_L_thumb1_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(16) SKN_L_thumb2_endJnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(17) SKN_L_forearm_endJnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(18) SKN_R_clavicle_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(19) SKN_R_shoulder_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(20) SKN_R_elbow_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(21) SKN_R_wrist_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(22) SKN_R_hand1_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(23) SKN_R_hand2_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(24) SKN_R_hand3_endJnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(25) SKN_R_thumb1_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(26) SKN_R_thumb2_endJnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(27) SKN_R_forearm_endJnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(28) SKN_L_hip_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(29) SKN_L_knee_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(30) SKN_L_ankle_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(31) SKN_L_ball_endJnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(32) SKN_R_hip_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(33) SKN_R_knee_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(34) SKN_R_ankle_jnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(35) SKN_R_ball_endJnt
+[2017.10.30-00.29.46:297][ 89]LogFbx: SortedLinks :(36) SKN_sword_jnt
+[2017.10.30-00.29.46:298][ 89]LogFbx: SortedLinks :(37) SKN_shield_jnt
+[2017.10.30-00.29.46:298][ 89]LogFbx: SortedLinks :(38) spine_grp
+[2017.10.30-00.29.46:298][ 89]LogFbx: SortedLinks :(39) FK
+[2017.10.30-00.29.46:298][ 89]LogFbx: SortedLinks :(40) COG_transformOffset
+[2017.10.30-00.29.46:298][ 89]LogFbx: SortedLinks :(41) RIG_COG_jnt
+[2017.10.30-00.29.46:308][ 89]LogFbx: Parsing AnimStack Take 001
+[2017.10.30-00.29.46:310][ 89]LogLinker: Can't find file '/Game/AnimationAssets/CustomTest/TestAnim/CG_ShieldCharacter_anim_pushing'
+[2017.10.30-00.29.46:310][ 89]LogLinker: Can't find file '/Game/AnimationAssets/CustomTest/TestAnim/CG_ShieldCharacter_anim_pushing'
+[2017.10.30-00.29.46:397][ 89]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/CustomTest/TestAnim/CG_ShieldCharacter_anim_pushing.CG_ShieldCharacter_anim_pushing
+[2017.10.30-00.29.46:403][ 89]FBXImport:Warning: Warning Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2017.10.30-00.29.46:403][ 89]FBXImport:Warning: Warning Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2017.10.30-00.29.46:403][ 89]FBXImport:Warning: Warning The following bones exist in the imported animation, but not in the Skeleton asset CG_ShieldCharacter_character_Skeleton.  Any animation on these bones will not be imported: 
+
+ SKN_sword_jnt  
+SKN_shield_jnt  
+spine_grp  
+FK  
+COG_transformOffset  
+RIG_COG_jnt  
+ 
+[2017.10.30-00.30.05:984][429]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.10.30-00.30.06:138][429]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.10.30-00.30.06:182][429]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.10.30-00.30.06:475][429]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2017.10.30-00.30.06:482][429]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.30-00.32.01:252][607]LogSlate: Took 0.012690 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.30-00.33.03:379][996]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.10.30-00.33.03:964][997]LogRenderer: Reallocating scene render targets to support 1196x712 NumSamples 1 (Frame:1).
+[2017.10.30-00.33.05:244][148]LogSlate: Took 0.004691 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.30-00.34.11:801][ 80]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2017.10.30-00.34.36:220][178]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.10.30-00.34.36:381][178]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.10.30-00.34.45:518][239]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.30-00.34.50:766][866]BlueprintLog: New page: Compile TestSoldierAnimBP
+[2017.10.30-00.34.54:658][322]LogTemp: Repeting last play command: Simulate
+[2017.10.30-00.34.54:722][322]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.34.54:722][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.30-00.34.54:733][322]PIE: New page: SIE session: default (Oct 29, 2017, 10:34:54 AM)
+[2017.10.30-00.34.54:733][322]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.10.30-00.34.54:867][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133906s)
+[2017.10.30-00.34.54:867][322]LogAIModule: Creating AISystem for world default
+[2017.10.30-00.34.54:868][322]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2017.10.30-00.34.54:868][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.135488s)
+[2017.10.30-00.34.54:889][322]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.30-00.34.54:896][322]LogInit: FAudioDevice initialized.
+[2017.10.30-00.34.54:942][322]LogLoad: Game class is 'ViveGameMode_C'
+[2017.10.30-00.34.54:952][322]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.10.29-17.34.54
+[2017.10.30-00.34.54:954][322]LogWorld: Bringing up level for play took: 0.011755
+[2017.10.30-00.34.54:955][322]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.30-00.34.54:985][322]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.10.30-00.34.54:986][322]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.30-00.34.54:994][322]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.30-00.34.54:995][322]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.841
+[2017.10.30-00.34.55:024][322]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.34.56:329][458]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.10.30-00.34.56:330][458]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.10.30-00.34.56:330][458]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.10.30-00.34.56:621][493]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.10.30-00.34.56:880][524]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.34.56:927][524]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.35.03:247][269]LogEditorViewport: Clicking on Actor (LMB): CG_ShieldCharacter_character_Blueprint_C (CG_ShieldCharacter_character_Blueprint)
+[2017.10.30-00.35.04:247][385]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.30-00.35.17:568][977]LogTemp: Repeting last play command: Simulate
+[2017.10.30-00.35.17:585][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.35.17:585][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.30-00.35.17:586][977]PIE: New page: SIE session: default (Oct 29, 2017, 10:35:17 AM)
+[2017.10.30-00.35.17:586][977]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.10.30-00.35.17:716][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.130729s)
+[2017.10.30-00.35.17:717][977]LogAIModule: Creating AISystem for world default
+[2017.10.30-00.35.17:717][977]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2017.10.30-00.35.17:717][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.132102s)
+[2017.10.30-00.35.17:738][977]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.30-00.35.17:743][977]LogInit: FAudioDevice initialized.
+[2017.10.30-00.35.17:773][977]LogLoad: Game class is 'ViveGameMode_C'
+[2017.10.30-00.35.17:782][977]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.10.29-17.35.17
+[2017.10.30-00.35.17:783][977]LogWorld: Bringing up level for play took: 0.009669
+[2017.10.30-00.35.17:784][977]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.30-00.35.17:784][977]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.30-00.35.17:788][977]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.30-00.35.17:788][977]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.366
+[2017.10.30-00.35.17:804][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.35.19:226][140]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.10.30-00.35.19:226][140]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.10.30-00.35.19:226][140]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.10.30-00.35.19:443][166]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.10.30-00.35.23:322][560]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.10.30-00.35.23:532][580]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.10.30-00.35.24:245][658]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.35.24:295][658]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.35.25:341][764]LogEditorViewport: Clicking on Actor (LMB): CG_ShieldCharacter_character_Blueprint_C (CG_ShieldCharacter_character_Blueprint)
+[2017.10.30-00.36.13:918][348]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.30-00.36.53:426][ 59]BlueprintLog: New page: Compile CG_ShieldCharacter_character_Blueprint
+[2017.10.30-00.36.56:119][335]LogTemp: Repeting last play command: Simulate
+[2017.10.30-00.36.56:137][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.36.56:137][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.30-00.36.56:137][335]PIE: New page: SIE session: default (Oct 29, 2017, 10:36:56 AM)
+[2017.10.30-00.36.56:137][335]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.10.30-00.36.56:269][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132289s)
+[2017.10.30-00.36.56:270][335]LogAIModule: Creating AISystem for world default
+[2017.10.30-00.36.56:270][335]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2017.10.30-00.36.56:271][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.134043s)
+[2017.10.30-00.36.56:291][335]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.30-00.36.56:297][335]LogInit: FAudioDevice initialized.
+[2017.10.30-00.36.56:327][335]LogLoad: Game class is 'ViveGameMode_C'
+[2017.10.30-00.36.56:336][335]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.10.29-17.36.56
+[2017.10.30-00.36.56:338][335]LogWorld: Bringing up level for play took: 0.009982
+[2017.10.30-00.36.56:338][335]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.30-00.36.56:338][335]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.30-00.36.56:342][335]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.30-00.36.56:342][335]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.187
+[2017.10.30-00.36.56:349][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.36.57:427][450]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.36.57:467][450]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.37.08:161][721]BlueprintLog: New page: Compile CG_ShieldCharacter_character_Blueprint
+[2017.10.30-00.37.09:229][834]LogTemp: Repeting last play command: Simulate
+[2017.10.30-00.37.09:245][834]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.37.09:246][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.30-00.37.09:246][834]PIE: New page: SIE session: default (Oct 29, 2017, 10:37:09 AM)
+[2017.10.30-00.37.09:246][834]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.10.30-00.37.09:375][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.128439s)
+[2017.10.30-00.37.09:375][834]LogAIModule: Creating AISystem for world default
+[2017.10.30-00.37.09:376][834]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2017.10.30-00.37.09:376][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.130015s)
+[2017.10.30-00.37.09:395][834]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.30-00.37.09:401][834]LogInit: FAudioDevice initialized.
+[2017.10.30-00.37.09:432][834]LogLoad: Game class is 'ViveGameMode_C'
+[2017.10.30-00.37.09:441][834]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.10.29-17.37.09
+[2017.10.30-00.37.09:442][834]LogWorld: Bringing up level for play took: 0.009694
+[2017.10.30-00.37.09:443][834]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.30-00.37.09:443][834]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.30-00.37.09:447][834]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.30-00.37.09:447][834]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.707
+[2017.10.30-00.37.09:453][834]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.37.10:187][920]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.37.10:227][920]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.37.38:345][272]BlueprintLog: New page: Compile CG_ShieldCharacter_character_Blueprint
+[2017.10.30-00.37.39:483][392]LogTemp: Repeting last play command: Simulate
+[2017.10.30-00.37.39:499][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.37.39:500][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.30-00.37.39:500][392]PIE: New page: SIE session: default (Oct 29, 2017, 10:37:39 AM)
+[2017.10.30-00.37.39:500][392]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.10.30-00.37.39:630][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.130525s)
+[2017.10.30-00.37.39:631][392]LogAIModule: Creating AISystem for world default
+[2017.10.30-00.37.39:632][392]LogPlayLevel: PIE: World Init took: (0.001038s)
+[2017.10.30-00.37.39:632][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.132527s)
+[2017.10.30-00.37.39:652][392]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.30-00.37.39:658][392]LogInit: FAudioDevice initialized.
+[2017.10.30-00.37.39:687][392]LogLoad: Game class is 'ViveGameMode_C'
+[2017.10.30-00.37.39:696][392]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.10.29-17.37.39
+[2017.10.30-00.37.39:697][392]LogWorld: Bringing up level for play took: 0.009580
+[2017.10.30-00.37.39:698][392]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.30-00.37.39:698][392]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.30-00.37.39:701][392]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.30-00.37.39:701][392]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.453
+[2017.10.30-00.37.39:709][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.37.40:477][482]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.37.40:516][482]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.10.30-00.37.41:376][579]LogEditorViewport: Clicking on Actor (LMB): WalkToNode_C (WalkToNode)
+[2017.10.30-00.37.53:474][ 23]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.30-00.38.36:424][103]LogEditorViewport: Clicking on Actor (LMB): CG_ShieldCharacter_character_Blueprint_C (CG_ShieldCharacter_character_Blueprint)
+[2017.10.30-00.39.04:581][471]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.30-00.39.04:969][513]LogEditorViewport: Clicking on Actor (LMB): CG_ShieldCharacter_character_Blueprint_C (CG_ShieldCharacter_character_Blueprint)
+[2017.10.30-00.39.44:999][286]LogEditorViewport: Clicking on Actor (LMB): CG_ShieldCharacter_character_Blueprint_C (CG_ShieldCharacter_character_Blueprint)
+[2017.10.30-00.39.47:299][558]Cmd: DELETE
+[2017.10.30-00.39.47:299][558]Cmd: ACTOR DELETE
+[2017.10.30-00.39.47:316][558]LogEditorActor: Deleted Actor: CG_ShieldCharacter_character_Blueprint_C
+[2017.10.30-00.39.47:333][558]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.10.30-00.39.50:929][989]LogEditorViewport: Clicking on Actor (LMB): CG_ShieldCharacter_character_Blueprint_C (CG_ShieldCharacter_character_Blueprint2)
+[2017.10.30-00.40.05:476][717]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.10.30-00.40.05:500][717]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_30:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.10.30-00.40.05:696][718]LogRenderer: Reallocating scene render targets to support 1196x888 NumSamples 1 (Frame:1).
+[2017.10.30-00.41.27:790][498]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.30-00.43.29:580][534]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.30-00.43.29:933][575]LogEditorViewport: Clicking on Actor (LMB): CG_ShieldCharacter_character_Blueprint_C (CG_ShieldCharacter_character_Blueprint2)
+[2017.10.30-00.55.42:719][214]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.30-00.55.43:858][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_CG_ShieldCharacter_character_Blueprint_C_1' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:858][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:858][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:859][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_CG_ShieldCharacter_character_Blueprint_C_0' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:859][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_WalkToNode_C_189' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:859][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_WalkToNode_C_188' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:859][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_TestSoldierAnimBP_C_10' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:859][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_TestSoldierAnimBP_C_9' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:859][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_CG_ShieldCharacter_character_Blueprint_C_187' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:860][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_GetAllActorsOfClass_OutActors' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:860][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Array_Get_Item' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:860][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_1' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:860][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_0' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:860][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:860][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_CG_ShieldCharacter_character_Blueprint_C_186' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:864][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_TestSoldierAnimBP_C_3' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:864][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_TestSoldierAnimBP' or package '/Game/AnimationAssets/CustomTest/TestSoldierAnimBP'.
+[2017.10.30-00.55.43:864][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_TestSoldierAnimBP_C_2' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:865][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:865][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_3' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:865][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_4' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:865][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UnsavedCollection' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:865][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_TestSoldierAnimBP_C_3' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:865][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SequencePlayer_84E8F7E6476047AF02697DAD9CD921BD' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:865][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_Root_7232BDB74C98FB6643FD698ADC445FDE' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:866][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_TestSoldierAnimBP' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:866][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:866][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_TestSoldierAnimBP_C_2' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:866][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TestSoldierAnimBP_C_1' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:866][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TestSoldierAnimBP_C_2' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:876][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:876][214]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.CG_ShieldCharacter_character_Blueprint_C_0.SkeletalMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.30-00.55.43:877][214]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.CG_ShieldCharacter_character_Blueprint_C_0.SkeletalMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.30-00.55.43:877][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CG_ShieldCharacter_character_Blueprint_C_0' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:877][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TestSoldierAnimBP_C_3' or package '/Game/Vive/Maps/default'.
+[2017.10.30-00.55.43:877][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:877][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:877][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:877][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_18B390EA42B9C42B61EEBD87168C976E' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:878][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_18B390EA42B9C42B61EEBD87168C976E' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:878][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:878][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Array_Get_Item' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:878][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_GetAllActorsOfClass_OutActors' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:878][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_CG_ShieldCharacter_character_Blueprint' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:878][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_18B390EA42B9C42B61EEBD87168C976E' or package '/Game/AnimationAssets/CustomTest/CG_ShieldCharacter_character_Blueprint'.
+[2017.10.30-00.55.43:879][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_18B390EA42B9C42B61EEBD87168C976E' or package '/Game/AnimationAssets/CustomTest/CG_ShieldCharacter_character_Blueprint'.
+[2017.10.30-00.55.43:879][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Game/AnimationAssets/CustomTest/CG_ShieldCharacter_character_Blueprint'.
+[2017.10.30-00.55.43:879][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_7' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:879][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_5' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:879][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:879][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:879][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:880][214]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.CG_ShieldCharacter_character_Blueprint_C_0.SkeletalMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.30-00.55.43:880][214]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.CG_ShieldCharacter_character_Blueprint_C_0.SkeletalMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.30-00.55.43:880][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CG_ShieldCharacter_character_Blueprint_C_0' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:880][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_WalkToNode_C_5' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:880][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:880][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.10.30-00.55.43:880][214]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_WalkToNode_C_4' or package '/Engine/Transient'.
+[2017.10.30-00.55.51:134][214]LogStats: FPlatformStackWalk::StackWalkAndDump -  6.885 s
+[2017.10.30-00.55.51:134][214]LogOutputDevice:Error: === Handled ensure: ===
+[2017.10.30-00.55.51:134][214]LogOutputDevice:Error: 
+[2017.10.30-00.55.51:134][214]LogOutputDevice:Error: Ensure condition failed: CurObject != NULL [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\ObjectTools.cpp] [Line: 2314]
+[2017.10.30-00.55.51:134][214]LogOutputDevice:Error: 
+[2017.10.30-00.55.51:134][214]LogOutputDevice:Error: Stack: 
+[2017.10.30-00.55.51:134][214]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.10.30-00.55.51:135][214]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2017.10.30-00.55.51:135][214]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2017.10.30-00.55.51:135][214]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!ObjectTools::ForceDeleteObjects() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\objecttools.cpp:2314]
+[2017.10.30-00.55.51:135][214]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FAssetDeleteModel::DoForceDelete() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\assetdeletemodel.cpp:316]
+[2017.10.30-00.55.51:135][214]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!SDeleteAssetsDialog::ForceDelete() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\dialogs\sdeleteassetsdialog.cpp:717]
+[2017.10.30-00.55.51:135][214]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!TMemberFunctionCaller<SDeleteAssetsDialog,FReply (__cdecl SDeleteAssetsDialog::*)(void) __ptr64>::operator()<>() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:165]
+[2017.10.30-00.55.51:135][214]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SDeleteAssetsDialog,FReply (__cdecl SDeleteAssetsDialog::*)(void) __ptr64> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\templates\tuple.h:497]
+[2017.10.30-00.55.51:136][214]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!TBaseSPMethodDelegateInstance<0,SDeleteAssetsDialog,0,FReply __cdecl(void)>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.10.30-00.55.51:136][214]LogOutputDevice:Error: UE4Editor-Slate.dll!TBaseDelegate<FReply>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:537]
+[2017.10.30-00.55.51:136][214]LogOutputDevice:Error: UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:278]
+[2017.10.30-00.55.51:136][214]LogOutputDevice:Error: UE4Editor-Slate.dll!<lambda_8d0e9a1da76abd0a756a3a9d775f5ed1>::operator()() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5049]
+[2017.10.30-00.55.51:136][214]LogOutputDevice:Error: UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_8d0e9a1da76abd0a756a3a9d775f5ed1> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:239]
+[2017.10.30-00.55.51:136][214]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5038]
+[2017.10.30-00.55.51:137][214]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5515]
+[2017.10.30-00.55.51:137][214]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5495]
+[2017.10.30-00.55.51:137][214]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1704]
+[2017.10.30-00.55.51:137][214]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2127]
+[2017.10.30-00.55.51:137][214]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:867]
+[2017.10.30-00.55.51:137][214]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:714]
+[2017.10.30-00.55.51:137][214]LogOutputDevice:Error: USER32.dll!0x000000007EFBBC50
+[2017.10.30-00.55.51:137][214]LogOutputDevice:Error: USER32.dll!0x000000007EFBB5CF
+[2017.10.30-00.55.51:137][214]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::PumpMessages() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2139]
+[2017.10.30-00.55.51:138][214]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::TickPlatform() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1570]
+[2017.10.30-00.55.51:138][214]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::AddModalWindow() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:2048]
+[2017.10.30-00.55.51:138][214]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!UEditorEngine::EditorAddModalWindow() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:3820]
+[2017.10.30-00.55.51:138][214]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!ObjectTools::DeleteObjects() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\objecttools.cpp:1827]
+[2017.10.30-00.55.51:138][214]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!ContentBrowserUtils::DeleteFolders() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\contentbrowser\private\contentbrowserutils.cpp:581]
+[2017.10.30-00.55.51:138][214]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!FAssetContextMenu::ExecuteDeleteFolderConfirmed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\contentbrowser\private\assetcontextmenu.cpp:1917]
+[2017.10.30-00.55.51:138][214]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!TMemberFunctionCaller<FAssetContextMenu,FReply (__cdecl FAssetContextMenu::*)(void) __ptr64>::operator()<>() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:165]
+[2017.10.30-00.55.51:139][214]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<FAssetContextMenu,FReply (__cdecl FAssetContextMenu::*)(void) __ptr64> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\templates\tuple.h:497]
+[2017.10.30-00.55.51:139][214]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,FAssetContextMenu,0,FReply __cdecl(void)>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.10.30-00.55.51:139][214]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!TBaseDelegate<FReply>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:537]
+[2017.10.30-00.55.51:139][214]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!SContentBrowserConfirmPopup::YesClicked() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\contentbrowser\private\contentbrowserutils.cpp:248]
+[2017.10.30-00.55.51:139][214]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!TMemberFunctionCaller<SContentBrowserConfirmPopup,FReply (__cdecl SContentBrowserConfirmPopup::*)(void) __ptr64>::operator()<>() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:165]
+[2017.10.30-00.55.51:139][214]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SContentBrowserConfirmPopup,FReply (__cdecl SContentBrowserConfirmPopup::*)(void) __ptr64> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\templates\tuple.h:497]
+[2017.10.30-00.55.51:140][214]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SContentBrowserConfirmPopup,0,FReply __cdecl(void)>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.10.30-00.55.51:140][214]LogOutputDevice:Error: UE4Editor-Slate.dll!TBaseDelegate<FReply>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:537]
+[2017.10.30-00.55.51:140][214]LogOutputDevice:Error: UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:278]
+[2017.10.30-00.55.51:140][214]LogOutputDevice:Error: UE4Editor-Slate.dll!<lambda_8d0e9a1da76abd0a756a3a9d775f5ed1>::operator()() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5049]
+[2017.10.30-00.55.51:140][214]LogOutputDevice:Error: UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_8d0e9a1da76abd0a756a3a9d775f5ed1> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:239]
+[2017.10.30-00.55.51:140][214]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5038]
+[2017.10.30-00.55.51:140][214]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5515]
+[2017.10.30-00.55.51:141][214]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5495]
+[2017.10.30-00.55.51:141][214]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1704]
+[2017.10.30-00.55.51:141][214]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2127]
+[2017.10.30-00.55.51:141][214]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:867]
+[2017.10.30-00.55.51:141][214]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:714]
+[2017.10.30-00.55.51:141][214]LogOutputDevice:Error: USER32.dll!0x000000007EFBBC50
+[2017.10.30-00.55.51:141][214]LogOutputDevice:Error: USER32.dll!0x000000007EFBB5CF
+[2017.10.30-00.55.51:141][214]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:1009]
+[2017.10.30-00.55.51:141][214]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3058]
+[2017.10.30-00.55.51:142][214]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.10.30-00.55.51:142][214]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.10.30-00.55.51:142][214]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.10.30-00.55.51:142][214]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.10.30-00.55.51:142][214]LogOutputDevice:Error: KERNEL32.DLL!0x000000007E562774
+[2017.10.30-00.55.51:142][214]LogOutputDevice:Error: ntdll.dll!0x00000000806D0D51
+[2017.10.30-00.55.51:142][214]LogOutputDevice:Error: 
+[2017.10.30-00.55.51:151][214]LogStats:                SubmitErrorReport -  0.000 s
