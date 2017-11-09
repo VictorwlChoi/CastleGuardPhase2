@@ -1,0 +1,1762 @@
+﻿Log file open, 11/07/17 15:18:03
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1500287473) SRandInit(1500287473).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.078678
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.07-23.18.03:847][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.07-23.18.03:847][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.07-23.18.03:855][  0]LogInit: Computer: LCIVAN-238-00
+[2017.11.07-23.18.03:855][  0]LogInit: User: studentuser
+[2017.11.07-23.18.03:855][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.07-23.18.03:855][  0]LogInit: High frequency timer resolution =4.101569 MHz
+[2017.11.07-23.18.03:855][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.07-23.18.03:855][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.07-23.18.03:855][  0]LogMemory: Process Physical Memory: 275.91 MB used, 275.91 MB peak
+[2017.11.07-23.18.03:855][  0]LogMemory: Process Virtual Memory: 276.85 MB used, 276.85 MB peak
+[2017.11.07-23.18.03:855][  0]LogMemory: Physical Memory: 6475.57 MB used,  9807.88 MB free, 16283.45 MB total
+[2017.11.07-23.18.03:855][  0]LogMemory: Virtual Memory: 654.49 MB used,  9807.88 MB free, 134217728.00 MB total
+[2017.11.07-23.18.03:904][  0]LogInit: Using OS detected language (en-US).
+[2017.11.07-23.18.03:904][  0]LogInit: Using OS detected locale (en-CA).
+[2017.11.07-23.18.03:906][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.07-23.18.04:563][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.07-23.18.04:594][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.07-23.18.04:594][  0]LogD3D11RHI:       8115/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.07-23.18.04:600][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.11.07-23.18.04:600][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.07-23.18.04:601][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.07-23.18.04:601][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.07-23.18.04:601][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.07-23.18.04:606][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.07-23.18.04:606][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.07-23.18.04:606][  0]LogWindows: EnumDisplayDevices:
+[2017.11.07-23.18.04:606][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.07-23.18.04:606][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.07-23.18.04:606][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.07-23.18.04:606][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.07-23.18.04:606][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.07-23.18.04:606][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.07-23.18.04:607][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.07-23.18.04:607][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.07-23.18.04:607][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.07-23.18.04:607][  0]LogD3D11RHI:   Driver Version: 382.66 (internal:22.21.13.8266, unified:382.66)
+[2017.11.07-23.18.04:607][  0]LogD3D11RHI:      Driver Date: 6-25-2017
+[2017.11.07-23.18.04:607][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.07-23.18.04:630][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.07-23.18.04:645][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.07-23.18.04:694][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/6672/).
+[2017.11.07-23.18.04:694][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/1DF4FC454558287B7AD38583E401D7F8/'.
+[2017.11.07-23.18.04:694][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.07-23.18.05:426][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.07-23.18.05:463][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.07-23.18.05:500][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.07-23.18.05:536][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.07-23.18.05:572][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.07-23.18.05:608][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.07-23.18.05:643][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.07-23.18.05:680][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.07-23.18.05:710][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.07-23.18.05:746][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.07-23.18.05:782][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.07-23.18.05:819][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.07-23.18.05:856][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.07-23.18.05:891][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.07-23.18.05:935][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.07-23.18.06:009][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.07-23.18.06:009][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.07-23.18.06:036][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.07-23.18.06:111][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.07-23.18.06:132][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.07-23.18.06:167][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.07-23.18.06:203][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.07-23.18.06:237][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.07-23.18.06:272][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.07-23.18.06:272][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.07-23.18.06:623][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.07-23.18.06:711][  0]LogDerivedDataCache: Loaded boot cache 0.09s 103MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.07-23.18.06:711][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.07-23.18.06:711][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.07-23.18.06:712][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.07-23.18.06:712][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.07-23.18.06:712][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.07-23.18.06:723][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.07-23.18.06:735][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.07-23.18.06:742][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.07-23.18.06:742][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.07-23.18.06:743][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.07-23.18.06:743][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.07-23.18.06:965][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.07-23.18.07:025][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.07-23.18.07:140][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.07-23.18.07:172][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.07-23.18.07:207][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.07-23.18.07:207][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.07-23.18.07:207][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.07-23.18.07:610][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.11.07-23.18.07:662][  0]LogAssetRegistry: FAssetRegistry took 0.0242 seconds to start up
+[2017.11.07-23.18.07:702][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.021665 seconds
+[2017.11.07-23.18.07:706][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.07-23.18.07:706][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.11.07-23.18.07:706][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.07-23.18.07:753][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.07-23.18.09:424][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.07-23.18.09:456][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.07-23.18.09:846][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.07-23.18.10:137][  0]SourceControl: Info Source control is disabled
+[2017.11.07-23.18.10:157][  0]SourceControl: Info Source control is disabled
+[2017.11.07-23.18.10:190][  0]SourceControl: Info Source control is disabled
+[2017.11.07-23.18.10:222][  0]SourceControl: Info Source control is disabled
+[2017.11.07-23.18.10:707][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.07-23.18.11:133][  0]LogEngine: Initializing Engine...
+[2017.11.07-23.18.13:677][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.11.07-23.18.13:853][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.07-23.18.13:854][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.07-23.18.13:952][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.07-23.18.13:964][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.07-23.18.13:979][  0]LogInit: FAudioDevice initialized.
+[2017.11.07-23.18.14:022][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.07-23.18.14:052][  0]LogInit: Texture streaming: Enabled
+[2017.11.07-23.18.14:119][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.07-23.18.14:271][  0]LogInit: Transaction tracking system initialized
+[2017.11.07-23.18.14:489][  0]BlueprintLog: New page: Editor Load
+[2017.11.07-23.18.15:170][  0]LocalizationService: Info Localization service is disabled
+[2017.11.07-23.18.15:650][  0]LogConsoleResponse:Display: 
+[2017.11.07-23.18.15:758][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.07-23.18.15:758][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.07-23.18.16:499][  0]SourceControl: Info Source control is disabled
+[2017.11.07-23.18.16:500][  0]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.07-23.18.16:500][  0]LightingResults: New page: Lighting Build
+[2017.11.07-23.18.16:528][  0]MapCheck: New page: Map Check
+[2017.11.07-23.18.16:528][  0]LightingResults: New page: Lighting Build
+[2017.11.07-23.18.18:472][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.11.07-23.18.18:480][  0]LogAIModule: Creating AISystem for world default
+[2017.11.07-23.18.18:598][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.07-23.18.18:685][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.07-23.18.18:736][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.748ms to complete.
+[2017.11.07-23.18.18:736][  0]LogFileHelpers: Loading map 'default' took 2.236
+[2017.11.07-23.18.18:878][  0]LogCollectionManager: Loaded 0 collections in 0.001629 seconds
+[2017.11.07-23.18.18:946][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.11.07-23.18.18:946][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.11.07-23.18.18:946][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.11.07-23.18.18:946][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.07-23.18.18:953][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2330 classes and 494 folders.
+[2017.11.07-23.18.19:000][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.07-23.18.19:024][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.07-23.18.19:057][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.11.07-23.18.19:090][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.07-23.18.19:798][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.11.07-23.18.19:818][  0]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.07-23.18.19:821][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.07-23.18.19:825][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CastleGuardReborn
+[2017.11.07-23.18.19:825][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.07-23.18.19:825][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.11.07-23.18.19:825][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.07-23.18.19:825][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.07-23.18.19:896][  0]LogTemp: BranchPath = LCIVAN-238-00/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LCIVAN-238-00/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.11.07-23.18.19:896][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\studentuser\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.07-23.18.19:896][  0]LogRenderer: Reallocating scene render targets to support 1196x576 NumSamples 1 (Frame:1).
+[2017.11.07-23.18.19:992][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.07-23.18.20:045][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.11.07-23.18.20:046][  0]LogLoad: (Engine Initialization) Total time: 17.45 seconds
+[2017.11.07-23.18.20:046][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.61 seconds
+[2017.11.07-23.18.20:046][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.07-23.18.20:046][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.07-23.18.20:384][  0]LogOcInput: OculusInput pre-init called
+[2017.11.07-23.18.20:384][  0]LogHMD: Starting GearVRController plugin
+[2017.11.07-23.18.20:404][  0]LogAssetRegistry: Asset discovery search completed in 12.7630 seconds
+[2017.11.07-23.18.20:405][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.07-23.18.20:405][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2017.11.07-23.18.20:409][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.07-23.18.20:461][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.07-23.19.23:443][513]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.07-23.19.23:491][513]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.19.23:554][513]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.19.23:563][513]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.19.23:601][513]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.07-23.19.24:694][560]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.19.24:694][560]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.19.24:694][560]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.19.36:873][408]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.19.36:906][409]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.07-23.19.36:987][419]LogMaterialEditor: Applying material M_OutlineTest
+[2017.11.07-23.19.37:592][419]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.19.37:633][419]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.19.37:653][419]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.19.37:738][419]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_OutlineTest, compiling. 
+[2017.11.07-23.19.38:371][419]TextureStreamingBuild:Display: Compiling optional shaders took 0.640 seconds.
+[2017.11.07-23.19.41:105][700]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.19.42:038][808]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.19.42:038][808]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.19.42:038][808]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.19.43:812][ 18]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.19.45:135][ 55]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.19.45:135][ 55]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.19.45:135][ 55]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.19.48:681][325]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.19.49:025][363]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.19.50:552][421]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.19.50:552][421]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.19.50:552][421]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.19.53:289][633]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.19.54:117][728]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.19.54:117][728]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.19.54:117][728]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.19.55:110][847]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.19.56:175][892]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.19.56:175][892]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.19.56:175][892]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.20.37:598][360]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.20.38:992][521]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.20.38:992][521]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.20.38:992][521]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.20.49:678][607]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.20.50:534][705]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.20.50:534][705]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.20.50:534][705]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.20.56:675][204]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.20.57:568][304]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.20.57:569][304]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.20.57:569][304]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.20.58:695][439]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.21.00:026][592]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.21.00:863][684]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.21.00:863][684]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.21.00:863][684]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.21.14:848][773]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.21.15:748][874]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.21.15:748][874]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.21.15:748][874]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.21.21:232][179]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.21.22:090][273]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.21.22:090][273]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.21.22:090][273]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.21.23:149][400]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.21.23:994][494]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.21.23:994][494]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.21.23:994][494]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.21.24:679][576]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.21.25:808][706]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.21.25:808][706]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.21.25:808][706]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.22.08:675][  9]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.22.08:684][  9]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.22.09:742][127]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.22.09:743][127]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.22.09:743][127]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.22.11:084][287]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.22.11:983][388]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.22.11:983][388]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.22.11:983][388]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.22.22:734][937]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.22.23:620][ 33]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.22.23:620][ 33]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.22.23:620][ 33]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.22.26:097][330]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.22.26:945][424]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.22.26:945][424]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.22.26:945][424]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.22.27:731][518]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.22.28:590][614]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.22.28:590][614]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.22.28:590][614]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.22.37:602][263]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.22.38:938][335]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.22.38:938][335]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.22.38:938][335]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.22.46:481][  5]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.22.47:535][123]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.22.47:535][123]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.22.47:535][123]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.22.50:834][440]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.22.53:061][692]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.22.53:061][692]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.22.53:062][692]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.22.57:074][899]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.22.58:240][952]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.22.58:240][952]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.22.58:240][952]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.23.11:974][311]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.23.12:807][401]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.23.12:807][401]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.23.12:807][401]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.23.16:200][808]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.23.17:913][  3]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.23.18:778][ 93]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.23.18:778][ 93]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.23.18:778][ 93]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.23.34:003][476]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.23.35:148][599]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.23.35:148][599]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.23.35:148][599]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.23.38:092][952]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.23.38:950][ 44]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.23.38:950][ 44]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.23.38:950][ 44]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.24.01:540][386]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.01:549][386]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.02:625][504]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.24.02:625][504]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.24.02:625][504]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.24.02:809][525]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.03:663][612]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.24.03:663][612]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.24.03:663][612]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.24.06:766][984]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.07:627][ 74]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.24.07:627][ 74]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.24.07:627][ 74]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.24.09:637][315]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.11:155][482]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.11:989][570]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.24.11:989][570]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.24.11:989][570]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.24.30:487][121]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.31:141][184]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.32:094][275]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.24.32:094][275]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.24.32:094][275]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.24.32:146][281]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.33:002][366]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.24.33:002][366]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.24.33:002][366]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.24.33:337][406]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.34:178][490]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.24.34:178][490]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.24.34:178][490]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.24.35:230][616]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.36:689][774]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.24.36:689][774]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.24.36:689][774]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.24.40:008][172]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.40:844][262]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.42:007][390]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.43:356][540]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.24.43:356][540]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.24.43:356][540]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.24.55:326][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2017.11.07-23.24.57:120][189]LogEditorTransaction: Undo Material Editor: Toggle Collapsed
+[2017.11.07-23.24.57:122][189]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.24.57:137][189]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.07-23.24.57:954][263]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.24.57:954][263]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.24.57:954][263]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.25.53:909][843]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.25.55:352][924]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.25.55:352][924]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.25.55:352][924]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.26.02:058][453]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.02:067][453]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.03:513][529]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.26.03:513][529]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.26.03:513][529]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.26.06:934][820]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.06:944][820]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.07:779][903]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.26.07:779][903]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.26.07:779][903]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.26.17:634][810]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.18:469][889]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.26.18:469][889]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.26.18:469][889]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.26.25:686][364]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.27:145][436]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.26.27:145][436]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.26.27:145][436]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.26.31:133][834]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.31:143][834]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.32:021][919]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.26.32:021][919]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.26.32:021][919]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.26.32:715][  1]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.33:554][ 77]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.26.33:554][ 77]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.26.33:554][ 77]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.26.36:489][429]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.37:718][561]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.38:965][691]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.26.38:965][691]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.26.38:965][691]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.26.48:393][818]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.49:216][895]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.26.49:217][895]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.26.49:217][895]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.26.50:460][ 44]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.51:309][126]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.26.51:309][126]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.26.51:309][126]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.26.54:244][478]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.55:070][554]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.26.55:070][554]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.26.55:070][554]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.26.56:024][668]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.26.57:180][786]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.26.57:180][786]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.26.57:180][786]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.27.15:645][996]LogMaterialEditor: Saving and Compiling material M_OutlineTest
+[2017.11.07-23.27.16:047][996]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.27.16:078][996]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.27.16:098][996]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.27.16:174][996]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_OutlineTest, compiling. 
+[2017.11.07-23.27.16:727][996]TextureStreamingBuild:Display: Compiling optional shaders took 0.558 seconds.
+[2017.11.07-23.27.17:977][996]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.07-23.27.17:989][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMats/M_OutlineTest" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset" SILENT=true
+[2017.11.07-23.27.18:006][996]LogSavePackage: Save=15.71ms
+[2017.11.07-23.27.18:006][996]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/M_OutlineTest4AAF77194C502470F19F59A53F1A9453.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset'
+[2017.11.07-23.27.18:009][996]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset
+[2017.11.07-23.27.18:014][996]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.27.18:014][996]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.27.18:014][996]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.07-23.27.35:037][758]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2017.11.07-23.28.08:644][775]LogMaterialEditor: Saving and Compiling material M_OutlineTest
+[2017.11.07-23.28.09:044][775]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.28.09:074][775]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.28.09:089][775]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.28.09:148][775]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_OutlineTest, compiling. 
+[2017.11.07-23.28.09:912][775]TextureStreamingBuild:Display: Compiling optional shaders took 0.767 seconds.
+[2017.11.07-23.28.11:192][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMats/M_OutlineTest" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset" SILENT=true
+[2017.11.07-23.28.11:213][775]LogSavePackage: Save=14.71ms
+[2017.11.07-23.28.11:213][775]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/M_OutlineTest50BDBEEC40B0F8192554CAA26D0D4BC1.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset'
+[2017.11.07-23.28.11:214][775]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset
+[2017.11.07-23.28.52:435][ 89]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.28.53:540][201]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.28.53:540][201]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.28.53:540][201]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.29.01:858][690]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.29.04:086][933]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.29.04:086][933]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.29.04:086][933]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.29.05:281][ 75]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.29.07:538][320]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.29.07:538][320]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.29.07:538][320]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.29.09:791][589]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.29.11:273][740]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.29.12:719][888]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.29.14:149][ 34]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.29.14:974][111]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.29.14:974][111]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.29.14:974][111]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.29.52:710][904]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.29.55:384][202]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.29.55:384][202]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.29.55:384][202]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.32.07:408][608]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.08:478][715]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.32.08:478][715]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.32.08:478][715]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.32.09:976][893]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.11:954][107]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.32.11:954][107]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.32.11:954][107]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.32.13:124][246]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.13:987][323]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.32.13:987][323]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.32.13:987][323]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.32.17:915][793]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.18:762][870]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.32.18:762][870]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.32.18:762][870]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.32.20:474][ 75]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.21:650][196]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.23:645][410]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.25:332][588]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.27:105][775]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.29:559][ 42]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.32.29:559][ 42]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.32.29:559][ 42]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.32.30:361][138]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.31:191][213]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.32.31:191][213]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.32.31:191][213]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.32.31:326][229]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.32:171][307]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.32.32:171][307]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.32.32:171][307]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.32.35:341][684]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.36:511][802]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.38:013][960]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.39:809][153]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.40:668][235]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.32.40:668][235]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.32.40:668][235]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.32.45:183][578]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.46:624][620]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.32.46:624][620]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.32.46:624][620]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.32.48:497][806]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.50:205][992]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.51:033][ 71]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.52:445][215]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.32.52:445][215]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.32.52:445][215]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.32.53:380][327]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.54:903][490]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.32.56:101][539]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.32.56:101][539]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.32.56:101][539]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.33.03:547][274]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.33.04:973][423]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.33.04:973][423]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.33.04:973][423]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.33.06:494][605]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.33.07:830][747]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.33.09:211][785]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.33.09:212][785]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.33.09:212][785]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.33.33:618][837]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.33.34:961][973]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.33.34:961][973]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.33.34:961][973]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.33.39:658][533]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.33.39:668][533]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.33.40:523][614]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.33.40:523][614]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.33.40:523][614]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.33.41:500][731]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.33.42:333][813]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.33.42:333][813]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.33.42:333][813]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.33.45:632][206]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.33.46:491][288]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.33.46:491][288]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.33.46:491][288]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.34.01:151][344]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.34.01:992][425]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.34.01:992][425]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.34.01:992][425]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.34.52:360][911]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.34.52:369][911]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.34.53:816][959]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.34.53:816][959]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.34.53:816][959]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.35.01:490][409]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.35.01:499][409]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.35.02:585][448]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.35.02:585][448]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.35.02:585][448]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.35.09:928][899]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.35.10:830][990]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.35.10:830][990]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.35.10:830][990]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.35.13:041][255]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.35.14:463][298]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.35.14:463][298]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.35.14:463][298]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.35.46:081][ 48]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.35.46:089][ 48]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.07-23.35.47:401][186]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.35.47:401][186]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.35.47:401][186]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.35.52:563][683]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.35.52:572][683]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.07-23.35.52:583][683]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.07-23.35.52:615][683]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.35.53:731][794]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.35.53:731][794]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.35.53:731][794]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.35.57:683][268]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.35.57:693][268]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.07-23.35.58:987][300]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.35.58:987][300]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.35.58:987][300]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.36.10:651][761]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.36.10:726][762]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.11.07-23.36.11:590][844]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.36.11:590][844]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.36.11:590][844]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.36.19:871][365]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.36.21:337][411]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.36.21:337][411]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.36.21:337][411]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.36.25:231][760]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.36.26:588][810]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.36.26:588][810]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.36.26:588][810]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.36.30:564][168]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.36.31:384][240]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.36.31:384][240]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.36.31:384][240]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.36.53:745][583]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.36.53:755][583]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.07-23.36.54:777][680]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.36.54:797][680]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.07-23.36.55:722][760]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.36.55:735][760]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.07-23.36.56:760][853]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.36.56:772][853]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.07-23.36.58:004][875]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.36.58:004][875]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.36.58:004][875]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.37.02:131][288]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.37.02:995][364]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.37.02:995][364]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.37.02:995][364]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.37.04:231][512]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.37.05:070][590]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.37.05:070][590]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.37.05:070][590]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.37.06:465][757]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.37.07:735][812]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.37.07:735][812]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.37.07:735][812]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.37.12:728][251]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.37.12:833][252]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.11.07-23.37.13:609][316]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.37.13:609][316]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.37.13:609][316]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.37.13:940][354]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.37.16:960][686]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.37.18:292][818]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.37.18:292][818]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.37.18:292][818]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.37.21:703][ 32]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.37.23:160][185]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.37.24:196][286]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.37.24:196][286]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.37.24:196][286]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.37.33:424][769]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.37.35:221][960]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.37.36:368][ 75]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.37.36:368][ 75]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.37.36:368][ 75]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.38.00:692][622]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.01:778][724]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.38.01:778][724]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.38.01:778][724]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.38.04:379][ 36]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.05:221][113]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.38.05:221][113]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.38.05:221][113]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.38.11:481][864]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.12:312][943]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.38.12:312][943]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.38.12:312][943]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.38.18:194][647]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.19:042][725]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.38.19:042][725]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.38.19:042][725]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.38.26:029][365]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.26:852][439]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.38.26:852][439]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.38.26:852][439]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.38.27:326][496]LogMaterialEditor: Saving and Compiling material M_OutlineTest
+[2017.11.07-23.38.27:726][496]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.27:756][496]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.27:771][496]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.27:842][496]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_OutlineTest, compiling. 
+[2017.11.07-23.38.28:392][496]TextureStreamingBuild:Display: Compiling optional shaders took 0.555 seconds.
+[2017.11.07-23.38.29:688][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMats/M_OutlineTest" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset" SILENT=true
+[2017.11.07-23.38.29:714][496]LogSavePackage: Save=20.63ms
+[2017.11.07-23.38.29:714][496]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/M_OutlineTest0EECACD44EF9F5A0C7468CA6F835CB96.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset'
+[2017.11.07-23.38.29:715][496]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset
+[2017.11.07-23.38.29:720][496]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.07-23.38.29:720][496]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.38.29:720][496]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.07-23.38.39:187][123]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.39:187][123]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.38.39:187][123]LogMaterial:Warning: 	SceneTexture expressions cannot be used in opaque materials
+[2017.11.07-23.38.39:189][123]MaterialEditorStats:Error: Error [SM5] SceneTexture expressions cannot be used in opaque materials
+[2017.11.07-23.38.44:830][486]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.44:830][486]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.38.44:830][486]LogMaterial:Warning: 	(Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface.
+[2017.11.07-23.38.44:830][486]LogMaterial:Warning: 	Volume materials must use an Additive blend mode.
+[2017.11.07-23.38.44:830][486]LogMaterial:Warning: 	SceneTexture expressions cannot be used in opaque materials
+[2017.11.07-23.38.44:844][486]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.44:845][486]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.38.44:845][486]LogMaterial:Warning: 	(Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface.
+[2017.11.07-23.38.44:845][486]LogMaterial:Warning: 	Volume materials must use an Additive blend mode.
+[2017.11.07-23.38.44:845][486]LogMaterial:Warning: 	SceneTexture expressions cannot be used in opaque materials
+[2017.11.07-23.38.44:848][486]MaterialEditorStats:Error: Error [SM5] (Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface.
+[2017.11.07-23.38.44:848][486]MaterialEditorStats:Error: Error [SM5] Volume materials must use an Additive blend mode.
+[2017.11.07-23.38.44:848][486]MaterialEditorStats:Error: Error [SM5] SceneTexture expressions cannot be used in opaque materials
+[2017.11.07-23.38.46:222][646]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.46:222][646]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.38.46:222][646]LogMaterial:Warning: 	(Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface. PostProcessMaterials should use the SceneTexture PostProcessInput0.
+[2017.11.07-23.38.46:236][646]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.46:236][646]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.38.46:236][646]LogMaterial:Warning: 	(Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface. PostProcessMaterials should use the SceneTexture PostProcessInput0.
+[2017.11.07-23.38.46:241][646]MaterialEditorStats:Error: Error [SM5] (Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface. PostProcessMaterials should use the SceneTexture PostProcessInput0.
+[2017.11.07-23.38.58:525][490]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.58:526][490]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.38.58:526][490]LogMaterial:Warning: 	(Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface. PostProcessMaterials should use the SceneTexture PostProcessInput0.
+[2017.11.07-23.38.58:532][490]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.38.58:533][490]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.38.58:533][490]LogMaterial:Warning: 	(Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface. PostProcessMaterials should use the SceneTexture PostProcessInput0.
+[2017.11.07-23.38.59:557][609]LogMaterialEditor: Saving and Compiling material M_OutlineTest
+[2017.11.07-23.39.08:259][609]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.39.08:259][609]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.39.08:259][609]LogMaterial:Warning: 	(Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface. PostProcessMaterials should use the SceneTexture PostProcessInput0.
+[2017.11.07-23.39.08:278][609]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.39.08:278][609]LogMaterial:Warning: Failed to compile Material /Game/Materials/TestMats/M_OutlineTest.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.39.08:278][609]LogMaterial:Warning: 	(Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface. PostProcessMaterials should use the SceneTexture PostProcessInput0.
+[2017.11.07-23.39.08:279][609]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.39.08:280][609]LogMaterial:Warning: Failed to compile Material /Game/Materials/TestMats/M_OutlineTest.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.39.08:280][609]LogMaterial:Warning: 	(Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface. PostProcessMaterials should use the SceneTexture PostProcessInput0.
+[2017.11.07-23.39.08:322][609]TextureStreamingBuild:Display: Compiling optional shaders took 0.009 seconds.
+[2017.11.07-23.39.08:350][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMats/M_OutlineTest" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset" SILENT=true
+[2017.11.07-23.39.08:375][609]LogSavePackage: Save=22.45ms
+[2017.11.07-23.39.08:375][609]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/M_OutlineTestBEBF1B9749EF079C58EA5B911D91B517.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset'
+[2017.11.07-23.39.08:376][609]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset
+[2017.11.07-23.41.19:900][418]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.41.19:901][418]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.41.19:901][418]LogMaterial:Warning: 	(Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface. PostProcessMaterials should use the SceneTexture PostProcessInput0.
+[2017.11.07-23.41.26:454][197]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.41.26:454][197]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.41.26:454][197]LogMaterial:Warning: 	(Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface. PostProcessMaterials should use the SceneTexture PostProcessInput0.
+[2017.11.07-23.41.31:506][797]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.41.31:506][797]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.41.31:506][797]LogMaterial:Warning: 	(Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface. PostProcessMaterials should use the SceneTexture PostProcessInput0.
+[2017.11.07-23.41.37:154][468]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.41.37:155][468]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.41.37:155][468]LogMaterial:Warning: 	(Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface. PostProcessMaterials should use the SceneTexture PostProcessInput0.
+[2017.11.07-23.41.41:415][973]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.41.41:416][973]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.07-23.41.41:416][973]LogMaterial:Warning: 	(Node SceneTexture) SceneColor lookups are only available when MaterialDomain = Surface. PostProcessMaterials should use the SceneTexture PostProcessInput0.
+[2017.11.07-23.41.42:572][107]LogMaterialEditor: Saving and Compiling material M_OutlineTest
+[2017.11.07-23.41.45:307][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMats/M_OutlineTest" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset" SILENT=true
+[2017.11.07-23.41.45:325][107]LogSavePackage: Save=14.90ms
+[2017.11.07-23.41.45:325][107]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/M_OutlineTest4ACF2F154975B304B5291998BBCC9B22.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset'
+[2017.11.07-23.41.45:325][107]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset
+[2017.11.07-23.41.51:292][822]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.41.51:798][874]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.07-23.41.51:798][874]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.41.51:798][874]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.41.52:339][939]LogMaterialEditor: Saving and Compiling material M_OutlineTest
+[2017.11.07-23.41.52:739][939]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.41.52:764][939]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.41.52:775][939]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.41.52:830][939]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.07-23.41.53:799][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMats/M_OutlineTest" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset" SILENT=true
+[2017.11.07-23.41.53:816][939]LogSavePackage: Save=14.99ms
+[2017.11.07-23.41.53:816][939]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/M_OutlineTest8D0E152549E44BDE355514981620A5B3.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset'
+[2017.11.07-23.41.53:817][939]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset
+[2017.11.07-23.46.16:628][791]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.46.17:116][847]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.07-23.46.17:116][847]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.46.17:116][847]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.46.22:167][218]LogMaterialEditor: Saving and Compiling material M_OutlineTest
+[2017.11.07-23.46.22:553][218]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.46.22:578][218]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.46.22:587][218]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.46.22:639][218]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.07-23.46.23:588][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMats/M_OutlineTest" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset" SILENT=true
+[2017.11.07-23.46.23:610][218]LogSavePackage: Save=16.02ms
+[2017.11.07-23.46.23:610][218]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/M_OutlineTestC1D348A1401B0D4F154F3C847E33732A.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset'
+[2017.11.07-23.46.23:611][218]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset
+[2017.11.07-23.50.10:329][820]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.07-23.50.30:956][279]Cmd: DELETE
+[2017.11.07-23.50.30:956][279]Cmd: ACTOR DELETE
+[2017.11.07-23.50.30:975][279]LogEditorActor: Deleted Actor: PostProcessVolume
+[2017.11.07-23.50.30:992][279]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.11.07-23.51.52:017][876]Cmd: TRANSACTION UNDO
+[2017.11.07-23.51.52:017][876]LogEditorTransaction: Undo Add Child
+[2017.11.07-23.51.52:050][876]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.51.52:414][910]Cmd: TRANSACTION UNDO
+[2017.11.07-23.51.52:414][910]LogEditorTransaction: Undo Edit Weight
+[2017.11.07-23.51.52:459][910]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.51.52:889][954]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.07-23.51.52:889][954]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.51.52:889][954]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.51.52:963][963]Cmd: TRANSACTION UNDO
+[2017.11.07-23.51.52:963][963]LogEditorTransaction: Undo Add Child
+[2017.11.07-23.51.52:994][963]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.51.53:306][995]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.07-23.51.53:306][995]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.51.53:306][995]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.52.58:183][181]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.07-23.54.04:202][855]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.54.04:705][914]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.07-23.54.04:705][914]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.54.04:705][914]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.54.06:096][ 81]LogMaterialEditor: Saving and Compiling material M_OutlineTest
+[2017.11.07-23.54.06:502][ 81]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.54.06:526][ 81]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.54.06:534][ 81]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.54.06:588][ 81]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.07-23.54.07:541][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMats/M_OutlineTest" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset" SILENT=true
+[2017.11.07-23.54.07:563][ 81]LogSavePackage: Save=15.66ms
+[2017.11.07-23.54.07:563][ 81]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/M_OutlineTest7FC0A4124076A120EE1936835074C1CB.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset'
+[2017.11.07-23.54.07:564][ 81]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest.uasset
+[2017.11.07-23.54.45:977][564]LogEditorViewport: Clicking on Actor (LMB): BP_Castle_C (BP_Castle)
+[2017.11.07-23.54.52:049][276]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.11.07-23.57.35:226][958]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.11.07-23.59.24:380][764]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.59.24:899][822]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.07-23.59.24:899][822]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.59.24:899][822]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.59.26:745][ 43]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.59.26:751][ 43]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.07-23.59.27:104][ 71]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.59.27:414][ 99]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.07-23.59.27:414][ 99]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.59.27:414][ 99]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.59.27:490][108]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.59.27:796][139]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.07-23.59.27:796][139]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.59.27:796][139]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.59.27:814][141]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.59.28:114][172]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.07-23.59.28:114][172]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.59.28:114][172]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.07-23.59.30:234][426]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.59.30:241][426]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.07-23.59.31:131][517]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.59.31:137][517]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.07-23.59.32:153][623]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.07-23.59.32:162][623]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.07-23.59.32:515][650]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.07-23.59.32:515][650]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.07-23.59.32:515][650]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.00.09:641][828]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.08-00.00.10:144][883]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.08-00.00.10:145][883]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.00.10:145][883]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.01.39:957][294]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.08-00.01.40:448][343]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.08-00.01.40:448][343]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.01.40:448][343]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.01.43:360][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_3, compiling. 
+[2017.11.08-00.01.50:634][283]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.08-00.01.50:640][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_3, compiling. 
+[2017.11.08-00.01.50:966][310]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.08-00.01.50:966][310]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.01.50:966][310]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.01.54:471][725]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_1, compiling. 
+[2017.11.08-00.01.55:642][860]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.08-00.01.55:673][860]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_1, compiling. 
+[2017.11.08-00.01.55:992][880]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.08-00.01.55:992][880]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.01.55:992][880]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.02.31:435][671]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.08-00.02.31:446][671]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.08-00.02.32:064][726]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.08-00.02.32:064][726]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.02.32:064][726]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.02.40:140][264]LogTemp: Repeting last play command: VR Preview
+[2017.11.08-00.02.40:199][264]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.02.40:199][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-00.02.40:200][264]PIE: New page: PIE session: default (Nov 7, 2017, 8:02:40 AM)
+[2017.11.08-00.02.40:201][264]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.08-00.02.40:362][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.161729s)
+[2017.11.08-00.02.40:363][264]LogAIModule: Creating AISystem for world default
+[2017.11.08-00.02.40:364][264]LogPlayLevel: PIE: World Init took: (0.001321s)
+[2017.11.08-00.02.40:364][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.163701s)
+[2017.11.08-00.02.40:383][264]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.08-00.02.40:396][264]LogInit: FAudioDevice initialized.
+[2017.11.08-00.02.40:483][264]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.08-00.02.40:501][264]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.07-16.02.40
+[2017.11.08-00.02.40:504][264]LogWorld: Bringing up level for play took: 0.019518
+[2017.11.08-00.02.40:540][264]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.11.08-00.02.40:540][264]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.08-00.02.40:541][264]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.08-00.02.40:541][264]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.08-00.02.40:546][264]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.08-00.02.40:551][264]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.576
+[2017.11.08-00.02.40:552][264]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.02.40:674][265]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.11.08-00.02.41:691][353]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.08-00.02.41:691][353]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.08-00.02.41:691][353]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.08-00.02.41:891][371]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.08-00.02.41:891][371]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_1
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.08-00.02.41:892][371]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.08-00.02.42:664][440]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.02.42:822][440]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.02.45:614][758]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.02.45:614][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-00.02.45:614][758]PIE: New page: SIE session: default (Nov 7, 2017, 8:02:45 AM)
+[2017.11.08-00.02.45:614][758]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.08-00.02.45:766][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.151998s)
+[2017.11.08-00.02.45:767][758]LogAIModule: Creating AISystem for world default
+[2017.11.08-00.02.45:767][758]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2017.11.08-00.02.45:768][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.154034s)
+[2017.11.08-00.02.45:790][758]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.08-00.02.45:803][758]LogInit: FAudioDevice initialized.
+[2017.11.08-00.02.45:836][758]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.08-00.02.45:849][758]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.07-16.02.45
+[2017.11.08-00.02.45:850][758]LogWorld: Bringing up level for play took: 0.013464
+[2017.11.08-00.02.45:851][758]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.08-00.02.45:851][758]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.08-00.02.45:855][758]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.08-00.02.45:855][758]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.728
+[2017.11.08-00.02.45:867][758]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.02.47:007][833]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.08-00.02.47:007][833]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.08-00.02.47:007][833]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.08-00.02.47:226][848]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.08-00.02.47:226][848]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_1
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.08-00.02.47:226][848]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.08-00.02.47:361][859]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.02.47:405][859]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.02.48:468][973]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2017.11.08-00.02.49:253][ 60]LogTemp: Repeting last play command: Simulate
+[2017.11.08-00.02.49:276][ 60]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.02.49:276][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-00.02.49:276][ 60]PIE: New page: SIE session: default (Nov 7, 2017, 8:02:49 AM)
+[2017.11.08-00.02.49:276][ 60]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.08-00.02.49:421][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.145623s)
+[2017.11.08-00.02.49:422][ 60]LogAIModule: Creating AISystem for world default
+[2017.11.08-00.02.49:422][ 60]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2017.11.08-00.02.49:423][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.147806s)
+[2017.11.08-00.02.49:446][ 60]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.08-00.02.49:458][ 60]LogInit: FAudioDevice initialized.
+[2017.11.08-00.02.49:492][ 60]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.08-00.02.49:505][ 60]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.07-16.02.49
+[2017.11.08-00.02.49:506][ 60]LogWorld: Bringing up level for play took: 0.012716
+[2017.11.08-00.02.49:506][ 60]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.08-00.02.49:506][ 60]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.08-00.02.49:511][ 60]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.08-00.02.49:511][ 60]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.383
+[2017.11.08-00.02.49:521][ 60]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.02.50:677][139]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.08-00.02.50:678][139]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.08-00.02.50:678][139]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.08-00.02.50:873][154]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.08-00.02.50:873][154]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_1
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.08-00.02.50:873][154]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.08-00.02.51:902][250]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.02.51:950][250]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.02.52:573][295]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.11.08-00.03.02:132][435]LogTemp: Repeting last play command: Simulate
+[2017.11.08-00.03.02:155][435]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.03.02:155][435]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-00.03.02:155][435]PIE: New page: SIE session: default (Nov 7, 2017, 8:03:02 AM)
+[2017.11.08-00.03.02:155][435]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.08-00.03.02:300][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.145237s)
+[2017.11.08-00.03.02:301][435]LogAIModule: Creating AISystem for world default
+[2017.11.08-00.03.02:301][435]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2017.11.08-00.03.02:302][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.147182s)
+[2017.11.08-00.03.02:323][435]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.08-00.03.02:336][435]LogInit: FAudioDevice initialized.
+[2017.11.08-00.03.02:369][435]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.08-00.03.02:381][435]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.07-16.03.02
+[2017.11.08-00.03.02:382][435]LogWorld: Bringing up level for play took: 0.012159
+[2017.11.08-00.03.02:382][435]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.08-00.03.02:382][435]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.08-00.03.02:386][435]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.08-00.03.02:386][435]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.742
+[2017.11.08-00.03.02:399][435]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.03.03:555][537]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.08-00.03.03:555][537]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.08-00.03.03:555][537]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.08-00.03.03:756][555]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.08-00.03.03:756][555]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_1
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.08-00.03.03:756][555]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.08-00.03.08:201][941]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.11.08-00.03.08:537][971]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.09:400][ 48]LogBlueprintUserMessages: [BP_Castle] Arrow DIes On Castle
+[2017.11.08-00.03.10:883][174]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.03.10:935][174]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.03.12:803][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.03.12:803][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-00.03.12:803][389]PIE: New page: PIE session: default (Nov 7, 2017, 8:03:12 AM)
+[2017.11.08-00.03.12:803][389]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.08-00.03.12:950][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.146905s)
+[2017.11.08-00.03.12:951][389]LogAIModule: Creating AISystem for world default
+[2017.11.08-00.03.12:951][389]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2017.11.08-00.03.12:952][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.148815s)
+[2017.11.08-00.03.12:975][389]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.08-00.03.12:987][389]LogInit: FAudioDevice initialized.
+[2017.11.08-00.03.13:071][389]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.08-00.03.13:083][389]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.07-16.03.13
+[2017.11.08-00.03.13:085][389]LogWorld: Bringing up level for play took: 0.013418
+[2017.11.08-00.03.13:086][389]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.08-00.03.13:086][389]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.08-00.03.13:086][389]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.08-00.03.13:091][389]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.08-00.03.13:095][389]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.032
+[2017.11.08-00.03.13:096][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.03.14:239][480]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.08-00.03.14:239][480]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.08-00.03.14:239][480]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.08-00.03.14:440][498]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.08-00.03.14:440][498]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_1
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.08-00.03.14:440][498]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.08-00.03.16:184][654]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.03.16:339][654]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.03.24:126][564]LogEditorViewport: Clicking on Actor (LMB): BP_Castle_C (BP_Castle)
+[2017.11.08-00.03.45:425][ 89]LogTemp: Repeting last play command: VR Preview
+[2017.11.08-00.03.45:449][ 89]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.03.45:449][ 89]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-00.03.45:449][ 89]PIE: New page: PIE session: default (Nov 7, 2017, 8:03:45 AM)
+[2017.11.08-00.03.45:449][ 89]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.08-00.03.45:596][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.147519s)
+[2017.11.08-00.03.45:597][ 89]LogAIModule: Creating AISystem for world default
+[2017.11.08-00.03.45:597][ 89]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2017.11.08-00.03.45:598][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.149179s)
+[2017.11.08-00.03.45:626][ 89]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.08-00.03.45:642][ 89]LogInit: FAudioDevice initialized.
+[2017.11.08-00.03.45:723][ 89]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.08-00.03.45:733][ 89]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.07-16.03.45
+[2017.11.08-00.03.45:735][ 89]LogWorld: Bringing up level for play took: 0.011711
+[2017.11.08-00.03.45:735][ 89]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.08-00.03.45:735][ 89]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.08-00.03.45:735][ 89]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.08-00.03.45:739][ 89]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.08-00.03.45:748][ 89]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.62
+[2017.11.08-00.03.45:749][ 89]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.03.46:899][181]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.08-00.03.46:899][181]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.08-00.03.46:899][181]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.08-00.03.47:101][199]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.08-00.03.47:101][199]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_1
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.08-00.03.47:101][199]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.08-00.03.48:687][341]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.03.48:850][341]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.08-00.04.51:683][132]LogSavePackage: Save=2880.55ms
+[2017.11.08-00.04.51:683][132]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/defaultA058332C4B33FBA0020961B61CBAAB20.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.08-00.04.51:686][132]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.08-00.04.51:737][132]LogFileHelpers: Saving map 'default' took 3.007
+[2017.11.08-00.04.54:828][494]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.08-00.05.00:935][220]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.08-00.05.06:138][775]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.11.08-00.05.06:511][812]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.11.08-00.05.07:862][972]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.11.08-00.05.11:477][398]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.11.08-00.05.13:209][601]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.11.08-00.05.15:094][822]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.11.08-00.05.47:776][642]Cmd: TRANSACTION UNDO
+[2017.11.08-00.05.47:776][642]LogEditorTransaction: Undo Edit X
+[2017.11.08-00.05.47:784][642]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.08-00.05.47:964][660]Cmd: TRANSACTION UNDO
+[2017.11.08-00.05.47:964][660]LogEditorTransaction: Undo Edit Y
+[2017.11.08-00.05.47:973][660]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.08-00.05.48:541][697]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.08-00.05.48:541][697]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.05.48:541][697]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.05.49:264][779]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.08-00.05.52:030][ 34]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.08-00.05.57:929][714]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.08-00.06.01:612][ 90]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.08-00.06.25:146][478]LogSavePackage: Save=2766.78ms
+[2017.11.08-00.06.25:146][478]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default21FF8A59417179D1272CCB87FA1DB539.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.08-00.06.25:150][478]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.08-00.12.43:163][784]Cmd: TRANSACTION UNDO
+[2017.11.08-00.12.43:163][784]LogEditorTransaction: Undo Edit Object
+[2017.11.08-00.12.43:165][784]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.08-00.12.43:708][832]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.08-00.12.43:708][832]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.12.43:708][832]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.12.43:814][844]LogMaterial: Missing cached shader map for material M_OutlineTest1, compiling. 
+[2017.11.08-00.12.50:585][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMats/M_OutlineTest01" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest01.uasset" SILENT=true
+[2017.11.08-00.12.50:602][504]LogSavePackage: Save=16.19ms
+[2017.11.08-00.12.50:602][504]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/M_OutlineTest014C2A29EB40E71DC1000F21879E321A2E.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest01.uasset'
+[2017.11.08-00.12.50:603][504]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest01.uasset
+[2017.11.08-00.12.56:445][845]LogSavePackage: Save=2757.37ms
+[2017.11.08-00.12.56:445][845]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default9B6020DE4D4DF94132D7119B76E04836.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.08-00.12.56:449][845]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.08-00.12.56:488][845]LogFileHelpers: Saving map 'default' took 2.884
+[2017.11.08-00.12.56:501][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMats/M_OutlineTest02" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest02.uasset" SILENT=true
+[2017.11.08-00.12.56:515][845]LogSavePackage: Save=12.94ms
+[2017.11.08-00.12.56:515][845]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/M_OutlineTest02DEE5F05344644461CC98C783A7F34B4C.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest02.uasset'
+[2017.11.08-00.12.56:516][845]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest02.uasset
+[2017.11.08-00.12.57:678][978]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.12.57:768][978]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.12.57:777][978]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.12.58:719][ 72]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.08-00.12.58:719][ 72]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.12.58:719][ 72]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.13.00:929][337]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.00:929][337]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest02 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.08-00.13.00:929][337]LogMaterial:Warning: 	Volume materials must use an Additive blend mode.
+[2017.11.08-00.13.00:934][337]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.00:935][337]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_OutlineTest02 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.08-00.13.00:935][337]LogMaterial:Warning: 	Volume materials must use an Additive blend mode.
+[2017.11.08-00.13.01:436][395]MaterialEditorStats:Error: Error [SM5] Volume materials must use an Additive blend mode.
+[2017.11.08-00.13.03:320][621]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.03:327][621]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.03:561][646]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.13.03:561][646]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.13.03:561][646]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.13.08:604][251]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.08:609][251]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.08:922][286]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.13.08:922][286]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.13.08:922][286]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.13.20:788][161]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.21:020][187]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.13.21:020][187]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.13.21:020][187]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.13.28:146][883]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.28:150][883]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.28:607][936]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.13.28:607][936]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.13.28:607][936]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.13.31:480][278]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.31:484][278]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.31:726][305]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.13.31:726][305]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.13.31:726][305]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.13.33:737][546]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.33:965][573]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.13.33:965][573]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.13.33:965][573]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.13.34:934][689]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.35:152][713]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.13.35:152][713]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.13.35:152][713]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.13.42:238][560]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.42:243][560]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.42:479][586]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.13.42:479][586]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.13.42:479][586]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.13.45:163][907]LogMaterialEditor: Saving and Compiling material M_OutlineTest02
+[2017.11.08-00.13.45:568][907]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.45:594][907]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.45:602][907]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.45:661][907]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.08-00.13.46:338][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMats/M_OutlineTest02" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest02.uasset" SILENT=true
+[2017.11.08-00.13.46:357][907]LogSavePackage: Save=10.58ms
+[2017.11.08-00.13.46:357][907]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/M_OutlineTest026AFE786D48F2A0D60F221EBD29123DD2.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest02.uasset'
+[2017.11.08-00.13.46:359][907]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest02.uasset
+[2017.11.08-00.13.58:579][356]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.58:583][356]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.13.58:822][382]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.13.58:822][382]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.13.58:822][382]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.14.04:615][ 77]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.14.04:842][102]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.14.04:842][102]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.14.04:842][102]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.14.16:289][850]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.14.16:526][878]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.14.16:526][878]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.14.16:526][878]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.14.29:085][330]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.14.29:318][356]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.14.29:318][356]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.14.29:318][356]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.14.34:095][773]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.14.34:327][799]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.14.34:327][799]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.14.34:327][799]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.14.39:734][445]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.14.39:962][470]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.14.39:962][470]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.14.39:962][470]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.14.41:496][654]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.14.41:934][706]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.14.41:934][706]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.14.41:934][706]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.14.48:515][336]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.14.48:519][336]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.14.48:750][361]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.14.48:750][361]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.14.48:750][361]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.14.52:109][764]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.14.52:979][789]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.14.52:979][789]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.14.52:979][789]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.14.56:788][166]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.14.56:792][166]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.14.57:030][192]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.14.57:030][192]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.14.57:030][192]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.15.07:479][855]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.15.07:483][855]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.15.07:710][879]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.15.07:710][879]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.15.07:710][879]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.15.16:531][117]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.15.16:773][143]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.15.16:773][143]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.15.16:773][143]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.15.22:598][683]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.15.22:838][710]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.15.22:838][710]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.15.22:838][710]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.15.28:385][ 62]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.15.28:622][ 88]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.15.28:622][ 88]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.15.28:622][ 88]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.15.30:490][312]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.15.30:767][344]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.15.31:063][378]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.15.31:063][378]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.15.31:063][378]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.15.37:555][883]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.15.37:808][912]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.15.37:808][912]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.15.37:808][912]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.15.40:926][130]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.15.41:161][157]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.15.41:161][157]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.15.41:161][157]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.15.44:930][490]LogMaterial: Missing cached shader map for material M_OutlineTest02, compiling. 
+[2017.11.08-00.15.45:494][517]MaterialEditorStats: Info Base pass shader without light map: 69 instructions
+[2017.11.08-00.15.45:494][517]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.15.45:494][517]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.11.08-00.17.03:286][541]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDivide_0, compiling. 
+[2017.11.08-00.17.09:930][791]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.08-00.17.09:939][791]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDivide_0, compiling. 
+[2017.11.08-00.17.10:445][846]MaterialEditorStats: Info Base pass shader without light map: 128 instructions
+[2017.11.08-00.17.10:445][846]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.17.10:445][846]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.17.21:491][312]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.08-00.17.21:501][312]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_1, compiling. 
+[2017.11.08-00.17.21:530][312]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDivide_0, compiling. 
+[2017.11.08-00.17.21:836][338]MaterialEditorStats: Info Base pass shader without light map: 129 instructions
+[2017.11.08-00.17.21:836][338]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.17.21:836][338]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.21.26:120][220]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.08-00.21.26:641][280]MaterialEditorStats: Info Base pass shader without light map: 127 instructions
+[2017.11.08-00.21.26:641][280]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.21.26:641][280]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.23.00:160][517]LogMaterialEditor: Applying material M_OutlineTest01
+[2017.11.08-00.23.00:552][517]LogMaterial: Missing cached shader map for material M_OutlineTest, compiling. 
+[2017.11.08-00.23.00:578][517]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-00.23.00:588][517]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-00.23.00:645][517]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.08-00.23.01:090][562]LogMaterialEditor: Saving and Compiling material M_OutlineTest01
+[2017.11.08-00.23.01:748][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMats/M_OutlineTest01" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest01.uasset" SILENT=true
+[2017.11.08-00.23.01:774][562]LogSavePackage: Save=20.11ms
+[2017.11.08-00.23.01:774][562]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/M_OutlineTest012A1D81EE415219B6DBCC0DA8CCCC5D38.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest01.uasset'
+[2017.11.08-00.23.01:775][562]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest01.uasset
+[2017.11.08-00.23.01:780][562]MaterialEditorStats: Info Base pass shader without light map: 127 instructions
+[2017.11.08-00.23.01:780][562]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.23.01:780][562]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.08-00.24.10:745][420]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-00.24.10:821][420]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-00.24.10:826][420]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-00.24.10:859][420]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_1, compiling. 
+[2017.11.08-00.24.10:862][420]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDivide_0, compiling. 
+[2017.11.08-00.24.10:863][420]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.08-00.24.11:476][450]MaterialEditorStats: Info Base pass shader without light map: 127 instructions
+[2017.11.08-00.24.11:476][450]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.24.11:476][450]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.24.19:666][296]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-00.24.19:966][319]MaterialEditorStats: Info Base pass shader without light map: 127 instructions
+[2017.11.08-00.24.19:966][319]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.24.19:966][319]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.24.21:410][470]LogMaterialEditor: Saving and Compiling material M_OutlineTest01
+[2017.11.08-00.24.21:803][470]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-00.24.21:826][470]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-00.24.21:835][470]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-00.24.21:890][470]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.08-00.24.22:733][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMats/M_OutlineTest01" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest01.uasset" SILENT=true
+[2017.11.08-00.24.22:756][470]LogSavePackage: Save=21.43ms
+[2017.11.08-00.24.22:756][470]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/M_OutlineTest010FF9475D44C43D6A211B19A769425477.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest01.uasset'
+[2017.11.08-00.24.22:757][470]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest01.uasset
+[2017.11.08-00.24.22:761][470]MaterialEditorStats: Info Base pass shader without light map: 127 instructions
+[2017.11.08-00.24.22:761][470]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.24.22:761][470]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.08-00.27.12:776][899]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-00.27.13:274][955]MaterialEditorStats: Info Base pass shader without light map: 127 instructions
+[2017.11.08-00.27.13:274][955]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.27.13:274][955]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-00.27.13:691][  5]LogMaterialEditor: Saving and Compiling material M_OutlineTest01
+[2017.11.08-00.27.14:091][  5]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-00.27.14:118][  5]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-00.27.14:127][  5]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-00.27.14:179][  5]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.08-00.27.15:146][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMats/M_OutlineTest01" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest01.uasset" SILENT=true
+[2017.11.08-00.27.15:168][  5]LogSavePackage: Save=20.05ms
+[2017.11.08-00.27.15:168][  5]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/M_OutlineTest01B9A2E2484CCE95A68491B09A321F958C.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest01.uasset'
+[2017.11.08-00.27.15:169][  5]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Materials/TestMats/M_OutlineTest01.uasset
+[2017.11.08-00.27.15:173][  5]MaterialEditorStats: Info Base pass shader without light map: 127 instructions
+[2017.11.08-00.27.15:173][  5]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-00.27.15:173][  5]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.08-00.27.40:003][624]LogSavePackage: Save=2769.93ms
+[2017.11.08-00.27.40:003][624]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default88B1DD6849D2E43DEDE880831BFCE489.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.08-00.27.40:007][624]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.08-00.27.40:052][624]LogFileHelpers: Saving map 'default' took 2.891
+[2017.11.08-01.54.45:110][657]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.08-01.54.45:110][657]LogMaterial:Warning: Failed to compile Material Instance /Engine/Transient.LandscapeMaterialInstanceConstant_14 with Base LandscapeMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.08-01.54.45:110][657]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.11.08-01.54.45:111][657]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.08-01.54.45:112][657]LogMaterial:Warning: Failed to compile Material Instance /Engine/Transient.LandscapeMaterialInstanceConstant_14 with Base LandscapeMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.08-01.54.45:112][657]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.11.08-01.54.45:196][657]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.11.08-01.54.50:123][125]LogTexture:Display: Building textures: Texture2D_83 (BGRA8, 128X128)
+[2017.11.08-01.54.52:299][125]LogSavePackage: Save=2758.60ms
+[2017.11.08-01.54.52:299][125]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default6B8A59F64C916E6455912E963CC85EF6.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.08-01.54.52:302][125]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.08-01.54.52:341][125]LogFileHelpers: Saving map 'default' took 2.871
+[2017.11.08-01.54.57:010][646]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.11.08-01.54.57:010][646]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_CatapultRock_C /Engine/Transient.World_9:PersistentLevel.BP_CatapultRock_C_0
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:UserConstructionScript:00D9
+[2017.11.08-01.55.02:359][274]LogMaterial: Missing cached shader map for material FoliageBrushSphereMaterial, compiling. 
+[2017.11.08-01.55.03:027][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.11.08-01.55.48:325][681]LogMaterial: Missing cached shader map for material M_RandomMat, compiling. 
+[2017.11.08-01.55.48:417][681]LogMaterial: Missing cached shader map for material M_RandomMat, compiling. 
+[2017.11.08-01.55.48:426][681]LogMaterial: Missing cached shader map for material M_RandomMat, compiling. 
+[2017.11.08-01.55.49:910][841]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.08-01.55.49:910][841]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-01.55.49:910][841]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-01.56.14:965][827]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.08-01.56.15:045][827]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.08-01.56.15:055][827]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.08-01.56.15:090][827]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2017.11.08-01.56.15:094][827]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.08-01.56.15:098][827]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.08-01.56.15:099][827]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.08-01.56.15:103][827]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.08-01.56.15:106][827]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.08-01.56.15:110][827]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.11.08-01.56.16:386][958]MaterialEditorStats: Info Base pass shader: 123 instructions
+[2017.11.08-01.56.16:386][958]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-01.56.16:386][958]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-01.56.48:169][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.11.08-01.56.52:378][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.11.08-01.57.17:509][219]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.11.08-01.57.29:362][551]Cmd: TRANSACTION UNDO
+[2017.11.08-01.57.29:362][551]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2017.11.08-01.57.29:594][551]LogTexture:Display: Building textures: Texture2D_79 (BGRA8, 128X128)
+[2017.11.08-01.57.29:633][551]LogTexture:Display: Building textures: Texture2D_140 (BGRA8, 128X128)
+[2017.11.08-01.57.29:670][551]LogTexture:Display: Building textures: Texture2D_141 (BGRA8, 128X128)
+[2017.11.08-01.57.29:709][551]LogTexture:Display: Building textures: Texture2D_78 (BGRA8, 128X128)
+[2017.11.08-01.57.29:987][551]LogMaterial: Missing cached shader map for material M_RandomMat, compiling. 
+[2017.11.08-01.57.29:996][551]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-01.57.30:009][551]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.08-01.57.30:513][597]Cmd: TRANSACTION UNDO
+[2017.11.08-01.57.30:513][597]LogEditorTransaction: Undo Edit Brush Size
+[2017.11.08-01.57.30:536][597]LogMaterial: Missing cached shader map for material M_RandomMat, compiling. 
+[2017.11.08-01.57.30:549][597]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-01.57.30:556][597]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.08-01.57.31:737][696]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.08-01.57.31:737][696]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-01.57.31:737][696]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-01.57.31:893][708]MaterialEditorStats: Info Base pass shader without light map: 127 instructions
+[2017.11.08-01.57.31:893][708]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-01.57.31:893][708]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-01.57.32:618][776]MaterialEditorStats: Info Base pass shader: 123 instructions
+[2017.11.08-01.57.32:618][776]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-01.57.32:618][776]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-01.58.05:004][407]Cmd: TRANSACTION UNDO
+[2017.11.08-01.58.05:004][407]LogEditorTransaction: Undo Landscape Editing: Paint
+[2017.11.08-01.58.05:240][407]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 128X128)
+[2017.11.08-01.58.05:240][407]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.Landscape1_0.LandscapeHeightfieldCollisionComponent_208) Component already registered.
+[2017.11.08-01.58.05:279][407]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.Landscape1_0.LandscapeHeightfieldCollisionComponent_210) Component already registered.
+[2017.11.08-01.58.05:354][407]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.Landscape1_0.LandscapeComponent_72) Component already registered.
+[2017.11.08-01.58.05:354][407]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.Landscape1_0.LandscapeComponent_82) Component already registered.
+[2017.11.08-01.58.05:354][407]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.Landscape1_0.LandscapeHeightfieldCollisionComponent_200) Component already registered.
+[2017.11.08-01.58.05:356][407]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.Landscape1_0.LandscapeComponent_73) Component already registered.
+[2017.11.08-01.58.05:356][407]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.Landscape1_0.LandscapeHeightfieldCollisionComponent_201) Component already registered.
+[2017.11.08-01.58.05:357][407]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.Landscape1_0.LandscapeComponent_80) Component already registered.
+[2017.11.08-01.58.05:357][407]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.Landscape1_0.LandscapeHeightfieldCollisionComponent_209) Component already registered.
+[2017.11.08-01.58.05:359][407]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.Landscape1_0.LandscapeComponent_90) Component already registered.
+[2017.11.08-01.58.05:359][407]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.Landscape1_0.LandscapeComponent_98) Component already registered.
+[2017.11.08-01.58.05:395][407]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.Landscape1_0.LandscapeHeightfieldCollisionComponent_226) Component already registered.
+[2017.11.08-01.58.05:396][407]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.Landscape1_0.LandscapeHeightfieldCollisionComponent_218) Component already registered.
+[2017.11.08-01.58.05:471][407]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 128X128)
+[2017.11.08-01.58.05:546][407]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.Landscape1_0.LandscapeComponent_81) Component already registered.
+[2017.11.08-01.58.05:601][407]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.08-01.58.05:601][407]LogMaterial:Warning: Failed to compile Material Instance /Engine/Transient.LandscapeMaterialInstanceConstant_17 with Base LandscapeMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.08-01.58.05:601][407]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.11.08-01.58.05:602][407]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.08-01.58.05:602][407]LogMaterial:Warning: Failed to compile Material Instance /Engine/Transient.LandscapeMaterialInstanceConstant_17 with Base LandscapeMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.08-01.58.05:602][407]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.11.08-01.58.05:677][407]LogMaterial: Missing cached shader map for material M_RandomMat, compiling. 
+[2017.11.08-01.58.05:686][407]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-01.58.05:691][407]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.08-01.58.06:957][505]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.08-01.58.06:958][505]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-01.58.06:958][505]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-01.58.07:228][523]MaterialEditorStats: Info Base pass shader without light map: 127 instructions
+[2017.11.08-01.58.07:228][523]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-01.58.07:228][523]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-01.58.08:327][602]MaterialEditorStats: Info Base pass shader: 123 instructions
+[2017.11.08-01.58.08:327][602]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-01.58.08:327][602]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-01.58.14:115][248]Cmd: TRANSACTION UNDO
+[2017.11.08-01.58.14:115][248]LogEditorTransaction: Undo Landscape Editing: Paint
+[2017.11.08-01.58.14:377][248]LogMaterial: Missing cached shader map for material M_RandomMat, compiling. 
+[2017.11.08-01.58.14:386][248]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-01.58.14:390][248]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.08-01.58.15:440][314]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.08-01.58.15:440][314]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-01.58.15:440][314]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-01.58.15:552][320]MaterialEditorStats: Info Base pass shader without light map: 127 instructions
+[2017.11.08-01.58.15:552][320]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-01.58.15:552][320]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-01.58.16:281][376]MaterialEditorStats: Info Base pass shader: 123 instructions
+[2017.11.08-01.58.16:281][376]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-01.58.16:281][376]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-01.59.12:501][ 94]Cmd: TRANSACTION UNDO
+[2017.11.08-01.59.12:501][ 94]LogEditorTransaction: Undo Landscape Editing: Paint
+[2017.11.08-01.59.12:663][ 94]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 128X128)
+[2017.11.08-01.59.12:764][ 94]LogMaterial: Missing cached shader map for material M_RandomMat, compiling. 
+[2017.11.08-01.59.12:773][ 94]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.08-01.59.12:779][ 94]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.08-01.59.14:150][195]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.11.08-01.59.14:150][195]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-01.59.14:150][195]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-01.59.14:500][216]MaterialEditorStats: Info Base pass shader without light map: 127 instructions
+[2017.11.08-01.59.14:500][216]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-01.59.14:500][216]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-01.59.15:243][283]MaterialEditorStats: Info Base pass shader: 123 instructions
+[2017.11.08-01.59.15:243][283]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.11.08-01.59.15:243][283]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.08-01.59.29:889][404]Cmd: QUIT_EDITOR
+[2017.11.08-01.59.29:934][404]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.08-01.59.29:942][404]LogExit: Preparing to exit.
+[2017.11.08-01.59.31:215][404]LogExit: Editor shut down
+[2017.11.08-01.59.31:224][404]LogExit: Transaction tracking system shut down
+[2017.11.08-01.59.31:423][404]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.08-01.59.31:424][404]LogExit: Object subsystem successfully closed.
+[2017.11.08-01.59.31:453][404]LogD3D11RHI: Shutdown
+[2017.11.08-01.59.31:453][404]LogD3D11RHI: CleanupD3DDevice
+[2017.11.08-01.59.31:456][404]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.08-01.59.31:466][404]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.11.08-01.59.31:466][404]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
+[2017.11.08-01.59.31:466][404]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.11.08-01.59.31:466][404]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (526)
+[2017.11.08-01.59.31:466][404]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.11.08-01.59.31:466][404]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.11.08-01.59.31:466][404]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.11.08-01.59.31:467][404]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.11.08-01.59.31:471][404]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' was aborted.
+[2017.11.08-01.59.31:471][404]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' was aborted.
+[2017.11.08-01.59.31:471][404]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' was aborted.
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module WorldBrowser (512)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.11.08-01.59.31:471][404]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.11.08-01.59.31:472][404]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.11.08-01.59.32:115][404]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.11.08-01.59.32:116][404]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.11.08-01.59.32:116][404]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.11.08-01.59.32:116][404]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.11.08-01.59.32:116][404]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.11.08-01.59.32:116][404]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.11.08-01.59.32:116][404]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.11.08-01.59.32:116][404]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.11.08-01.59.32:180][404]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.11.08-01.59.32:180][404]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.11.08-01.59.32:180][404]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.11.08-01.59.32:180][404]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.11.08-01.59.32:180][404]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.11.08-01.59.32:180][404]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.11.08-01.59.32:180][404]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.11.08-01.59.32:180][404]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.11.08-01.59.32:180][404]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.11.08-01.59.32:180][404]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.11.08-01.59.32:182][404]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.11.08-01.59.32:182][404]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.11.08-01.59.32:182][404]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.11.08-01.59.32:182][404]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.11.08-01.59.32:182][404]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.11.08-01.59.32:182][404]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.11.08-01.59.32:183][404]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.11.08-01.59.32:183][404]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.11.08-01.59.32:183][404]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.11.08-01.59.32:183][404]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.11.08-01.59.32:183][404]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.11.08-01.59.32:183][404]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.11.08-01.59.32:183][404]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.11.08-01.59.32:183][404]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.11.08-01.59.32:183][404]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.11.08-01.59.32:183][404]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.11.08-01.59.32:183][404]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.11.08-01.59.32:183][404]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.11.08-01.59.32:183][404]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.11.08-01.59.32:183][404]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.11.08-01.59.32:401][404]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.11.08-01.59.32:402][404]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.11.08-01.59.32:402][404]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.11.08-01.59.32:402][404]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.11.08-01.59.32:402][404]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.11.08-01.59.32:402][404]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.11.08-01.59.32:402][404]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.11.08-01.59.32:402][404]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.11.08-01.59.32:402][404]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.11.08-01.59.32:402][404]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.11.08-01.59.32:402][404]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.11.08-01.59.32:402][404]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.11.08-01.59.32:402][404]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.11.08-01.59.32:403][404]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.11.08-01.59.32:403][404]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.11.08-01.59.32:403][404]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.11.08-01.59.32:503][404]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.11.08-01.59.32:603][404]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.11.08-01.59.32:603][404]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.11.08-01.59.32:603][404]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.11.08-01.59.32:603][404]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.11.08-01.59.32:603][404]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.11.08-01.59.32:603][404]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.11.08-01.59.32:604][404]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.11.08-01.59.32:606][404]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.11.08-01.59.32:606][404]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.11.08-01.59.32:606][404]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.11.08-01.59.32:606][404]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.11.08-01.59.32:606][404]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.11.08-01.59.32:606][404]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.11.08-01.59.32:666][404]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.08-01.59.32:666][404]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/' was aborted.
+[2017.11.08-01.59.32:666][404]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.08-01.59.32:666][404]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.11.08-01.59.32:671][404]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.11.08-01.59.32:673][404]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.11.08-01.59.32:673][404]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.11.08-01.59.32:673][404]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.11.08-01.59.32:673][404]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.11.08-01.59.32:673][404]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.11.08-01.59.32:673][404]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.11.08-01.59.32:673][404]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.11.08-01.59.32:673][404]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.08-01.59.32:731][404]LogDerivedDataCache: Shutdown
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.08-01.59.32:731][404]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.08-01.59.32:732][404]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.08-01.59.32:732][404]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.08-01.59.32:732][404]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.08-01.59.32:732][404]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B08B6B52E-4139-AA0D-D32A-1688DA614ED7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=982011a7482c1cbdc2ce3cbeaef51dbe%7Ce0ca3295625c4184a95d26a3b9c858a2%7C70012bb2-c253-4297-934e-6257f569ac01&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.08-01.59.32:764][404]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.08-01.59.32:765][404]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.11.08-01.59.32:765][404]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.11.08-01.59.32:765][404]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.11.08-01.59.32:766][404]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.08-01.59.32:766][404]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.08-01.59.32:766][404]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.08-01.59.32:766][404]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.08-01.59.32:766][404]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.08-01.59.32:768][404]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.08-01.59.32:768][404]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.08-01.59.32:768][404]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.08-01.59.32:768][404]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.08-01.59.32:768][404]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.08-01.59.32:768][404]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.08-01.59.32:768][404]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.08-01.59.32:768][404]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.08-01.59.32:768][404]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.08-01.59.32:768][404]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.08-01.59.32:769][404]LogExit: Exiting.
+[2017.11.08-01.59.32:791][404]Log file closed, 11/07/17 17:59:32
