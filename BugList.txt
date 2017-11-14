@@ -1,0 +1,32 @@
+To Fix:
+
+-Player's Arrows go through Castle Walls and Floors
+	?Box vs FireCollision
+
+-Catapult AI Soldier rotation glitches when Catapult fires
+
+
+
+
+Fix'd:
+-Arrows not appearing visually or colliding when shot, but bow can still be strung
+	>Logic Error, Fixed by detaching logic used for old Fire Arrow system (used to delete
+fire arrows that could distract the player with smoke trails) 
+
+-Light Arrows do not despawn when destroying Enemy
+	>Logic Error, Fixed by attaching DestroyActor(Self) to Event ActorBeginOverlap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
