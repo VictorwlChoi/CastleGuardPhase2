@@ -1,0 +1,581 @@
+﻿Log file open, 11/14/17 19:21:10
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-925022932) SRandInit(-925022932).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.090424
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.15-03.21.10:794][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.15-03.21.10:794][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.15-03.21.10:808][  0]LogInit: Computer: LCIVAN-235-27
+[2017.11.15-03.21.10:808][  0]LogInit: User: 0271642
+[2017.11.15-03.21.10:808][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.15-03.21.10:808][  0]LogInit: High frequency timer resolution =3.410070 MHz
+[2017.11.15-03.21.10:808][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.15-03.21.10:808][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.15-03.21.10:808][  0]LogMemory: Process Physical Memory: 274.91 MB used, 274.91 MB peak
+[2017.11.15-03.21.10:808][  0]LogMemory: Process Virtual Memory: 277.02 MB used, 277.02 MB peak
+[2017.11.15-03.21.10:808][  0]LogMemory: Physical Memory: 6569.68 MB used,  9721.57 MB free, 16291.25 MB total
+[2017.11.15-03.21.10:808][  0]LogMemory: Virtual Memory: 654.35 MB used,  9721.57 MB free, 134217728.00 MB total
+[2017.11.15-03.21.10:872][  0]LogInit: Using OS detected language (en-US).
+[2017.11.15-03.21.10:872][  0]LogInit: Using OS detected locale (en-CA).
+[2017.11.15-03.21.10:875][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.15-03.21.11:774][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.15-03.21.11:814][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.11.15-03.21.11:814][  0]LogD3D11RHI:       4058/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.15-03.21.11:815][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.15-03.21.11:815][  0]LogD3D11RHI:       0/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.15-03.21.11:815][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.15-03.21.11:822][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.15-03.21.11:822][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.15-03.21.11:822][  0]LogWindows: EnumDisplayDevices:
+[2017.11.15-03.21.11:822][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.11.15-03.21.11:822][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.15-03.21.11:822][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.15-03.21.11:822][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.15-03.21.11:822][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.15-03.21.11:822][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.11.15-03.21.11:822][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2017.11.15-03.21.11:822][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2017.11.15-03.21.11:822][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.15-03.21.11:846][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.15-03.21.11:862][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.15-03.21.11:912][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (D:/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/20924/).
+[2017.11.15-03.21.11:912][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/0271642/AppData/Local/Temp/UnrealShaderWorkingDir/8DFB72344CCFF7558D8607887305472D/'.
+[2017.11.15-03.21.11:912][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.15-03.21.13:054][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.15-03.21.13:101][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.15-03.21.13:148][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.15-03.21.13:195][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.15-03.21.13:242][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.15-03.21.13:288][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.15-03.21.13:335][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.15-03.21.13:382][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.15-03.21.13:422][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.15-03.21.13:467][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.15-03.21.13:512][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.15-03.21.13:558][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.15-03.21.13:603][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.15-03.21.13:648][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.15-03.21.13:694][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.15-03.21.13:785][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.15-03.21.13:785][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.15-03.21.13:820][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.15-03.21.13:907][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.15-03.21.13:953][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.15-03.21.14:001][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.15-03.21.14:048][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.15-03.21.14:096][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.15-03.21.14:144][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.15-03.21.14:144][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.15-03.21.14:590][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.15-03.21.14:678][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/0271642/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.15-03.21.14:678][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/0271642/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.15-03.21.14:679][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.15-03.21.14:679][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.15-03.21.14:679][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.15-03.21.14:679][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.15-03.21.14:696][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.15-03.21.14:708][  0]LogDerivedDataCache: Using Local data cache path C:/Users/0271642/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.15-03.21.15:102][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.15-03.21.15:102][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.15-03.21.15:103][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.15-03.21.15:103][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.15-03.21.15:407][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.15-03.21.15:497][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.15-03.21.15:551][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.11.15-03.21.55:554][  0]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
+[2017.11.15-03.21.56:390][  0]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
+[2017.11.15-03.21.57:079][  0]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
+[2017.11.15-03.22.03:194][  0]LogMaterial: Missing cached shader map for material TransformGizmoMaterial, compiling. 
+[2017.11.15-03.22.03:212][  0]LogMaterial: Missing cached shader map for material TranslucentTransformGizmoMaterial, compiling. 
+[2017.11.15-03.22.03:321][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.15-03.22.03:381][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.15-03.22.03:436][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.15-03.22.03:436][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.15-03.22.03:436][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.15-03.22.03:601][  0]LogMaterial: Missing cached shader map for material SnapGridMaterial, compiling. 
+[2017.11.15-03.22.03:630][  0]LogMaterial: Missing cached shader map for material Main, compiling. 
+[2017.11.15-03.22.03:641][  0]LogMaterial: Missing cached shader map for material Xray, compiling. 
+[2017.11.15-03.22.03:666][  0]LogMaterial: Missing cached shader map for material CineMat, compiling. 
+[2017.11.15-03.22.03:715][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2017.11.15-03.22.03:745][  0]LogMaterial: Missing cached shader map for material M_SimpleOpaque, compiling. 
+[2017.11.15-03.22.03:770][  0]LogMaterial: Missing cached shader map for material M_SimpleTranslucent, compiling. 
+[2017.11.15-03.22.03:990][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
+[2017.11.15-03.22.04:005][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2017.11.15-03.22.04:091][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2017.11.15-03.22.04:121][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2017.11.15-03.22.04:181][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2017.11.15-03.22.04:217][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2017.11.15-03.22.04:374][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2017.11.15-03.22.04:449][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.11.15-03.22.04:534][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
+[2017.11.15-03.22.04:621][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.046672 seconds
+[2017.11.15-03.22.04:630][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.15-03.22.04:630][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.11.15-03.22.04:630][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.15-03.22.04:746][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.15-03.22.06:666][  0]LogMaterial: Missing cached shader map for material KeyDiskMaterial, compiling. 
+[2017.11.15-03.22.06:685][  0]LogMaterial: Missing cached shader map for material M_ContentWindow, compiling. 
+[2017.11.15-03.22.06:729][  0]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2017.11.15-03.22.06:745][  0]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
+[2017.11.15-03.22.06:766][  0]LogMaterial: Missing cached shader map for material FlattenHeightMat, compiling. 
+[2017.11.15-03.22.06:784][  0]LogMaterial: Missing cached shader map for material ArrowMaterial, compiling. 
+[2017.11.15-03.22.06:814][  0]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
+[2017.11.15-03.22.06:851][  0]LogMaterial: Missing cached shader map for material VivePreControllerMaterial, compiling. 
+[2017.11.15-03.22.06:875][  0]LogMaterial: Missing cached shader map for material OculusControllerMaterial, compiling. 
+[2017.11.15-03.22.06:904][  0]LogMaterial: Missing cached shader map for material GenericHMDMaterial, compiling. 
+[2017.11.15-03.22.06:930][  0]LogMaterial: Missing cached shader map for material TeleportDirectionMaterial, compiling. 
+[2017.11.15-03.22.06:961][  0]LogMaterial: Missing cached shader map for material GridPostProcess, compiling. 
+[2017.11.15-03.22.06:978][  0]LogMaterial: Missing cached shader map for material LineMaterial, compiling. 
+[2017.11.15-03.22.08:659][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.15-03.22.08:722][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.15-03.22.09:119][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.11.15-03.22.09:639][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2017.11.15-03.22.09:653][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
+[2017.11.15-03.22.09:678][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.15-03.22.09:683][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2017.11.15-03.22.09:696][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
+[2017.11.15-03.22.09:709][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2017.11.15-03.22.09:721][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2017.11.15-03.22.09:734][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2017.11.15-03.22.09:747][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2017.11.15-03.22.09:760][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2017.11.15-03.22.09:773][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
+[2017.11.15-03.22.09:787][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
+[2017.11.15-03.22.09:798][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2017.11.15-03.22.09:810][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2017.11.15-03.22.09:822][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2017.11.15-03.22.09:834][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2017.11.15-03.22.09:846][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2017.11.15-03.22.09:860][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2017.11.15-03.22.09:883][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2017.11.15-03.22.09:896][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2017.11.15-03.22.09:907][  0]LogMaterial: Missing cached shader map for material PreTonemapHDRColor, compiling. 
+[2017.11.15-03.22.09:918][  0]LogMaterial: Missing cached shader map for material PostTonemapHDRColor, compiling. 
+[2017.11.15-03.22.10:471][  0]SourceControl: Info Source control is disabled
+[2017.11.15-03.22.10:472][  0]SourceControl: Info Source control is disabled
+[2017.11.15-03.22.10:549][  0]SourceControl: Info Source control is disabled
+[2017.11.15-03.22.10:630][  0]SourceControl: Info Source control is disabled
+[2017.11.15-03.22.11:724][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.15-03.22.12:629][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
+[2017.11.15-03.22.12:645][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2017.11.15-03.22.12:672][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2017.11.15-03.22.12:705][  0]LogEngine: Initializing Engine...
+[2017.11.15-03.22.12:706][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.15-03.22.12:715][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2017.11.15-03.22.12:976][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2017.11.15-03.22.13:661][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2017.11.15-03.22.13:869][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2017.11.15-03.22.14:546][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2017.11.15-03.22.15:195][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2017.11.15-03.22.15:399][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2017.11.15-03.22.15:481][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2017.11.15-03.22.15:500][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2017.11.15-03.22.15:520][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2017.11.15-03.22.15:539][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2017.11.15-03.22.15:558][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2017.11.15-03.22.15:575][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2017.11.15-03.22.15:586][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2017.11.15-03.22.15:606][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2017.11.15-03.22.15:644][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
+[2017.11.15-03.22.15:661][  0]LogMaterial: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
+[2017.11.15-03.22.15:679][  0]LogMaterial: Missing cached shader map for material GeomMaterial, compiling. 
+[2017.11.15-03.22.15:695][  0]LogMaterial: Missing cached shader map for material EditorBrushMaterial, compiling. 
+[2017.11.15-03.22.15:711][  0]LogMaterial: Missing cached shader map for material BoneWeightMaterial, compiling. 
+[2017.11.15-03.22.15:791][  0]LogMaterial: Missing cached shader map for material ClothMaterial, compiling. 
+[2017.11.15-03.22.15:809][  0]LogMaterial: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2017.11.15-03.22.15:917][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.15-03.22.15:917][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.15-03.22.16:133][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.15-03.22.16:142][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-03.22.16:173][  0]LogInit: FAudioDevice initialized.
+[2017.11.15-03.22.16:232][  0]LogDerivedDataCache: Saved boot cache 0.06s 94MB C:/Users/0271642/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.15-03.22.16:256][  0]LogInit: Texture streaming: Enabled
+[2017.11.15-03.22.16:423][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.15-03.22.16:778][  0]LogInit: Transaction tracking system initialized
+[2017.11.15-03.22.17:284][  0]BlueprintLog: New page: Editor Load
+[2017.11.15-03.22.18:836][  0]LocalizationService: Info Localization service is disabled
+[2017.11.15-03.22.19:947][  0]LogConsoleResponse:Display: 
+[2017.11.15-03.22.19:989][  0]LogMaterial: Missing cached shader map for material Cross_Mat, compiling. 
+[2017.11.15-03.22.20:014][  0]LogMaterial: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling. 
+[2017.11.15-03.22.20:033][  0]LogMaterial: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling. 
+[2017.11.15-03.22.20:052][  0]LogMaterial: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling. 
+[2017.11.15-03.22.20:068][  0]LogMaterial: Missing cached shader map for material PhAT_UnselectedMaterial, compiling. 
+[2017.11.15-03.22.20:087][  0]LogMaterial: Missing cached shader map for material Tick_Mat, compiling. 
+[2017.11.15-03.22.20:110][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2017.11.15-03.22.20:128][  0]LogMaterial: Missing cached shader map for material WidgetMaterial, compiling. 
+[2017.11.15-03.22.20:144][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Current, compiling. 
+[2017.11.15-03.22.20:161][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_X, compiling. 
+[2017.11.15-03.22.20:177][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Y, compiling. 
+[2017.11.15-03.22.20:199][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Z, compiling. 
+[2017.11.15-03.22.20:217][  0]LogMaterial: Missing cached shader map for material WidgetVertexColorMaterial, compiling. 
+[2017.11.15-03.22.20:259][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial, compiling. 
+[2017.11.15-03.22.20:295][  0]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.11.15-03.22.20:325][  0]LogMaterial: Missing cached shader map for material M_StreamingPause, compiling. 
+[2017.11.15-03.22.20:347][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.15-03.22.20:348][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.15-03.22.21:997][  0]SourceControl: Info Source control is disabled
+[2017.11.15-03.22.22:043][  0]Cmd: MAP LOAD FILE="D:/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.15-03.22.22:043][  0]LightingResults: New page: Lighting Build
+[2017.11.15-03.22.22:120][  0]MapCheck: New page: Map Check
+[2017.11.15-03.22.22:120][  0]LightingResults: New page: Lighting Build
+[2017.11.15-03.22.25:445][  0]LogLinker:Warning: Can't find file '/Game/VirtualRealityBP/Maps/default_BuiltData'
+[2017.11.15-03.22.25:445][  0]LogLinker:Warning: Can't find file for asset '/Game/VirtualRealityBP/Maps/default_BuiltData' while loading D:/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap.
+[2017.11.15-03.22.25:445][  0]LoadErrors:Error: Error /Game/VirtualRealityBP/Maps/default : Can't find file for asset. /Game/VirtualRealityBP/Maps/default_BuiltData
+[2017.11.15-03.22.25:804][  0]LogLinker:Warning: Can't find file '/Game/VirtualRealityBP/Maps/default_BuiltData'
+[2017.11.15-03.22.25:804][  0]LogLinker:Warning: Can't find file for asset '/Game/VirtualRealityBP/Maps/default_BuiltData' while loading D:/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap.
+[2017.11.15-03.22.25:804][  0]LoadErrors:Error: Error /Game/VirtualRealityBP/Maps/default : Can't find file for asset. /Game/VirtualRealityBP/Maps/default_BuiltData
+[2017.11.15-03.22.25:849][  0]LogLinker:Warning: Can't find file '/Game/VirtualRealityBP/Maps/default_BuiltData'
+[2017.11.15-03.22.25:849][  0]LogLinker:Warning: Can't find file for asset '/Game/VirtualRealityBP/Maps/default_BuiltData' while loading NULL.
+[2017.11.15-03.22.25:849][  0]LogLinker:Warning: Can't find file '/Game/VirtualRealityBP/Maps/default_BuiltData'
+[2017.11.15-03.22.25:849][  0]LogLinker:Warning: Can't find file for asset '/Game/VirtualRealityBP/Maps/default_BuiltData' while loading NULL.
+[2017.11.15-03.22.26:369][  0]LogLinker:Warning: Can't find file '/Game/VirtualRealityBP/Maps/default_BuiltData'
+[2017.11.15-03.22.26:369][  0]LoadErrors: Info Failed to load /Game/VirtualRealityBP/Maps/default_BuiltData.default_BuiltData Referenced by PersistentLevel
+[2017.11.15-03.22.26:369][  0]LogLinker:Warning: Can't find file for asset '/Game/VirtualRealityBP/Maps/default_BuiltData' while loading NULL.
+[2017.11.15-03.22.26:370][  0]LoadErrors: Info Failed to load /Game/VirtualRealityBP/Maps/default_BuiltData.default_BuiltData Referenced by PersistentLevel
+[2017.11.15-03.22.26:998][  0]LogMaterial: Missing cached shader map for material M_Wood_Walnut, compiling. 
+[2017.11.15-03.22.27:030][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_Erika/Animations/Shooting_Arrow_Anim.Shooting_Arrow_Anim
+[2017.11.15-03.22.27:049][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_Erika/Animations/standing_Run_In_Place.standing_Run_In_Place
+[2017.11.15-03.22.27:056][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.11.15-03.22.27:056][  0]LogStaticMesh: Building static mesh AI_Arrow...
+[2017.11.15-03.22.27:086][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Vive/Meshes/AI_Arrow.AI_Arrow
+[2017.11.15-03.22.27:301][  0]LogTexture:Display: Building textures: Elven_Long_Bow_Diffuse (AutoDXT, 2048X2048)
+[2017.11.15-03.22.28:369][  0]LogTexture:Display: Building textures: Elven_Long_Bow_Gloss (AutoDXT, 2048X2048)
+[2017.11.15-03.22.29:203][  0]LogTexture:Display: Building textures: Elven_Long_Bow_Normal (BC5, 2048X2048)
+[2017.11.15-03.22.29:802][  0]LogTexture:Display: Building textures: Elven_Long_Bow_Specular (AutoDXT, 2048X2048)
+[2017.11.15-03.22.30:559][  0]LogMaterial: Missing cached shader map for material Elven_Long_Bow_Diffuse_Mat, compiling. 
+[2017.11.15-03.22.31:073][  0]LogTexture:Display: Building textures: Texture2D_23 (BGRA8, 128X128)
+[2017.11.15-03.22.31:078][  0]LogTexture:Display: Building textures: Texture2D_30 (BGRA8, 128X128)
+[2017.11.15-03.22.31:080][  0]LogTexture:Display: Building textures: Texture2D_22 (BGRA8, 128X128)
+[2017.11.15-03.22.31:086][  0]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 128X128)
+[2017.11.15-03.22.31:087][  0]LogTexture:Display: Building textures: Texture2D_29 (BGRA8, 128X128)
+[2017.11.15-03.22.31:089][  0]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 128X128)
+[2017.11.15-03.22.31:090][  0]LogTexture:Display: Building textures: Texture2D_32 (BGRA8, 128X128)
+[2017.11.15-03.22.31:091][  0]LogTexture:Display: Building textures: Texture2D_27 (BGRA8, 128X128)
+[2017.11.15-03.22.31:105][  0]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 128X128)
+[2017.11.15-03.22.31:107][  0]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 128X128)
+[2017.11.15-03.22.31:114][  0]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 128X128)
+[2017.11.15-03.22.31:116][  0]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 128X128)
+[2017.11.15-03.22.31:119][  0]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 128X128)
+[2017.11.15-03.22.31:122][  0]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 128X128)
+[2017.11.15-03.22.31:123][  0]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 128X128)
+[2017.11.15-03.22.31:124][  0]LogTexture:Display: Building textures: Texture2D_26 (BGRA8, 128X128)
+[2017.11.15-03.22.31:125][  0]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 128X128)
+[2017.11.15-03.22.31:126][  0]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 128X128)
+[2017.11.15-03.22.31:127][  0]LogTexture:Display: Building textures: Texture2D_31 (BGRA8, 128X128)
+[2017.11.15-03.22.31:130][  0]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 128X128)
+[2017.11.15-03.22.31:131][  0]LogTexture:Display: Building textures: Texture2D_25 (BGRA8, 128X128)
+[2017.11.15-03.22.31:133][  0]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 128X128)
+[2017.11.15-03.22.31:134][  0]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 128X128)
+[2017.11.15-03.22.31:135][  0]LogTexture:Display: Building textures: Texture2D_34 (BGRA8, 128X128)
+[2017.11.15-03.22.31:136][  0]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128)
+[2017.11.15-03.22.31:137][  0]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 128X128)
+[2017.11.15-03.22.31:140][  0]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2017.11.15-03.22.31:142][  0]LogTexture:Display: Building textures: Texture2D_24 (BGRA8, 128X128)
+[2017.11.15-03.22.31:144][  0]LogTexture:Display: Building textures: Texture2D_33 (BGRA8, 128X128)
+[2017.11.15-03.22.31:145][  0]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 128X128)
+[2017.11.15-03.22.31:146][  0]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 128X128)
+[2017.11.15-03.22.31:147][  0]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 128X128)
+[2017.11.15-03.22.31:148][  0]LogTexture:Display: Building textures: Texture2D_35 (BGRA8, 128X128)
+[2017.11.15-03.22.31:149][  0]LogTexture:Display: Building textures: Texture2D_28 (BGRA8, 128X128)
+[2017.11.15-03.22.31:151][  0]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 128X128)
+[2017.11.15-03.22.31:157][  0]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.15-03.22.31:194][  0]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.15-03.22.31:254][  0]LogTexture:Display: Building textures: Texture2D_134 (BGRA8, 128X128)
+[2017.11.15-03.22.31:256][  0]LogTexture:Display: Building textures: Texture2D_135 (BGRA8, 128X128)
+[2017.11.15-03.22.31:261][  0]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.15-03.22.31:318][  0]LogTexture:Display: Building textures: Texture2D_136 (BGRA8, 128X128)
+[2017.11.15-03.22.31:319][  0]LogTexture:Display: Building textures: Texture2D_137 (BGRA8, 128X128)
+[2017.11.15-03.22.31:320][  0]LogTexture:Display: Building textures: Texture2D_138 (BGRA8, 128X128)
+[2017.11.15-03.22.31:322][  0]LogTexture:Display: Building textures: Texture2D_139 (BGRA8, 128X128)
+[2017.11.15-03.22.31:324][  0]LogTexture:Display: Building textures: Texture2D_140 (BGRA8, 128X128)
+[2017.11.15-03.22.31:325][  0]LogTexture:Display: Building textures: Texture2D_141 (BGRA8, 128X128)
+[2017.11.15-03.22.31:330][  0]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2017.11.15-03.22.31:386][  0]LogTexture:Display: Building textures: Texture2D_142 (BGRA8, 128X128)
+[2017.11.15-03.22.31:387][  0]LogTexture:Display: Building textures: Texture2D_143 (BGRA8, 128X128)
+[2017.11.15-03.22.31:388][  0]LogTexture:Display: Building textures: Texture2D_74 (BGRA8, 128X128)
+[2017.11.15-03.22.31:389][  0]LogTexture:Display: Building textures: Texture2D_75 (BGRA8, 128X128)
+[2017.11.15-03.22.31:391][  0]LogTexture:Display: Building textures: Texture2D_76 (BGRA8, 128X128)
+[2017.11.15-03.22.31:392][  0]LogTexture:Display: Building textures: Texture2D_77 (BGRA8, 128X128)
+[2017.11.15-03.22.31:394][  0]LogTexture:Display: Building textures: Texture2D_78 (BGRA8, 128X128)
+[2017.11.15-03.22.31:395][  0]LogTexture:Display: Building textures: Texture2D_79 (BGRA8, 128X128)
+[2017.11.15-03.22.31:397][  0]LogTexture:Display: Building textures: Texture2D_80 (BGRA8, 128X128)
+[2017.11.15-03.22.31:398][  0]LogTexture:Display: Building textures: Texture2D_81 (BGRA8, 128X128)
+[2017.11.15-03.22.31:399][  0]LogTexture:Display: Building textures: Texture2D_82 (BGRA8, 128X128)
+[2017.11.15-03.22.31:400][  0]LogTexture:Display: Building textures: Texture2D_83 (BGRA8, 128X128)
+[2017.11.15-03.22.31:402][  0]LogTexture:Display: Building textures: Texture2D_84 (BGRA8, 128X128)
+[2017.11.15-03.22.31:403][  0]LogTexture:Display: Building textures: Texture2D_85 (BGRA8, 128X128)
+[2017.11.15-03.22.31:405][  0]LogTexture:Display: Building textures: Texture2D_86 (BGRA8, 128X128)
+[2017.11.15-03.22.31:407][  0]LogTexture:Display: Building textures: Texture2D_87 (BGRA8, 128X128)
+[2017.11.15-03.22.31:408][  0]LogTexture:Display: Building textures: Texture2D_88 (BGRA8, 128X128)
+[2017.11.15-03.22.31:410][  0]LogTexture:Display: Building textures: Texture2D_89 (BGRA8, 128X128)
+[2017.11.15-03.22.31:411][  0]LogTexture:Display: Building textures: Texture2D_90 (BGRA8, 128X128)
+[2017.11.15-03.22.31:413][  0]LogTexture:Display: Building textures: Texture2D_91 (BGRA8, 128X128)
+[2017.11.15-03.22.31:414][  0]LogTexture:Display: Building textures: Texture2D_92 (BGRA8, 128X128)
+[2017.11.15-03.22.31:416][  0]LogTexture:Display: Building textures: Texture2D_93 (BGRA8, 128X128)
+[2017.11.15-03.22.31:417][  0]LogTexture:Display: Building textures: Texture2D_94 (BGRA8, 128X128)
+[2017.11.15-03.22.31:419][  0]LogTexture:Display: Building textures: Texture2D_95 (BGRA8, 128X128)
+[2017.11.15-03.22.31:420][  0]LogTexture:Display: Building textures: Texture2D_96 (BGRA8, 128X128)
+[2017.11.15-03.22.31:422][  0]LogTexture:Display: Building textures: Texture2D_97 (BGRA8, 128X128)
+[2017.11.15-03.22.31:424][  0]LogTexture:Display: Building textures: Texture2D_98 (BGRA8, 128X128)
+[2017.11.15-03.22.31:425][  0]LogTexture:Display: Building textures: Texture2D_99 (BGRA8, 128X128)
+[2017.11.15-03.22.31:427][  0]LogTexture:Display: Building textures: Texture2D_100 (BGRA8, 128X128)
+[2017.11.15-03.22.31:429][  0]LogTexture:Display: Building textures: Texture2D_101 (BGRA8, 128X128)
+[2017.11.15-03.22.31:431][  0]LogTexture:Display: Building textures: Texture2D_72 (BGRA8, 128X128)
+[2017.11.15-03.22.31:435][  0]LogTexture:Display: Building textures: Texture2D_102 (BGRA8, 128X128)
+[2017.11.15-03.22.31:436][  0]LogTexture:Display: Building textures: Texture2D_103 (BGRA8, 128X128)
+[2017.11.15-03.22.31:437][  0]LogTexture:Display: Building textures: Texture2D_104 (BGRA8, 128X128)
+[2017.11.15-03.22.31:439][  0]LogTexture:Display: Building textures: Texture2D_111 (BGRA8, 128X128)
+[2017.11.15-03.22.31:440][  0]LogTexture:Display: Building textures: Texture2D_122 (BGRA8, 128X128)
+[2017.11.15-03.22.31:442][  0]LogTexture:Display: Building textures: Texture2D_133 (BGRA8, 128X128)
+[2017.11.15-03.22.31:444][  0]LogTexture:Display: Building textures: Texture2D_73 (BGRA8, 128X128)
+[2017.11.15-03.22.31:446][  0]LogTexture:Display: Building textures: Texture2D_105 (BGRA8, 128X128)
+[2017.11.15-03.22.31:448][  0]LogTexture:Display: Building textures: Texture2D_106 (BGRA8, 128X128)
+[2017.11.15-03.22.31:450][  0]LogTexture:Display: Building textures: Texture2D_107 (BGRA8, 128X128)
+[2017.11.15-03.22.31:451][  0]LogTexture:Display: Building textures: Texture2D_108 (BGRA8, 128X128)
+[2017.11.15-03.22.31:452][  0]LogTexture:Display: Building textures: Texture2D_109 (BGRA8, 128X128)
+[2017.11.15-03.22.31:454][  0]LogTexture:Display: Building textures: Texture2D_110 (BGRA8, 128X128)
+[2017.11.15-03.22.31:455][  0]LogTexture:Display: Building textures: Texture2D_112 (BGRA8, 128X128)
+[2017.11.15-03.22.31:457][  0]LogTexture:Display: Building textures: Texture2D_113 (BGRA8, 128X128)
+[2017.11.15-03.22.31:459][  0]LogTexture:Display: Building textures: Texture2D_114 (BGRA8, 128X128)
+[2017.11.15-03.22.31:460][  0]LogTexture:Display: Building textures: Texture2D_115 (BGRA8, 128X128)
+[2017.11.15-03.22.31:462][  0]LogTexture:Display: Building textures: Texture2D_116 (BGRA8, 128X128)
+[2017.11.15-03.22.31:463][  0]LogTexture:Display: Building textures: Texture2D_117 (BGRA8, 128X128)
+[2017.11.15-03.22.31:464][  0]LogTexture:Display: Building textures: Texture2D_118 (BGRA8, 128X128)
+[2017.11.15-03.22.31:466][  0]LogTexture:Display: Building textures: Texture2D_119 (BGRA8, 128X128)
+[2017.11.15-03.22.31:467][  0]LogTexture:Display: Building textures: Texture2D_120 (BGRA8, 128X128)
+[2017.11.15-03.22.31:469][  0]LogTexture:Display: Building textures: Texture2D_121 (BGRA8, 128X128)
+[2017.11.15-03.22.31:470][  0]LogTexture:Display: Building textures: Texture2D_123 (BGRA8, 128X128)
+[2017.11.15-03.22.31:472][  0]LogTexture:Display: Building textures: Texture2D_124 (BGRA8, 128X128)
+[2017.11.15-03.22.31:473][  0]LogTexture:Display: Building textures: Texture2D_125 (BGRA8, 128X128)
+[2017.11.15-03.22.31:475][  0]LogTexture:Display: Building textures: Texture2D_126 (BGRA8, 128X128)
+[2017.11.15-03.22.31:476][  0]LogTexture:Display: Building textures: Texture2D_127 (BGRA8, 128X128)
+[2017.11.15-03.22.31:478][  0]LogTexture:Display: Building textures: Texture2D_128 (BGRA8, 128X128)
+[2017.11.15-03.22.31:479][  0]LogTexture:Display: Building textures: Texture2D_129 (BGRA8, 128X128)
+[2017.11.15-03.22.31:482][  0]LogTexture:Display: Building textures: Texture2D_130 (BGRA8, 128X128)
+[2017.11.15-03.22.31:484][  0]LogTexture:Display: Building textures: Texture2D_131 (BGRA8, 128X128)
+[2017.11.15-03.22.31:485][  0]LogTexture:Display: Building textures: Texture2D_132 (BGRA8, 128X128)
+[2017.11.15-03.22.31:560][  0]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2017.11.15-03.22.31:586][  0]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2017.11.15-03.22.31:631][  0]LogMaterial: Missing cached shader map for material M_Radial_Gradient, compiling. 
+[2017.11.15-03.22.31:671][  0]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2017.11.15-03.22.31:736][  0]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2017.11.15-03.22.31:769][  0]LogStaticMesh: Building static mesh BSPCastleStaticMesh...
+[2017.11.15-03.22.31:797][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.11.15-03.22.32:389][  0]LogStaticMesh: Built static mesh [0.62s] /Game/StaticMeshes/BSPCastleStaticMesh.BSPCastleStaticMesh
+[2017.11.15-03.22.32:446][  0]LogStaticMesh: Building static mesh BrazierMesh...
+[2017.11.15-03.22.32:449][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.11.15-03.22.32:738][  0]LogStaticMesh: Built static mesh [0.29s] /Game/StaticMeshes/BrazierMesh.BrazierMesh
+[2017.11.15-03.22.32:743][  0]LogStaticMesh: Building static mesh SM_TestDoor...
+[2017.11.15-03.22.32:743][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.11.15-03.22.32:746][  0]LogStaticMesh: Built static mesh [0.00s] /Game/StaticMeshes/SM_TestDoor.SM_TestDoor
+[2017.11.15-03.22.32:750][  0]LogMaterial: Missing cached shader map for material initialShadingGroup, compiling. 
+[2017.11.15-03.22.32:770][  0]LogStaticMesh: Building static mesh MergedRam...
+[2017.11.15-03.22.38:075][  0]LogStaticMesh: Built static mesh [5.31s] /Game/StaticMeshes/MergedRam.MergedRam
+[2017.11.15-03.22.38:420][  0]LogMaterial: Missing cached shader map for material M_RibbonSource, compiling. 
+[2017.11.15-03.22.38:573][  0]LogTexture:Display: Building textures: bow (AutoDXT, 1024X1024)
+[2017.11.15-03.22.38:962][  0]LogMaterial: Missing cached shader map for material bow_Mat, compiling. 
+[2017.11.15-03.22.39:122][  0]LogTexture:Display: Building textures: Controller_Vive_Texture (AutoDXT, 2048X2048)
+[2017.11.15-03.22.42:233][  0]LogTexture:Display: Building textures: controller_vive_substancenormal (BC5, 4096X4096)
+[2017.11.15-03.22.45:410][  0]LogTexture:Display: Building textures: controller_vive_substanceambient_occlusion (AutoDXT, 4096X4096)
+[2017.11.15-03.22.47:414][  0]LogTexture:Display: Building textures: Controller_Vive_Mask (AutoDXT, 2048X2048)
+[2017.11.15-03.22.47:856][  0]LogMaterial: Missing cached shader map for material Controller_Vive_MAT, compiling. 
+[2017.11.15-03.22.47:981][  0]LogStaticMesh: Building static mesh Merged_Catapult_mesh...
+[2017.11.15-03.22.48:493][  0]LogStaticMesh: Built static mesh [0.51s] /Game/StaticMeshes/Merged_Catapult_mesh.Merged_Catapult_mesh
+[2017.11.15-03.22.48:534][  0]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.11.15-03.22.48:570][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/sword_and_shield_idle.sword_and_shield_idle
+[2017.11.15-03.22.48:678][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Working_On_Device.Working_On_Device
+[2017.11.15-03.22.48:701][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Pushing_In_Place.Pushing_In_Place
+[2017.11.15-03.22.48:710][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/sword_and_shield_slash.sword_and_shield_slash
+[2017.11.15-03.22.48:717][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Sword_And_Shield_Run_In_Place.Sword_And_Shield_Run_In_Place
+[2017.11.15-03.22.48:753][  0]LogMaterial: Missing cached shader map for material M_Rock_Slate, compiling. 
+[2017.11.15-03.22.48:786][  0]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2017.11.15-03.22.48:829][  0]LogMaterial: Missing cached shader map for material M_Brick_Clay_Beveled, compiling. 
+[2017.11.15-03.22.49:025][  0]LogTexture:Display: Building textures: Knight_diffuse (AutoDXT, 2048X2048)
+[2017.11.15-03.22.50:580][  0]LogTexture:Display: Building textures: Knight_specular (AutoDXT, 2048X2048)
+[2017.11.15-03.22.51:857][  0]LogTexture:Display: Building textures: Knight_normal (BC5, 2048X2048)
+[2017.11.15-03.22.52:276][  0]LogMaterial: Missing cached shader map for material Knight_MAT, compiling. 
+[2017.11.15-03.22.52:344][  0]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2017.11.15-03.22.52:420][  0]LogStaticMesh: Building static mesh ArcheryTragetStaticMesh...
+[2017.11.15-03.22.52:421][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.11.15-03.22.52:466][  0]LogStaticMesh: Built static mesh [0.05s] /Game/StaticMeshes/ArcheryTragetStaticMesh.ArcheryTragetStaticMesh
+[2017.11.15-03.22.52:645][  0]LogTexture:Display: Building textures: Paladin_diffuse (AutoDXT, 2048X2048)
+[2017.11.15-03.22.53:733][  0]LogTexture:Display: Building textures: Paladin_specular (AutoDXT, 2048X2048)
+[2017.11.15-03.22.54:840][  0]LogTexture:Display: Building textures: Paladin_normal (BC5, 2048X2048)
+[2017.11.15-03.22.55:263][  0]LogMaterial: Missing cached shader map for material Paladin_MAT, compiling. 
+[2017.11.15-03.22.55:598][  0]LogTexture:Display: Building textures: FemaleFitA_Body_diffuse (AutoDXT, 2048X2048)
+[2017.11.15-03.22.57:936][  0]LogMaterial: Missing cached shader map for material Lashes_MAT, compiling. 
+[2017.11.15-03.22.58:239][  0]LogTexture:Display: Building textures: FemaleFitA_StdNM (BC5, 2048X2048)
+[2017.11.15-03.22.58:744][  0]LogMaterial: Missing cached shader map for material EyeSpec_MAT, compiling. 
+[2017.11.15-03.22.59:080][  0]LogTexture:Display: Building textures: Bow_NM (BC5, 2048X2048)
+[2017.11.15-03.22.59:835][  0]LogTexture:Display: Building textures: Bow_DIFF (AutoDXT, 2048X2048)
+[2017.11.15-03.23.01:676][  0]LogMaterial: Missing cached shader map for material Bow_MAT, compiling. 
+[2017.11.15-03.23.01:728][  0]LogMaterial: Missing cached shader map for material Body_MAT, compiling. 
+[2017.11.15-03.23.02:016][  0]LogTexture:Display: Building textures: Erika_Archer_Clothes_normal (BC5, 2048X2048)
+[2017.11.15-03.23.02:678][  0]LogTexture:Display: Building textures: Erika_Archer_Clothes_diffuse (AutoDXT, 2048X2048)
+[2017.11.15-03.23.03:859][  0]LogMaterial: Missing cached shader map for material Akai_MAT, compiling. 
+[2017.11.15-03.23.03:962][  0]LogMaterial: Missing cached shader map for material T_Wood_Walnut_Mat, compiling. 
+[2017.11.15-03.23.03:994][  0]LogMaterial: Missing cached shader map for material T_Wood_Oak_Mat, compiling. 
+[2017.11.15-03.23.04:025][  0]LogMaterial: Missing cached shader map for material M_Wood_Pine, compiling. 
+[2017.11.15-03.23.04:075][  0]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2017.11.15-03.23.04:106][  0]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2017.11.15-03.23.04:137][  0]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Polished, compiling. 
+[2017.11.15-03.23.04:168][  0]LogMaterial: Missing cached shader map for material M_OutlineTest01, compiling. 
+[2017.11.15-03.23.04:177][  0]LogTexture:Display: Building textures: CLUT_CelShadingTest (BGRA8, 1X128)
+[2017.11.15-03.23.04:179][  0]LogMaterial: Missing cached shader map for material M_CelShadingTest, compiling. 
+[2017.11.15-03.23.04:304][  0]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.15-03.23.04:364][  0]LogAIModule: Creating AISystem for world default
+[2017.11.15-03.23.05:121][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.15-03.23.05:282][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.15-03.23.05:384][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 101.832ms to complete.
+[2017.11.15-03.23.05:384][  0]LogFileHelpers: Loading map 'default' took 43.342
+[2017.11.15-03.23.05:585][  0]LogCollectionManager: Loaded 0 collections in 0.001225 seconds
+[2017.11.15-03.23.05:697][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.11.15-03.23.05:697][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Developers/0271642/Collections/' took 0.01s
+[2017.11.15-03.23.05:697][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.11.15-03.23.05:697][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.15-03.23.05:712][  0]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 2329 classes and 491 folders.
+[2017.11.15-03.23.05:830][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.11.15-03.23.06:275][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.11.15-03.23.06:347][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.11.15-03.23.06:439][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.15-03.23.06:570][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.11.15-03.23.06:570][  0]LogLoad: (Engine Initialization) Total time: 117.68 seconds
+[2017.11.15-03.23.06:570][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.40 seconds
+[2017.11.15-03.23.06:570][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.15-03.23.06:909][  0]LogOcInput: OculusInput pre-init called
+[2017.11.15-03.23.06:910][  0]LogHMD: Starting GearVRController plugin
+[2017.11.15-03.23.06:949][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.15-03.23.06:959][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.15-03.23.06:962][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.15-03.23.07:071][  0]LogSlate: Took 0.104059 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.15-03.23.07:257][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
+[2017.11.15-03.23.07:313][  0]LogSlate: Took 0.005793 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.15-03.23.07:384][  1]LogRenderer: Reallocating scene render targets to support 1204x564 NumSamples 1 (Frame:1).
+[2017.11.15-03.23.07:384][  1]LogAssetRegistry: Asset discovery search completed in 62.8729 seconds
+[2017.11.15-03.23.07:387][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.15-03.23.07:387][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2017.11.15-03.23.40:374][100]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.15-03.24.32:032][269]LogSlate: Took 0.008475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.11.15-03.24.37:379][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.15-03.24.37:379][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.15-03.24.37:380][764]PIE: New page: SIE session: default (Nov 14, 2017, 11:24:37 AM)
+[2017.11.15-03.24.37:380][764]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.15-03.24.37:629][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.248580s)
+[2017.11.15-03.24.37:630][764]LogAIModule: Creating AISystem for world default
+[2017.11.15-03.24.37:630][764]LogPlayLevel: PIE: World Init took: (0.001248s)
+[2017.11.15-03.24.37:631][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.251096s)
+[2017.11.15-03.24.37:656][764]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-03.24.37:667][764]LogInit: FAudioDevice initialized.
+[2017.11.15-03.24.37:715][764]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.15-03.24.37:735][764]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.14-19.24.37
+[2017.11.15-03.24.37:741][764]LogWorld: Bringing up level for play took: 0.023700
+[2017.11.15-03.24.37:742][764]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.15-03.24.37:808][764]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.11.15-03.24.37:811][764]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.15-03.24.37:829][764]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.15-03.24.37:829][764]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.502
+[2017.11.15-03.24.37:839][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.15-03.24.41:068][983]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.15-03.24.41:113][983]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.15-03.24.50:076][945]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.11.15-03.24.50:076][945]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.11.15-03.24.50:356][967]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.11.15-03.24.50:357][967]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Engine/Transient.World_2:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.11.15-03.24.50:357][967]LogScript:Warning: Accessed None
+	ArcherAIArrow_C /Engine/Transient.World_2:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.11.15-03.24.50:448][972]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.11.15-03.24.50:448][972]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_CatapultRock_C /Engine/Transient.World_6:PersistentLevel.BP_CatapultRock_C_0
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:UserConstructionScript:00D9
+[2017.11.15-03.24.50:870][  8]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.15-03.24.51:363][  8]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.11.15-03.24.52:206][  8]LogSlate: Took 0.005357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.15-03.24.52:572][  9]LogSlate: Took 0.005101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.15-03.25.30:373][735]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2094).
+[2017.11.15-03.26.22:038][312]LogTemp: Repeting last play command: Simulate
+[2017.11.15-03.26.22:092][312]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.15-03.26.22:092][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.15-03.26.22:092][312]PIE: New page: SIE session: default (Nov 14, 2017, 11:26:22 AM)
+[2017.11.15-03.26.22:093][312]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.15-03.26.22:354][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.261094s)
+[2017.11.15-03.26.22:355][312]LogAIModule: Creating AISystem for world default
+[2017.11.15-03.26.22:355][312]LogPlayLevel: PIE: World Init took: (0.001500s)
+[2017.11.15-03.26.22:356][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.263896s)
+[2017.11.15-03.26.22:394][312]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-03.26.22:404][312]LogInit: FAudioDevice initialized.
+[2017.11.15-03.26.22:440][312]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.15-03.26.22:461][312]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.14-19.26.22
+[2017.11.15-03.26.22:463][312]LogWorld: Bringing up level for play took: 0.022402
+[2017.11.15-03.26.22:464][312]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.15-03.26.22:465][312]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.15-03.26.22:472][312]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 367
+[2017.11.15-03.26.22:472][312]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/VirtualRealityBP/Maps/default.default_C:ReceiveBeginPlay
+	Function /Game/VirtualRealityBP/Maps/default.default_C:ExecuteUbergraph_default
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn
+
+[2017.11.15-03.26.45:925][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Maps/default" FILE="D:/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.15-03.26.51:236][312]LogSavePackage: Save=5223.70ms
+[2017.11.15-03.26.51:236][312]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/default6F40B01845577F9727C75EBDEEA5E35B.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.15-03.26.51:244][312]LogSavePackage:Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.15-03.26.51:331][312]LogFileHelpers: Saving map 'default' took 5.513
+[2017.11.15-03.28.51:033][312]LogBlueprintDebug:Warning: Tried to break execution in an unknown spot at object Function /Engine/Transient.TRASHCLASS_default_209:LeftPathSoldier1Spawn:01AC
+[2017.11.15-03.28.51:033][312]LogOutputDevice:Warning: 
+
+Script Stack:
+default_C.LeftPathSoldier1Spawn
+default_C.ExecuteUbergraph_default
+default_C.ReceiveBeginPlay
+
+[2017.11.15-03.28.51:039][312]LogWindows: Windows GetLastError: The operation completed successfully. (0)
