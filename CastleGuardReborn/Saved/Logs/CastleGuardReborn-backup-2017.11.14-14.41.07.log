@@ -1,0 +1,1281 @@
+﻿Log file open, 11/14/17 14:24:52
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1675534457) SRandInit(1675534457).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079684
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.14-22.24.52:889][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.14-22.24.52:889][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.14-22.24.52:897][  0]LogInit: Computer: LCIVAN-238-00
+[2017.11.14-22.24.52:897][  0]LogInit: User: studentuser
+[2017.11.14-22.24.52:897][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.14-22.24.52:897][  0]LogInit: High frequency timer resolution =4.101569 MHz
+[2017.11.14-22.24.52:897][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.14-22.24.52:897][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.14-22.24.52:897][  0]LogMemory: Process Physical Memory: 274.82 MB used, 274.82 MB peak
+[2017.11.14-22.24.52:897][  0]LogMemory: Process Virtual Memory: 260.83 MB used, 260.83 MB peak
+[2017.11.14-22.24.52:897][  0]LogMemory: Physical Memory: 5949.51 MB used,  10333.94 MB free, 16283.45 MB total
+[2017.11.14-22.24.52:897][  0]LogMemory: Virtual Memory: 638.49 MB used,  10333.94 MB free, 134217728.00 MB total
+[2017.11.14-22.24.52:956][  0]LogInit: Using OS detected language (en-US).
+[2017.11.14-22.24.52:956][  0]LogInit: Using OS detected locale (en-CA).
+[2017.11.14-22.24.52:958][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.14-22.24.53:600][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.14-22.24.53:634][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.14-22.24.53:634][  0]LogD3D11RHI:       8115/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.14-22.24.53:639][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.11.14-22.24.53:639][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.14-22.24.53:640][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.14-22.24.53:640][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.14-22.24.53:640][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.14-22.24.53:647][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.14-22.24.53:647][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.14-22.24.53:647][  0]LogWindows: EnumDisplayDevices:
+[2017.11.14-22.24.53:647][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.14-22.24.53:647][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.14-22.24.53:647][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.14-22.24.53:647][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.14-22.24.53:647][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.14-22.24.53:647][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.14-22.24.53:647][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.14-22.24.53:647][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.14-22.24.53:647][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.14-22.24.53:647][  0]LogD3D11RHI:   Driver Version: 382.66 (internal:22.21.13.8266, unified:382.66)
+[2017.11.14-22.24.53:647][  0]LogD3D11RHI:      Driver Date: 6-25-2017
+[2017.11.14-22.24.53:647][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.14-22.24.53:673][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.14-22.24.53:688][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.14-22.24.53:736][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/5212/).
+[2017.11.14-22.24.53:736][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/BAE6A91B46CFFBAF03ED22A6C8E95D26/'.
+[2017.11.14-22.24.53:736][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.14-22.24.54:433][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.14-22.24.54:469][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.14-22.24.54:505][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.14-22.24.54:540][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.14-22.24.54:576][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.14-22.24.54:612][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.14-22.24.54:648][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.14-22.24.54:683][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.14-22.24.54:714][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.14-22.24.54:748][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.14-22.24.54:783][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.14-22.24.54:818][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.14-22.24.54:852][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.14-22.24.54:887][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.14-22.24.54:923][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.14-22.24.54:992][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.14-22.24.54:993][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.14-22.24.55:019][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.14-22.24.55:091][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.14-22.24.55:113][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.14-22.24.55:147][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.14-22.24.55:182][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.14-22.24.55:222][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.14-22.24.55:261][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.14-22.24.55:261][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.14-22.24.55:618][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.14-22.24.55:701][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.14-22.24.55:701][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.14-22.24.55:701][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.14-22.24.55:701][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.14-22.24.55:701][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.14-22.24.55:701][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.14-22.24.55:713][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.14-22.24.55:725][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.14-22.24.55:732][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.14-22.24.55:732][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.14-22.24.55:732][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.14-22.24.55:732][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.14-22.24.55:949][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.14-22.24.56:007][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.14-22.24.56:120][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.14-22.24.56:150][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.14-22.24.56:184][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.14-22.24.56:184][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.14-22.24.56:184][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.14-22.24.56:567][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.11.14-22.24.56:617][  0]LogAssetRegistry: FAssetRegistry took 0.0239 seconds to start up
+[2017.11.14-22.24.56:656][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.021841 seconds
+[2017.11.14-22.24.56:660][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.14-22.24.56:660][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.11.14-22.24.56:660][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.14-22.24.56:705][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.14-22.24.58:352][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.14-22.24.58:384][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.14-22.24.58:768][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.14-22.24.59:049][  0]SourceControl: Info Source control is disabled
+[2017.11.14-22.24.59:070][  0]SourceControl: Info Source control is disabled
+[2017.11.14-22.24.59:104][  0]SourceControl: Info Source control is disabled
+[2017.11.14-22.24.59:138][  0]SourceControl: Info Source control is disabled
+[2017.11.14-22.24.59:624][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.14-22.25.00:044][  0]LogEngine: Initializing Engine...
+[2017.11.14-22.25.03:094][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.11.14-22.25.03:258][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.14-22.25.03:258][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.14-22.25.03:354][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.14-22.25.03:366][  0]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.14-22.25.03:373][  0]LogInit: FAudioDevice initialized.
+[2017.11.14-22.25.03:414][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.14-22.25.03:434][  0]LogInit: Texture streaming: Enabled
+[2017.11.14-22.25.03:505][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.14-22.25.03:662][  0]LogInit: Transaction tracking system initialized
+[2017.11.14-22.25.03:890][  0]BlueprintLog: New page: Editor Load
+[2017.11.14-22.25.04:564][  0]LocalizationService: Info Localization service is disabled
+[2017.11.14-22.25.05:037][  0]LogConsoleResponse:Display: 
+[2017.11.14-22.25.05:133][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.14-22.25.05:133][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.14-22.25.05:856][  0]SourceControl: Info Source control is disabled
+[2017.11.14-22.25.05:856][  0]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.14-22.25.05:857][  0]LightingResults: New page: Lighting Build
+[2017.11.14-22.25.05:886][  0]MapCheck: New page: Map Check
+[2017.11.14-22.25.05:886][  0]LightingResults: New page: Lighting Build
+[2017.11.14-22.25.07:690][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.11.14-22.25.07:781][  0]LogAIModule: Creating AISystem for world default
+[2017.11.14-22.25.07:889][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.14-22.25.07:962][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.14-22.25.08:005][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.54ms to complete.
+[2017.11.14-22.25.08:005][  0]LogFileHelpers: Loading map 'default' took 2.149
+[2017.11.14-22.25.08:070][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.14-22.25.08:160][  0]LogCollectionManager: Loaded 0 collections in 0.001572 seconds
+[2017.11.14-22.25.08:215][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.11.14-22.25.08:215][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.11.14-22.25.08:215][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.00s
+[2017.11.14-22.25.08:215][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.14-22.25.08:221][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2330 classes and 494 folders.
+[2017.11.14-22.25.08:267][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.14-22.25.08:291][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.14-22.25.08:321][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.14-22.25.08:350][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.14-22.25.09:023][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.11.14-22.25.09:035][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.14-22.25.09:038][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.14-22.25.09:043][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.14-22.25.09:124][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CastleGuardReborn
+[2017.11.14-22.25.09:124][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.14-22.25.09:124][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.11.14-22.25.09:124][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.14-22.25.09:124][  0]LogTemp: BranchPath = LCIVAN-238-00/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LCIVAN-238-00/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.11.14-22.25.09:124][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\studentuser\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.14-22.25.09:124][  0]LogRenderer: Reallocating scene render targets to support 1196x576 NumSamples 1 (Frame:1).
+[2017.11.14-22.25.09:225][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.14-22.25.09:280][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.14-22.25.09:280][  0]LogLoad: (Engine Initialization) Total time: 17.60 seconds
+[2017.11.14-22.25.09:280][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.60 seconds
+[2017.11.14-22.25.09:280][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.14-22.25.09:280][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.14-22.25.09:292][  0]LogOcInput: OculusInput pre-init called
+[2017.11.14-22.25.09:292][  0]LogHMD: Starting GearVRController plugin
+[2017.11.14-22.25.09:318][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.14-22.25.09:377][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.14-22.25.09:400][  1]LogAssetRegistry: Asset discovery search completed in 12.8040 seconds
+[2017.11.14-22.25.09:402][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.14-22.25.09:402][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2017.11.14-22.25.09:464][  4]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.11.14-22.25.09:464][  4]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.11.14-22.25.09:464][  4]LogScript:Warning: Accessed None
+	ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.11.14-22.25.10:314][ 88]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.14-22.25.27:190][ 62]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.14-22.25.37:768][295]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.14-22.25.37:816][295]LogMaterial: Missing cached shader map for material M_Wood_Pine, compiling. 
+[2017.11.14-22.25.37:926][295]LogMaterial: Missing cached shader map for material M_Wood_Pine, compiling. 
+[2017.11.14-22.25.37:940][295]LogMaterial: Missing cached shader map for material M_Wood_Pine, compiling. 
+[2017.11.14-22.25.37:978][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_82, compiling. 
+[2017.11.14-22.25.37:981][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_83, compiling. 
+[2017.11.14-22.25.37:985][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_29, compiling. 
+[2017.11.14-22.25.37:989][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_85, compiling. 
+[2017.11.14-22.25.37:992][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_86, compiling. 
+[2017.11.14-22.25.37:996][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_87, compiling. 
+[2017.11.14-22.25.37:999][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_30, compiling. 
+[2017.11.14-22.25.38:009][295]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.14-22.25.48:053][327]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.11.14-22.26.56:903][219]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.14-22.26.57:179][219]LogSavePackage: Save=2607.83ms
+[2017.11.14-22.26.57:179][219]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default540009524049CBFEE36EE0BF1B2B8CCA.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.14-22.26.57:182][219]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.14-22.26.57:225][219]LogFileHelpers: Saving map 'default' took 2.762
+[2017.11.14-22.27.02:127][804]LogEditorViewport: Clicking on Actor (LMB): BP_HeavyArrowsPile_C (BP_HeavyArrowsPile)
+[2017.11.14-22.27.08:279][538]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.14-22.27.22:399][220]LogEditorViewport: Clicking on Actor (LMB): BP_LightArrowsPile_C (BP_LightArrowsPile)
+[2017.11.14-22.27.30:939][231]LogPlayLevel: Launcher Device ID: WindowsNoEditor@LCIVAN-238-00
+[2017.11.14-22.27.30:953][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-22.27.35:263][577]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.27.35:263][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-22.27.35:263][577]PIE: New page: SIE session: default (Nov 14, 2017, 6:27:35 AM)
+[2017.11.14-22.27.35:263][577]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.14-22.27.35:394][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.130489s)
+[2017.11.14-22.27.35:394][577]LogAIModule: Creating AISystem for world default
+[2017.11.14-22.27.35:395][577]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2017.11.14-22.27.35:395][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.131767s)
+[2017.11.14-22.27.35:410][577]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.14-22.27.35:414][577]LogInit: FAudioDevice initialized.
+[2017.11.14-22.27.35:456][577]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.14-22.27.35:468][577]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.14-14.27.35
+[2017.11.14-22.27.35:469][577]LogWorld: Bringing up level for play took: 0.010936
+[2017.11.14-22.27.35:469][577]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.14-22.27.35:498][577]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.11.14-22.27.35:498][577]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-22.27.35:502][577]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=21323.434 Y=23440.414 Z=89.169] for [SoldierAI_C]
+[2017.11.14-22.27.35:502][577]LogScript:Warning: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:00F2
+[2017.11.14-22.27.35:502][577]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.27.35:502][577]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0107
+[2017.11.14-22.27.35:502][577]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.27.35:502][577]LogScript:Warning: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:011D
+[2017.11.14-22.27.35:502][577]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.27.35:502][577]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0132
+[2017.11.14-22.27.35:502][577]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.27.35:502][577]LogScript:Warning: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0148
+[2017.11.14-22.27.35:502][577]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.27.35:502][577]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:015D
+[2017.11.14-22.27.35:502][577]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.27.35:502][577]LogScript:Warning: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0173
+[2017.11.14-22.27.35:502][577]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.27.35:502][577]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0188
+[2017.11.14-22.27.35:502][577]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.27.35:503][577]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-22.27.35:503][577]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.688
+[2017.11.14-22.27.35:513][577]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.27.36:606][676]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.14-22.27.36:606][676]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.14-22.27.36:606][676]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.14-22.27.39:208][903]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=21323.434 Y=23440.414 Z=89.169] for [SoldierAI_C]
+[2017.11.14-22.27.39:208][903]LogScript:Warning: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:00F2
+[2017.11.14-22.27.39:208][903]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.27.39:208][903]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0107
+[2017.11.14-22.27.39:208][903]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.27.39:208][903]LogScript:Warning: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:011D
+[2017.11.14-22.27.39:208][903]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.27.39:208][903]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0132
+[2017.11.14-22.27.39:208][903]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.27.39:208][903]LogScript:Warning: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0148
+[2017.11.14-22.27.39:208][903]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.27.39:208][903]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:015D
+[2017.11.14-22.27.39:208][903]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.27.39:208][903]LogScript:Warning: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0173
+[2017.11.14-22.27.39:208][903]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.27.39:208][903]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0188
+[2017.11.14-22.27.39:208][903]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.27.39:333][918]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.27.39:370][918]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.27.42:224][252]LogEditorViewport: Clicking on Actor (LMB): BP_Castle_C (BP_Castle)
+[2017.11.14-22.28.06:106][ 38]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.11.14-22.28.14:118][634]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_10:PersistentLevel.BP_HeavyArrow_C_0.StaticMesh) Not currently registered. Aborting.
+[2017.11.14-22.28.14:118][634]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_11:PersistentLevel.BP_HeavyArrow_C_1.StaticMesh) Not currently registered. Aborting.
+[2017.11.14-22.28.15:855][776]BlueprintLog: New page: Compile BP_HeavyArrow
+[2017.11.14-22.28.27:976][144]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_9:PersistentLevel.BP_LightArrow_C_0.StaticMesh) Not currently registered. Aborting.
+[2017.11.14-22.28.27:976][144]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_12:PersistentLevel.BP_LightArrow_C_1.StaticMesh) Not currently registered. Aborting.
+[2017.11.14-22.28.29:168][285]BlueprintLog: New page: Compile BP_LightArrow
+[2017.11.14-22.28.31:270][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_HeavyArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset" SILENT=true
+[2017.11.14-22.28.31:319][517]LogSavePackage: Save=44.18ms
+[2017.11.14-22.28.31:319][517]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_HeavyArrow7C44113B497AB92FB6C206B075232DCC.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset'
+[2017.11.14-22.28.31:320][517]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset
+[2017.11.14-22.28.32:753][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_LightArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset" SILENT=true
+[2017.11.14-22.28.32:809][687]LogSavePackage: Save=50.07ms
+[2017.11.14-22.28.32:809][687]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_LightArrow8978520746515DD95EC01F9A24E6E5BA.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset'
+[2017.11.14-22.28.32:810][687]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset
+[2017.11.14-22.28.37:924][979]LogSavePackage: Save=2581.13ms
+[2017.11.14-22.28.37:925][979]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default22666EB846EB0C0F356919A897F3B631.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.14-22.28.37:928][979]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.14-22.28.37:972][979]LogFileHelpers: Saving map 'default' took 2.689
+[2017.11.14-22.28.38:339][ 23]LogTemp: Repeting last play command: Simulate
+[2017.11.14-22.28.38:370][ 23]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.28.38:371][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-22.28.38:371][ 23]PIE: New page: SIE session: default (Nov 14, 2017, 6:28:38 AM)
+[2017.11.14-22.28.38:371][ 23]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.14-22.28.38:504][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133841s)
+[2017.11.14-22.28.38:505][ 23]LogAIModule: Creating AISystem for world default
+[2017.11.14-22.28.38:505][ 23]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2017.11.14-22.28.38:505][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.135120s)
+[2017.11.14-22.28.38:526][ 23]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.14-22.28.38:531][ 23]LogInit: FAudioDevice initialized.
+[2017.11.14-22.28.38:559][ 23]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.14-22.28.38:569][ 23]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.14-14.28.38
+[2017.11.14-22.28.38:571][ 23]LogWorld: Bringing up level for play took: 0.010624
+[2017.11.14-22.28.38:571][ 23]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.14-22.28.38:571][ 23]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-22.28.38:574][ 23]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=21323.434 Y=23440.414 Z=89.169] for [SoldierAI_C]
+[2017.11.14-22.28.38:574][ 23]LogScript:Warning: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:00F2
+[2017.11.14-22.28.38:574][ 23]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.28.38:574][ 23]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0107
+[2017.11.14-22.28.38:574][ 23]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.38:574][ 23]LogScript:Warning: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:011D
+[2017.11.14-22.28.38:574][ 23]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.28.38:574][ 23]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0132
+[2017.11.14-22.28.38:575][ 23]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.38:575][ 23]LogScript:Warning: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0148
+[2017.11.14-22.28.38:575][ 23]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.28.38:575][ 23]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:015D
+[2017.11.14-22.28.38:575][ 23]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.38:575][ 23]LogScript:Warning: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0173
+[2017.11.14-22.28.38:575][ 23]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.28.38:575][ 23]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0188
+[2017.11.14-22.28.38:575][ 23]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.38:575][ 23]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-22.28.38:575][ 23]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.385
+[2017.11.14-22.28.38:590][ 23]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.28.39:735][159]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.14-22.28.39:735][159]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.14-22.28.39:735][159]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.14-22.28.42:342][471]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=21323.434 Y=23440.414 Z=89.169] for [SoldierAI_C]
+[2017.11.14-22.28.42:342][471]LogScript:Warning: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:00F2
+[2017.11.14-22.28.42:342][471]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.28.42:342][471]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0107
+[2017.11.14-22.28.42:342][471]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.42:342][471]LogScript:Warning: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:011D
+[2017.11.14-22.28.42:342][471]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.28.42:342][471]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0132
+[2017.11.14-22.28.42:342][471]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.42:342][471]LogScript:Warning: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0148
+[2017.11.14-22.28.42:342][471]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.28.42:342][471]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:015D
+[2017.11.14-22.28.42:342][471]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.42:342][471]LogScript:Warning: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0173
+[2017.11.14-22.28.42:342][471]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.28.42:342][471]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:0188
+[2017.11.14-22.28.42:342][471]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.45:583][859]LogScript:Warning: Attempted to access ArcherAIArrow_C_0 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_0 is pending kill
+	BP_Castle_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Castle
+	Function /Game/Vive/Blueprints/WorldObjects/BP_Castle.BP_Castle_C:ExecuteUbergraph_BP_Castle:0069
+[2017.11.14-22.28.45:583][859]PIE:Error: Error Blueprint Runtime Error: Attempted to access ArcherAIArrow_C_0 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_0 is pending kill from function: 'ExecuteUbergraph_BP_Castle' from node: DestroyActor in graph: EventGraph in object: BP_Castle with description: Attempted to access ArcherAIArrow_C_0 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_0 is pending kill
+[2017.11.14-22.28.46:345][950]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=20615.313 Y=23595.873 Z=91.582] for [Catapult_C]
+[2017.11.14-22.28.46:345][950]LogScript:Warning: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftpathCatapultSpawn:00F2
+[2017.11.14-22.28.46:345][950]PIE:Error: Error Blueprint Runtime Error: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill from function: 'LeftpathCatapultSpawn' from node: Set FinalLocation in graph: LeftpathCatapultSpawn in object: default with description: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill
+[2017.11.14-22.28.46:345][950]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftpathCatapultSpawn' from node: Set FinalLocation in graph: LeftpathCatapultSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.46:345][950]PIE:Error: Error Blueprint Runtime Error: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill from function: 'LeftpathCatapultSpawn' from node: Set FirstPos in graph: LeftpathCatapultSpawn in object: default with description: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill
+[2017.11.14-22.28.46:345][950]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftpathCatapultSpawn' from node: Set FirstPos in graph: LeftpathCatapultSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.46:345][950]PIE:Error: Error Blueprint Runtime Error: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill from function: 'LeftpathCatapultSpawn' from node: Set NextCatapult in graph: LeftpathCatapultSpawn in object: default with description: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill
+[2017.11.14-22.28.46:345][950]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftpathCatapultSpawn' from node: Set NextCatapult in graph: LeftpathCatapultSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.46:346][950]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=21323.434 Y=23440.414 Z=89.169] for [SoldierAI_C]
+[2017.11.14-22.28.46:346][950]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill
+[2017.11.14-22.28.46:346][950]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.46:346][950]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill
+[2017.11.14-22.28.46:346][950]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.46:346][950]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill
+[2017.11.14-22.28.46:346][950]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.46:347][950]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill
+[2017.11.14-22.28.46:347][950]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.50:347][429]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=20617.867 Y=23586.512 Z=88.875] for [BatteringRamOld_C]
+[2017.11.14-22.28.50:347][429]PIE:Error: Error Blueprint Runtime Error: Attempted to access BatteringRamOld_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BatteringRamOld_C_1 is pending kill from function: 'LeftPathBatteringRamSpawn' from node: Set AttackPos in graph: LeftPathBatteringRamSpawn in object: default with description: Attempted to access BatteringRamOld_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BatteringRamOld_C_1 is pending kill
+[2017.11.14-22.28.50:347][429]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathBatteringRamSpawn' from node: Set AttackPos in graph: LeftPathBatteringRamSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.50:347][429]PIE:Error: Error Blueprint Runtime Error: Attempted to access BatteringRamOld_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BatteringRamOld_C_1 is pending kill from function: 'LeftPathBatteringRamSpawn' from node: Set FirstPos in graph: LeftPathBatteringRamSpawn in object: default with description: Attempted to access BatteringRamOld_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BatteringRamOld_C_1 is pending kill
+[2017.11.14-22.28.50:347][429]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathBatteringRamSpawn' from node: Set FirstPos in graph: LeftPathBatteringRamSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.50:348][429]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=21323.434 Y=23440.414 Z=89.169] for [SoldierAI_C]
+[2017.11.14-22.28.50:348][429]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_7 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_7 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_7 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_7 is pending kill
+[2017.11.14-22.28.50:349][429]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.50:349][429]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_7 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_7 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_7 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_7 is pending kill
+[2017.11.14-22.28.50:349][429]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.50:349][429]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_7 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_7 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_7 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_7 is pending kill
+[2017.11.14-22.28.50:349][429]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.50:349][429]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_7 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_7 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_7 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_7 is pending kill
+[2017.11.14-22.28.50:349][429]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.50:590][458]LogScript:Warning: Attempted to access ArcherAIArrow_C_1 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_1 is pending kill
+	BP_Castle_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Castle
+	Function /Game/Vive/Blueprints/WorldObjects/BP_Castle.BP_Castle_C:ExecuteUbergraph_BP_Castle:0069
+[2017.11.14-22.28.50:590][458]PIE:Error: Error Blueprint Runtime Error: Attempted to access ArcherAIArrow_C_1 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_1 is pending kill from function: 'ExecuteUbergraph_BP_Castle' from node: DestroyActor in graph: EventGraph in object: BP_Castle with description: Attempted to access ArcherAIArrow_C_1 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_1 is pending kill
+[2017.11.14-22.28.52:664][706]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.14-22.28.52:665][706]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_4
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.14-22.28.52:665][706]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.14-22.28.53:845][847]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.28.53:898][847]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.28.56:414][131]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.28.56:414][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-22.28.56:414][131]PIE: New page: PIE session: default (Nov 14, 2017, 6:28:56 AM)
+[2017.11.14-22.28.56:414][131]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.14-22.28.56:542][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.127917s)
+[2017.11.14-22.28.56:543][131]LogAIModule: Creating AISystem for world default
+[2017.11.14-22.28.56:543][131]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2017.11.14-22.28.56:543][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.129278s)
+[2017.11.14-22.28.56:567][131]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.14-22.28.56:571][131]LogInit: FAudioDevice initialized.
+[2017.11.14-22.28.56:653][131]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.14-22.28.56:665][131]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.14-14.28.56
+[2017.11.14-22.28.56:666][131]LogWorld: Bringing up level for play took: 0.011823
+[2017.11.14-22.28.56:666][131]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-22.28.56:666][131]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-22.28.56:666][131]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-22.28.56:670][131]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=21323.434 Y=23440.414 Z=89.169] for [SoldierAI_C]
+[2017.11.14-22.28.56:670][131]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.28.56:670][131]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.56:670][131]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.28.56:670][131]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.56:670][131]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.28.56:670][131]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.56:670][131]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.28.56:670][131]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.28.56:671][131]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-22.28.56:675][131]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.484
+[2017.11.14-22.28.56:675][131]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.28.56:719][132]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.11.14-22.28.57:777][226]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.14-22.28.57:777][226]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.14-22.28.57:777][226]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.14-22.29.00:382][458]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=21323.434 Y=23440.414 Z=89.169] for [SoldierAI_C]
+[2017.11.14-22.29.00:382][458]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.29.00:382][458]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.29.00:382][458]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.29.00:382][458]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.29.00:382][458]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.29.00:382][458]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.29.00:382][458]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.29.00:383][458]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.29.03:652][706]LogScript:Warning: Attempted to access ArcherAIArrow_C_0 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_0 is pending kill
+	BP_Castle_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Castle
+	Function /Game/Vive/Blueprints/WorldObjects/BP_Castle.BP_Castle_C:ExecuteUbergraph_BP_Castle:0069
+[2017.11.14-22.29.03:652][706]PIE:Error: Error Blueprint Runtime Error: Attempted to access ArcherAIArrow_C_0 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_0 is pending kill from function: 'ExecuteUbergraph_BP_Castle' from node: DestroyActor in graph: EventGraph in object: BP_Castle with description: Attempted to access ArcherAIArrow_C_0 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_0 is pending kill
+[2017.11.14-22.29.04:390][761]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=20615.334 Y=23595.914 Z=91.590] for [Catapult_C]
+[2017.11.14-22.29.04:390][761]PIE:Error: Error Blueprint Runtime Error: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill from function: 'LeftpathCatapultSpawn' from node: Set FinalLocation in graph: LeftpathCatapultSpawn in object: default with description: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill
+[2017.11.14-22.29.04:390][761]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftpathCatapultSpawn' from node: Set FinalLocation in graph: LeftpathCatapultSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.29.04:390][761]PIE:Error: Error Blueprint Runtime Error: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill from function: 'LeftpathCatapultSpawn' from node: Set FirstPos in graph: LeftpathCatapultSpawn in object: default with description: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill
+[2017.11.14-22.29.04:390][761]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftpathCatapultSpawn' from node: Set FirstPos in graph: LeftpathCatapultSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.29.04:390][761]PIE:Error: Error Blueprint Runtime Error: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill from function: 'LeftpathCatapultSpawn' from node: Set NextCatapult in graph: LeftpathCatapultSpawn in object: default with description: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill
+[2017.11.14-22.29.04:390][761]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftpathCatapultSpawn' from node: Set NextCatapult in graph: LeftpathCatapultSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.29.04:391][761]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=21323.434 Y=23440.414 Z=89.169] for [SoldierAI_C]
+[2017.11.14-22.29.04:391][761]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill
+[2017.11.14-22.29.04:391][761]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.29.04:392][761]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill
+[2017.11.14-22.29.04:392][761]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.29.04:392][761]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill
+[2017.11.14-22.29.04:392][761]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.29.04:392][761]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill
+[2017.11.14-22.29.04:392][761]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.29.05:127][806]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.29.05:319][806]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.29.09:242][256]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.14-22.29.22:246][712]LogEditorViewport: Clicking on Actor (LMB): SM_TestDoor_Blueprint_C (SM_TestDoor_Blueprint)
+[2017.11.14-22.29.22:820][772]LogEditorViewport: Clicking on Actor (LMB): BP_LightArrowsPile_C (BP_LightArrowsPile)
+[2017.11.14-22.29.24:290][944]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_HeavyArrowsPile_C (BP_HeavyArrowsPile)
+[2017.11.14-22.29.28:551][449]LogEditorViewport: Clicking on Actor (LMB): Vive_Pawn_C (Vive_Pawn)
+[2017.11.14-22.29.31:452][790]LogEditorViewport: Clicking on Actor (LMB): BP_Castle_C (BP_Castle)
+[2017.11.14-22.29.33:184][966]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.11.14-22.29.36:969][404]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.11.14-22.29.36:969][404]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.11.14-22.29.37:622][461]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.11.14-22.29.37:622][461]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_CatapultRock_C /Engine/Transient.World_16:PersistentLevel.BP_CatapultRock_C_0
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:UserConstructionScript:00D9
+[2017.11.14-22.30.02:552][ 71]LogSavePackage: Save=2600.73ms
+[2017.11.14-22.30.02:552][ 71]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/defaultE47A23A746DF79E62CFB639BD92BC70A.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.14-22.30.02:556][ 71]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.14-22.30.02:597][ 71]LogFileHelpers: Saving map 'default' took 2.708
+[2017.11.14-22.30.19:899][ 89]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/MainMenu_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.14-22.30.19:909][ 89]LightingResults: New page: Lighting Build
+[2017.11.14-22.30.19:910][ 89]LoadErrors: New page: Loading map: MainMenu_Level.umap
+[2017.11.14-22.30.19:972][ 89]MapCheck: New page: Map Check
+[2017.11.14-22.30.19:972][ 89]LightingResults: New page: Lighting Build
+[2017.11.14-22.30.20:051][ 89]LogAIModule: Creating AISystem for world MainMenu_Level
+[2017.11.14-22.30.20:073][ 89]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.14-22.30.20:135][ 89]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.14-22.30.20:179][ 89]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.556ms to complete.
+[2017.11.14-22.30.20:179][ 89]LogFileHelpers: Loading map 'MainMenu_Level' took 0.281
+[2017.11.14-22.30.23:683][502]LogEditorViewport: Clicking on Actor (LMB): LoadSecondLevel_C (LoadSecondLevel)
+[2017.11.14-22.30.27:920][921]LogEditorViewport: Clicking on Actor (LMB): LoadSecondLevel_C (LoadSecondLevel)
+[2017.11.14-22.31.30:314][367]BlueprintLog: New page: Compile LoadSecondLevel
+[2017.11.14-22.31.56:622][ 20]BlueprintLog: New page: Compile LoadSecondLevel
+[2017.11.14-22.32.58:183][ 21]BlueprintLog: New page: Compile LoadFirstLevel
+[2017.11.14-22.33.15:447][ 47]BlueprintLog: New page: Compile LoadFirstLevel
+[2017.11.14-22.33.16:226][ 96]LogSavePackage: Save=23.12ms
+[2017.11.14-22.33.16:226][ 96]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/LoadFirstLevel716FAFD8464770F0D4E00CAF45FD44BE.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/StaticMeshUI/LoadFirstLevel.uasset'
+[2017.11.14-22.33.16:232][ 96]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/StaticMeshUI/LoadFirstLevel.uasset
+[2017.11.14-22.33.22:670][866]BlueprintLog: New page: Compile LoadSecondLevel
+[2017.11.14-22.33.23:370][916]LogSavePackage: Save=23.07ms
+[2017.11.14-22.33.23:370][916]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/LoadSecondLevelE6E0361842E7FD3CB61FFDA901FE08EE.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/StaticMeshUI/LoadSecondLevel.uasset'
+[2017.11.14-22.33.23:371][916]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/StaticMeshUI/LoadSecondLevel.uasset
+[2017.11.14-22.34.14:340][963]BlueprintLog: New page: Compile QuitGame
+[2017.11.14-22.34.15:021][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/StaticMeshUI/QuitGame" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/StaticMeshUI/QuitGame.uasset" SILENT=true
+[2017.11.14-22.34.15:049][  8]LogSavePackage: Save=23.10ms
+[2017.11.14-22.34.15:049][  8]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/QuitGameED24D77B4E394AB121E4ABAD7E061F8B.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/StaticMeshUI/QuitGame.uasset'
+[2017.11.14-22.34.15:050][  8]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/StaticMeshUI/QuitGame.uasset
+[2017.11.14-22.34.19:244][485]LogSavePackage: Save=103.77ms
+[2017.11.14-22.34.19:245][485]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/MainMenu_LevelBE2129D84F978CCF1FA31D9402D4C077.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/MainMenu_Level.umap'
+[2017.11.14-22.34.19:253][485]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/MainMenu_Level.umap
+[2017.11.14-22.34.19:298][485]LogFileHelpers: Saving map 'MainMenu_Level' took 0.225
+[2017.11.14-22.34.19:942][561]LogEditorViewport: Clicking on Actor (LMB): LoadSecondLevel_C (LoadSecondLevel)
+[2017.11.14-22.34.25:693][244]LogTemp: Repeting last play command: VR Preview
+[2017.11.14-22.34.25:725][244]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.34.25:725][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-22.34.25:725][244]PIE: New page: PIE session: MainMenu_Level (Nov 14, 2017, 6:34:25 AM)
+[2017.11.14-22.34.25:725][244]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level
+[2017.11.14-22.34.25:727][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001877s)
+[2017.11.14-22.34.25:727][244]LogAIModule: Creating AISystem for world MainMenu_Level
+[2017.11.14-22.34.25:727][244]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2017.11.14-22.34.25:728][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level to /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level (0.002729s)
+[2017.11.14-22.34.25:754][244]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.14-22.34.25:760][244]LogInit: FAudioDevice initialized.
+[2017.11.14-22.34.25:840][244]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.14-22.34.25:840][244]LogLoad: Game class is 'GameModeBase'
+[2017.11.14-22.34.25:841][244]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level up for play (max tick rate 0) at 2017.11.14-14.34.25
+[2017.11.14-22.34.25:842][244]LogWorld: Bringing up level for play took: 0.000965
+[2017.11.14-22.34.25:858][244]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level -0.333
+[2017.11.14-22.34.25:858][244]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.34.27:942][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.34.28:101][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.34.30:864][741]LogTemp: Repeting last play command: VR Preview
+[2017.11.14-22.34.30:891][741]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.34.30:891][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-22.34.30:891][741]PIE: New page: PIE session: MainMenu_Level (Nov 14, 2017, 6:34:30 AM)
+[2017.11.14-22.34.30:891][741]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level
+[2017.11.14-22.34.30:893][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001725s)
+[2017.11.14-22.34.30:893][741]LogAIModule: Creating AISystem for world MainMenu_Level
+[2017.11.14-22.34.30:894][741]LogPlayLevel: PIE: World Init took: (0.000429s)
+[2017.11.14-22.34.30:894][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level to /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level (0.002516s)
+[2017.11.14-22.34.30:920][741]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.14-22.34.30:925][741]LogInit: FAudioDevice initialized.
+[2017.11.14-22.34.31:001][741]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.14-22.34.31:001][741]LogLoad: Game class is 'GameModeBase'
+[2017.11.14-22.34.31:002][741]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level up for play (max tick rate 0) at 2017.11.14-14.34.31
+[2017.11.14-22.34.31:002][741]LogWorld: Bringing up level for play took: 0.000985
+[2017.11.14-22.34.31:008][741]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level 0.818
+[2017.11.14-22.34.31:008][741]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.34.33:047][920]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.34.33:207][920]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.34.36:711][317]LogEditorViewport: Clicking on Actor (LMB): Vive_Pawn_C (Vive_Pawn)
+[2017.11.14-22.34.38:194][488]LogTemp: Repeting last play command: VR Preview
+[2017.11.14-22.34.38:222][488]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.34.38:222][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-22.34.38:222][488]PIE: New page: PIE session: MainMenu_Level (Nov 14, 2017, 6:34:38 AM)
+[2017.11.14-22.34.38:222][488]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level
+[2017.11.14-22.34.38:224][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001704s)
+[2017.11.14-22.34.38:224][488]LogAIModule: Creating AISystem for world MainMenu_Level
+[2017.11.14-22.34.38:224][488]LogPlayLevel: PIE: World Init took: (0.000433s)
+[2017.11.14-22.34.38:224][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level to /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level (0.002446s)
+[2017.11.14-22.34.38:250][488]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.14-22.34.38:254][488]LogInit: FAudioDevice initialized.
+[2017.11.14-22.34.38:327][488]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.14-22.34.38:327][488]LogLoad: Game class is 'GameModeBase'
+[2017.11.14-22.34.38:328][488]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level up for play (max tick rate 0) at 2017.11.14-14.34.38
+[2017.11.14-22.34.38:328][488]LogWorld: Bringing up level for play took: 0.000920
+[2017.11.14-22.34.38:334][488]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level 0.144
+[2017.11.14-22.34.38:334][488]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.34.48:929][434]LogSteamVRController: Controller role for device 3 is 0 (invalid=0, left=1, right=2).
+[2017.11.14-22.34.48:929][434]LogSteamVRController:Warning: Controller device 3 has no role set.  There is no 'right' controller according to steamvr, so we are pickign that.
+[2017.11.14-22.34.48:929][434]LogSteamVRController: Controller device 3 is being assigned unreal hand 1 (left=0, right=1).
+[2017.11.14-22.34.53:642][856]LogSteamVRController: Controller role for device 4 is 0 (invalid=0, left=1, right=2).
+[2017.11.14-22.34.53:642][856]LogSteamVRController: Putting controller 4 on the left hand because there is already a controller for the right.
+[2017.11.14-22.34.53:642][856]LogSteamVRController: Controller device 4 is being assigned unreal hand 0 (left=0, right=1).
+[2017.11.14-22.35.03:171][709]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.35.03:321][709]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.35.11:953][710]LogTemp: Repeting last play command: VR Preview
+[2017.11.14-22.35.11:981][710]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.35.11:981][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-22.35.11:981][710]PIE: New page: PIE session: MainMenu_Level (Nov 14, 2017, 6:35:11 AM)
+[2017.11.14-22.35.11:981][710]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level
+[2017.11.14-22.35.11:983][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001812s)
+[2017.11.14-22.35.11:983][710]LogAIModule: Creating AISystem for world MainMenu_Level
+[2017.11.14-22.35.11:983][710]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2017.11.14-22.35.11:984][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level to /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level (0.002646s)
+[2017.11.14-22.35.12:011][710]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.14-22.35.12:016][710]LogInit: FAudioDevice initialized.
+[2017.11.14-22.35.12:100][710]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.14-22.35.12:100][710]LogLoad: Game class is 'GameModeBase'
+[2017.11.14-22.35.12:101][710]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level up for play (max tick rate 0) at 2017.11.14-14.35.12
+[2017.11.14-22.35.12:102][710]LogWorld: Bringing up level for play took: 0.000871
+[2017.11.14-22.35.12:107][710]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level -0.083
+[2017.11.14-22.35.12:108][710]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.35.25:733][928]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:100E
+[2017.11.14-22.35.25:733][928]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: Branch in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.14-22.35.25:733][928]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:0F8E
+[2017.11.14-22.35.25:733][928]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.14-22.35.25:733][928]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:0B30
+[2017.11.14-22.35.25:733][928]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: Branch in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.14-22.35.25:733][928]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:0AB0
+[2017.11.14-22.35.25:733][928]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.14-22.35.25:733][928]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:16F7
+[2017.11.14-22.35.25:733][928]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Visibility in graph: EventGraph in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.14-22.35.25:733][928]LogScript:Warning: Accessed None
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:170C
+[2017.11.14-22.35.25:734][928]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Visibility in graph: EventGraph in object: Vive_Pawn with description: Accessed None
+[2017.11.14-22.35.25:734][928]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:172F
+[2017.11.14-22.35.25:734][928]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Visibility in graph: EventGraph in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.14-22.35.25:734][928]LogScript:Warning: Accessed None
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:1744
+[2017.11.14-22.35.25:734][928]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Visibility in graph: EventGraph in object: Vive_Pawn with description: Accessed None
+[2017.11.14-22.35.36:021][849]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.35.36:174][849]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.35.40:580][353]LogEditorViewport: Clicking on Actor (LMB): Vive_Pawn_C (Vive_Pawn)
+[2017.11.14-22.35.51:474][644]LogTemp: Repeting last play command: VR Preview
+[2017.11.14-22.35.51:502][644]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.35.51:502][644]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-22.35.51:502][644]PIE: New page: PIE session: MainMenu_Level (Nov 14, 2017, 6:35:51 AM)
+[2017.11.14-22.35.51:502][644]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level
+[2017.11.14-22.35.51:504][644]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001709s)
+[2017.11.14-22.35.51:504][644]LogAIModule: Creating AISystem for world MainMenu_Level
+[2017.11.14-22.35.51:504][644]LogPlayLevel: PIE: World Init took: (0.000500s)
+[2017.11.14-22.35.51:505][644]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level to /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level (0.002428s)
+[2017.11.14-22.35.51:531][644]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.14-22.35.51:536][644]LogInit: FAudioDevice initialized.
+[2017.11.14-22.35.51:617][644]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.14-22.35.51:617][644]LogLoad: Game class is 'GameModeBase'
+[2017.11.14-22.35.51:619][644]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level up for play (max tick rate 0) at 2017.11.14-14.35.51
+[2017.11.14-22.35.51:619][644]LogWorld: Bringing up level for play took: 0.001036
+[2017.11.14-22.35.51:626][644]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level -0.565
+[2017.11.14-22.35.51:626][644]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.36.15:002][733]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:100E
+[2017.11.14-22.36.15:003][733]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: Branch in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.14-22.36.15:003][733]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:0F8E
+[2017.11.14-22.36.15:003][733]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.14-22.36.15:003][733]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:0B30
+[2017.11.14-22.36.15:003][733]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: Branch in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.14-22.36.15:003][733]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:0AB0
+[2017.11.14-22.36.15:003][733]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.14-22.36.15:003][733]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:16F7
+[2017.11.14-22.36.15:003][733]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Visibility in graph: EventGraph in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.14-22.36.15:003][733]LogScript:Warning: Accessed None
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:170C
+[2017.11.14-22.36.15:003][733]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Visibility in graph: EventGraph in object: Vive_Pawn with description: Accessed None
+[2017.11.14-22.36.15:003][733]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:172F
+[2017.11.14-22.36.15:003][733]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Visibility in graph: EventGraph in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.14-22.36.15:003][733]LogScript:Warning: Accessed None
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level:PersistentLevel.Vive_Pawn_506
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:1744
+[2017.11.14-22.36.15:003][733]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Visibility in graph: EventGraph in object: Vive_Pawn with description: Accessed None
+[2017.11.14-22.36.20:488][223]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.36.20:637][223]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.36.23:909][603]LogEditorViewport: Clicking on Actor (LMB): Vive_Pawn_C (Vive_Pawn)
+[2017.11.14-22.37.36:717][240]LogEditorTransaction: Undo Create Pin Link
+[2017.11.14-22.38.17:083][  2]BlueprintLog: New page: Compile Vive_Pawn
+[2017.11.14-22.38.25:048][867]LogSavePackage: Save=106.96ms
+[2017.11.14-22.38.25:048][867]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/MainMenu_Level0E5DDA9D4969A39721AFAAA67C30366B.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/MainMenu_Level.umap'
+[2017.11.14-22.38.25:049][867]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/MainMenu_Level.umap
+[2017.11.14-22.38.25:094][867]LogFileHelpers: Saving map 'MainMenu_Level' took 0.220
+[2017.11.14-22.38.25:138][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Vive_Pawn" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset" SILENT=true
+[2017.11.14-22.38.25:563][867]LogSavePackage: Save=419.19ms
+[2017.11.14-22.38.25:563][867]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Vive_PawnD9B1145B4AF16AEA845C3AA7BA36AC5E.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset'
+[2017.11.14-22.38.25:565][867]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset
+[2017.11.14-22.38.27:335][ 79]LogTemp: Repeting last play command: VR Preview
+[2017.11.14-22.38.27:363][ 79]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.38.27:363][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-22.38.27:363][ 79]PIE: New page: PIE session: MainMenu_Level (Nov 14, 2017, 6:38:27 AM)
+[2017.11.14-22.38.27:363][ 79]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level
+[2017.11.14-22.38.27:365][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001735s)
+[2017.11.14-22.38.27:365][ 79]LogAIModule: Creating AISystem for world MainMenu_Level
+[2017.11.14-22.38.27:365][ 79]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2017.11.14-22.38.27:366][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level to /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level (0.002460s)
+[2017.11.14-22.38.27:393][ 79]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.14-22.38.27:399][ 79]LogInit: FAudioDevice initialized.
+[2017.11.14-22.38.27:479][ 79]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.14-22.38.27:479][ 79]LogLoad: Game class is 'GameModeBase'
+[2017.11.14-22.38.27:481][ 79]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level up for play (max tick rate 0) at 2017.11.14-14.38.27
+[2017.11.14-22.38.27:481][ 79]LogWorld: Bringing up level for play took: 0.000929
+[2017.11.14-22.38.27:486][ 79]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level -0.704
+[2017.11.14-22.38.27:487][ 79]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.38.28:682][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.38.28:850][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.38.47:417][378]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.14-22.38.47:425][378]LightingResults: New page: Lighting Build
+[2017.11.14-22.38.47:425][378]LoadErrors: New page: Loading map: default.umap
+[2017.11.14-22.38.47:426][378]MapCheck: New page: Map Check
+[2017.11.14-22.38.47:426][378]LightingResults: New page: Lighting Build
+[2017.11.14-22.38.47:784][378]LogAIModule: Creating AISystem for world default
+[2017.11.14-22.38.47:894][378]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.14-22.38.48:004][378]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.14-22.38.48:051][378]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.762ms to complete.
+[2017.11.14-22.38.48:051][378]LogFileHelpers: Loading map 'default' took 0.634
+[2017.11.14-22.38.49:485][544]LogTemp: Repeting last play command: VR Preview
+[2017.11.14-22.38.49:522][544]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.38.49:522][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-22.38.49:522][544]PIE: New page: PIE session: default (Nov 14, 2017, 6:38:49 AM)
+[2017.11.14-22.38.49:522][544]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.14-22.38.49:668][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.145823s)
+[2017.11.14-22.38.49:669][544]LogAIModule: Creating AISystem for world default
+[2017.11.14-22.38.49:669][544]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2017.11.14-22.38.49:670][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.147419s)
+[2017.11.14-22.38.49:698][544]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.14-22.38.49:703][544]LogInit: FAudioDevice initialized.
+[2017.11.14-22.38.49:789][544]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.14-22.38.49:800][544]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.14-14.38.49
+[2017.11.14-22.38.49:801][544]LogWorld: Bringing up level for play took: 0.011445
+[2017.11.14-22.38.49:802][544]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-22.38.49:802][544]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-22.38.49:802][544]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-22.38.49:805][544]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=21323.434 Y=23440.414 Z=89.169] for [SoldierAI_C]
+[2017.11.14-22.38.49:805][544]LogScript:Warning: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_1
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathSoldier1Spawn:00F2
+[2017.11.14-22.38.49:805][544]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.38.49:805][544]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.49:805][544]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.38.49:805][544]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.49:805][544]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.38.49:805][544]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.49:805][544]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_1 is pending kill
+[2017.11.14-22.38.49:806][544]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.49:806][544]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-22.38.49:811][544]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.38
+[2017.11.14-22.38.49:811][544]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.38.50:887][606]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.14-22.38.50:887][606]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.14-22.38.50:887][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.14-22.38.53:494][724]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=21323.434 Y=23440.414 Z=89.169] for [SoldierAI_C]
+[2017.11.14-22.38.53:494][724]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.38.53:494][724]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.53:494][724]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.38.53:494][724]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.53:494][724]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.38.53:494][724]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.53:494][724]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_3 is pending kill
+[2017.11.14-22.38.53:494][724]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.57:500][907]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=20615.354 Y=23595.947 Z=91.596] for [Catapult_C]
+[2017.11.14-22.38.57:500][907]PIE:Error: Error Blueprint Runtime Error: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill from function: 'LeftpathCatapultSpawn' from node: Set FinalLocation in graph: LeftpathCatapultSpawn in object: default with description: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill
+[2017.11.14-22.38.57:500][907]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftpathCatapultSpawn' from node: Set FinalLocation in graph: LeftpathCatapultSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.57:500][907]PIE:Error: Error Blueprint Runtime Error: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill from function: 'LeftpathCatapultSpawn' from node: Set FirstPos in graph: LeftpathCatapultSpawn in object: default with description: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill
+[2017.11.14-22.38.57:500][907]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftpathCatapultSpawn' from node: Set FirstPos in graph: LeftpathCatapultSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.57:500][907]PIE:Error: Error Blueprint Runtime Error: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill from function: 'LeftpathCatapultSpawn' from node: Set NextCatapult in graph: LeftpathCatapultSpawn in object: default with description: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill
+[2017.11.14-22.38.57:501][907]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftpathCatapultSpawn' from node: Set NextCatapult in graph: LeftpathCatapultSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.57:502][907]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=21323.434 Y=23440.414 Z=89.169] for [SoldierAI_C]
+[2017.11.14-22.38.57:502][907]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill
+[2017.11.14-22.38.57:502][907]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set FirstStop in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.57:502][907]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill
+[2017.11.14-22.38.57:502][907]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set Catapult in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.57:502][907]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill
+[2017.11.14-22.38.57:502][907]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set AttackPos in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.57:502][907]PIE:Error: Error Blueprint Runtime Error: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Attempted to access SoldierAI_C_5 via property CallFunc_FinishSpawningActor_ReturnValue, but SoldierAI_C_5 is pending kill
+[2017.11.14-22.38.57:502][907]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathSoldier1Spawn' from node: Set BatteringRam in graph: LeftPathSoldier1Spawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.14-22.38.59:467][995]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.38.59:640][995]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.14-22.39.01:698][225]LogEditorViewport: Clicking on Actor (LMB): Vive_Pawn_C (Vive_Pawn)
+[2017.11.14-22.39.12:512][400]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/MainMenu_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.14-22.39.12:518][400]LightingResults: New page: Lighting Build
+[2017.11.14-22.39.12:518][400]LoadErrors: New page: Loading map: MainMenu_Level.umap
+[2017.11.14-22.39.12:528][400]MapCheck: New page: Map Check
+[2017.11.14-22.39.12:528][400]LightingResults: New page: Lighting Build
+[2017.11.14-22.39.12:577][400]LogAIModule: Creating AISystem for world MainMenu_Level
+[2017.11.14-22.39.12:582][400]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.14-22.39.12:649][400]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.14-22.39.12:695][400]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.93ms to complete.
+[2017.11.14-22.39.12:695][400]LogFileHelpers: Loading map 'MainMenu_Level' took 0.184
+[2017.11.14-22.39.14:023][556]LogTemp: Repeting last play command: VR Preview
+[2017.11.14-22.39.14:061][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.39.14:061][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-22.39.14:062][556]PIE: New page: PIE session: MainMenu_Level (Nov 14, 2017, 6:39:14 AM)
+[2017.11.14-22.39.14:062][556]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level
+[2017.11.14-22.39.14:063][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001763s)
+[2017.11.14-22.39.14:064][556]LogAIModule: Creating AISystem for world MainMenu_Level
+[2017.11.14-22.39.14:064][556]LogPlayLevel: PIE: World Init took: (0.000445s)
+[2017.11.14-22.39.14:064][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level to /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level (0.002598s)
+[2017.11.14-22.39.14:091][556]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.14-22.39.14:096][556]LogInit: FAudioDevice initialized.
+[2017.11.14-22.39.14:180][556]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.14-22.39.14:180][556]LogLoad: Game class is 'GameModeBase'
+[2017.11.14-22.39.14:181][556]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level up for play (max tick rate 0) at 2017.11.14-14.39.14
+[2017.11.14-22.39.14:181][556]LogWorld: Bringing up level for play took: 0.000863
+[2017.11.14-22.39.14:187][556]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level -0.003
+[2017.11.14-22.39.14:187][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.39.19:526][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.39.19:674][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.39.22:170][311]LogEditorViewport: Clicking on Actor (LMB): Vive_Pawn_C (Vive_Pawn)
+[2017.11.14-22.39.26:422][747]LogTemp: Repeting last play command: VR Preview
+[2017.11.14-22.39.26:450][747]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.39.26:451][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-22.39.26:451][747]PIE: New page: PIE session: MainMenu_Level (Nov 14, 2017, 6:39:26 AM)
+[2017.11.14-22.39.26:451][747]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level
+[2017.11.14-22.39.26:453][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001957s)
+[2017.11.14-22.39.26:453][747]LogAIModule: Creating AISystem for world MainMenu_Level
+[2017.11.14-22.39.26:453][747]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2017.11.14-22.39.26:454][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level to /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level (0.003015s)
+[2017.11.14-22.39.26:483][747]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.14-22.39.26:489][747]LogInit: FAudioDevice initialized.
+[2017.11.14-22.39.26:571][747]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.14-22.39.26:571][747]LogLoad: Game class is 'GameModeBase'
+[2017.11.14-22.39.26:573][747]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level up for play (max tick rate 0) at 2017.11.14-14.39.26
+[2017.11.14-22.39.26:573][747]LogWorld: Bringing up level for play took: 0.000917
+[2017.11.14-22.39.26:579][747]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMenu_Level 0.389
+[2017.11.14-22.39.26:579][747]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.39.32:025][232]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.39.32:175][232]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level'
+[2017.11.14-22.39.53:413][724]Cmd: DELETE
+[2017.11.14-22.39.53:413][724]Cmd: ACTOR DELETE
+[2017.11.14-22.39.53:424][724]LogEditorActor: Deleted Actor: Brush
+[2017.11.14-22.39.53:443][724]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2017.11.14-22.39.54:406][839]LogEditorViewport: Clicking on Actor (LMB): QuitGame_C (QuitGame)
+[2017.11.14-22.39.54:593][857]Cmd: DELETE
+[2017.11.14-22.39.54:593][857]Cmd: ACTOR DELETE
+[2017.11.14-22.39.54:594][857]LogEditorActor: Deleted Actor: QuitGame_C
+[2017.11.14-22.39.54:611][857]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.11.14-22.39.55:475][960]LogEditorViewport: Clicking on Actor (LMB): LoadSecondLevel_C (LoadSecondLevel)
+[2017.11.14-22.39.55:674][979]Cmd: DELETE
+[2017.11.14-22.39.55:674][979]Cmd: ACTOR DELETE
+[2017.11.14-22.39.55:675][979]LogEditorActor: Deleted Actor: LoadSecondLevel_C
+[2017.11.14-22.39.55:693][979]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.11.14-22.39.56:173][ 36]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.14-22.39.56:661][ 90]LogEditorViewport: Clicking on Actor (LMB): LoadFirstLevel_C (LoadFirstLevel)
+[2017.11.14-22.39.56:965][122]Cmd: DELETE
+[2017.11.14-22.39.56:965][122]Cmd: ACTOR DELETE
+[2017.11.14-22.39.56:965][122]LogEditorActor: Deleted Actor: LoadFirstLevel_C
+[2017.11.14-22.39.56:984][122]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.11.14-22.39.57:683][205]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.11.14-22.39.57:790][214]Cmd: DELETE
+[2017.11.14-22.39.57:790][214]Cmd: ACTOR DELETE
+[2017.11.14-22.39.57:790][214]LogEditorActor: Deleted Actor: SkyLight
+[2017.11.14-22.39.57:808][214]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.11.14-22.39.58:132][252]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.14-22.39.58:503][293]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.11.14-22.39.58:680][309]Cmd: DELETE
+[2017.11.14-22.39.58:680][309]Cmd: ACTOR DELETE
+[2017.11.14-22.39.58:680][309]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.11.14-22.39.58:699][309]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.11.14-22.40.06:494][200]LogAIModule: Creating AISystem for world default
+[2017.11.14-22.40.51:565][ 14]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.14-22.40.51:571][ 14]LightingResults: New page: Lighting Build
+[2017.11.14-22.40.51:572][ 14]LoadErrors: New page: Loading map: default.umap
+[2017.11.14-22.40.51:572][ 14]MapCheck: New page: Map Check
+[2017.11.14-22.40.51:572][ 14]LightingResults: New page: Lighting Build
+[2017.11.14-22.40.51:679][ 14]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.14-22.40.51:783][ 14]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.14-22.40.51:829][ 14]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.918ms to complete.
+[2017.11.14-22.40.51:829][ 14]LogFileHelpers: Loading map 'default' took 0.265
+[2017.11.14-22.40.55:424][431]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.14-22.40.55:430][431]LightingResults: New page: Lighting Build
+[2017.11.14-22.40.55:430][431]LoadErrors: New page: Loading map: default.umap
+[2017.11.14-22.40.55:439][431]MapCheck: New page: Map Check
+[2017.11.14-22.40.55:439][431]LightingResults: New page: Lighting Build
+[2017.11.14-22.40.55:797][431]LogAIModule: Creating AISystem for world default
+[2017.11.14-22.40.55:904][431]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.14-22.40.56:012][431]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.14-22.40.56:059][431]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.269ms to complete.
+[2017.11.14-22.40.56:059][431]LogFileHelpers: Loading map 'default' took 0.636
+[2017.11.14-22.40.57:198][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.14-22.40.57:248][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.14-22.40.57:293][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.14-22.40.57:343][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.14-22.40.57:395][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.14-22.40.57:658][540]Cmd: QUIT_EDITOR
+[2017.11.14-22.40.58:549][540]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.14-22.40.58:561][540]LogExit: Preparing to exit.
+[2017.11.14-22.40.59:834][540]LogExit: Editor shut down
+[2017.11.14-22.40.59:837][540]LogExit: Transaction tracking system shut down
+[2017.11.14-22.40.59:926][540]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.14-22.40.59:926][540]LogExit: Object subsystem successfully closed.
+[2017.11.14-22.40.59:948][540]LogD3D11RHI: Shutdown
+[2017.11.14-22.40.59:948][540]LogD3D11RHI: CleanupD3DDevice
+[2017.11.14-22.40.59:950][540]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.14-22.40.59:959][540]LogModuleManager: Shutting down and abandoning module BlueprintGraph (538)
+[2017.11.14-22.40.59:959][540]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (536)
+[2017.11.14-22.40.59:959][540]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.11.14-22.40.59:959][540]LogModuleManager: Shutting down and abandoning module LauncherServices (532)
+[2017.11.14-22.40.59:959][540]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
+[2017.11.14-22.40.59:959][540]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.11.14-22.40.59:959][540]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (526)
+[2017.11.14-22.40.59:959][540]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.11.14-22.40.59:959][540]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.11.14-22.40.59:959][540]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.11.14-22.40.59:959][540]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.11.14-22.40.59:960][540]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' was aborted.
+[2017.11.14-22.40.59:960][540]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' was aborted.
+[2017.11.14-22.40.59:960][540]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' was aborted.
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module WorldBrowser (512)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.11.14-22.40.59:960][540]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.11.14-22.40.59:961][540]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.11.14-22.40.59:961][540]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.11.14-22.40.59:961][540]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.11.14-22.40.59:961][540]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.11.14-22.40.59:961][540]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.11.14-22.40.59:961][540]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.11.14-22.40.59:961][540]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.11.14-22.41.00:085][540]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.11.14-22.41.00:148][540]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.11.14-22.41.00:148][540]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.11.14-22.41.00:148][540]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.11.14-22.41.00:148][540]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.11.14-22.41.00:148][540]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.11.14-22.41.00:148][540]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.11.14-22.41.00:148][540]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.11.14-22.41.00:148][540]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.11.14-22.41.00:148][540]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.11.14-22.41.00:148][540]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.11.14-22.41.00:156][540]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.11.14-22.41.00:156][540]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.11.14-22.41.00:156][540]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.11.14-22.41.00:156][540]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.11.14-22.41.00:156][540]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.11.14-22.41.00:156][540]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.11.14-22.41.00:156][540]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.11.14-22.41.00:156][540]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.11.14-22.41.00:156][540]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.11.14-22.41.00:156][540]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.11.14-22.41.00:156][540]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.11.14-22.41.00:157][540]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.11.14-22.41.00:157][540]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.11.14-22.41.00:157][540]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.11.14-22.41.00:157][540]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.11.14-22.41.00:157][540]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.11.14-22.41.00:157][540]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.11.14-22.41.00:157][540]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.11.14-22.41.00:157][540]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.11.14-22.41.00:157][540]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.11.14-22.41.00:291][540]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.11.14-22.41.00:292][540]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.11.14-22.41.00:292][540]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.11.14-22.41.00:292][540]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.11.14-22.41.00:292][540]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.11.14-22.41.00:292][540]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.11.14-22.41.00:292][540]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.11.14-22.41.00:393][540]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.11.14-22.41.00:639][540]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.11.14-22.41.00:639][540]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.11.14-22.41.00:639][540]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.11.14-22.41.00:639][540]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.11.14-22.41.00:639][540]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.11.14-22.41.00:639][540]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.11.14-22.41.00:640][540]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.11.14-22.41.00:642][540]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.11.14-22.41.00:642][540]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.11.14-22.41.00:642][540]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.11.14-22.41.00:642][540]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.11.14-22.41.00:642][540]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.11.14-22.41.00:642][540]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.11.14-22.41.00:815][540]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.14-22.41.00:815][540]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/' was aborted.
+[2017.11.14-22.41.00:815][540]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.14-22.41.00:815][540]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.11.14-22.41.00:817][540]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.11.14-22.41.00:818][540]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.11.14-22.41.00:818][540]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.11.14-22.41.00:818][540]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.11.14-22.41.00:818][540]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.11.14-22.41.00:818][540]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.11.14-22.41.00:818][540]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.11.14-22.41.00:818][540]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.11.14-22.41.00:818][540]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.14-22.41.00:917][540]LogDerivedDataCache: Shutdown
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.14-22.41.00:917][540]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.14-22.41.00:917][540]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.14-22.41.00:917][540]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.14-22.41.00:917][540]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B06046CEF-4D21-9169-F8FA-45B1F1DA2A7E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=982011a7482c1cbdc2ce3cbeaef51dbe%7C790c71f1478a4d80acfcb3f9e1ad5080%7C70012bb2-c253-4297-934e-6257f569ac01&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.14-22.41.00:944][540]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.14-22.41.00:945][540]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.11.14-22.41.00:945][540]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.11.14-22.41.00:945][540]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.11.14-22.41.00:945][540]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.14-22.41.00:945][540]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.14-22.41.00:945][540]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.14-22.41.00:945][540]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.14-22.41.00:945][540]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.14-22.41.00:946][540]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.14-22.41.00:946][540]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.14-22.41.00:946][540]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.14-22.41.00:946][540]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.14-22.41.00:946][540]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.14-22.41.00:946][540]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.14-22.41.00:946][540]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.14-22.41.00:946][540]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.14-22.41.00:946][540]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.14-22.41.00:946][540]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.14-22.41.00:947][540]LogExit: Exiting.
+[2017.11.14-22.41.00:970][540]Log file closed, 11/14/17 14:41:00
