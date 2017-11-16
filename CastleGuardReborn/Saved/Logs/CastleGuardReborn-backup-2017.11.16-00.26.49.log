@@ -1,0 +1,1973 @@
+﻿Log file open, 11/16/17 00:06:53
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(31107203) SRandInit(31107203).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083485
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.16-08.06.53:430][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.16-08.06.53:430][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.16-08.06.53:438][  0]LogInit: Computer: LCIVAN-238-00
+[2017.11.16-08.06.53:438][  0]LogInit: User: studentuser
+[2017.11.16-08.06.53:438][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.16-08.06.53:438][  0]LogInit: High frequency timer resolution =4.101562 MHz
+[2017.11.16-08.06.53:438][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.16-08.06.53:438][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.16-08.06.53:438][  0]LogMemory: Process Physical Memory: 275.71 MB used, 275.71 MB peak
+[2017.11.16-08.06.53:438][  0]LogMemory: Process Virtual Memory: 276.76 MB used, 276.76 MB peak
+[2017.11.16-08.06.53:438][  0]LogMemory: Physical Memory: 5433.30 MB used,  10850.14 MB free, 16283.45 MB total
+[2017.11.16-08.06.53:438][  0]LogMemory: Virtual Memory: 654.49 MB used,  10850.14 MB free, 134217728.00 MB total
+[2017.11.16-08.06.53:496][  0]LogInit: Using OS detected language (en-US).
+[2017.11.16-08.06.53:496][  0]LogInit: Using OS detected locale (en-CA).
+[2017.11.16-08.06.53:498][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.16-08.06.54:209][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.16-08.06.54:245][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.16-08.06.54:245][  0]LogD3D11RHI:       8115/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.16-08.06.54:250][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.11.16-08.06.54:250][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.16-08.06.54:251][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.16-08.06.54:251][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.16-08.06.54:251][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.16-08.06.54:257][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.16-08.06.54:257][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.16-08.06.54:257][  0]LogWindows: EnumDisplayDevices:
+[2017.11.16-08.06.54:257][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.16-08.06.54:257][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.16-08.06.54:257][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.16-08.06.54:257][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.16-08.06.54:257][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.16-08.06.54:258][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.16-08.06.54:258][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.16-08.06.54:258][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.16-08.06.54:258][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.16-08.06.54:258][  0]LogD3D11RHI:   Driver Version: 382.66 (internal:22.21.13.8266, unified:382.66)
+[2017.11.16-08.06.54:258][  0]LogD3D11RHI:      Driver Date: 6-25-2017
+[2017.11.16-08.06.54:258][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.16-08.06.54:285][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.16-08.06.54:300][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.16-08.06.54:348][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/9296/).
+[2017.11.16-08.06.54:348][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/B2D7EA5A42C694451875B494F50426B1/'.
+[2017.11.16-08.06.54:348][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.16-08.06.55:119][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.16-08.06.55:160][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.16-08.06.55:200][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.16-08.06.55:240][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.16-08.06.55:281][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.16-08.06.55:324][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.16-08.06.55:364][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.16-08.06.55:405][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.16-08.06.55:441][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.16-08.06.55:482][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.16-08.06.55:521][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.16-08.06.55:562][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.16-08.06.55:600][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.16-08.06.55:639][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.16-08.06.55:677][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.16-08.06.55:754][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.16-08.06.55:754][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.16-08.06.55:784][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.16-08.06.55:862][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.16-08.06.55:885][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.16-08.06.55:924][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.16-08.06.55:963][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.16-08.06.56:002][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.16-08.06.56:044][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.16-08.06.56:044][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.16-08.06.56:443][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.16-08.06.56:545][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.16-08.06.56:545][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.16-08.06.56:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.16-08.06.56:545][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.16-08.06.56:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.16-08.06.56:545][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.16-08.06.56:557][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.16-08.06.56:569][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.16-08.06.56:576][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.16-08.06.56:577][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.16-08.06.56:577][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.16-08.06.56:577][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.16-08.06.56:822][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.16-08.06.56:892][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.16-08.06.57:019][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.16-08.06.57:054][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.16-08.06.57:092][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.16-08.06.57:092][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.16-08.06.57:092][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.16-08.06.57:540][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.11.16-08.06.57:596][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2017.11.16-08.06.57:642][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.025669 seconds
+[2017.11.16-08.06.57:646][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.16-08.06.57:646][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.11.16-08.06.57:646][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.16-08.06.57:698][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.16-08.06.59:555][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.16-08.06.59:594][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.16-08.07.00:026][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.16-08.07.00:342][  0]SourceControl: Info Source control is disabled
+[2017.11.16-08.07.00:365][  0]SourceControl: Info Source control is disabled
+[2017.11.16-08.07.00:403][  0]SourceControl: Info Source control is disabled
+[2017.11.16-08.07.00:441][  0]SourceControl: Info Source control is disabled
+[2017.11.16-08.07.00:986][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.16-08.07.01:464][  0]LogEngine: Initializing Engine...
+[2017.11.16-08.07.02:000][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.11.16-08.07.02:169][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.16-08.07.02:169][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.16-08.07.02:270][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.16-08.07.02:282][  0]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-08.07.02:300][  0]LogInit: FAudioDevice initialized.
+[2017.11.16-08.07.02:340][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.16-08.07.02:350][  0]LogInit: Texture streaming: Enabled
+[2017.11.16-08.07.02:425][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.16-08.07.02:582][  0]LogInit: Transaction tracking system initialized
+[2017.11.16-08.07.02:811][  0]BlueprintLog: New page: Editor Load
+[2017.11.16-08.07.03:509][  0]LocalizationService: Info Localization service is disabled
+[2017.11.16-08.07.04:005][  0]LogConsoleResponse:Display: 
+[2017.11.16-08.07.04:100][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.16-08.07.04:100][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.16-08.07.04:844][  0]SourceControl: Info Source control is disabled
+[2017.11.16-08.07.04:845][  0]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.16-08.07.04:845][  0]LightingResults: New page: Lighting Build
+[2017.11.16-08.07.04:874][  0]MapCheck: New page: Map Check
+[2017.11.16-08.07.04:874][  0]LightingResults: New page: Lighting Build
+[2017.11.16-08.07.06:503][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.11.16-08.07.06:794][  0]LogAIModule: Creating AISystem for world default
+[2017.11.16-08.07.06:901][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.16-08.07.06:974][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.16-08.07.07:016][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.496ms to complete.
+[2017.11.16-08.07.07:016][  0]LogFileHelpers: Loading map 'default' took 2.171
+[2017.11.16-08.07.07:062][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.16-08.07.07:152][  0]LogCollectionManager: Loaded 0 collections in 0.001628 seconds
+[2017.11.16-08.07.07:217][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.11.16-08.07.07:217][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.11.16-08.07.07:217][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.11.16-08.07.07:217][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.16-08.07.07:225][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2330 classes and 494 folders.
+[2017.11.16-08.07.07:271][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.16-08.07.07:296][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.16-08.07.07:327][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.16-08.07.07:356][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.16-08.07.07:360][  0]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.16-08.07.07:362][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.16-08.07.07:429][  0]LogRenderer: Reallocating scene render targets to support 1196x576 NumSamples 1 (Frame:1).
+[2017.11.16-08.07.07:509][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.16-08.07.07:562][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.16-08.07.07:562][  0]LogLoad: (Engine Initialization) Total time: 15.50 seconds
+[2017.11.16-08.07.07:563][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.61 seconds
+[2017.11.16-08.07.07:563][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.16-08.07.07:563][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.16-08.07.07:573][  0]LogOcInput: OculusInput pre-init called
+[2017.11.16-08.07.07:573][  0]LogHMD: Starting GearVRController plugin
+[2017.11.16-08.07.07:573][  0]LogSteamVRController: Controller role for device 3 is 1 (invalid=0, left=1, right=2).
+[2017.11.16-08.07.07:573][  0]LogSteamVRController:Warning: Controller device 3 is being assigned to its prefered role 'left'.
+[2017.11.16-08.07.07:573][  0]LogSteamVRController: Controller device 3 is being assigned unreal hand 0 (left=0, right=1).
+[2017.11.16-08.07.07:573][  0]LogSteamVRController: Controller role for device 4 is 2 (invalid=0, left=1, right=2).
+[2017.11.16-08.07.07:573][  0]LogSteamVRController: Putting controller 4 on the right hand because there is already a controller for the left.
+[2017.11.16-08.07.07:573][  0]LogSteamVRController: Controller device 4 is being assigned unreal hand 1 (left=0, right=1).
+[2017.11.16-08.07.07:593][  0]LogAssetRegistry: Asset discovery search completed in 10.0185 seconds
+[2017.11.16-08.07.07:594][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.16-08.07.07:594][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2017.11.16-08.07.07:598][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.16-08.07.08:600][102]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-08.07.20:569][534]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-08.07.20:827][534]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 112 classes and 0 folders.
+[2017.11.16-08.07.21:279][534]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.16-08.07.21:280][534]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.16-08.07.21:445][535]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.16-08.07.48:292][638]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.50:523][638]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.231 s
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: === Handled ensure: ===
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: 
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: Stack: 
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FKismetDebugUtilities::GetWatchText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetdebugutilities.cpp:1037]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!UK2Node::GetPinHoverText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\blueprintgraph\private\k2node.cpp:1251]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!SGraphPin::GetTooltipText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\grapheditor\private\sgraphpin.cpp:1085]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64>::operator()<>() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:165]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\templates\tuple.h:497]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TBaseSPMethodDelegateInstance<1,SGraphPin,0,FText __cdecl(void)>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-Slate.dll!TBaseDelegate<FText>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:537]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-Slate.dll!TAttribute<FText>::Get() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\misc\attribute.h:137]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-Slate.dll!SToolTip::IsEmpty() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\widgets\stooltip.cpp:87]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::UpdateToolTip() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3444]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseMoveEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5697]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseMove() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5647]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1742]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2127]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:867]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:714]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: USER32.dll!0x00000000BCD7BC50
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: USER32.dll!0x00000000BCD7B5CF
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:1009]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3058]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: KERNEL32.DLL!0x00000000BD2B2774
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: ntdll.dll!0x00000000BD770D51
+[2017.11.16-08.07.50:523][638]LogOutputDevice:Error: 
+[2017.11.16-08.07.50:526][638]LogStats:                SubmitErrorReport -  0.000 s
+[2017.11.16-08.07.50:673][638]LogStats:                    SendNewReport -  0.147 s
+[2017.11.16-08.07.50:673][638]LogStats:             FDebug::EnsureFailed -  2.381 s
+[2017.11.16-08.07.50:673][638]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.56:771][351]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.56:771][351]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.56:773][351]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.56:775][351]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.56:779][352]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.56:780][352]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.56:783][352]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:587][449]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:588][449]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:588][449]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:590][449]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:596][450]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:596][450]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:598][450]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:604][451]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:604][451]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:607][451]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:612][452]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:613][452]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:615][452]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:625][453]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:625][453]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:628][453]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:640][454]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:640][454]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:644][454]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:658][456]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:658][456]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:659][456]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:662][456]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:667][457]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:667][457]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:670][457]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:675][458]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:676][458]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:678][458]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:684][459]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:684][459]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:686][459]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:700][461]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:701][461]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:701][461]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:704][461]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:709][462]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:709][462]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:711][462]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:717][463]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:717][463]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:720][463]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:725][464]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:725][464]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:728][464]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:733][465]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:734][465]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:736][465]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:742][466]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:742][466]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.57:745][466]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:070][505]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:071][505]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:071][505]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:072][505]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:074][505]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:129][512]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:129][512]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:130][512]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:132][512]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:137][513]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:138][513]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:140][513]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:145][514]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:146][514]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:148][514]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:154][515]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:156][515]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:162][516]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:165][516]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:170][517]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:171][517]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:173][517]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:179][518]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:181][518]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:187][519]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:189][519]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:195][520]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:198][520]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:204][521]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:206][521]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:212][522]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:214][522]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:221][523]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:223][523]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:229][524]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:232][524]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:237][525]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:240][525]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:246][526]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:248][526]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:254][527]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:257][527]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:262][528]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:265][528]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:271][529]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:273][529]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:279][530]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:282][530]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:287][531]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:290][531]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:296][532]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:299][532]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:304][533]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:307][533]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:312][534]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:315][534]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:321][535]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:323][535]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:329][536]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:332][536]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:337][537]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:340][537]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:345][538]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:346][538]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:349][538]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:354][539]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:355][539]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:357][539]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:362][540]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:362][540]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:365][540]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:370][541]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:371][541]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:374][541]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:396][544]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:396][544]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:397][544]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:400][544]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:405][545]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:405][545]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:408][545]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:413][546]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:414][546]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:416][546]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:421][547]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:422][547]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:424][547]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:864][600]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:872][601]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:879][602]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:879][602]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:881][602]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:884][602]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:889][603]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:892][603]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:897][604]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:897][604]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:900][604]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:906][605]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:908][605]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:914][606]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:916][606]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:922][607]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:922][607]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:925][607]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:931][608]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:933][608]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:939][609]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:941][609]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:947][610]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:949][610]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:956][611]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:958][611]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:964][612]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:967][612]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:972][613]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:975][613]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:981][614]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:983][614]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:989][615]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:992][615]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.58:998][616]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:000][616]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:006][617]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:008][617]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:014][618]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:017][618]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:665][690]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:688][691]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:696][692]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:704][693]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:712][694]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:712][694]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:713][694]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:716][694]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:721][695]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:722][695]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:724][695]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:737][697]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.07.59:738][697]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.03:445][141]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.03:445][141]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.03:446][141]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.03:449][141]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.03:453][142]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.03:454][142]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.03:456][142]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.03:462][143]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.03:462][143]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.03:464][143]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.03:470][144]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.03:471][144]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.03:473][144]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:787][302]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:787][302]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:788][302]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:790][302]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:795][303]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:796][303]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:798][303]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:803][304]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:804][304]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:806][304]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:812][305]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:813][305]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:815][305]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:820][306]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:821][306]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:824][306]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:829][307]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:831][307]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:837][308]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:838][308]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:840][308]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:845][309]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:846][309]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:848][309]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:854][310]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:854][310]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:856][310]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:862][311]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:863][311]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:865][311]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:871][312]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:873][312]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:879][313]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:881][313]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:887][314]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:889][314]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:896][315]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:898][315]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:904][316]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:906][316]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:912][317]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:912][317]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:915][317]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:921][318]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:923][318]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:929][319]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:931][319]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:937][320]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:939][320]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:946][321]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:948][321]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:954][322]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:956][322]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:962][323]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:964][323]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:971][324]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:973][324]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:979][325]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:982][325]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:988][326]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:990][326]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:996][327]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.04:999][327]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:004][328]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:007][328]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:013][329]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:015][329]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:021][330]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:023][330]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:029][331]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:031][331]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:037][332]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:040][332]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:045][333]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:046][333]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:048][333]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:053][334]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:054][334]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:056][334]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:062][335]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:063][335]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:065][335]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:680][409]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:680][409]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:682][409]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:684][409]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:689][410]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:690][410]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:692][410]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:697][411]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:698][411]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:700][411]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:705][412]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:706][412]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:708][412]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:714][413]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:714][413]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:717][413]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:722][414]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:723][414]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:725][414]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:730][415]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:732][415]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:734][415]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:790][422]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:790][422]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:791][422]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:792][422]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:794][422]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:799][423]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:801][423]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:807][424]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:809][424]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:816][425]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:818][425]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:824][426]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:826][426]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:832][427]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:834][427]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:840][428]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:842][428]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:849][429]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:851][429]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:857][430]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:859][430]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:865][431]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:867][431]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:873][432]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:875][432]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:882][433]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:884][433]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:890][434]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:892][434]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:898][435]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:900][435]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:907][436]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:909][436]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:915][437]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:917][437]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:924][438]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:926][438]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:932][439]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:934][439]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:940][440]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:942][440]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:949][441]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:951][441]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:957][442]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:959][442]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:965][443]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:968][443]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:974][444]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:976][444]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:982][445]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:984][445]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:990][446]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:992][446]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.05:999][447]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:001][447]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:007][448]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:009][448]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:015][449]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:016][449]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:018][449]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:024][450]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:026][450]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:032][451]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:034][451]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:040][452]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:042][452]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:048][453]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:049][453]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:051][453]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:057][454]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:059][454]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:065][455]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:067][455]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:073][456]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:075][456]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:082][457]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:084][457]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:090][458]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:092][458]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:098][459]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:100][459]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:261][477]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:261][477]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:262][477]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:265][477]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:269][478]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:270][478]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:272][478]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:277][479]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:278][479]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:280][479]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:286][480]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:289][480]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:294][481]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:296][481]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:298][481]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:304][482]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:306][482]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:312][483]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:314][483]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:320][484]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:322][484]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:328][485]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:330][485]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:337][486]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:339][486]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:345][487]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:347][487]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:353][488]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:355][488]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:362][489]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:364][489]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:370][490]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:372][490]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:378][491]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:381][491]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:387][492]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.06:389][492]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:128][288]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:129][288]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:130][288]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:132][288]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:137][289]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:140][289]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:147][290]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:149][290]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:155][291]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:157][291]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:163][292]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:163][292]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:166][292]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:171][293]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:172][293]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:174][293]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:179][294]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:180][294]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:182][294]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:188][295]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:190][295]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:196][296]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:196][296]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:199][296]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:204][297]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:205][297]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:207][297]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:213][298]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:213][298]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:215][298]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:221][299]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:221][299]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:224][299]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:229][300]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:230][300]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:232][300]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:238][301]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:238][301]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:240][301]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:246][302]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:246][302]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:249][302]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:254][303]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:255][303]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:257][303]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:263][304]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:265][304]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:271][305]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:271][305]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:272][305]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:274][305]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:279][306]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:282][306]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:288][307]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:290][307]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:297][308]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:300][308]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:305][309]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:307][309]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:313][310]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:315][310]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:321][311]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:324][311]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:412][321]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:420][322]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:428][323]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:436][324]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:445][325]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:453][326]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:461][327]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:469][328]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:477][329]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:477][329]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:478][329]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:480][329]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:486][330]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:488][330]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:494][331]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:496][331]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:503][332]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:505][332]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:511][333]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:513][333]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:519][334]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:521][334]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:528][335]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:530][335]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:536][336]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:538][336]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:545][337]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:547][337]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:553][338]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:555][338]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:561][339]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:563][339]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:570][340]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:572][340]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:578][341]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:580][341]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:586][342]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:588][342]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:595][343]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:597][343]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:603][344]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:605][344]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:611][345]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:613][345]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:620][346]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:621][346]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:628][347]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:630][347]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:636][348]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:638][348]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:644][349]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:647][349]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:652][350]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:653][350]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:655][350]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:661][351]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:661][351]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.13:663][351]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:225][538]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:247][539]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:255][540]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:262][541]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:262][541]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:264][541]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:265][541]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:267][541]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:272][542]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:273][542]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:745][599]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:746][599]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:747][599]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:749][599]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:754][600]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:756][600]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:763][601]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:765][601]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:771][602]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:773][602]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:779][603]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:780][603]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:782][603]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:788][604]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:788][604]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:791][604]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:797][605]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:799][605]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:804][606]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:805][606]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:807][606]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:813][607]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:815][607]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:821][608]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:821][608]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:824][608]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:830][609]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:832][609]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:838][610]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:840][610]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:846][611]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:848][611]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:854][612]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:857][612]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:862][613]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:863][613]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:865][613]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:871][614]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:873][614]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:879][615]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:881][615]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:888][616]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.15:890][616]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:670][709]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:691][710]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:699][711]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:707][712]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:707][712]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:708][712]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:710][712]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:716][713]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:717][713]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:719][713]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:724][714]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:725][714]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:727][714]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:733][715]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:733][715]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.16:735][715]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.08.17:975][863]BlueprintLog: New page: Compile Vive_Pawn
+[2017.11.16-08.08.33:349][584]LogEditorTransaction: Undo Create Pin Link
+[2017.11.16-08.08.33:736][601]LogEditorTransaction: Undo Break Pin Links
+[2017.11.16-08.08.34:457][659]LogEditorTransaction: Undo Break Pin Links
+[2017.11.16-08.09.08:447][678]BlueprintLog: New page: Compile Vive_Pawn
+[2017.11.16-08.09.11:007][913]LogTemp: Repeting last play command: VR Preview
+[2017.11.16-08.09.11:077][913]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.09.11:077][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-08.09.11:077][913]PIE: New page: PIE session: default (Nov 15, 2017, 4:09:11 PM)
+[2017.11.16-08.09.11:077][913]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-08.09.11:211][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133923s)
+[2017.11.16-08.09.11:212][913]LogAIModule: Creating AISystem for world default
+[2017.11.16-08.09.11:212][913]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2017.11.16-08.09.11:212][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.135258s)
+[2017.11.16-08.09.11:232][913]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-08.09.11:237][913]LogInit: FAudioDevice initialized.
+[2017.11.16-08.09.11:348][913]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-08.09.11:359][913]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.16-00.09.11
+[2017.11.16-08.09.11:360][913]LogWorld: Bringing up level for play took: 0.010879
+[2017.11.16-08.09.11:360][913]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.16-08.09.11:393][913]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.11.16-08.09.11:393][913]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-08.09.11:393][913]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-08.09.11:393][913]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-08.09.11:398][913]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-08.09.11:409][913]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.277
+[2017.11.16-08.09.11:410][913]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.09.11:456][914]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.11.16-08.09.12:021][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.09.12:228][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.09.39:909][960]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.16-08.09.40:361][960]LogSavePackage: Save=2806.33ms
+[2017.11.16-08.09.40:361][960]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default9057C38347FE9D862CCC5087C49ECA41.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.16-08.09.40:364][960]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.16-08.09.40:406][960]LogFileHelpers: Saving map 'default' took 2.926
+[2017.11.16-08.09.40:430][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Vive_Pawn" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset" SILENT=true
+[2017.11.16-08.09.40:857][960]LogSavePackage: Save=421.65ms
+[2017.11.16-08.09.40:857][960]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Vive_Pawn400383C24967B135CB4E9E98693465A4.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset'
+[2017.11.16-08.09.40:859][960]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset
+[2017.11.16-08.09.41:408][ 24]LogTemp: Repeting last play command: VR Preview
+[2017.11.16-08.09.41:431][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.09.41:431][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-08.09.41:432][ 24]PIE: New page: PIE session: default (Nov 15, 2017, 4:09:41 PM)
+[2017.11.16-08.09.41:432][ 24]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-08.09.41:563][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131493s)
+[2017.11.16-08.09.41:564][ 24]LogAIModule: Creating AISystem for world default
+[2017.11.16-08.09.41:564][ 24]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2017.11.16-08.09.41:564][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.132755s)
+[2017.11.16-08.09.41:590][ 24]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-08.09.41:595][ 24]LogInit: FAudioDevice initialized.
+[2017.11.16-08.09.41:666][ 24]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-08.09.41:675][ 24]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.16-00.09.41
+[2017.11.16-08.09.41:676][ 24]LogWorld: Bringing up level for play took: 0.010218
+[2017.11.16-08.09.41:677][ 24]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-08.09.41:677][ 24]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-08.09.41:677][ 24]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-08.09.41:681][ 24]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-08.09.41:684][ 24]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.553
+[2017.11.16-08.09.41:684][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.09.42:904][129]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.11.16-08.09.42:904][129]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.11.16-08.09.43:945][220]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.09.44:117][220]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.09.45:419][369]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.11.16-08.09.46:337][473]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-08.09.53:522][287]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:523][287]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:524][287]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:526][287]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:532][288]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:533][288]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:539][289]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:540][289]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:542][289]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:548][290]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:550][290]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:556][291]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:557][291]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:559][291]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:565][292]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:567][292]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:572][293]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:573][293]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:575][293]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:582][294]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:583][294]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:590][295]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:591][295]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:598][296]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:600][296]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:606][297]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:608][297]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:614][298]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:616][298]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:623][299]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:625][299]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:631][300]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:633][300]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:639][301]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:641][301]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:648][302]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:650][302]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:656][303]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:658][303]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:664][304]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:666][304]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:673][305]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:674][305]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:681][306]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:684][306]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:689][307]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:691][307]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:698][308]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:700][308]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:706][309]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:708][309]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:715][310]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:717][310]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:723][311]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:725][311]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:731][312]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.53:733][312]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:626][419]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:648][420]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:656][421]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:664][422]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:673][423]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:681][424]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:689][425]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:698][426]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:706][427]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:706][427]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:707][427]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:709][427]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:714][428]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:715][428]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:717][428]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:722][429]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:723][429]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.09.54:725][429]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:047][185]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:047][185]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:048][185]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:050][185]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:055][186]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:057][186]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:063][187]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:065][187]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:071][188]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:072][188]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:073][188]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:080][189]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:081][189]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:088][190]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:090][190]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:096][191]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:098][191]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:104][192]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:107][192]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:113][193]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:114][193]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:116][193]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:122][194]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:123][194]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:130][195]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:132][195]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:138][196]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:140][196]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:147][197]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:149][197]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:155][198]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:157][198]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:163][199]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:165][199]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:171][200]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:173][200]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:180][201]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:182][201]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:188][202]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:190][202]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:196][203]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:198][203]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:205][204]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:207][204]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:213][205]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:215][205]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:221][206]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:224][206]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:230][207]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:232][207]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:237][208]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:238][208]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:240][208]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:246][209]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:249][209]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:254][210]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:255][210]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:257][210]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:263][211]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:265][211]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:272][212]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:274][212]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:280][213]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:282][213]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:287][214]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:288][214]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:291][214]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:296][215]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:299][215]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:305][216]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:307][216]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:313][217]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:315][217]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:322][218]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:324][218]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:329][219]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:330][219]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:333][219]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:338][220]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:340][220]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:347][221]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:349][221]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:355][222]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:357][222]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:363][223]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:365][223]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:371][224]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:373][224]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:379][225]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:380][225]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:382][225]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:388][226]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:388][226]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:391][226]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:397][227]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:398][227]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:405][228]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:406][228]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:413][229]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:415][229]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:421][230]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:422][230]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:424][230]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:430][231]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:431][231]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:438][232]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:440][232]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:446][233]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:448][233]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:455][234]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:457][234]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:463][235]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:465][235]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:471][236]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:473][236]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:480][237]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:482][237]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:488][238]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:488][238]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:491][238]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:496][239]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:497][239]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:499][239]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:505][240]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:507][240]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:513][241]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:515][241]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:521][242]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:522][242]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:524][242]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:530][243]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:532][243]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:538][244]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:538][244]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:540][244]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:547][245]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:549][245]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:555][246]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:557][246]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:563][247]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:565][247]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:571][248]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:572][248]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:574][248]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:579][249]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:580][249]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:582][249]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:588][250]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:590][250]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:596][251]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:597][251]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:599][251]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:605][252]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:607][252]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:613][253]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:615][253]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:621][254]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:623][254]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:630][255]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:632][255]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:638][256]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:640][256]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:646][257]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:648][257]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:655][258]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:656][258]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:663][259]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:665][259]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:671][260]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:674][260]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:680][261]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:682][261]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:688][262]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:690][262]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:697][263]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:698][263]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:705][264]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:707][264]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:713][265]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:715][265]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:721][266]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.01:723][266]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-08.10.09:583][204]BlueprintLog: New page: Compile Vive_Pawn
+[2017.11.16-08.10.31:592][710]BlueprintLog: New page: Compile Vive_Pawn
+[2017.11.16-08.10.36:711][903]LogSavePackage: Save=2819.19ms
+[2017.11.16-08.10.36:711][903]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/defaultAC72AA434BE7542FEB96DD8FFE45620D.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.16-08.10.36:715][903]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.16-08.10.36:758][903]LogFileHelpers: Saving map 'default' took 2.928
+[2017.11.16-08.10.36:771][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Vive_Pawn" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset" SILENT=true
+[2017.11.16-08.10.37:200][903]LogSavePackage: Save=426.75ms
+[2017.11.16-08.10.37:200][903]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Vive_Pawn41933F57430525EF423D2C914ED05DAF.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset'
+[2017.11.16-08.10.37:201][903]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset
+[2017.11.16-08.15.37:610][794]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:610][794]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:611][794]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:613][794]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:618][795]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:619][795]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:621][795]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:627][796]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:628][796]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:630][796]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:635][797]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:636][797]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:638][797]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:644][798]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:646][798]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:652][799]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:654][799]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:660][800]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:661][800]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:663][800]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:669][801]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:671][801]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:677][802]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:679][802]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:686][803]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:687][803]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:694][804]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:696][804]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:702][805]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:704][805]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:711][806]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:712][806]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:719][807]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:721][807]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:727][808]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:729][808]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:736][809]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:737][809]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:744][810]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:746][810]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:752][811]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:754][811]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:760][812]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:762][812]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:769][813]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:771][813]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:777][814]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:780][814]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:785][815]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:787][815]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:794][816]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:796][816]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:802][817]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:804][817]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:810][818]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:813][818]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:819][819]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:821][819]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:828][820]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:830][820]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:836][821]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:838][821]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:844][822]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:846][822]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:852][823]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:853][823]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:855][823]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:861][824]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:863][824]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:869][825]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:871][825]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:877][826]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:879][826]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:886][827]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:888][827]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:894][828]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:896][828]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:902][829]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:904][829]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:910][830]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:911][830]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:913][830]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:919][831]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:921][831]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:927][832]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:929][832]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:935][833]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:936][833]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:938][833]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:943][834]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:944][834]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:946][834]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:952][835]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:954][835]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:960][836]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:962][836]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:968][837]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:969][837]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:971][837]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:977][838]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:979][838]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:985][839]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:987][839]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:994][840]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.37:996][840]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:003][841]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:004][841]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:011][842]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:013][842]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:019][843]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:021][843]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:027][844]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:029][844]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:036][845]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:037][845]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:044][846]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:046][846]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:052][847]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:054][847]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:061][848]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:062][848]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:069][849]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.38:071][849]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:906][536]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:906][536]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:907][536]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:909][536]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:914][537]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:915][537]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:917][537]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:922][538]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:923][538]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:925][538]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:931][539]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:931][539]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:933][539]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:939][540]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:940][540]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:942][540]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:948][541]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:950][541]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:956][542]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:957][542]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:959][542]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:964][543]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:965][543]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:967][543]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:973][544]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:975][544]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:982][545]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:983][545]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:990][546]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:992][546]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:998][547]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.43:998][547]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:000][547]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:007][548]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:008][548]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:014][549]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:015][549]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:017][549]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:023][550]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:025][550]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:031][551]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:033][551]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:040][552]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:041][552]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:048][553]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:050][553]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:056][554]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:058][554]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:065][555]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:067][555]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:073][556]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:075][556]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:081][557]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:083][557]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:090][558]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:092][558]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:098][559]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:100][559]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:106][560]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:108][560]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:115][561]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:117][561]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:123][562]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:125][562]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:131][563]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:133][563]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:139][564]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:140][564]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:142][564]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:148][565]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:150][565]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:157][566]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:159][566]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:164][567]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:165][567]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:167][567]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:173][568]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:175][568]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:182][569]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:183][569]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:190][570]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:192][570]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:198][571]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:200][571]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:206][572]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:208][572]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:215][573]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:217][573]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:223][574]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:225][574]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:232][575]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:234][575]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:240][576]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.44:242][576]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.45:134][683]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.15.52:113][510]BlueprintLog: New page: Compile Vive_Pawn
+[2017.11.16-08.15.57:037][693]LogSavePackage: Save=2821.82ms
+[2017.11.16-08.15.57:037][693]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default60897B6A45CD8060B57951AEECED82B6.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.16-08.15.57:041][693]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.16-08.15.57:083][693]LogFileHelpers: Saving map 'default' took 2.943
+[2017.11.16-08.15.57:096][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Vive_Pawn" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset" SILENT=true
+[2017.11.16-08.15.57:523][693]LogSavePackage: Save=420.62ms
+[2017.11.16-08.15.57:523][693]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Vive_Pawn3A6BAEA34B9668B7CA618FB447ADF9F6.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset'
+[2017.11.16-08.15.57:524][693]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset
+[2017.11.16-08.16.06:234][738]LogTemp: Repeting last play command: VR Preview
+[2017.11.16-08.16.06:259][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.16.06:259][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-08.16.06:259][738]PIE: New page: PIE session: default (Nov 15, 2017, 4:16:06 PM)
+[2017.11.16-08.16.06:259][738]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-08.16.06:394][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134110s)
+[2017.11.16-08.16.06:394][738]LogAIModule: Creating AISystem for world default
+[2017.11.16-08.16.06:395][738]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2017.11.16-08.16.06:395][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.135602s)
+[2017.11.16-08.16.06:417][738]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-08.16.06:423][738]LogInit: FAudioDevice initialized.
+[2017.11.16-08.16.06:496][738]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-08.16.06:507][738]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.16-00.16.06
+[2017.11.16-08.16.06:508][738]LogWorld: Bringing up level for play took: 0.010718
+[2017.11.16-08.16.06:508][738]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.16-08.16.06:508][738]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-08.16.06:508][738]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-08.16.06:508][738]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-08.16.06:512][738]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-08.16.06:517][738]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.613
+[2017.11.16-08.16.06:518][738]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.16.07:735][834]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.11.16-08.16.07:735][834]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.11.16-08.16.11:623][112]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.16-08.16.11:623][112]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.16-08.16.15:756][422]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle1
+[2017.11.16-08.16.19:778][739]LogBlueprintUserMessages: [BatteringRamOld_C_2] Handle1
+[2017.11.16-08.16.19:778][739]LogBlueprintUserMessages: [BatteringRamOld_C_2] Handle2
+[2017.11.16-08.16.22:225][934]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:1470
+[2017.11.16-08.16.22:225][934]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: Branch in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.16-08.16.22:225][934]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:14C4
+[2017.11.16-08.16.22:225][934]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.16-08.16.36:276][186]LogBlueprintUserMessages: [BP_LightArrow_C_8] Arrow dies on Landscape
+[2017.11.16-08.16.38:856][417]LogBlueprintUserMessages: [BP_LightArrow_C_9] Arrow dies on Landscape
+[2017.11.16-08.16.42:488][740]LogBlueprintUserMessages: [BP_LightArrow_C_14] Arrow dies on Landscape
+[2017.11.16-08.16.49:034][276]LogBlueprintUserMessages: [BP_LightArrow_C_6] Arrow dies on Landscape
+[2017.11.16-08.17.02:494][331]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.17.02:667][331]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.17.21:985][490]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.17.21:985][490]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.17.27:275][102]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.17.27:275][102]LogUObjectArray:Warning: Other object in slot
+[2017.11.16-08.17.35:967][142]BlueprintLog: New page: Compile Vive_Pawn
+[2017.11.16-08.18.09:935][940]LogTemp: Repeting last play command: VR Preview
+[2017.11.16-08.18.09:964][940]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.18.09:964][940]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.16-08.18.09:964][940]LogPlayLevel: [PlayLevel] Compiling Vive_Pawn before play...
+[2017.11.16-08.18.10:090][940]LogPlayLevel: [PlayLevel]   Compiling ABP_Bow as a dependent...
+[2017.11.16-08.18.10:346][940]LogPlayLevel: PlayLevel: Blueprint regeneration took 381 ms (2 blueprints)
+[2017.11.16-08.18.10:346][940]PIE: New page: PIE session: default (Nov 15, 2017, 4:18:10 PM)
+[2017.11.16-08.18.10:346][940]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-08.18.10:480][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133556s)
+[2017.11.16-08.18.10:480][940]LogAIModule: Creating AISystem for world default
+[2017.11.16-08.18.10:481][940]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2017.11.16-08.18.10:481][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.135054s)
+[2017.11.16-08.18.10:502][940]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-08.18.10:508][940]LogInit: FAudioDevice initialized.
+[2017.11.16-08.18.10:579][940]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-08.18.10:592][940]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.16-00.18.10
+[2017.11.16-08.18.10:593][940]LogWorld: Bringing up level for play took: 0.013026
+[2017.11.16-08.18.10:594][940]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.16-08.18.10:594][940]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-08.18.10:594][940]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-08.18.10:594][940]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-08.18.10:599][940]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-08.18.10:601][940]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 1.47
+[2017.11.16-08.18.10:602][940]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.18.11:742][ 11]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.11.16-08.18.11:742][ 11]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.11.16-08.18.15:630][293]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.16-08.18.15:630][293]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.16-08.18.18:233][510]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:1470
+[2017.11.16-08.18.18:233][510]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: Branch in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.16-08.18.18:233][510]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:14C4
+[2017.11.16-08.18.18:233][510]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.16-08.18.18:479][530]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:1470
+[2017.11.16-08.18.18:479][530]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: Branch in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.16-08.18.18:479][530]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:14C4
+[2017.11.16-08.18.18:479][530]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.16-08.18.18:748][554]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:1470
+[2017.11.16-08.18.18:748][554]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: Branch in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.16-08.18.18:748][554]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:14C4
+[2017.11.16-08.18.18:748][554]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.16-08.18.18:993][576]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:1470
+[2017.11.16-08.18.18:993][576]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: Branch in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.16-08.18.18:993][576]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:14C4
+[2017.11.16-08.18.18:994][576]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.16-08.18.19:529][624]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:1470
+[2017.11.16-08.18.19:529][624]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: Branch in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.16-08.18.19:529][624]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:14C4
+[2017.11.16-08.18.19:530][624]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.16-08.18.19:763][645]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle1
+[2017.11.16-08.18.23:772][951]LogBlueprintUserMessages: [BatteringRamOld_C_2] Handle1
+[2017.11.16-08.18.23:772][951]LogBlueprintUserMessages: [BatteringRamOld_C_2] Handle2
+[2017.11.16-08.18.27:314][268]LogBlueprintUserMessages: [BP_LightArrow_C_3] Arrow dies on Landscape
+[2017.11.16-08.18.28:844][405]LogBlueprintUserMessages: [BP_LightArrow_C_4] Arrow dies on Landscape
+[2017.11.16-08.18.32:038][691]LogBlueprintUserMessages: [BP_LightArrow_C_6] Arrow dies on Landscape
+[2017.11.16-08.18.33:670][837]LogBlueprintUserMessages: [BP_LightArrow_C_7] Arrow dies on Landscape
+[2017.11.16-08.18.35:413][993]LogBlueprintUserMessages: [BP_LightArrow_C_8] Arrow dies on Landscape
+[2017.11.16-08.18.54:021][639]LogBlueprintUserMessages: [BP_LightArrow_C_9] Arrow dies on Landscape
+[2017.11.16-08.18.56:455][855]LogBlueprintUserMessages: [BP_LightArrow_C_10] Arrow dies on Landscape
+[2017.11.16-08.18.58:232][ 14]LogBlueprintUserMessages: [BP_LightArrow_C_11] Arrow dies on Landscape
+[2017.11.16-08.19.00:063][178]LogBlueprintUserMessages: [BP_LightArrow_C_12] Arrow dies on Landscape
+[2017.11.16-08.19.01:806][334]LogBlueprintUserMessages: [BP_LightArrow_C_13] Arrow dies on Landscape
+[2017.11.16-08.19.04:151][544]LogBlueprintUserMessages: [BP_LightArrow_C_14] Arrow dies on Landscape
+[2017.11.16-08.19.10:788][123]LogScript:Warning: Attempted to access BP_HeavyArrow_C_1 via property HeavyArrow, but BP_HeavyArrow_C_1 is pending kill
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:0E2D
+[2017.11.16-08.19.10:788][123]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_1 via property HeavyArrow, but BP_HeavyArrow_C_1 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: AttachTo (Deprecated) in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_1 via property HeavyArrow, but BP_HeavyArrow_C_1 is pending kill
+[2017.11.16-08.19.10:789][123]LogScript:Warning: Accessed None
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:0E42
+[2017.11.16-08.19.10:789][123]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: AttachTo (Deprecated) in graph: CustomEvents in object: Vive_Pawn with description: Accessed None
+[2017.11.16-08.19.14:842][485]LogScript:Warning: Attempted to access BP_HeavyArrow_C_4 via property HeavyArrow, but BP_HeavyArrow_C_4 is pending kill
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:0E2D
+[2017.11.16-08.19.14:843][485]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_4 via property HeavyArrow, but BP_HeavyArrow_C_4 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: AttachTo (Deprecated) in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_4 via property HeavyArrow, but BP_HeavyArrow_C_4 is pending kill
+[2017.11.16-08.19.14:843][485]LogScript:Warning: Accessed None
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:0E42
+[2017.11.16-08.19.14:843][485]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: AttachTo (Deprecated) in graph: CustomEvents in object: Vive_Pawn with description: Accessed None
+[2017.11.16-08.19.14:921][492]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.16-08.19.17:926][761]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.16-08.19.19:923][940]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.16-08.19.20:931][ 30]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.16-08.19.23:934][294]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.16-08.19.23:936][294]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.16-08.19.26:939][441]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.16-08.19.27:944][502]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.16-08.19.28:683][562]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.19.29:058][562]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.19.57:650][899]BlueprintLog: New page: Compile Vive_Pawn
+[2017.11.16-08.20.58:624][ 35]BlueprintLog: New page: Compile Vive_Pawn
+[2017.11.16-08.20.59:549][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Vive_Pawn" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset" SILENT=true
+[2017.11.16-08.20.59:977][ 84]LogSavePackage: Save=421.86ms
+[2017.11.16-08.20.59:977][ 84]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Vive_Pawn2D57AEB04E8A09E2833ADFBF1837AE4E.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset'
+[2017.11.16-08.20.59:979][ 84]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset
+[2017.11.16-08.21.29:606][562]BlueprintLog: New page: Compile Vive_Pawn
+[2017.11.16-08.21.30:129][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Vive_Pawn" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset" SILENT=true
+[2017.11.16-08.21.30:553][563]LogSavePackage: Save=421.51ms
+[2017.11.16-08.21.30:553][563]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Vive_Pawn92A1CEEA40536C32A44F5B8837010E14.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset'
+[2017.11.16-08.21.30:554][563]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset
+[2017.11.16-08.21.35:477][802]LogSavePackage: Save=2811.59ms
+[2017.11.16-08.21.35:477][802]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default611B57014045129AB268E9895A267C84.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.16-08.21.35:480][802]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.16-08.21.35:524][802]LogFileHelpers: Saving map 'default' took 2.937
+[2017.11.16-08.21.37:488][ 19]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.21.37:488][ 19]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.21.37:489][ 19]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.21.37:491][ 19]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.21.37:497][ 20]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.21.37:498][ 20]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.21.37:500][ 20]LogUObjectBase:Warning: Object is not registered
+[2017.11.16-08.22.27:672][921]BlueprintLog: New page: Compile Vive_Pawn
+[2017.11.16-08.22.28:449][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Vive_Pawn" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset" SILENT=true
+[2017.11.16-08.22.28:879][948]LogSavePackage: Save=427.31ms
+[2017.11.16-08.22.28:879][948]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Vive_PawnE76F9F1F4313405D866A6D90BFC604A6.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset'
+[2017.11.16-08.22.28:881][948]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Vive_Pawn.uasset
+[2017.11.16-08.22.33:749][178]LogSavePackage: Save=2827.75ms
+[2017.11.16-08.22.33:750][178]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default0D47D8544CFDE96D4ED73F92F129D251.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.16-08.22.33:753][178]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.16-08.22.33:796][178]LogFileHelpers: Saving map 'default' took 2.935
+[2017.11.16-08.22.34:213][228]LogTemp: Repeting last play command: VR Preview
+[2017.11.16-08.22.34:237][228]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.22.34:237][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-08.22.34:237][228]PIE: New page: PIE session: default (Nov 15, 2017, 4:22:34 PM)
+[2017.11.16-08.22.34:237][228]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-08.22.34:372][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135049s)
+[2017.11.16-08.22.34:373][228]LogAIModule: Creating AISystem for world default
+[2017.11.16-08.22.34:374][228]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2017.11.16-08.22.34:374][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.136924s)
+[2017.11.16-08.22.34:400][228]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-08.22.34:406][228]LogInit: FAudioDevice initialized.
+[2017.11.16-08.22.34:482][228]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-08.22.34:492][228]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.16-00.22.34
+[2017.11.16-08.22.34:493][228]LogWorld: Bringing up level for play took: 0.010498
+[2017.11.16-08.22.34:494][228]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-08.22.34:494][228]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-08.22.34:494][228]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-08.22.34:498][228]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-08.22.34:502][228]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.629
+[2017.11.16-08.22.34:503][228]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.22.35:716][308]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.11.16-08.22.35:716][308]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.11.16-08.22.36:521][345]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.22.36:716][345]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.22.42:938][ 81]LogTemp: Repeting last play command: VR Preview
+[2017.11.16-08.22.42:962][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.22.42:962][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-08.22.42:962][ 81]PIE: New page: PIE session: default (Nov 15, 2017, 4:22:42 PM)
+[2017.11.16-08.22.42:962][ 81]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-08.22.43:096][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133036s)
+[2017.11.16-08.22.43:096][ 81]LogAIModule: Creating AISystem for world default
+[2017.11.16-08.22.43:096][ 81]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2017.11.16-08.22.43:097][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.134991s)
+[2017.11.16-08.22.43:122][ 81]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-08.22.43:127][ 81]LogInit: FAudioDevice initialized.
+[2017.11.16-08.22.43:202][ 81]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-08.22.43:213][ 81]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.16-00.22.43
+[2017.11.16-08.22.43:213][ 81]LogWorld: Bringing up level for play took: 0.010718
+[2017.11.16-08.22.43:214][ 81]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-08.22.43:214][ 81]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-08.22.43:214][ 81]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-08.22.43:219][ 81]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-08.22.43:222][ 81]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.091
+[2017.11.16-08.22.43:223][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.22.44:429][156]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.11.16-08.22.44:429][156]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.11.16-08.22.48:317][479]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.16-08.22.48:317][479]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.16-08.22.52:450][849]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle1
+[2017.11.16-08.22.56:459][197]LogBlueprintUserMessages: [BatteringRamOld_C_2] Handle1
+[2017.11.16-08.22.56:459][197]LogBlueprintUserMessages: [BatteringRamOld_C_2] Handle2
+[2017.11.16-08.23.09:796][391]LogBlueprintUserMessages: [BP_LightArrow_C_8] Arrow dies on Landscape
+[2017.11.16-08.23.14:353][799]LogBlueprintUserMessages: [BP_LightArrow_C_5] Arrow dies on Landscape
+[2017.11.16-08.23.25:313][772]LogBlueprintUserMessages: [BP_LightArrow_C_14] Arrow dies on Landscape
+[2017.11.16-08.23.27:726][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.23.27:879][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-08.24.20:964][170]Cmd: QUIT_EDITOR
+[2017.11.16-08.24.21:934][170]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.16-08.24.21:941][170]LogExit: Preparing to exit.
+[2017.11.16-08.24.23:095][170]LogExit: Editor shut down
+[2017.11.16-08.24.23:098][170]LogExit: Transaction tracking system shut down
+[2017.11.16-08.24.23:239][170]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.16-08.24.23:239][170]LogExit: Object subsystem successfully closed.
+[2017.11.16-08.24.23:257][170]LogD3D11RHI: Shutdown
+[2017.11.16-08.24.23:257][170]LogD3D11RHI: CleanupD3DDevice
+[2017.11.16-08.24.23:259][170]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.16-08.24.23:268][170]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.11.16-08.24.23:268][170]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.11.16-08.24.23:268][170]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.11.16-08.24.23:268][170]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.11.16-08.24.23:268][170]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.11.16-08.24.23:268][170]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.11.16-08.24.23:268][170]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.11.16-08.24.23:268][170]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.11.16-08.24.23:269][170]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' was aborted.
+[2017.11.16-08.24.23:269][170]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' was aborted.
+[2017.11.16-08.24.23:269][170]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' was aborted.
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module WorldBrowser (512)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.11.16-08.24.23:269][170]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.11.16-08.24.23:270][170]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.11.16-08.24.23:270][170]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.11.16-08.24.23:270][170]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.11.16-08.24.23:270][170]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.11.16-08.24.23:270][170]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.11.16-08.24.23:270][170]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.11.16-08.24.24:064][170]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.11.16-08.24.24:129][170]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.11.16-08.24.24:129][170]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.11.16-08.24.24:129][170]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.11.16-08.24.24:129][170]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.11.16-08.24.24:129][170]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.11.16-08.24.24:129][170]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.11.16-08.24.24:129][170]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.11.16-08.24.24:129][170]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.11.16-08.24.24:129][170]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.11.16-08.24.24:129][170]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.11.16-08.24.24:136][170]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.11.16-08.24.24:385][170]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.11.16-08.24.24:386][170]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.11.16-08.24.24:386][170]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.11.16-08.24.24:386][170]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.11.16-08.24.24:386][170]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.11.16-08.24.24:386][170]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.11.16-08.24.24:386][170]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.11.16-08.24.24:386][170]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.11.16-08.24.24:386][170]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.11.16-08.24.24:386][170]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.11.16-08.24.24:487][170]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.11.16-08.24.24:588][170]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.11.16-08.24.24:589][170]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.11.16-08.24.24:589][170]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.11.16-08.24.24:589][170]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.11.16-08.24.24:589][170]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.11.16-08.24.24:589][170]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.11.16-08.24.24:589][170]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.11.16-08.24.24:589][170]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.11.16-08.24.24:589][170]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.11.16-08.24.24:589][170]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.11.16-08.24.24:589][170]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.11.16-08.24.24:589][170]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.11.16-08.24.24:589][170]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.11.16-08.24.24:589][170]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.11.16-08.24.24:589][170]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.11.16-08.24.24:590][170]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.11.16-08.24.24:590][170]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.11.16-08.24.24:590][170]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.11.16-08.24.24:590][170]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.11.16-08.24.24:590][170]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.11.16-08.24.24:590][170]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.11.16-08.24.24:671][170]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.16-08.24.24:671][170]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/' was aborted.
+[2017.11.16-08.24.24:671][170]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.16-08.24.24:671][170]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.11.16-08.24.24:673][170]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.11.16-08.24.24:673][170]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.11.16-08.24.24:673][170]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.11.16-08.24.24:673][170]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.11.16-08.24.24:673][170]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.11.16-08.24.24:673][170]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.11.16-08.24.24:673][170]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.11.16-08.24.24:674][170]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.11.16-08.24.24:674][170]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.16-08.24.24:766][170]LogDerivedDataCache: Shutdown
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.16-08.24.24:766][170]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.16-08.24.24:767][170]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.16-08.24.24:767][170]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.16-08.24.24:767][170]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.16-08.24.24:767][170]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.11.16-08.24.24:767][170]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05518475-416E-5AB3-9900-93A4CE33DDBF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=982011a7482c1cbdc2ce3cbeaef51dbe%7Ce0ca3295625c4184a95d26a3b9c858a2%7C70012bb2-c253-4297-934e-6257f569ac01&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.16-08.24.24:767][170]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05518475-416E-5AB3-9900-93A4CE33DDBF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=982011a7482c1cbdc2ce3cbeaef51dbe%7Ce0ca3295625c4184a95d26a3b9c858a2%7C70012bb2-c253-4297-934e-6257f569ac01&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.16-08.24.24:776][170]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.16-08.24.24:777][170]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.11.16-08.24.24:777][170]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.11.16-08.24.24:777][170]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.11.16-08.24.24:777][170]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.16-08.24.24:777][170]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.16-08.24.24:777][170]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.16-08.24.24:777][170]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.16-08.24.24:777][170]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.16-08.24.24:778][170]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.16-08.24.24:778][170]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.16-08.24.24:778][170]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.16-08.24.24:778][170]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.16-08.24.24:778][170]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.16-08.24.24:778][170]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.16-08.24.24:778][170]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.16-08.24.24:778][170]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.16-08.24.24:778][170]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.16-08.24.24:778][170]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.16-08.24.24:780][170]LogExit: Exiting.
+[2017.11.16-08.24.24:801][170]Log file closed, 11/16/17 00:24:24
