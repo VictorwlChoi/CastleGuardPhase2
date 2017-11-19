@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 11/17/2017, 12:25:19
+      Time of this report: 11/19/2017, 10:18:09
              Machine name: LCIVAN-238-00
                Machine Id: {52402420-A2A4-4236-888F-3B6D2C4CB99F}
          Operating System: Windows 10 Home 64-bit (10.0, Build 15063) (15063.rs2_release.170317-1834)
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz (8 CPUs), ~4.2GHz
                    Memory: 16384MB RAM
       Available OS Memory: 16284MB RAM
-                Page File: 8919MB used, 9795MB available
+                Page File: 8519MB used, 10196MB available
               Windows Dir: C:\Windows
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -305,7 +305,7 @@ Number of Devices: 1
                 Service: usbvideo
                   Class: Image
           DevNodeStatus: 180200A[DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER]
-            ContainerId: {CC87F569-CB98-11E7-83B7-806E6F6E6963}
+            ContainerId: {BFE7D5B5-CD2B-11E7-83B7-806E6F6E6963}
             ProblemCode: No Problem
   BusReportedDeviceDesc: HTC Vive
                  Parent: USB\VID_0BB4&PID_2C87\7&108ae4e0&0&2
@@ -328,6 +328,18 @@ Vendor/Product ID: n/a
          Attached: 1
     Controller ID: n/a
 Vendor/Product ID: n/a
+        FF Driver: n/a
+
+      Device Name: IMU
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x28DE, 0x2012
+        FF Driver: n/a
+
+      Device Name: Optical
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x28DE, 0x2012
         FF Driver: n/a
 
       Device Name: Watchman Dongle
@@ -364,6 +376,12 @@ Vendor/Product ID: 0x28DE, 0x2012
          Attached: 1
     Controller ID: 0x0
 Vendor/Product ID: 0x03F0, 0x064A
+        FF Driver: n/a
+
+      Device Name: Valve
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x28DE, 0x2012
         FF Driver: n/a
 
       Device Name: Lighthouse FPGA RX
@@ -407,22 +425,6 @@ USB Devices
 | Service: USBHUB3
 | Driver: USBHUB3.SYS, 9/18/2017 15:09:42, 554400 bytes
 | 
-+-+ USB Input Device
-| | Vendor/Product ID: 0x413C, 0x301A
-| | Location: Port_#0006.Hub_#0001
-| | Matching Device ID: USB\Class_03&SubClass_01
-| | Service: HidUsb
-| | Driver: hidusb.sys, 3/18/2017 12:56:35, 40960 bytes
-| | Driver: hidclass.sys, 3/18/2017 12:56:35, 180736 bytes
-| | Driver: hidparse.sys, 3/18/2017 12:56:35, 40960 bytes
-| | 
-| +-+ HID-compliant mouse
-| | | Vendor/Product ID: 0x413C, 0x301A
-| | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
-| | | Service: mouhid
-| | | Driver: mouhid.sys, 3/18/2017 12:56:35, 33280 bytes
-| | | Driver: mouclass.sys, 3/18/2017 12:56:35, 60320 bytes
-| | 
 +-+ USB Composite Device
 | | Vendor/Product ID: 0x03F0, 0x064A
 | | Location: Port_#0005.Hub_#0001
@@ -445,6 +447,22 @@ USB Devices
 | | | | Service: kbdhid
 | | | | Driver: kbdhid.sys, 3/18/2017 12:56:35, 40448 bytes
 | | | | Driver: kbdclass.sys, 3/18/2017 12:56:35, 64416 bytes
+| | 
++-+ USB Input Device
+| | Vendor/Product ID: 0x413C, 0x301A
+| | Location: Port_#0006.Hub_#0001
+| | Matching Device ID: USB\Class_03&SubClass_01
+| | Service: HidUsb
+| | Driver: hidusb.sys, 3/18/2017 12:56:35, 40960 bytes
+| | Driver: hidclass.sys, 3/18/2017 12:56:35, 180736 bytes
+| | Driver: hidparse.sys, 3/18/2017 12:56:35, 40960 bytes
+| | 
+| +-+ HID-compliant mouse
+| | | Vendor/Product ID: 0x413C, 0x301A
+| | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
+| | | Service: mouhid
+| | | Driver: mouhid.sys, 3/18/2017 12:56:35, 33280 bytes
+| | | Driver: mouclass.sys, 3/18/2017 12:56:35, 60320 bytes
 
 ----------------
 Gameport Devices
@@ -458,13 +476,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 186.0 GB
+ Free Space: 186.9 GB
 Total Space: 487.3 GB
 File System: NTFS
       Model: NVMe A400 NVMe SanDis
 
       Drive: D:
- Free Space: 639.6 GB
+ Free Space: 639.1 GB
 Total Space: 953.7 GB
 File System: NTFS
       Model: ST1000DM010-2EP102
@@ -927,8 +945,8 @@ Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
 Realtek HD Audio Line input,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
 Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
 ,0x00000000,0,0,,
-USB Audio Device,0x00200000,2,2,ksproxy.ax,10.00.15063.0000
 HTC Vive,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
+USB Audio Device,0x00200000,2,2,ksproxy.ax,10.00.15063.0000
 
 WDM Streaming Rendering Devices:
 Realtek HDA SPDIF Out,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
@@ -966,8 +984,8 @@ Audio Renderers:
 Speakers (3- USB Audio Device),0x00200000,1,0,quartz.dll,10.00.15063.0138
 Default DirectSound Device,0x00800000,1,0,quartz.dll,10.00.15063.0138
 Default WaveOut Device,0x00200000,1,0,quartz.dll,10.00.15063.0138
-DirectSound: HTC-VIVE-0 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
 DirectSound: Speakers (3- USB Audio Device),0x00200000,1,0,quartz.dll,10.00.15063.0138
+DirectSound: HTC-VIVE-0 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
 DirectSound: Realtek Digital Output (Realtek Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
 HTC-VIVE-0 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
 Realtek Digital Output (Realtek Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
@@ -1377,6 +1395,44 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
+Fault bucket 116441551016, type 5
+Event Name: BEX64
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: svchost.exe
+P2: 10.0.15063.0
+P3: 02799ef5
+P4: ntdll.dll
+P5: 10.0.15063.608
+P6: 8274fd8b
+P7: 00000000000aa020
+P8: c0000409
+P9: 000000000000000a
+P10: 
+
+
++++ WER1 +++:
+Fault bucket , type 0
+Event Name: BEX64
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: svchost.exe
+P2: 10.0.15063.0
+P3: 02799ef5
+P4: ntdll.dll
+P5: 10.0.15063.608
+P6: 8274fd8b
+P7: 00000000000aa020
+P8: c0000409
+P9: 000000000000000a
+P10: 
+
+
++++ WER2 +++:
 Fault bucket 1772171702205061165, type 5
 Event Name: WindowsUpdateFailure3
 Response: Not available
@@ -1395,84 +1451,46 @@ P9: {8B24B027-1DEE-BABB-9A95-3517DFB9C552}
 P10: 0
 
 
-+++ WER1 +++:
-Fault bucket , type 0
-Event Name: WindowsUpdateFailure3
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 10.0.15063.608
-P2: c1900208
-P3: 7F5E6A14-5412-4ABF-ABB0-FFE6BEE62238
-P4: Install
-P5: 1
-P6: 0
-P7: 0
-P8: UpdateOrchestrator
-P9: {8B24B027-1DEE-BABB-9A95-3517DFB9C552}
-P10: 0
-
-
-+++ WER2 +++:
-Fault bucket , type 0
-Event Name: WindowsUpdateFailure3
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 10.0.15063.608
-P2: c1900208
-P3: 7F5E6A14-5412-4ABF-ABB0-FFE6BEE62238
-P4: Install
-P5: 1
-P6: 0
-P7: 0
-P8: UpdateOrchestrator
-P9: {8B24B027-1DEE-BABB-9A95-3517DFB9C552}
-P10: 0
-
-
 +++ WER3 +++:
-Fault bucket 127931859288, type 5
-Event Name: WindowsWcpOtherFailure3
+Fault bucket , type 0
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.15063.0:1
-P2: wcp\componentstore\deltastore.cpp
-P3: ComponentStore::CRawStoreLayout::CompressComponentPayload
-P4: 2395
-P5: c0000034
-P6: 0xff613213
-P7: 
-P8: 
-P9: 
-P10: 
+P1: 10.0.15063.608
+P2: c1900208
+P3: 7F5E6A14-5412-4ABF-ABB0-FFE6BEE62238
+P4: Install
+P5: 1
+P6: 0
+P7: 0
+P8: UpdateOrchestrator
+P9: {8B24B027-1DEE-BABB-9A95-3517DFB9C552}
+P10: 0
 
 
 +++ WER4 +++:
 Fault bucket , type 0
-Event Name: WindowsWcpOtherFailure3
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.15063.0:1
-P2: wcp\componentstore\deltastore.cpp
-P3: ComponentStore::CRawStoreLayout::CompressComponentPayload
-P4: 2395
-P5: c0000034
-P6: 0xff613213
-P7: 
-P8: 
-P9: 
-P10: 
+P1: 10.0.15063.608
+P2: c1900208
+P3: 7F5E6A14-5412-4ABF-ABB0-FFE6BEE62238
+P4: Install
+P5: 1
+P6: 0
+P7: 0
+P8: UpdateOrchestrator
+P9: {8B24B027-1DEE-BABB-9A95-3517DFB9C552}
+P10: 0
 
 
 +++ WER5 +++:
-Fault bucket , type 0
+Fault bucket 127931859288, type 5
 Event Name: WindowsWcpOtherFailure3
 Response: Not available
 Cab Id: 0
@@ -1511,38 +1529,38 @@ P10:
 
 +++ WER7 +++:
 Fault bucket , type 0
-Event Name: LiveKernelEvent
+Event Name: WindowsWcpOtherFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 1a1
-P2: ffff988f92b36040
-P3: 0
-P4: 0
-P5: 0
-P6: 10_0_15063
-P7: 0_0
-P8: 768_1
+P1: 10.0.15063.0:1
+P2: wcp\componentstore\deltastore.cpp
+P3: ComponentStore::CRawStoreLayout::CompressComponentPayload
+P4: 2395
+P5: c0000034
+P6: 0xff613213
+P7: 
+P8: 
 P9: 
 P10: 
 
 
 +++ WER8 +++:
 Fault bucket , type 0
-Event Name: BlueScreen
+Event Name: WindowsWcpOtherFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: ef
-P2: ffff98801e5137c0
-P3: 0
-P4: 0
-P5: 0
-P6: 10_0_15063
-P7: 0_0
-P8: 768_1
+P1: 10.0.15063.0:1
+P2: wcp\componentstore\deltastore.cpp
+P3: ComponentStore::CRawStoreLayout::CompressComponentPayload
+P4: 2395
+P5: c0000034
+P6: 0xff613213
+P7: 
+P8: 
 P9: 
 P10: 
 
