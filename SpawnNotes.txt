@@ -1,0 +1,13 @@
+Save Array of SpawnInfo
+
+SpawnInfo Struct
+{
+	AActor spawnSide;
+	ClassType playerType;
+	AActor actorToSpawn;
+	Array<AActor> childrenToSpawn; // Will only be used for catapults and rams
+}
+
+// You Should Save this data on each of the spawn events for every unit spawned
+
+// Function to deal with moving the actors to the paths
