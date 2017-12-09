@@ -1,0 +1,1447 @@
+﻿Log file open, 12/09/17 12:08:41
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(617535034) SRandInit(617535034).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079430
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.09-20.08.41:494][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.09-20.08.41:494][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.09-20.08.41:502][  0]LogInit: Computer: LCIVAN-238-00
+[2017.12.09-20.08.41:502][  0]LogInit: User: studentuser
+[2017.12.09-20.08.41:502][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.09-20.08.41:502][  0]LogInit: High frequency timer resolution =4.101561 MHz
+[2017.12.09-20.08.41:503][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.09-20.08.41:503][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.09-20.08.41:503][  0]LogMemory: Process Physical Memory: 274.80 MB used, 274.80 MB peak
+[2017.12.09-20.08.41:503][  0]LogMemory: Process Virtual Memory: 260.86 MB used, 260.86 MB peak
+[2017.12.09-20.08.41:503][  0]LogMemory: Physical Memory: 5914.64 MB used,  10368.81 MB free, 16283.45 MB total
+[2017.12.09-20.08.41:503][  0]LogMemory: Virtual Memory: 638.49 MB used,  10368.81 MB free, 134217728.00 MB total
+[2017.12.09-20.08.41:565][  0]LogInit: Using OS detected language (en-US).
+[2017.12.09-20.08.41:565][  0]LogInit: Using OS detected locale (en-CA).
+[2017.12.09-20.08.41:567][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.09-20.08.42:319][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.09-20.08.42:352][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.12.09-20.08.42:352][  0]LogD3D11RHI:       8120/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.09-20.08.42:357][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.12.09-20.08.42:357][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.09-20.08.42:358][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.09-20.08.42:358][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.09-20.08.42:358][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.09-20.08.42:365][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.09-20.08.42:365][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.09-20.08.42:365][  0]LogWindows: EnumDisplayDevices:
+[2017.12.09-20.08.42:365][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.12.09-20.08.42:365][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.09-20.08.42:365][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.09-20.08.42:365][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.09-20.08.42:365][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.09-20.08.42:365][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.09-20.08.42:365][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.09-20.08.42:366][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.09-20.08.42:366][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.12.09-20.08.42:366][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.12.09-20.08.42:366][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.12.09-20.08.42:366][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.09-20.08.42:391][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.09-20.08.42:406][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.09-20.08.42:455][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/12776/).
+[2017.12.09-20.08.42:455][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/8C4C03444E0CE193B5FFBC86309520D2/'.
+[2017.12.09-20.08.42:455][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.09-20.08.43:399][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.09-20.08.43:441][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.12.09-20.08.43:481][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.09-20.08.43:520][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.12.09-20.08.43:565][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.12.09-20.08.43:607][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.09-20.08.43:650][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.09-20.08.43:693][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.09-20.08.43:732][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.09-20.08.43:772][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.12.09-20.08.43:810][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.09-20.08.43:848][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.09-20.08.43:888][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.09-20.08.43:924][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.09-20.08.43:963][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.09-20.08.44:043][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.09-20.08.44:043][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.09-20.08.44:074][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.12.09-20.08.44:151][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.12.09-20.08.44:176][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.12.09-20.08.44:215][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.09-20.08.44:255][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.09-20.08.44:294][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.09-20.08.44:333][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.12.09-20.08.44:333][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.09-20.08.44:733][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.09-20.08.44:833][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.09-20.08.44:833][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.12.09-20.08.44:833][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.09-20.08.44:833][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.09-20.08.44:833][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.09-20.08.44:833][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.09-20.08.44:845][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.09-20.08.44:857][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.09-20.08.44:866][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.09-20.08.44:867][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.09-20.08.44:867][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.09-20.08.44:867][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.09-20.08.45:121][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.09-20.08.45:192][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.09-20.08.45:320][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.09-20.08.45:358][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.09-20.08.45:394][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.09-20.08.45:394][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.09-20.08.45:394][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.09-20.08.45:863][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.12.09-20.08.45:920][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2017.12.09-20.08.45:968][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.027253 seconds
+[2017.12.09-20.08.45:972][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.12.09-20.08.45:972][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.12.09-20.08.45:972][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.09-20.08.46:025][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.09-20.08.47:858][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.09-20.08.47:894][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.09-20.08.48:307][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.09-20.08.48:618][  0]SourceControl: Info Source control is disabled
+[2017.12.09-20.08.48:654][  0]SourceControl: Info Source control is disabled
+[2017.12.09-20.08.48:691][  0]SourceControl: Info Source control is disabled
+[2017.12.09-20.08.48:728][  0]SourceControl: Info Source control is disabled
+[2017.12.09-20.08.49:254][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.09-20.08.49:717][  0]LogEngine: Initializing Engine...
+[2017.12.09-20.08.50:276][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.12.09-20.08.50:442][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.09-20.08.50:442][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.09-20.08.50:547][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.09-20.08.50:562][  0]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-20.08.50:569][  0]LogInit: FAudioDevice initialized.
+[2017.12.09-20.08.50:611][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.09-20.08.50:631][  0]LogInit: Texture streaming: Enabled
+[2017.12.09-20.08.50:705][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.09-20.08.50:868][  0]LogInit: Transaction tracking system initialized
+[2017.12.09-20.08.51:087][  0]BlueprintLog: New page: Editor Load
+[2017.12.09-20.08.51:750][  0]LocalizationService: Info Localization service is disabled
+[2017.12.09-20.08.52:235][  0]LogConsoleResponse:Display: 
+[2017.12.09-20.08.52:335][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.09-20.08.52:335][  0]LogCook:Display: Mobile HDR setting 1
+[2017.12.09-20.08.53:069][  0]SourceControl: Info Source control is disabled
+[2017.12.09-20.08.53:069][  0]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.09-20.08.53:069][  0]LightingResults: New page: Lighting Build
+[2017.12.09-20.08.53:099][  0]MapCheck: New page: Map Check
+[2017.12.09-20.08.53:099][  0]LightingResults: New page: Lighting Build
+[2017.12.09-20.08.53:738][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning  OperateSiege to State  will never be taken, please connect something to  Can Enter Transition
+[2017.12.09-20.08.53:741][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0013.67] Compile of ABP_Soldier successful, but with 1 Warning(s) [in 7 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.09-20.08.53:742][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0013.67] Compile of ABP_Soldier successful, but with 2 Warning(s) [in 1 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.09-20.08.53:742][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0013.67] Compile of ABP_Soldier successful, but with 3 Warning(s) [in 0 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.09-20.08.54:282][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning  OperateSiege to State  will never be taken, please connect something to  Can Enter Transition
+[2017.12.09-20.08.54:286][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0014.21] Compile of ABP_Soldier successful, but with 1 Warning(s) [in 7 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.09-20.08.54:286][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0014.21] Compile of ABP_Soldier successful, but with 2 Warning(s) [in 0 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.09-20.08.54:288][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0014.21] Compile of ABP_Soldier successful, but with 3 Warning(s) [in 2 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.09-20.08.54:979][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.09-20.08.55:701][  0]LogAIModule: Creating AISystem for world default
+[2017.12.09-20.08.55:853][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.09-20.08.55:942][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.09-20.08.55:987][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.401ms to complete.
+[2017.12.09-20.08.55:987][  0]LogFileHelpers: Loading map 'default' took 2.919
+[2017.12.09-20.08.56:037][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.09-20.08.56:097][  0]LogCollectionManager: Loaded 0 collections in 0.001515 seconds
+[2017.12.09-20.08.56:164][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.12.09-20.08.56:164][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.12.09-20.08.56:164][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.12.09-20.08.56:164][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.09-20.08.56:170][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2329 classes and 491 folders.
+[2017.12.09-20.08.56:218][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.12.09-20.08.56:241][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.12.09-20.08.56:276][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.12.09-20.08.56:305][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.12.09-20.08.56:311][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.09-20.08.56:313][  0]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.09-20.08.56:316][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.09-20.08.56:384][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.12.09-20.08.56:471][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.12.09-20.08.56:524][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.12.09-20.08.56:524][  0]LogLoad: (Engine Initialization) Total time: 16.45 seconds
+[2017.12.09-20.08.56:524][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.84 seconds
+[2017.12.09-20.08.56:524][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.09-20.08.56:524][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.09-20.08.56:536][  0]LogOcInput: OculusInput pre-init called
+[2017.12.09-20.08.56:536][  0]LogHMD: Starting GearVRController plugin
+[2017.12.09-20.08.56:536][  0]LogSteamVRController: Controller role for device 1 is 1 (invalid=0, left=1, right=2).
+[2017.12.09-20.08.56:536][  0]LogSteamVRController:Warning: Controller device 1 is being assigned to its prefered role 'left'.
+[2017.12.09-20.08.56:536][  0]LogSteamVRController: Controller device 1 is being assigned unreal hand 0 (left=0, right=1).
+[2017.12.09-20.08.56:536][  0]LogSteamVRController: Controller role for device 2 is 2 (invalid=0, left=1, right=2).
+[2017.12.09-20.08.56:536][  0]LogSteamVRController: Putting controller 2 on the right hand because there is already a controller for the left.
+[2017.12.09-20.08.56:536][  0]LogSteamVRController: Controller device 2 is being assigned unreal hand 1 (left=0, right=1).
+[2017.12.09-20.08.56:561][  0]LogAssetRegistry: Asset discovery search completed in 10.6630 seconds
+[2017.12.09-20.08.56:563][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.09-20.08.56:563][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2017.12.09-20.08.56:567][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.09-20.08.56:635][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-20.08.57:563][ 94]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-20.09.02:359][660]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.09.02:359][660]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-20.09.02:359][660]PIE: New page: PIE session: default (Dec 9, 2017, 4:09:02 AM)
+[2017.12.09-20.09.02:359][660]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.09-20.09.02:533][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.173589s)
+[2017.12.09-20.09.02:534][660]LogAIModule: Creating AISystem for world default
+[2017.12.09-20.09.02:534][660]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2017.12.09-20.09.02:535][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.175382s)
+[2017.12.09-20.09.02:555][660]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-20.09.02:560][660]LogInit: FAudioDevice initialized.
+[2017.12.09-20.09.02:669][660]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.09-20.09.02:684][660]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.09-12.09.02
+[2017.12.09-20.09.02:685][660]LogWorld: Bringing up level for play took: 0.014974
+[2017.12.09-20.09.02:721][660]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.12.09-20.09.02:721][660]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.09.02:721][660]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.09.02:721][660]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.09-20.09.02:723][660]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.09-20.09.02:727][660]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.591
+[2017.12.09-20.09.02:727][660]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.09.02:769][661]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.07:782][987]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.10:521][142]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.15:981][397]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.18:306][562]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.20:943][729]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.23:286][910]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.09.27:936][253]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Spawned
+[2017.12.09-20.09.27:936][253]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] BP_ArcherAi2
+[2017.12.09-20.09.27:936][253]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2017.12.09-20.09.29:186][322]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Castle Succesful
+[2017.12.09-20.09.30:045][386]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Spawned
+[2017.12.09-20.09.30:045][386]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] BP_ArcherAi1
+[2017.12.09-20.09.30:045][386]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Cast Failed
+[2017.12.09-20.09.31:294][493]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Castle Succesful
+[2017.12.09-20.09.31:596][520]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Spawned
+[2017.12.09-20.09.31:596][520]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] BP_ArcherAi5
+[2017.12.09-20.09.31:596][520]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Cast Failed
+[2017.12.09-20.09.32:110][566]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Spawned
+[2017.12.09-20.09.32:847][632]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Castle Succesful
+[2017.12.09-20.09.32:925][639]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Spawned
+[2017.12.09-20.09.32:925][639]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] BP_ArcherAi2
+[2017.12.09-20.09.32:925][639]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Cast Failed
+[2017.12.09-20.09.33:361][678]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Castle Succesful
+[2017.12.09-20.09.33:554][695]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Spawned
+[2017.12.09-20.09.33:555][695]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] BP_ArcherAi3
+[2017.12.09-20.09.33:555][695]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Cast Failed
+[2017.12.09-20.09.34:178][729]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Castle Succesful
+[2017.12.09-20.09.34:815][759]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Castle Succesful
+[2017.12.09-20.09.35:039][769]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Spawned
+[2017.12.09-20.09.35:039][769]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] BP_ArcherAi1
+[2017.12.09-20.09.35:039][769]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Cast Failed
+[2017.12.09-20.09.35:598][794]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Spawned
+[2017.12.09-20.09.35:598][794]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] BP_ArcherAi4
+[2017.12.09-20.09.35:598][794]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Cast Failed
+[2017.12.09-20.09.36:289][825]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Castle Succesful
+[2017.12.09-20.09.36:603][841]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] Spawned
+[2017.12.09-20.09.36:603][841]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] BP_ArcherAi5
+[2017.12.09-20.09.36:603][841]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] Cast Failed
+[2017.12.09-20.09.36:848][852]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Castle Succesful
+[2017.12.09-20.09.37:116][864]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] Spawned
+[2017.12.09-20.09.37:853][897]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] Castle Succesful
+[2017.12.09-20.09.37:942][901]LogBlueprintUserMessages: [BP_AI_Arrows_C_10] Spawned
+[2017.12.09-20.09.37:943][901]LogBlueprintUserMessages: [BP_AI_Arrows_C_10] BP_ArcherAi2
+[2017.12.09-20.09.37:943][901]LogBlueprintUserMessages: [BP_AI_Arrows_C_10] Cast Failed
+[2017.12.09-20.09.38:367][920]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] Castle Succesful
+[2017.12.09-20.09.38:568][929]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] Spawned
+[2017.12.09-20.09.38:568][929]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] BP_ArcherAi3
+[2017.12.09-20.09.38:568][929]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] Cast Failed
+[2017.12.09-20.09.39:193][957]LogBlueprintUserMessages: [BP_AI_Arrows_C_10] Castle Succesful
+[2017.12.09-20.09.39:811][985]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] Castle Succesful
+[2017.12.09-20.09.40:041][996]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] Spawned
+[2017.12.09-20.09.40:042][996]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] BP_ArcherAi1
+[2017.12.09-20.09.40:042][996]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] Cast Failed
+[2017.12.09-20.09.40:600][ 21]LogBlueprintUserMessages: [BP_AI_Arrows_C_13] Spawned
+[2017.12.09-20.09.40:600][ 21]LogBlueprintUserMessages: [BP_AI_Arrows_C_13] BP_ArcherAi4
+[2017.12.09-20.09.40:600][ 21]LogBlueprintUserMessages: [BP_AI_Arrows_C_13] Cast Failed
+[2017.12.09-20.09.41:292][ 52]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] Castle Succesful
+[2017.12.09-20.09.41:606][ 66]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] Spawned
+[2017.12.09-20.09.41:606][ 66]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] BP_ArcherAi5
+[2017.12.09-20.09.41:606][ 66]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] Cast Failed
+[2017.12.09-20.09.41:851][ 77]LogBlueprintUserMessages: [BP_AI_Arrows_C_13] Castle Succesful
+[2017.12.09-20.09.42:120][ 89]LogBlueprintUserMessages: [BP_AI_Arrows_C_15] Spawned
+[2017.12.09-20.09.42:857][122]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] Castle Succesful
+[2017.12.09-20.09.42:946][126]LogBlueprintUserMessages: [BP_AI_Arrows_C_16] Spawned
+[2017.12.09-20.09.42:946][126]LogBlueprintUserMessages: [BP_AI_Arrows_C_16] BP_ArcherAi2
+[2017.12.09-20.09.42:946][126]LogBlueprintUserMessages: [BP_AI_Arrows_C_16] Cast Failed
+[2017.12.09-20.09.43:371][145]LogBlueprintUserMessages: [BP_AI_Arrows_C_15] Castle Succesful
+[2017.12.09-20.09.43:572][154]LogBlueprintUserMessages: [BP_AI_Arrows_C_17] Spawned
+[2017.12.09-20.09.43:572][154]LogBlueprintUserMessages: [BP_AI_Arrows_C_17] BP_ArcherAi3
+[2017.12.09-20.09.43:572][154]LogBlueprintUserMessages: [BP_AI_Arrows_C_17] Cast Failed
+[2017.12.09-20.09.44:197][182]LogBlueprintUserMessages: [BP_AI_Arrows_C_16] Castle Succesful
+[2017.12.09-20.09.44:823][210]LogBlueprintUserMessages: [BP_AI_Arrows_C_17] Castle Succesful
+[2017.12.09-20.09.45:047][220]LogBlueprintUserMessages: [BP_AI_Arrows_C_18] Spawned
+[2017.12.09-20.09.45:047][220]LogBlueprintUserMessages: [BP_AI_Arrows_C_18] BP_ArcherAi1
+[2017.12.09-20.09.45:047][220]LogBlueprintUserMessages: [BP_AI_Arrows_C_18] Cast Failed
+[2017.12.09-20.09.45:617][247]LogBlueprintUserMessages: [BP_AI_Arrows_C_19] Spawned
+[2017.12.09-20.09.45:617][247]LogBlueprintUserMessages: [BP_AI_Arrows_C_19] BP_ArcherAi4
+[2017.12.09-20.09.45:617][247]LogBlueprintUserMessages: [BP_AI_Arrows_C_19] Cast Failed
+[2017.12.09-20.09.46:286][279]LogBlueprintUserMessages: [BP_AI_Arrows_C_18] Castle Succesful
+[2017.12.09-20.09.46:600][293]LogBlueprintUserMessages: [BP_AI_Arrows_C_20] Spawned
+[2017.12.09-20.09.46:600][293]LogBlueprintUserMessages: [BP_AI_Arrows_C_20] BP_ArcherAi5
+[2017.12.09-20.09.46:600][293]LogBlueprintUserMessages: [BP_AI_Arrows_C_20] Cast Failed
+[2017.12.09-20.09.46:866][305]LogBlueprintUserMessages: [BP_AI_Arrows_C_19] Castle Succesful
+[2017.12.09-20.09.47:112][316]LogBlueprintUserMessages: [BP_AI_Arrows_C_21] Spawned
+[2017.12.09-20.09.47:849][349]LogBlueprintUserMessages: [BP_AI_Arrows_C_20] Castle Succesful
+[2017.12.09-20.09.47:939][353]LogBlueprintUserMessages: [BP_AI_Arrows_C_22] Spawned
+[2017.12.09-20.09.47:939][353]LogBlueprintUserMessages: [BP_AI_Arrows_C_22] BP_ArcherAi2
+[2017.12.09-20.09.47:939][353]LogBlueprintUserMessages: [BP_AI_Arrows_C_22] Cast Failed
+[2017.12.09-20.09.48:364][372]LogBlueprintUserMessages: [BP_AI_Arrows_C_21] Castle Succesful
+[2017.12.09-20.09.48:567][381]LogBlueprintUserMessages: [BP_AI_Arrows_C_23] Spawned
+[2017.12.09-20.09.48:567][381]LogBlueprintUserMessages: [BP_AI_Arrows_C_23] BP_ArcherAi3
+[2017.12.09-20.09.48:567][381]LogBlueprintUserMessages: [BP_AI_Arrows_C_23] Cast Failed
+[2017.12.09-20.09.49:190][411]LogBlueprintUserMessages: [BP_AI_Arrows_C_22] Castle Succesful
+[2017.12.09-20.09.49:816][439]LogBlueprintUserMessages: [BP_AI_Arrows_C_23] Castle Succesful
+[2017.12.09-20.09.50:039][449]LogBlueprintUserMessages: [BP_AI_Arrows_C_24] Spawned
+[2017.12.09-20.09.50:039][449]LogBlueprintUserMessages: [BP_AI_Arrows_C_24] BP_ArcherAi1
+[2017.12.09-20.09.50:039][449]LogBlueprintUserMessages: [BP_AI_Arrows_C_24] Cast Failed
+[2017.12.09-20.09.50:598][474]LogBlueprintUserMessages: [BP_AI_Arrows_C_25] Spawned
+[2017.12.09-20.09.50:598][474]LogBlueprintUserMessages: [BP_AI_Arrows_C_25] BP_ArcherAi4
+[2017.12.09-20.09.50:598][474]LogBlueprintUserMessages: [BP_AI_Arrows_C_25] Cast Failed
+[2017.12.09-20.09.51:290][505]LogBlueprintUserMessages: [BP_AI_Arrows_C_24] Castle Succesful
+[2017.12.09-20.09.51:604][519]LogBlueprintUserMessages: [BP_AI_Arrows_C_26] Spawned
+[2017.12.09-20.09.51:604][519]LogBlueprintUserMessages: [BP_AI_Arrows_C_26] BP_ArcherAi5
+[2017.12.09-20.09.51:604][519]LogBlueprintUserMessages: [BP_AI_Arrows_C_26] Cast Failed
+[2017.12.09-20.09.51:848][530]LogBlueprintUserMessages: [BP_AI_Arrows_C_25] Castle Succesful
+[2017.12.09-20.09.52:117][542]LogBlueprintUserMessages: [BP_AI_Arrows_C_27] Spawned
+[2017.12.09-20.09.52:843][603]LogBlueprintUserMessages: [BP_AI_Arrows_C_26] Castle Succesful
+[2017.12.09-20.09.52:932][611]LogBlueprintUserMessages: [BP_AI_Arrows_C_28] Spawned
+[2017.12.09-20.09.52:932][611]LogBlueprintUserMessages: [BP_AI_Arrows_C_28] BP_ArcherAi2
+[2017.12.09-20.09.52:932][611]LogBlueprintUserMessages: [BP_AI_Arrows_C_28] Cast Failed
+[2017.12.09-20.09.53:351][648]LogBlueprintUserMessages: [BP_AI_Arrows_C_27] Castle Succesful
+[2017.12.09-20.09.53:570][659]LogBlueprintUserMessages: [BP_AI_Arrows_C_29] Spawned
+[2017.12.09-20.09.53:570][659]LogBlueprintUserMessages: [BP_AI_Arrows_C_29] BP_ArcherAi3
+[2017.12.09-20.09.53:570][659]LogBlueprintUserMessages: [BP_AI_Arrows_C_29] Cast Failed
+[2017.12.09-20.09.54:194][687]LogBlueprintUserMessages: [BP_AI_Arrows_C_28] Castle Succesful
+[2017.12.09-20.09.54:820][715]LogBlueprintUserMessages: [BP_AI_Arrows_C_29] Castle Succesful
+[2017.12.09-20.09.55:043][725]LogBlueprintUserMessages: [BP_AI_Arrows_C_30] Spawned
+[2017.12.09-20.09.55:044][725]LogBlueprintUserMessages: [BP_AI_Arrows_C_30] BP_ArcherAi1
+[2017.12.09-20.09.55:044][725]LogBlueprintUserMessages: [BP_AI_Arrows_C_30] Cast Failed
+[2017.12.09-20.09.55:603][750]LogBlueprintUserMessages: [BP_AI_Arrows_C_31] Spawned
+[2017.12.09-20.09.55:603][750]LogBlueprintUserMessages: [BP_AI_Arrows_C_31] BP_ArcherAi4
+[2017.12.09-20.09.55:603][750]LogBlueprintUserMessages: [BP_AI_Arrows_C_31] Cast Failed
+[2017.12.09-20.09.56:293][781]LogBlueprintUserMessages: [BP_AI_Arrows_C_30] Castle Succesful
+[2017.12.09-20.09.56:606][795]LogBlueprintUserMessages: [BP_AI_Arrows_C_32] Spawned
+[2017.12.09-20.09.56:606][795]LogBlueprintUserMessages: [BP_AI_Arrows_C_32] BP_ArcherAi5
+[2017.12.09-20.09.56:606][795]LogBlueprintUserMessages: [BP_AI_Arrows_C_32] Cast Failed
+[2017.12.09-20.09.56:861][806]LogBlueprintUserMessages: [BP_AI_Arrows_C_31] Castle Succesful
+[2017.12.09-20.09.57:119][817]LogBlueprintUserMessages: [BP_AI_Arrows_C_33] Spawned
+[2017.12.09-20.09.57:858][851]LogBlueprintUserMessages: [BP_AI_Arrows_C_32] Castle Succesful
+[2017.12.09-20.09.57:926][854]LogBlueprintUserMessages: [BP_AI_Arrows_C_34] Spawned
+[2017.12.09-20.09.57:926][854]LogBlueprintUserMessages: [BP_AI_Arrows_C_34] BP_ArcherAi2
+[2017.12.09-20.09.57:926][854]LogBlueprintUserMessages: [BP_AI_Arrows_C_34] Cast Failed
+[2017.12.09-20.09.58:349][873]LogBlueprintUserMessages: [BP_AI_Arrows_C_33] Castle Succesful
+[2017.12.09-20.09.58:575][883]LogBlueprintUserMessages: [BP_AI_Arrows_C_35] Spawned
+[2017.12.09-20.09.58:575][883]LogBlueprintUserMessages: [BP_AI_Arrows_C_35] BP_ArcherAi3
+[2017.12.09-20.09.58:575][883]LogBlueprintUserMessages: [BP_AI_Arrows_C_35] Cast Failed
+[2017.12.09-20.09.59:163][913]LogBlueprintUserMessages: [BP_AI_Arrows_C_34] Castle Succesful
+[2017.12.09-20.09.59:811][971]LogBlueprintUserMessages: [BP_AI_Arrows_C_35] Castle Succesful
+[2017.12.09-20.10.00:045][992]LogBlueprintUserMessages: [BP_AI_Arrows_C_36] Spawned
+[2017.12.09-20.10.00:045][992]LogBlueprintUserMessages: [BP_AI_Arrows_C_36] BP_ArcherAi1
+[2017.12.09-20.10.00:045][992]LogBlueprintUserMessages: [BP_AI_Arrows_C_36] Cast Failed
+[2017.12.09-20.10.00:604][ 42]LogBlueprintUserMessages: [BP_AI_Arrows_C_37] Spawned
+[2017.12.09-20.10.00:604][ 42]LogBlueprintUserMessages: [BP_AI_Arrows_C_37] BP_ArcherAi4
+[2017.12.09-20.10.00:604][ 42]LogBlueprintUserMessages: [BP_AI_Arrows_C_37] Cast Failed
+[2017.12.09-20.10.01:296][104]LogBlueprintUserMessages: [BP_AI_Arrows_C_36] Castle Succesful
+[2017.12.09-20.10.01:598][131]LogBlueprintUserMessages: [BP_AI_Arrows_C_38] Spawned
+[2017.12.09-20.10.01:598][131]LogBlueprintUserMessages: [BP_AI_Arrows_C_38] BP_ArcherAi5
+[2017.12.09-20.10.01:598][131]LogBlueprintUserMessages: [BP_AI_Arrows_C_38] Cast Failed
+[2017.12.09-20.10.01:855][154]LogBlueprintUserMessages: [BP_AI_Arrows_C_37] Castle Succesful
+[2017.12.09-20.10.02:111][177]LogBlueprintUserMessages: [BP_AI_Arrows_C_39] Spawned
+[2017.12.09-20.10.02:848][243]LogBlueprintUserMessages: [BP_AI_Arrows_C_38] Castle Succesful
+[2017.12.09-20.10.02:927][250]LogBlueprintUserMessages: [BP_AI_Arrows_C_40] Spawned
+[2017.12.09-20.10.02:927][250]LogBlueprintUserMessages: [BP_AI_Arrows_C_40] BP_ArcherAi2
+[2017.12.09-20.10.02:927][250]LogBlueprintUserMessages: [BP_AI_Arrows_C_40] Cast Failed
+[2017.12.09-20.10.03:363][289]LogBlueprintUserMessages: [BP_AI_Arrows_C_39] Castle Succesful
+[2017.12.09-20.10.03:553][306]LogBlueprintUserMessages: [BP_AI_Arrows_C_41] Spawned
+[2017.12.09-20.10.03:553][306]LogBlueprintUserMessages: [BP_AI_Arrows_C_41] BP_ArcherAi3
+[2017.12.09-20.10.03:553][306]LogBlueprintUserMessages: [BP_AI_Arrows_C_41] Cast Failed
+[2017.12.09-20.10.04:178][362]LogBlueprintUserMessages: [BP_AI_Arrows_C_40] Castle Succesful
+[2017.12.09-20.10.04:325][375]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.10.04:493][375]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.10.11:962][253]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.09-20.10.11:962][253]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_AI_Arrows_C /Engine/Transient.World_9:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00C8
+[2017.12.09-20.10.11:962][253]LogScript:Warning: Accessed None
+	BP_AI_Arrows_C /Engine/Transient.World_9:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00DD
+[2017.12.09-20.10.12:921][366]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-20.10.13:202][366]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.12.09-20.10.13:626][366]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.09-20.10.13:670][366]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.09-20.10.13:670][366]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_AI_Arrows_C /Engine/Transient.World_11:PersistentLevel.BP_AI_Arrows_C_1
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00C8
+[2017.12.09-20.10.13:670][366]LogScript:Warning: Accessed None
+	BP_AI_Arrows_C /Engine/Transient.World_11:PersistentLevel.BP_AI_Arrows_C_1
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00DD
+[2017.12.09-20.10.13:674][366]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.09-20.10.14:323][417]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.09-20.11.09:056][824]BlueprintLog: New page: Compile BP_ArcherAi
+[2017.12.09-20.11.38:222][236]BlueprintLog: New page: Compile BP_ArcherAi
+[2017.12.09-20.11.38:957][284]LogSavePackage: Save=85.04ms
+[2017.12.09-20.11.38:957][284]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_ArcherAi61726BDA47237D48ADDB54B8A75EC8F9.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/ArcherAI/BP_ArcherAi.uasset'
+[2017.12.09-20.11.38:958][284]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/ArcherAI/BP_ArcherAi.uasset
+[2017.12.09-20.12.40:335][560]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.12.09-20.12.40:464][560]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.12.09-20.12.40:659][560]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.12.09-20.12.40:898][560]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2017.12.09-20.13.01:833][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_BaseArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_BaseArrow.uasset" SILENT=true
+[2017.12.09-20.13.01:917][ 43]LogSavePackage: Save=77.43ms
+[2017.12.09-20.13.01:917][ 43]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_BaseArrow15A26A0F479CDB40DCD7CF97A420B725.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_BaseArrow.uasset'
+[2017.12.09-20.13.01:918][ 43]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_BaseArrow.uasset
+[2017.12.09-20.13.39:581][534]LogEditorViewport: Clicking on Actor (LMB): Brazier_C (Brazier)
+[2017.12.09-20.13.53:857][798]LogSavePackage: Save=3508.77ms
+[2017.12.09-20.13.53:857][798]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/defaultDF765F7C430B8110A2944DB6FDD2DC04.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.09-20.13.53:861][798]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.09-20.14.02:558][815]LogTemp: Repeting last play command: VR Preview
+[2017.12.09-20.14.02:592][815]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.14.02:592][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-20.14.02:592][815]PIE: New page: PIE session: default (Dec 9, 2017, 4:14:02 AM)
+[2017.12.09-20.14.02:593][815]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.09-20.14.02:747][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.153981s)
+[2017.12.09-20.14.02:747][815]LogAIModule: Creating AISystem for world default
+[2017.12.09-20.14.02:747][815]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2017.12.09-20.14.02:748][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.155182s)
+[2017.12.09-20.14.02:776][815]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-20.14.02:782][815]LogInit: FAudioDevice initialized.
+[2017.12.09-20.14.02:857][815]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.09-20.14.02:870][815]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.09-12.14.02
+[2017.12.09-20.14.02:871][815]LogWorld: Bringing up level for play took: 0.014019
+[2017.12.09-20.14.02:872][815]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.14.02:872][815]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.14.02:872][815]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.09-20.14.02:874][815]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.09-20.14.02:878][815]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.743
+[2017.12.09-20.14.02:879][815]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.14.10:707][367]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Spawned
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.11:087][396]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.15:888][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:888][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:888][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:888][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.15:889][785]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.28:200][489]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Spawned
+[2017.12.09-20.14.28:200][489]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] BP_ArcherAi1
+[2017.12.09-20.14.28:200][489]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Cast Failed
+[2017.12.09-20.14.29:450][545]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Castle Succesful
+[2017.12.09-20.14.30:231][580]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Spawned
+[2017.12.09-20.14.30:231][580]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] BP_ArcherAi
+[2017.12.09-20.14.30:231][580]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Cast Failed
+[2017.12.09-20.14.31:482][636]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Castle Succesful
+[2017.12.09-20.14.31:774][649]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Spawned
+[2017.12.09-20.14.31:774][649]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] BP_ArcherAi4
+[2017.12.09-20.14.31:774][649]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Cast Failed
+[2017.12.09-20.14.32:287][672]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Spawned
+[2017.12.09-20.14.33:024][705]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Castle Succesful
+[2017.12.09-20.14.33:204][713]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Spawned
+[2017.12.09-20.14.33:204][713]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] BP_ArcherAi1
+[2017.12.09-20.14.33:204][713]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Cast Failed
+[2017.12.09-20.14.33:538][728]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Castle Succesful
+[2017.12.09-20.14.33:751][738]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Spawned
+[2017.12.09-20.14.33:751][738]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] BP_ArcherAi5
+[2017.12.09-20.14.33:751][738]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Cast Failed
+[2017.12.09-20.14.34:454][794]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Castle Succesful
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.34:957][819]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.35:013][823]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Castle Succesful
+[2017.12.09-20.14.35:236][834]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Spawned
+[2017.12.09-20.14.35:236][834]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] BP_ArcherAi
+[2017.12.09-20.14.35:237][834]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Cast Failed
+[2017.12.09-20.14.35:795][868]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] Spawned
+[2017.12.09-20.14.35:795][868]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] BP_ArcherAi3
+[2017.12.09-20.14.35:795][868]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] Cast Failed
+[2017.12.09-20.14.36:487][903]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Castle Succesful
+[2017.12.09-20.14.36:778][917]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] Spawned
+[2017.12.09-20.14.36:778][917]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] BP_ArcherAi4
+[2017.12.09-20.14.36:778][917]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] Cast Failed
+[2017.12.09-20.14.37:059][931]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] Castle Succesful
+[2017.12.09-20.14.37:280][943]LogBlueprintUserMessages: [BP_AI_Arrows_C_10] Spawned
+[2017.12.09-20.14.38:018][978]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] Castle Succesful
+[2017.12.09-20.14.38:197][986]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] Spawned
+[2017.12.09-20.14.38:198][986]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] BP_ArcherAi1
+[2017.12.09-20.14.38:198][986]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] Cast Failed
+[2017.12.09-20.14.38:531][  2]LogBlueprintUserMessages: [BP_AI_Arrows_C_10] Castle Succesful
+[2017.12.09-20.14.38:756][ 12]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] Spawned
+[2017.12.09-20.14.38:756][ 12]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] BP_ArcherAi5
+[2017.12.09-20.14.38:756][ 12]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] Cast Failed
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:357][ 39]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.14.39:447][ 43]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] Castle Succesful
+[2017.12.09-20.14.39:994][ 73]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] Castle Succesful
+[2017.12.09-20.14.40:229][ 86]LogBlueprintUserMessages: [BP_AI_Arrows_C_13] Spawned
+[2017.12.09-20.14.40:229][ 86]LogBlueprintUserMessages: [BP_AI_Arrows_C_13] BP_ArcherAi
+[2017.12.09-20.14.40:230][ 86]LogBlueprintUserMessages: [BP_AI_Arrows_C_13] Cast Failed
+[2017.12.09-20.14.40:799][112]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] Spawned
+[2017.12.09-20.14.40:799][112]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] BP_ArcherAi3
+[2017.12.09-20.14.40:799][112]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] Cast Failed
+[2017.12.09-20.14.41:491][143]LogBlueprintUserMessages: [BP_AI_Arrows_C_13] Castle Succesful
+[2017.12.09-20.14.41:771][158]LogBlueprintUserMessages: [BP_AI_Arrows_C_15] Spawned
+[2017.12.09-20.14.41:771][158]LogBlueprintUserMessages: [BP_AI_Arrows_C_15] BP_ArcherAi4
+[2017.12.09-20.14.41:771][158]LogBlueprintUserMessages: [BP_AI_Arrows_C_15] Cast Failed
+[2017.12.09-20.14.42:050][176]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] Castle Succesful
+[2017.12.09-20.14.42:295][187]LogBlueprintUserMessages: [BP_AI_Arrows_C_16] Spawned
+[2017.12.09-20.14.43:010][220]LogBlueprintUserMessages: [BP_AI_Arrows_C_15] Castle Succesful
+[2017.12.09-20.14.43:190][229]LogBlueprintUserMessages: [BP_AI_Arrows_C_17] Spawned
+[2017.12.09-20.14.43:190][229]LogBlueprintUserMessages: [BP_AI_Arrows_C_17] BP_ArcherAi1
+[2017.12.09-20.14.43:190][229]LogBlueprintUserMessages: [BP_AI_Arrows_C_17] Cast Failed
+[2017.12.09-20.14.43:546][245]LogBlueprintUserMessages: [BP_AI_Arrows_C_16] Castle Succesful
+[2017.12.09-20.14.43:759][255]LogBlueprintUserMessages: [BP_AI_Arrows_C_18] Spawned
+[2017.12.09-20.14.43:759][255]LogBlueprintUserMessages: [BP_AI_Arrows_C_18] BP_ArcherAi5
+[2017.12.09-20.14.43:759][255]LogBlueprintUserMessages: [BP_AI_Arrows_C_18] Cast Failed
+[2017.12.09-20.14.44:440][291]LogBlueprintUserMessages: [BP_AI_Arrows_C_17] Castle Succesful
+[2017.12.09-20.14.45:021][317]LogBlueprintUserMessages: [BP_AI_Arrows_C_18] Castle Succesful
+[2017.12.09-20.14.45:222][327]LogBlueprintUserMessages: [BP_AI_Arrows_C_19] Spawned
+[2017.12.09-20.14.45:223][327]LogBlueprintUserMessages: [BP_AI_Arrows_C_19] BP_ArcherAi
+[2017.12.09-20.14.45:223][327]LogBlueprintUserMessages: [BP_AI_Arrows_C_19] Cast Failed
+[2017.12.09-20.14.45:801][353]LogBlueprintUserMessages: [BP_AI_Arrows_C_20] Spawned
+[2017.12.09-20.14.45:801][353]LogBlueprintUserMessages: [BP_AI_Arrows_C_20] BP_ArcherAi3
+[2017.12.09-20.14.45:801][353]LogBlueprintUserMessages: [BP_AI_Arrows_C_20] Cast Failed
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:315][376]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.46:472][383]LogBlueprintUserMessages: [BP_AI_Arrows_C_19] Castle Succesful
+[2017.12.09-20.14.46:764][396]LogBlueprintUserMessages: [BP_AI_Arrows_C_21] Spawned
+[2017.12.09-20.14.46:764][396]LogBlueprintUserMessages: [BP_AI_Arrows_C_21] BP_ArcherAi4
+[2017.12.09-20.14.46:764][396]LogBlueprintUserMessages: [BP_AI_Arrows_C_21] Cast Failed
+[2017.12.09-20.14.47:053][409]LogBlueprintUserMessages: [BP_AI_Arrows_C_20] Castle Succesful
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:097][411]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:298][420]LogBlueprintUserMessages: [BP_AI_Arrows_C_22] Spawned
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:789][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:790][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:790][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:790][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:790][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:790][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:790][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:790][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:790][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:790][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:790][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:790][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:790][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:790][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.47:790][442]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.48:014][452]LogBlueprintUserMessages: [BP_AI_Arrows_C_21] Castle Succesful
+[2017.12.09-20.14.48:194][460]LogBlueprintUserMessages: [BP_AI_Arrows_C_23] Spawned
+[2017.12.09-20.14.48:194][460]LogBlueprintUserMessages: [BP_AI_Arrows_C_23] BP_ArcherAi1
+[2017.12.09-20.14.48:194][460]LogBlueprintUserMessages: [BP_AI_Arrows_C_23] Cast Failed
+[2017.12.09-20.14.48:551][476]LogBlueprintUserMessages: [BP_AI_Arrows_C_22] Castle Succesful
+[2017.12.09-20.14.48:752][485]LogBlueprintUserMessages: [BP_AI_Arrows_C_24] Spawned
+[2017.12.09-20.14.48:752][485]LogBlueprintUserMessages: [BP_AI_Arrows_C_24] BP_ArcherAi5
+[2017.12.09-20.14.48:752][485]LogBlueprintUserMessages: [BP_AI_Arrows_C_24] Cast Failed
+[2017.12.09-20.14.49:443][516]LogBlueprintUserMessages: [BP_AI_Arrows_C_23] Castle Succesful
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.49:889][536]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:001][541]LogBlueprintUserMessages: [BP_AI_Arrows_C_24] Castle Succesful
+[2017.12.09-20.14.50:224][551]LogBlueprintUserMessages: [BP_AI_Arrows_C_25] Spawned
+[2017.12.09-20.14.50:225][551]LogBlueprintUserMessages: [BP_AI_Arrows_C_25] BP_ArcherAi
+[2017.12.09-20.14.50:225][551]LogBlueprintUserMessages: [BP_AI_Arrows_C_25] Cast Failed
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:336][556]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.14.50:785][576]LogBlueprintUserMessages: [BP_AI_Arrows_C_26] Spawned
+[2017.12.09-20.14.50:785][576]LogBlueprintUserMessages: [BP_AI_Arrows_C_26] BP_ArcherAi3
+[2017.12.09-20.14.50:785][576]LogBlueprintUserMessages: [BP_AI_Arrows_C_26] Cast Failed
+[2017.12.09-20.14.51:477][607]LogBlueprintUserMessages: [BP_AI_Arrows_C_25] Castle Succesful
+[2017.12.09-20.14.51:768][620]LogBlueprintUserMessages: [BP_AI_Arrows_C_27] Spawned
+[2017.12.09-20.14.51:768][620]LogBlueprintUserMessages: [BP_AI_Arrows_C_27] BP_ArcherAi4
+[2017.12.09-20.14.51:768][620]LogBlueprintUserMessages: [BP_AI_Arrows_C_27] Cast Failed
+[2017.12.09-20.14.52:036][632]LogBlueprintUserMessages: [BP_AI_Arrows_C_26] Castle Succesful
+[2017.12.09-20.14.52:281][643]LogBlueprintUserMessages: [BP_AI_Arrows_C_28] Spawned
+[2017.12.09-20.14.53:019][677]LogBlueprintUserMessages: [BP_AI_Arrows_C_27] Castle Succesful
+[2017.12.09-20.14.53:198][686]LogBlueprintUserMessages: [BP_AI_Arrows_C_29] Spawned
+[2017.12.09-20.14.53:198][686]LogBlueprintUserMessages: [BP_AI_Arrows_C_29] BP_ArcherAi1
+[2017.12.09-20.14.53:198][686]LogBlueprintUserMessages: [BP_AI_Arrows_C_29] Cast Failed
+[2017.12.09-20.14.53:532][704]LogBlueprintUserMessages: [BP_AI_Arrows_C_28] Castle Succesful
+[2017.12.09-20.14.53:756][716]LogBlueprintUserMessages: [BP_AI_Arrows_C_30] Spawned
+[2017.12.09-20.14.53:756][716]LogBlueprintUserMessages: [BP_AI_Arrows_C_30] BP_ArcherAi5
+[2017.12.09-20.14.53:756][716]LogBlueprintUserMessages: [BP_AI_Arrows_C_30] Cast Failed
+[2017.12.09-20.14.54:448][747]LogBlueprintUserMessages: [BP_AI_Arrows_C_29] Castle Succesful
+[2017.12.09-20.14.55:006][772]LogBlueprintUserMessages: [BP_AI_Arrows_C_30] Castle Succesful
+[2017.12.09-20.14.55:230][782]LogBlueprintUserMessages: [BP_AI_Arrows_C_31] Spawned
+[2017.12.09-20.14.55:230][782]LogBlueprintUserMessages: [BP_AI_Arrows_C_31] BP_ArcherAi
+[2017.12.09-20.14.55:230][782]LogBlueprintUserMessages: [BP_AI_Arrows_C_31] Cast Failed
+[2017.12.09-20.14.55:789][807]LogBlueprintUserMessages: [BP_AI_Arrows_C_32] Spawned
+[2017.12.09-20.14.55:789][807]LogBlueprintUserMessages: [BP_AI_Arrows_C_32] BP_ArcherAi3
+[2017.12.09-20.14.55:789][807]LogBlueprintUserMessages: [BP_AI_Arrows_C_32] Cast Failed
+[2017.12.09-20.14.56:480][838]LogBlueprintUserMessages: [BP_AI_Arrows_C_31] Castle Succesful
+[2017.12.09-20.14.56:772][851]LogBlueprintUserMessages: [BP_AI_Arrows_C_33] Spawned
+[2017.12.09-20.14.56:772][851]LogBlueprintUserMessages: [BP_AI_Arrows_C_33] BP_ArcherAi4
+[2017.12.09-20.14.56:772][851]LogBlueprintUserMessages: [BP_AI_Arrows_C_33] Cast Failed
+[2017.12.09-20.14.57:040][863]LogBlueprintUserMessages: [BP_AI_Arrows_C_32] Castle Succesful
+[2017.12.09-20.14.57:286][874]LogBlueprintUserMessages: [BP_AI_Arrows_C_34] Spawned
+[2017.12.09-20.14.58:022][907]LogBlueprintUserMessages: [BP_AI_Arrows_C_33] Castle Succesful
+[2017.12.09-20.14.58:200][915]LogBlueprintUserMessages: [BP_AI_Arrows_C_35] Spawned
+[2017.12.09-20.14.58:200][915]LogBlueprintUserMessages: [BP_AI_Arrows_C_35] BP_ArcherAi1
+[2017.12.09-20.14.58:200][915]LogBlueprintUserMessages: [BP_AI_Arrows_C_35] Cast Failed
+[2017.12.09-20.14.58:535][930]LogBlueprintUserMessages: [BP_AI_Arrows_C_34] Castle Succesful
+[2017.12.09-20.14.58:758][940]LogBlueprintUserMessages: [BP_AI_Arrows_C_36] Spawned
+[2017.12.09-20.14.58:758][940]LogBlueprintUserMessages: [BP_AI_Arrows_C_36] BP_ArcherAi5
+[2017.12.09-20.14.58:758][940]LogBlueprintUserMessages: [BP_AI_Arrows_C_36] Cast Failed
+[2017.12.09-20.14.59:450][971]LogBlueprintUserMessages: [BP_AI_Arrows_C_35] Castle Succesful
+[2017.12.09-20.15.00:009][996]LogBlueprintUserMessages: [BP_AI_Arrows_C_36] Castle Succesful
+[2017.12.09-20.15.00:233][  6]LogBlueprintUserMessages: [BP_AI_Arrows_C_37] Spawned
+[2017.12.09-20.15.00:233][  6]LogBlueprintUserMessages: [BP_AI_Arrows_C_37] BP_ArcherAi
+[2017.12.09-20.15.00:233][  6]LogBlueprintUserMessages: [BP_AI_Arrows_C_37] Cast Failed
+[2017.12.09-20.15.00:792][ 31]LogBlueprintUserMessages: [BP_AI_Arrows_C_38] Spawned
+[2017.12.09-20.15.00:792][ 31]LogBlueprintUserMessages: [BP_AI_Arrows_C_38] BP_ArcherAi3
+[2017.12.09-20.15.00:792][ 31]LogBlueprintUserMessages: [BP_AI_Arrows_C_38] Cast Failed
+[2017.12.09-20.15.01:483][ 62]LogBlueprintUserMessages: [BP_AI_Arrows_C_37] Castle Succesful
+[2017.12.09-20.15.01:484][ 62]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.15.01:666][ 62]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.15.06:797][636]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.15.06:797][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-20.15.06:797][636]PIE: New page: PIE session: default (Dec 9, 2017, 4:15:06 AM)
+[2017.12.09-20.15.06:797][636]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.09-20.15.06:950][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.153404s)
+[2017.12.09-20.15.06:951][636]LogAIModule: Creating AISystem for world default
+[2017.12.09-20.15.06:951][636]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2017.12.09-20.15.06:952][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.155148s)
+[2017.12.09-20.15.06:987][636]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-20.15.06:992][636]LogInit: FAudioDevice initialized.
+[2017.12.09-20.15.07:025][636]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.09-20.15.07:038][636]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.09-12.15.07
+[2017.12.09-20.15.07:040][636]LogWorld: Bringing up level for play took: 0.013788
+[2017.12.09-20.15.07:040][636]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.15.07:040][636]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.15.07:040][636]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.09-20.15.07:042][636]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.09-20.15.07:042][636]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.907
+[2017.12.09-20.15.07:043][636]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.15.08:083][754]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.15.08:136][754]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.15.56:616][531]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.12.09-20.15.59:271][825]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.09-20.15.59:305][825]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.15.59:305][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-20.15.59:305][825]PIE: New page: PIE session: default (Dec 9, 2017, 4:15:59 AM)
+[2017.12.09-20.15.59:305][825]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.09-20.15.59:457][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.152188s)
+[2017.12.09-20.15.59:458][825]LogAIModule: Creating AISystem for world default
+[2017.12.09-20.15.59:458][825]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2017.12.09-20.15.59:459][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.153907s)
+[2017.12.09-20.15.59:488][825]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-20.15.59:494][825]LogInit: FAudioDevice initialized.
+[2017.12.09-20.15.59:523][825]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.09-20.15.59:536][825]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.09-12.15.59
+[2017.12.09-20.15.59:538][825]LogWorld: Bringing up level for play took: 0.013687
+[2017.12.09-20.15.59:538][825]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.15.59:538][825]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.15.59:538][825]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.09-20.15.59:540][825]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.09-20.15.59:540][825]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.595
+[2017.12.09-20.15.59:541][825]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.16.00:701][962]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.16.00:743][962]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.16.02:689][186]LogEditorViewport: Clicking on Actor (LMB): SM_TestDoor_Blueprint_C (SM_TestDoor_Blueprint)
+[2017.12.09-20.18.56:259][904]LogSavePackage: Save=81.63ms
+[2017.12.09-20.18.56:259][904]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_ArcherAi353C057A4F0235BCE7BDEE94DA233412.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/ArcherAI/BP_ArcherAi.uasset'
+[2017.12.09-20.18.56:261][904]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/ArcherAI/BP_ArcherAi.uasset
+[2017.12.09-20.18.56:657][950]BlueprintLog: New page: Compile BP_ArcherAi
+[2017.12.09-20.18.59:336][245]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.18.59:336][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-20.18.59:336][245]PIE: New page: SIE session: default (Dec 9, 2017, 4:18:59 AM)
+[2017.12.09-20.18.59:336][245]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.09-20.18.59:490][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.154086s)
+[2017.12.09-20.18.59:491][245]LogAIModule: Creating AISystem for world default
+[2017.12.09-20.18.59:491][245]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2017.12.09-20.18.59:492][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.155704s)
+[2017.12.09-20.18.59:527][245]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-20.18.59:534][245]LogInit: FAudioDevice initialized.
+[2017.12.09-20.18.59:568][245]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.09-20.18.59:582][245]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.09-12.18.59
+[2017.12.09-20.18.59:583][245]LogWorld: Bringing up level for play took: 0.014383
+[2017.12.09-20.18.59:583][245]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.09-20.18.59:584][245]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.18.59:585][245]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.18.59:586][245]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.549
+[2017.12.09-20.18.59:605][245]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.19.07:503][852]LogBlueprintUserMessages: [BP_ArcherAi_C_5] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.09-20.19.07:503][852]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Spawned
+[2017.12.09-20.19.25:091][585]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.09-20.19.25:091][585]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Spawned
+[2017.12.09-20.19.25:091][585]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] BP_ArcherAi1
+[2017.12.09-20.19.25:091][585]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Cast Failed
+[2017.12.09-20.19.26:355][731]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Castle Succesful
+[2017.12.09-20.19.27:134][821]LogBlueprintUserMessages: [BP_ArcherAi_C_2] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.09-20.19.27:134][821]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Spawned
+[2017.12.09-20.19.27:134][821]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] BP_ArcherAi2
+[2017.12.09-20.19.27:135][821]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Cast Failed
+[2017.12.09-20.19.28:397][962]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Castle Succesful
+[2017.12.09-20.19.28:688][985]LogBlueprintUserMessages: [BP_ArcherAi_C_3] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.09-20.19.28:689][985]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Spawned
+[2017.12.09-20.19.28:689][985]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] BP_ArcherAi3
+[2017.12.09-20.19.28:689][985]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Cast Failed
+[2017.12.09-20.19.29:198][ 18]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.09-20.19.29:199][ 18]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Spawned
+[2017.12.09-20.19.29:960][ 66]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Castle Succesful
+[2017.12.09-20.19.30:095][ 75]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.09-20.19.30:096][ 75]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Spawned
+[2017.12.09-20.19.30:096][ 75]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] BP_ArcherAi1
+[2017.12.09-20.19.30:096][ 75]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Cast Failed
+[2017.12.09-20.19.30:452][ 99]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Castle Succesful
+[2017.12.09-20.19.30:658][113]LogBlueprintUserMessages: [BP_ArcherAi_C_5] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.09-20.19.30:659][113]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Spawned
+[2017.12.09-20.19.30:659][113]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] BP_ArcherAi5
+[2017.12.09-20.19.30:659][113]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Cast Failed
+[2017.12.09-20.19.31:354][159]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Castle Succesful
+[2017.12.09-20.19.31:928][196]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Castle Succesful
+[2017.12.09-20.19.32:145][210]LogBlueprintUserMessages: [BP_ArcherAi_C_2] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.09-20.19.32:145][210]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Spawned
+[2017.12.09-20.19.32:145][210]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] BP_ArcherAi2
+[2017.12.09-20.19.32:146][210]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Cast Failed
+[2017.12.09-20.19.32:696][245]LogBlueprintUserMessages: [BP_ArcherAi_C_4] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.09-20.19.32:696][245]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] Spawned
+[2017.12.09-20.19.32:696][245]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] BP_ArcherAi4
+[2017.12.09-20.19.32:696][245]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] Cast Failed
+[2017.12.09-20.19.33:408][292]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Castle Succesful
+[2017.12.09-20.19.33:688][311]LogBlueprintUserMessages: [BP_ArcherAi_C_3] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.09-20.19.33:689][311]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] Spawned
+[2017.12.09-20.19.33:689][311]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] BP_ArcherAi3
+[2017.12.09-20.19.33:689][311]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] Cast Failed
+[2017.12.09-20.19.33:963][329]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] Castle Succesful
+[2017.12.09-20.19.34:184][344]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.09-20.19.34:185][344]LogBlueprintUserMessages: [BP_AI_Arrows_C_10] Spawned
+[2017.12.09-20.19.34:951][395]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] Castle Succesful
+[2017.12.09-20.19.35:084][411]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.09-20.19.35:085][411]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] Spawned
+[2017.12.09-20.19.35:085][411]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] BP_ArcherAi1
+[2017.12.09-20.19.35:085][411]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] Cast Failed
+[2017.12.09-20.19.35:443][447]LogBlueprintUserMessages: [BP_AI_Arrows_C_10] Castle Succesful
+[2017.12.09-20.19.35:652][472]LogBlueprintUserMessages: [BP_ArcherAi_C_5] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.09-20.19.35:652][472]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] Spawned
+[2017.12.09-20.19.35:653][472]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] BP_ArcherAi5
+[2017.12.09-20.19.35:653][472]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] Cast Failed
+[2017.12.09-20.19.50:689][ 84]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.19.50:744][ 84]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.19.58:794][ 40]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.09-20.19.58:794][ 40]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_AI_Arrows_C /Engine/Transient.World_9:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00C8
+[2017.12.09-20.19.58:794][ 40]LogScript:Warning: Accessed None
+	BP_AI_Arrows_C /Engine/Transient.World_9:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00DD
+[2017.12.09-20.19.58:794][ 40]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.09-20.19.58:794][ 40]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_AI_Arrows_C /Engine/Transient.World_11:PersistentLevel.BP_AI_Arrows_C_1
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00C8
+[2017.12.09-20.19.58:794][ 40]LogScript:Warning: Accessed None
+	BP_AI_Arrows_C /Engine/Transient.World_11:PersistentLevel.BP_AI_Arrows_C_1
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00DD
+[2017.12.09-20.19.58:795][ 40]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.09-20.19.58:795][ 40]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_AI_Arrows_C /Engine/Transient.World_9:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00C8
+[2017.12.09-20.19.58:795][ 40]LogScript:Warning: Accessed None
+	BP_AI_Arrows_C /Engine/Transient.World_9:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00DD
+[2017.12.09-20.19.58:796][ 40]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.09-20.19.58:796][ 40]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_AI_Arrows_C /Engine/Transient.World_11:PersistentLevel.BP_AI_Arrows_C_1
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00C8
+[2017.12.09-20.19.58:796][ 40]LogScript:Warning: Accessed None
+	BP_AI_Arrows_C /Engine/Transient.World_11:PersistentLevel.BP_AI_Arrows_C_1
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00DD
+[2017.12.09-20.19.59:482][122]BlueprintLog: New page: Compile BP_AI_Arrows
+[2017.12.09-20.19.59:519][122]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.09-20.19.59:519][122]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_AI_Arrows_C /Engine/Transient.World_9:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00C8
+[2017.12.09-20.19.59:519][122]LogScript:Warning: Accessed None
+	BP_AI_Arrows_C /Engine/Transient.World_9:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00DD
+[2017.12.09-20.19.59:520][122]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.09-20.19.59:520][122]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_AI_Arrows_C /Engine/Transient.World_11:PersistentLevel.BP_AI_Arrows_C_1
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00C8
+[2017.12.09-20.19.59:520][122]LogScript:Warning: Accessed None
+	BP_AI_Arrows_C /Engine/Transient.World_11:PersistentLevel.BP_AI_Arrows_C_1
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00DD
+[2017.12.09-20.19.59:625][122]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.09-20.19.59:625][122]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_AI_Arrows_C /Engine/Transient.World_9:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00C8
+[2017.12.09-20.19.59:625][122]LogScript:Warning: Accessed None
+	BP_AI_Arrows_C /Engine/Transient.World_9:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00DD
+[2017.12.09-20.19.59:625][122]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.09-20.19.59:625][122]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_AI_Arrows_C /Engine/Transient.World_11:PersistentLevel.BP_AI_Arrows_C_1
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00C8
+[2017.12.09-20.19.59:625][122]LogScript:Warning: Accessed None
+	BP_AI_Arrows_C /Engine/Transient.World_11:PersistentLevel.BP_AI_Arrows_C_1
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00DD
+[2017.12.09-20.20.00:233][182]LogSavePackage: Save=76.63ms
+[2017.12.09-20.20.00:233][182]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_AI_ArrowsECAA559D4DC2B31A74CBF186D2F67E80.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.uasset'
+[2017.12.09-20.20.00:235][182]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.uasset
+[2017.12.09-20.20.03:871][617]LogTemp: Repeting last play command: Simulate
+[2017.12.09-20.20.03:906][617]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.20.03:906][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-20.20.03:906][617]PIE: New page: SIE session: default (Dec 9, 2017, 4:20:03 AM)
+[2017.12.09-20.20.03:906][617]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.09-20.20.04:058][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.152033s)
+[2017.12.09-20.20.04:059][617]LogAIModule: Creating AISystem for world default
+[2017.12.09-20.20.04:059][617]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2017.12.09-20.20.04:060][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.154499s)
+[2017.12.09-20.20.04:091][617]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-20.20.04:097][617]LogInit: FAudioDevice initialized.
+[2017.12.09-20.20.04:129][617]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.09-20.20.04:142][617]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.09-12.20.04
+[2017.12.09-20.20.04:143][617]LogWorld: Bringing up level for play took: 0.013580
+[2017.12.09-20.20.04:144][617]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.09-20.20.04:144][617]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.20.04:145][617]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.20.04:146][617]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.011
+[2017.12.09-20.20.04:161][617]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.20.29:490][980]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.09-20.20.29:491][980]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Spawned
+[2017.12.09-20.20.29:491][980]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] BP_ArcherAi1
+[2017.12.09-20.20.29:491][980]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2017.12.09-20.20.56:760][754]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Castle Succesful
+[2017.12.09-20.21.04:926][609]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.21.04:999][609]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.21.09:622][727]LogSavePackage: Save=3491.78ms
+[2017.12.09-20.21.09:622][727]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default6BED77D04F345D698FB74A8BB1F74BE7.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.09-20.21.09:625][727]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.09-20.25.21:738][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_BaseArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_BaseArrow.uasset" SILENT=true
+[2017.12.09-20.25.21:822][518]LogSavePackage: Save=77.89ms
+[2017.12.09-20.25.21:822][518]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_BaseArrow7BDB336C4FD74FD79729DDB6D9E5CE99.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_BaseArrow.uasset'
+[2017.12.09-20.25.21:824][518]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_BaseArrow.uasset
+[2017.12.09-20.25.22:234][567]BlueprintLog: New page: Compile BP_BaseArrow
+[2017.12.09-20.25.28:601][306]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.25.28:601][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-20.25.28:601][306]PIE: New page: PIE session: default (Dec 9, 2017, 4:25:28 AM)
+[2017.12.09-20.25.28:601][306]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.09-20.25.28:761][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.160604s)
+[2017.12.09-20.25.28:762][306]LogAIModule: Creating AISystem for world default
+[2017.12.09-20.25.28:762][306]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2017.12.09-20.25.28:763][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.162182s)
+[2017.12.09-20.25.28:789][306]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-20.25.28:794][306]LogInit: FAudioDevice initialized.
+[2017.12.09-20.25.28:868][306]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.09-20.25.28:881][306]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.09-12.25.28
+[2017.12.09-20.25.28:883][306]LogWorld: Bringing up level for play took: 0.014577
+[2017.12.09-20.25.28:884][306]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.25.28:884][306]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.25.28:884][306]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.09-20.25.28:886][306]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.09-20.25.28:890][306]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.755
+[2017.12.09-20.25.28:891][306]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.25.36:684][817]LogBlueprintUserMessages: [BP_ArcherAi_C_5] X=12616.350 Y=4053.634 Z=2964.524
+[2017.12.09-20.25.36:684][817]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Spawned
+[2017.12.09-20.25.40:773][132]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Castle Succesful
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:301][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.42:302][260]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.48:576][550]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.50:497][636]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.25.54:077][796]LogBlueprintUserMessages: [BP_ArcherAi_C_2] X=12683.000 Y=4095.206 Z=2959.709
+[2017.12.09-20.25.54:077][796]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Spawned
+[2017.12.09-20.25.54:077][796]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] BP_ArcherAi2
+[2017.12.09-20.25.54:077][796]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Cast Failed
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:036][839]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.25.55:305][851]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Castle Succesful
+[2017.12.09-20.25.56:243][893]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12672.464 Y=4092.239 Z=2962.519
+[2017.12.09-20.25.56:244][893]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Spawned
+[2017.12.09-20.25.56:244][893]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] BP_ArcherAi1
+[2017.12.09-20.25.56:244][893]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Cast Failed
+[2017.12.09-20.25.57:492][949]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Castle Succesful
+[2017.12.09-20.25.57:783][962]LogBlueprintUserMessages: [BP_ArcherAi_C_3] X=12720.079 Y=4095.022 Z=2961.954
+[2017.12.09-20.25.57:784][962]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Spawned
+[2017.12.09-20.25.57:784][962]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] BP_ArcherAi3
+[2017.12.09-20.25.57:784][962]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Cast Failed
+[2017.12.09-20.25.58:274][987]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12750.147 Y=4115.126 Z=2960.953
+[2017.12.09-20.25.58:274][987]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Spawned
+[2017.12.09-20.25.58:599][ 14]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.25.58:778][ 14]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.26.25:155][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_LightArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset" SILENT=true
+[2017.12.09-20.26.25:279][ 54]LogSavePackage: Save=118.07ms
+[2017.12.09-20.26.25:279][ 54]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_LightArrow59B71CA945083F810EA12C871CB0C07D.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset'
+[2017.12.09-20.26.25:281][ 54]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset
+[2017.12.09-20.26.25:607][ 93]BlueprintLog: New page: Compile BP_LightArrow
+[2017.12.09-20.26.26:947][231]LogTemp: Repeting last play command: VR Preview
+[2017.12.09-20.26.26:982][231]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.26.26:982][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-20.26.26:983][231]PIE: New page: PIE session: default (Dec 9, 2017, 4:26:26 AM)
+[2017.12.09-20.26.26:983][231]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.09-20.26.27:141][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158754s)
+[2017.12.09-20.26.27:142][231]LogAIModule: Creating AISystem for world default
+[2017.12.09-20.26.27:142][231]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2017.12.09-20.26.27:144][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.161200s)
+[2017.12.09-20.26.27:177][231]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-20.26.27:183][231]LogInit: FAudioDevice initialized.
+[2017.12.09-20.26.27:263][231]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.09-20.26.27:277][231]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.09-12.26.27
+[2017.12.09-20.26.27:279][231]LogWorld: Bringing up level for play took: 0.014533
+[2017.12.09-20.26.27:279][231]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.26.27:279][231]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.09-20.26.27:279][231]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.09-20.26.27:281][231]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.09-20.26.27:286][231]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 1.151
+[2017.12.09-20.26.27:287][231]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.32:565][645]LogBlueprintUserMessages: [Brazier_158] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.34:767][747]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.46:317][333]LogBlueprintUserMessages: [Vive_Pawn_605] true
+[2017.12.09-20.26.47:179][402]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.26.47:350][402]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.09-20.27.18:066][ 49]LogEditorTransaction: Undo Create Pin Link
+[2017.12.09-20.27.18:691][115]LogEditorTransaction: Undo Delete current selection
+[2017.12.09-20.27.19:211][169]LogEditorTransaction: Undo Delete current selection
+[2017.12.09-20.27.20:692][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_LightArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset" SILENT=true
+[2017.12.09-20.27.20:804][337]LogSavePackage: Save=109.36ms
+[2017.12.09-20.27.20:804][337]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_LightArrow7DDA301F4EEB5A97EC752788E5020F6D.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset'
+[2017.12.09-20.27.20:805][337]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset
+[2017.12.09-20.27.50:151][842]BlueprintLog: New page: Compile BP_LightArrow
+[2017.12.09-20.28.14:462][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_LightArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset" SILENT=true
+[2017.12.09-20.28.14:575][673]LogSavePackage: Save=110.08ms
+[2017.12.09-20.28.14:575][673]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_LightArrowD4215F714EDB228DD94AA3BE183324C8.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset'
+[2017.12.09-20.28.14:576][673]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset
+[2017.12.09-20.30.28:559][905]LogUObjectBase:Warning: Object is not registered
+[2017.12.09-20.30.35:691][905]LogStats: FPlatformStackWalk::StackWalkAndDump -  7.122 s
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: === Handled ensure: ===
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: 
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: Stack: 
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FKismetDebugUtilities::GetWatchText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetdebugutilities.cpp:1037]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!UK2Node::GetPinHoverText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\blueprintgraph\private\k2node.cpp:1251]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!SGraphPin::GetTooltipText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\grapheditor\private\sgraphpin.cpp:1085]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64>::operator()<>() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:165]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\templates\tuple.h:497]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TBaseSPMethodDelegateInstance<1,SGraphPin,0,FText __cdecl(void)>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-Slate.dll!TBaseDelegate<FText>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:537]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-Slate.dll!TAttribute<FText>::Get() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\misc\attribute.h:137]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-Slate.dll!SToolTip::IsEmpty() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\widgets\stooltip.cpp:87]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::UpdateToolTip() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3444]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseMoveEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5697]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseMove() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5647]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1742]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2127]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:867]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:714]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: USER32.dll!0x000000006DBEBC50
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: USER32.dll!0x000000006DBEB5CF
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:1009]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3058]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: KERNEL32.DLL!0x000000006FA52774
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: ntdll.dll!0x0000000070160D51
+[2017.12.09-20.30.35:691][905]LogOutputDevice:Error: 
+[2017.12.09-20.30.35:691][905]LogStats:                SubmitErrorReport -  0.000 s
