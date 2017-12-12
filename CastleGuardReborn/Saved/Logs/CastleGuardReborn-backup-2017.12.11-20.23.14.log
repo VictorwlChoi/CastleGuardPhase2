@@ -1,0 +1,877 @@
+﻿Log file open, 12/11/17 20:01:54
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1192689524) SRandInit(1192689524).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079605
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.12-04.01.55:186][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.12-04.01.55:186][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.12-04.01.55:193][  0]LogInit: Computer: LCIVAN-238-00
+[2017.12.12-04.01.55:193][  0]LogInit: User: studentuser
+[2017.12.12-04.01.55:193][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.12-04.01.55:193][  0]LogInit: High frequency timer resolution =4.101561 MHz
+[2017.12.12-04.01.55:194][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.12-04.01.55:194][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.12-04.01.55:194][  0]LogMemory: Process Physical Memory: 276.34 MB used, 276.34 MB peak
+[2017.12.12-04.01.55:194][  0]LogMemory: Process Virtual Memory: 278.20 MB used, 278.20 MB peak
+[2017.12.12-04.01.55:194][  0]LogMemory: Physical Memory: 5975.95 MB used,  10307.50 MB free, 16283.45 MB total
+[2017.12.12-04.01.55:194][  0]LogMemory: Virtual Memory: 655.74 MB used,  10307.50 MB free, 134217728.00 MB total
+[2017.12.12-04.01.55:241][  0]LogInit: Using OS detected language (en-US).
+[2017.12.12-04.01.55:241][  0]LogInit: Using OS detected locale (en-CA).
+[2017.12.12-04.01.55:242][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.12-04.01.55:889][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.12-04.01.55:922][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.12.12-04.01.55:922][  0]LogD3D11RHI:       8120/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.12-04.01.55:927][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.12.12-04.01.55:927][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.12-04.01.55:928][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.12-04.01.55:928][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.12-04.01.55:928][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.12-04.01.55:934][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.12-04.01.55:934][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.12-04.01.55:934][  0]LogWindows: EnumDisplayDevices:
+[2017.12.12-04.01.55:935][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.12.12-04.01.55:935][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.12-04.01.55:935][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.12-04.01.55:935][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.12-04.01.55:935][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.12-04.01.55:935][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.12-04.01.55:935][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.12-04.01.55:935][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.12-04.01.55:935][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.12.12-04.01.55:935][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.12.12-04.01.55:935][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.12.12-04.01.55:935][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.12-04.01.55:959][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.12-04.01.55:974][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.12-04.01.56:022][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/7280/).
+[2017.12.12-04.01.56:022][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/D5494ACA48F7ED07F23747BF4E3471BE/'.
+[2017.12.12-04.01.56:022][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.12-04.01.56:729][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.12-04.01.56:765][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.12.12-04.01.56:802][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.12-04.01.56:838][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.12.12-04.01.56:876][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.12.12-04.01.56:911][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.12-04.01.56:948][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.12-04.01.56:985][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.12-04.01.57:017][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.12-04.01.57:052][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.12.12-04.01.57:086][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.12-04.01.57:122][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.12-04.01.57:157][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.12-04.01.57:191][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.12-04.01.57:225][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.12-04.01.57:295][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.12-04.01.57:295][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.12-04.01.57:323][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.12.12-04.01.57:394][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.12.12-04.01.57:416][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.12.12-04.01.57:451][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.12-04.01.57:485][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.12-04.01.57:519][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.12-04.01.57:554][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.12.12-04.01.57:554][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.12-04.01.57:911][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.12-04.01.57:994][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.12-04.01.57:994][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.12.12-04.01.57:994][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.12-04.01.57:994][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.12-04.01.57:994][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.12-04.01.57:994][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.12-04.01.58:005][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.12-04.01.58:017][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.12-04.01.58:024][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.12-04.01.58:025][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.12-04.01.58:025][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.12-04.01.58:025][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.12-04.01.58:244][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.12-04.01.58:303][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.12-04.01.58:417][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.12-04.01.58:448][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.12-04.01.58:482][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.12-04.01.58:482][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.12-04.01.58:482][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.12-04.01.58:877][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.12.12-04.01.58:928][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
+[2017.12.12-04.01.58:968][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.022489 seconds
+[2017.12.12-04.01.58:974][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.12.12-04.01.58:974][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.12.12-04.01.58:974][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.12-04.01.59:020][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.12-04.02.00:893][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.12-04.02.00:926][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.12-04.02.01:303][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.12-04.02.01:583][  0]SourceControl: Info Source control is disabled
+[2017.12.12-04.02.01:608][  0]SourceControl: Info Source control is disabled
+[2017.12.12-04.02.01:641][  0]SourceControl: Info Source control is disabled
+[2017.12.12-04.02.01:674][  0]SourceControl: Info Source control is disabled
+[2017.12.12-04.02.02:148][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.12-04.02.02:568][  0]LogEngine: Initializing Engine...
+[2017.12.12-04.02.05:626][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.12.12-04.02.05:810][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.12-04.02.05:810][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.12-04.02.05:908][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.12-04.02.05:922][  0]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.12-04.02.05:945][  0]LogInit: FAudioDevice initialized.
+[2017.12.12-04.02.05:986][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.12-04.02.06:007][  0]LogInit: Texture streaming: Enabled
+[2017.12.12-04.02.06:079][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.12-04.02.06:235][  0]LogInit: Transaction tracking system initialized
+[2017.12.12-04.02.06:456][  0]BlueprintLog: New page: Editor Load
+[2017.12.12-04.02.07:124][  0]LocalizationService: Info Localization service is disabled
+[2017.12.12-04.02.07:609][  0]LogConsoleResponse:Display: 
+[2017.12.12-04.02.07:708][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.12-04.02.07:708][  0]LogCook:Display: Mobile HDR setting 1
+[2017.12.12-04.02.08:446][  0]SourceControl: Info Source control is disabled
+[2017.12.12-04.02.08:446][  0]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.12-04.02.08:447][  0]LightingResults: New page: Lighting Build
+[2017.12.12-04.02.08:476][  0]MapCheck: New page: Map Check
+[2017.12.12-04.02.08:476][  0]LightingResults: New page: Lighting Build
+[2017.12.12-04.02.09:147][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning  OperateSiege to State  will never be taken, please connect something to  Can Enter Transition
+[2017.12.12-04.02.09:150][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0015.22] Compile of ABP_Soldier successful, but with 1 Warning(s) [in 7 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.12-04.02.09:150][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0015.22] Compile of ABP_Soldier successful, but with 2 Warning(s) [in 0 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.12-04.02.09:150][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0015.22] Compile of ABP_Soldier successful, but with 3 Warning(s) [in 0 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.12-04.02.09:936][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning  OperateSiege to State  will never be taken, please connect something to  Can Enter Transition
+[2017.12.12-04.02.09:939][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0016.01] Compile of ABP_Soldier successful, but with 1 Warning(s) [in 7 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.12-04.02.09:939][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0016.01] Compile of ABP_Soldier successful, but with 2 Warning(s) [in 0 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.12-04.02.09:940][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0016.01] Compile of ABP_Soldier successful, but with 3 Warning(s) [in 1 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.12-04.02.10:950][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.12-04.02.11:293][  0]LogAIModule: Creating AISystem for world default
+[2017.12.12-04.02.11:444][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.12-04.02.11:529][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.12-04.02.11:583][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.87ms to complete.
+[2017.12.12-04.02.11:583][  0]LogFileHelpers: Loading map 'default' took 3.136
+[2017.12.12-04.02.11:647][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.12-04.02.11:705][  0]LogCollectionManager: Loaded 0 collections in 0.001598 seconds
+[2017.12.12-04.02.11:770][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.12.12-04.02.11:770][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.12.12-04.02.11:770][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.12.12-04.02.11:770][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.12-04.02.11:776][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2329 classes and 491 folders.
+[2017.12.12-04.02.11:823][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.12.12-04.02.11:847][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.12-04.02.11:880][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.12.12-04.02.11:910][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.12.12-04.02.11:916][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.12-04.02.11:918][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.12-04.02.11:921][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.12-04.02.11:990][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.12.12-04.02.12:078][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.12.12-04.02.12:132][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.12.12-04.02.12:132][  0]LogLoad: (Engine Initialization) Total time: 18.20 seconds
+[2017.12.12-04.02.12:132][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.88 seconds
+[2017.12.12-04.02.12:132][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.12-04.02.12:132][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.12-04.02.12:143][  0]LogOcInput: OculusInput pre-init called
+[2017.12.12-04.02.12:143][  0]LogHMD: Starting GearVRController plugin
+[2017.12.12-04.02.12:144][  0]LogSteamVRController: Controller role for device 3 is 2 (invalid=0, left=1, right=2).
+[2017.12.12-04.02.12:144][  0]LogSteamVRController:Warning: Controller device 3 is being assigned to its prefered role 'right'.
+[2017.12.12-04.02.12:144][  0]LogSteamVRController: Controller device 3 is being assigned unreal hand 1 (left=0, right=1).
+[2017.12.12-04.02.12:173][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.12-04.02.12:235][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.12-04.02.12:249][  1]LogAssetRegistry: Asset discovery search completed in 13.3426 seconds
+[2017.12.12-04.02.12:251][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.12-04.02.12:251][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2017.12.12-04.02.13:173][101]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.12-04.02.39:681][253]LogEditorViewport: Clicking on Actor (LMB): BP_Castle_C (BP_Castle)
+[2017.12.12-04.02.40:095][295]LogEditorViewport: Clicking on Actor (LMB): BP_LightArrowsPile_C (BP_LightArrowsPile)
+[2017.12.12-04.02.41:903][495]LogEditorViewport: Clicking on Actor (LMB): BP_Castle_C (BP_Castle)
+[2017.12.12-04.03.01:408][782]LogEditorViewport: Clicking on Actor (LMB): BP_Castle_C (BP_Castle)
+[2017.12.12-04.03.01:820][828]LogEditorViewport: Clicking on Actor (LMB): BP_HeavyArrowsPile_C (BP_HeavyArrowsPile)
+[2017.12.12-04.03.03:111][978]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.12-04.03.03:388][978]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 112 classes and 0 folders.
+[2017.12.12-04.03.03:869][978]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.12-04.03.17:457][430]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.12-04.03.17:457][430]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_AI_Arrows_C /Engine/Transient.World_3:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00C8
+[2017.12.12-04.03.17:457][430]LogScript:Warning: Accessed None
+	BP_AI_Arrows_C /Engine/Transient.World_3:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00DD
+[2017.12.12-04.03.33:514][177]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.12-04.03.37:953][660]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:1).
+[2017.12.12-04.03.40:975][ 16]BlueprintLog: New page: Compile BP_LightArrow
+[2017.12.12-04.03.41:012][ 16]LogBlueprint:Warning: [Brazier] 'Fire' variable not found. Base class was probably changed.
+[2017.12.12-04.03.41:024][ 16]LogBlueprint:Warning: [Compiler Brazier] Warning Could not find a variable named "Fire" in 'BP_LightArrow_C'.
+Make sure 'BP_LightArrow_C' has been compiled for  Get Fire
+[2017.12.12-04.03.41:025][ 16]LogBlueprint:Error: [Compiler Brazier] Error The property associated with  Fire  could not be found
+[2017.12.12-04.04.31:193][931]BlueprintLog: New page: Compile BP_LightArrow
+[2017.12.12-04.04.31:224][931]LogBlueprint:Warning: [Brazier] 'Fire' variable not found. Base class was probably changed.
+[2017.12.12-04.04.31:778][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_LightArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset" SILENT=true
+[2017.12.12-04.04.31:901][979]LogSavePackage: Save=105.73ms
+[2017.12.12-04.04.31:901][979]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_LightArrow46B7202D433DC8371D624BBF00B59D3B.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset'
+[2017.12.12-04.04.31:903][979]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset
+[2017.12.12-04.05.30:932][  0]BlueprintLog: New page: Compile BP_HeavyArrow
+[2017.12.12-04.05.30:979][  0]LogBlueprint:Warning: [Compiler Brazier] Warning Could not find a variable named "Fire" in 'BP_LightArrow_C'.
+Make sure 'BP_LightArrow_C' has been compiled for  Get Fire
+[2017.12.12-04.05.30:980][  0]LogBlueprint:Error: [Compiler Brazier] Error The property associated with  Fire  could not be found
+[2017.12.12-04.05.42:120][226]BlueprintLog: New page: Compile BP_HeavyArrow
+[2017.12.12-04.05.42:168][226]LogBlueprint:Warning: [Compiler Brazier] Warning Could not find a variable named "Fire" in 'BP_LightArrow_C'.
+Make sure 'BP_LightArrow_C' has been compiled for  Get Fire
+[2017.12.12-04.05.42:169][226]LogBlueprint:Error: [Compiler Brazier] Error The property associated with  Fire  could not be found
+[2017.12.12-04.05.42:835][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_HeavyArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset" SILENT=true
+[2017.12.12-04.05.42:949][226]LogSavePackage: Save=107.84ms
+[2017.12.12-04.05.42:949][226]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_HeavyArrow33235A47461CB4BDD07DE78E4A6D7986.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset'
+[2017.12.12-04.05.42:950][226]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset
+[2017.12.12-04.06.19:479][544]BlueprintLog: New page: Compile BP_HeavyArrow
+[2017.12.12-04.06.20:224][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_HeavyArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset" SILENT=true
+[2017.12.12-04.06.20:336][605]LogSavePackage: Save=109.54ms
+[2017.12.12-04.06.20:336][605]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_HeavyArrow5EBC964C41047126C61B42AC6A0BD3E6.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset'
+[2017.12.12-04.06.20:338][605]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset
+[2017.12.12-04.06.34:341][268]LogEditorTransaction: Undo Modify Component(s)
+[2017.12.12-04.06.55:011][735]BlueprintLog: New page: Compile BP_HeavyArrow
+[2017.12.12-04.06.55:550][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_HeavyArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset" SILENT=true
+[2017.12.12-04.06.55:662][773]LogSavePackage: Save=109.43ms
+[2017.12.12-04.06.55:662][773]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_HeavyArrowE33410B34D884B572F9B7397D612FD0A.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset'
+[2017.12.12-04.06.55:663][773]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset
+[2017.12.12-04.07.11:903][708]BlueprintLog: New page: Compile BP_HeavyArrow
+[2017.12.12-04.07.12:495][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_HeavyArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset" SILENT=true
+[2017.12.12-04.07.12:603][758]LogSavePackage: Save=106.65ms
+[2017.12.12-04.07.12:603][758]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_HeavyArrowAA9156F747225F1CD2812EB649C073B9.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset'
+[2017.12.12-04.07.12:605][758]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset
+[2017.12.12-04.08.19:778][812]BlueprintLog: New page: Compile BP_HeavyArrow
+[2017.12.12-04.08.20:383][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_HeavyArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset" SILENT=true
+[2017.12.12-04.08.20:495][863]LogSavePackage: Save=110.07ms
+[2017.12.12-04.08.20:495][863]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_HeavyArrowCC797A4F4EDB3713A3A938A66CC7C829.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset'
+[2017.12.12-04.08.20:496][863]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset
+[2017.12.12-04.08.56:090][107]BlueprintLog: New page: Compile BP_LightArrow
+[2017.12.12-04.08.56:123][107]LogBlueprint:Warning: [Brazier] 'Fire' variable not found. Base class was probably changed.
+[2017.12.12-04.08.57:020][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_LightArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset" SILENT=true
+[2017.12.12-04.08.57:128][197]LogSavePackage: Save=106.27ms
+[2017.12.12-04.08.57:128][197]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_LightArrowE3B3C7D14A10293902E53EA136FC7598.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset'
+[2017.12.12-04.08.57:129][197]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset
+[2017.12.12-04.09.53:377][924]BlueprintLog: New page: Compile BP_HeavyArrow
+[2017.12.12-04.09.54:197][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_HeavyArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset" SILENT=true
+[2017.12.12-04.09.54:309][998]LogSavePackage: Save=109.62ms
+[2017.12.12-04.09.54:309][998]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_HeavyArrow3E553D3844E89E6940FAF79B24CF0776.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset'
+[2017.12.12-04.09.54:310][998]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset
+[2017.12.12-04.09.58:274][466]LogEditorViewport: Clicking on Actor (LMB): Brazier_C (Brazier)
+[2017.12.12-04.10.04:678][201]BlueprintLog: New page: Compile Brazier
+[2017.12.12-04.10.04:688][201]LogBlueprint:Warning: [Compiler Brazier] Warning Could not find a variable named "Fire" in 'BP_LightArrow_C'.
+Make sure 'BP_LightArrow_C' has been compiled for  Get Fire
+[2017.12.12-04.10.04:690][201]LogBlueprint:Error: [Compiler Brazier] Error The property associated with  Fire  could not be found
+[2017.12.12-04.10.04:916][201]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Fire" in 'BP_LightArrow_C'.
+Make sure 'BP_LightArrow_C' has been compiled for  Get Fire
+[2017.12.12-04.10.04:916][201]BlueprintEditorCompileResults:Error: Error The property associated with  Fire  could not be found
+[2017.12.12-04.10.04:916][201]LogBlueprint:Warning: [Compiler Brazier] Warning [0490.98] Compile of Brazier failed. 1 Fatal Issue(s) 1 Warning(s) [in 238 ms] (/Game/Vive/Blueprints/Brazier.Brazier)
+[2017.12.12-04.10.15:552][472]BlueprintLog: New page: Compile Brazier
+[2017.12.12-04.10.15:563][472]LogBlueprint:Error: [Compiler Brazier] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.12.12-04.10.15:772][472]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.12.12-04.10.15:772][472]LogBlueprint:Warning: [Compiler Brazier] Warning [0501.84] Compile of Brazier failed. 1 Fatal Issue(s) 0 Warning(s) [in 220 ms] (/Game/Vive/Blueprints/Brazier.Brazier)
+[2017.12.12-04.10.38:799][158]BlueprintLog: New page: Compile BP_HeavyArrow
+[2017.12.12-04.10.38:849][158]LogBlueprint:Error: [Compiler Brazier] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.12.12-04.11.11:352][824]BlueprintLog: New page: Compile BP_LightArrow
+[2017.12.12-04.11.11:403][824]LogBlueprint:Error: [Compiler Brazier] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.12.12-04.11.36:719][731]BlueprintLog: New page: Compile BP_LightArrow
+[2017.12.12-04.11.37:263][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_LightArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset" SILENT=true
+[2017.12.12-04.11.37:378][770]LogSavePackage: Save=107.84ms
+[2017.12.12-04.11.37:378][770]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_LightArrowA6DF03534D818469590AE9B60207809B.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset'
+[2017.12.12-04.11.37:379][770]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset
+[2017.12.12-04.11.43:469][494]LogEditorTransaction: Undo Modify Component(s)
+[2017.12.12-04.12.00:062][440]BlueprintLog: New page: Compile BP_LightArrow
+[2017.12.12-04.12.00:579][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_LightArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset" SILENT=true
+[2017.12.12-04.12.00:687][474]LogSavePackage: Save=106.07ms
+[2017.12.12-04.12.00:687][474]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_LightArrow7350C08344CA819743F28AB087E07BE8.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset'
+[2017.12.12-04.12.00:689][474]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset
+[2017.12.12-04.12.04:387][914]BlueprintLog: New page: Compile Brazier
+[2017.12.12-04.12.04:398][914]LogBlueprint:Error: [Compiler Brazier] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.12.12-04.12.04:609][914]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.12.12-04.12.04:609][914]LogBlueprint:Warning: [Compiler Brazier] Warning [0610.68] Compile of Brazier failed. 1 Fatal Issue(s) 0 Warning(s) [in 221 ms] (/Game/Vive/Blueprints/Brazier.Brazier)
+[2017.12.12-04.12.50:352][362]BlueprintLog: New page: Compile Brazier
+[2017.12.12-04.13.08:622][513]BlueprintLog: New page: Compile Brazier
+[2017.12.12-04.13.09:452][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Brazier" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset" SILENT=true
+[2017.12.12-04.13.09:523][592]LogSavePackage: Save=64.33ms
+[2017.12.12-04.13.09:523][592]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BrazierCE38FCFE4C07FB4C71E374A828FB2460.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset'
+[2017.12.12-04.13.09:525][592]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset
+[2017.12.12-04.13.36:763][846]BlueprintLog: New page: Compile Brazier
+[2017.12.12-04.13.37:471][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Brazier" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset" SILENT=true
+[2017.12.12-04.13.37:537][911]LogSavePackage: Save=64.32ms
+[2017.12.12-04.13.37:537][911]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Brazier2E380D674C20634AB7F1A2B3A7870222.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset'
+[2017.12.12-04.13.37:538][911]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset
+[2017.12.12-04.13.42:673][152]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.12-04.13.43:189][152]LogSavePackage: Save=3486.72ms
+[2017.12.12-04.13.43:189][152]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/defaultBBCD3CA642A62FB78CD32BBF765BF56E.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.12-04.13.43:193][152]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.12-04.13.43:249][152]LogFileHelpers: Saving map 'default' took 3.663
+[2017.12.12-04.13.43:260][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_HeavyArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset" SILENT=true
+[2017.12.12-04.13.43:375][152]LogSavePackage: Save=109.58ms
+[2017.12.12-04.13.43:375][152]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_HeavyArrowF1A34984424AB2BD8816BF82AE5FAFAD.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset'
+[2017.12.12-04.13.43:376][152]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset
+[2017.12.12-04.13.54:639][497]BlueprintLog: New page: Compile Brazier
+[2017.12.12-04.13.56:058][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Brazier" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset" SILENT=true
+[2017.12.12-04.13.56:120][647]LogSavePackage: Save=59.83ms
+[2017.12.12-04.13.56:121][647]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Brazier2FD48EFB46DF2600C854A5B8F4E46D3D.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset'
+[2017.12.12-04.13.56:122][647]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset
+[2017.12.12-04.14.36:762][484]BlueprintLog: New page: Compile Brazier
+[2017.12.12-04.14.37:603][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Brazier" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset" SILENT=true
+[2017.12.12-04.14.37:664][524]LogSavePackage: Save=59.17ms
+[2017.12.12-04.14.37:664][524]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BrazierB2861C9A49CC502507A206AB5E70DEAF.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset'
+[2017.12.12-04.14.37:666][524]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset
+[2017.12.12-04.17.09:711][605]BlueprintLog: New page: Compile BP_LightArrow
+[2017.12.12-04.17.10:274][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_LightArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset" SILENT=true
+[2017.12.12-04.17.10:391][649]LogSavePackage: Save=111.17ms
+[2017.12.12-04.17.10:391][649]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_LightArrow631CC3E24BC2D45B8148969A041ED87E.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset'
+[2017.12.12-04.17.10:393][649]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset
+[2017.12.12-04.17.18:895][664]BlueprintLog: New page: Compile BP_LightArrow
+[2017.12.12-04.17.19:497][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_LightArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset" SILENT=true
+[2017.12.12-04.17.19:611][713]LogSavePackage: Save=112.15ms
+[2017.12.12-04.17.19:611][713]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_LightArrowE5AB7BC14C453C7D6A539F9218C81C52.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset'
+[2017.12.12-04.17.19:613][713]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset
+[2017.12.12-04.17.25:817][ 19]LogSavePackage: Save=3450.87ms
+[2017.12.12-04.17.25:817][ 19]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/defaultE0883C80441BB5091EF618A1DBBD6BD2.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.12-04.17.25:821][ 19]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.12-04.17.25:871][ 19]LogFileHelpers: Saving map 'default' took 3.584
+[2017.12.12-04.17.32:253][772]BlueprintLog: New page: Compile BP_LightArrow
+[2017.12.12-04.17.33:263][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_LightArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset" SILENT=true
+[2017.12.12-04.17.33:376][866]LogSavePackage: Save=110.48ms
+[2017.12.12-04.17.33:377][866]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_LightArrowA962F824422CE961AE33DDB0938CD322.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset'
+[2017.12.12-04.17.33:378][866]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset
+[2017.12.12-04.18.23:747][878]BlueprintLog: New page: Compile BP_HeavyArrow
+[2017.12.12-04.18.24:763][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_HeavyArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset" SILENT=true
+[2017.12.12-04.18.24:874][977]LogSavePackage: Save=109.06ms
+[2017.12.12-04.18.24:874][977]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_HeavyArrow538897B34347DD6A9C87CD8C7C4E8250.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset'
+[2017.12.12-04.18.24:875][977]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset
+[2017.12.12-04.19.17:008][211]BlueprintLog: New page: Compile BP_LightArrow
+[2017.12.12-04.19.17:613][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_LightArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset" SILENT=true
+[2017.12.12-04.19.17:726][261]LogSavePackage: Save=111.36ms
+[2017.12.12-04.19.17:726][261]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_LightArrowD14617E84EA6094EEF52B8A24BB941A6.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset'
+[2017.12.12-04.19.17:728][261]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_LightArrow.uasset
+[2017.12.12-04.19.32:022][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_HeavyArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset" SILENT=true
+[2017.12.12-04.19.32:131][969]LogSavePackage: Save=103.92ms
+[2017.12.12-04.19.32:131][969]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_HeavyArrowC0CE72F34D2D61EADDE18FBA621B3176.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset'
+[2017.12.12-04.19.32:133][969]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset
+[2017.12.12-04.19.44:207][410]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.47:536][410]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.330 s
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: === Handled ensure: ===
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: 
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: Stack: 
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FKismetDebugUtilities::GetWatchText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetdebugutilities.cpp:1037]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!UK2Node::GetPinHoverText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\blueprintgraph\private\k2node.cpp:1251]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!SGraphPin::GetTooltipText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\grapheditor\private\sgraphpin.cpp:1085]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64>::operator()<>() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:165]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\templates\tuple.h:497]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TBaseSPMethodDelegateInstance<1,SGraphPin,0,FText __cdecl(void)>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-Slate.dll!TBaseDelegate<FText>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:537]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-Slate.dll!TAttribute<FText>::Get() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\misc\attribute.h:137]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-Slate.dll!SToolTip::IsEmpty() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\widgets\stooltip.cpp:87]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::UpdateToolTip() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3444]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseMoveEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5697]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseMove() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5647]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1742]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2127]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:867]
+[2017.12.12-04.19.47:536][410]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:714]
+[2017.12.12-04.19.47:537][410]LogOutputDevice:Error: USER32.dll!0x000000006DBEBC50
+[2017.12.12-04.19.47:537][410]LogOutputDevice:Error: USER32.dll!0x000000006DBEB5CF
+[2017.12.12-04.19.47:537][410]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:1009]
+[2017.12.12-04.19.47:537][410]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3058]
+[2017.12.12-04.19.47:537][410]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.12.12-04.19.47:537][410]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.12.12-04.19.47:537][410]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.12.12-04.19.47:537][410]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.12.12-04.19.47:537][410]LogOutputDevice:Error: KERNEL32.DLL!0x000000006FA52774
+[2017.12.12-04.19.47:537][410]LogOutputDevice:Error: ntdll.dll!0x0000000070160D51
+[2017.12.12-04.19.47:537][410]LogOutputDevice:Error: 
+[2017.12.12-04.19.47:547][410]LogStats:                SubmitErrorReport -  0.000 s
+[2017.12.12-04.19.47:840][410]LogStats:                    SendNewReport -  0.293 s
+[2017.12.12-04.19.47:840][410]LogStats:             FDebug::EnsureFailed -  3.633 s
+[2017.12.12-04.19.47:840][410]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.48:814][527]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.48:814][527]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.48:817][527]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.48:818][527]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.48:823][528]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.48:824][528]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.48:825][528]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.48:831][529]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.48:832][529]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.48:833][529]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.49:073][558]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.49:073][558]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.49:075][558]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.49:076][558]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.49:081][559]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.49:082][559]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.49:084][559]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.49:089][560]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.49:090][560]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.49:092][560]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.19.50:447][722]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:448][722]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:449][722]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:451][722]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:456][723]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:456][723]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:458][723]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:464][724]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:465][724]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:467][724]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:472][725]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:474][725]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:476][725]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:481][726]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:482][726]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:483][726]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:489][727]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:490][727]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:491][727]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:497][728]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:498][728]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:500][728]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:506][729]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:506][729]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:508][729]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:515][730]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:516][730]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:522][731]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:523][731]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:525][731]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:531][732]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:531][732]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:533][732]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:539][733]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:540][733]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:542][733]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:548][734]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:549][734]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:550][734]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:557][735]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:559][735]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:565][736]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:565][736]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:567][736]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:578][737]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:579][737]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:586][738]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:587][738]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:594][739]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:595][739]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:603][740]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:605][740]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:611][741]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:613][741]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:619][742]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:621][742]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:628][743]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:629][743]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:636][744]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:638][744]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:644][745]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:647][745]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:652][746]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:654][746]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:661][747]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:662][747]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:669][748]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:670][748]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:671][748]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:677][749]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:678][749]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:679][749]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:685][750]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:686][750]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.19.50:688][750]LogUObjectArray:Warning: Invalid object index 2097263
+[2017.12.12-04.20.13:809][485]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:809][485]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:811][485]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:813][485]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:817][486]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:818][486]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:820][486]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:825][487]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:826][487]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:828][487]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:834][488]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:834][488]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:836][488]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:842][489]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:843][489]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:844][489]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:851][490]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:851][490]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:853][490]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:859][491]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:860][491]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.13:861][491]LogUObjectArray:Warning: Other object in slot
+[2017.12.12-04.20.38:364][417]BlueprintLog: New page: Compile Brazier
+[2017.12.12-04.20.38:936][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Brazier" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset" SILENT=true
+[2017.12.12-04.20.39:006][462]LogSavePackage: Save=63.97ms
+[2017.12.12-04.20.39:006][462]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BrazierF2151F0640A1AC68712346B8DE6CFDB7.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset'
+[2017.12.12-04.20.39:007][462]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset
+[2017.12.12-04.20.50:896][452]LogSavePackage: Save=3456.81ms
+[2017.12.12-04.20.50:896][452]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default76F9883A4A4AE3A04A1FCF967E005D44.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.12-04.20.50:900][452]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.12-04.20.50:950][452]LogFileHelpers: Saving map 'default' took 3.618
+[2017.12.12-04.21.02:330][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Brazier" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset" SILENT=true
+[2017.12.12-04.21.02:388][814]LogSavePackage: Save=55.11ms
+[2017.12.12-04.21.02:388][814]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Brazier82BFB9B942A8AD9E6B2A5FBD389DDFBC.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset'
+[2017.12.12-04.21.02:389][814]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset
+[2017.12.12-04.21.12:359][  9]BlueprintLog: New page: Compile Brazier
+[2017.12.12-04.21.12:870][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Brazier" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset" SILENT=true
+[2017.12.12-04.21.12:933][ 50]LogSavePackage: Save=60.69ms
+[2017.12.12-04.21.12:933][ 50]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Brazier51AAF7E1431E3A6C664EE79C601E9E6C.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset'
+[2017.12.12-04.21.12:934][ 50]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Brazier.uasset
+[2017.12.12-04.21.18:676][309]LogSavePackage: Save=3433.68ms
+[2017.12.12-04.21.18:676][309]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default3680F741452691594A800089B8562A29.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.12-04.21.18:680][309]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.12-04.21.18:731][309]LogFileHelpers: Saving map 'default' took 3.566
+[2017.12.12-04.21.42:360][ 84]BlueprintLog: New page: Compile BP_HeavyArrow
+[2017.12.12-04.21.42:384][ 84]LogBlueprint:Error: [Compiler BP_HeavyArrow] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.12.12-04.21.42:849][ 84]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.12.12-04.21.42:850][ 84]LogBlueprint:Warning: [Compiler BP_HeavyArrow] Warning [1188.92] Compile of BP_HeavyArrow failed. 1 Fatal Issue(s) 0 Warning(s) [in 489 ms] (/Game/Vive/Blueprints/BP_HeavyArrow.BP_HeavyArrow)
+[2017.12.12-04.21.42:865][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_HeavyArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset" SILENT=true
+[2017.12.12-04.21.42:972][ 84]LogSavePackage: Save=103.64ms
+[2017.12.12-04.21.42:972][ 84]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_HeavyArrow6884348B4C7E650DE8E4CFB8DFEE67DC.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset'
+[2017.12.12-04.21.42:973][ 84]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset
+[2017.12.12-04.21.52:507][209]BlueprintLog: New page: Compile BP_HeavyArrow
+[2017.12.12-04.21.53:133][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_HeavyArrow" FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset" SILENT=true
+[2017.12.12-04.21.53:239][233]LogSavePackage: Save=103.72ms
+[2017.12.12-04.21.53:239][233]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_HeavyArrowCF0BF6584150C7AA1C87FFA1F6E5093E.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset'
+[2017.12.12-04.21.53:240][233]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/BP_HeavyArrow.uasset
+[2017.12.12-04.21.54:562][383]BlueprintLog: New page: Compile BP_LightArrow
+[2017.12.12-04.22.01:735][763]LogSavePackage: Save=3448.31ms
+[2017.12.12-04.22.01:735][763]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/defaultBFC8A47A496653090F24BFB19C0FDDAB.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.12-04.22.01:739][763]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.12-04.22.01:791][763]LogFileHelpers: Saving map 'default' took 3.581
+[2017.12.12-04.22.02:588][857]LogEditorViewport: Clicking on Actor (LMB): Brazier_C (Brazier)
+[2017.12.12-04.22.04:371][ 43]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.12-04.22.04:426][ 43]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.12-04.22.04:473][ 43]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.12-04.22.04:692][ 44]Cmd: QUIT_EDITOR
+[2017.12.12-04.22.04:721][ 44]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.12-04.22.04:730][ 44]LogExit: Preparing to exit.
+[2017.12.12-04.22.05:414][ 44]LogExit: Editor shut down
+[2017.12.12-04.22.05:417][ 44]LogExit: Transaction tracking system shut down
+[2017.12.12-04.22.05:511][ 44]LogObj: Freed 0b from 0 cluster array pools.
+[2017.12.12-04.22.05:511][ 44]LogExit: Object subsystem successfully closed.
+[2017.12.12-04.22.05:533][ 44]LogD3D11RHI: Shutdown
+[2017.12.12-04.22.05:533][ 44]LogD3D11RHI: CleanupD3DDevice
+[2017.12.12-04.22.05:621][ 44]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.12-04.22.05:630][ 44]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.12.12-04.22.05:630][ 44]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.12.12-04.22.05:630][ 44]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.12.12-04.22.05:630][ 44]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.12.12-04.22.05:630][ 44]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.12.12-04.22.05:630][ 44]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.12.12-04.22.05:630][ 44]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.12.12-04.22.05:630][ 44]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.12.12-04.22.05:630][ 44]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.12.12-04.22.05:630][ 44]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.12.12-04.22.05:630][ 44]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' was aborted.
+[2017.12.12-04.22.05:630][ 44]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' was aborted.
+[2017.12.12-04.22.05:630][ 44]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' was aborted.
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.12.12-04.22.05:631][ 44]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.12.12-04.22.05:838][ 44]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.12.12-04.22.05:903][ 44]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.12.12-04.22.05:903][ 44]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.12.12-04.22.05:903][ 44]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.12.12-04.22.05:903][ 44]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.12.12-04.22.05:903][ 44]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.12.12-04.22.05:903][ 44]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.12.12-04.22.05:903][ 44]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.12.12-04.22.05:903][ 44]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.12.12-04.22.05:903][ 44]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.12.12-04.22.05:903][ 44]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.12.12-04.22.05:911][ 44]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.12.12-04.22.05:911][ 44]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.12.12-04.22.05:911][ 44]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.12.12-04.22.05:911][ 44]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.12.12-04.22.05:911][ 44]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.12.12-04.22.05:911][ 44]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.12.12-04.22.05:911][ 44]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.12.12-04.22.05:911][ 44]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.12.12-04.22.05:912][ 44]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.12.12-04.22.05:912][ 44]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.12.12-04.22.05:912][ 44]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.12.12-04.22.05:912][ 44]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.12.12-04.22.05:912][ 44]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.12.12-04.22.05:912][ 44]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.12.12-04.22.05:912][ 44]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.12.12-04.22.05:912][ 44]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.12.12-04.22.05:912][ 44]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.12.12-04.22.05:912][ 44]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.12.12-04.22.05:912][ 44]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.12.12-04.22.05:912][ 44]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.12.12-04.22.05:938][ 44]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.12.12-04.22.05:939][ 44]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.12.12-04.22.06:041][ 44]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.12.12-04.22.06:217][ 44]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.12.12-04.22.06:217][ 44]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.12.12-04.22.06:217][ 44]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.12.12-04.22.06:217][ 44]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.12.12-04.22.06:217][ 44]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.12.12-04.22.06:217][ 44]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.12.12-04.22.06:218][ 44]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.12.12-04.22.06:220][ 44]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.12.12-04.22.06:220][ 44]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.12.12-04.22.06:220][ 44]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.12.12-04.22.06:220][ 44]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.12.12-04.22.06:220][ 44]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.12.12-04.22.06:220][ 44]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.12.12-04.22.06:423][ 44]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.12-04.22.06:423][ 44]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/' was aborted.
+[2017.12.12-04.22.06:423][ 44]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.12-04.22.06:423][ 44]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.12.12-04.22.06:425][ 44]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.12.12-04.22.06:425][ 44]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.12.12-04.22.06:425][ 44]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.12.12-04.22.06:425][ 44]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.12.12-04.22.06:425][ 44]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.12.12-04.22.06:425][ 44]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.12.12-04.22.06:425][ 44]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.12.12-04.22.06:425][ 44]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.12.12-04.22.06:425][ 44]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.12-04.22.06:521][ 44]LogDerivedDataCache: Shutdown
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.12-04.22.06:521][ 44]LogOnline:Display: Unloading online subsystem: NULL
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.12-04.22.06:521][ 44]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.12-04.22.06:521][ 44]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.12.12-04.22.06:521][ 44]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB23D8F9D-4E10-4BDA-A7D3-3691220FF37A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=982011a7482c1cbdc2ce3cbeaef51dbe%7C90661dbbb29643fa8d9650f8ab2c70e2%7C70012bb2-c253-4297-934e-6257f569ac01&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.12-04.22.06:521][ 44]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB23D8F9D-4E10-4BDA-A7D3-3691220FF37A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=982011a7482c1cbdc2ce3cbeaef51dbe%7C90661dbbb29643fa8d9650f8ab2c70e2%7C70012bb2-c253-4297-934e-6257f569ac01&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.12-04.22.06:526][ 44]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.12-04.22.06:527][ 44]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.12.12-04.22.06:527][ 44]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.12.12-04.22.06:527][ 44]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.12.12-04.22.06:527][ 44]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.12.12-04.22.06:527][ 44]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.12.12-04.22.06:527][ 44]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.12.12-04.22.06:527][ 44]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.12.12-04.22.06:527][ 44]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.12.12-04.22.06:527][ 44]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.12.12-04.22.06:528][ 44]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.12.12-04.22.06:528][ 44]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.12.12-04.22.06:528][ 44]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.12.12-04.22.06:528][ 44]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.12.12-04.22.06:528][ 44]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.12.12-04.22.06:528][ 44]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.12.12-04.22.06:528][ 44]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.12-04.22.06:528][ 44]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.12-04.22.06:528][ 44]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.12-04.22.06:529][ 44]LogExit: Exiting.
+[2017.12.12-04.22.06:555][ 44]Log file closed, 12/11/17 20:22:06
