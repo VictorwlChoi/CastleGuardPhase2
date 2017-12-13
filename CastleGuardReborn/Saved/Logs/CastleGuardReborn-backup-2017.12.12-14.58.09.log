@@ -1,0 +1,1434 @@
+﻿Log file open, 12/12/17 14:33:53
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-33415477) SRandInit(-33415477).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.082584
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.12-22.33.54:133][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.12-22.33.54:133][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.12-22.33.54:141][  0]LogInit: Computer: LCIVAN-238-00
+[2017.12.12-22.33.54:141][  0]LogInit: User: studentuser
+[2017.12.12-22.33.54:141][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.12-22.33.54:141][  0]LogInit: High frequency timer resolution =4.101561 MHz
+[2017.12.12-22.33.54:141][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.12-22.33.54:141][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.12-22.33.54:141][  0]LogMemory: Process Physical Memory: 276.52 MB used, 276.52 MB peak
+[2017.12.12-22.33.54:141][  0]LogMemory: Process Virtual Memory: 278.38 MB used, 278.38 MB peak
+[2017.12.12-22.33.54:141][  0]LogMemory: Physical Memory: 6635.42 MB used,  9648.03 MB free, 16283.45 MB total
+[2017.12.12-22.33.54:141][  0]LogMemory: Virtual Memory: 655.74 MB used,  9648.03 MB free, 134217728.00 MB total
+[2017.12.12-22.33.54:194][  0]LogInit: Using OS detected language (en-US).
+[2017.12.12-22.33.54:194][  0]LogInit: Using OS detected locale (en-CA).
+[2017.12.12-22.33.54:196][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.12-22.33.54:861][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.12-22.33.54:895][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.12.12-22.33.54:895][  0]LogD3D11RHI:       8120/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.12-22.33.54:900][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.12.12-22.33.54:900][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.12-22.33.54:901][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.12-22.33.54:901][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.12-22.33.54:901][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.12-22.33.54:908][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.12-22.33.54:908][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.12-22.33.54:908][  0]LogWindows: EnumDisplayDevices:
+[2017.12.12-22.33.54:908][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.12.12-22.33.54:909][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.12-22.33.54:909][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.12-22.33.54:909][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.12-22.33.54:909][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.12-22.33.54:909][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.12-22.33.54:909][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.12-22.33.54:909][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.12-22.33.54:909][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.12.12-22.33.54:909][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.12.12-22.33.54:909][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.12.12-22.33.54:909][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.12-22.33.54:934][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.12-22.33.54:952][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.12-22.33.55:000][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/1436/).
+[2017.12.12-22.33.55:000][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/68F95D8E44370EDBB013DDBFFB4A86AA/'.
+[2017.12.12-22.33.55:000][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.12-22.33.55:726][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.12-22.33.55:763][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.12.12-22.33.55:802][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.12-22.33.55:839][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.12.12-22.33.55:877][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.12.12-22.33.55:914][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.12-22.33.55:953][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.12-22.33.55:992][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.12-22.33.56:025][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.12-22.33.56:060][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.12.12-22.33.56:095][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.12-22.33.56:133][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.12-22.33.56:169][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.12-22.33.56:205][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.12-22.33.56:241][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.12-22.33.56:313][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.12-22.33.56:313][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.12-22.33.56:341][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.12.12-22.33.56:414][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.12.12-22.33.56:438][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.12.12-22.33.56:474][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.12-22.33.56:509][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.12-22.33.56:545][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.12-22.33.56:583][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.12.12-22.33.56:583][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.12-22.33.56:950][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.12-22.33.57:044][  0]LogDerivedDataCache: Loaded boot cache 0.09s 103MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.12-22.33.57:044][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.12.12-22.33.57:044][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.12-22.33.57:044][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.12-22.33.57:044][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.12-22.33.57:044][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.12-22.33.57:055][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.12-22.33.57:067][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.12-22.33.57:074][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.12-22.33.57:074][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.12-22.33.57:075][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.12-22.33.57:075][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.12-22.33.57:308][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.12-22.33.57:388][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.12-22.33.57:505][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.12-22.33.57:538][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.12-22.33.57:574][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.12-22.33.57:574][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.12-22.33.57:574][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.12-22.33.58:020][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.12.12-22.33.58:074][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2017.12.12-22.33.58:123][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.028016 seconds
+[2017.12.12-22.33.58:127][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.12.12-22.33.58:127][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.12.12-22.33.58:127][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.12-22.33.58:181][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.12-22.34.00:129][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.12-22.34.00:162][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.12-22.34.00:552][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.12-22.34.00:840][  0]SourceControl: Info Source control is disabled
+[2017.12.12-22.34.00:863][  0]SourceControl: Info Source control is disabled
+[2017.12.12-22.34.00:899][  0]SourceControl: Info Source control is disabled
+[2017.12.12-22.34.00:934][  0]SourceControl: Info Source control is disabled
+[2017.12.12-22.34.01:432][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.12-22.34.01:867][  0]LogEngine: Initializing Engine...
+[2017.12.12-22.34.04:430][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.12.12-22.34.04:636][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.12-22.34.04:636][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.12-22.34.04:736][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.12-22.34.04:750][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.12-22.34.04:783][  0]LogInit: FAudioDevice initialized.
+[2017.12.12-22.34.04:831][  0]LogDerivedDataCache: Saved boot cache 0.05s 103MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.12-22.34.04:855][  0]LogInit: Texture streaming: Enabled
+[2017.12.12-22.34.04:926][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.12-22.34.05:078][  0]LogInit: Transaction tracking system initialized
+[2017.12.12-22.34.05:298][  0]BlueprintLog: New page: Editor Load
+[2017.12.12-22.34.05:964][  0]LocalizationService: Info Localization service is disabled
+[2017.12.12-22.34.06:449][  0]LogConsoleResponse:Display: 
+[2017.12.12-22.34.06:551][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.12-22.34.06:551][  0]LogCook:Display: Mobile HDR setting 1
+[2017.12.12-22.34.07:293][  0]SourceControl: Info Source control is disabled
+[2017.12.12-22.34.07:293][  0]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.12-22.34.07:293][  0]LightingResults: New page: Lighting Build
+[2017.12.12-22.34.07:323][  0]MapCheck: New page: Map Check
+[2017.12.12-22.34.07:323][  0]LightingResults: New page: Lighting Build
+[2017.12.12-22.34.08:449][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning  OperateSiege to State  will never be taken, please connect something to  Can Enter Transition
+[2017.12.12-22.34.08:452][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0015.58] Compile of ABP_Soldier successful, but with 1 Warning(s) [in 7 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.12-22.34.08:453][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0015.58] Compile of ABP_Soldier successful, but with 2 Warning(s) [in 0 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.12-22.34.08:453][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0015.58] Compile of ABP_Soldier successful, but with 3 Warning(s) [in 0 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.12-22.34.09:245][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning  OperateSiege to State  will never be taken, please connect something to  Can Enter Transition
+[2017.12.12-22.34.09:249][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0016.38] Compile of ABP_Soldier successful, but with 1 Warning(s) [in 7 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.12-22.34.09:249][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0016.38] Compile of ABP_Soldier successful, but with 2 Warning(s) [in 0 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.12-22.34.09:250][  0]LogBlueprint:Warning: [Compiler ABP_Soldier] Warning [0016.38] Compile of ABP_Soldier successful, but with 3 Warning(s) [in 1 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2017.12.12-22.34.10:507][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.12-22.34.10:634][  0]LogAIModule: Creating AISystem for world default
+[2017.12.12-22.34.10:786][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.12-22.34.10:873][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.12-22.34.10:924][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.925ms to complete.
+[2017.12.12-22.34.10:924][  0]LogFileHelpers: Loading map 'default' took 3.632
+[2017.12.12-22.34.10:985][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.12-22.34.11:044][  0]LogCollectionManager: Loaded 0 collections in 0.001483 seconds
+[2017.12.12-22.34.11:107][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.12.12-22.34.11:107][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.12.12-22.34.11:107][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.12.12-22.34.11:107][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.12-22.34.11:114][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2329 classes and 491 folders.
+[2017.12.12-22.34.11:162][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.12.12-22.34.11:185][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.12.12-22.34.11:218][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.12.12-22.34.11:248][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.12.12-22.34.11:952][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.12.12-22.34.11:965][  0]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.12-22.34.11:968][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.12-22.34.11:973][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.12-22.34.12:054][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CastleGuardReborn
+[2017.12.12-22.34.12:054][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.12.12-22.34.12:054][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.12.12-22.34.12:054][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.12.12-22.34.12:054][  0]LogTemp: BranchPath = LCIVAN-238-00/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LCIVAN-238-00/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.12.12-22.34.12:054][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\studentuser\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.12-22.34.12:054][  0]LogRenderer: Reallocating scene render targets to support 1208x544 NumSamples 1 (Frame:1).
+[2017.12.12-22.34.12:151][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.12.12-22.34.12:204][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.12.12-22.34.12:204][  0]LogLoad: (Engine Initialization) Total time: 19.33 seconds
+[2017.12.12-22.34.12:205][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.89 seconds
+[2017.12.12-22.34.12:205][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.12-22.34.12:205][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.12-22.34.12:216][  0]LogOcInput: OculusInput pre-init called
+[2017.12.12-22.34.12:216][  0]LogHMD: Starting GearVRController plugin
+[2017.12.12-22.34.12:216][  0]LogSteamVRController: Controller role for device 3 is 0 (invalid=0, left=1, right=2).
+[2017.12.12-22.34.12:216][  0]LogSteamVRController:Warning: Controller device 3 has no role set.  There is no 'right' controller according to steamvr, so we are pickign that.
+[2017.12.12-22.34.12:216][  0]LogSteamVRController: Controller device 3 is being assigned unreal hand 1 (left=0, right=1).
+[2017.12.12-22.34.12:216][  0]LogSteamVRController: Controller role for device 4 is 1 (invalid=0, left=1, right=2).
+[2017.12.12-22.34.12:216][  0]LogSteamVRController: Putting controller 4 on the left hand because there is already a controller for the right.
+[2017.12.12-22.34.12:216][  0]LogSteamVRController: Controller device 4 is being assigned unreal hand 0 (left=0, right=1).
+[2017.12.12-22.34.12:246][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.12-22.34.12:305][  0]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.12-22.34.12:319][  1]LogAssetRegistry: Asset discovery search completed in 14.2663 seconds
+[2017.12.12-22.34.12:322][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.12-22.34.12:322][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2017.12.12-22.34.13:249][ 97]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.12-22.38.35:537][173]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.12-22.38.35:546][173]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\studentuser\Desktop\SM_SmallRock.fbx)
+[2017.12.12-22.38.35:555][173]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.12.12-22.38.35:555][173]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.12.12-22.38.35:555][173]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.12.12-22.38.35:555][173]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.12.12-22.38.35:555][173]LogFbx: ItemName: Material, ItemCount : 1
+[2017.12.12-22.38.35:555][173]LogFbx: ItemName: Model, ItemCount : 1
+[2017.12.12-22.38.35:559][173]LogFbx: Loading FBX Scene from C:\Users\studentuser\Desktop\SM_SmallRock.fbx
+[2017.12.12-22.38.35:563][173]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.12-22.38.39:756][173]LogFbx: Loading FBX Scene from C:\Users\studentuser\Desktop\SM_SmallRock.fbx
+[2017.12.12-22.38.39:761][173]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.12-22.38.39:763][173]LogFbx:Warning: Triangulating static mesh SM_SmallRock:Group36385
+[2017.12.12-22.38.39:803][173]LogStaticMesh: Building static mesh SM_SmallRock...
+[2017.12.12-22.38.39:811][173]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/Enviornment/SM_SmallRock.SM_SmallRock
+[2017.12.12-22.38.39:833][173]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\studentuser\Desktop\SM_CliffRock.fbx)
+[2017.12.12-22.38.39:842][173]LogFbx: Loading FBX Scene from C:\Users\studentuser\Desktop\SM_CliffRock.fbx
+[2017.12.12-22.38.39:848][173]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.12-22.38.39:854][173]LogFbx:Warning: Triangulating static mesh walllow2:Group12640
+[2017.12.12-22.38.40:169][173]LogStaticMesh: Building static mesh SM_CliffRock...
+[2017.12.12-22.38.40:240][173]LogStaticMesh: Built static mesh [0.07s] /Game/StaticMeshes/Enviornment/SM_CliffRock.SM_CliffRock
+[2017.12.12-22.38.40:276][173]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\studentuser\Desktop\SM_Skybox.fbx)
+[2017.12.12-22.38.40:285][173]LogFbx: Loading FBX Scene from C:\Users\studentuser\Desktop\SM_Skybox.fbx
+[2017.12.12-22.38.40:289][173]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.12-22.38.40:291][173]LogFbx:Warning: Triangulating static mesh pSphere3
+[2017.12.12-22.38.40:333][173]LogStaticMesh: Building static mesh SM_Skybox...
+[2017.12.12-22.38.40:334][173]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.12.12-22.38.40:341][173]LogStaticMesh: Built static mesh [0.01s] /Game/StaticMeshes/Enviornment/SM_Skybox.SM_Skybox
+[2017.12.12-22.38.43:655][554]LogSavePackage: Save=11.79ms
+[2017.12.12-22.38.43:655][554]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/SM_SmallRock03B821D848E1F188D699CAA4051A382E.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/StaticMeshes/Enviornment/SM_SmallRock.uasset'
+[2017.12.12-22.38.43:656][554]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/StaticMeshes/Enviornment/SM_SmallRock.uasset
+[2017.12.12-22.38.43:702][554]LogSavePackage: Save=22.06ms
+[2017.12.12-22.38.43:702][554]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/SM_CliffRockBBBBEFBA4F9D622726BAAA91D246423B.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/StaticMeshes/Enviornment/SM_CliffRock.uasset'
+[2017.12.12-22.38.43:703][554]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/StaticMeshes/Enviornment/SM_CliffRock.uasset
+[2017.12.12-22.38.43:726][554]LogSavePackage: Save=11.20ms
+[2017.12.12-22.38.43:726][554]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/SM_Skybox802DFEA245CBC9EE3D160AA645E666EC.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/StaticMeshes/Enviornment/SM_Skybox.uasset'
+[2017.12.12-22.38.43:727][554]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/StaticMeshes/Enviornment/SM_Skybox.uasset
+[2017.12.12-22.38.48:672][129]LogActorFactory: Actor Factory created SM_CliffRock
+[2017.12.12-22.38.48:709][129]LogActorFactory: Actor Factory created SM_Skybox
+[2017.12.12-22.38.48:710][129]LogActorFactory: Actor Factory created SM_SmallRock
+[2017.12.12-22.38.48:947][155]LogActorFactory: Actor Factory created SM_CliffRock
+[2017.12.12-22.38.48:965][155]LogActorFactory: Actor Factory created SM_Skybox
+[2017.12.12-22.38.48:979][155]LogActorFactory: Actor Factory created SM_SmallRock
+[2017.12.12-22.38.50:000][251]Cmd: TRANSACTION UNDO
+[2017.12.12-22.38.50:000][251]LogEditorTransaction: Undo Create Actors
+[2017.12.12-22.38.51:275][348]LogActorFactory: Actor Factory created SM_Skybox
+[2017.12.12-22.38.51:696][396]LogActorFactory: Actor Factory created SM_Skybox
+[2017.12.12-22.38.54:501][664]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.12.12-22.38.56:662][883]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.38.56:662][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.12-22.38.56:663][883]PIE: New page: SIE session: default (Dec 12, 2017, 6:38:56 AM)
+[2017.12.12-22.38.56:663][883]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.12-22.38.56:825][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.161942s)
+[2017.12.12-22.38.56:826][883]LogAIModule: Creating AISystem for world default
+[2017.12.12-22.38.56:826][883]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2017.12.12-22.38.56:826][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.163449s)
+[2017.12.12-22.38.56:850][883]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.12-22.38.56:864][883]LogInit: FAudioDevice initialized.
+[2017.12.12-22.38.56:909][883]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.12-22.38.56:922][883]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.12-14.38.56
+[2017.12.12-22.38.56:924][883]LogWorld: Bringing up level for play took: 0.013057
+[2017.12.12-22.38.56:924][883]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.12-22.38.56:954][883]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.12.12-22.38.56:954][883]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.38.56:956][883]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.38.56:956][883]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.821
+[2017.12.12-22.38.56:970][883]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.39.03:191][391]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.12.12-22.39.09:441][918]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.39.09:488][918]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.39.17:964][905]LogActorFactory: Actor Factory created SM_CliffRock
+[2017.12.12-22.39.19:048][ 33]LogActorFactory: Actor Factory created SM_CliffRock
+[2017.12.12-22.39.20:723][215]Cmd: DELETE
+[2017.12.12-22.39.20:723][215]Cmd: ACTOR DELETE
+[2017.12.12-22.39.20:729][215]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.12-22.39.20:739][215]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.12.12-22.39.23:787][563]LogActorFactory: Actor Factory created SM_SmallRock
+[2017.12.12-22.39.24:974][703]LogActorFactory: Actor Factory created SM_SmallRock
+[2017.12.12-22.39.25:216][726]Cmd: DELETE
+[2017.12.12-22.39.25:216][726]Cmd: ACTOR DELETE
+[2017.12.12-22.39.25:222][726]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.12-22.39.25:233][726]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.12.12-22.39.25:959][811]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.12.12-22.39.28:007][998]LogMaterial: Missing cached shader map for material M_LandscapeMaterial, compiling. 
+[2017.12.12-22.39.28:007][998]LogMaterial:Warning: Failed to compile Material Instance /Engine/Transient.LandscapeMaterialInstanceConstant_14 with Base M_LandscapeMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.12-22.39.28:007][998]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.12-22.39.28:008][998]LogMaterial: Missing cached shader map for material M_LandscapeMaterial, compiling. 
+[2017.12.12-22.39.28:009][998]LogMaterial:Warning: Failed to compile Material Instance /Engine/Transient.LandscapeMaterialInstanceConstant_14 with Base M_LandscapeMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.12-22.39.28:009][998]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.12-22.39.28:150][998]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.12.12-22.40.25:949][802]Cmd: SELECT NONE
+[2017.12.12-22.40.27:628][990]LogTemp: Repeting last play command: Simulate
+[2017.12.12-22.40.27:658][990]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.40.27:658][990]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.12-22.40.27:658][990]PIE: New page: SIE session: default (Dec 12, 2017, 6:40:27 AM)
+[2017.12.12-22.40.27:659][990]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.12-22.40.27:819][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.159909s)
+[2017.12.12-22.40.27:819][990]LogAIModule: Creating AISystem for world default
+[2017.12.12-22.40.27:820][990]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2017.12.12-22.40.27:820][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.161503s)
+[2017.12.12-22.40.27:839][990]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.12-22.40.27:851][990]LogInit: FAudioDevice initialized.
+[2017.12.12-22.40.27:884][990]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.12-22.40.27:896][990]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.12-14.40.27
+[2017.12.12-22.40.27:898][990]LogWorld: Bringing up level for play took: 0.012585
+[2017.12.12-22.40.27:898][990]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.12-22.40.27:898][990]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.40.27:900][990]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.40.27:901][990]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.234
+[2017.12.12-22.40.27:903][990]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.41.04:725][145]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.41.04:761][145]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.41.09:932][760]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.12.12-22.41.11:404][933]LogEditorViewport: Clicking on Actor (LMB): BP_SiegePathStops_C (BP_CatapultPathStops)
+[2017.12.12-22.41.13:644][198]LogEditorViewport: Clicking on Actor (LMB): BP_SoldierPathStops_C (BP_SoldierPathStops)
+[2017.12.12-22.41.14:895][345]LogEditorViewport: Clicking on Actor (LMB): BP_ArcherPathStops_C (BP_ArcherPathStops)
+[2017.12.12-22.41.16:512][536]LogEditorViewport: Clicking on Actor (LMB): BP_SiegePathStops_C (BP_CatapultPathStops)
+[2017.12.12-22.41.17:966][707]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.12.12-22.41.18:797][803]LogEditorViewport: Clicking on Actor (LMB): BP_SiegePathStops_C (BP_CatapultPathStops)
+[2017.12.12-22.41.26:706][740]LogEditorViewport: Clicking on Actor (LMB): Actor (CatapultSpawnPoint2)
+[2017.12.12-22.41.28:938][992]LogEditorViewport: Clicking on Actor (LMB): Actor (ArcherSpawnpoint2)
+[2017.12.12-22.41.34:813][674]LogEditorViewport: Clicking on Actor (LMB): BP_SiegePathStops_C (BP_CatapultPathStops)
+[2017.12.12-22.41.36:424][859]LogTemp: Repeting last play command: Simulate
+[2017.12.12-22.41.36:452][859]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.41.36:453][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.12-22.41.36:453][859]PIE: New page: SIE session: default (Dec 12, 2017, 6:41:36 AM)
+[2017.12.12-22.41.36:453][859]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.12-22.41.36:608][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155259s)
+[2017.12.12-22.41.36:609][859]LogAIModule: Creating AISystem for world default
+[2017.12.12-22.41.36:609][859]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2017.12.12-22.41.36:610][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.156596s)
+[2017.12.12-22.41.36:629][859]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.12-22.41.36:641][859]LogInit: FAudioDevice initialized.
+[2017.12.12-22.41.36:675][859]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.12-22.41.36:690][859]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.12-14.41.36
+[2017.12.12-22.41.36:692][859]LogWorld: Bringing up level for play took: 0.015405
+[2017.12.12-22.41.36:692][859]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.12-22.41.36:692][859]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.41.36:695][859]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.41.36:695][859]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.56
+[2017.12.12-22.41.36:703][859]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.41.38:964][ 89]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.12.12-22.41.39:761][163]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.12.12-22.41.40:612][245]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.41.40:655][245]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.41.44:348][682]LogEditorViewport: Clicking on Actor (LMB): BP_SiegePathStops_C (BP_CatapultPathStops)
+[2017.12.12-22.41.46:307][880]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.12.12-22.41.46:766][880]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.12-22.41.46:841][881]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.12-22.41.53:207][590]BlueprintLog: New page: Compile BP_SiegePathStops
+[2017.12.12-22.42.01:827][763]LogTemp: Repeting last play command: Simulate
+[2017.12.12-22.42.01:860][763]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.42.01:861][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.12-22.42.01:861][763]PIE: New page: SIE session: default (Dec 12, 2017, 6:42:01 AM)
+[2017.12.12-22.42.01:861][763]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.12-22.42.02:021][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.159890s)
+[2017.12.12-22.42.02:022][763]LogAIModule: Creating AISystem for world default
+[2017.12.12-22.42.02:022][763]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2017.12.12-22.42.02:023][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.161668s)
+[2017.12.12-22.42.02:048][763]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.12-22.42.02:060][763]LogInit: FAudioDevice initialized.
+[2017.12.12-22.42.02:094][763]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.12-22.42.02:105][763]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.12-14.42.02
+[2017.12.12-22.42.02:106][763]LogWorld: Bringing up level for play took: 0.011473
+[2017.12.12-22.42.02:107][763]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.12-22.42.02:107][763]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.42.02:109][763]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.42.02:109][763]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.026
+[2017.12.12-22.42.02:116][763]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.42.03:216][888]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.42.03:261][888]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.42.09:013][558]LogEditorViewport: Clicking on Actor (LMB): Actor (SoldierSpawnPoint2)
+[2017.12.12-22.42.10:598][745]LogEditorViewport: Clicking on Actor (LMB): Actor (CatapultSpawnPoint2)
+[2017.12.12-22.42.11:911][900]LogEditorViewport: Clicking on Actor (LMB): Actor (ArcherSpawnpoint2)
+[2017.12.12-22.42.17:485][555]LogTemp: Repeting last play command: Simulate
+[2017.12.12-22.42.17:513][555]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.42.17:514][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.12-22.42.17:514][555]PIE: New page: SIE session: default (Dec 12, 2017, 6:42:17 AM)
+[2017.12.12-22.42.17:514][555]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.12-22.42.17:673][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.159255s)
+[2017.12.12-22.42.17:674][555]LogAIModule: Creating AISystem for world default
+[2017.12.12-22.42.17:675][555]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2017.12.12-22.42.17:675][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.161253s)
+[2017.12.12-22.42.17:699][555]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.12-22.42.17:711][555]LogInit: FAudioDevice initialized.
+[2017.12.12-22.42.17:747][555]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.12-22.42.17:757][555]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.12-14.42.17
+[2017.12.12-22.42.17:759][555]LogWorld: Bringing up level for play took: 0.011287
+[2017.12.12-22.42.17:759][555]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.12-22.42.17:759][555]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.42.17:761][555]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.42.17:762][555]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.374
+[2017.12.12-22.42.17:768][555]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.42.23:041][ 42]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.42.23:085][ 42]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.42.23:753][115]LogTemp: Repeting last play command: Simulate
+[2017.12.12-22.42.23:782][115]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.42.23:782][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.12-22.42.23:782][115]PIE: New page: SIE session: default (Dec 12, 2017, 6:42:23 AM)
+[2017.12.12-22.42.23:782][115]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.12-22.42.23:941][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158266s)
+[2017.12.12-22.42.23:942][115]LogAIModule: Creating AISystem for world default
+[2017.12.12-22.42.23:942][115]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2017.12.12-22.42.23:943][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.160314s)
+[2017.12.12-22.42.23:973][115]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.12-22.42.23:985][115]LogInit: FAudioDevice initialized.
+[2017.12.12-22.42.24:017][115]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.12-22.42.24:028][115]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.12-14.42.24
+[2017.12.12-22.42.24:029][115]LogWorld: Bringing up level for play took: 0.011434
+[2017.12.12-22.42.24:030][115]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.12-22.42.24:030][115]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.42.24:032][115]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.42.24:032][115]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.103
+[2017.12.12-22.42.24:038][115]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.42.26:343][373]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.42.26:390][373]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.42.27:508][501]LogTemp: Repeting last play command: Simulate
+[2017.12.12-22.42.27:536][501]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.42.27:536][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.12-22.42.27:536][501]PIE: New page: SIE session: default (Dec 12, 2017, 6:42:27 AM)
+[2017.12.12-22.42.27:536][501]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.12-22.42.27:696][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.159522s)
+[2017.12.12-22.42.27:697][501]LogAIModule: Creating AISystem for world default
+[2017.12.12-22.42.27:697][501]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2017.12.12-22.42.27:698][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.161464s)
+[2017.12.12-22.42.27:726][501]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.12-22.42.27:738][501]LogInit: FAudioDevice initialized.
+[2017.12.12-22.42.27:771][501]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.12-22.42.27:782][501]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.12-14.42.27
+[2017.12.12-22.42.27:783][501]LogWorld: Bringing up level for play took: 0.011732
+[2017.12.12-22.42.27:784][501]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.12-22.42.27:784][501]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.42.27:786][501]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.42.27:786][501]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.349
+[2017.12.12-22.42.27:792][501]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.42.35:774][342]LogEditorViewport: Clicking on Actor (LMB): BP_Catapult_C (BP_Catapult1)
+[2017.12.12-22.43.36:360][594]LogScript:Warning: Attempted to access BP_Catapult_C_1 via property ActorToMove_12_318CF5754564EEEE659F6AB0C499AFF6, but BP_Catapult_C_1 is pending kill
+	BP_Overlord_Level02_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Overlord_Level02_200
+	Function /Game/Vive/Blueprints/Overlords/BP_Overlord_Master.BP_Overlord_Master_C:ExecuteUbergraph_BP_Overlord_Master:1251
+[2017.12.12-22.43.36:361][594]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_Catapult_C_1 via property ActorToMove_12_318CF5754564EEEE659F6AB0C499AFF6, but BP_Catapult_C_1 is pending kill from function: 'ExecuteUbergraph_BP_Overlord_Master' from node: SetActorTransform in graph: CustomEvents in object: BP_Overlord_Master with description: Attempted to access BP_Catapult_C_1 via property ActorToMove_12_318CF5754564EEEE659F6AB0C499AFF6, but BP_Catapult_C_1 is pending kill
+[2017.12.12-22.43.36:361][594]LogScript:Warning: Attempted to access BP_Catapult_C_1 via property K2Node_DynamicCast_AsAi_Character2, but BP_Catapult_C_1 is pending kill
+	BP_Overlord_Level02_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Overlord_Level02_200
+	Function /Game/Vive/Blueprints/Overlords/BP_Overlord_Master.BP_Overlord_Master_C:ExecuteUbergraph_BP_Overlord_Master:12DF
+[2017.12.12-22.43.36:361][594]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_Catapult_C_1 via property K2Node_DynamicCast_AsAi_Character2, but BP_Catapult_C_1 is pending kill from function: 'ExecuteUbergraph_BP_Overlord_Master' from node: Set IsActive in graph: CustomEvents in object: BP_Overlord_Master with description: Attempted to access BP_Catapult_C_1 via property K2Node_DynamicCast_AsAi_Character2, but BP_Catapult_C_1 is pending kill
+[2017.12.12-22.43.36:362][594]LogScript:Warning: Attempted to access BP_SoldierAI_C_2 via property K2Node_DynamicCast_AsAi_Character4, but BP_SoldierAI_C_2 is pending kill
+	BP_Overlord_Level02_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Overlord_Level02_200
+	Function /Game/Vive/Blueprints/Overlords/BP_Overlord_Master.BP_Overlord_Master_C:ExecuteUbergraph_BP_Overlord_Master:14C0
+[2017.12.12-22.43.36:362][594]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_SoldierAI_C_2 via property K2Node_DynamicCast_AsAi_Character4, but BP_SoldierAI_C_2 is pending kill from function: 'ExecuteUbergraph_BP_Overlord_Master' from node: Enemy Type to Spawn Side in graph: CustomEvents in object: BP_Overlord_Master with description: Attempted to access BP_SoldierAI_C_2 via property K2Node_DynamicCast_AsAi_Character4, but BP_SoldierAI_C_2 is pending kill
+[2017.12.12-22.43.36:362][594]LogScript:Warning: Attempted to access BP_SoldierAI_C_2 via property CallFunc_Array_Get_Item, but BP_SoldierAI_C_2 is pending kill
+	BP_Overlord_Level02_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Overlord_Level02_200
+	Function /Game/Vive/Blueprints/Overlords/BP_Overlord_Master.BP_Overlord_Master_C:ExecuteUbergraph_BP_Overlord_Master:157D
+[2017.12.12-22.43.36:363][594]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_SoldierAI_C_2 via property CallFunc_Array_Get_Item, but BP_SoldierAI_C_2 is pending kill from function: 'ExecuteUbergraph_BP_Overlord_Master' from node: SetActorTransform in graph: CustomEvents in object: BP_Overlord_Master with description: Attempted to access BP_SoldierAI_C_2 via property CallFunc_Array_Get_Item, but BP_SoldierAI_C_2 is pending kill
+[2017.12.12-22.43.36:363][594]LogScript:Warning: Attempted to access BP_SoldierAI_C_2 via property K2Node_DynamicCast_AsAi_Character3, but BP_SoldierAI_C_2 is pending kill
+	BP_Overlord_Level02_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Overlord_Level02_200
+	Function /Game/Vive/Blueprints/Overlords/BP_Overlord_Master.BP_Overlord_Master_C:ExecuteUbergraph_BP_Overlord_Master:1646
+[2017.12.12-22.43.36:363][594]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_SoldierAI_C_2 via property K2Node_DynamicCast_AsAi_Character3, but BP_SoldierAI_C_2 is pending kill from function: 'ExecuteUbergraph_BP_Overlord_Master' from node: Set IsActive in graph: CustomEvents in object: BP_Overlord_Master with description: Attempted to access BP_SoldierAI_C_2 via property K2Node_DynamicCast_AsAi_Character3, but BP_SoldierAI_C_2 is pending kill
+[2017.12.12-22.43.36:363][594]LogScript:Warning: Attempted to access BP_SoldierAI_C_3 via property K2Node_DynamicCast_AsAi_Character4, but BP_SoldierAI_C_3 is pending kill
+	BP_Overlord_Level02_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Overlord_Level02_200
+	Function /Game/Vive/Blueprints/Overlords/BP_Overlord_Master.BP_Overlord_Master_C:ExecuteUbergraph_BP_Overlord_Master:14C0
+[2017.12.12-22.43.36:364][594]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_SoldierAI_C_3 via property K2Node_DynamicCast_AsAi_Character4, but BP_SoldierAI_C_3 is pending kill from function: 'ExecuteUbergraph_BP_Overlord_Master' from node: Enemy Type to Spawn Side in graph: CustomEvents in object: BP_Overlord_Master with description: Attempted to access BP_SoldierAI_C_3 via property K2Node_DynamicCast_AsAi_Character4, but BP_SoldierAI_C_3 is pending kill
+[2017.12.12-22.43.36:364][594]LogScript:Warning: Attempted to access BP_SoldierAI_C_3 via property CallFunc_Array_Get_Item, but BP_SoldierAI_C_3 is pending kill
+	BP_Overlord_Level02_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Overlord_Level02_200
+	Function /Game/Vive/Blueprints/Overlords/BP_Overlord_Master.BP_Overlord_Master_C:ExecuteUbergraph_BP_Overlord_Master:157D
+[2017.12.12-22.43.36:364][594]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_SoldierAI_C_3 via property CallFunc_Array_Get_Item, but BP_SoldierAI_C_3 is pending kill from function: 'ExecuteUbergraph_BP_Overlord_Master' from node: SetActorTransform in graph: CustomEvents in object: BP_Overlord_Master with description: Attempted to access BP_SoldierAI_C_3 via property CallFunc_Array_Get_Item, but BP_SoldierAI_C_3 is pending kill
+[2017.12.12-22.43.36:365][594]LogScript:Warning: Attempted to access BP_SoldierAI_C_3 via property K2Node_DynamicCast_AsAi_Character3, but BP_SoldierAI_C_3 is pending kill
+	BP_Overlord_Level02_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Overlord_Level02_200
+	Function /Game/Vive/Blueprints/Overlords/BP_Overlord_Master.BP_Overlord_Master_C:ExecuteUbergraph_BP_Overlord_Master:1646
+[2017.12.12-22.43.36:365][594]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_SoldierAI_C_3 via property K2Node_DynamicCast_AsAi_Character3, but BP_SoldierAI_C_3 is pending kill from function: 'ExecuteUbergraph_BP_Overlord_Master' from node: Set IsActive in graph: CustomEvents in object: BP_Overlord_Master with description: Attempted to access BP_SoldierAI_C_3 via property K2Node_DynamicCast_AsAi_Character3, but BP_SoldierAI_C_3 is pending kill
+[2017.12.12-22.43.37:966][724]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.43.38:007][724]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.43.40:092][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Skybox)
+[2017.12.12-22.44.08:436][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\studentuser\Desktop\T_CliffRock.tga)
+[2017.12.12-22.44.08:889][800]LogTexture:Display: Building textures: T_CliffRock (AutoDXT, 4096X4096)
+[2017.12.12-22.44.12:155][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\studentuser\Desktop\T_SkySphere_HDRI.png)
+[2017.12.12-22.44.12:597][800]LogTexture:Display: Building textures: T_SkySphere_HDRI (AutoDXT, 5000X2500)
+[2017.12.12-22.44.19:336][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\studentuser\Desktop\T_SmallRock.TGA)
+[2017.12.12-22.44.19:761][800]LogTexture:Display: Building textures: T_SmallRock (AutoDXT, 4096X4096)
+[2017.12.12-22.44.54:453][400]LogMaterial: Missing cached shader map for material M_Skybox, compiling. 
+[2017.12.12-22.44.54:549][400]LogMaterial: Missing cached shader map for material M_Skybox, compiling. 
+[2017.12.12-22.44.54:558][400]LogMaterial: Missing cached shader map for material M_Skybox, compiling. 
+[2017.12.12-22.44.55:608][507]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.12.12-22.44.55:608][507]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.12-22.44.55:608][507]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.12-22.44.57:350][713]LogMaterial: Missing cached shader map for material M_Skybox, compiling. 
+[2017.12.12-22.44.57:358][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-22.44.58:168][801]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.12.12-22.44.58:168][801]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.12-22.44.58:169][801]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.12-22.44.58:516][842]LogMaterial: Missing cached shader map for material M_Skybox, compiling. 
+[2017.12.12-22.44.59:339][931]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.12.12-22.44.59:339][931]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.12-22.44.59:339][931]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.12-22.45.00:291][ 45]LogMaterial: Missing cached shader map for material M_Skybox, compiling. 
+[2017.12.12-22.45.01:097][134]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.12.12-22.45.01:097][134]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.12-22.45.01:097][134]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.12-22.45.01:715][208]LogMaterial: Missing cached shader map for material M_Skybox, compiling. 
+[2017.12.12-22.45.02:521][298]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.12.12-22.45.02:521][298]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.12-22.45.02:521][298]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.12-22.45.03:215][381]LogMaterial: Missing cached shader map for material M_Skybox, compiling. 
+[2017.12.12-22.45.04:022][467]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.12.12-22.45.04:022][467]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.12-22.45.04:022][467]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.12-22.45.06:134][720]LogMaterial: Missing cached shader map for material M_Skybox, compiling. 
+[2017.12.12-22.45.06:134][720]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Skybox for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.12-22.45.06:134][720]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.12-22.45.06:138][720]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-22.45.06:162][720]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2017.12.12-22.45.10:474][209]LogMaterial: Missing cached shader map for material M_Skybox, compiling. 
+[2017.12.12-22.45.10:489][209]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-22.45.11:381][299]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.12.12-22.45.11:381][299]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.12.12-22.45.11:381][299]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.12.12-22.45.11:382][299]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-22.45.20:298][974]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.12-22.45.20:819][974]LogSavePackage: Save=3551.40ms
+[2017.12.12-22.45.20:819][974]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/default4F9E4680478022A0B0E6E5A31F498BA4.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.12-22.45.20:823][974]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.12-22.45.20:883][974]LogFileHelpers: Saving map 'default' took 3.707
+[2017.12.12-22.45.20:932][974]LogSavePackage: Save=38.12ms
+[2017.12.12-22.45.20:932][974]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/BP_SiegePathStops1A3ED74E413375C20676BA9C80AF223A.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Vive/Blueprints/AI/SiegeAI/BP_SiegePathStops.uasset'
+[2017.12.12-22.45.20:934][974]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Vive/Blueprints/AI/SiegeAI/BP_SiegePathStops.uasset
+[2017.12.12-22.45.22:160][974]LogSavePackage: Save=1213.86ms
+[2017.12.12-22.45.22:160][974]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/T_CliffRock1980B9904E80D255D9A543B61311EF34.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Textures/Enviornment/Enviornment/T_CliffRock.uasset'
+[2017.12.12-22.45.22:162][974]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Textures/Enviornment/Enviornment/T_CliffRock.uasset
+[2017.12.12-22.45.23:188][974]LogSavePackage: Save=1002.76ms
+[2017.12.12-22.45.23:188][974]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/T_SkySphere_HDRI5BE890214BB8BB83C4C549AC1EB68376.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Textures/Enviornment/Enviornment/T_SkySphere_HDRI.uasset'
+[2017.12.12-22.45.23:189][974]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Textures/Enviornment/Enviornment/T_SkySphere_HDRI.uasset
+[2017.12.12-22.45.24:432][974]LogSavePackage: Save=1233.95ms
+[2017.12.12-22.45.24:432][974]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/T_SmallRock327AFCEE4386AECBCF78BE81B41341AF.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Textures/Enviornment/Enviornment/T_SmallRock.uasset'
+[2017.12.12-22.45.24:433][974]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Textures/Enviornment/Enviornment/T_SmallRock.uasset
+[2017.12.12-22.45.24:460][974]LogSavePackage: Save=11.78ms
+[2017.12.12-22.45.24:460][974]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/M_SkyboxD5BD1ED444F4C4A0BDA313BADEECA709.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Materials/Enviornment/M_Skybox.uasset'
+[2017.12.12-22.45.24:461][974]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Materials/Enviornment/M_Skybox.uasset
+[2017.12.12-22.45.37:782][510]LogMaterialEditor: Applying material M_Skybox
+[2017.12.12-22.45.38:189][510]LogMaterial: Missing cached shader map for material M_Skybox, compiling. 
+[2017.12.12-22.45.38:226][510]LogMaterial: Missing cached shader map for material M_Skybox, compiling. 
+[2017.12.12-22.45.38:243][510]LogMaterial: Missing cached shader map for material M_Skybox, compiling. 
+[2017.12.12-22.45.38:304][510]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Skybox, compiling. 
+[2017.12.12-22.45.39:089][510]TextureStreamingBuild:Display: Compiling optional shaders took 0.789 seconds.
+[2017.12.12-22.45.40:648][658]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.12.12-22.45.40:649][658]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.12.12-22.45.40:649][658]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.12.12-22.45.40:649][658]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-22.45.43:290][968]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.12.12-22.45.51:597][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Skybox)
+[2017.12.12-22.46.22:316][139]LogSavePackage: Save=3512.59ms
+[2017.12.12-22.46.22:316][139]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/defaultC335035646E64D0B6273B1BF94ED2AE4.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.12-22.46.22:320][139]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.12-22.46.22:373][139]LogFileHelpers: Saving map 'default' took 3.644
+[2017.12.12-22.46.22:406][139]LogSavePackage: Save=15.96ms
+[2017.12.12-22.46.22:406][139]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/M_Skybox870BB4F24D8F86A23A08779FCC4540F1.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Materials/Enviornment/M_Skybox.uasset'
+[2017.12.12-22.46.22:407][139]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Materials/Enviornment/M_Skybox.uasset
+[2017.12.12-22.46.23:199][233]LogTemp: Repeting last play command: Simulate
+[2017.12.12-22.46.23:227][233]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.46.23:228][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.12-22.46.23:228][233]PIE: New page: SIE session: default (Dec 12, 2017, 6:46:23 AM)
+[2017.12.12-22.46.23:228][233]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.12-22.46.23:385][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.156733s)
+[2017.12.12-22.46.23:386][233]LogAIModule: Creating AISystem for world default
+[2017.12.12-22.46.23:386][233]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2017.12.12-22.46.23:386][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.158443s)
+[2017.12.12-22.46.23:412][233]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.12-22.46.23:425][233]LogInit: FAudioDevice initialized.
+[2017.12.12-22.46.23:457][233]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.12-22.46.23:468][233]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.12-14.46.23
+[2017.12.12-22.46.23:469][233]LogWorld: Bringing up level for play took: 0.011387
+[2017.12.12-22.46.23:470][233]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.12-22.46.23:470][233]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.46.23:472][233]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.46.23:472][233]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.663
+[2017.12.12-22.46.23:489][233]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.47.10:414][508]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.12-22.47.10:415][508]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Spawned
+[2017.12.12-22.47.10:415][508]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] BP_ArcherAi1
+[2017.12.12-22.47.10:415][508]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2017.12.12-22.47.11:770][591]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Castle Succesful
+[2017.12.12-22.47.15:411][813]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.12-22.47.15:412][813]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Spawned
+[2017.12.12-22.47.15:412][813]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] BP_ArcherAi1
+[2017.12.12-22.47.15:412][813]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Cast Failed
+[2017.12.12-22.47.16:765][903]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Castle Succesful
+[2017.12.12-22.47.17:276][941]LogCharacterMovement: BP_SoldierAI_C_9 is stuck and failed to move! Velocity: X=499.90 Y=10.07 Z=0.00 Location: X=4133.40 Y=23662.14 Z=90.15 Normal: X=-0.83 Y=0.55 Z=-0.00 PenetrationDepth:30.392 Actor:BP_SoldierAI_C_2 Component:Sword BoneName:None (0 other events since notify)
+[2017.12.12-22.47.20:415][166]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.12-22.47.20:415][166]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Spawned
+[2017.12.12-22.47.20:416][166]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] BP_ArcherAi1
+[2017.12.12-22.47.20:416][166]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Cast Failed
+[2017.12.12-22.47.21:770][254]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Castle Succesful
+[2017.12.12-22.47.25:410][519]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.12-22.47.25:411][519]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Spawned
+[2017.12.12-22.47.25:411][519]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] BP_ArcherAi1
+[2017.12.12-22.47.25:411][519]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Cast Failed
+[2017.12.12-22.47.26:765][627]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Castle Succesful
+[2017.12.12-22.47.30:411][914]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.12-22.47.30:411][914]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Spawned
+[2017.12.12-22.47.30:412][914]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] BP_ArcherAi1
+[2017.12.12-22.47.30:412][914]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Cast Failed
+[2017.12.12-22.47.30:621][930]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.47.31:767][ 21]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Castle Succesful
+[2017.12.12-22.47.32:858][110]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.12-22.47.32:858][110]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Spawned
+[2017.12.12-22.47.32:858][110]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] BP_ArcherAi
+[2017.12.12-22.47.32:858][110]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Cast Failed
+[2017.12.12-22.47.33:624][172]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.47.34:219][221]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Castle Succesful
+[2017.12.12-22.47.35:414][321]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.12-22.47.35:415][321]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Spawned
+[2017.12.12-22.47.35:415][321]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] BP_ArcherAi1
+[2017.12.12-22.47.35:415][321]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Cast Failed
+[2017.12.12-22.47.36:632][445]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.47.36:769][461]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Castle Succesful
+[2017.12.12-22.47.38:026][611]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12771.581 Y=4153.899 Z=2809.945
+[2017.12.12-22.47.38:027][611]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Spawned
+[2017.12.12-22.47.38:027][611]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] BP_ArcherAi
+[2017.12.12-22.47.38:027][611]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Cast Failed
+[2017.12.12-22.47.38:029][611]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.47.38:082][611]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.48.03:785][644]LogEditorViewport: Clicking on Actor (LMB): BP_Castle_C (BP_Castle)
+[2017.12.12-22.48.04:285][698]LogEditorViewport: Clicking on Actor (LMB): BP_HeavyArrowsPile_C (BP_HeavyArrowsPile)
+[2017.12.12-22.50.44:169][ 94]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.12-22.51.34:636][970]LogSlate: Took 0.003731 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.12.12-22.52.47:474][605]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.12-22.52.53:635][138]LogSavePackage: Save=765.30ms
+[2017.12.12-22.52.53:635][138]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/BP_Overlord_Master1F7518C64F7F8B2A84053D913DCFD554.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.12-22.52.53:637][138]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.12-22.53.44:976][103]LogSavePackage: Save=764.58ms
+[2017.12.12-22.53.44:976][103]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/BP_Overlord_Master49006346470A7623D289EEADBBD2834B.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.12-22.53.44:978][103]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.12-22.53.45:371][148]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.12-22.53.50:657][722]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.53.50:658][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.12-22.53.50:658][722]PIE: New page: PIE session: default (Dec 12, 2017, 6:53:50 AM)
+[2017.12.12-22.53.50:658][722]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.12-22.53.50:818][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.160011s)
+[2017.12.12-22.53.50:819][722]LogAIModule: Creating AISystem for world default
+[2017.12.12-22.53.50:819][722]LogPlayLevel: PIE: World Init took: (0.001116s)
+[2017.12.12-22.53.50:820][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.162277s)
+[2017.12.12-22.53.50:850][722]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.12-22.53.50:866][722]LogInit: FAudioDevice initialized.
+[2017.12.12-22.53.50:951][722]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.12-22.53.50:964][722]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.12.12-14.53.50
+[2017.12.12-22.53.50:965][722]LogWorld: Bringing up level for play took: 0.013233
+[2017.12.12-22.53.50:966][722]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.53.50:966][722]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.12-22.53.50:966][722]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.12-22.53.50:968][722]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.12-22.53.50:973][722]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.838
+[2017.12.12-22.53.50:973][722]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.53.51:016][723]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.12.12-22.54.18:034][139]LogBlueprintUserMessages: [Vive_Pawn_605] X=69786.195 Y=693762.625 Z=-250434.594
+[2017.12.12-22.54.20:258][338]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12729.964 Y=4141.165 Z=2924.944
+[2017.12.12-22.54.20:258][338]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Spawned
+[2017.12.12-22.54.20:258][338]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] BP_ArcherAi
+[2017.12.12-22.54.20:258][338]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2017.12.12-22.54.21:631][461]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] SM_TestDoor_Blueprint
+[2017.12.12-22.54.21:631][461]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2017.12.12-22.54.21:642][462]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Overlap Component
+[2017.12.12-22.54.25:250][785]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12717.285 Y=4100.148 Z=2967.532
+[2017.12.12-22.54.25:251][785]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Spawned
+[2017.12.12-22.54.25:251][785]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] BP_ArcherAi
+[2017.12.12-22.54.25:251][785]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Cast Failed
+[2017.12.12-22.54.26:624][908]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] SM_TestDoor_Blueprint
+[2017.12.12-22.54.26:624][908]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Cast Failed
+[2017.12.12-22.54.26:635][909]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Overlap Component
+[2017.12.12-22.54.26:892][932]LogBlueprintUserMessages: [Vive_Pawn_605] X=-32962.402 Y=1632431.875 Z=-621530.125
+[2017.12.12-22.54.27:832][ 16]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12720.479 Y=4102.914 Z=2968.244
+[2017.12.12-22.54.27:832][ 16]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Spawned
+[2017.12.12-22.54.27:832][ 16]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] BP_ArcherAi1
+[2017.12.12-22.54.27:832][ 16]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Cast Failed
+[2017.12.12-22.54.29:205][139]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] SM_TestDoor_Blueprint
+[2017.12.12-22.54.29:206][139]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Cast Failed
+[2017.12.12-22.54.29:215][140]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Overlap Component
+[2017.12.12-22.54.30:255][233]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12718.369 Y=4093.969 Z=2968.190
+[2017.12.12-22.54.30:256][233]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Spawned
+[2017.12.12-22.54.30:256][233]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] BP_ArcherAi
+[2017.12.12-22.54.30:256][233]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Cast Failed
+[2017.12.12-22.54.31:628][356]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] SM_TestDoor_Blueprint
+[2017.12.12-22.54.31:628][356]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Cast Failed
+[2017.12.12-22.54.31:639][357]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Overlap Component
+[2017.12.12-22.54.32:835][464]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12714.071 Y=4079.755 Z=2964.894
+[2017.12.12-22.54.32:835][464]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Spawned
+[2017.12.12-22.54.32:835][464]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] BP_ArcherAi1
+[2017.12.12-22.54.32:835][464]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Cast Failed
+[2017.12.12-22.54.34:208][587]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] SM_TestDoor_Blueprint
+[2017.12.12-22.54.34:208][587]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Cast Failed
+[2017.12.12-22.54.34:218][588]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Overlap Component
+[2017.12.12-22.54.35:248][680]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12720.041 Y=4097.161 Z=2960.048
+[2017.12.12-22.54.35:248][680]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Spawned
+[2017.12.12-22.54.35:248][680]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] BP_ArcherAi
+[2017.12.12-22.54.35:248][680]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Cast Failed
+[2017.12.12-22.54.36:620][803]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] SM_TestDoor_Blueprint
+[2017.12.12-22.54.36:620][803]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Cast Failed
+[2017.12.12-22.54.37:837][912]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12718.278 Y=4100.188 Z=2909.594
+[2017.12.12-22.54.37:838][912]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Spawned
+[2017.12.12-22.54.37:838][912]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] BP_ArcherAi1
+[2017.12.12-22.54.37:838][912]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Cast Failed
+[2017.12.12-22.54.39:200][ 34]LogBlueprintUserMessages: [BP_AI_Arrows_C_6] Castle Succesful
+[2017.12.12-22.54.40:250][128]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12717.732 Y=4097.494 Z=2909.629
+[2017.12.12-22.54.40:251][128]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Spawned
+[2017.12.12-22.54.40:251][128]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] BP_ArcherAi
+[2017.12.12-22.54.40:251][128]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Cast Failed
+[2017.12.12-22.54.41:613][250]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Castle Succesful
+[2017.12.12-22.54.42:832][359]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12705.220 Y=4133.036 Z=2925.520
+[2017.12.12-22.54.42:832][359]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] Spawned
+[2017.12.12-22.54.42:833][359]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] BP_ArcherAi1
+[2017.12.12-22.54.42:833][359]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] Cast Failed
+[2017.12.12-22.54.43:691][436]LogBlueprintUserMessages: [Vive_Pawn_605] X=-38962.109 Y=1673963.875 Z=-566675.500
+[2017.12.12-22.54.44:205][482]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] SM_TestDoor_Blueprint
+[2017.12.12-22.54.44:205][482]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] Cast Failed
+[2017.12.12-22.54.44:205][482]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] Overlap Component
+[2017.12.12-22.54.45:243][575]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Dead
+[2017.12.12-22.54.45:255][576]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12708.451 Y=4099.855 Z=2902.935
+[2017.12.12-22.54.45:255][576]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] Spawned
+[2017.12.12-22.54.45:255][576]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] BP_ArcherAi
+[2017.12.12-22.54.45:255][576]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] Cast Failed
+[2017.12.12-22.54.46:617][698]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] Castle Succesful
+[2017.12.12-22.54.47:834][807]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12699.870 Y=4090.358 Z=2887.756
+[2017.12.12-22.54.47:834][807]LogBlueprintUserMessages: [BP_AI_Arrows_C_10] Spawned
+[2017.12.12-22.54.47:835][807]LogBlueprintUserMessages: [BP_AI_Arrows_C_10] BP_ArcherAi1
+[2017.12.12-22.54.47:835][807]LogBlueprintUserMessages: [BP_AI_Arrows_C_10] Cast Failed
+[2017.12.12-22.54.49:197][929]LogBlueprintUserMessages: [BP_AI_Arrows_C_10] Castle Succesful
+[2017.12.12-22.54.50:250][ 23]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12726.041 Y=4147.652 Z=2920.508
+[2017.12.12-22.54.50:250][ 23]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] Spawned
+[2017.12.12-22.54.50:250][ 23]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] BP_ArcherAi
+[2017.12.12-22.54.50:250][ 23]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] Cast Failed
+[2017.12.12-22.54.50:718][ 64]LogBlueprintUserMessages: [Vive_Pawn_605] X=-37966.930 Y=1152635.625 Z=-466362.719
+[2017.12.12-22.54.51:622][145]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] SM_TestDoor_Blueprint
+[2017.12.12-22.54.51:622][145]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] Cast Failed
+[2017.12.12-22.54.52:838][254]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12702.906 Y=4095.779 Z=2890.136
+[2017.12.12-22.54.52:839][254]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] Spawned
+[2017.12.12-22.54.52:839][254]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] BP_ArcherAi1
+[2017.12.12-22.54.52:839][254]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] Cast Failed
+[2017.12.12-22.54.54:201][376]LogBlueprintUserMessages: [BP_AI_Arrows_C_12] Castle Succesful
+[2017.12.12-22.54.55:251][470]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12713.923 Y=4102.790 Z=2905.830
+[2017.12.12-22.54.55:251][470]LogBlueprintUserMessages: [BP_AI_Arrows_C_13] Spawned
+[2017.12.12-22.54.55:251][470]LogBlueprintUserMessages: [BP_AI_Arrows_C_13] BP_ArcherAi
+[2017.12.12-22.54.55:251][470]LogBlueprintUserMessages: [BP_AI_Arrows_C_13] Cast Failed
+[2017.12.12-22.54.56:615][592]LogBlueprintUserMessages: [BP_AI_Arrows_C_13] Castle Succesful
+[2017.12.12-22.54.57:643][684]LogBlueprintUserMessages: [Vive_Pawn_605] X=-279918.031 Y=1668962.375 Z=-132505.688
+[2017.12.12-22.54.57:834][701]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12713.524 Y=4123.565 Z=2923.416
+[2017.12.12-22.54.57:834][701]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] Spawned
+[2017.12.12-22.54.57:834][701]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] BP_ArcherAi1
+[2017.12.12-22.54.57:834][701]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] Cast Failed
+[2017.12.12-22.54.59:206][824]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] SM_TestDoor_Blueprint
+[2017.12.12-22.54.59:207][824]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] Cast Failed
+[2017.12.12-22.54.59:207][824]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] Overlap Component
+[2017.12.12-22.55.00:246][917]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] Dead
+[2017.12.12-22.55.00:257][918]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12709.809 Y=4115.447 Z=2913.458
+[2017.12.12-22.55.00:257][918]LogBlueprintUserMessages: [BP_AI_Arrows_C_15] Spawned
+[2017.12.12-22.55.00:258][918]LogBlueprintUserMessages: [BP_AI_Arrows_C_15] BP_ArcherAi
+[2017.12.12-22.55.00:258][918]LogBlueprintUserMessages: [BP_AI_Arrows_C_15] Cast Failed
+[2017.12.12-22.55.01:618][ 40]LogBlueprintUserMessages: [BP_AI_Arrows_C_15] Castle Succesful
+[2017.12.12-22.55.02:835][149]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12720.531 Y=4098.646 Z=2904.746
+[2017.12.12-22.55.02:836][149]LogBlueprintUserMessages: [BP_AI_Arrows_C_16] Spawned
+[2017.12.12-22.55.02:836][149]LogBlueprintUserMessages: [BP_AI_Arrows_C_16] BP_ArcherAi1
+[2017.12.12-22.55.02:836][149]LogBlueprintUserMessages: [BP_AI_Arrows_C_16] Cast Failed
+[2017.12.12-22.55.04:199][271]LogBlueprintUserMessages: [BP_AI_Arrows_C_16] Castle Succesful
+[2017.12.12-22.55.05:250][365]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12716.556 Y=4128.300 Z=2922.437
+[2017.12.12-22.55.05:251][365]LogBlueprintUserMessages: [BP_AI_Arrows_C_17] Spawned
+[2017.12.12-22.55.05:251][365]LogBlueprintUserMessages: [BP_AI_Arrows_C_17] BP_ArcherAi
+[2017.12.12-22.55.05:251][365]LogBlueprintUserMessages: [BP_AI_Arrows_C_17] Cast Failed
+[2017.12.12-22.55.06:624][488]LogBlueprintUserMessages: [Vive_Pawn_605] X=-1029187.625 Y=1296923.000 Z=36765.008
+[2017.12.12-22.55.06:624][488]LogBlueprintUserMessages: [BP_AI_Arrows_C_17] SM_TestDoor_Blueprint
+[2017.12.12-22.55.06:624][488]LogBlueprintUserMessages: [BP_AI_Arrows_C_17] Cast Failed
+[2017.12.12-22.55.06:624][488]LogBlueprintUserMessages: [BP_AI_Arrows_C_17] Overlap Component
+[2017.12.12-22.55.07:842][597]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12726.283 Y=4148.351 Z=2912.203
+[2017.12.12-22.55.07:842][597]LogBlueprintUserMessages: [BP_AI_Arrows_C_18] Spawned
+[2017.12.12-22.55.07:842][597]LogBlueprintUserMessages: [BP_AI_Arrows_C_18] BP_ArcherAi1
+[2017.12.12-22.55.07:842][597]LogBlueprintUserMessages: [BP_AI_Arrows_C_18] Cast Failed
+[2017.12.12-22.55.08:064][617]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.09:215][720]LogBlueprintUserMessages: [BP_AI_Arrows_C_18] SM_TestDoor_Blueprint
+[2017.12.12-22.55.09:215][720]LogBlueprintUserMessages: [BP_AI_Arrows_C_18] Cast Failed
+[2017.12.12-22.55.09:215][720]LogBlueprintUserMessages: [BP_AI_Arrows_C_18] Overlap Component
+[2017.12.12-22.55.10:254][813]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12734.629 Y=4156.857 Z=2908.678
+[2017.12.12-22.55.10:255][813]LogBlueprintUserMessages: [BP_AI_Arrows_C_19] Spawned
+[2017.12.12-22.55.10:255][813]LogBlueprintUserMessages: [BP_AI_Arrows_C_19] BP_ArcherAi
+[2017.12.12-22.55.10:255][813]LogBlueprintUserMessages: [BP_AI_Arrows_C_19] Cast Failed
+[2017.12.12-22.55.11:068][886]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.11:626][936]LogBlueprintUserMessages: [BP_AI_Arrows_C_19] SM_TestDoor_Blueprint
+[2017.12.12-22.55.11:626][936]LogBlueprintUserMessages: [BP_AI_Arrows_C_19] Cast Failed
+[2017.12.12-22.55.12:832][ 44]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12722.288 Y=4099.881 Z=2905.985
+[2017.12.12-22.55.12:833][ 44]LogBlueprintUserMessages: [BP_AI_Arrows_C_20] Spawned
+[2017.12.12-22.55.12:833][ 44]LogBlueprintUserMessages: [BP_AI_Arrows_C_20] BP_ArcherAi1
+[2017.12.12-22.55.12:833][ 44]LogBlueprintUserMessages: [BP_AI_Arrows_C_20] Cast Failed
+[2017.12.12-22.55.14:074][155]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.14:198][166]LogBlueprintUserMessages: [BP_AI_Arrows_C_20] Castle Succesful
+[2017.12.12-22.55.15:259][261]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12705.524 Y=4141.511 Z=2923.779
+[2017.12.12-22.55.15:259][261]LogBlueprintUserMessages: [BP_AI_Arrows_C_21] Spawned
+[2017.12.12-22.55.15:259][261]LogBlueprintUserMessages: [BP_AI_Arrows_C_21] BP_ArcherAi
+[2017.12.12-22.55.15:259][261]LogBlueprintUserMessages: [BP_AI_Arrows_C_21] Cast Failed
+[2017.12.12-22.55.15:380][272]LogBlueprintUserMessages: [Vive_Pawn_605] X=-45965.215 Y=1364836.375 Z=-466677.500
+[2017.12.12-22.55.16:631][384]LogBlueprintUserMessages: [BP_AI_Arrows_C_21] SM_TestDoor_Blueprint
+[2017.12.12-22.55.16:631][384]LogBlueprintUserMessages: [BP_AI_Arrows_C_21] Cast Failed
+[2017.12.12-22.55.16:632][384]LogBlueprintUserMessages: [BP_AI_Arrows_C_21] Overlap Component
+[2017.12.12-22.55.17:079][424]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.17:838][492]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12720.766 Y=4131.189 Z=2914.124
+[2017.12.12-22.55.17:839][492]LogBlueprintUserMessages: [BP_AI_Arrows_C_22] Spawned
+[2017.12.12-22.55.17:839][492]LogBlueprintUserMessages: [BP_AI_Arrows_C_22] BP_ArcherAi1
+[2017.12.12-22.55.17:839][492]LogBlueprintUserMessages: [BP_AI_Arrows_C_22] Cast Failed
+[2017.12.12-22.55.19:199][614]LogBlueprintUserMessages: [BP_AI_Arrows_C_22] Castle Succesful
+[2017.12.12-22.55.20:082][693]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.20:252][708]LogBlueprintUserMessages: [BP_AI_Arrows_C_19] Dead
+[2017.12.12-22.55.20:252][708]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12712.946 Y=4134.135 Z=2922.802
+[2017.12.12-22.55.20:253][708]LogBlueprintUserMessages: [BP_AI_Arrows_C_23] Spawned
+[2017.12.12-22.55.20:253][708]LogBlueprintUserMessages: [BP_AI_Arrows_C_23] BP_ArcherAi
+[2017.12.12-22.55.20:253][708]LogBlueprintUserMessages: [BP_AI_Arrows_C_23] Cast Failed
+[2017.12.12-22.55.21:088][783]LogBlueprintUserMessages: [Vive_Pawn_605] X=-77849.000 Y=1760912.375 Z=-433066.125
+[2017.12.12-22.55.21:625][831]LogBlueprintUserMessages: [BP_AI_Arrows_C_23] SM_TestDoor_Blueprint
+[2017.12.12-22.55.21:625][831]LogBlueprintUserMessages: [BP_AI_Arrows_C_23] Cast Failed
+[2017.12.12-22.55.21:625][831]LogBlueprintUserMessages: [BP_AI_Arrows_C_23] Overlap Component
+[2017.12.12-22.55.22:842][940]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12716.174 Y=4108.970 Z=2906.824
+[2017.12.12-22.55.22:842][940]LogBlueprintUserMessages: [BP_AI_Arrows_C_24] Spawned
+[2017.12.12-22.55.22:843][940]LogBlueprintUserMessages: [BP_AI_Arrows_C_24] BP_ArcherAi1
+[2017.12.12-22.55.22:843][940]LogBlueprintUserMessages: [BP_AI_Arrows_C_24] Cast Failed
+[2017.12.12-22.55.23:086][962]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.24:203][ 62]LogBlueprintUserMessages: [BP_AI_Arrows_C_24] Castle Succesful
+[2017.12.12-22.55.24:392][ 79]LogBlueprintUserMessages: [Vive_Pawn_605] X=-26159.791 Y=229097.938 Z=-65495.527
+[2017.12.12-22.55.25:253][156]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12722.725 Y=4095.838 Z=2906.157
+[2017.12.12-22.55.25:253][156]LogBlueprintUserMessages: [BP_AI_Arrows_C_25] Spawned
+[2017.12.12-22.55.25:254][156]LogBlueprintUserMessages: [BP_AI_Arrows_C_25] BP_ArcherAi
+[2017.12.12-22.55.25:254][156]LogBlueprintUserMessages: [BP_AI_Arrows_C_25] Cast Failed
+[2017.12.12-22.55.26:091][231]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.26:617][278]LogBlueprintUserMessages: [BP_AI_Arrows_C_25] Castle Succesful
+[2017.12.12-22.55.27:119][323]LogBlueprintUserMessages: [Vive_Pawn_605] X=-47513.230 Y=1400591.125 Z=-177302.078
+[2017.12.12-22.55.27:835][387]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12713.179 Y=4126.252 Z=2922.203
+[2017.12.12-22.55.27:836][387]LogBlueprintUserMessages: [BP_AI_Arrows_C_26] Spawned
+[2017.12.12-22.55.27:836][387]LogBlueprintUserMessages: [BP_AI_Arrows_C_26] BP_ArcherAi1
+[2017.12.12-22.55.27:836][387]LogBlueprintUserMessages: [BP_AI_Arrows_C_26] Cast Failed
+[2017.12.12-22.55.29:095][500]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.29:207][510]LogBlueprintUserMessages: [BP_AI_Arrows_C_26] SM_TestDoor_Blueprint
+[2017.12.12-22.55.29:207][510]LogBlueprintUserMessages: [BP_AI_Arrows_C_26] Cast Failed
+[2017.12.12-22.55.30:259][604]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12711.421 Y=4130.801 Z=2923.442
+[2017.12.12-22.55.30:260][604]LogBlueprintUserMessages: [BP_AI_Arrows_C_27] Spawned
+[2017.12.12-22.55.30:260][604]LogBlueprintUserMessages: [BP_AI_Arrows_C_27] BP_ArcherAi
+[2017.12.12-22.55.30:260][604]LogBlueprintUserMessages: [BP_AI_Arrows_C_27] Cast Failed
+[2017.12.12-22.55.31:632][727]LogBlueprintUserMessages: [BP_AI_Arrows_C_27] Overlap Component
+[2017.12.12-22.55.32:101][769]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.32:840][835]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12708.798 Y=4130.062 Z=2924.434
+[2017.12.12-22.55.32:841][835]LogBlueprintUserMessages: [BP_AI_Arrows_C_28] Spawned
+[2017.12.12-22.55.32:841][835]LogBlueprintUserMessages: [BP_AI_Arrows_C_28] BP_ArcherAi1
+[2017.12.12-22.55.32:841][835]LogBlueprintUserMessages: [BP_AI_Arrows_C_28] Cast Failed
+[2017.12.12-22.55.34:212][958]LogBlueprintUserMessages: [BP_AI_Arrows_C_28] SM_TestDoor_Blueprint
+[2017.12.12-22.55.34:212][958]LogBlueprintUserMessages: [BP_AI_Arrows_C_28] Cast Failed
+[2017.12.12-22.55.34:212][958]LogBlueprintUserMessages: [BP_AI_Arrows_C_28] Overlap Component
+[2017.12.12-22.55.34:894][ 19]LogBlueprintUserMessages: [Vive_Pawn_605] X=-965692.188 Y=2175064.750 Z=-321153.188
+[2017.12.12-22.55.35:106][ 38]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.35:252][ 51]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12709.637 Y=4131.375 Z=2923.734
+[2017.12.12-22.55.35:252][ 51]LogBlueprintUserMessages: [BP_AI_Arrows_C_29] Spawned
+[2017.12.12-22.55.35:253][ 51]LogBlueprintUserMessages: [BP_AI_Arrows_C_29] BP_ArcherAi
+[2017.12.12-22.55.35:253][ 51]LogBlueprintUserMessages: [BP_AI_Arrows_C_29] Cast Failed
+[2017.12.12-22.55.36:624][174]LogBlueprintUserMessages: [BP_AI_Arrows_C_29] SM_TestDoor_Blueprint
+[2017.12.12-22.55.36:625][174]LogBlueprintUserMessages: [BP_AI_Arrows_C_29] Cast Failed
+[2017.12.12-22.55.36:914][200]LogBlueprintUserMessages: [AiAttackPosition4] Soldier Damage
+[2017.12.12-22.55.37:227][228]LogBlueprintUserMessages: [AiAttackPosition5] Soldier Damage
+[2017.12.12-22.55.37:831][282]LogBlueprintUserMessages: [BP_AI_Arrows_C_26] Dead
+[2017.12.12-22.55.37:840][283]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12717.212 Y=4090.047 Z=2900.248
+[2017.12.12-22.55.37:841][283]LogBlueprintUserMessages: [BP_AI_Arrows_C_30] Spawned
+[2017.12.12-22.55.37:841][283]LogBlueprintUserMessages: [BP_AI_Arrows_C_30] BP_ArcherAi1
+[2017.12.12-22.55.37:841][283]LogBlueprintUserMessages: [BP_AI_Arrows_C_30] Cast Failed
+[2017.12.12-22.55.38:087][305]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.12.12-22.55.38:109][307]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.39:204][405]LogBlueprintUserMessages: [BP_AI_Arrows_C_30] Castle Succesful
+[2017.12.12-22.55.39:919][469]LogBlueprintUserMessages: [AiAttackPosition4] Soldier Damage
+[2017.12.12-22.55.40:231][497]LogBlueprintUserMessages: [AiAttackPosition5] Soldier Damage
+[2017.12.12-22.55.40:254][499]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12719.505 Y=4092.431 Z=2906.472
+[2017.12.12-22.55.40:254][499]LogBlueprintUserMessages: [BP_AI_Arrows_C_31] Spawned
+[2017.12.12-22.55.40:254][499]LogBlueprintUserMessages: [BP_AI_Arrows_C_31] BP_ArcherAi
+[2017.12.12-22.55.40:254][499]LogBlueprintUserMessages: [BP_AI_Arrows_C_31] Cast Failed
+[2017.12.12-22.55.41:091][574]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.12.12-22.55.41:115][576]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.41:617][621]LogBlueprintUserMessages: [BP_AI_Arrows_C_31] Castle Succesful
+[2017.12.12-22.55.42:833][730]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12719.361 Y=4093.884 Z=2907.177
+[2017.12.12-22.55.42:834][730]LogBlueprintUserMessages: [BP_AI_Arrows_C_32] Spawned
+[2017.12.12-22.55.42:834][730]LogBlueprintUserMessages: [BP_AI_Arrows_C_32] BP_ArcherAi1
+[2017.12.12-22.55.42:834][730]LogBlueprintUserMessages: [BP_AI_Arrows_C_32] Cast Failed
+[2017.12.12-22.55.42:923][738]LogBlueprintUserMessages: [AiAttackPosition4] Soldier Damage
+[2017.12.12-22.55.43:236][766]LogBlueprintUserMessages: [AiAttackPosition5] Soldier Damage
+[2017.12.12-22.55.44:096][843]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.12.12-22.55.44:118][845]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.44:197][852]LogBlueprintUserMessages: [BP_AI_Arrows_C_32] Castle Succesful
+[2017.12.12-22.55.45:247][946]LogBlueprintUserMessages: [BP_AI_Arrows_C_29] Dead
+[2017.12.12-22.55.45:257][947]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12719.614 Y=4093.557 Z=2907.180
+[2017.12.12-22.55.45:258][947]LogBlueprintUserMessages: [BP_AI_Arrows_C_33] Spawned
+[2017.12.12-22.55.45:258][947]LogBlueprintUserMessages: [BP_AI_Arrows_C_33] BP_ArcherAi
+[2017.12.12-22.55.45:258][947]LogBlueprintUserMessages: [BP_AI_Arrows_C_33] Cast Failed
+[2017.12.12-22.55.45:927][  7]LogBlueprintUserMessages: [AiAttackPosition4] Soldier Damage
+[2017.12.12-22.55.46:241][ 35]LogBlueprintUserMessages: [AiAttackPosition5] Soldier Damage
+[2017.12.12-22.55.46:621][ 69]LogBlueprintUserMessages: [BP_AI_Arrows_C_33] Castle Succesful
+[2017.12.12-22.55.47:101][112]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.12.12-22.55.47:123][114]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.47:837][178]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12718.827 Y=4094.467 Z=2905.699
+[2017.12.12-22.55.47:838][178]LogBlueprintUserMessages: [BP_AI_Arrows_C_34] Spawned
+[2017.12.12-22.55.47:838][178]LogBlueprintUserMessages: [BP_AI_Arrows_C_34] BP_ArcherAi1
+[2017.12.12-22.55.47:839][178]LogBlueprintUserMessages: [BP_AI_Arrows_C_34] Cast Failed
+[2017.12.12-22.55.48:932][276]LogBlueprintUserMessages: [AiAttackPosition4] Soldier Damage
+[2017.12.12-22.55.49:201][300]LogBlueprintUserMessages: [BP_AI_Arrows_C_34] Castle Succesful
+[2017.12.12-22.55.49:245][304]LogBlueprintUserMessages: [AiAttackPosition5] Soldier Damage
+[2017.12.12-22.55.50:105][381]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.12.12-22.55.50:128][383]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.50:252][394]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12718.685 Y=4094.822 Z=2905.422
+[2017.12.12-22.55.50:252][394]LogBlueprintUserMessages: [BP_AI_Arrows_C_35] Spawned
+[2017.12.12-22.55.50:252][394]LogBlueprintUserMessages: [BP_AI_Arrows_C_35] BP_ArcherAi
+[2017.12.12-22.55.50:252][394]LogBlueprintUserMessages: [BP_AI_Arrows_C_35] Cast Failed
+[2017.12.12-22.55.51:613][514]LogBlueprintUserMessages: [BP_AI_Arrows_C_35] Castle Succesful
+[2017.12.12-22.55.51:937][543]LogBlueprintUserMessages: [AiAttackPosition4] Soldier Damage
+[2017.12.12-22.55.52:250][571]LogBlueprintUserMessages: [AiAttackPosition5] Soldier Damage
+[2017.12.12-22.55.52:833][623]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12708.757 Y=4137.627 Z=2923.206
+[2017.12.12-22.55.52:833][623]LogBlueprintUserMessages: [BP_AI_Arrows_C_36] Spawned
+[2017.12.12-22.55.52:833][623]LogBlueprintUserMessages: [BP_AI_Arrows_C_36] BP_ArcherAi1
+[2017.12.12-22.55.52:833][623]LogBlueprintUserMessages: [BP_AI_Arrows_C_36] Cast Failed
+[2017.12.12-22.55.53:111][648]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.12.12-22.55.53:133][650]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.54:206][746]LogBlueprintUserMessages: [BP_AI_Arrows_C_36] Overlap Component
+[2017.12.12-22.55.54:440][767]LogBlueprintUserMessages: [Vive_Pawn_605] X=17234.010 Y=1474247.000 Z=-583191.125
+[2017.12.12-22.55.54:943][812]LogBlueprintUserMessages: [AiAttackPosition4] Soldier Damage
+[2017.12.12-22.55.55:256][840]LogBlueprintUserMessages: [AiAttackPosition5] Soldier Damage
+[2017.12.12-22.55.55:257][840]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12703.735 Y=4127.841 Z=2920.736
+[2017.12.12-22.55.55:257][840]LogBlueprintUserMessages: [BP_AI_Arrows_C_37] Spawned
+[2017.12.12-22.55.55:258][840]LogBlueprintUserMessages: [BP_AI_Arrows_C_37] BP_ArcherAi
+[2017.12.12-22.55.55:258][840]LogBlueprintUserMessages: [BP_AI_Arrows_C_37] Cast Failed
+[2017.12.12-22.55.56:115][917]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.12.12-22.55.56:137][919]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.56:629][963]LogBlueprintUserMessages: [BP_AI_Arrows_C_37] SM_TestDoor_Blueprint
+[2017.12.12-22.55.56:629][963]LogBlueprintUserMessages: [BP_AI_Arrows_C_37] Cast Failed
+[2017.12.12-22.55.57:834][ 71]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12717.457 Y=4103.767 Z=2908.814
+[2017.12.12-22.55.57:835][ 71]LogBlueprintUserMessages: [BP_AI_Arrows_C_38] Spawned
+[2017.12.12-22.55.57:835][ 71]LogBlueprintUserMessages: [BP_AI_Arrows_C_38] BP_ArcherAi1
+[2017.12.12-22.55.57:835][ 71]LogBlueprintUserMessages: [BP_AI_Arrows_C_38] Cast Failed
+[2017.12.12-22.55.59:119][186]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.12.12-22.55.59:141][188]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.55.59:197][193]LogBlueprintUserMessages: [BP_AI_Arrows_C_38] Castle Succesful
+[2017.12.12-22.55.59:588][228]LogBlueprintUserMessages: [Vive_Pawn_605] X=364857.250 Y=1398268.750 Z=112302.000
+[2017.12.12-22.56.00:247][287]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12711.482 Y=4109.237 Z=2909.869
+[2017.12.12-22.56.00:248][287]LogBlueprintUserMessages: [BP_AI_Arrows_C_39] Spawned
+[2017.12.12-22.56.00:248][287]LogBlueprintUserMessages: [BP_AI_Arrows_C_39] BP_ArcherAi
+[2017.12.12-22.56.00:248][287]LogBlueprintUserMessages: [BP_AI_Arrows_C_39] Cast Failed
+[2017.12.12-22.56.01:610][409]LogBlueprintUserMessages: [BP_AI_Arrows_C_39] Castle Succesful
+[2017.12.12-22.56.02:124][455]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.12.12-22.56.02:146][457]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.56.02:840][519]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12709.512 Y=4107.694 Z=2905.662
+[2017.12.12-22.56.02:840][519]LogBlueprintUserMessages: [BP_AI_Arrows_C_40] Spawned
+[2017.12.12-22.56.02:840][519]LogBlueprintUserMessages: [BP_AI_Arrows_C_40] BP_ArcherAi1
+[2017.12.12-22.56.02:840][519]LogBlueprintUserMessages: [BP_AI_Arrows_C_40] Cast Failed
+[2017.12.12-22.56.04:203][641]LogBlueprintUserMessages: [BP_AI_Arrows_C_40] Castle Succesful
+[2017.12.12-22.56.05:130][724]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.12.12-22.56.05:152][726]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.56.05:254][735]LogBlueprintUserMessages: [BP_AI_Arrows_C_37] Dead
+[2017.12.12-22.56.05:254][735]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12709.408 Y=4132.449 Z=2923.649
+[2017.12.12-22.56.05:255][735]LogBlueprintUserMessages: [BP_AI_Arrows_C_41] Spawned
+[2017.12.12-22.56.05:255][735]LogBlueprintUserMessages: [BP_AI_Arrows_C_41] BP_ArcherAi
+[2017.12.12-22.56.05:255][735]LogBlueprintUserMessages: [BP_AI_Arrows_C_41] Cast Failed
+[2017.12.12-22.56.05:364][745]LogBlueprintUserMessages: [Vive_Pawn_605] X=-24194.488 Y=1353604.750 Z=-553425.813
+[2017.12.12-22.56.06:626][858]LogBlueprintUserMessages: [BP_AI_Arrows_C_41] SM_TestDoor_Blueprint
+[2017.12.12-22.56.06:626][858]LogBlueprintUserMessages: [BP_AI_Arrows_C_41] Cast Failed
+[2017.12.12-22.56.07:834][966]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12728.910 Y=4080.379 Z=2958.286
+[2017.12.12-22.56.07:834][966]LogBlueprintUserMessages: [BP_AI_Arrows_C_42] Spawned
+[2017.12.12-22.56.07:834][966]LogBlueprintUserMessages: [BP_AI_Arrows_C_42] BP_ArcherAi1
+[2017.12.12-22.56.07:834][966]LogBlueprintUserMessages: [BP_AI_Arrows_C_42] Cast Failed
+[2017.12.12-22.56.08:133][993]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.12.12-22.56.08:155][995]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.56.09:207][ 89]LogBlueprintUserMessages: [BP_AI_Arrows_C_42] SM_TestDoor_Blueprint
+[2017.12.12-22.56.09:207][ 89]LogBlueprintUserMessages: [BP_AI_Arrows_C_42] Cast Failed
+[2017.12.12-22.56.09:208][ 89]LogBlueprintUserMessages: [BP_AI_Arrows_C_42] Overlap Component
+[2017.12.12-22.56.10:259][183]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12740.989 Y=4116.719 Z=2966.346
+[2017.12.12-22.56.10:259][183]LogBlueprintUserMessages: [BP_AI_Arrows_C_43] Spawned
+[2017.12.12-22.56.10:259][183]LogBlueprintUserMessages: [BP_AI_Arrows_C_43] BP_ArcherAi
+[2017.12.12-22.56.10:259][183]LogBlueprintUserMessages: [BP_AI_Arrows_C_43] Cast Failed
+[2017.12.12-22.56.11:318][278]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.56.11:631][306]LogBlueprintUserMessages: [BP_AI_Arrows_C_43] SM_TestDoor_Blueprint
+[2017.12.12-22.56.11:631][306]LogBlueprintUserMessages: [BP_AI_Arrows_C_43] Cast Failed
+[2017.12.12-22.56.11:642][307]LogBlueprintUserMessages: [BP_AI_Arrows_C_43] Overlap Component
+[2017.12.12-22.56.12:457][380]LogBlueprintUserMessages: [Vive_Pawn_605] X=-63013.313 Y=1696701.250 Z=-686646.563
+[2017.12.12-22.56.12:840][414]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12739.581 Y=4107.599 Z=2965.192
+[2017.12.12-22.56.12:840][414]LogBlueprintUserMessages: [BP_AI_Arrows_C_44] Spawned
+[2017.12.12-22.56.12:840][414]LogBlueprintUserMessages: [BP_AI_Arrows_C_44] BP_ArcherAi1
+[2017.12.12-22.56.12:840][414]LogBlueprintUserMessages: [BP_AI_Arrows_C_44] Cast Failed
+[2017.12.12-22.56.14:211][537]LogBlueprintUserMessages: [BP_AI_Arrows_C_44] SM_TestDoor_Blueprint
+[2017.12.12-22.56.14:211][537]LogBlueprintUserMessages: [BP_AI_Arrows_C_44] Cast Failed
+[2017.12.12-22.56.14:222][538]LogBlueprintUserMessages: [BP_AI_Arrows_C_44] Overlap Component
+[2017.12.12-22.56.14:322][547]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.56.15:250][630]LogBlueprintUserMessages: [BP_AI_Arrows_C_41] Dead
+[2017.12.12-22.56.15:251][630]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12766.168 Y=4095.310 Z=2936.378
+[2017.12.12-22.56.15:251][630]LogBlueprintUserMessages: [BP_AI_Arrows_C_45] Spawned
+[2017.12.12-22.56.15:251][630]LogBlueprintUserMessages: [BP_AI_Arrows_C_45] BP_ArcherAi
+[2017.12.12-22.56.15:251][630]LogBlueprintUserMessages: [BP_AI_Arrows_C_45] Cast Failed
+[2017.12.12-22.56.16:612][752]LogBlueprintUserMessages: [BP_AI_Arrows_C_45] Castle Succesful
+[2017.12.12-22.56.17:327][816]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.56.17:842][862]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12848.046 Y=4133.149 Z=2930.961
+[2017.12.12-22.56.17:843][862]LogBlueprintUserMessages: [BP_AI_Arrows_C_46] Spawned
+[2017.12.12-22.56.17:843][862]LogBlueprintUserMessages: [BP_AI_Arrows_C_46] BP_ArcherAi1
+[2017.12.12-22.56.17:843][862]LogBlueprintUserMessages: [BP_AI_Arrows_C_46] Cast Failed
+[2017.12.12-22.56.19:204][984]LogBlueprintUserMessages: [BP_AI_Arrows_C_46] Castle Succesful
+[2017.12.12-22.56.19:717][ 30]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.12.12-22.56.20:256][ 78]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12868.673 Y=4084.403 Z=2966.487
+[2017.12.12-22.56.20:256][ 78]LogBlueprintUserMessages: [BP_AI_Arrows_C_47] Spawned
+[2017.12.12-22.56.20:256][ 78]LogBlueprintUserMessages: [BP_AI_Arrows_C_47] BP_ArcherAi
+[2017.12.12-22.56.20:256][ 78]LogBlueprintUserMessages: [BP_AI_Arrows_C_47] Cast Failed
+[2017.12.12-22.56.20:332][ 85]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.56.21:627][201]LogBlueprintUserMessages: [BP_AI_Arrows_C_47] SM_TestDoor_Blueprint
+[2017.12.12-22.56.21:627][201]LogBlueprintUserMessages: [BP_AI_Arrows_C_47] Cast Failed
+[2017.12.12-22.56.22:835][309]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12816.129 Y=4129.749 Z=2973.128
+[2017.12.12-22.56.22:836][309]LogBlueprintUserMessages: [BP_AI_Arrows_C_48] Spawned
+[2017.12.12-22.56.22:836][309]LogBlueprintUserMessages: [BP_AI_Arrows_C_48] BP_ArcherAi1
+[2017.12.12-22.56.22:836][309]LogBlueprintUserMessages: [BP_AI_Arrows_C_48] Cast Failed
+[2017.12.12-22.56.23:336][354]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.56.24:208][432]LogBlueprintUserMessages: [BP_AI_Arrows_C_48] SM_TestDoor_Blueprint
+[2017.12.12-22.56.24:208][432]LogBlueprintUserMessages: [BP_AI_Arrows_C_48] Cast Failed
+[2017.12.12-22.56.24:219][433]LogBlueprintUserMessages: [BP_AI_Arrows_C_48] Overlap Component
+[2017.12.12-22.56.25:259][526]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12800.566 Y=4099.194 Z=2969.543
+[2017.12.12-22.56.25:259][526]LogBlueprintUserMessages: [BP_AI_Arrows_C_49] Spawned
+[2017.12.12-22.56.25:259][526]LogBlueprintUserMessages: [BP_AI_Arrows_C_49] BP_ArcherAi
+[2017.12.12-22.56.25:259][526]LogBlueprintUserMessages: [BP_AI_Arrows_C_49] Cast Failed
+[2017.12.12-22.56.26:341][623]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.56.26:619][648]LogBlueprintUserMessages: [BP_AI_Arrows_C_49] Castle Succesful
+[2017.12.12-22.56.27:837][757]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12805.147 Y=4103.628 Z=2968.200
+[2017.12.12-22.56.27:837][757]LogBlueprintUserMessages: [BP_AI_Arrows_C_50] Spawned
+[2017.12.12-22.56.27:837][757]LogBlueprintUserMessages: [BP_AI_Arrows_C_50] BP_ArcherAi1
+[2017.12.12-22.56.27:837][757]LogBlueprintUserMessages: [BP_AI_Arrows_C_50] Cast Failed
+[2017.12.12-22.56.29:200][879]LogBlueprintUserMessages: [BP_AI_Arrows_C_50] Castle Succesful
+[2017.12.12-22.56.29:345][892]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.56.30:249][973]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12823.301 Y=4144.059 Z=2911.077
+[2017.12.12-22.56.30:250][973]LogBlueprintUserMessages: [BP_AI_Arrows_C_51] Spawned
+[2017.12.12-22.56.30:250][973]LogBlueprintUserMessages: [BP_AI_Arrows_C_51] BP_ArcherAi
+[2017.12.12-22.56.30:250][973]LogBlueprintUserMessages: [BP_AI_Arrows_C_51] Cast Failed
+[2017.12.12-22.56.30:252][973]LogBlueprintUserMessages: [BP_AI_Arrows_C_47] Dead
+[2017.12.12-22.56.31:612][ 95]LogBlueprintUserMessages: [BP_AI_Arrows_C_51] Castle Succesful
+[2017.12.12-22.56.32:841][205]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12818.551 Y=4099.801 Z=2967.366
+[2017.12.12-22.56.32:841][205]LogBlueprintUserMessages: [BP_AI_Arrows_C_52] Spawned
+[2017.12.12-22.56.32:841][205]LogBlueprintUserMessages: [BP_AI_Arrows_C_52] BP_ArcherAi1
+[2017.12.12-22.56.32:841][205]LogBlueprintUserMessages: [BP_AI_Arrows_C_52] Cast Failed
+[2017.12.12-22.56.32:852][206]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.56.34:205][327]LogBlueprintUserMessages: [BP_AI_Arrows_C_52] Castle Succesful
+[2017.12.12-22.56.35:257][421]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12866.131 Y=4117.156 Z=2970.363
+[2017.12.12-22.56.35:257][421]LogBlueprintUserMessages: [BP_AI_Arrows_C_53] Spawned
+[2017.12.12-22.56.35:257][421]LogBlueprintUserMessages: [BP_AI_Arrows_C_53] BP_ArcherAi
+[2017.12.12-22.56.35:258][421]LogBlueprintUserMessages: [BP_AI_Arrows_C_53] Cast Failed
+[2017.12.12-22.56.36:629][544]LogBlueprintUserMessages: [BP_AI_Arrows_C_53] SM_TestDoor_Blueprint
+[2017.12.12-22.56.36:629][544]LogBlueprintUserMessages: [BP_AI_Arrows_C_53] Cast Failed
+[2017.12.12-22.56.36:641][545]LogBlueprintUserMessages: [BP_AI_Arrows_C_53] Overlap Component
+[2017.12.12-22.56.37:837][652]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12831.415 Y=4102.552 Z=2962.931
+[2017.12.12-22.56.37:837][652]LogBlueprintUserMessages: [BP_AI_Arrows_C_54] Spawned
+[2017.12.12-22.56.37:837][652]LogBlueprintUserMessages: [BP_AI_Arrows_C_54] BP_ArcherAi1
+[2017.12.12-22.56.37:837][652]LogBlueprintUserMessages: [BP_AI_Arrows_C_54] Cast Failed
+[2017.12.12-22.56.39:197][774]LogBlueprintUserMessages: [BP_AI_Arrows_C_54] Castle Succesful
+[2017.12.12-22.56.40:247][868]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12835.991 Y=4111.038 Z=2956.464
+[2017.12.12-22.56.40:248][868]LogBlueprintUserMessages: [BP_AI_Arrows_C_55] Spawned
+[2017.12.12-22.56.40:248][868]LogBlueprintUserMessages: [BP_AI_Arrows_C_55] BP_ArcherAi
+[2017.12.12-22.56.40:248][868]LogBlueprintUserMessages: [BP_AI_Arrows_C_55] Cast Failed
+[2017.12.12-22.56.41:611][990]LogBlueprintUserMessages: [BP_AI_Arrows_C_55] Castle Succesful
+[2017.12.12-22.56.42:840][100]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12874.515 Y=4114.776 Z=2971.862
+[2017.12.12-22.56.42:841][100]LogBlueprintUserMessages: [BP_AI_Arrows_C_56] Spawned
+[2017.12.12-22.56.42:841][100]LogBlueprintUserMessages: [BP_AI_Arrows_C_56] BP_ArcherAi1
+[2017.12.12-22.56.42:841][100]LogBlueprintUserMessages: [BP_AI_Arrows_C_56] Cast Failed
+[2017.12.12-22.56.44:213][223]LogBlueprintUserMessages: [BP_AI_Arrows_C_56] SM_TestDoor_Blueprint
+[2017.12.12-22.56.44:213][223]LogBlueprintUserMessages: [BP_AI_Arrows_C_56] Cast Failed
+[2017.12.12-22.56.44:225][224]LogBlueprintUserMessages: [BP_AI_Arrows_C_56] Overlap Component
+[2017.12.12-22.56.45:253][316]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12856.877 Y=4114.438 Z=2969.524
+[2017.12.12-22.56.45:253][316]LogBlueprintUserMessages: [BP_AI_Arrows_C_57] Spawned
+[2017.12.12-22.56.45:254][316]LogBlueprintUserMessages: [BP_AI_Arrows_C_57] BP_ArcherAi
+[2017.12.12-22.56.45:254][316]LogBlueprintUserMessages: [BP_AI_Arrows_C_57] Cast Failed
+[2017.12.12-22.56.46:626][439]LogBlueprintUserMessages: [BP_AI_Arrows_C_57] SM_TestDoor_Blueprint
+[2017.12.12-22.56.46:626][439]LogBlueprintUserMessages: [BP_AI_Arrows_C_57] Cast Failed
+[2017.12.12-22.56.46:637][440]LogBlueprintUserMessages: [BP_AI_Arrows_C_57] Overlap Component
+[2017.12.12-22.56.47:833][547]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12853.891 Y=4102.263 Z=2971.314
+[2017.12.12-22.56.47:833][547]LogBlueprintUserMessages: [BP_AI_Arrows_C_58] Spawned
+[2017.12.12-22.56.47:833][547]LogBlueprintUserMessages: [BP_AI_Arrows_C_58] BP_ArcherAi1
+[2017.12.12-22.56.47:833][547]LogBlueprintUserMessages: [BP_AI_Arrows_C_58] Cast Failed
+[2017.12.12-22.56.49:205][670]LogBlueprintUserMessages: [BP_AI_Arrows_C_58] SM_TestDoor_Blueprint
+[2017.12.12-22.56.49:205][670]LogBlueprintUserMessages: [BP_AI_Arrows_C_58] Cast Failed
+[2017.12.12-22.56.49:216][671]LogBlueprintUserMessages: [BP_AI_Arrows_C_58] Overlap Component
+[2017.12.12-22.56.50:255][764]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12854.314 Y=4097.113 Z=2975.864
+[2017.12.12-22.56.50:256][764]LogBlueprintUserMessages: [BP_AI_Arrows_C_59] Spawned
+[2017.12.12-22.56.50:256][764]LogBlueprintUserMessages: [BP_AI_Arrows_C_59] BP_ArcherAi
+[2017.12.12-22.56.50:256][764]LogBlueprintUserMessages: [BP_AI_Arrows_C_59] Cast Failed
+[2017.12.12-22.56.51:630][885]LogBlueprintUserMessages: [BP_AI_Arrows_C_59] SM_TestDoor_Blueprint
+[2017.12.12-22.56.51:630][885]LogBlueprintUserMessages: [BP_AI_Arrows_C_59] Cast Failed
+[2017.12.12-22.56.51:641][886]LogBlueprintUserMessages: [BP_AI_Arrows_C_59] Overlap Component
+[2017.12.12-22.56.52:837][993]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12850.982 Y=4100.903 Z=2970.416
+[2017.12.12-22.56.52:837][993]LogBlueprintUserMessages: [BP_AI_Arrows_C_60] Spawned
+[2017.12.12-22.56.52:838][993]LogBlueprintUserMessages: [BP_AI_Arrows_C_60] BP_ArcherAi1
+[2017.12.12-22.56.52:838][993]LogBlueprintUserMessages: [BP_AI_Arrows_C_60] Cast Failed
+[2017.12.12-22.56.54:209][116]LogBlueprintUserMessages: [BP_AI_Arrows_C_60] SM_TestDoor_Blueprint
+[2017.12.12-22.56.54:209][116]LogBlueprintUserMessages: [BP_AI_Arrows_C_60] Cast Failed
+[2017.12.12-22.56.54:221][117]LogBlueprintUserMessages: [BP_AI_Arrows_C_60] Overlap Component
+[2017.12.12-22.56.55:249][209]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12831.552 Y=4100.313 Z=2973.531
+[2017.12.12-22.56.55:249][209]LogBlueprintUserMessages: [BP_AI_Arrows_C_61] Spawned
+[2017.12.12-22.56.55:250][209]LogBlueprintUserMessages: [BP_AI_Arrows_C_61] BP_ArcherAi
+[2017.12.12-22.56.55:250][209]LogBlueprintUserMessages: [BP_AI_Arrows_C_61] Cast Failed
+[2017.12.12-22.56.56:611][331]LogBlueprintUserMessages: [BP_AI_Arrows_C_61] Castle Succesful
+[2017.12.12-22.56.57:839][441]LogBlueprintUserMessages: [BP_ArcherAi_C_1] X=12833.199 Y=4099.856 Z=2963.698
+[2017.12.12-22.56.57:840][441]LogBlueprintUserMessages: [BP_AI_Arrows_C_62] Spawned
+[2017.12.12-22.56.57:840][441]LogBlueprintUserMessages: [BP_AI_Arrows_C_62] BP_ArcherAi1
+[2017.12.12-22.56.57:840][441]LogBlueprintUserMessages: [BP_AI_Arrows_C_62] Cast Failed
+[2017.12.12-22.56.59:203][563]LogBlueprintUserMessages: [BP_AI_Arrows_C_62] Castle Succesful
+[2017.12.12-22.57.00:254][657]LogBlueprintUserMessages: [BP_ArcherAi_C_0] X=12870.232 Y=4094.553 Z=2972.198
+[2017.12.12-22.57.00:254][657]LogBlueprintUserMessages: [BP_AI_Arrows_C_63] Spawned
+[2017.12.12-22.57.00:255][657]LogBlueprintUserMessages: [BP_AI_Arrows_C_63] BP_ArcherAi
+[2017.12.12-22.57.00:255][657]LogBlueprintUserMessages: [BP_AI_Arrows_C_63] Cast Failed
+[2017.12.12-22.57.00:822][708]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.12.12-22.57.00:859][711]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.57.01:056][711]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.12-22.57.12:861][672]LogSavePackage: Save=3547.45ms
+[2017.12.12-22.57.12:861][672]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/defaultB3B59D5F40F83EEC3AEF7598A5B0842C.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.12-22.57.12:865][672]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.12-22.57.12:922][672]LogFileHelpers: Saving map 'default' took 3.712
+[2017.12.12-22.57.12:947][672]LogSavePackage: Save=14.19ms
+[2017.12.12-22.57.12:947][672]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/BP_Overlord_Level02B69C2BE44AC177A6E5BB13AF5082F566.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Level02.uasset'
+[2017.12.12-22.57.12:949][672]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Level02.uasset
+[2017.12.12-22.57.40:159][930]LogEditorViewport: Clicking on Actor (context menu): BP_Castle_C (BP_Castle)
+[2017.12.12-22.57.41:504][ 82]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.12.12-22.58.01:951][805]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.12-22.58.01:996][805]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.12-22.58.02:273][806]Cmd: QUIT_EDITOR
+[2017.12.12-22.58.02:616][806]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.12-22.58.02:624][806]LogExit: Preparing to exit.
+[2017.12.12-22.58.03:731][806]LogExit: Editor shut down
+[2017.12.12-22.58.03:734][806]LogExit: Transaction tracking system shut down
+[2017.12.12-22.58.03:857][806]LogObj: Freed 0b from 0 cluster array pools.
+[2017.12.12-22.58.03:857][806]LogExit: Object subsystem successfully closed.
+[2017.12.12-22.58.03:884][806]LogD3D11RHI: Shutdown
+[2017.12.12-22.58.03:884][806]LogD3D11RHI: CleanupD3DDevice
+[2017.12.12-22.58.03:886][806]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.12-22.58.03:896][806]LogModuleManager: Shutting down and abandoning module DataTableEditor (536)
+[2017.12.12-22.58.03:896][806]LogModuleManager: Shutting down and abandoning module MaterialEditor (534)
+[2017.12.12-22.58.03:896][806]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2017.12.12-22.58.03:896][806]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2017.12.12-22.58.03:896][806]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2017.12.12-22.58.03:896][806]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.12.12-22.58.03:896][806]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (524)
+[2017.12.12-22.58.03:896][806]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.12.12-22.58.03:896][806]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.12.12-22.58.03:896][806]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.12.12-22.58.03:896][806]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.12.12-22.58.03:896][806]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.12.12-22.58.03:896][806]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.12.12-22.58.03:896][806]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.12.12-22.58.03:896][806]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Collections/' was aborted.
+[2017.12.12-22.58.03:896][806]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Developers/studentuser/Collections/' was aborted.
+[2017.12.12-22.58.03:896][806]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/Collections/' was aborted.
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.12.12-22.58.03:897][806]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.12.12-22.58.04:586][806]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.12.12-22.58.04:651][806]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.12.12-22.58.04:651][806]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.12.12-22.58.04:651][806]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.12.12-22.58.04:651][806]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.12.12-22.58.04:651][806]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.12.12-22.58.04:651][806]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.12.12-22.58.04:651][806]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.12.12-22.58.04:651][806]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.12.12-22.58.04:651][806]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.12.12-22.58.04:651][806]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.12.12-22.58.04:660][806]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.12.12-22.58.04:661][806]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.12.12-22.58.04:810][806]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.12.12-22.58.04:811][806]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.12.12-22.58.04:811][806]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.12.12-22.58.04:811][806]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.12.12-22.58.04:811][806]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.12.12-22.58.04:811][806]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.12.12-22.58.04:811][806]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.12.12-22.58.04:811][806]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.12.12-22.58.04:811][806]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.12.12-22.58.04:811][806]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.12.12-22.58.04:912][806]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.12.12-22.58.05:013][806]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.12.12-22.58.05:013][806]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.12.12-22.58.05:013][806]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.12.12-22.58.05:013][806]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.12.12-22.58.05:013][806]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.12.12-22.58.05:013][806]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.12.12-22.58.05:013][806]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.12.12-22.58.05:013][806]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.12.12-22.58.05:013][806]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.12.12-22.58.05:013][806]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.12.12-22.58.05:014][806]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.12.12-22.58.05:015][806]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.12.12-22.58.05:015][806]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.12.12-22.58.05:015][806]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.12.12-22.58.05:015][806]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.12.12-22.58.05:015][806]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.12.12-22.58.05:015][806]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.12.12-22.58.05:210][806]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.12-22.58.05:210][806]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/' was aborted.
+[2017.12.12-22.58.05:210][806]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.12-22.58.05:210][806]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.12.12-22.58.05:213][806]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.12.12-22.58.05:213][806]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.12.12-22.58.05:213][806]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.12.12-22.58.05:213][806]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.12.12-22.58.05:213][806]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.12.12-22.58.05:214][806]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.12.12-22.58.05:214][806]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.12.12-22.58.05:214][806]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.12.12-22.58.05:214][806]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.12-22.58.05:305][806]LogDerivedDataCache: Shutdown
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.12-22.58.05:305][806]LogOnline:Display: Unloading online subsystem: NULL
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.12-22.58.05:305][806]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.12-22.58.05:305][806]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.12-22.58.05:305][806]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB42C47AF-448F-6632-41E8-E1A1374DEE38%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=982011a7482c1cbdc2ce3cbeaef51dbe%7C90661dbbb29643fa8d9650f8ab2c70e2%7C70012bb2-c253-4297-934e-6257f569ac01&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.12-22.58.05:316][806]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.12-22.58.05:317][806]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.12.12-22.58.05:317][806]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.12.12-22.58.05:317][806]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.12.12-22.58.05:317][806]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.12.12-22.58.05:317][806]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.12.12-22.58.05:317][806]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.12.12-22.58.05:317][806]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.12.12-22.58.05:317][806]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.12.12-22.58.05:318][806]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.12.12-22.58.05:319][806]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.12.12-22.58.05:319][806]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.12.12-22.58.05:319][806]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.12.12-22.58.05:319][806]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.12.12-22.58.05:319][806]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.12.12-22.58.05:319][806]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.12.12-22.58.05:319][806]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.12-22.58.05:319][806]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.12-22.58.05:319][806]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.12-22.58.05:320][806]LogExit: Exiting.
+[2017.12.12-22.58.05:346][806]Log file closed, 12/12/17 14:58:05
