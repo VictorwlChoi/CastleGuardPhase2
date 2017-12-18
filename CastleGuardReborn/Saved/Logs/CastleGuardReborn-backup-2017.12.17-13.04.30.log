@@ -1,0 +1,1656 @@
+﻿Log file open, 12/16/17 11:35:36
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-826453984) SRandInit(-826453984).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.117838
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.16-19.35.36:529][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.16-19.35.36:529][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.16-19.35.36:551][  0]LogInit: Computer: LCIVAN-238-00
+[2017.12.16-19.35.36:551][  0]LogInit: User: studentuser
+[2017.12.16-19.35.36:551][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.16-19.35.36:551][  0]LogInit: High frequency timer resolution =4.101561 MHz
+[2017.12.16-19.35.36:552][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.16-19.35.36:552][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.16-19.35.36:552][  0]LogMemory: Process Physical Memory: 275.81 MB used, 275.81 MB peak
+[2017.12.16-19.35.36:552][  0]LogMemory: Process Virtual Memory: 261.88 MB used, 261.88 MB peak
+[2017.12.16-19.35.36:552][  0]LogMemory: Physical Memory: 4858.07 MB used,  11425.38 MB free, 16283.45 MB total
+[2017.12.16-19.35.36:552][  0]LogMemory: Virtual Memory: 639.55 MB used,  11425.38 MB free, 134217728.00 MB total
+[2017.12.16-19.35.36:792][  0]LogInit: Using OS detected language (en-US).
+[2017.12.16-19.35.36:792][  0]LogInit: Using OS detected locale (en-CA).
+[2017.12.16-19.35.36:841][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.16-19.35.39:191][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.16-19.35.39:231][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.12.16-19.35.39:231][  0]LogD3D11RHI:       8120/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.16-19.35.39:237][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.12.16-19.35.39:237][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.16-19.35.39:238][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.16-19.35.39:238][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.16-19.35.39:238][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.16-19.35.39:245][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.16-19.35.39:245][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.16-19.35.39:245][  0]LogWindows: EnumDisplayDevices:
+[2017.12.16-19.35.39:245][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.12.16-19.35.39:245][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.16-19.35.39:245][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.16-19.35.39:245][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.16-19.35.39:245][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.16-19.35.39:245][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.16-19.35.39:245][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.16-19.35.39:245][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.16-19.35.39:245][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.12.16-19.35.39:246][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.12.16-19.35.39:246][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.12.16-19.35.39:246][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.16-19.35.39:270][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.16-19.35.39:295][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.16-19.35.39:350][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/620/).
+[2017.12.16-19.35.39:350][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/8AB24D1843B18D750F4FACB0AEFBBB62/'.
+[2017.12.16-19.35.39:351][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.16-19.35.40:924][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.16-19.35.40:959][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.12.16-19.35.40:994][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.16-19.35.41:028][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.12.16-19.35.41:068][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.12.16-19.35.41:103][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.16-19.35.41:138][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.16-19.35.41:174][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.16-19.35.41:205][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.16-19.35.41:243][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.12.16-19.35.41:278][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.16-19.35.41:313][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.16-19.35.41:347][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.16-19.35.41:382][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.16-19.35.41:416][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.16-19.35.41:486][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.16-19.35.41:486][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.16-19.35.41:514][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.12.16-19.35.41:595][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.12.16-19.35.41:615][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.12.16-19.35.41:649][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.16-19.35.41:684][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.16-19.35.41:718][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.16-19.35.41:756][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.12.16-19.35.41:756][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.16-19.35.42:200][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.16-19.35.42:677][  0]LogDerivedDataCache: Loaded boot cache 0.48s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.16-19.35.42:677][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.12.16-19.35.42:677][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.16-19.35.42:677][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.16-19.35.42:677][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.16-19.35.42:677][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.16-19.35.42:698][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.16-19.35.42:710][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.16-19.35.42:723][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.16-19.35.42:728][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.16-19.35.42:743][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.16-19.35.42:743][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.16-19.35.43:449][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.16-19.35.43:631][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.16-19.35.43:812][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.16-19.35.43:851][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.16-19.35.43:887][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.16-19.35.43:887][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.16-19.35.43:887][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.16-19.35.45:060][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.12.16-19.35.45:149][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2017.12.16-19.35.45:236][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.044542 seconds
+[2017.12.16-19.35.45:242][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.12.16-19.35.45:242][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.12.16-19.35.45:242][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.16-19.35.45:289][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.16-19.35.49:509][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.16-19.35.49:543][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.16-19.35.50:064][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.16-19.35.50:454][  0]SourceControl: Info Source control is disabled
+[2017.12.16-19.35.50:539][  0]SourceControl: Info Source control is disabled
+[2017.12.16-19.35.50:579][  0]SourceControl: Info Source control is disabled
+[2017.12.16-19.35.50:617][  0]SourceControl: Info Source control is disabled
+[2017.12.16-19.35.51:173][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.16-19.35.51:647][  0]LogEngine: Initializing Engine...
+[2017.12.16-19.35.54:150][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.12.16-19.35.54:507][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.16-19.35.54:507][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.16-19.35.54:644][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.16-19.35.54:670][  0]LogInit: XAudio2 using 'Speakers (4- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.16-19.35.54:695][  0]LogInit: FAudioDevice initialized.
+[2017.12.16-19.35.54:737][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.16-19.35.54:754][  0]LogInit: Texture streaming: Enabled
+[2017.12.16-19.35.54:835][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.16-19.35.55:058][  0]LogInit: Transaction tracking system initialized
+[2017.12.16-19.35.55:474][  0]BlueprintLog: New page: Editor Load
+[2017.12.16-19.35.56:325][  0]LocalizationService: Info Localization service is disabled
+[2017.12.16-19.35.56:915][  0]LogConsoleResponse:Display: 
+[2017.12.16-19.35.57:251][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.16-19.35.57:251][  0]LogCook:Display: Mobile HDR setting 1
+[2017.12.16-19.35.58:238][  0]SourceControl: Info Source control is disabled
+[2017.12.16-19.35.58:240][  0]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.16-19.35.58:242][  0]LightingResults: New page: Lighting Build
+[2017.12.16-19.35.58:288][  0]MapCheck: New page: Map Check
+[2017.12.16-19.35.58:288][  0]LightingResults: New page: Lighting Build
+[2017.12.16-19.36.10:798][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.16-19.36.13:240][  0]LogAIModule: Creating AISystem for world default
+[2017.12.16-19.36.14:741][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.16-19.36.14:849][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.16-19.36.14:913][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.694ms to complete.
+[2017.12.16-19.36.14:913][  0]LogFileHelpers: Loading map 'default' took 16.674
+[2017.12.16-19.36.15:125][  0]LogCollectionManager: Loaded 0 collections in 0.001493 seconds
+[2017.12.16-19.36.15:209][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.12.16-19.36.15:209][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.12.16-19.36.15:209][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.12.16-19.36.15:209][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.12.16-19.36.15:218][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2329 classes and 491 folders.
+[2017.12.16-19.36.15:272][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.16-19.36.15:593][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.12.16-19.36.15:641][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.12.16-19.36.15:708][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.12.16-19.36.15:725][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.12.16-19.36.15:785][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.12.16-19.36.15:785][  0]LogLoad: (Engine Initialization) Total time: 41.56 seconds
+[2017.12.16-19.36.15:785][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.07 seconds
+[2017.12.16-19.36.15:785][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.16-19.36.15:785][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.16-19.36.16:137][  0]LogOcInput: OculusInput pre-init called
+[2017.12.16-19.36.16:137][  0]LogHMD: Starting GearVRController plugin
+[2017.12.16-19.36.16:138][  0]LogSteamVRController: Controller role for device 1 is 2 (invalid=0, left=1, right=2).
+[2017.12.16-19.36.16:138][  0]LogSteamVRController:Warning: Controller device 1 is being assigned to its prefered role 'right'.
+[2017.12.16-19.36.16:138][  0]LogSteamVRController: Controller device 1 is being assigned unreal hand 1 (left=0, right=1).
+[2017.12.16-19.36.16:138][  0]LogSteamVRController: Controller role for device 2 is 1 (invalid=0, left=1, right=2).
+[2017.12.16-19.36.16:138][  0]LogSteamVRController: Putting controller 2 on the left hand because there is already a controller for the right.
+[2017.12.16-19.36.16:139][  0]LogSteamVRController: Controller device 2 is being assigned unreal hand 0 (left=0, right=1).
+[2017.12.16-19.36.16:182][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.16-19.36.16:191][  0]LogSlate: Took 0.004176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.16-19.36.16:197][  0]LogSlate: Took 0.003993 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.16-19.36.16:207][  0]LogSlate: Took 0.004267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.16-19.36.16:368][  0]LogSlate: Took 0.004539 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.16-19.36.16:412][  1]LogRenderer: Reallocating scene render targets to support 1204x528 NumSamples 1 (Frame:1).
+[2017.12.16-19.36.16:478][  1]LogAssetRegistry: Asset discovery search completed in 31.3514 seconds
+[2017.12.16-19.36.16:481][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.16-19.36.16:481][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2017.12.16-19.36.17:129][  3]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.16-19.36.57:484][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain99
+[2017.12.16-19.36.57:514][870]LogActorFactory: Actor Factory created catap_Catapult_brace1_braces
+[2017.12.16-19.36.57:514][870]LogActorFactory: Actor Factory created catap_Catapult_braces_brace2
+[2017.12.16-19.36.57:515][870]LogActorFactory: Actor Factory created catap_Catapult_braces_brace3
+[2017.12.16-19.36.57:515][870]LogActorFactory: Actor Factory created catap_Catapult_braces_brace4
+[2017.12.16-19.36.57:516][870]LogActorFactory: Actor Factory created catap_Catapult_crank1
+[2017.12.16-19.36.57:517][870]LogActorFactory: Actor Factory created catap_Catapult_frame1
+[2017.12.16-19.36.57:517][870]LogActorFactory: Actor Factory created catap_Catapult_spoon1
+[2017.12.16-19.36.57:518][870]LogActorFactory: Actor Factory created catap_Catapult_wheel2_wheels
+[2017.12.16-19.36.57:518][870]LogActorFactory: Actor Factory created catap_Catapult_wheels_wheel1
+[2017.12.16-19.36.57:519][870]LogActorFactory: Actor Factory created catap_chain35_chain_Catapult
+[2017.12.16-19.36.57:520][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain1
+[2017.12.16-19.36.57:520][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain10
+[2017.12.16-19.36.57:521][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain100
+[2017.12.16-19.36.57:521][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain11
+[2017.12.16-19.36.57:522][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain12
+[2017.12.16-19.36.57:523][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain13
+[2017.12.16-19.36.57:523][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain14
+[2017.12.16-19.36.57:524][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain15
+[2017.12.16-19.36.57:525][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain16
+[2017.12.16-19.36.57:525][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain17
+[2017.12.16-19.36.57:526][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain18
+[2017.12.16-19.36.57:527][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain19
+[2017.12.16-19.36.57:527][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain2
+[2017.12.16-19.36.57:528][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain20
+[2017.12.16-19.36.57:529][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain21
+[2017.12.16-19.36.57:529][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain22
+[2017.12.16-19.36.57:530][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain23
+[2017.12.16-19.36.57:531][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain24
+[2017.12.16-19.36.57:531][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain25
+[2017.12.16-19.36.57:532][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain26
+[2017.12.16-19.36.57:532][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain27
+[2017.12.16-19.36.57:533][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain28
+[2017.12.16-19.36.57:534][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain29
+[2017.12.16-19.36.57:534][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain3
+[2017.12.16-19.36.57:535][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain30
+[2017.12.16-19.36.57:535][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain31
+[2017.12.16-19.36.57:536][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain32
+[2017.12.16-19.36.57:537][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain33
+[2017.12.16-19.36.57:538][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain34
+[2017.12.16-19.36.57:538][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain36
+[2017.12.16-19.36.57:539][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain37
+[2017.12.16-19.36.57:540][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain38
+[2017.12.16-19.36.57:541][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain39
+[2017.12.16-19.36.57:541][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain4
+[2017.12.16-19.36.57:542][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain40
+[2017.12.16-19.36.57:542][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain41
+[2017.12.16-19.36.57:543][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain42
+[2017.12.16-19.36.57:544][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain43
+[2017.12.16-19.36.57:544][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain44
+[2017.12.16-19.36.57:545][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain45
+[2017.12.16-19.36.57:546][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain46
+[2017.12.16-19.36.57:546][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain47
+[2017.12.16-19.36.57:547][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain48
+[2017.12.16-19.36.57:548][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain49
+[2017.12.16-19.36.57:549][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain5
+[2017.12.16-19.36.57:549][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain50
+[2017.12.16-19.36.57:550][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain51
+[2017.12.16-19.36.57:551][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain52
+[2017.12.16-19.36.57:551][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain53
+[2017.12.16-19.36.57:552][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain54
+[2017.12.16-19.36.57:553][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain55
+[2017.12.16-19.36.57:553][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain56
+[2017.12.16-19.36.57:554][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain57
+[2017.12.16-19.36.57:555][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain58
+[2017.12.16-19.36.57:555][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain59
+[2017.12.16-19.36.57:556][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain6
+[2017.12.16-19.36.57:557][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain60
+[2017.12.16-19.36.57:557][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain61
+[2017.12.16-19.36.57:558][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain62
+[2017.12.16-19.36.57:558][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain63
+[2017.12.16-19.36.57:559][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain64
+[2017.12.16-19.36.57:560][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain65
+[2017.12.16-19.36.57:560][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain66
+[2017.12.16-19.36.57:561][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain67
+[2017.12.16-19.36.57:562][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain68
+[2017.12.16-19.36.57:562][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain69
+[2017.12.16-19.36.57:563][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain7
+[2017.12.16-19.36.57:564][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain70
+[2017.12.16-19.36.57:564][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain71
+[2017.12.16-19.36.57:565][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain72
+[2017.12.16-19.36.57:566][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain73
+[2017.12.16-19.36.57:567][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain74
+[2017.12.16-19.36.57:567][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain75
+[2017.12.16-19.36.57:568][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain76
+[2017.12.16-19.36.57:569][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain77
+[2017.12.16-19.36.57:569][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain78
+[2017.12.16-19.36.57:570][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain79
+[2017.12.16-19.36.57:571][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain8
+[2017.12.16-19.36.57:571][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain80
+[2017.12.16-19.36.57:572][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain81
+[2017.12.16-19.36.57:573][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain82
+[2017.12.16-19.36.57:573][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain83
+[2017.12.16-19.36.57:574][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain84
+[2017.12.16-19.36.57:574][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain85
+[2017.12.16-19.36.57:575][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain86
+[2017.12.16-19.36.57:576][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain87
+[2017.12.16-19.36.57:576][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain88
+[2017.12.16-19.36.57:577][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain89
+[2017.12.16-19.36.57:578][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain9
+[2017.12.16-19.36.57:578][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain90
+[2017.12.16-19.36.57:579][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain91
+[2017.12.16-19.36.57:580][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain92
+[2017.12.16-19.36.57:580][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain93
+[2017.12.16-19.36.57:581][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain94
+[2017.12.16-19.36.57:582][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain95
+[2017.12.16-19.36.57:582][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain96
+[2017.12.16-19.36.57:583][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain97
+[2017.12.16-19.36.57:584][870]LogActorFactory: Actor Factory created catap_chain_Catapult_chain98
+[2017.12.16-19.36.58:115][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain99
+[2017.12.16-19.36.58:211][910]LogActorFactory: Actor Factory created catap_Catapult_brace1_braces
+[2017.12.16-19.36.58:227][910]LogActorFactory: Actor Factory created catap_Catapult_braces_brace2
+[2017.12.16-19.36.58:243][910]LogActorFactory: Actor Factory created catap_Catapult_braces_brace3
+[2017.12.16-19.36.58:259][910]LogActorFactory: Actor Factory created catap_Catapult_braces_brace4
+[2017.12.16-19.36.58:274][910]LogActorFactory: Actor Factory created catap_Catapult_crank1
+[2017.12.16-19.36.58:289][910]LogActorFactory: Actor Factory created catap_Catapult_frame1
+[2017.12.16-19.36.58:304][910]LogActorFactory: Actor Factory created catap_Catapult_spoon1
+[2017.12.16-19.36.58:318][910]LogActorFactory: Actor Factory created catap_Catapult_wheel2_wheels
+[2017.12.16-19.36.58:333][910]LogActorFactory: Actor Factory created catap_Catapult_wheels_wheel1
+[2017.12.16-19.36.58:347][910]LogActorFactory: Actor Factory created catap_chain35_chain_Catapult
+[2017.12.16-19.36.58:362][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain1
+[2017.12.16-19.36.58:377][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain10
+[2017.12.16-19.36.58:391][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain100
+[2017.12.16-19.36.58:407][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain11
+[2017.12.16-19.36.58:423][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain12
+[2017.12.16-19.36.58:437][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain13
+[2017.12.16-19.36.58:452][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain14
+[2017.12.16-19.36.58:467][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain15
+[2017.12.16-19.36.58:482][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain16
+[2017.12.16-19.36.58:496][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain17
+[2017.12.16-19.36.58:510][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain18
+[2017.12.16-19.36.58:525][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain19
+[2017.12.16-19.36.58:540][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain2
+[2017.12.16-19.36.58:555][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain20
+[2017.12.16-19.36.58:569][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain21
+[2017.12.16-19.36.58:584][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain22
+[2017.12.16-19.36.58:598][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain23
+[2017.12.16-19.36.58:613][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain24
+[2017.12.16-19.36.58:626][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain25
+[2017.12.16-19.36.58:641][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain26
+[2017.12.16-19.36.58:657][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain27
+[2017.12.16-19.36.58:673][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain28
+[2017.12.16-19.36.58:688][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain29
+[2017.12.16-19.36.58:703][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain3
+[2017.12.16-19.36.58:718][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain30
+[2017.12.16-19.36.58:733][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain31
+[2017.12.16-19.36.58:747][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain32
+[2017.12.16-19.36.58:761][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain33
+[2017.12.16-19.36.58:775][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain34
+[2017.12.16-19.36.58:790][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain36
+[2017.12.16-19.36.58:805][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain37
+[2017.12.16-19.36.58:820][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain38
+[2017.12.16-19.36.58:835][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain39
+[2017.12.16-19.36.58:849][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain4
+[2017.12.16-19.36.58:864][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain40
+[2017.12.16-19.36.58:882][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain41
+[2017.12.16-19.36.58:901][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain42
+[2017.12.16-19.36.58:920][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain43
+[2017.12.16-19.36.58:938][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain44
+[2017.12.16-19.36.58:954][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain45
+[2017.12.16-19.36.58:968][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain46
+[2017.12.16-19.36.58:986][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain47
+[2017.12.16-19.36.59:001][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain48
+[2017.12.16-19.36.59:017][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain49
+[2017.12.16-19.36.59:031][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain5
+[2017.12.16-19.36.59:046][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain50
+[2017.12.16-19.36.59:060][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain51
+[2017.12.16-19.36.59:075][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain52
+[2017.12.16-19.36.59:088][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain53
+[2017.12.16-19.36.59:102][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain54
+[2017.12.16-19.36.59:118][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain55
+[2017.12.16-19.36.59:132][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain56
+[2017.12.16-19.36.59:147][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain57
+[2017.12.16-19.36.59:161][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain58
+[2017.12.16-19.36.59:176][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain59
+[2017.12.16-19.36.59:190][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain6
+[2017.12.16-19.36.59:206][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain60
+[2017.12.16-19.36.59:220][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain61
+[2017.12.16-19.36.59:234][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain62
+[2017.12.16-19.36.59:248][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain63
+[2017.12.16-19.36.59:264][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain64
+[2017.12.16-19.36.59:278][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain65
+[2017.12.16-19.36.59:293][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain66
+[2017.12.16-19.36.59:307][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain67
+[2017.12.16-19.36.59:322][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain68
+[2017.12.16-19.36.59:337][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain69
+[2017.12.16-19.36.59:352][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain7
+[2017.12.16-19.36.59:366][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain70
+[2017.12.16-19.36.59:381][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain71
+[2017.12.16-19.36.59:395][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain72
+[2017.12.16-19.36.59:410][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain73
+[2017.12.16-19.36.59:424][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain74
+[2017.12.16-19.36.59:440][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain75
+[2017.12.16-19.36.59:458][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain76
+[2017.12.16-19.36.59:473][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain77
+[2017.12.16-19.36.59:489][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain78
+[2017.12.16-19.36.59:506][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain79
+[2017.12.16-19.36.59:522][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain8
+[2017.12.16-19.36.59:537][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain80
+[2017.12.16-19.36.59:552][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain81
+[2017.12.16-19.36.59:566][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain82
+[2017.12.16-19.36.59:580][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain83
+[2017.12.16-19.36.59:594][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain84
+[2017.12.16-19.36.59:608][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain85
+[2017.12.16-19.36.59:623][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain86
+[2017.12.16-19.36.59:637][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain87
+[2017.12.16-19.36.59:652][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain88
+[2017.12.16-19.36.59:667][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain89
+[2017.12.16-19.36.59:682][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain9
+[2017.12.16-19.36.59:696][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain90
+[2017.12.16-19.36.59:711][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain91
+[2017.12.16-19.36.59:726][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain92
+[2017.12.16-19.36.59:741][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain93
+[2017.12.16-19.36.59:756][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain94
+[2017.12.16-19.36.59:771][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain95
+[2017.12.16-19.36.59:786][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain96
+[2017.12.16-19.36.59:800][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain97
+[2017.12.16-19.36.59:814][910]LogActorFactory: Actor Factory created catap_chain_Catapult_chain98
+[2017.12.16-19.37.01:879][911]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (catap_Catapult_wheel2_wheels)
+[2017.12.16-19.37.04:116][131]Cmd: TRANSACTION UNDO
+[2017.12.16-19.37.04:116][131]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.12.16-19.37.05:762][293]Cmd: DELETE
+[2017.12.16-19.37.05:762][293]Cmd: ACTOR DELETE
+[2017.12.16-19.37.05:771][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:771][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:771][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:771][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:772][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:772][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:772][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:772][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:772][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:772][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:772][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:772][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:772][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:772][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:772][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:772][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:773][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:773][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:773][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:773][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:773][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:773][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:773][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:773][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:773][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:773][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:773][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:773][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:773][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:774][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:774][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:774][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:774][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:774][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:774][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:774][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:774][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:774][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:774][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:774][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:774][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:774][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:774][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:775][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:775][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:775][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:775][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:775][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:775][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:775][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:775][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:775][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:775][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:775][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:775][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:775][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:776][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:776][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:776][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:776][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:776][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:776][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:776][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:776][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:776][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:776][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:776][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:776][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:776][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:776][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:777][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:777][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:777][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:777][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:777][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:777][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:777][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:777][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:777][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:777][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:777][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:777][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:777][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:777][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:778][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:778][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:778][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:778][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:778][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:778][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:778][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:778][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:778][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:778][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:778][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:778][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:778][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:778][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:779][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:779][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:779][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:779][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:779][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:779][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:779][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:779][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:779][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:779][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:779][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.16-19.37.05:790][293]LogEditorActor: Deleted 109 Actors (0.022 secs)
+[2017.12.16-19.37.14:154][267]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.12.16-19.37.24:994][267]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.16-19.37.35:428][267]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.16-19.38.20:408][264]LogMaterial: Missing cached shader map for material M_ProjectileBeam, compiling. 
+[2017.12.16-19.38.20:546][264]LogMaterial: Missing cached shader map for material M_ProjectileBeam, compiling. 
+[2017.12.16-19.38.20:561][264]LogMaterial: Missing cached shader map for material M_ProjectileBeam, compiling. 
+[2017.12.16-19.38.20:598][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_60, compiling. 
+[2017.12.16-19.38.20:603][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_59, compiling. 
+[2017.12.16-19.38.20:608][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_5, compiling. 
+[2017.12.16-19.38.20:611][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSubtract_5, compiling. 
+[2017.12.16-19.38.20:615][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionClamp_2, compiling. 
+[2017.12.16-19.38.20:618][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPower_2, compiling. 
+[2017.12.16-19.38.20:622][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionOneMinus_2, compiling. 
+[2017.12.16-19.38.20:634][264]LogSlate: Took 0.004611 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.16-19.38.20:826][270]LogSlate: Took 0.005995 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.16-19.38.22:395][442]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2017.12.16-19.38.22:395][442]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.12.16-19.38.22:395][442]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.12.16-19.38.22:395][442]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.16-19.38.27:617][808]LogSavePackage: Save=1921.57ms
+[2017.12.16-19.38.27:617][808]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/default45EF836D4BB9DFE001BFB1B7A6E0C9CE.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.16-19.38.27:620][808]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.16-19.38.27:688][808]LogFileHelpers: Saving map 'default' took 2.076
+[2017.12.16-20.28.55:623][102]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\studentuser\Downloads\SK_LightSoldier.fbx)
+[2017.12.16-20.28.56:362][102]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.12.16-20.28.56:362][102]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.12.16-20.28.56:362][102]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.12.16-20.28.56:362][102]LogFbx: ItemName: NodeAttribute, ItemCount : 41
+[2017.12.16-20.28.56:362][102]LogFbx: ItemName: Model, ItemCount : 54
+[2017.12.16-20.28.56:362][102]LogFbx: ItemName: Geometry, ItemCount : 13
+[2017.12.16-20.28.56:362][102]LogFbx: ItemName: Material, ItemCount : 4
+[2017.12.16-20.28.56:362][102]LogFbx: ItemName: Texture, ItemCount : 3
+[2017.12.16-20.28.56:362][102]LogFbx: ItemName: AnimationCurveNode, ItemCount : 178
+[2017.12.16-20.28.56:362][102]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2017.12.16-20.28.56:362][102]LogFbx: ItemName: AnimationCurve, ItemCount : 216
+[2017.12.16-20.28.56:362][102]LogFbx: ItemName: Video, ItemCount : 3
+[2017.12.16-20.28.56:379][102]LogFbx: Loading FBX Scene from C:\Users\studentuser\Downloads\SK_LightSoldier.fbx
+[2017.12.16-20.28.56:834][102]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.16-20.29.02:681][102]LogFbx: Loading FBX Scene from C:\Users\studentuser\Downloads\SK_LightSoldier.fbx
+[2017.12.16-20.29.03:022][102]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.16-20.29.03:060][102]LogFbx: =================================================
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node START [Belt] 
+[2017.12.16-20.29.03:060][102]LogFbx: 	Total Deformer Count -1532698640.
+[2017.12.16-20.29.03:060][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:060][102]LogFbx: 		[Node Attribute Child 1] Belt (Type Mesh).
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node END [Belt]
+[2017.12.16-20.29.03:060][102]LogFbx: =================================================
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node START [Shirt_Base] 
+[2017.12.16-20.29.03:060][102]LogFbx: 	Total Deformer Count 143563264.
+[2017.12.16-20.29.03:060][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:060][102]LogFbx: 		[Node Attribute Child 1] Shirt_Base (Type Mesh).
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node END [Shirt_Base]
+[2017.12.16-20.29.03:060][102]LogFbx: =================================================
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node START [BootTop_R] 
+[2017.12.16-20.29.03:060][102]LogFbx: 	Total Deformer Count 143563264.
+[2017.12.16-20.29.03:060][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:060][102]LogFbx: 		[Node Attribute Child 1] BootTop_R (Type Mesh).
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node END [BootTop_R]
+[2017.12.16-20.29.03:060][102]LogFbx: =================================================
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node START [BootTop_L] 
+[2017.12.16-20.29.03:060][102]LogFbx: 	Total Deformer Count 143563264.
+[2017.12.16-20.29.03:060][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:060][102]LogFbx: 		[Node Attribute Child 1] BootTop_L (Type Mesh).
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node END [BootTop_L]
+[2017.12.16-20.29.03:060][102]LogFbx: =================================================
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node START [Base] 
+[2017.12.16-20.29.03:060][102]LogFbx: 	Total Deformer Count -1532695664.
+[2017.12.16-20.29.03:060][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:060][102]LogFbx: 		[Node Attribute Child 1] Base (Type Mesh).
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node END [Base]
+[2017.12.16-20.29.03:060][102]LogFbx: =================================================
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node START [Arm_L] 
+[2017.12.16-20.29.03:060][102]LogFbx: 	Total Deformer Count -1532695664.
+[2017.12.16-20.29.03:060][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:060][102]LogFbx: 		[Node Attribute Child 1] Arm_L (Type Mesh).
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node END [Arm_L]
+[2017.12.16-20.29.03:060][102]LogFbx: =================================================
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node START [Arm_R] 
+[2017.12.16-20.29.03:060][102]LogFbx: 	Total Deformer Count -1532695664.
+[2017.12.16-20.29.03:060][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:060][102]LogFbx: 		[Node Attribute Child 1] Arm_R (Type Mesh).
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node END [Arm_R]
+[2017.12.16-20.29.03:060][102]LogFbx: =================================================
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node START [Underskirt] 
+[2017.12.16-20.29.03:060][102]LogFbx: 	Total Deformer Count 143563584.
+[2017.12.16-20.29.03:060][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:060][102]LogFbx: 		[Node Attribute Child 1] Underskirt (Type Mesh).
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node END [Underskirt]
+[2017.12.16-20.29.03:060][102]LogFbx: =================================================
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node START [polySurface3] 
+[2017.12.16-20.29.03:060][102]LogFbx: 	Total Deformer Count 134991280.
+[2017.12.16-20.29.03:060][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:060][102]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node END [polySurface3]
+[2017.12.16-20.29.03:060][102]LogFbx: =================================================
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node START [polySurface4] 
+[2017.12.16-20.29.03:060][102]LogFbx: 	Total Deformer Count 134991280.
+[2017.12.16-20.29.03:060][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:060][102]LogFbx: 		[Node Attribute Child 1] polySurface4 (Type Mesh).
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node END [polySurface4]
+[2017.12.16-20.29.03:060][102]LogFbx: =================================================
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node START [polySurface2] 
+[2017.12.16-20.29.03:060][102]LogFbx: 	Total Deformer Count 134991840.
+[2017.12.16-20.29.03:060][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:060][102]LogFbx: 		[Node Attribute Child 1] polySurface2 (Type Mesh).
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node END [polySurface2]
+[2017.12.16-20.29.03:060][102]LogFbx: =================================================
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node START [Shield] 
+[2017.12.16-20.29.03:060][102]LogFbx: 	Total Deformer Count -1540409872.
+[2017.12.16-20.29.03:060][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:060][102]LogFbx: 		[Node Attribute Child 1] Shield (Type Mesh).
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node END [Shield]
+[2017.12.16-20.29.03:060][102]LogFbx: =================================================
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node START [Sword] 
+[2017.12.16-20.29.03:060][102]LogFbx: 	Total Deformer Count -1532702624.
+[2017.12.16-20.29.03:060][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:060][102]LogFbx: 		[Node Attribute Child 1] Sword (Type Mesh).
+[2017.12.16-20.29.03:060][102]LogFbx: Dumping Node END [Sword]
+[2017.12.16-20.29.03:061][102]LogFbx: =================================================
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node START [Belt] 
+[2017.12.16-20.29.03:061][102]LogFbx: 	Total Deformer Count -1532693168.
+[2017.12.16-20.29.03:061][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:061][102]LogFbx: 		[Node Attribute Child 1] Belt (Type Mesh).
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node END [Belt]
+[2017.12.16-20.29.03:061][102]LogFbx: =================================================
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node START [Shirt_Base] 
+[2017.12.16-20.29.03:061][102]LogFbx: 	Total Deformer Count 143562944.
+[2017.12.16-20.29.03:061][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:061][102]LogFbx: 		[Node Attribute Child 1] Shirt_Base (Type Mesh).
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node END [Shirt_Base]
+[2017.12.16-20.29.03:061][102]LogFbx: =================================================
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node START [BootTop_R] 
+[2017.12.16-20.29.03:061][102]LogFbx: 	Total Deformer Count 143562944.
+[2017.12.16-20.29.03:061][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:061][102]LogFbx: 		[Node Attribute Child 1] BootTop_R (Type Mesh).
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node END [BootTop_R]
+[2017.12.16-20.29.03:061][102]LogFbx: =================================================
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node START [BootTop_L] 
+[2017.12.16-20.29.03:061][102]LogFbx: 	Total Deformer Count 143562944.
+[2017.12.16-20.29.03:061][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:061][102]LogFbx: 		[Node Attribute Child 1] BootTop_L (Type Mesh).
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node END [BootTop_L]
+[2017.12.16-20.29.03:061][102]LogFbx: =================================================
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node START [Base] 
+[2017.12.16-20.29.03:061][102]LogFbx: 	Total Deformer Count -1518286624.
+[2017.12.16-20.29.03:061][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:061][102]LogFbx: 		[Node Attribute Child 1] Base (Type Mesh).
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node END [Base]
+[2017.12.16-20.29.03:061][102]LogFbx: =================================================
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node START [Arm_L] 
+[2017.12.16-20.29.03:061][102]LogFbx: 	Total Deformer Count -1518286624.
+[2017.12.16-20.29.03:061][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:061][102]LogFbx: 		[Node Attribute Child 1] Arm_L (Type Mesh).
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node END [Arm_L]
+[2017.12.16-20.29.03:061][102]LogFbx: =================================================
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node START [Arm_R] 
+[2017.12.16-20.29.03:061][102]LogFbx: 	Total Deformer Count -1518286624.
+[2017.12.16-20.29.03:061][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:061][102]LogFbx: 		[Node Attribute Child 1] Arm_R (Type Mesh).
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node END [Arm_R]
+[2017.12.16-20.29.03:061][102]LogFbx: =================================================
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node START [Underskirt] 
+[2017.12.16-20.29.03:061][102]LogFbx: 	Total Deformer Count 143571392.
+[2017.12.16-20.29.03:061][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:061][102]LogFbx: 		[Node Attribute Child 1] Underskirt (Type Mesh).
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node END [Underskirt]
+[2017.12.16-20.29.03:061][102]LogFbx: =================================================
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node START [polySurface3] 
+[2017.12.16-20.29.03:061][102]LogFbx: 	Total Deformer Count 135000640.
+[2017.12.16-20.29.03:061][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:061][102]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node END [polySurface3]
+[2017.12.16-20.29.03:061][102]LogFbx: =================================================
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node START [polySurface4] 
+[2017.12.16-20.29.03:061][102]LogFbx: 	Total Deformer Count 135000640.
+[2017.12.16-20.29.03:061][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:061][102]LogFbx: 		[Node Attribute Child 1] polySurface4 (Type Mesh).
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node END [polySurface4]
+[2017.12.16-20.29.03:061][102]LogFbx: =================================================
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node START [polySurface2] 
+[2017.12.16-20.29.03:061][102]LogFbx: 	Total Deformer Count 135000800.
+[2017.12.16-20.29.03:061][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:061][102]LogFbx: 		[Node Attribute Child 1] polySurface2 (Type Mesh).
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node END [polySurface2]
+[2017.12.16-20.29.03:061][102]LogFbx: =================================================
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node START [Shield] 
+[2017.12.16-20.29.03:061][102]LogFbx: 	Total Deformer Count -1540413456.
+[2017.12.16-20.29.03:061][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:061][102]LogFbx: 		[Node Attribute Child 1] Shield (Type Mesh).
+[2017.12.16-20.29.03:061][102]LogFbx: Dumping Node END [Shield]
+[2017.12.16-20.29.03:061][102]LogFbx: =================================================
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node START [Sword] 
+[2017.12.16-20.29.03:062][102]LogFbx: 	Total Deformer Count -1518287728.
+[2017.12.16-20.29.03:062][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:062][102]LogFbx: 		[Node Attribute Child 1] Sword (Type Mesh).
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node END [Sword]
+[2017.12.16-20.29.03:062][102]LogFbx: =================================================
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node START [Belt] 
+[2017.12.16-20.29.03:062][102]LogFbx: 	Total Deformer Count -1518272848.
+[2017.12.16-20.29.03:062][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:062][102]LogFbx: 		[Node Attribute Child 1] Belt (Type Mesh).
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node END [Belt]
+[2017.12.16-20.29.03:062][102]LogFbx: =================================================
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node START [Shirt_Base] 
+[2017.12.16-20.29.03:062][102]LogFbx: 	Total Deformer Count -1860250112.
+[2017.12.16-20.29.03:062][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:062][102]LogFbx: 		[Node Attribute Child 1] Shirt_Base (Type Mesh).
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node END [Shirt_Base]
+[2017.12.16-20.29.03:062][102]LogFbx: =================================================
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node START [BootTop_R] 
+[2017.12.16-20.29.03:062][102]LogFbx: 	Total Deformer Count -1860250112.
+[2017.12.16-20.29.03:062][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:062][102]LogFbx: 		[Node Attribute Child 1] BootTop_R (Type Mesh).
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node END [BootTop_R]
+[2017.12.16-20.29.03:062][102]LogFbx: =================================================
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node START [BootTop_L] 
+[2017.12.16-20.29.03:062][102]LogFbx: 	Total Deformer Count -1860250112.
+[2017.12.16-20.29.03:062][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:062][102]LogFbx: 		[Node Attribute Child 1] BootTop_L (Type Mesh).
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node END [BootTop_L]
+[2017.12.16-20.29.03:062][102]LogFbx: =================================================
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node START [Base] 
+[2017.12.16-20.29.03:062][102]LogFbx: 	Total Deformer Count -1518284608.
+[2017.12.16-20.29.03:062][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:062][102]LogFbx: 		[Node Attribute Child 1] Base (Type Mesh).
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node END [Base]
+[2017.12.16-20.29.03:062][102]LogFbx: =================================================
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node START [Arm_L] 
+[2017.12.16-20.29.03:062][102]LogFbx: 	Total Deformer Count -1518284608.
+[2017.12.16-20.29.03:062][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:062][102]LogFbx: 		[Node Attribute Child 1] Arm_L (Type Mesh).
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node END [Arm_L]
+[2017.12.16-20.29.03:062][102]LogFbx: =================================================
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node START [Arm_R] 
+[2017.12.16-20.29.03:062][102]LogFbx: 	Total Deformer Count -1518284608.
+[2017.12.16-20.29.03:062][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:062][102]LogFbx: 		[Node Attribute Child 1] Arm_R (Type Mesh).
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node END [Arm_R]
+[2017.12.16-20.29.03:062][102]LogFbx: =================================================
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node START [Underskirt] 
+[2017.12.16-20.29.03:062][102]LogFbx: 	Total Deformer Count -1860253184.
+[2017.12.16-20.29.03:062][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:062][102]LogFbx: 		[Node Attribute Child 1] Underskirt (Type Mesh).
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node END [Underskirt]
+[2017.12.16-20.29.03:062][102]LogFbx: =================================================
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node START [polySurface3] 
+[2017.12.16-20.29.03:062][102]LogFbx: 	Total Deformer Count 134997520.
+[2017.12.16-20.29.03:062][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:062][102]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node END [polySurface3]
+[2017.12.16-20.29.03:062][102]LogFbx: =================================================
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node START [polySurface4] 
+[2017.12.16-20.29.03:062][102]LogFbx: 	Total Deformer Count 134997520.
+[2017.12.16-20.29.03:062][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:062][102]LogFbx: 		[Node Attribute Child 1] polySurface4 (Type Mesh).
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node END [polySurface4]
+[2017.12.16-20.29.03:062][102]LogFbx: =================================================
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node START [polySurface2] 
+[2017.12.16-20.29.03:062][102]LogFbx: 	Total Deformer Count 134997280.
+[2017.12.16-20.29.03:062][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:062][102]LogFbx: 		[Node Attribute Child 1] polySurface2 (Type Mesh).
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node END [polySurface2]
+[2017.12.16-20.29.03:062][102]LogFbx: =================================================
+[2017.12.16-20.29.03:062][102]LogFbx: Dumping Node START [Belt] 
+[2017.12.16-20.29.03:062][102]LogFbx: 	Total Deformer Count -1504663456.
+[2017.12.16-20.29.03:062][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:063][102]LogFbx: 		[Node Attribute Child 1] Belt (Type Mesh).
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node END [Belt]
+[2017.12.16-20.29.03:063][102]LogFbx: =================================================
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node START [Shirt_Base] 
+[2017.12.16-20.29.03:063][102]LogFbx: 	Total Deformer Count -1860240832.
+[2017.12.16-20.29.03:063][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:063][102]LogFbx: 		[Node Attribute Child 1] Shirt_Base (Type Mesh).
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node END [Shirt_Base]
+[2017.12.16-20.29.03:063][102]LogFbx: =================================================
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node START [BootTop_R] 
+[2017.12.16-20.29.03:063][102]LogFbx: 	Total Deformer Count -1860240832.
+[2017.12.16-20.29.03:063][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:063][102]LogFbx: 		[Node Attribute Child 1] BootTop_R (Type Mesh).
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node END [BootTop_R]
+[2017.12.16-20.29.03:063][102]LogFbx: =================================================
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node START [BootTop_L] 
+[2017.12.16-20.29.03:063][102]LogFbx: 	Total Deformer Count -1860240832.
+[2017.12.16-20.29.03:063][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:063][102]LogFbx: 		[Node Attribute Child 1] BootTop_L (Type Mesh).
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node END [BootTop_L]
+[2017.12.16-20.29.03:063][102]LogFbx: =================================================
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node START [Base] 
+[2017.12.16-20.29.03:063][102]LogFbx: 	Total Deformer Count -1522245984.
+[2017.12.16-20.29.03:063][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:063][102]LogFbx: 		[Node Attribute Child 1] Base (Type Mesh).
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node END [Base]
+[2017.12.16-20.29.03:063][102]LogFbx: =================================================
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node START [Arm_L] 
+[2017.12.16-20.29.03:063][102]LogFbx: 	Total Deformer Count -1522245984.
+[2017.12.16-20.29.03:063][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:063][102]LogFbx: 		[Node Attribute Child 1] Arm_L (Type Mesh).
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node END [Arm_L]
+[2017.12.16-20.29.03:063][102]LogFbx: =================================================
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node START [Arm_R] 
+[2017.12.16-20.29.03:063][102]LogFbx: 	Total Deformer Count -1522245984.
+[2017.12.16-20.29.03:063][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:063][102]LogFbx: 		[Node Attribute Child 1] Arm_R (Type Mesh).
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node END [Arm_R]
+[2017.12.16-20.29.03:063][102]LogFbx: =================================================
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node START [Underskirt] 
+[2017.12.16-20.29.03:063][102]LogFbx: 	Total Deformer Count -1860251392.
+[2017.12.16-20.29.03:063][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:063][102]LogFbx: 		[Node Attribute Child 1] Underskirt (Type Mesh).
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node END [Underskirt]
+[2017.12.16-20.29.03:063][102]LogFbx: =================================================
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node START [polySurface3] 
+[2017.12.16-20.29.03:063][102]LogFbx: 	Total Deformer Count 151257632.
+[2017.12.16-20.29.03:063][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:063][102]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node END [polySurface3]
+[2017.12.16-20.29.03:063][102]LogFbx: =================================================
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node START [polySurface4] 
+[2017.12.16-20.29.03:063][102]LogFbx: 	Total Deformer Count 151257632.
+[2017.12.16-20.29.03:063][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:063][102]LogFbx: 		[Node Attribute Child 1] polySurface4 (Type Mesh).
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node END [polySurface4]
+[2017.12.16-20.29.03:063][102]LogFbx: =================================================
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node START [polySurface2] 
+[2017.12.16-20.29.03:063][102]LogFbx: 	Total Deformer Count 151271552.
+[2017.12.16-20.29.03:063][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:063][102]LogFbx: 		[Node Attribute Child 1] polySurface2 (Type Mesh).
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node END [polySurface2]
+[2017.12.16-20.29.03:063][102]LogFbx: =================================================
+[2017.12.16-20.29.03:063][102]LogFbx: Dumping Node START [polySurface3] 
+[2017.12.16-20.29.03:064][102]LogFbx: 	Total Deformer Count 151260592.
+[2017.12.16-20.29.03:064][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:064][102]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node END [polySurface3]
+[2017.12.16-20.29.03:064][102]LogFbx: =================================================
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node START [polySurface4] 
+[2017.12.16-20.29.03:064][102]LogFbx: 	Total Deformer Count 151260592.
+[2017.12.16-20.29.03:064][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:064][102]LogFbx: 		[Node Attribute Child 1] polySurface4 (Type Mesh).
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node END [polySurface4]
+[2017.12.16-20.29.03:064][102]LogFbx: =================================================
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node START [polySurface3] 
+[2017.12.16-20.29.03:064][102]LogFbx: 	Total Deformer Count 151271552.
+[2017.12.16-20.29.03:064][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:064][102]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node END [polySurface3]
+[2017.12.16-20.29.03:064][102]LogFbx: =================================================
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node START [polySurface4] 
+[2017.12.16-20.29.03:064][102]LogFbx: 	Total Deformer Count 151271552.
+[2017.12.16-20.29.03:064][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:064][102]LogFbx: 		[Node Attribute Child 1] polySurface4 (Type Mesh).
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node END [polySurface4]
+[2017.12.16-20.29.03:064][102]LogFbx: =================================================
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node START [polySurface2] 
+[2017.12.16-20.29.03:064][102]LogFbx: 	Total Deformer Count 151271552.
+[2017.12.16-20.29.03:064][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:064][102]LogFbx: 		[Node Attribute Child 1] polySurface2 (Type Mesh).
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node END [polySurface2]
+[2017.12.16-20.29.03:064][102]LogFbx: =================================================
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node START [Shield] 
+[2017.12.16-20.29.03:064][102]LogFbx: 	Total Deformer Count -1540411608.
+[2017.12.16-20.29.03:064][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:064][102]LogFbx: 		[Node Attribute Child 1] Shield (Type Mesh).
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node END [Shield]
+[2017.12.16-20.29.03:064][102]LogFbx: =================================================
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node START [Sword] 
+[2017.12.16-20.29.03:064][102]LogFbx: 	Total Deformer Count -1496919296.
+[2017.12.16-20.29.03:064][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:064][102]LogFbx: 		[Node Attribute Child 1] Sword (Type Mesh).
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node END [Sword]
+[2017.12.16-20.29.03:064][102]LogFbx: =================================================
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node START [Shield] 
+[2017.12.16-20.29.03:064][102]LogFbx: 	Total Deformer Count -1540410824.
+[2017.12.16-20.29.03:064][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:064][102]LogFbx: 		[Node Attribute Child 1] Shield (Type Mesh).
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node END [Shield]
+[2017.12.16-20.29.03:064][102]LogFbx: =================================================
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node START [Sword] 
+[2017.12.16-20.29.03:064][102]LogFbx: 	Total Deformer Count -1496921120.
+[2017.12.16-20.29.03:064][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.03:064][102]LogFbx: 		[Node Attribute Child 1] Sword (Type Mesh).
+[2017.12.16-20.29.03:064][102]LogFbx: Dumping Node END [Sword]
+[2017.12.16-20.29.03:091][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/tile_2'
+[2017.12.16-20.29.03:091][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/tile_2'
+[2017.12.16-20.29.03:093][102]LogMaterial:Warning: Material /Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/tile_2.tile_2 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.12.16-20.29.03:096][102]LogMaterial: Missing cached shader map for material tile_2, compiling. 
+[2017.12.16-20.29.03:122][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/diffuse_ShieldKnight_UV_done_1002'
+[2017.12.16-20.29.03:122][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/diffuse_ShieldKnight_UV_done_1002'
+[2017.12.16-20.29.03:955][102]LogTexture:Display: Building textures: diffuse_ShieldKnight_UV_done_1002 (AutoDXT, 4096X4096)
+[2017.12.16-20.29.08:427][102]LogMaterial: Missing cached shader map for material tile_2, compiling. 
+[2017.12.16-20.29.08:477][102]LogFbx: Triangulating skeletal mesh Belt
+[2017.12.16-20.29.08:487][102]LogFbx: Triangulating skeletal mesh Shirt_Base
+[2017.12.16-20.29.08:509][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Tile_1'
+[2017.12.16-20.29.08:509][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Tile_1'
+[2017.12.16-20.29.08:509][102]LogMaterial:Warning: Material /Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Tile_1.Tile_1 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.12.16-20.29.08:511][102]LogMaterial: Missing cached shader map for material Tile_1, compiling. 
+[2017.12.16-20.29.08:547][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/diffuse_ShieldKnight_UV_done_1001'
+[2017.12.16-20.29.08:547][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/diffuse_ShieldKnight_UV_done_1001'
+[2017.12.16-20.29.09:511][102]LogTexture:Display: Building textures: diffuse_ShieldKnight_UV_done_1001 (AutoDXT, 4096X4096)
+[2017.12.16-20.29.14:891][102]LogMaterial: Missing cached shader map for material Tile_1, compiling. 
+[2017.12.16-20.29.14:962][102]LogFbx: Triangulating skeletal mesh BootTop_R
+[2017.12.16-20.29.14:964][102]LogFbx: Triangulating skeletal mesh BootTop_L
+[2017.12.16-20.29.14:966][102]LogFbx: Triangulating skeletal mesh Base
+[2017.12.16-20.29.15:061][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/lambert5'
+[2017.12.16-20.29.15:061][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/lambert5'
+[2017.12.16-20.29.15:062][102]LogMaterial:Warning: Material /Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/lambert5.lambert5 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.12.16-20.29.15:064][102]LogMaterial: Missing cached shader map for material lambert5, compiling. 
+[2017.12.16-20.29.15:101][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/diffuse_ShieldKnight_UV_done_1003'
+[2017.12.16-20.29.15:101][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/diffuse_ShieldKnight_UV_done_1003'
+[2017.12.16-20.29.16:039][102]LogTexture:Display: Building textures: diffuse_ShieldKnight_UV_done_1003 (AutoDXT, 4096X4096)
+[2017.12.16-20.29.20:705][102]LogMaterial: Missing cached shader map for material lambert5, compiling. 
+[2017.12.16-20.29.20:782][102]LogFbx: Triangulating skeletal mesh Arm_L
+[2017.12.16-20.29.20:793][102]LogFbx: Triangulating skeletal mesh Arm_R
+[2017.12.16-20.29.20:801][102]LogFbx: Triangulating skeletal mesh Underskirt
+[2017.12.16-20.29.20:804][102]LogFbx: Triangulating skeletal mesh polySurface3
+[2017.12.16-20.29.20:820][102]LogFbx: Triangulating skeletal mesh polySurface4
+[2017.12.16-20.29.20:829][102]LogFbx: Triangulating skeletal mesh polySurface2
+[2017.12.16-20.29.20:848][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/lambert2'
+[2017.12.16-20.29.20:848][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/lambert2'
+[2017.12.16-20.29.20:848][102]LogMaterial:Warning: Material /Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/lambert2.lambert2 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.12.16-20.29.20:850][102]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.12.16-20.29.20:890][102]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.12.16-20.29.20:936][102]LogFbx: Triangulating skeletal mesh Shield
+[2017.12.16-20.29.20:970][102]LogFbx: Triangulating skeletal mesh Sword
+[2017.12.16-20.29.21:003][102]LogFbx:Warning: Bones digested - 18  Depth of hierarchy - 5
+[2017.12.16-20.29.21:068][102]LogSkeletalMesh: Section 0: 346 vertices, 3 active bones
+[2017.12.16-20.29.21:069][102]LogSkeletalMesh: Section 1: 993 vertices, 4 active bones
+[2017.12.16-20.29.21:069][102]LogSkeletalMesh: Section 2: 301 vertices, 4 active bones
+[2017.12.16-20.29.21:069][102]LogSkeletalMesh: Section 3: 402 vertices, 2 active bones
+[2017.12.16-20.29.21:071][102]LogSkeletalMesh: Section 0: Material=0, 468 triangles
+[2017.12.16-20.29.21:071][102]LogSkeletalMesh: Section 1: Material=1, 1496 triangles
+[2017.12.16-20.29.21:071][102]LogSkeletalMesh: Section 2: Material=2, 440 triangles
+[2017.12.16-20.29.21:071][102]LogSkeletalMesh: Section 3: Material=3, 668 triangles
+[2017.12.16-20.29.21:074][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/SK_LightSoldier_Skeleton'
+[2017.12.16-20.29.21:074][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/SK_LightSoldier_Skeleton'
+[2017.12.16-20.29.21:077][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/SK_LightSoldier_PhysicsAsset'
+[2017.12.16-20.29.21:077][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/SK_LightSoldier_PhysicsAsset'
+[2017.12.16-20.29.21:086][102]LogFbx: =================================================
+[2017.12.16-20.29.21:086][102]LogFbx: Dumping Node START [Belt] 
+[2017.12.16-20.29.21:086][102]LogFbx: 	Total Deformer Count -1582276720.
+[2017.12.16-20.29.21:086][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:086][102]LogFbx: 		[Node Attribute Child 1] Belt (Type Mesh).
+[2017.12.16-20.29.21:086][102]LogFbx: Dumping Node END [Belt]
+[2017.12.16-20.29.21:086][102]LogFbx: =================================================
+[2017.12.16-20.29.21:086][102]LogFbx: Dumping Node START [Shirt_Base] 
+[2017.12.16-20.29.21:086][102]LogFbx: 	Total Deformer Count 543898112.
+[2017.12.16-20.29.21:086][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:086][102]LogFbx: 		[Node Attribute Child 1] Shirt_Base (Type Mesh).
+[2017.12.16-20.29.21:086][102]LogFbx: Dumping Node END [Shirt_Base]
+[2017.12.16-20.29.21:086][102]LogFbx: =================================================
+[2017.12.16-20.29.21:086][102]LogFbx: Dumping Node START [BootTop_R] 
+[2017.12.16-20.29.21:086][102]LogFbx: 	Total Deformer Count 543898112.
+[2017.12.16-20.29.21:086][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:086][102]LogFbx: 		[Node Attribute Child 1] BootTop_R (Type Mesh).
+[2017.12.16-20.29.21:086][102]LogFbx: Dumping Node END [BootTop_R]
+[2017.12.16-20.29.21:086][102]LogFbx: =================================================
+[2017.12.16-20.29.21:086][102]LogFbx: Dumping Node START [BootTop_L] 
+[2017.12.16-20.29.21:086][102]LogFbx: 	Total Deformer Count 543898112.
+[2017.12.16-20.29.21:086][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:086][102]LogFbx: 		[Node Attribute Child 1] BootTop_L (Type Mesh).
+[2017.12.16-20.29.21:086][102]LogFbx: Dumping Node END [BootTop_L]
+[2017.12.16-20.29.21:086][102]LogFbx: =================================================
+[2017.12.16-20.29.21:086][102]LogFbx: Dumping Node START [Base] 
+[2017.12.16-20.29.21:086][102]LogFbx: 	Total Deformer Count -1582273600.
+[2017.12.16-20.29.21:086][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:087][102]LogFbx: 		[Node Attribute Child 1] Base (Type Mesh).
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node END [Base]
+[2017.12.16-20.29.21:087][102]LogFbx: =================================================
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node START [Arm_L] 
+[2017.12.16-20.29.21:087][102]LogFbx: 	Total Deformer Count -1582273600.
+[2017.12.16-20.29.21:087][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:087][102]LogFbx: 		[Node Attribute Child 1] Arm_L (Type Mesh).
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node END [Arm_L]
+[2017.12.16-20.29.21:087][102]LogFbx: =================================================
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node START [Arm_R] 
+[2017.12.16-20.29.21:087][102]LogFbx: 	Total Deformer Count -1582273600.
+[2017.12.16-20.29.21:087][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:087][102]LogFbx: 		[Node Attribute Child 1] Arm_R (Type Mesh).
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node END [Arm_R]
+[2017.12.16-20.29.21:087][102]LogFbx: =================================================
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node START [Underskirt] 
+[2017.12.16-20.29.21:087][102]LogFbx: 	Total Deformer Count 543897920.
+[2017.12.16-20.29.21:087][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:087][102]LogFbx: 		[Node Attribute Child 1] Underskirt (Type Mesh).
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node END [Underskirt]
+[2017.12.16-20.29.21:087][102]LogFbx: =================================================
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node START [polySurface3] 
+[2017.12.16-20.29.21:087][102]LogFbx: 	Total Deformer Count 363799440.
+[2017.12.16-20.29.21:087][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:087][102]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node END [polySurface3]
+[2017.12.16-20.29.21:087][102]LogFbx: =================================================
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node START [polySurface4] 
+[2017.12.16-20.29.21:087][102]LogFbx: 	Total Deformer Count 363799440.
+[2017.12.16-20.29.21:087][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:087][102]LogFbx: 		[Node Attribute Child 1] polySurface4 (Type Mesh).
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node END [polySurface4]
+[2017.12.16-20.29.21:087][102]LogFbx: =================================================
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node START [polySurface2] 
+[2017.12.16-20.29.21:087][102]LogFbx: 	Total Deformer Count 363799520.
+[2017.12.16-20.29.21:087][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:087][102]LogFbx: 		[Node Attribute Child 1] polySurface2 (Type Mesh).
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node END [polySurface2]
+[2017.12.16-20.29.21:087][102]LogFbx: =================================================
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node START [Shield] 
+[2017.12.16-20.29.21:087][102]LogFbx: 	Total Deformer Count 544088752.
+[2017.12.16-20.29.21:087][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:087][102]LogFbx: 		[Node Attribute Child 1] Shield (Type Mesh).
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node END [Shield]
+[2017.12.16-20.29.21:087][102]LogFbx: =================================================
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node START [Sword] 
+[2017.12.16-20.29.21:087][102]LogFbx: 	Total Deformer Count -1582281472.
+[2017.12.16-20.29.21:087][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:087][102]LogFbx: 		[Node Attribute Child 1] Sword (Type Mesh).
+[2017.12.16-20.29.21:087][102]LogFbx: Dumping Node END [Sword]
+[2017.12.16-20.29.21:088][102]LogFbx: =================================================
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node START [Belt] 
+[2017.12.16-20.29.21:088][102]LogFbx: 	Total Deformer Count -1582271536.
+[2017.12.16-20.29.21:088][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:088][102]LogFbx: 		[Node Attribute Child 1] Belt (Type Mesh).
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node END [Belt]
+[2017.12.16-20.29.21:088][102]LogFbx: =================================================
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node START [Shirt_Base] 
+[2017.12.16-20.29.21:088][102]LogFbx: 	Total Deformer Count 543897792.
+[2017.12.16-20.29.21:088][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:088][102]LogFbx: 		[Node Attribute Child 1] Shirt_Base (Type Mesh).
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node END [Shirt_Base]
+[2017.12.16-20.29.21:088][102]LogFbx: =================================================
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node START [BootTop_R] 
+[2017.12.16-20.29.21:088][102]LogFbx: 	Total Deformer Count 543897792.
+[2017.12.16-20.29.21:088][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:088][102]LogFbx: 		[Node Attribute Child 1] BootTop_R (Type Mesh).
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node END [BootTop_R]
+[2017.12.16-20.29.21:088][102]LogFbx: =================================================
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node START [BootTop_L] 
+[2017.12.16-20.29.21:088][102]LogFbx: 	Total Deformer Count 543897792.
+[2017.12.16-20.29.21:088][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:088][102]LogFbx: 		[Node Attribute Child 1] BootTop_L (Type Mesh).
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node END [BootTop_L]
+[2017.12.16-20.29.21:088][102]LogFbx: =================================================
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node START [Base] 
+[2017.12.16-20.29.21:088][102]LogFbx: 	Total Deformer Count -1592631216.
+[2017.12.16-20.29.21:088][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:088][102]LogFbx: 		[Node Attribute Child 1] Base (Type Mesh).
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node END [Base]
+[2017.12.16-20.29.21:088][102]LogFbx: =================================================
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node START [Arm_L] 
+[2017.12.16-20.29.21:088][102]LogFbx: 	Total Deformer Count -1592631216.
+[2017.12.16-20.29.21:088][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:088][102]LogFbx: 		[Node Attribute Child 1] Arm_L (Type Mesh).
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node END [Arm_L]
+[2017.12.16-20.29.21:088][102]LogFbx: =================================================
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node START [Arm_R] 
+[2017.12.16-20.29.21:088][102]LogFbx: 	Total Deformer Count -1592631216.
+[2017.12.16-20.29.21:088][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:088][102]LogFbx: 		[Node Attribute Child 1] Arm_R (Type Mesh).
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node END [Arm_R]
+[2017.12.16-20.29.21:088][102]LogFbx: =================================================
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node START [Underskirt] 
+[2017.12.16-20.29.21:088][102]LogFbx: 	Total Deformer Count 543897664.
+[2017.12.16-20.29.21:088][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:088][102]LogFbx: 		[Node Attribute Child 1] Underskirt (Type Mesh).
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node END [Underskirt]
+[2017.12.16-20.29.21:088][102]LogFbx: =================================================
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node START [polySurface3] 
+[2017.12.16-20.29.21:088][102]LogFbx: 	Total Deformer Count 363794560.
+[2017.12.16-20.29.21:088][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:088][102]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node END [polySurface3]
+[2017.12.16-20.29.21:088][102]LogFbx: =================================================
+[2017.12.16-20.29.21:088][102]LogFbx: Dumping Node START [polySurface4] 
+[2017.12.16-20.29.21:088][102]LogFbx: 	Total Deformer Count 363794560.
+[2017.12.16-20.29.21:088][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] polySurface4 (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [polySurface4]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [polySurface2] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count 363794640.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] polySurface2 (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [polySurface2]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [Shield] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count 544088640.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] Shield (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [Shield]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [Sword] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count -1592631984.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] Sword (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [Sword]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [Belt] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count -1592638224.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] Belt (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [Belt]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [Shirt_Base] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count 543897536.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] Shirt_Base (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [Shirt_Base]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [BootTop_R] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count 543897536.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] BootTop_R (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [BootTop_R]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [BootTop_L] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count 543897536.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] BootTop_L (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [BootTop_L]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [Base] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count -1592627424.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] Base (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [Base]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [Arm_L] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count -1592627424.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] Arm_L (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [Arm_L]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [Arm_R] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count -1592627424.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] Arm_R (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [Arm_R]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [Underskirt] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count 543897408.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] Underskirt (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [Underskirt]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [polySurface3] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count 313961792.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [polySurface3]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [polySurface4] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count 313961792.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] polySurface4 (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [polySurface4]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [polySurface2] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count 313962272.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:089][102]LogFbx: 		[Node Attribute Child 1] polySurface2 (Type Mesh).
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node END [polySurface2]
+[2017.12.16-20.29.21:089][102]LogFbx: =================================================
+[2017.12.16-20.29.21:089][102]LogFbx: Dumping Node START [Belt] 
+[2017.12.16-20.29.21:089][102]LogFbx: 	Total Deformer Count -1602967792.
+[2017.12.16-20.29.21:089][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:090][102]LogFbx: 		[Node Attribute Child 1] Belt (Type Mesh).
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node END [Belt]
+[2017.12.16-20.29.21:090][102]LogFbx: =================================================
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node START [Shirt_Base] 
+[2017.12.16-20.29.21:090][102]LogFbx: 	Total Deformer Count 543897280.
+[2017.12.16-20.29.21:090][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:090][102]LogFbx: 		[Node Attribute Child 1] Shirt_Base (Type Mesh).
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node END [Shirt_Base]
+[2017.12.16-20.29.21:090][102]LogFbx: =================================================
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node START [BootTop_R] 
+[2017.12.16-20.29.21:090][102]LogFbx: 	Total Deformer Count 543897280.
+[2017.12.16-20.29.21:090][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:090][102]LogFbx: 		[Node Attribute Child 1] BootTop_R (Type Mesh).
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node END [BootTop_R]
+[2017.12.16-20.29.21:090][102]LogFbx: =================================================
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node START [BootTop_L] 
+[2017.12.16-20.29.21:090][102]LogFbx: 	Total Deformer Count 543897280.
+[2017.12.16-20.29.21:090][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:090][102]LogFbx: 		[Node Attribute Child 1] BootTop_L (Type Mesh).
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node END [BootTop_L]
+[2017.12.16-20.29.21:090][102]LogFbx: =================================================
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node START [Base] 
+[2017.12.16-20.29.21:090][102]LogFbx: 	Total Deformer Count -1602972016.
+[2017.12.16-20.29.21:090][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:090][102]LogFbx: 		[Node Attribute Child 1] Base (Type Mesh).
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node END [Base]
+[2017.12.16-20.29.21:090][102]LogFbx: =================================================
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node START [Arm_L] 
+[2017.12.16-20.29.21:090][102]LogFbx: 	Total Deformer Count -1602972016.
+[2017.12.16-20.29.21:090][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:090][102]LogFbx: 		[Node Attribute Child 1] Arm_L (Type Mesh).
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node END [Arm_L]
+[2017.12.16-20.29.21:090][102]LogFbx: =================================================
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node START [Arm_R] 
+[2017.12.16-20.29.21:090][102]LogFbx: 	Total Deformer Count -1602972016.
+[2017.12.16-20.29.21:090][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:090][102]LogFbx: 		[Node Attribute Child 1] Arm_R (Type Mesh).
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node END [Arm_R]
+[2017.12.16-20.29.21:090][102]LogFbx: =================================================
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node START [Underskirt] 
+[2017.12.16-20.29.21:090][102]LogFbx: 	Total Deformer Count 543897152.
+[2017.12.16-20.29.21:090][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:090][102]LogFbx: 		[Node Attribute Child 1] Underskirt (Type Mesh).
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node END [Underskirt]
+[2017.12.16-20.29.21:090][102]LogFbx: =================================================
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node START [polySurface3] 
+[2017.12.16-20.29.21:090][102]LogFbx: 	Total Deformer Count 313951392.
+[2017.12.16-20.29.21:090][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:090][102]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node END [polySurface3]
+[2017.12.16-20.29.21:090][102]LogFbx: =================================================
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node START [polySurface4] 
+[2017.12.16-20.29.21:090][102]LogFbx: 	Total Deformer Count 313951392.
+[2017.12.16-20.29.21:090][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:090][102]LogFbx: 		[Node Attribute Child 1] polySurface4 (Type Mesh).
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node END [polySurface4]
+[2017.12.16-20.29.21:090][102]LogFbx: =================================================
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node START [polySurface2] 
+[2017.12.16-20.29.21:090][102]LogFbx: 	Total Deformer Count 313954272.
+[2017.12.16-20.29.21:090][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:090][102]LogFbx: 		[Node Attribute Child 1] polySurface2 (Type Mesh).
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node END [polySurface2]
+[2017.12.16-20.29.21:090][102]LogFbx: =================================================
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node START [polySurface3] 
+[2017.12.16-20.29.21:090][102]LogFbx: 	Total Deformer Count 313957152.
+[2017.12.16-20.29.21:090][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:090][102]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node END [polySurface3]
+[2017.12.16-20.29.21:090][102]LogFbx: =================================================
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node START [polySurface4] 
+[2017.12.16-20.29.21:090][102]LogFbx: 	Total Deformer Count 313957152.
+[2017.12.16-20.29.21:090][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:090][102]LogFbx: 		[Node Attribute Child 1] polySurface4 (Type Mesh).
+[2017.12.16-20.29.21:090][102]LogFbx: Dumping Node END [polySurface4]
+[2017.12.16-20.29.21:091][102]LogFbx: =================================================
+[2017.12.16-20.29.21:091][102]LogFbx: Dumping Node START [polySurface3] 
+[2017.12.16-20.29.21:091][102]LogFbx: 	Total Deformer Count 313954272.
+[2017.12.16-20.29.21:091][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:091][102]LogFbx: 		[Node Attribute Child 1] polySurface3 (Type Mesh).
+[2017.12.16-20.29.21:091][102]LogFbx: Dumping Node END [polySurface3]
+[2017.12.16-20.29.21:091][102]LogFbx: =================================================
+[2017.12.16-20.29.21:091][102]LogFbx: Dumping Node START [polySurface4] 
+[2017.12.16-20.29.21:091][102]LogFbx: 	Total Deformer Count 313954272.
+[2017.12.16-20.29.21:091][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:091][102]LogFbx: 		[Node Attribute Child 1] polySurface4 (Type Mesh).
+[2017.12.16-20.29.21:091][102]LogFbx: Dumping Node END [polySurface4]
+[2017.12.16-20.29.21:091][102]LogFbx: =================================================
+[2017.12.16-20.29.21:091][102]LogFbx: Dumping Node START [polySurface2] 
+[2017.12.16-20.29.21:091][102]LogFbx: 	Total Deformer Count 313954272.
+[2017.12.16-20.29.21:091][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:091][102]LogFbx: 		[Node Attribute Child 1] polySurface2 (Type Mesh).
+[2017.12.16-20.29.21:091][102]LogFbx: Dumping Node END [polySurface2]
+[2017.12.16-20.29.21:091][102]LogFbx: =================================================
+[2017.12.16-20.29.21:091][102]LogFbx: Dumping Node START [Shield] 
+[2017.12.16-20.29.21:091][102]LogFbx: 	Total Deformer Count 544088696.
+[2017.12.16-20.29.21:091][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:091][102]LogFbx: 		[Node Attribute Child 1] Shield (Type Mesh).
+[2017.12.16-20.29.21:091][102]LogFbx: Dumping Node END [Shield]
+[2017.12.16-20.29.21:091][102]LogFbx: =================================================
+[2017.12.16-20.29.21:091][102]LogFbx: Dumping Node START [Sword] 
+[2017.12.16-20.29.21:091][102]LogFbx: 	Total Deformer Count -1596546464.
+[2017.12.16-20.29.21:091][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:091][102]LogFbx: 		[Node Attribute Child 1] Sword (Type Mesh).
+[2017.12.16-20.29.21:091][102]LogFbx: Dumping Node END [Sword]
+[2017.12.16-20.29.21:091][102]LogFbx: =================================================
+[2017.12.16-20.29.21:091][102]LogFbx: Dumping Node START [Shield] 
+[2017.12.16-20.29.21:091][102]LogFbx: 	Total Deformer Count 544088472.
+[2017.12.16-20.29.21:091][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:091][102]LogFbx: 		[Node Attribute Child 1] Shield (Type Mesh).
+[2017.12.16-20.29.21:091][102]LogFbx: Dumping Node END [Shield]
+[2017.12.16-20.29.21:091][102]LogFbx: =================================================
+[2017.12.16-20.29.21:091][102]LogFbx: Dumping Node START [Sword] 
+[2017.12.16-20.29.21:091][102]LogFbx: 	Total Deformer Count -1596544640.
+[2017.12.16-20.29.21:091][102]LogFbx: 	Attribute () Type (4).
+[2017.12.16-20.29.21:091][102]LogFbx: 		[Node Attribute Child 1] Sword (Type Mesh).
+[2017.12.16-20.29.21:091][102]LogFbx: Dumping Node END [Sword]
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(0) Mesh_grp
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(1) armour
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(2) Belt
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(3) Shirt_Base
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(4) BootTop_R
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(5) BootTop_L
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(6) Base
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(7) Arm_L
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(8) Arm_R
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(9) Underskirt
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(10) Helmet
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(11) polySurface1
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(12) polySurface3
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(13) polySurface4
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(14) polySurface2
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(15) weapons
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(16) Shield
+[2017.12.16-20.29.21:092][102]LogFbx: SortedLinks :(17) Sword
+[2017.12.16-20.29.21:093][102]LogFbx: Parsing AnimStack Take 001
+[2017.12.16-20.29.21:099][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/SK_LightSoldier_Anim'
+[2017.12.16-20.29.21:099][102]LogLinker: Can't find file '/Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/SK_LightSoldier_Anim'
+[2017.12.16-20.29.21:192][102]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/SK_LightSoldier_Anim.SK_LightSoldier_Anim
+[2017.12.16-20.29.21:205][102]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.12.16-20.29.21:205][102]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2017.12.16-20.29.25:051][352]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.12.16-20.29.25:283][352]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.12.16-20.29.25:411][352]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.12.16-20.29.25:853][352]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2017.12.16-22.25.01:789][987]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_2' or package '/Engine/Transient'.
+[2017.12.16-22.25.01:799][987]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_0' or package '/Engine/Transient'.
+[2017.12.16-22.25.01:806][987]LogMaterial: Missing cached shader map for material lambert5, compiling. 
+[2017.12.16-22.25.01:807][987]LogMaterial:Warning: Failed to compile Material /Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/lambert5.lambert5 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.16-22.25.01:807][987]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.16-22.25.01:810][987]LogMaterial: Missing cached shader map for material Tile_1, compiling. 
+[2017.12.16-22.25.01:810][987]LogMaterial:Warning: Failed to compile Material /Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Tile_1.Tile_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.16-22.25.01:810][987]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.16-22.25.01:812][987]LogMaterial: Missing cached shader map for material tile_2, compiling. 
+[2017.12.16-22.25.01:812][987]LogMaterial:Warning: Failed to compile Material /Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/tile_2.tile_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.16-22.25.01:812][987]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.16-22.25.01:817][987]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_1' or package '/Engine/Transient'.
+[2017.12.16-22.25.06:779][443]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.16-22.25.07:066][444]Cmd: QUIT_EDITOR
+[2017.12.16-22.25.07:145][444]LogExit: Preparing to exit.
+[2017.12.16-22.25.08:294][444]LogExit: Editor shut down
+[2017.12.16-22.25.08:318][444]LogExit: Transaction tracking system shut down
+[2017.12.16-22.25.09:170][444]LogObj: Freed 0b from 0 cluster array pools.
+[2017.12.16-22.25.09:171][444]LogExit: Object subsystem successfully closed.
+[2017.12.16-22.25.09:230][444]LogD3D11RHI: Shutdown
+[2017.12.16-22.25.09:230][444]LogD3D11RHI: CleanupD3DDevice
+[2017.12.16-22.25.09:329][444]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.16-22.25.09:359][444]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (534)
+[2017.12.16-22.25.09:359][444]LogModuleManager: Shutting down and abandoning module SkeletonEditor (532)
+[2017.12.16-22.25.09:359][444]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (530)
+[2017.12.16-22.25.09:359][444]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2017.12.16-22.25.09:359][444]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (526)
+[2017.12.16-22.25.09:360][444]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.12.16-22.25.09:360][444]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.12.16-22.25.09:360][444]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.12.16-22.25.09:360][444]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.12.16-22.25.09:361][444]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.12.16-22.25.09:365][444]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.12.16-22.25.09:365][444]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.12.16-22.25.09:365][444]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.12.16-22.25.09:365][444]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Collections/' was aborted.
+[2017.12.16-22.25.09:365][444]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/Developers/studentuser/Collections/' was aborted.
+[2017.12.16-22.25.09:365][444]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Saved/Collections/' was aborted.
+[2017.12.16-22.25.09:365][444]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.12.16-22.25.09:366][444]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.12.16-22.25.09:366][444]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.12.16-22.25.09:367][444]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.12.16-22.25.09:367][444]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.12.16-22.25.09:367][444]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.12.16-22.25.09:367][444]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.12.16-22.25.09:367][444]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.12.16-22.25.09:367][444]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.12.16-22.25.09:368][444]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.12.16-22.25.09:368][444]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.12.16-22.25.09:368][444]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.12.16-22.25.09:368][444]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.12.16-22.25.09:368][444]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.12.16-22.25.09:370][444]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.12.16-22.25.09:370][444]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.12.16-22.25.09:370][444]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.12.16-22.25.09:371][444]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.12.16-22.25.09:371][444]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.12.16-22.25.09:371][444]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.12.16-22.25.09:371][444]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.12.16-22.25.09:371][444]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.12.16-22.25.09:371][444]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.12.16-22.25.09:371][444]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.12.16-22.25.09:371][444]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.12.16-22.25.09:372][444]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.12.16-22.25.09:372][444]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.12.16-22.25.09:372][444]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.12.16-22.25.09:372][444]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.12.16-22.25.09:372][444]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.12.16-22.25.09:373][444]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.12.16-22.25.09:373][444]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.12.16-22.25.09:374][444]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.12.16-22.25.09:375][444]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.12.16-22.25.09:375][444]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.12.16-22.25.09:376][444]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.12.16-22.25.09:376][444]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.12.16-22.25.09:376][444]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.12.16-22.25.09:406][444]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.12.16-22.25.09:406][444]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.12.16-22.25.09:406][444]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.12.16-22.25.09:407][444]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.12.16-22.25.09:407][444]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.12.16-22.25.09:407][444]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.12.16-22.25.09:408][444]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.12.16-22.25.09:408][444]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.12.16-22.25.09:409][444]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.12.16-22.25.09:409][444]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.12.16-22.25.09:409][444]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.12.16-22.25.09:409][444]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.12.16-22.25.09:410][444]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.12.16-22.25.09:410][444]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.12.16-22.25.09:410][444]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.12.16-22.25.09:410][444]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.12.16-22.25.09:410][444]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.12.16-22.25.09:411][444]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.12.16-22.25.09:411][444]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.12.16-22.25.09:411][444]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.12.16-22.25.09:412][444]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.12.16-22.25.09:412][444]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.12.16-22.25.09:412][444]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.12.16-22.25.09:413][444]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.12.16-22.25.09:479][444]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.12.16-22.25.09:479][444]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.12.16-22.25.09:480][444]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.12.16-22.25.09:481][444]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.12.16-22.25.09:481][444]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.12.16-22.25.09:481][444]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.12.16-22.25.09:482][444]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.12.16-22.25.09:482][444]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.12.16-22.25.09:482][444]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.12.16-22.25.09:482][444]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.12.16-22.25.09:486][444]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.12.16-22.25.09:487][444]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.12.16-22.25.09:487][444]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.12.16-22.25.09:488][444]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.12.16-22.25.09:489][444]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.12.16-22.25.09:489][444]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.12.16-22.25.09:489][444]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.12.16-22.25.09:489][444]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.12.16-22.25.09:489][444]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.12.16-22.25.09:489][444]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.12.16-22.25.09:489][444]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.12.16-22.25.09:491][444]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.12.16-22.25.09:492][444]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.12.16-22.25.09:492][444]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.12.16-22.25.09:492][444]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.12.16-22.25.09:492][444]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.12.16-22.25.09:492][444]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.12.16-22.25.09:492][444]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.12.16-22.25.09:492][444]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.12.16-22.25.09:492][444]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.12.16-22.25.09:699][444]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.12.16-22.25.09:710][444]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.12.16-22.25.09:710][444]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.12.16-22.25.09:710][444]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.12.16-22.25.09:710][444]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.12.16-22.25.09:710][444]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.12.16-22.25.09:710][444]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.12.16-22.25.09:710][444]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.12.16-22.25.09:710][444]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.12.16-22.25.09:710][444]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.12.16-22.25.09:710][444]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.12.16-22.25.09:710][444]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.12.16-22.25.09:710][444]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.12.16-22.25.09:712][444]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.12.16-22.25.09:712][444]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.12.16-22.25.09:713][444]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.12.16-22.25.09:713][444]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.12.16-22.25.09:713][444]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.12.16-22.25.09:713][444]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.12.16-22.25.09:713][444]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.12.16-22.25.09:713][444]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.12.16-22.25.09:713][444]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.12.16-22.25.09:714][444]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.12.16-22.25.09:715][444]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.12.16-22.25.09:715][444]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.12.16-22.25.09:715][444]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.12.16-22.25.09:715][444]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.12.16-22.25.09:715][444]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.12.16-22.25.09:716][444]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.12.16-22.25.09:716][444]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.12.16-22.25.09:717][444]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.12.16-22.25.09:717][444]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.12.16-22.25.09:717][444]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.12.16-22.25.09:717][444]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.12.16-22.25.09:717][444]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.12.16-22.25.09:717][444]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.12.16-22.25.09:719][444]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.12.16-22.25.09:719][444]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.12.16-22.25.09:720][444]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.12.16-22.25.09:720][444]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.12.16-22.25.09:721][444]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.12.16-22.25.09:721][444]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.12.16-22.25.09:721][444]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.12.16-22.25.09:721][444]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.12.16-22.25.09:721][444]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.12.16-22.25.09:823][444]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.12.16-22.25.09:927][444]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.12.16-22.25.09:936][444]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.12.16-22.25.09:936][444]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.12.16-22.25.09:936][444]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.12.16-22.25.09:937][444]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.12.16-22.25.09:937][444]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.12.16-22.25.09:939][444]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.12.16-22.25.09:939][444]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.12.16-22.25.09:939][444]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.12.16-22.25.09:939][444]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.12.16-22.25.09:939][444]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.12.16-22.25.09:939][444]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.12.16-22.25.09:940][444]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.12.16-22.25.09:940][444]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.12.16-22.25.09:940][444]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.12.16-22.25.09:941][444]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.12.16-22.25.09:942][444]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.12.16-22.25.09:942][444]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.12.16-22.25.09:944][444]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.12.16-22.25.09:944][444]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.12.16-22.25.09:944][444]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.12.16-22.25.09:944][444]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.12.16-22.25.09:946][444]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.12.16-22.25.09:946][444]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.12.16-22.25.09:948][444]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.12.16-22.25.09:948][444]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.12.16-22.25.09:948][444]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.12.16-22.25.09:949][444]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.12.16-22.25.09:949][444]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.12.16-22.25.09:952][444]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.12.16-22.25.09:952][444]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.12.16-22.25.09:952][444]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.12.16-22.25.09:952][444]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.12.16-22.25.09:952][444]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.12.16-22.25.09:952][444]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.12.16-22.25.10:016][444]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.16-22.25.10:016][444]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/CastleGuardReborn/Content/' was aborted.
+[2017.12.16-22.25.10:016][444]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.16-22.25.10:016][444]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.12.16-22.25.10:024][444]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.12.16-22.25.10:027][444]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.12.16-22.25.10:027][444]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.12.16-22.25.10:027][444]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.12.16-22.25.10:027][444]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.12.16-22.25.10:028][444]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.12.16-22.25.10:029][444]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.12.16-22.25.10:029][444]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.12.16-22.25.10:030][444]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.16-22.25.10:053][444]LogDerivedDataCache: Shutdown
+[2017.12.16-22.25.10:053][444]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.16-22.25.10:053][444]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.16-22.25.10:054][444]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.16-22.25.10:055][444]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.16-22.25.10:056][444]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.16-22.25.10:056][444]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.16-22.25.10:056][444]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.16-22.25.10:056][444]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.16-22.25.10:056][444]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.16-22.25.10:056][444]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.16-22.25.10:057][444]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.16-22.25.10:058][444]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.16-22.25.10:058][444]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.16-22.25.10:058][444]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.16-22.25.10:058][444]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.16-22.25.10:058][444]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.16-22.25.10:058][444]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.16-22.25.10:058][444]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.16-22.25.10:058][444]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.12.16-22.25.10:058][444]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.12.16-22.25.10:058][444]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.12.16-22.25.10:059][444]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.16-22.25.10:059][444]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.16-22.25.10:059][444]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.16-22.25.10:059][444]LogOnline:Display: Unloading online subsystem: NULL
+[2017.12.16-22.25.10:061][444]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.16-22.25.10:062][444]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.16-22.25.10:062][444]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.16-22.25.10:062][444]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B73EDEBBA-4859-E854-3823-CE93501B417F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=982011a7482c1cbdc2ce3cbeaef51dbe%7C90661dbbb29643fa8d9650f8ab2c70e2%7C70012bb2-c253-4297-934e-6257f569ac01&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.16-22.25.10:080][444]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.16-22.25.10:084][444]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.12.16-22.25.10:085][444]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.12.16-22.25.10:086][444]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.12.16-22.25.10:086][444]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.12.16-22.25.10:087][444]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.12.16-22.25.10:087][444]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.12.16-22.25.10:087][444]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.12.16-22.25.10:087][444]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.12.16-22.25.10:091][444]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.12.16-22.25.10:093][444]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.12.16-22.25.10:093][444]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.12.16-22.25.10:093][444]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.12.16-22.25.10:093][444]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.12.16-22.25.10:093][444]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.12.16-22.25.10:093][444]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.12.16-22.25.10:093][444]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.16-22.25.10:093][444]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.16-22.25.10:093][444]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.16-22.25.10:095][444]LogExit: Exiting.
+[2017.12.16-22.25.10:125][444]Log file closed, 12/16/17 14:25:10
