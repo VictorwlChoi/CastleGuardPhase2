@@ -1,0 +1,957 @@
+﻿Log file open, 11/02/17 19:48:01
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1238606778) SRandInit(1238606778).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.084489
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: C:/4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.03-02.48.01:814][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.03-02.48.01:814][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.03-02.48.01:822][  0]LogInit: Computer: WIZARD
+[2017.11.03-02.48.01:822][  0]LogInit: User: 22TKDF8XX6YG69F9M66D
+[2017.11.03-02.48.01:822][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.03-02.48.01:822][  0]LogInit: High frequency timer resolution =3.320351 MHz
+[2017.11.03-02.48.01:822][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.03-02.48.01:822][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.03-02.48.01:822][  0]LogMemory: Process Physical Memory: 275.83 MB used, 275.83 MB peak
+[2017.11.03-02.48.01:822][  0]LogMemory: Process Virtual Memory: 263.84 MB used, 263.84 MB peak
+[2017.11.03-02.48.01:822][  0]LogMemory: Physical Memory: 5385.13 MB used,  10942.80 MB free, 16327.92 MB total
+[2017.11.03-02.48.01:822][  0]LogMemory: Virtual Memory: 622.28 MB used,  10942.80 MB free, 8388608.00 MB total
+[2017.11.03-02.48.01:888][  0]LogInit: Using OS detected language (en-US).
+[2017.11.03-02.48.01:888][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.03-02.48.01:890][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.03-02.48.02:789][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.03-02.48.02:797][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7900 Series' (Feature Level 11_0)
+[2017.11.03-02.48.02:797][  0]LogD3D11RHI:       3049/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.11.03-02.48.02:797][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.03-02.48.02:800][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.03-02.48.02:801][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
+[2017.11.03-02.48.02:801][  0]LogWindows: EnumDisplayDevices:
+[2017.11.03-02.48.02:801][  0]LogWindows:    0. 'AMD Radeon HD 7900 Series' (P:0 D:1)
+[2017.11.03-02.48.02:801][  0]LogWindows:    1. 'AMD Radeon HD 7900 Series' (P:1 D:1)
+[2017.11.03-02.48.02:801][  0]LogWindows:    2. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2017.11.03-02.48.02:801][  0]LogWindows:    3. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2017.11.03-02.48.02:801][  0]LogWindows:    4. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2017.11.03-02.48.02:801][  0]LogWindows:    5. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2017.11.03-02.48.02:802][  0]LogWindows:    6. 'RDPDD Chained DD' (P:0 D:0)
+[2017.11.03-02.48.02:802][  0]LogWindows:    7. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.11.03-02.48.02:802][  0]LogWindows:    8. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.11.03-02.48.02:802][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.11.03-02.48.02:802][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7900 Series
+[2017.11.03-02.48.02:802][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.2 (internal:22.19.662.4, unified:22.19.662.4)
+[2017.11.03-02.48.02:802][  0]LogD3D11RHI:      Driver Date: 7-20-2017
+[2017.11.03-02.48.02:802][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.03-02.48.02:831][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.03-02.48.02:840][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.11.03-02.48.02:840][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/6752/).
+[2017.11.03-02.48.02:840][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/22TKDF8XX6YG69F9M66D/AppData/Local/Temp/UnrealShaderWorkingDir/F2BFF0994ADF136C736E8CBE0E7F5252/'.
+[2017.11.03-02.48.02:840][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.03-02.48.03:886][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.03-02.48.03:935][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.03-02.48.03:983][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.03-02.48.04:031][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.03-02.48.04:080][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.03-02.48.04:129][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.03-02.48.04:179][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.03-02.48.04:227][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.03-02.48.04:268][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.03-02.48.04:316][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.03-02.48.04:363][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.03-02.48.04:412][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.03-02.48.04:460][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.03-02.48.04:508][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.03-02.48.04:556][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.03-02.48.04:651][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.03-02.48.04:651][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.03-02.48.04:686][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.03-02.48.04:772][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.03-02.48.04:802][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.03-02.48.04:848][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.03-02.48.04:896][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.03-02.48.04:943][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.03-02.48.04:990][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.03-02.48.04:990][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.03-02.48.05:419][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.03-02.48.05:520][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/22TKDF8XX6YG69F9M66D/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.03-02.48.05:520][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/22TKDF8XX6YG69F9M66D/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.03-02.48.05:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.03-02.48.05:521][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.03-02.48.05:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.03-02.48.05:521][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.03-02.48.05:540][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.03-02.48.05:551][  0]LogDerivedDataCache: Using Local data cache path C:/Users/22TKDF8XX6YG69F9M66D/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.03-02.48.05:562][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.03-02.48.05:562][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.03-02.48.05:563][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.03-02.48.05:563][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.03-02.48.05:962][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.03-02.48.05:966][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.03-02.48.06:219][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.03-02.48.06:259][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.03-02.48.06:301][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.03-02.48.06:301][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.03-02.48.06:301][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.03-02.48.06:838][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.11.03-02.48.06:897][  0]LogAssetRegistry: FAssetRegistry took 0.0242 seconds to start up
+[2017.11.03-02.48.06:942][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.025577 seconds
+[2017.11.03-02.48.06:947][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.03-02.48.06:947][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.11.03-02.48.06:947][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.03-02.48.07:002][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.03-02.48.09:218][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.03-02.48.09:252][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.03-02.48.09:748][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.03-02.48.10:113][  0]SourceControl: Info Source control is disabled
+[2017.11.03-02.48.10:161][  0]SourceControl: Info Source control is disabled
+[2017.11.03-02.48.10:203][  0]SourceControl: Info Source control is disabled
+[2017.11.03-02.48.10:244][  0]SourceControl: Info Source control is disabled
+[2017.11.03-02.48.10:842][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.03-02.48.11:380][  0]LogEngine: Initializing Engine...
+[2017.11.03-02.48.11:381][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.03-02.48.11:612][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.03-02.48.11:612][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.03-02.48.11:728][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.03-02.48.11:737][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.03-02.48.11:744][  0]LogInit: FAudioDevice initialized.
+[2017.11.03-02.48.11:786][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/22TKDF8XX6YG69F9M66D/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.03-02.48.11:806][  0]LogInit: Texture streaming: Enabled
+[2017.11.03-02.48.11:892][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.03-02.48.12:089][  0]LogInit: Transaction tracking system initialized
+[2017.11.03-02.48.12:372][  0]BlueprintLog: New page: Editor Load
+[2017.11.03-02.48.13:209][  0]LocalizationService: Info Localization service is disabled
+[2017.11.03-02.48.13:833][  0]LogConsoleResponse:Display: 
+[2017.11.03-02.48.13:970][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.03-02.48.13:970][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.03-02.48.14:903][  0]SourceControl: Info Source control is disabled
+[2017.11.03-02.48.14:903][  0]Cmd: MAP LOAD FILE="../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.03-02.48.14:904][  0]LightingResults: New page: Lighting Build
+[2017.11.03-02.48.14:941][  0]MapCheck: New page: Map Check
+[2017.11.03-02.48.14:941][  0]LightingResults: New page: Lighting Build
+[2017.11.03-02.48.17:267][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.11.03-02.48.17:801][  0]LogAIModule: Creating AISystem for world default
+[2017.11.03-02.48.17:988][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.03-02.48.18:099][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.03-02.48.18:157][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.898ms to complete.
+[2017.11.03-02.48.18:157][  0]LogFileHelpers: Loading map 'default' took 3.254
+[2017.11.03-02.48.18:316][  0]LogCollectionManager: Loaded 0 collections in 0.001501 seconds
+[2017.11.03-02.48.18:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.11.03-02.48.18:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Developers/22TKDF8XX6YG69F9M66D/Collections/' took 0.01s
+[2017.11.03-02.48.18:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.11.03-02.48.18:401][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.03-02.48.18:414][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2329 classes and 491 folders.
+[2017.11.03-02.48.18:484][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.11.03-02.48.18:522][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.03-02.48.18:569][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.03-02.48.18:612][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.03-02.48.18:645][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.03-02.48.20:015][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.11.03-02.48.20:034][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.03-02.48.20:039][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.03-02.48.20:147][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CastleGuardReborn
+[2017.11.03-02.48.20:147][  0]LogTemp: CWD: C:\4.16\Engine\Binaries\DotNET\IOS
+[2017.11.03-02.48.20:147][  0]LogTemp: Initial Dir: C:\4.16
+[2017.11.03-02.48.20:147][  0]LogTemp: Env CWD: C:\4.16\Engine\Binaries\DotNET\IOS
+[2017.11.03-02.48.20:147][  0]LogTemp: BranchPath = WIZARD/C/4.16/Engine/Binaries --- GameBranchPath = WIZARD/C/4.16/Engine/Binaries
+[2017.11.03-02.48.20:147][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\22TKDF8XX6YG69F9M66D\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.03-02.48.20:147][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.11.03-02.48.20:288][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.03-02.48.20:353][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.03-02.48.20:353][  0]LogLoad: (Engine Initialization) Total time: 19.86 seconds
+[2017.11.03-02.48.20:353][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.81 seconds
+[2017.11.03-02.48.20:353][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.03-02.48.20:362][  0]LogOcInput: OculusInput pre-init called
+[2017.11.03-02.48.20:362][  0]LogHMD: Starting GearVRController plugin
+[2017.11.03-02.48.20:390][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.03-02.48.20:468][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.03-02.48.20:504][  1]LogAssetRegistry: Asset discovery search completed in 13.6282 seconds
+[2017.11.03-02.48.20:506][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.03-02.48.20:507][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2017.11.03-02.48.20:820][  3]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.11.03-02.48.20:820][  3]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.11.03-02.48.20:820][  3]LogScript:Warning: Accessed None
+	ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.11.03-02.48.49:203][429]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.03-02.48.51:277][429]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.11.03-02.48.53:269][429]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.03-02.48.53:775][429]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.03-02.48.54:026][430]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.03-02.48.57:795][695]BlueprintLog: New page: Compile SoldierAI
+[2017.11.03-02.50.11:547][349]LogSavePackage: Save=123.73ms
+[2017.11.03-02.50.11:547][349]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/HeavySoldierAI25ED853C44B48EF4A46B0581009CF1C3.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.uasset'
+[2017.11.03-02.50.11:548][349]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.uasset
+[2017.11.03-02.50.14:210][561]BlueprintLog: New page: Compile HeavySoldierAI
+[2017.11.03-02.50.24:292][550]LogTemp: Repeting last play command: Simulate
+[2017.11.03-02.50.24:376][550]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.50.24:377][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-02.50.24:377][550]PIE: New page: SIE session: default (Nov 2, 2017, 12:50:24 PM)
+[2017.11.03-02.50.24:377][550]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.03-02.50.24:615][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.238084s)
+[2017.11.03-02.50.24:616][550]LogAIModule: Creating AISystem for world default
+[2017.11.03-02.50.24:616][550]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2017.11.03-02.50.24:617][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.239814s)
+[2017.11.03-02.50.24:642][550]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.03-02.50.24:649][550]LogInit: FAudioDevice initialized.
+[2017.11.03-02.50.24:688][550]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.03-02.50.24:720][550]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.02-19.50.24
+[2017.11.03-02.50.24:722][550]LogWorld: Bringing up level for play took: 0.030701
+[2017.11.03-02.50.24:723][550]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.03-02.50.24:766][550]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.11.03-02.50.24:767][550]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.03-02.50.24:774][550]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.03-02.50.24:774][550]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.126
+[2017.11.03-02.50.24:830][550]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.50.24:832][550]LogBlueprintUserMessages: [PlayerCollision_11] CollisionCastFailed
+[2017.11.03-02.50.24:863][551]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.24:863][551]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:044][552]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:044][552]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:069][553]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:069][553]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:078][554]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:078][554]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:086][555]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:086][555]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:095][556]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:095][556]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:103][557]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:104][557]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:112][558]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:112][558]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:120][559]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:120][559]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:129][560]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:129][560]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:137][561]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:137][561]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:145][562]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:145][562]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:153][563]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:154][563]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:162][564]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:162][564]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:170][565]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:170][565]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:179][566]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:179][566]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:187][567]LogScript:Warning: Accessed None trying to read property FirstStop
+	HeavySoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.HeavySoldierAI_2
+	Function /Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI:039C
+[2017.11.03-02.50.25:187][567]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:196][568]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:215][569]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:233][570]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:251][571]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:260][572]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:278][573]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:296][574]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:314][575]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:332][576]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:351][577]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:369][578]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:388][579]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:408][580]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:426][581]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:444][582]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:462][583]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:480][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:498][585]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:506][586]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:514][587]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:523][588]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:531][589]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:539][590]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:558][591]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:579][592]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:598][593]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:616][594]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:635][595]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:654][596]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:673][597]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:692][598]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:710][599]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:730][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:749][601]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:782][602]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:802][603]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:821][604]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:840][605]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:860][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:879][607]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:898][608]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:917][609]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:936][610]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:944][611]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:952][612]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:961][613]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:969][614]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.25:989][615]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:009][616]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:035][617]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:055][618]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:074][619]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:094][620]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:113][621]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:132][622]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.03-02.50.26:132][622]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.03-02.50.26:133][622]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.03-02.50.26:133][622]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:157][623]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:177][624]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:196][625]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:205][626]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:213][627]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:221][628]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:230][629]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:238][630]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:246][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:255][632]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:263][633]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:271][634]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:280][635]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:299][636]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:319][637]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:338][638]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:356][639]LogEditorViewport: Clicking on Actor (LMB): HeavySoldierAI_C (HeavySoldierAI)
+[2017.11.03-02.50.26:432][639]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.03-02.50.26:433][639]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:488][640]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:501][641]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:512][642]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:524][643]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:536][644]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:548][645]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:559][646]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:571][647]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:583][648]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:595][649]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:606][650]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:618][651]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:630][652]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:642][653]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:654][654]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:665][655]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:677][656]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:689][657]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:701][658]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:724][659]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:747][660]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:771][661]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:794][662]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:818][663]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:841][664]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:864][665]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:888][666]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:911][667]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:934][668]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:957][669]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:980][670]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.26:992][671]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:004][672]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:016][673]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:028][674]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:045][675]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:057][676]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:069][677]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:081][678]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:093][679]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:106][680]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:118][681]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:131][682]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:144][683]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:156][684]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:169][685]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:182][686]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:195][687]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:207][688]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:219][689]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:231][690]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:243][691]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:255][692]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:267][693]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:279][694]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:291][695]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:303][696]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:315][697]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:328][698]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:396][705]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property FirstStop from function: 'ExecuteUbergraph_HeavySoldierAI' from node: Branch in graph: EventGraph in object: HeavySoldierAI with description: Accessed None trying to read property FirstStop
+[2017.11.03-02.50.27:398][705]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.50.27:511][705]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.50.28:605][790]LogEditorViewport: Clicking on Actor (LMB): HeavySoldierAI_C (HeavySoldierAI)
+[2017.11.03-02.50.34:710][357]LogTemp: Repeting last play command: Simulate
+[2017.11.03-02.50.34:738][357]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.50.34:738][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-02.50.34:738][357]PIE: New page: SIE session: default (Nov 2, 2017, 12:50:34 PM)
+[2017.11.03-02.50.34:738][357]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.03-02.50.34:975][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.236803s)
+[2017.11.03-02.50.34:976][357]LogAIModule: Creating AISystem for world default
+[2017.11.03-02.50.34:976][357]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2017.11.03-02.50.34:977][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.238415s)
+[2017.11.03-02.50.35:012][357]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.03-02.50.35:018][357]LogInit: FAudioDevice initialized.
+[2017.11.03-02.50.35:046][357]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.03-02.50.35:064][357]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.02-19.50.35
+[2017.11.03-02.50.35:066][357]LogWorld: Bringing up level for play took: 0.018613
+[2017.11.03-02.50.35:066][357]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.03-02.50.35:066][357]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.03-02.50.35:072][357]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.03-02.50.35:072][357]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.424
+[2017.11.03-02.50.35:118][357]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.50.35:119][357]LogBlueprintUserMessages: [PlayerCollision_11] CollisionCastFailed
+[2017.11.03-02.50.36:395][415]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.03-02.50.36:396][415]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.03-02.50.36:396][415]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.03-02.50.36:630][427]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.03-02.50.37:795][507]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.50.37:881][507]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.50.38:627][549]LogEditorViewport: Clicking on Actor (LMB): SoldierPathStops_C (AiStops_Soldier)
+[2017.11.03-02.50.39:443][632]LogEditorViewport: Clicking on Actor (LMB): HeavySoldierAI_C (HeavySoldierAI)
+[2017.11.03-02.50.39:505][632]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.11.03-02.50.55:040][190]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.11.03-02.51.02:997][964]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.11.03-02.51.02:998][964]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.11.03-02.51.03:298][992]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.03-02.51.03:383][996]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.11.03-02.51.03:384][996]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_CatapultRock_C /Engine/Transient.World_12:PersistentLevel.BP_CatapultRock_C_0
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:UserConstructionScript:00D9
+[2017.11.03-02.51.15:175][314]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.11.03-02.51.25:533][298]LogTemp: Repeting last play command: Simulate
+[2017.11.03-02.51.25:563][298]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.51.25:563][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-02.51.25:563][298]PIE: New page: SIE session: default (Nov 2, 2017, 12:51:25 PM)
+[2017.11.03-02.51.25:563][298]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.03-02.51.25:800][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.236742s)
+[2017.11.03-02.51.25:800][298]LogAIModule: Creating AISystem for world default
+[2017.11.03-02.51.25:801][298]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2017.11.03-02.51.25:801][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.238405s)
+[2017.11.03-02.51.25:827][298]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.03-02.51.25:834][298]LogInit: FAudioDevice initialized.
+[2017.11.03-02.51.25:866][298]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.03-02.51.25:884][298]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.02-19.51.25
+[2017.11.03-02.51.25:886][298]LogWorld: Bringing up level for play took: 0.018654
+[2017.11.03-02.51.25:886][298]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.03-02.51.25:886][298]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.03-02.51.25:892][298]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.03-02.51.25:892][298]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 1.244
+[2017.11.03-02.51.25:938][298]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.51.25:939][298]LogBlueprintUserMessages: [PlayerCollision_11] CollisionCastFailed
+[2017.11.03-02.51.27:212][360]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.03-02.51.27:212][360]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.03-02.51.27:212][360]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.03-02.51.27:432][378]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.03-02.51.28:389][481]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.51.28:496][481]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.51.29:125][521]LogEditorViewport: Clicking on Actor (LMB): SoldierPathStops_C (AiStops_Soldier)
+[2017.11.03-02.51.31:794][804]LogEditorViewport: Clicking on Actor (LMB): HeavySoldierAI_C (HeavySoldierAI)
+[2017.11.03-02.51.42:385][770]LogTemp: Repeting last play command: Simulate
+[2017.11.03-02.51.42:414][770]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.51.42:414][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-02.51.42:414][770]PIE: New page: SIE session: default (Nov 2, 2017, 12:51:42 PM)
+[2017.11.03-02.51.42:414][770]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.03-02.51.42:651][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.236933s)
+[2017.11.03-02.51.42:652][770]LogAIModule: Creating AISystem for world default
+[2017.11.03-02.51.42:652][770]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2017.11.03-02.51.42:653][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.238588s)
+[2017.11.03-02.51.42:678][770]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.03-02.51.42:684][770]LogInit: FAudioDevice initialized.
+[2017.11.03-02.51.42:719][770]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.03-02.51.42:754][770]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.02-19.51.42
+[2017.11.03-02.51.42:756][770]LogWorld: Bringing up level for play took: 0.035197
+[2017.11.03-02.51.42:757][770]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.03-02.51.42:757][770]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.03-02.51.42:767][770]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.03-02.51.42:767][770]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.118
+[2017.11.03-02.51.42:815][770]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.51.42:816][770]LogBlueprintUserMessages: [PlayerCollision_11] CollisionCastFailed
+[2017.11.03-02.51.44:101][831]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.03-02.51.44:101][831]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.03-02.51.44:101][831]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.03-02.51.44:311][842]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.03-02.51.45:564][917]LogEditorViewport: Clicking on Actor (LMB): HeavySoldierAI_C (HeavySoldierAI)
+[2017.11.03-02.51.48:176][106]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.11.03-02.51.48:395][123]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.11.03-02.51.52:112][396]LogBlueprintUserMessages: [Catapult_C_1] Handle1
+[2017.11.03-02.51.52:112][396]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_4
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.03-02.51.52:112][396]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.03-02.51.52:337][413]LogBlueprintUserMessages: [Catapult_C_1] Handle2
+[2017.11.03-02.51.53:962][539]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.51.54:048][539]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.51.55:079][617]LogEditorViewport: Clicking on Actor (LMB): SoldierPathStops_C (AiStops_Soldier)
+[2017.11.03-02.52.15:910][991]BlueprintLog: New page: Compile SoldierPathStops
+[2017.11.03-02.52.22:347][ 95]LogTemp: Repeting last play command: Simulate
+[2017.11.03-02.52.22:376][ 95]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.52.22:376][ 95]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-02.52.22:376][ 95]PIE: New page: SIE session: default (Nov 2, 2017, 12:52:22 PM)
+[2017.11.03-02.52.22:376][ 95]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.03-02.52.22:616][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.239202s)
+[2017.11.03-02.52.22:616][ 95]LogAIModule: Creating AISystem for world default
+[2017.11.03-02.52.22:617][ 95]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2017.11.03-02.52.22:617][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.240892s)
+[2017.11.03-02.52.22:643][ 95]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.03-02.52.22:649][ 95]LogInit: FAudioDevice initialized.
+[2017.11.03-02.52.22:678][ 95]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.03-02.52.22:698][ 95]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.02-19.52.22
+[2017.11.03-02.52.22:699][ 95]LogWorld: Bringing up level for play took: 0.019803
+[2017.11.03-02.52.22:700][ 95]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.03-02.52.22:700][ 95]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.03-02.52.22:706][ 95]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.03-02.52.22:706][ 95]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.057
+[2017.11.03-02.52.22:716][ 95]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.52.22:717][ 95]LogBlueprintUserMessages: [PlayerCollision_11] CollisionCastFailed
+[2017.11.03-02.52.24:275][170]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.03-02.52.24:275][170]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAI/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.03-02.52.24:275][170]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.03-02.52.24:477][183]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.03-02.52.25:384][286]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.52.25:441][286]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.03-02.52.36:589][576]BlueprintLog: New page: Compile SoldierPathStops
+[2017.11.03-02.52.47:167][729]LogSavePackage: Save=4364.79ms
+[2017.11.03-02.52.47:167][729]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/default76BA2B1445DB6696D9DCD1926394C6BD.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.03-02.52.47:171][729]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.03-02.52.47:227][729]LogFileHelpers: Saving map 'default' took 4.526
+[2017.11.03-02.52.47:265][729]LogSavePackage: Save=24.85ms
+[2017.11.03-02.52.47:265][729]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/SoldierPathStops4807484B44B21818126073BF59C31D2D.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierPathStops.uasset'
+[2017.11.03-02.52.47:266][729]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierPathStops.uasset
+[2017.11.03-02.53.42:810][868]LogMetaData: Removing '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.SKEL_HeavySoldierPathStops_C' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/SoldierPathStops.PackageMetaData'
+[2017.11.03-02.53.42:810][868]LogMetaData: Removing '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.HeavySoldierPathStops_C' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/SoldierPathStops.PackageMetaData'
+[2017.11.03-02.53.42:869][868]LogSavePackage: Save=24.81ms
+[2017.11.03-02.53.42:869][868]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/HeavySoldierPathStopsD8E12BA64076172B298803BC03D3F64D.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.uasset'
+[2017.11.03-02.53.42:870][868]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.uasset
+[2017.11.03-02.54.04:789][380]BlueprintLog: New page: Compile HeavySoldierPathStops
+[2017.11.03-02.54.04:798][380]LogBlueprint:Error: [Compiler HeavySoldierPathStops] Error This blueprint (self) is not a SoldierAI_C, therefore ' Target ' must have a connection.
+[2017.11.03-02.54.04:812][380]LogBlueprint:Error: [Compiler HeavySoldierPathStops] Error Variable node  Set FirstStop  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.11.03-02.54.05:063][380]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SoldierAI_C, therefore ' Target ' must have a connection.
+[2017.11.03-02.54.05:063][380]BlueprintEditorCompileResults:Error: Error Variable node  Set FirstStop  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.11.03-02.54.05:063][380]LogBlueprint:Warning: [Compiler HeavySoldierPathStops] Warning [0364.57] Compile of HeavySoldierPathStops failed. 2 Fatal Issue(s) 0 Warning(s) [in 274 ms] (/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.HeavySoldierPathStops)
+[2017.11.03-02.54.05:472][421]LogSavePackage: Save=20.90ms
+[2017.11.03-02.54.05:472][421]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/HeavySoldierPathStops6A3DFC4B46642B14821807961079A647.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.uasset'
+[2017.11.03-02.54.05:474][421]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.uasset
+[2017.11.03-02.54.11:248][ 98]LogEditorTransaction: Undo Create Pin Link
+[2017.11.03-02.54.11:526][123]LogEditorTransaction: Undo Move Node
+[2017.11.03-02.54.11:757][136]LogEditorTransaction: Undo Add Node
+[2017.11.03-02.54.12:138][179]LogEditorTransaction: Undo Delete current selection
+[2017.11.03-02.54.14:197][422]LogEditorTransaction: Redo Delete current selection
+[2017.11.03-02.54.14:395][443]LogEditorTransaction: Redo Add Node
+[2017.11.03-02.54.15:186][535]LogEditorTransaction: Redo Move Node
+[2017.11.03-02.54.15:743][599]LogEditorTransaction: Redo Create Pin Link
+[2017.11.03-02.54.18:411][913]BlueprintLog: New page: Compile HeavySoldierPathStops
+[2017.11.03-02.54.18:420][913]LogBlueprint:Error: [Compiler HeavySoldierPathStops] Error Can't connect pins  As Heavy Soldier AI  and  Target : Heavy Soldier AI Reference is not compatible with Soldier AI Reference.
+[2017.11.03-02.54.18:420][913]LogBlueprint:Error: [Compiler HeavySoldierPathStops] Error Can't connect pins  Target  and  As Heavy Soldier AI : Soldier AI Reference is not compatible with Heavy Soldier AI Reference.
+[2017.11.03-02.54.18:675][913]BlueprintEditorCompileResults:Error: Error Can't connect pins  As Heavy Soldier AI  and  Target : Heavy Soldier AI Reference is not compatible with Soldier AI Reference.
+[2017.11.03-02.54.18:675][913]BlueprintEditorCompileResults:Error: Error Can't connect pins  Target  and  As Heavy Soldier AI : Soldier AI Reference is not compatible with Heavy Soldier AI Reference.
+[2017.11.03-02.54.18:675][913]LogBlueprint:Warning: [Compiler HeavySoldierPathStops] Warning [0378.18] Compile of HeavySoldierPathStops failed. 2 Fatal Issue(s) 0 Warning(s) [in 264 ms] (/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.HeavySoldierPathStops)
+[2017.11.03-02.54.19:337][984]LogSavePackage: Save=21.58ms
+[2017.11.03-02.54.19:337][984]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/HeavySoldierPathStopsFC6674554746F6A31AFDD1A3A4492CAE.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.uasset'
+[2017.11.03-02.54.19:338][984]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.uasset
+[2017.11.03-02.54.42:823][754]LogEditorTransaction: Undo Move Node
+[2017.11.03-02.54.43:305][791]LogEditorTransaction: Undo Delete current selection
+[2017.11.03-02.54.45:504][ 51]LogEditorTransaction: Redo Delete current selection
+[2017.11.03-02.54.46:122][122]LogEditorTransaction: Redo Move Node
+[2017.11.03-02.54.49:074][470]BlueprintLog: New page: Compile HeavySoldierPathStops
+[2017.11.03-02.54.50:553][622]LogSavePackage: Save=22.92ms
+[2017.11.03-02.54.50:553][622]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/HeavySoldierPathStops792141384303CDFFA8A931AC96A9271E.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.uasset'
+[2017.11.03-02.54.50:554][622]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.uasset
+[2017.11.03-02.55.47:736][429]LogEditorViewport: Clicking on Actor (LMB): SoldierPathStops_C (AiStops_Soldier2)
+[2017.11.03-02.55.51:123][776]LogEditorViewport: Clicking on Actor (LMB): HeavySoldierPathStops_C (HeavySoldierPathStops)
+[2017.11.03-02.55.53:060][965]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.11.03-02.55.54:260][ 85]LogEditorViewport: Clicking on Actor (LMB): SoldierPathStops_C (AiStops_Soldier2)
+[2017.11.03-02.55.57:295][394]LogEditorViewport: Clicking on Actor (LMB): HeavySoldierPathStops_C (HeavySoldierPathStops)
+[2017.11.03-02.55.58:980][555]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.11.03-02.56.14:657][183]Cmd: EDIT COPY
+[2017.11.03-02.56.14:824][200]Cmd: EDIT PASTE
+[2017.11.03-02.56.21:463][875]Cmd: EDIT COPY
+[2017.11.03-02.56.21:654][884]Cmd: EDIT PASTE
+[2017.11.03-02.56.24:938][213]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.03-02.56.27:904][497]Cmd: EDIT COPY
+[2017.11.03-02.56.28:064][505]Cmd: EDIT PASTE
+[2017.11.03-02.56.29:883][672]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.11.03-02.56.29:987][677]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.03-02.56.30:996][746]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.03-02.57.21:711][477]Cmd: TRANSACTION UNDO
+[2017.11.03-02.57.21:711][477]LogEditorTransaction: Undo Create Folder
+[2017.11.03-02.57.25:419][814]Cmd: TRANSACTION UNDO
+[2017.11.03-02.57.25:419][814]LogEditorTransaction: Undo Create Folder
+[2017.11.03-02.57.29:845][238]Cmd: TRANSACTION UNDO
+[2017.11.03-02.57.29:845][238]LogEditorTransaction: Undo Create Folder
+[2017.11.03-03.02.11:504][670]LogSavePackage: Save=4300.67ms
+[2017.11.03-03.02.11:504][670]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/default01502C0B4627EC756DBF0C9374F76597.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.03-03.02.11:508][670]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.03-03.02.11:566][670]LogFileHelpers: Saving map 'default' took 4.482
+[2017.11.03-03.07.33:053][951]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.11.03-03.07.33:360][951]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.03-03.07.36:279][951]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.11.03-03.07.36:776][951]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2017.11.03-03.07.36:794][951]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.11.03-03.07.39:058][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.03-03.07.39:564][145]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.11.03-03.07.39:876][146]LogRenderer: Reallocating scene render targets to support 1208x888 NumSamples 1 (Frame:1).
+[2017.11.03-03.07.46:456][819]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.11.03-03.07.46:960][819]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.11.03-03.08.16:605][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.HeavySoldierAI_C' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:605][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.HeavySoldierAI:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:605][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:605][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.HeavySoldierAI_C:UserConstructionScript' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:605][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.HeavySoldierAI_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:605][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.HeavySoldierAI_C:ReceiveTick' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.HeavySoldierAI_C:FirstStop' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.HeavySoldierAI_C:HasPosition' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.HeavySoldierAI_C:AttackPos' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.HeavySoldierAI_C:HandleAttached' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.HeavySoldierAI_C:Catapult' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.HeavySoldierAI_C:FirstStop?' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.HeavySoldierAI_C:BatteringRam' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.SKEL_HeavySoldierAI_C:ExecuteUbergraph_HeavySoldierAI' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.SKEL_HeavySoldierAI_C' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.SKEL_HeavySoldierAI_C:UserConstructionScript' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.SKEL_HeavySoldierAI_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.SKEL_HeavySoldierAI_C:ReceiveTick' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.SKEL_HeavySoldierAI_C:FirstStop' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.SKEL_HeavySoldierAI_C:HasPosition' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.SKEL_HeavySoldierAI_C:AttackPos' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.SKEL_HeavySoldierAI_C:HandleAttached' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.SKEL_HeavySoldierAI_C:Catapult' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.SKEL_HeavySoldierAI_C:FirstStop?' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:606][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.SKEL_HeavySoldierAI_C:BatteringRam' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.HeavySoldierPathStops_C' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.SKEL_HeavySoldierPathStops_C' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.HeavySoldierPathStops_C:BndEvt__Volume_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.HeavySoldierPathStops_C:ExecuteUbergraph_HeavySoldierPathStops' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.HeavySoldierPathStops_C:UserConstructionScript' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.HeavySoldierPathStops_C:Billboard' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.HeavySoldierPathStops_C:OverlapCheck' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.HeavySoldierPathStops_C:DefaultSceneRoot' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.HeavySoldierPathStops_C:NextStation' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.HeavySoldierPathStops_C:LastStation?' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.SKEL_HeavySoldierPathStops_C:BndEvt__Volume_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.SKEL_HeavySoldierPathStops_C:ExecuteUbergraph_HeavySoldierPathStops' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.SKEL_HeavySoldierPathStops_C:UserConstructionScript' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.SKEL_HeavySoldierPathStops_C:Billboard' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.SKEL_HeavySoldierPathStops_C:OverlapCheck' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.SKEL_HeavySoldierPathStops_C:DefaultSceneRoot' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.SKEL_HeavySoldierPathStops_C:NextStation' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:652][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.SKEL_HeavySoldierPathStops_C:LastStation?' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.PackageMetaData'
+[2017.11.03-03.08.16:709][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP_C:ExecuteUbergraph_Soldier_AnimBP' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP:AnimGraph.AnimGraphNode_StateMachine_3.Soldier_States.AnimStateNode_1.Walk/Run.AnimGraphNode_StateResult_2' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP_C' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP:AnimGraph.AnimGraphNode_StateMachine_3.Soldier_States.AnimStateEntryNode_1' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP:AnimGraph.AnimGraphNode_StateMachine_3.Soldier_States.AnimStateTransitionNode_7.Transition.AnimGraphNode_TransitionResult_75' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP:AnimGraph.AnimGraphNode_StateMachine_3.Soldier_States.AnimStateNode_0.Idle.AnimGraphNode_StateResult_0' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP:AnimGraph.AnimGraphNode_StateMachine_3.Soldier_States.AnimStateTransitionNode_0.Transition.AnimGraphNode_TransitionResult_0' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP:AnimGraph.AnimGraphNode_StateMachine_3.Soldier_States.AnimStateTransitionNode_6.Transition.AnimGraphNode_TransitionResult_60' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP:AnimGraph.AnimGraphNode_StateMachine_3.Soldier_States.AnimStateNode_3.GateAttack.AnimGraphNode_StateResult_90' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP:AnimGraph.AnimGraphNode_StateMachine_3.Soldier_States.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_86' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP_C:Speed' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP_C:Direction' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP_C:SiegeAttack' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP_C:FootAttack' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP:AnimGraph.AnimGraphNode_StateMachine_3.Soldier_States.AnimStateTransitionNode_10.Transition.AnimGraphNode_TransitionResult_256' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP:AnimGraph.AnimGraphNode_StateMachine_3.Soldier_States.AnimStateTransitionNode_9.Transition.AnimGraphNode_TransitionResult_237' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.Soldier_AnimBP:AnimGraph.AnimGraphNode_StateMachine_3.Soldier_States.AnimStateNode_5.OperateSiege.AnimGraphNode_StateResult_216' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.SKEL_Soldier_AnimBP_C:FootAttack' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.SKEL_Soldier_AnimBP_C:SiegeAttack' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.SKEL_Soldier_AnimBP_C:Direction' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.SKEL_Soldier_AnimBP_C:Speed' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.SKEL_Soldier_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.SKEL_Soldier_AnimBP_C:ExecuteUbergraph_Soldier_AnimBP' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:710][639]LogMetaData: Removing '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.SKEL_Soldier_AnimBP_C' ref from Metadata '/Game/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldier_AnimBP.PackageMetaData'
+[2017.11.03-03.08.16:892][639]LogSavePackage: Save=133.52ms
+[2017.11.03-03.08.16:892][639]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/HeavySoldierAI740DA8E743A6076D41F21CA51A723C88.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.uasset'
+[2017.11.03-03.08.16:893][639]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI.uasset
+[2017.11.03-03.08.16:901][639]LogSavePackage: Save=0.97ms
+[2017.11.03-03.08.16:901][639]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/HeavySoldierAIE759EB1C41F976EBF6FB56B4D83869D4.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.uasset'
+[2017.11.03-03.08.16:902][639]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierAI.uasset
+[2017.11.03-03.08.16:931][639]LogSavePackage: Save=25.63ms
+[2017.11.03-03.08.16:931][639]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/HeavySoldierPathStops7DFE5CCA490B73AEAAD454B18177A767.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.uasset'
+[2017.11.03-03.08.16:932][639]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops.uasset
+[2017.11.03-03.08.16:939][639]LogSavePackage: Save=0.95ms
+[2017.11.03-03.08.16:939][639]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/HeavySoldierPathStops7729BEC446C1D316D413258D97173BA6.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.uasset'
+[2017.11.03-03.08.16:940][639]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/HeavySoldierAI/HeavySoldierPathStops.uasset
+[2017.11.03-03.08.16:974][639]LogSavePackage: Save=11.82ms
+[2017.11.03-03.08.16:974][639]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/GateAttackBS6666BBC14B8927934A2F618AA19F7C48.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/LightSoldierAI/GateAttackBS.uasset'
+[2017.11.03-03.08.16:975][639]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/LightSoldierAI/GateAttackBS.uasset
+[2017.11.03-03.08.17:009][639]LogSavePackage: Save=12.74ms
+[2017.11.03-03.08.17:009][639]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/SoldierWalk_BSBED24747499C250D54B87CBECB9F8CA3.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/LightSoldierAI/SoldierWalk_BS.uasset'
+[2017.11.03-03.08.17:010][639]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/LightSoldierAI/SoldierWalk_BS.uasset
+[2017.11.03-03.08.17:189][639]LogSavePackage: Save=160.22ms
+[2017.11.03-03.08.17:189][639]LogSavePackage: Moving '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Saved/Soldier_AnimBP4143E80A47509B418FF806A356DD6355.tmp' to '../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.uasset'
+[2017.11.03-03.08.17:190][639]LogSavePackage:Display: Finished SavePackage ../../../../Users/22TKDF8XX6YG69F9M66D/Downloads/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP.uasset
+[2017.11.03-03.08.33:800][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.03-03.08.33:879][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_D411BB53489D800F777BE4A9153CD3A0' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_D411BB53489D800F777BE4A9153CD3A0' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_95C5D65F48AB9E3524F5FFB5A5719BA2' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_95C5D65F48AB9E3524F5FFB5A5719BA2' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_C152613E41AF8D1FF7EC85AD063A2B3F' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_C152613E41AF8D1FF7EC85AD063A2B3F' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_18A0D3CB4996DBE241C4DABD86F118DD' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_18A0D3CB4996DBE241C4DABD86F118DD' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_BE53AA414CC04ACBE2FBDF8986D87AA2' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_BE53AA414CC04ACBE2FBDF8986D87AA2' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_35B820F1428470B7D737CCB8F217A58F' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_35B820F1428470B7D737CCB8F217A58F' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveActorBeginOverlap' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:550][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveTick' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_HeavySoldierAI' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_D411BB53489D800F777BE4A9153CD3A0' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_D411BB53489D800F777BE4A9153CD3A0' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_95C5D65F48AB9E3524F5FFB5A5719BA2' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_95C5D65F48AB9E3524F5FFB5A5719BA2' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_C152613E41AF8D1FF7EC85AD063A2B3F' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_C152613E41AF8D1FF7EC85AD063A2B3F' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_18A0D3CB4996DBE241C4DABD86F118DD' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_18A0D3CB4996DBE241C4DABD86F118DD' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_BE53AA414CC04ACBE2FBDF8986D87AA2' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_BE53AA414CC04ACBE2FBDF8986D87AA2' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_35B820F1428470B7D737CCB8F217A58F' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_35B820F1428470B7D737CCB8F217A58F' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveActorBeginOverlap' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveTick' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierAI'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_HeavySoldierAI_C_1' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_HeavySoldierAI_C_0' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'FirstStop' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'HasPosition' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AttackPos' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'HandleAttached' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Catapult' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:551][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'FirstStop?' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BatteringRam' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_HeavySoldierAI_C_169' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_TransitionResult_EAF7D41F47D9D2ADF4621EB2F02E5B9C' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_TransitionResult_A8967A0F483B7486DEDAAC87660E7940' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_TransitionResult_C67B4FF44ED1E5ED5A83A3AE5A6BF72B' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_TransitionResult_CF8C9B0547A3BE730FD2E59B52CA3832' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_BlendSpacePlayer_E8E51E9A4D001D4DCD4D60920C810DB9' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_TransitionResult_DCF33AD942254CA7F3F8AC99C465AE2A' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_BlendSpacePlayer_06EDA80A44EF10E7C393AF80714A628B' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_BlendSpacePlayer_80E5FD30456E61B5DB319496A84B43E6' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_TransitionResult_A338FCA5455BFB1B8A2BE985C80453F8' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintUpdateAnimation' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_Soldier_AnimBP' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_Root_5DD9861E4378197E793FB7B2CDC7EFCF' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_A338FCA5455BFB1B8A2BE985C80453F8' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_DCF33AD942254CA7F3F8AC99C465AE2A' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:552][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_A8967A0F483B7486DEDAAC87660E7940' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_EAF7D41F47D9D2ADF4621EB2F02E5B9C' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_C67B4FF44ED1E5ED5A83A3AE5A6BF72B' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_CF8C9B0547A3BE730FD2E59B52CA3832' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_BlendSpacePlayer_E8E51E9A4D001D4DCD4D60920C810DB9' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_3AE6754F46F1D577C71D40A369F27346' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_BlendSpacePlayer_06EDA80A44EF10E7C393AF80714A628B' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_26B820A14DDB3E89155C899E72F3D91A' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_BlendSpacePlayer_80E5FD30456E61B5DB319496A84B43E6' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_08D4951741F79366F424099F6EA7FA11' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SequencePlayer_5A2420B8407EAFC4364DE29EA9D1797E' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_E3DCE89243B96643BC00BE843ACD96D5' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateMachine_BCAB352143E96D46B1A8F3BF6CC358B0' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Speed' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Direction' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SiegeAttack' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'FootAttack' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_TransitionResult_EAF7D41F47D9D2ADF4621EB2F02E5B9C' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_TransitionResult_A8967A0F483B7486DEDAAC87660E7940' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_TransitionResult_C67B4FF44ED1E5ED5A83A3AE5A6BF72B' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_TransitionResult_CF8C9B0547A3BE730FD2E59B52CA3832' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_BlendSpacePlayer_E8E51E9A4D001D4DCD4D60920C810DB9' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP'.
+[2017.11.03-03.09.31:553][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_TransitionResult_DCF33AD942254CA7F3F8AC99C465AE2A' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_BlendSpacePlayer_06EDA80A44EF10E7C393AF80714A628B' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_BlendSpacePlayer_80E5FD30456E61B5DB319496A84B43E6' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_Soldier_AnimBP_AnimGraphNode_TransitionResult_A338FCA5455BFB1B8A2BE985C80453F8' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintUpdateAnimation' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/Soldier_AnimBP'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Soldier_AnimBP_C_3' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Soldier_AnimBP_C_2' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_HeavySoldierPathStops_C_248' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_DynamicCast_AsHeavy_Soldier_AI' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_HeavySoldierPathStops_C_247' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Soldier_AnimBP_C_9' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ComponentDelegateBinding_21' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_C1AEC89148FAB4D23DA5FFA0C216B16C' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_C1AEC89148FAB4D23DA5FFA0C216B16C' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Volume_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_DynamicCast_AsHeavy_Soldier_AI' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_HeavySoldierPathStops' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_C1AEC89148FAB4D23DA5FFA0C216B16C' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_C1AEC89148FAB4D23DA5FFA0C216B16C' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Volume_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' or package '/Game/Vive/Blueprints/AI/LightSoldierAI/HeavySoldierPathStops'.
+[2017.11.03-03.09.31:554][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Billboard' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:555][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OverlapCheck' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:555][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:555][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'NextStation' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:555][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'LastStation?' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:570][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:570][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Soldier_AnimBP_C_8' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:570][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_HeavySoldierAI_C_245' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:571][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_HeavySoldierPathStops_C_5' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:571][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Billboard_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:571][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OverlapCheck_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:571][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:571][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:571][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_HeavySoldierPathStops_C_4' or package '/Engine/Transient'.
+[2017.11.03-03.09.31:571][147]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_HeavySoldierAI_C_246' or package '/Engine/Transient'.
+[2017.11.03-03.09.32:898][147]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.135 s
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: === Handled ensure: ===
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: 
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: Ensure condition failed: CurObject != NULL [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\ObjectTools.cpp] [Line: 2314]
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: 
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: Stack: 
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3F3E256
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3CEB862
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3D01E26
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DF188E7D
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DE9EBE99
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DEC59BF2
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DEBD5E22
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DEBD8859
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DEC53A75
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E37E8F57
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3815D7B
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3639E9C
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3609835
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E36AE5E2
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E369720F
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3688391
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3F316FB
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3F1B771
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3F3337B
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3F17AC2
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: USER32.dll!0x0000000077A19BBD
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: USER32.dll!0x0000000077A198C2
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3F33BE9
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E36B9A86
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3643013
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DECE4B7F
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DF17C735
+[2017.11.03-03.09.32:899][147]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000CC8F247D
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000CCA06F84
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000CC95AE4E
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000CC95FD49
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000CCA01485
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000CC8F4437
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000CC9580B9
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000CC874092
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000CC876C39
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000CC8F74A5
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E37E8F57
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3815D7B
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3639E9C
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3609835
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E36AE5E2
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E369720F
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3688391
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3F316FB
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3F1B771
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3F3337B
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3F17AC2
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: USER32.dll!0x0000000077A19BBD
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: USER32.dll!0x0000000077A198C2
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3F33C86
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor.exe!0x000000003FD0DB44
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor.exe!0x000000003FCFF0B0
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor.exe!0x000000003FCFF12A
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor.exe!0x000000003FD10CF9
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: UE4Editor.exe!0x000000003FD125F7
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: kernel32.dll!0x00000000778F59CD
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: ntdll.dll!0x0000000077B2A561
+[2017.11.03-03.09.32:900][147]LogOutputDevice:Error: 
+[2017.11.03-03.09.32:901][147]LogStats:                SubmitErrorReport -  0.000 s

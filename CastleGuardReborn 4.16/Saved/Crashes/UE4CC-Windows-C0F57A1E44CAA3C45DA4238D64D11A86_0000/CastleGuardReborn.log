@@ -1,0 +1,1283 @@
+﻿Log file open, 11/18/17 17:47:26
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1701099040) SRandInit(1701099040).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.090436
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.19-01.47.27:060][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.19-01.47.27:060][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.19-01.47.27:070][  0]LogInit: Computer: LCIVAN-238-00
+[2017.11.19-01.47.27:070][  0]LogInit: User: studentuser
+[2017.11.19-01.47.27:070][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.19-01.47.27:070][  0]LogInit: High frequency timer resolution =4.101563 MHz
+[2017.11.19-01.47.27:070][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.19-01.47.27:070][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.19-01.47.27:070][  0]LogMemory: Process Physical Memory: 275.87 MB used, 275.87 MB peak
+[2017.11.19-01.47.27:070][  0]LogMemory: Process Virtual Memory: 276.95 MB used, 276.95 MB peak
+[2017.11.19-01.47.27:070][  0]LogMemory: Physical Memory: 5787.94 MB used,  10495.51 MB free, 16283.45 MB total
+[2017.11.19-01.47.27:070][  0]LogMemory: Virtual Memory: 654.49 MB used,  10495.51 MB free, 134217728.00 MB total
+[2017.11.19-01.47.27:128][  0]LogInit: Using OS detected language (en-US).
+[2017.11.19-01.47.27:128][  0]LogInit: Using OS detected locale (en-CA).
+[2017.11.19-01.47.27:130][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.19-01.47.27:852][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.19-01.47.27:888][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.19-01.47.27:888][  0]LogD3D11RHI:       8115/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.19-01.47.27:894][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.11.19-01.47.27:894][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.19-01.47.27:895][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.19-01.47.27:895][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.19-01.47.27:895][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.19-01.47.27:902][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.19-01.47.27:902][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.19-01.47.27:902][  0]LogWindows: EnumDisplayDevices:
+[2017.11.19-01.47.27:902][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.19-01.47.27:903][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.19-01.47.27:903][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.19-01.47.27:903][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.19-01.47.27:903][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.19-01.47.27:903][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.19-01.47.27:903][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.19-01.47.27:903][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.19-01.47.27:903][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.19-01.47.27:903][  0]LogD3D11RHI:   Driver Version: 382.66 (internal:22.21.13.8266, unified:382.66)
+[2017.11.19-01.47.27:904][  0]LogD3D11RHI:      Driver Date: 6-25-2017
+[2017.11.19-01.47.27:904][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.19-01.47.27:931][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.19-01.47.27:947][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.19-01.47.27:996][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/22784/).
+[2017.11.19-01.47.27:996][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/8F38280242E25BD0B4B5AB8D8EF6C0FB/'.
+[2017.11.19-01.47.27:996][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.19-01.47.28:800][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.19-01.47.28:843][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.19-01.47.28:882][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.19-01.47.28:923][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.19-01.47.28:966][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.19-01.47.29:011][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.19-01.47.29:054][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.19-01.47.29:097][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.19-01.47.29:132][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.19-01.47.29:173][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.19-01.47.29:213][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.19-01.47.29:253][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.19-01.47.29:291][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.19-01.47.29:332][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.19-01.47.29:372][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.19-01.47.29:449][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.19-01.47.29:449][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.19-01.47.29:480][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.19-01.47.29:558][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.19-01.47.29:583][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.19-01.47.29:621][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.19-01.47.29:660][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.19-01.47.29:703][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.19-01.47.29:741][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.19-01.47.29:741][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.19-01.47.30:142][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.19-01.47.30:240][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.19-01.47.30:240][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.19-01.47.30:240][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.19-01.47.30:240][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.19-01.47.30:240][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.19-01.47.30:240][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.19-01.47.30:253][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.19-01.47.30:265][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.19-01.47.30:273][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.19-01.47.30:273][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.19-01.47.30:273][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.19-01.47.30:273][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.19-01.47.30:513][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.19-01.47.30:583][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.19-01.47.30:714][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.19-01.47.30:750][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.19-01.47.30:790][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.19-01.47.30:790][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.19-01.47.30:790][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.19-01.47.31:259][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.11.19-01.47.31:314][  0]LogAssetRegistry: FAssetRegistry took 0.0246 seconds to start up
+[2017.11.19-01.47.31:362][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.027099 seconds
+[2017.11.19-01.47.31:368][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.19-01.47.31:368][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.11.19-01.47.31:368][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.19-01.47.31:425][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.19-01.47.33:300][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.19-01.47.33:335][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.19-01.47.33:758][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.19-01.47.34:079][  0]SourceControl: Info Source control is disabled
+[2017.11.19-01.47.34:114][  0]SourceControl: Info Source control is disabled
+[2017.11.19-01.47.34:153][  0]SourceControl: Info Source control is disabled
+[2017.11.19-01.47.34:189][  0]SourceControl: Info Source control is disabled
+[2017.11.19-01.47.34:735][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.19-01.47.35:213][  0]LogEngine: Initializing Engine...
+[2017.11.19-01.47.35:760][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.11.19-01.47.35:935][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.19-01.47.35:935][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.19-01.47.36:038][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.19-01.47.36:050][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.19-01.47.36:065][  0]LogInit: FAudioDevice initialized.
+[2017.11.19-01.47.36:106][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.19-01.47.36:116][  0]LogInit: Texture streaming: Enabled
+[2017.11.19-01.47.36:189][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.19-01.47.36:344][  0]LogInit: Transaction tracking system initialized
+[2017.11.19-01.47.36:568][  0]BlueprintLog: New page: Editor Load
+[2017.11.19-01.47.37:249][  0]LocalizationService: Info Localization service is disabled
+[2017.11.19-01.47.37:734][  0]LogConsoleResponse:Display: 
+[2017.11.19-01.47.37:834][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.19-01.47.37:834][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.19-01.47.38:571][  0]SourceControl: Info Source control is disabled
+[2017.11.19-01.47.38:572][  0]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.19-01.47.38:572][  0]LightingResults: New page: Lighting Build
+[2017.11.19-01.47.38:600][  0]MapCheck: New page: Map Check
+[2017.11.19-01.47.38:600][  0]LightingResults: New page: Lighting Build
+[2017.11.19-01.47.40:327][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.11.19-01.47.40:712][  0]LogAIModule: Creating AISystem for world default
+[2017.11.19-01.47.40:821][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.19-01.47.40:898][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.19-01.47.40:948][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.296ms to complete.
+[2017.11.19-01.47.40:949][  0]LogFileHelpers: Loading map 'default' took 2.377
+[2017.11.19-01.47.41:009][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.19-01.47.41:181][  0]LogCollectionManager: Loaded 0 collections in 0.001579 seconds
+[2017.11.19-01.47.41:245][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.11.19-01.47.41:245][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.11.19-01.47.41:245][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.11.19-01.47.41:245][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.19-01.47.41:252][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2330 classes and 494 folders.
+[2017.11.19-01.47.41:298][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.19-01.47.41:322][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.19-01.47.41:355][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.19-01.47.41:384][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.19-01.47.41:390][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.19-01.47.41:392][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.19-01.47.41:395][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.19-01.47.41:464][  0]LogRenderer: Reallocating scene render targets to support 1196x576 NumSamples 1 (Frame:1).
+[2017.11.19-01.47.41:548][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.19-01.47.41:604][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.19-01.47.41:604][  0]LogLoad: (Engine Initialization) Total time: 16.00 seconds
+[2017.11.19-01.47.41:604][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.67 seconds
+[2017.11.19-01.47.41:604][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.19-01.47.41:604][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.19-01.47.41:615][  0]LogOcInput: OculusInput pre-init called
+[2017.11.19-01.47.41:615][  0]LogHMD: Starting GearVRController plugin
+[2017.11.19-01.47.41:616][  0]LogSteamVRController: Controller role for device 1 is 2 (invalid=0, left=1, right=2).
+[2017.11.19-01.47.41:616][  0]LogSteamVRController:Warning: Controller device 1 is being assigned to its prefered role 'right'.
+[2017.11.19-01.47.41:616][  0]LogSteamVRController: Controller device 1 is being assigned unreal hand 1 (left=0, right=1).
+[2017.11.19-01.47.41:616][  0]LogSteamVRController: Controller role for device 2 is 1 (invalid=0, left=1, right=2).
+[2017.11.19-01.47.41:616][  0]LogSteamVRController: Putting controller 2 on the left hand because there is already a controller for the right.
+[2017.11.19-01.47.41:616][  0]LogSteamVRController: Controller device 2 is being assigned unreal hand 0 (left=0, right=1).
+[2017.11.19-01.47.41:638][  0]LogAssetRegistry: Asset discovery search completed in 10.3454 seconds
+[2017.11.19-01.47.41:639][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.19-01.47.41:639][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2017.11.19-01.47.41:643][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.19-01.47.41:702][  0]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.19-01.47.42:642][ 99]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.19-01.47.45:175][399]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.19-01.47.45:449][399]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.11.19-01.47.46:123][399]LogLinker:Warning: Can't resolve asset name
+[2017.11.19-01.47.46:316][399]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.11.19-01.47.46:316][399]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Engine/Transient.World_1:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.11.19-01.47.46:316][399]LogScript:Warning: Accessed None
+	ArcherAIArrow_C /Engine/Transient.World_1:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.11.19-01.47.46:321][399]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.19-01.47.46:534][400]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.19-01.47.48:156][589]LogTemp: Repeting last play command: VR Preview
+[2017.11.19-01.47.48:231][589]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.19-01.47.48:231][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.19-01.47.48:231][589]PIE: New page: PIE session: default (Nov 18, 2017, 9:47:48 AM)
+[2017.11.19-01.47.48:231][589]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.19-01.47.48:394][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.162299s)
+[2017.11.19-01.47.48:395][589]LogAIModule: Creating AISystem for world default
+[2017.11.19-01.47.48:395][589]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2017.11.19-01.47.48:395][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.163855s)
+[2017.11.19-01.47.48:420][589]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.19-01.47.48:433][589]LogInit: FAudioDevice initialized.
+[2017.11.19-01.47.48:517][589]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.19-01.47.48:528][589]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.18-17.47.48
+[2017.11.19-01.47.48:529][589]LogWorld: Bringing up level for play took: 0.010800
+[2017.11.19-01.47.48:558][589]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.11.19-01.47.48:559][589]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.19-01.47.48:559][589]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.19-01.47.48:559][589]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.19-01.47.48:561][589]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.19-01.47.48:565][589]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.426
+[2017.11.19-01.47.48:566][589]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.19-01.47.48:607][590]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.11.19-01.48.01:414][644]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.19-01.48.01:414][644]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.19-01.48.05:580][938]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.11.19-01.48.05:602][939]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.11.19-01.48.09:446][223]LogBlueprintUserMessages: [Catapult_C_1] Handle1
+[2017.11.19-01.48.09:446][223]LogBlueprintUserMessages: [Catapult_C_1] Handle2
+[2017.11.19-01.48.13:591][575]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle1
+[2017.11.19-01.48.13:613][577]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle2
+[2017.11.19-01.48.17:600][915]LogBlueprintUserMessages: [BatteringRamOld_C_2] Handle1
+[2017.11.19-01.48.17:600][915]LogBlueprintUserMessages: [BatteringRamOld_C_2] Handle2
+[2017.11.19-01.48.33:539][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:539][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:539][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:539][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:539][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:539][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:539][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:539][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:539][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:539][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:539][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:539][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:539][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.33:540][194]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.44:745][762]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.48.47:750][  9]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.48.48:889][107]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.48.50:754][210]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.48.51:894][307]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.48.53:022][408]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.48.53:759][474]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.48.54:898][575]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.48.56:025][676]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.48.56:763][742]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.48.57:902][844]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.48.59:031][911]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:251][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:252][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:252][924]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:519][939]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.48.59:767][950]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.48.59:813][952]LogBlueprintUserMessages: [Catapult_C_1] Position is taken, cycle through next
+[2017.11.19-01.49.00:284][973]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.00:909][  1]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.02:034][ 56]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.02:771][ 89]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.03:275][118]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.03:923][151]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.04:438][174]LogBlueprintUserMessages: [ArcherAttackPosition2_285] End Overlap
+[2017.11.19-01.49.05:039][201]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.05:776][234]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.06:292][257]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.06:938][286]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.08:044][338]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.08:459][375]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.08:781][400]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.09:308][427]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:784][457]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.09:942][467]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.11:061][517]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.11:172][522]LogBlueprintUserMessages: [ArcherAttackPosition5_1030] End Overlap
+[2017.11.19-01.49.11:464][535]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.11:797][550]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.12:313][573]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.12:959][602]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.13:763][638]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.49.14:076][652]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.14:480][670]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.14:813][685]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.15:329][708]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.15:975][737]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.17:092][787]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.17:496][805]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.17:784][818]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.49.17:829][820]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.18:344][843]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.18:978][882]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.20:096][938]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.20:501][956]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.20:833][976]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.21:350][ 10]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.21:794][ 30]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.49.21:995][ 39]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.22:075][ 44]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.22:262][ 60]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.23:113][101]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.23:517][119]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.23:850][134]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.24:367][157]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.25:011][186]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.25:815][222]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.49.26:083][234]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.49.26:128][236]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.26:511][253]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.26:866][269]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.27:381][292]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.28:027][322]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.29:133][391]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.29:515][425]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.29:826][452]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.49.29:871][456]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.30:105][467]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.49.30:398][480]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.30:728][498]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.31:042][515]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.32:138][564]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.32:520][581]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.32:875][597]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.33:391][620]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.33:836][640]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.49.34:058][650]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.34:126][653]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.49.35:152][699]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.35:535][716]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.35:891][732]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.36:407][755]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.37:073][786]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.37:845][823]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.49.38:136][837]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.49.38:158][838]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.38:540][855]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.38:895][871]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.39:411][895]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.40:081][935]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.40:925][979]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.41:173][993]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.41:554][ 10]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.41:866][ 24]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.49.41:910][ 26]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.42:156][ 37]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.49.42:427][ 49]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.43:094][ 79]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.44:190][128]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.44:573][145]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.44:927][161]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.45:443][184]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.45:888][204]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.49.46:110][214]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.46:178][217]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.49.47:206][263]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.47:588][280]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.47:943][296]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.48:459][319]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.49:127][349]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.49:910][384]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.49.50:199][397]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.49.50:222][398]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.50:604][415]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.50:959][431]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.51:475][454]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.52:143][484]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.53:237][533]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.53:619][550]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.53:929][564]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.49.53:973][566]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:106][572]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.49.54:220][577]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.49.54:490][589]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.55:159][619]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.56:253][668]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.56:636][685]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.56:991][701]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.49.57:506][724]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.49.57:951][744]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.49.58:175][754]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.49.58:241][757]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.49.59:272][803]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.49.59:651][820]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.00:007][836]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.00:523][859]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.01:190][889]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.01:970][924]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:170][933]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.02:262][937]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.02:284][938]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.03:022][971]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.03:538][994]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.04:206][ 24]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.05:300][ 73]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.05:971][103]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.06:039][106]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.06:284][117]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.06:554][129]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.07:222][159]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:091][198]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.50.08:315][208]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.09:054][241]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.09:570][264]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.09:992][283]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.10:236][294]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.10:304][297]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.11:331][343]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.12:069][376]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.12:585][399]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.13:253][429]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.14:013][463]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.14:325][477]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.14:347][478]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.15:086][512]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.15:602][535]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.16:270][565]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.17:364][614]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.18:034][644]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.18:101][647]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.18:347][658]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.18:617][670]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.19:286][700]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.20:380][749]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.21:116][782]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.21:632][805]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.22:043][834]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.22:290][848]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.22:357][851]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.23:385][897]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.24:122][930]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.24:638][953]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.25:305][984]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.26:063][ 19]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.26:378][ 34]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.26:400][ 35]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.27:126][ 69]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.27:643][ 92]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.28:311][122]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.29:405][171]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.30:076][201]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.30:142][204]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.30:388][215]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.30:658][227]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.31:326][257]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.32:420][306]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.33:158][339]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.33:674][362]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.34:096][381]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.34:340][392]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.34:408][395]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.35:425][444]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.36:163][477]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.36:679][500]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.37:347][530]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.38:106][564]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.38:419][578]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.38:441][579]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.39:178][612]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.39:695][635]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.40:363][665]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.41:456][714]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.42:117][745]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.42:183][748]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.42:429][759]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.42:700][771]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.43:367][801]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.44:462][850]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.45:199][883]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.45:715][906]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.46:137][925]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.46:383][936]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.46:450][939]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.47:477][985]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.48:214][ 18]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.48:732][ 41]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.49:399][ 71]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.50:159][105]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.50:471][119]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.50:493][120]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.51:231][153]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.51:735][187]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.52:403][217]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.53:498][266]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.54:168][296]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.54:235][299]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.54:481][310]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.54:752][322]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.55:419][352]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.56:514][401]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.50.57:251][434]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.50.57:767][457]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.50.58:189][476]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.50.58:435][487]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.50.58:502][490]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.50.59:529][536]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.00:267][569]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.00:782][592]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.01:451][622]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.02:210][656]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.51.02:523][670]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.51.02:545][671]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.03:282][704]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.03:799][727]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.04:467][757]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.05:562][806]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.06:232][836]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.51.06:299][839]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.06:545][850]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.51.06:814][862]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.07:472][914]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.08:566][979]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.09:304][ 37]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.09:819][ 76]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.10:241][114]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.51.10:475][135]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.10:553][142]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.51.11:571][233]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.12:307][288]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.12:823][333]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.13:480][392]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.14:251][451]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.51.14:563][475]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.51.14:576][476]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.15:312][537]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.15:830][568]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.16:497][598]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.17:591][647]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.18:261][677]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.51.18:329][680]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.18:574][691]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.51.18:845][703]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.19:513][733]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.20:607][782]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.21:344][815]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.21:861][838]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.22:283][857]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.51.22:529][868]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.22:596][871]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.51.23:623][917]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.24:360][950]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.24:876][973]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.25:544][  3]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.26:304][ 37]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.51.26:618][ 51]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.51.26:639][ 52]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.27:377][ 85]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.27:893][108]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.28:560][138]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.29:656][187]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.30:325][217]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.51.30:391][220]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.30:638][233]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.51.30:909][245]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.31:577][275]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.32:658][326]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.33:397][372]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.33:899][408]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.34:336][445]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.51.34:578][467]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.34:645][473]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.51.35:675][547]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.36:412][580]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.36:928][603]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.37:584][642]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.38:355][701]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.51.38:646][721]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.51.38:679][724]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.39:416][789]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.39:932][835]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.40:589][894]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.41:685][961]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.42:378][992]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.51.42:422][994]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.42:646][  4]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.51.42:939][ 17]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.43:607][ 47]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.44:688][110]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.45:424][174]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.45:941][217]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.46:386][255]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.51.46:609][275]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.51.46:654][279]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.51.47:705][332]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.51.48:442][365]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.51.48:959][388]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.51.49:072][393]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.19-01.51.49:253][393]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.19-01.52.18:261][851]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PP_Outline)
+[2017.11.19-01.52.37:438][ 77]LogTemp: Repeting last play command: VR Preview
+[2017.11.19-01.52.37:470][ 77]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.19-01.52.37:471][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.19-01.52.37:471][ 77]PIE: New page: PIE session: default (Nov 18, 2017, 9:52:37 AM)
+[2017.11.19-01.52.37:471][ 77]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.19-01.52.37:611][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140584s)
+[2017.11.19-01.52.37:612][ 77]LogAIModule: Creating AISystem for world default
+[2017.11.19-01.52.37:612][ 77]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2017.11.19-01.52.37:613][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.142432s)
+[2017.11.19-01.52.37:647][ 77]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.19-01.52.37:660][ 77]LogInit: FAudioDevice initialized.
+[2017.11.19-01.52.37:740][ 77]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.19-01.52.37:750][ 77]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.18-17.52.37
+[2017.11.19-01.52.37:752][ 77]LogWorld: Bringing up level for play took: 0.011351
+[2017.11.19-01.52.37:752][ 77]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.19-01.52.37:752][ 77]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.19-01.52.37:752][ 77]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.19-01.52.37:754][ 77]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.19-01.52.37:759][ 77]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.38
+[2017.11.19-01.52.37:759][ 77]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.19-01.52.50:643][206]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.19-01.52.50:644][206]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.19-01.52.54:799][575]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.11.19-01.52.54:832][578]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.11.19-01.52.58:664][921]LogBlueprintUserMessages: [Catapult_C_1] Handle1
+[2017.11.19-01.52.58:664][921]LogBlueprintUserMessages: [Catapult_C_1] Handle2
+[2017.11.19-01.53.02:819][293]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle1
+[2017.11.19-01.53.02:853][296]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle2
+[2017.11.19-01.53.06:829][652]LogBlueprintUserMessages: [BatteringRamOld_C_2] Handle1
+[2017.11.19-01.53.06:829][652]LogBlueprintUserMessages: [BatteringRamOld_C_2] Handle2
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.21:639][971]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:007][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:007][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.22:008][992]LogBlueprintUserMessages: [Brazier_158] true
+[2017.11.19-01.53.33:963][845]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.53.36:968][114]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.53.38:119][216]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.53.39:972][381]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.53.41:123][483]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.53.42:239][583]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.53.42:977][649]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.53.44:128][752]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.53.45:244][852]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.53.45:981][918]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.53.47:133][ 21]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.53.48:249][121]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.53.48:986][187]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.53.49:020][190]LogBlueprintUserMessages: [Catapult_C_1] Position is taken, cycle through next
+[2017.11.19-01.53.49:513][234]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.53.50:138][290]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.53.51:254][390]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.53.51:990][456]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.53.52:517][503]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.53.53:142][559]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.53.54:257][659]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.53.54:995][725]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.53.55:521][772]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.53.56:148][828]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.53.57:264][928]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.53.57:677][964]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.53.57:999][993]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.53.58:527][ 40]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.53.59:150][ 96]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.00:267][196]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.00:356][204]LogBlueprintUserMessages: [ArcherAttackPosition5_1030] End Overlap
+[2017.11.19-01.54.00:682][233]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.01:004][262]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.01:531][309]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.02:155][365]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.02:970][438]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.03:271][465]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.03:687][502]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.04:008][531]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.04:535][572]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.05:159][628]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.06:276][728]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.06:691][765]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.06:980][791]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.07:013][794]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.07:540][841]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.08:163][897]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.09:281][996]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.09:695][ 31]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.10:017][ 58]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.10:545][105]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.10:990][145]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.11:168][161]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.11:325][175]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.54.12:285][261]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.12:700][296]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.13:023][324]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.13:550][369]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.14:184][423]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.15:002][494]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.15:290][520]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.15:337][523]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.54.15:705][555]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.16:027][581]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.16:555][628]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.17:189][670]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.18:295][767]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.18:723][805]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.19:010][830]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.19:033][832]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.19:345][860]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.54.19:560][879]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.20:193][936]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.21:300][ 35]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.21:716][ 72]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.22:037][101]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.22:567][148]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.23:021][189]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.23:200][205]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.23:355][219]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.54.24:304][303]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.24:720][339]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.25:042][368]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.25:568][415]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.26:204][472]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.27:029][540]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.27:321][553]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.27:365][555]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.54.27:725][582]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.28:046][611]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.28:574][658]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.29:208][715]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.30:324][815]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.30:728][851]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.31:038][879]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.31:049][880]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.31:374][909]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.54.31:578][927]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.32:213][984]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.33:329][ 74]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.33:734][106]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.34:055][133]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.34:583][180]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.35:039][221]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.35:218][237]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.35:385][252]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.54.36:334][337]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.36:739][373]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.37:060][402]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.37:599][447]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.38:222][503]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.39:049][577]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.39:339][603]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.39:395][608]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.54.39:743][639]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.40:065][668]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.40:593][715]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.41:228][770]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.42:343][870]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.42:748][906]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.43:058][934]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.43:069][935]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.43:405][965]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.54.43:597][982]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.44:231][ 39]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.45:348][139]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.45:753][175]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.46:074][204]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.46:602][251]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.47:069][293]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.47:236][308]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.47:415][324]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.54.48:353][408]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.48:757][444]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.49:079][473]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.49:607][520]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.50:241][577]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.51:079][637]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.51:361][662]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.51:425][668]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.54.51:763][698]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.52:084][727]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.52:611][774]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.53:245][831]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.54:362][931]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.54:789][960]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.55:090][987]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.55:090][987]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.55:434][ 18]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.54.55:615][ 34]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.56:250][ 91]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.57:367][191]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.54.57:783][228]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.58:093][256]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.54.58:620][303]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.54.59:098][346]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.54.59:254][360]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.54.59:455][377]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.55.00:372][459]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.55.00:788][495]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.01:098][517]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.55.01:626][564]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.02:260][621]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.55.03:099][696]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.55.03:377][721]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.55.03:466][729]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.55.03:792][758]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.04:103][786]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.55.04:629][833]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.05:265][890]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.55.06:381][990]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.55.06:797][ 27]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.07:107][ 55]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.55.07:107][ 55]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.55.07:476][ 88]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.55.07:635][102]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.08:269][159]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.55.09:386][259]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.55.09:802][296]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.10:113][324]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.55.10:639][371]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.11:117][414]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.55.11:273][428]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.55.11:487][447]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.55.12:391][528]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.55.12:807][562]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.13:117][590]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.55.13:633][636]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.14:278][694]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.55.15:127][770]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.55.15:395][794]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.55.15:496][803]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.55.15:811][831]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.16:122][859]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.55.16:661][905]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.17:283][933]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.55.18:401][ 17]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.55.18:814][ 37]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.19:126][ 58]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.55.19:149][ 59]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.55.19:517][ 77]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.55.19:643][ 85]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.20:288][143]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.55.21:404][243]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.55.21:820][280]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.22:131][308]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.55.22:658][355]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.23:159][400]LogBlueprintUserMessages: [BatteringRamAttackPosition_164] Ram Damage
+[2017.11.19-01.55.23:293][412]LogBlueprintUserMessages: [AiAttackPosition2_25] Soldier Damage
+[2017.11.19-01.55.23:528][433]LogBlueprintUserMessages: [BatteringRamAttackPosition2_398] Ram Damage
+[2017.11.19-01.55.24:407][486]LogBlueprintUserMessages: [AiAttackPosition3] Soldier Damage
+[2017.11.19-01.55.24:823][511]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.25:133][528]LogBlueprintUserMessages: [AiAttackPosition_122] Soldier Damage
+[2017.11.19-01.55.25:661][566]LogBlueprintUserMessages: [SM_TestDoor_Blueprint_19] Catapult Damage
+[2017.11.19-01.55.25:773][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.19-01.55.25:991][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.19-01.55.46:872][720]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.19-01.55.47:352][720]LogSavePackage: Save=2906.74ms
+[2017.11.19-01.55.47:352][720]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default55FEB62443AD38420854F8A63F0735D6.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.19-01.55.47:355][720]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.19-01.55.47:402][720]LogFileHelpers: Saving map 'default' took 3.055
+[2017.11.19-01.55.49:123][911]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.11.19-01.55.49:123][911]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.11.19-01.55.49:123][911]LogScript:Warning: Accessed None
+	ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.11.19-01.55.59:403][950]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.11.19-01.55.59:403][950]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_CatapultRock_C /Engine/Transient.World_22:PersistentLevel.BP_CatapultRock_C_0
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:UserConstructionScript:00D9
+[2017.11.19-01.58.02:833][180]LogUObjectArray:Warning: Invalid object index 7536741
+[2017.11.19-01.58.09:786][180]LogStats: FPlatformStackWalk::StackWalkAndDump -  6.952 s
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: === Handled ensure: ===
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: 
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: Stack: 
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FKismetDebugUtilities::GetWatchText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetdebugutilities.cpp:1037]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!UK2Node::GetPinHoverText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\blueprintgraph\private\k2node.cpp:1251]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!SGraphPin::GetTooltipText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\grapheditor\private\sgraphpin.cpp:1085]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64>::operator()<>() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:165]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\templates\tuple.h:497]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TBaseSPMethodDelegateInstance<1,SGraphPin,0,FText __cdecl(void)>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-Slate.dll!TBaseDelegate<FText>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:537]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-Slate.dll!TAttribute<FText>::Get() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\misc\attribute.h:137]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-Slate.dll!SToolTip::IsEmpty() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\widgets\stooltip.cpp:87]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::UpdateToolTip() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3444]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseMoveEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5697]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseMove() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5647]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1742]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2127]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:867]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:714]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: USER32.dll!0x000000002A8BBC50
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: USER32.dll!0x000000002A8BB5CF
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:1009]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3058]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: KERNEL32.DLL!0x000000002AC22774
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: ntdll.dll!0x000000002D3C0D51
+[2017.11.19-01.58.09:786][180]LogOutputDevice:Error: 
+[2017.11.19-01.58.09:788][180]LogStats:                SubmitErrorReport -  0.000 s

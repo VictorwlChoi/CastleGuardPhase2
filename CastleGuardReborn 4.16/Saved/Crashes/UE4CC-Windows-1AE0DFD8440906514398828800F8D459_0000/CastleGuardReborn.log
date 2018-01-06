@@ -1,0 +1,594 @@
+﻿Log file open, 11/15/17 18:48:57
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-899783247) SRandInit(-899783247).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079400
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.16-02.48.57:529][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.16-02.48.57:529][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.16-02.48.57:536][  0]LogInit: Computer: LCIVAN-238-00
+[2017.11.16-02.48.57:536][  0]LogInit: User: studentuser
+[2017.11.16-02.48.57:536][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.16-02.48.57:536][  0]LogInit: High frequency timer resolution =4.101562 MHz
+[2017.11.16-02.48.57:536][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.16-02.48.57:536][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.16-02.48.57:536][  0]LogMemory: Process Physical Memory: 275.64 MB used, 275.64 MB peak
+[2017.11.16-02.48.57:536][  0]LogMemory: Process Virtual Memory: 276.73 MB used, 276.73 MB peak
+[2017.11.16-02.48.57:536][  0]LogMemory: Physical Memory: 5630.13 MB used,  10653.32 MB free, 16283.45 MB total
+[2017.11.16-02.48.57:536][  0]LogMemory: Virtual Memory: 654.49 MB used,  10653.32 MB free, 134217728.00 MB total
+[2017.11.16-02.48.57:595][  0]LogInit: Using OS detected language (en-US).
+[2017.11.16-02.48.57:595][  0]LogInit: Using OS detected locale (en-CA).
+[2017.11.16-02.48.57:597][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.16-02.48.58:200][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.16-02.48.58:240][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.16-02.48.58:240][  0]LogD3D11RHI:       8115/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.16-02.48.58:245][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.11.16-02.48.58:245][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.16-02.48.58:246][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.16-02.48.58:246][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.16-02.48.58:246][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.16-02.48.58:251][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.16-02.48.58:251][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.16-02.48.58:251][  0]LogWindows: EnumDisplayDevices:
+[2017.11.16-02.48.58:251][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.16-02.48.58:251][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.16-02.48.58:251][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.16-02.48.58:252][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.16-02.48.58:252][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.16-02.48.58:252][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.16-02.48.58:252][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.16-02.48.58:252][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.16-02.48.58:252][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.16-02.48.58:252][  0]LogD3D11RHI:   Driver Version: 382.66 (internal:22.21.13.8266, unified:382.66)
+[2017.11.16-02.48.58:252][  0]LogD3D11RHI:      Driver Date: 6-25-2017
+[2017.11.16-02.48.58:252][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.16-02.48.58:275][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.16-02.48.58:284][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.16-02.48.58:332][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/16568/).
+[2017.11.16-02.48.58:332][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/43A162BB4C299CC26F96358F9CDBA4BA/'.
+[2017.11.16-02.48.58:332][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.16-02.48.59:016][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.16-02.48.59:051][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.16-02.48.59:086][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.16-02.48.59:121][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.16-02.48.59:157][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.16-02.48.59:192][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.16-02.48.59:228][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.16-02.48.59:264][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.16-02.48.59:295][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.16-02.48.59:329][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.16-02.48.59:363][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.16-02.48.59:398][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.16-02.48.59:432][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.16-02.48.59:466][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.16-02.48.59:500][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.16-02.48.59:569][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.16-02.48.59:569][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.16-02.48.59:596][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.16-02.48.59:669][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.16-02.48.59:690][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.16-02.48.59:724][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.16-02.48.59:758][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.16-02.48.59:791][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.16-02.48.59:825][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.16-02.48.59:825][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.16-02.49.00:171][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.16-02.49.00:251][  0]LogDerivedDataCache: Loaded boot cache 0.08s 103MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.16-02.49.00:251][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.16-02.49.00:251][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.16-02.49.00:251][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.16-02.49.00:251][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.16-02.49.00:251][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.16-02.49.00:263][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.16-02.49.00:275][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.16-02.49.00:282][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.16-02.49.00:282][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.16-02.49.00:282][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.16-02.49.00:282][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.16-02.49.00:493][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.16-02.49.00:566][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.16-02.49.00:677][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.16-02.49.00:709][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.16-02.49.00:743][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.16-02.49.00:743][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.16-02.49.00:743][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.16-02.49.01:146][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.11.16-02.49.01:198][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2017.11.16-02.49.01:236][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.020746 seconds
+[2017.11.16-02.49.01:240][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.16-02.49.01:240][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.11.16-02.49.01:240][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.16-02.49.01:288][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.16-02.49.03:144][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.16-02.49.03:176][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.16-02.49.03:562][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.16-02.49.03:833][  0]SourceControl: Info Source control is disabled
+[2017.11.16-02.49.03:861][  0]SourceControl: Info Source control is disabled
+[2017.11.16-02.49.03:895][  0]SourceControl: Info Source control is disabled
+[2017.11.16-02.49.03:927][  0]SourceControl: Info Source control is disabled
+[2017.11.16-02.49.04:395][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.16-02.49.04:806][  0]LogEngine: Initializing Engine...
+[2017.11.16-02.49.07:144][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.11.16-02.49.07:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.16-02.49.07:333][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.16-02.49.07:452][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.16-02.49.07:464][  0]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-02.49.07:484][  0]LogInit: FAudioDevice initialized.
+[2017.11.16-02.49.07:525][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.16-02.49.07:544][  0]LogInit: Texture streaming: Enabled
+[2017.11.16-02.49.07:625][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.16-02.49.07:790][  0]LogInit: Transaction tracking system initialized
+[2017.11.16-02.49.08:030][  0]BlueprintLog: New page: Editor Load
+[2017.11.16-02.49.08:779][  0]LocalizationService: Info Localization service is disabled
+[2017.11.16-02.49.09:278][  0]LogConsoleResponse:Display: 
+[2017.11.16-02.49.09:379][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.16-02.49.09:379][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.16-02.49.10:125][  0]SourceControl: Info Source control is disabled
+[2017.11.16-02.49.10:125][  0]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.16-02.49.10:125][  0]LightingResults: New page: Lighting Build
+[2017.11.16-02.49.10:156][  0]MapCheck: New page: Map Check
+[2017.11.16-02.49.10:156][  0]LightingResults: New page: Lighting Build
+[2017.11.16-02.49.12:019][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.11.16-02.49.12:108][  0]LogAIModule: Creating AISystem for world default
+[2017.11.16-02.49.12:216][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.16-02.49.12:289][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.16-02.49.12:331][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.442ms to complete.
+[2017.11.16-02.49.12:331][  0]LogFileHelpers: Loading map 'default' took 2.207
+[2017.11.16-02.49.12:472][  0]LogCollectionManager: Loaded 0 collections in 0.001395 seconds
+[2017.11.16-02.49.12:556][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.11.16-02.49.12:556][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.11.16-02.49.12:556][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.11.16-02.49.12:556][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.16-02.49.12:563][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2330 classes and 494 folders.
+[2017.11.16-02.49.12:610][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.16-02.49.12:637][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.16-02.49.12:675][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.16-02.49.12:704][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.16-02.49.12:711][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.16-02.49.12:712][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.16-02.49.12:782][  0]LogRenderer: Reallocating scene render targets to support 1196x576 NumSamples 1 (Frame:1).
+[2017.11.16-02.49.12:872][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.16-02.49.12:928][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.16-02.49.12:928][  0]LogLoad: (Engine Initialization) Total time: 16.59 seconds
+[2017.11.16-02.49.12:928][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.60 seconds
+[2017.11.16-02.49.12:928][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.16-02.49.12:928][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.16-02.49.13:268][  0]LogOcInput: OculusInput pre-init called
+[2017.11.16-02.49.13:268][  0]LogHMD: Starting GearVRController plugin
+[2017.11.16-02.49.13:288][  0]LogAssetRegistry: Asset discovery search completed in 12.1119 seconds
+[2017.11.16-02.49.13:289][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.16-02.49.13:289][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2017.11.16-02.49.13:293][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.16-02.49.13:963][ 38]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-02.49.20:889][868]LogTemp: Repeting last play command: Simulate
+[2017.11.16-02.49.21:003][868]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.49.21:004][868]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-02.49.21:004][868]PIE: New page: SIE session: default (Nov 15, 2017, 10:49:21 AM)
+[2017.11.16-02.49.21:004][868]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-02.49.21:154][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149514s)
+[2017.11.16-02.49.21:154][868]LogAIModule: Creating AISystem for world default
+[2017.11.16-02.49.21:154][868]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2017.11.16-02.49.21:155][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.150776s)
+[2017.11.16-02.49.21:169][868]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-02.49.21:174][868]LogInit: FAudioDevice initialized.
+[2017.11.16-02.49.21:219][868]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-02.49.21:231][868]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.15-18.49.21
+[2017.11.16-02.49.21:232][868]LogWorld: Bringing up level for play took: 0.011689
+[2017.11.16-02.49.21:233][868]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.16-02.49.21:263][868]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.11.16-02.49.21:263][868]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-02.49.21:267][868]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-02.49.21:267][868]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.134
+[2017.11.16-02.49.21:272][868]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.49.22:299][971]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.16-02.49.22:299][971]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.16-02.49.22:299][971]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.16-02.49.22:512][996]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.16-02.49.22:513][996]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_1
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.16-02.49.22:513][996]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.16-02.49.23:658][129]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.49.23:696][129]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.49.24:696][245]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-02.49.24:959][245]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.11.16-02.49.25:402][245]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.16-02.49.25:403][245]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.16-02.49.25:508][246]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.16-02.50.14:134][ 46]BlueprintLog: New page: Compile SoldierAI
+[2017.11.16-02.50.14:788][ 93]LogSavePackage: Save=82.83ms
+[2017.11.16-02.50.14:788][ 93]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/SoldierAI76B0727A45399AB3283C1797B82A43C7.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.uasset'
+[2017.11.16-02.50.14:789][ 93]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.uasset
+[2017.11.16-02.50.24:780][287]LogTemp: Repeting last play command: Simulate
+[2017.11.16-02.50.24:810][287]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.50.24:810][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-02.50.24:810][287]PIE: New page: SIE session: default (Nov 15, 2017, 10:50:24 AM)
+[2017.11.16-02.50.24:810][287]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-02.50.24:943][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132677s)
+[2017.11.16-02.50.24:944][287]LogAIModule: Creating AISystem for world default
+[2017.11.16-02.50.24:944][287]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2017.11.16-02.50.24:944][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.133819s)
+[2017.11.16-02.50.24:962][287]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-02.50.24:968][287]LogInit: FAudioDevice initialized.
+[2017.11.16-02.50.25:001][287]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-02.50.25:011][287]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.15-18.50.25
+[2017.11.16-02.50.25:013][287]LogWorld: Bringing up level for play took: 0.010480
+[2017.11.16-02.50.25:013][287]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.16-02.50.25:013][287]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-02.50.25:017][287]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-02.50.25:017][287]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.116
+[2017.11.16-02.50.25:019][287]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.50.26:200][407]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.16-02.50.26:396][427]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.16-02.50.35:153][304]LogBlueprintUserMessages: [Catapult_C_1] Handle1
+[2017.11.16-02.50.35:153][304]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.11.16-02.50.35:164][305]LogCharacterMovement: SoldierAI_C_4 is stuck and failed to move! Velocity: X=-259.07 Y=427.65 Z=0.00 Location: X=20769.47 Y=23349.21 Z=88.15 Normal: X=0.61 Y=-0.75 Z=-0.27 PenetrationDepth:4.965 Actor:BatteringRamOld_C_0 Component:HealthBar BoneName:None (0 other events since notify)
+[2017.11.16-02.50.35:186][307]LogBlueprintUserMessages: [Catapult_C_1] Handle2
+[2017.11.16-02.50.35:186][307]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.11.16-02.50.36:629][444]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.50.36:664][444]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.50.42:290][108]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.11.16-02.50.42:290][108]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.11.16-02.50.42:633][145]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.11.16-02.50.42:633][145]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ArcherAIArrow_C /Engine/Transient.World_5:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.11.16-02.50.42:633][145]LogScript:Warning: Accessed None
+	ArcherAIArrow_C /Engine/Transient.World_5:PersistentLevel.ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAIArrow.ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.11.16-02.50.42:669][148]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.11.16-02.50.42:669][148]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_CatapultRock_C /Engine/Transient.World_8:PersistentLevel.BP_CatapultRock_C_0
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:UserConstructionScript:00D9
+[2017.11.16-02.50.53:412][395]BlueprintLog: New page: Compile default
+[2017.11.16-02.50.54:428][496]LogTemp: Repeting last play command: Simulate
+[2017.11.16-02.50.54:453][496]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.50.54:453][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-02.50.54:453][496]PIE: New page: SIE session: default (Nov 15, 2017, 10:50:54 AM)
+[2017.11.16-02.50.54:453][496]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-02.50.54:595][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141370s)
+[2017.11.16-02.50.54:596][496]LogAIModule: Creating AISystem for world default
+[2017.11.16-02.50.54:596][496]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2017.11.16-02.50.54:596][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.142438s)
+[2017.11.16-02.50.54:617][496]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-02.50.54:623][496]LogInit: FAudioDevice initialized.
+[2017.11.16-02.50.54:656][496]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-02.50.54:666][496]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.15-18.50.54
+[2017.11.16-02.50.54:667][496]LogWorld: Bringing up level for play took: 0.010504
+[2017.11.16-02.50.54:667][496]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.16-02.50.54:668][496]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-02.50.54:671][496]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-02.50.54:671][496]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.461
+[2017.11.16-02.50.54:674][496]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.50.55:846][628]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.16-02.50.56:047][652]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.16-02.50.59:852][104]LogBlueprintUserMessages: [Catapult_C_1] Handle1
+[2017.11.16-02.51.00:052][128]LogBlueprintUserMessages: [Catapult_C_1] Handle2
+[2017.11.16-02.51.04:267][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.51.04:316][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.51.14:294][716]LogEditorViewport: Clicking on Actor (LMB): Vive_Pawn_C (Vive_Pawn)
+[2017.11.16-02.51.16:220][934]LogTemp: Repeting last play command: Simulate
+[2017.11.16-02.51.16:246][934]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.51.16:246][934]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-02.51.16:246][934]PIE: New page: SIE session: default (Nov 15, 2017, 10:51:16 AM)
+[2017.11.16-02.51.16:246][934]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-02.51.16:381][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134683s)
+[2017.11.16-02.51.16:381][934]LogAIModule: Creating AISystem for world default
+[2017.11.16-02.51.16:382][934]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2017.11.16-02.51.16:382][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.135908s)
+[2017.11.16-02.51.16:401][934]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-02.51.16:407][934]LogInit: FAudioDevice initialized.
+[2017.11.16-02.51.16:442][934]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-02.51.16:453][934]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.15-18.51.16
+[2017.11.16-02.51.16:454][934]LogWorld: Bringing up level for play took: 0.011632
+[2017.11.16-02.51.16:454][934]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.16-02.51.16:455][934]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-02.51.16:458][934]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-02.51.16:458][934]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.674
+[2017.11.16-02.51.16:465][934]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.51.17:636][ 56]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.16-02.51.17:843][ 77]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.16-02.51.21:646][405]LogBlueprintUserMessages: [Catapult_C_1] Handle1
+[2017.11.16-02.51.21:864][427]LogBlueprintUserMessages: [Catapult_C_1] Handle2
+[2017.11.16-02.51.30:912][415]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.16-02.51.33:457][601]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.16-02.51.33:898][653]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.16-02.51.34:384][696]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.16-02.51.35:284][782]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.16-02.51.39:871][126]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.51.39:916][126]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.51.43:538][531]LogEditorViewport: Clicking on Actor (LMB): ArcherAi_C (ArcherAi)
+[2017.11.16-02.51.46:480][858]Cmd: EDIT CUT
+[2017.11.16-02.51.46:494][858]LogEditorActor: Deleted Actor: ArcherAi_C
+[2017.11.16-02.51.46:515][858]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2017.11.16-02.51.47:320][955]Cmd: TRANSACTION UNDO
+[2017.11.16-02.51.47:321][955]LogEditorTransaction: Undo Cut
+[2017.11.16-02.51.50:047][268]Cmd: TRANSACTION UNDO
+[2017.11.16-02.51.50:047][268]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.16-02.51.52:798][595]LogEditorViewport: Clicking on Actor (LMB): ArcherAi_C (ArcherAi)
+[2017.11.16-02.51.53:495][672]Cmd: EDIT CUT
+[2017.11.16-02.51.53:503][672]LogEditorActor: Deleted Actor: ArcherAi_C
+[2017.11.16-02.51.53:519][672]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.11.16-02.51.53:909][719]Cmd: EDIT PASTE
+[2017.11.16-02.51.55:254][873]Cmd: EDIT CUT
+[2017.11.16-02.51.55:262][873]LogEditorActor: Deleted Actor: ArcherAi_C
+[2017.11.16-02.51.55:283][873]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2017.11.16-02.52.04:718][973]Cmd: EDIT PASTE
+[2017.11.16-02.52.06:260][149]Cmd: TRANSACTION UNDO
+[2017.11.16-02.52.06:260][149]LogEditorTransaction: Undo Paste
+[2017.11.16-02.53.44:976][948]BlueprintLog: New page: Compile default
+[2017.11.16-02.53.47:857][988]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.16-02.53.48:304][988]LogSavePackage: Save=2779.55ms
+[2017.11.16-02.53.48:304][988]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default9995A57048B8EE671A9E2D8927904831.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.16-02.53.48:307][988]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.16-02.53.48:355][988]LogFileHelpers: Saving map 'default' took 2.908
+[2017.11.16-02.54.21:601][632]LogSavePackage: Save=2765.08ms
+[2017.11.16-02.54.21:601][632]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/defaultEE6A9A8B428BA0CADB74129B7D8D3282.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.16-02.54.21:604][632]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.16-02.54.21:645][632]LogFileHelpers: Saving map 'default' took 2.869
+[2017.11.16-02.54.55:359][334]LogSavePackage: Save=2764.08ms
+[2017.11.16-02.54.55:359][334]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default9906674F46A638CD1C6794957C057155.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.16-02.54.55:362][334]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.16-02.54.55:404][334]LogFileHelpers: Saving map 'default' took 2.875
+[2017.11.16-02.55.26:610][ 74]BlueprintLog: New page: Compile default
+[2017.11.16-02.55.29:502][402]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-02.55.45:899][977]LogSavePackage: Save=2773.27ms
+[2017.11.16-02.55.45:899][977]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default1FC1ED3E40EF047EE992B3AEE3C19E2E.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.16-02.55.45:902][977]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.16-02.55.45:943][977]LogFileHelpers: Saving map 'default' took 2.880
+[2017.11.16-02.55.58:219][439]LogSlate: Took 0.005122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.16-02.56.18:229][818]BlueprintLog: New page: Compile default
+[2017.11.16-02.56.26:064][394]LogSavePackage: Save=2800.71ms
+[2017.11.16-02.56.26:065][394]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default12F1B5314CAFE1858361DCBF933C04FB.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.16-02.56.26:068][394]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.16-02.56.26:110][394]LogFileHelpers: Saving map 'default' took 2.907
+[2017.11.16-02.57.31:143][170]LogEditorTransaction: Undo Create Reroute Node
+[2017.11.16-02.57.31:316][188]LogEditorTransaction: Undo Create Reroute Node
+[2017.11.16-02.57.32:584][338]LogEditorTransaction: Redo Create Reroute Node
+[2017.11.16-02.57.37:347][907]LogEditorTransaction: Undo Create Reroute Node
+[2017.11.16-02.57.57:414][312]BlueprintLog: New page: Compile default
+[2017.11.16-02.58.00:853][361]LogSavePackage: Save=2819.76ms
+[2017.11.16-02.58.00:853][361]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/defaultD4346D7E4C4269AE745789BFD75BB5D4.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.11.16-02.58.00:857][361]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.11.16-02.58.00:900][361]LogFileHelpers: Saving map 'default' took 2.927
+[2017.11.16-02.58.23:091][  9]LogTemp: Repeting last play command: Simulate
+[2017.11.16-02.58.23:118][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.58.23:118][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-02.58.23:118][  9]PIE: New page: SIE session: default (Nov 15, 2017, 10:58:23 AM)
+[2017.11.16-02.58.23:118][  9]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-02.58.23:253][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135198s)
+[2017.11.16-02.58.23:254][  9]LogAIModule: Creating AISystem for world default
+[2017.11.16-02.58.23:254][  9]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2017.11.16-02.58.23:254][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.136426s)
+[2017.11.16-02.58.23:274][  9]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-02.58.23:280][  9]LogInit: FAudioDevice initialized.
+[2017.11.16-02.58.23:315][  9]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-02.58.23:327][  9]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.15-18.58.23
+[2017.11.16-02.58.23:329][  9]LogWorld: Bringing up level for play took: 0.012819
+[2017.11.16-02.58.23:329][  9]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.16-02.58.23:329][  9]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-02.58.23:333][  9]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-02.58.23:333][  9]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.2
+[2017.11.16-02.58.23:336][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.58.24:508][114]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.16-02.58.24:708][138]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.16-02.58.24:820][151]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.11.16-02.58.27:714][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.58.27:768][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.58.30:521][789]LogTemp: Repeting last play command: Simulate
+[2017.11.16-02.58.30:547][789]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.58.30:547][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-02.58.30:547][789]PIE: New page: SIE session: default (Nov 15, 2017, 10:58:30 AM)
+[2017.11.16-02.58.30:547][789]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-02.58.30:680][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132411s)
+[2017.11.16-02.58.30:681][789]LogAIModule: Creating AISystem for world default
+[2017.11.16-02.58.30:681][789]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2017.11.16-02.58.30:681][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.133808s)
+[2017.11.16-02.58.30:706][789]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-02.58.30:712][789]LogInit: FAudioDevice initialized.
+[2017.11.16-02.58.30:746][789]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-02.58.30:756][789]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.15-18.58.30
+[2017.11.16-02.58.30:757][789]LogWorld: Bringing up level for play took: 0.010247
+[2017.11.16-02.58.30:758][789]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.16-02.58.30:758][789]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-02.58.30:761][789]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-02.58.30:761][789]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.371
+[2017.11.16-02.58.30:764][789]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.58.31:935][917]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.16-02.58.32:143][939]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.16-02.58.40:881][948]LogBlueprintUserMessages: [Catapult_C_1] Handle1
+[2017.11.16-02.58.40:881][948]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.11.16-02.58.40:889][949]LogCharacterMovement: Catapult_C_1 is stuck and failed to move! Velocity: X=-178.93 Y=-89.35 Z=0.00 Location: X=20616.19 Y=23602.35 Z=88.81 Normal: X=0.56 Y=0.28 Z=-0.78 PenetrationDepth:35.048 Actor:BatteringRamOld_C_0 Component:HealthBar BoneName:None (0 other events since notify)
+[2017.11.16-02.58.40:890][949]LogCharacterMovement: SoldierAI_C_4 is stuck and failed to move! Velocity: X=-260.74 Y=426.63 Z=0.00 Location: X=20770.50 Y=23349.74 Z=88.15 Normal: X=0.62 Y=-0.74 Z=-0.28 PenetrationDepth:4.803 Actor:BatteringRamOld_C_0 Component:HealthBar BoneName:None (0 other events since notify)
+[2017.11.16-02.58.40:914][952]LogBlueprintUserMessages: [Catapult_C_1] Handle2
+[2017.11.16-02.58.40:915][952]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.11.16-02.58.42:811][179]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.58.42:849][179]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.58.56:610][820]LogRenderer: Reallocating scene render targets to support 1196x712 NumSamples 1 (Frame:1).
+[2017.11.16-02.59.10:628][453]BlueprintLog: New page: Compile BatteringRamOld
+[2017.11.16-02.59.31:363][861]BlueprintLog: New page: Compile BatteringRamOld
+[2017.11.16-02.59.33:017][  6]LogTemp: Repeting last play command: Simulate
+[2017.11.16-02.59.33:043][  6]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.59.33:044][  6]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-02.59.33:044][  6]PIE: New page: SIE session: default (Nov 15, 2017, 10:59:33 AM)
+[2017.11.16-02.59.33:044][  6]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-02.59.33:172][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.128815s)
+[2017.11.16-02.59.33:173][  6]LogAIModule: Creating AISystem for world default
+[2017.11.16-02.59.33:173][  6]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2017.11.16-02.59.33:174][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.130404s)
+[2017.11.16-02.59.33:197][  6]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-02.59.33:203][  6]LogInit: FAudioDevice initialized.
+[2017.11.16-02.59.33:234][  6]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-02.59.33:247][  6]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.15-18.59.33
+[2017.11.16-02.59.33:248][  6]LogWorld: Bringing up level for play took: 0.012942
+[2017.11.16-02.59.33:248][  6]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.16-02.59.33:249][  6]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-02.59.33:253][  6]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-02.59.33:253][  6]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.121
+[2017.11.16-02.59.33:257][  6]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.59.34:431][139]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.16-02.59.34:632][163]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.16-02.59.40:471][848]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-02.59.40:510][848]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-03.00.58:392][124]BlueprintLog: New page: Compile SoldierAI
+[2017.11.16-03.00.59:684][259]LogTemp: Repeting last play command: Simulate
+[2017.11.16-03.00.59:712][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-03.00.59:712][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-03.00.59:712][259]PIE: New page: SIE session: default (Nov 15, 2017, 11:00:59 AM)
+[2017.11.16-03.00.59:712][259]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-03.00.59:841][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.129227s)
+[2017.11.16-03.00.59:842][259]LogAIModule: Creating AISystem for world default
+[2017.11.16-03.00.59:842][259]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2017.11.16-03.00.59:843][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.130638s)
+[2017.11.16-03.00.59:863][259]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-03.00.59:869][259]LogInit: FAudioDevice initialized.
+[2017.11.16-03.00.59:903][259]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-03.00.59:913][259]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.15-19.00.59
+[2017.11.16-03.00.59:915][259]LogWorld: Bringing up level for play took: 0.010861
+[2017.11.16-03.00.59:915][259]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.16-03.00.59:915][259]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-03.00.59:919][259]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-03.00.59:919][259]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.786
+[2017.11.16-03.00.59:922][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-03.01.01:096][393]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.16-03.01.01:304][418]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.16-03.01.03:222][648]Cmd: SELECT NONE
+[2017.11.16-03.01.04:574][806]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.11.16-03.01.04:742][822]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-03.01.04:787][822]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-03.01.08:958][316]LogTemp: Repeting last play command: Simulate
+[2017.11.16-03.01.08:985][316]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-03.01.08:985][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-03.01.08:985][316]PIE: New page: SIE session: default (Nov 15, 2017, 11:01:08 AM)
+[2017.11.16-03.01.08:985][316]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.16-03.01.09:116][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131067s)
+[2017.11.16-03.01.09:117][316]LogAIModule: Creating AISystem for world default
+[2017.11.16-03.01.09:117][316]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2017.11.16-03.01.09:117][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.132332s)
+[2017.11.16-03.01.09:138][316]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.16-03.01.09:144][316]LogInit: FAudioDevice initialized.
+[2017.11.16-03.01.09:175][316]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.16-03.01.09:186][316]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.15-19.01.09
+[2017.11.16-03.01.09:187][316]LogWorld: Bringing up level for play took: 0.010640
+[2017.11.16-03.01.09:187][316]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.16-03.01.09:187][316]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-03.01.09:191][316]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-03.01.09:191][316]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.058
+[2017.11.16-03.01.09:200][316]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-03.01.10:375][455]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.16-03.01.10:576][479]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.16-03.01.16:960][244]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=20405.221 Y=23601.873 Z=88.047] for [Catapult_C]
+[2017.11.16-03.01.16:960][244]LogScript:Warning: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftpathCatapultSpawn:00F2
+[2017.11.16-03.01.16:960][244]PIE:Error: Error Blueprint Runtime Error: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill from function: 'LeftpathCatapultSpawn' from node: Set FinalLocation in graph: LeftpathCatapultSpawn in object: default with description: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill
+[2017.11.16-03.01.16:961][244]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftpathCatapultSpawn:0107
+[2017.11.16-03.01.16:961][244]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftpathCatapultSpawn' from node: Set FinalLocation in graph: LeftpathCatapultSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.16-03.01.16:961][244]LogScript:Warning: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftpathCatapultSpawn:011D
+[2017.11.16-03.01.16:962][244]PIE:Error: Error Blueprint Runtime Error: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill from function: 'LeftpathCatapultSpawn' from node: Set FirstPos in graph: LeftpathCatapultSpawn in object: default with description: Attempted to access Catapult_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but Catapult_C_1 is pending kill
+[2017.11.16-03.01.16:962][244]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftpathCatapultSpawn:0132
+[2017.11.16-03.01.16:962][244]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftpathCatapultSpawn' from node: Set FirstPos in graph: LeftpathCatapultSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.16-03.01.20:965][724]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=20418.453 Y=23630.482 Z=88.324] for [BatteringRamOld_C]
+[2017.11.16-03.01.20:965][724]LogScript:Warning: Attempted to access BatteringRamOld_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BatteringRamOld_C_1 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathBatteringRamSpawn:00F2
+[2017.11.16-03.01.20:966][724]PIE:Error: Error Blueprint Runtime Error: Attempted to access BatteringRamOld_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BatteringRamOld_C_1 is pending kill from function: 'LeftPathBatteringRamSpawn' from node: Set AttackPos in graph: LeftPathBatteringRamSpawn in object: default with description: Attempted to access BatteringRamOld_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BatteringRamOld_C_1 is pending kill
+[2017.11.16-03.01.20:966][724]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathBatteringRamSpawn:0107
+[2017.11.16-03.01.20:966][724]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathBatteringRamSpawn' from node: Set AttackPos in graph: LeftPathBatteringRamSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.16-03.01.20:966][724]LogScript:Warning: Attempted to access BatteringRamOld_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BatteringRamOld_C_1 is pending kill
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathBatteringRamSpawn:011D
+[2017.11.16-03.01.20:967][724]PIE:Error: Error Blueprint Runtime Error: Attempted to access BatteringRamOld_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BatteringRamOld_C_1 is pending kill from function: 'LeftPathBatteringRamSpawn' from node: Set FirstPos in graph: LeftPathBatteringRamSpawn in object: default with description: Attempted to access BatteringRamOld_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BatteringRamOld_C_1 is pending kill
+[2017.11.16-03.01.20:967][724]LogScript:Warning: Accessed None attempting to assign variable on an object
+	default_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.default_C_0
+	Function /Game/VirtualRealityBP/Maps/default.default_C:LeftPathBatteringRamSpawn:0132
+[2017.11.16-03.01.20:967][724]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'LeftPathBatteringRamSpawn' from node: Set FirstPos in graph: LeftPathBatteringRamSpawn in object: default with description: Accessed None attempting to assign variable on an object
+[2017.11.16-03.01.21:051][734]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-03.01.21:096][734]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.16-03.03.19:814][910]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.11.16-03.03.27:266][910]LogStats: FPlatformStackWalk::StackWalkAndDump -  7.443 s
+[2017.11.16-03.03.27:266][910]LogOutputDevice:Error: === Handled ensure: ===
+[2017.11.16-03.03.27:266][910]LogOutputDevice:Error: 
+[2017.11.16-03.03.27:266][910]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.11.16-03.03.27:267][910]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.11.16-03.03.27:267][910]LogOutputDevice:Error: Stack: 
+[2017.11.16-03.03.27:267][910]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.11.16-03.03.27:267][910]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2017.11.16-03.03.27:267][910]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2017.11.16-03.03.27:267][910]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FKismetDebugUtilities::GetWatchText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetdebugutilities.cpp:1037]
+[2017.11.16-03.03.27:267][910]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!UK2Node::GetPinHoverText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\blueprintgraph\private\k2node.cpp:1251]
+[2017.11.16-03.03.27:267][910]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!SGraphPin::GetTooltipText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\grapheditor\private\sgraphpin.cpp:1085]
+[2017.11.16-03.03.27:267][910]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64>::operator()<>() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:165]
+[2017.11.16-03.03.27:268][910]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\templates\tuple.h:497]
+[2017.11.16-03.03.27:268][910]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TBaseSPMethodDelegateInstance<1,SGraphPin,0,FText __cdecl(void)>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.11.16-03.03.27:268][910]LogOutputDevice:Error: UE4Editor-Slate.dll!TBaseDelegate<FText>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:537]
+[2017.11.16-03.03.27:268][910]LogOutputDevice:Error: UE4Editor-Slate.dll!TAttribute<FText>::Get() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\misc\attribute.h:137]
+[2017.11.16-03.03.27:268][910]LogOutputDevice:Error: UE4Editor-Slate.dll!SToolTip::IsEmpty() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\widgets\stooltip.cpp:87]
+[2017.11.16-03.03.27:268][910]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::UpdateToolTip() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3444]
+[2017.11.16-03.03.27:268][910]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::TickApplication() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1624]
+[2017.11.16-03.03.27:268][910]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1548]
+[2017.11.16-03.03.27:268][910]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3182]
+[2017.11.16-03.03.27:269][910]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.11.16-03.03.27:269][910]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.11.16-03.03.27:269][910]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.11.16-03.03.27:269][910]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.11.16-03.03.27:269][910]LogOutputDevice:Error: KERNEL32.DLL!0x00000000BD2B2774
+[2017.11.16-03.03.27:269][910]LogOutputDevice:Error: ntdll.dll!0x00000000BD770D51
+[2017.11.16-03.03.27:269][910]LogOutputDevice:Error: 
+[2017.11.16-03.03.27:270][910]LogStats:                SubmitErrorReport -  0.000 s

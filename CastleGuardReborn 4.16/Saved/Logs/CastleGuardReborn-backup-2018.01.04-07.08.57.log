@@ -1,0 +1,1017 @@
+﻿Log file open, 01/04/18 06:26:09
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(634073040) SRandInit(634073040).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083758
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.04-14.26.10:064][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.04-14.26.10:064][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.04-14.26.10:110][  0]LogInit: Computer: LCIVAN-238-00
+[2018.01.04-14.26.10:110][  0]LogInit: User: studentuser
+[2018.01.04-14.26.10:110][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.04-14.26.10:110][  0]LogInit: High frequency timer resolution =4.101560 MHz
+[2018.01.04-14.26.10:110][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.04-14.26.10:110][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.04-14.26.10:110][  0]LogMemory: Process Physical Memory: 273.98 MB used, 273.98 MB peak
+[2018.01.04-14.26.10:110][  0]LogMemory: Process Virtual Memory: 260.76 MB used, 260.76 MB peak
+[2018.01.04-14.26.10:110][  0]LogMemory: Physical Memory: 11081.76 MB used,  5201.69 MB free, 16283.45 MB total
+[2018.01.04-14.26.10:110][  0]LogMemory: Virtual Memory: 638.47 MB used,  5201.69 MB free, 134217728.00 MB total
+[2018.01.04-14.26.10:309][  0]LogInit: Using OS detected language (en-US).
+[2018.01.04-14.26.10:309][  0]LogInit: Using OS detected locale (en-CA).
+[2018.01.04-14.26.10:421][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.04-14.26.14:178][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.04-14.26.14:219][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.04-14.26.14:219][  0]LogD3D11RHI:       8115/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.04-14.26.14:225][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.01.04-14.26.14:225][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.04-14.26.14:227][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.04-14.26.14:227][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.04-14.26.14:227][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.04-14.26.14:238][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.04-14.26.14:238][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.04-14.26.14:238][  0]LogWindows: EnumDisplayDevices:
+[2018.01.04-14.26.14:238][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.04-14.26.14:238][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.04-14.26.14:238][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.04-14.26.14:238][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.04-14.26.14:238][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.01.04-14.26.14:239][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.01.04-14.26.14:239][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.01.04-14.26.14:239][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.01.04-14.26.14:239][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.04-14.26.14:239][  0]LogD3D11RHI:   Driver Version: 382.66 (internal:22.21.13.8266, unified:382.66)
+[2018.01.04-14.26.14:239][  0]LogD3D11RHI:      Driver Date: 6-25-2017
+[2018.01.04-14.26.14:239][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.04-14.26.14:266][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.04-14.26.14:275][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.04-14.26.14:324][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Intermediate/Shaders/WorkingDirectory/17592/).
+[2018.01.04-14.26.14:324][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/38540C0F40954B8DEC48B7B9A480FD21/'.
+[2018.01.04-14.26.14:324][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.04-14.26.16:795][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.04-14.26.16:825][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.04-14.26.16:857][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.04-14.26.16:890][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.04-14.26.16:934][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.04-14.26.16:967][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.04-14.26.17:005][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.04-14.26.17:043][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.04-14.26.17:070][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.04-14.26.17:115][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.04-14.26.17:146][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.04-14.26.17:179][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.04-14.26.17:209][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.04-14.26.17:244][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.04-14.26.17:273][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.04-14.26.17:336][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.04-14.26.17:336][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.04-14.26.17:369][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.04-14.26.17:459][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.04-14.26.17:478][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.04-14.26.17:508][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.04-14.26.17:538][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.04-14.26.17:569][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.04-14.26.17:613][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.04-14.26.17:613][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.04-14.26.18:156][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.04-14.26.18:728][  0]LogDerivedDataCache: Loaded boot cache 0.56s 94MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.04-14.26.18:729][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.04-14.26.18:729][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.04-14.26.18:729][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.04-14.26.18:729][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.04-14.26.18:729][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.04-14.26.18:751][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.04-14.26.18:762][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.04-14.26.18:770][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.04-14.26.18:770][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.04-14.26.18:795][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.04-14.26.18:795][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.04-14.26.22:631][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.04-14.26.22:760][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.04-14.26.22:941][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.04-14.26.23:021][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.04-14.26.23:071][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.04-14.26.23:071][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.04-14.26.23:071][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.04-14.26.24:074][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2018.01.04-14.26.24:141][  0]LogAssetRegistry: FAssetRegistry took 0.0241 seconds to start up
+[2018.01.04-14.26.24:231][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.076347 seconds
+[2018.01.04-14.26.24:237][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.04-14.26.24:237][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.01.04-14.26.24:237][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.04-14.26.24:273][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.04-14.26.31:600][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.04-14.26.31:640][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.04-14.26.32:171][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.04-14.26.32:489][  0]SourceControl: Info Source control is disabled
+[2018.01.04-14.26.32:615][  0]SourceControl: Info Source control is disabled
+[2018.01.04-14.26.32:658][  0]SourceControl: Info Source control is disabled
+[2018.01.04-14.26.32:704][  0]SourceControl: Info Source control is disabled
+[2018.01.04-14.26.33:435][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.04-14.26.34:085][  0]LogEngine: Initializing Engine...
+[2018.01.04-14.26.34:684][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2018.01.04-14.26.34:918][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.04-14.26.34:918][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.04-14.26.34:999][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.04-14.26.35:013][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.26.35:029][  0]LogInit: FAudioDevice initialized.
+[2018.01.04-14.26.35:084][  0]LogDerivedDataCache: Saved boot cache 0.05s 94MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.04-14.26.35:103][  0]LogInit: Texture streaming: Enabled
+[2018.01.04-14.26.35:212][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.04-14.26.35:464][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.04-14.26.35:510][  0]LogInit: Transaction tracking system initialized
+[2018.01.04-14.26.35:804][  0]BlueprintLog: New page: Editor Load
+[2018.01.04-14.26.37:023][  0]LocalizationService: Info Localization service is disabled
+[2018.01.04-14.26.37:662][  0]LogConsoleResponse:Display: 
+[2018.01.04-14.26.38:226][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.04-14.26.38:226][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.04-14.26.39:654][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Content/' took 1.12s
+[2018.01.04-14.26.39:654][  0]SourceControl: Info Source control is disabled
+[2018.01.04-14.26.39:654][  0]Cmd: MAP LOAD FILE="../../../../CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.04-14.26.39:670][  0]LightingResults: New page: Lighting Build
+[2018.01.04-14.26.39:702][  0]MapCheck: New page: Map Check
+[2018.01.04-14.26.39:702][  0]LightingResults: New page: Lighting Build
+[2018.01.04-14.26.39:715][  0]LogLinker:Warning: Can't find file '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData'
+[2018.01.04-14.26.39:715][  0]LogLinker:Warning: Can't find file for asset '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData' while loading ../../../../CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Content/VirtualRealityBP/Maps/StartupMap.umap.
+[2018.01.04-14.26.39:715][  0]LoadErrors:Error: Error /Game/VirtualRealityBP/Maps/StartupMap : Can't find file for asset. /Game/VirtualRealityBP/Maps/StartupMap_BuiltData
+[2018.01.04-14.26.39:782][  0]LogLinker:Warning: Can't find file '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData'
+[2018.01.04-14.26.39:782][  0]LogLinker:Warning: Can't find file for asset '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData' while loading ../../../../CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Content/VirtualRealityBP/Maps/StartupMap.umap.
+[2018.01.04-14.26.39:782][  0]LoadErrors:Error: Error /Game/VirtualRealityBP/Maps/StartupMap : Can't find file for asset. /Game/VirtualRealityBP/Maps/StartupMap_BuiltData
+[2018.01.04-14.26.39:796][  0]LogLinker:Warning: Can't find file '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData'
+[2018.01.04-14.26.39:796][  0]LoadErrors: Info Failed to load /Game/VirtualRealityBP/Maps/StartupMap_BuiltData.StartupMap_BuiltData Referenced by PersistentLevel
+[2018.01.04-14.26.39:796][  0]LogLinker:Warning: Can't find file for asset '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData' while loading NULL.
+[2018.01.04-14.26.39:796][  0]LoadErrors: Info Failed to load /Game/VirtualRealityBP/Maps/StartupMap_BuiltData.StartupMap_BuiltData Referenced by PersistentLevel
+[2018.01.04-14.26.39:901][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.01.04-14.26.39:906][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.04-14.26.39:919][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.04-14.26.39:956][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.86ms to complete.
+[2018.01.04-14.26.39:956][  0]LogFileHelpers: Loading map 'StartupMap' took 0.302
+[2018.01.04-14.26.40:229][  0]LogCollectionManager: Loaded 0 collections in 0.000649 seconds
+[2018.01.04-14.26.40:285][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Saved/Collections/' took 0.01s
+[2018.01.04-14.26.40:285][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Content/Developers/studentuser/Collections/' took 0.01s
+[2018.01.04-14.26.40:285][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Content/Collections/' took 0.01s
+[2018.01.04-14.26.40:285][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.04-14.26.40:315][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2330 classes and 494 folders.
+[2018.01.04-14.26.40:347][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.04-14.26.40:922][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.04-14.26.40:964][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.01.04-14.26.41:010][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.04-14.26.41:173][  0]LogSlate: Took 0.158219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.04-14.26.41:180][  0]LogSlate: Took 0.005304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.04-14.26.41:203][  0]LogSlate: Took 0.019800 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.04-14.26.41:204][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.01.04-14.26.41:312][  0]LogRenderer: Reallocating scene render targets to support 1196x576 NumSamples 1 (Frame:1).
+[2018.01.04-14.26.41:403][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.04-14.26.41:470][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.01.04-14.26.41:470][  0]LogLoad: (Engine Initialization) Total time: 33.58 seconds
+[2018.01.04-14.26.41:470][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2018.01.04-14.26.41:470][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.04-14.26.41:470][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.04-14.26.41:481][  0]LogOcInput: OculusInput pre-init called
+[2018.01.04-14.26.41:481][  0]LogHMD: Starting GearVRController plugin
+[2018.01.04-14.26.41:481][  0]LogSteamVRController: Controller role for device 3 is 1 (invalid=0, left=1, right=2).
+[2018.01.04-14.26.41:481][  0]LogSteamVRController:Warning: Controller device 3 is being assigned to its prefered role 'left'.
+[2018.01.04-14.26.41:481][  0]LogSteamVRController: Controller device 3 is being assigned unreal hand 0 (left=0, right=1).
+[2018.01.04-14.26.41:481][  0]LogSteamVRController: Controller role for device 4 is 2 (invalid=0, left=1, right=2).
+[2018.01.04-14.26.41:481][  0]LogSteamVRController: Putting controller 4 on the right hand because there is already a controller for the left.
+[2018.01.04-14.26.41:482][  0]LogSteamVRController: Controller device 4 is being assigned unreal hand 1 (left=0, right=1).
+[2018.01.04-14.26.41:500][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.04-14.26.41:549][  1]LogAssetRegistry: Asset discovery search completed in 17.4293 seconds
+[2018.01.04-14.26.41:551][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.04-14.26.41:551][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000110 seconds (updated 0 objects)
+[2018.01.04-14.26.42:505][111]LogSlate: Took 0.004081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.04-14.29.57:518][498]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.04-14.30.04:388][307]Cmd: MAP LOAD FILE="../../../../CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.04-14.30.04:392][307]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.04-14.30.04:400][307]LightingResults: New page: Lighting Build
+[2018.01.04-14.30.04:401][307]LoadErrors: New page: Loading map: default.umap
+[2018.01.04-14.30.04:404][307]MapCheck: New page: Map Check
+[2018.01.04-14.30.04:404][307]LightingResults: New page: Lighting Build
+[2018.01.04-14.30.05:239][307]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.04-14.30.09:763][307]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.01.04-14.30.10:235][307]LogAIModule: Creating AISystem for world default
+[2018.01.04-14.30.10:564][307]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.04-14.30.10:665][307]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.04-14.30.10:721][307]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.085ms to complete.
+[2018.01.04-14.30.10:721][307]LogFileHelpers: Loading map 'default' took 6.334
+[2018.01.04-14.30.13:108][553]LogTemp: Repeting last play command: VR Preview
+[2018.01.04-14.30.13:249][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.30.13:249][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-14.30.13:249][553]PIE: New page: PIE session: default (Jan 3, 2018, 10:30:13 PM)
+[2018.01.04-14.30.13:250][553]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.01.04-14.30.13:406][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155900s)
+[2018.01.04-14.30.13:406][553]LogAIModule: Creating AISystem for world default
+[2018.01.04-14.30.13:407][553]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2018.01.04-14.30.13:407][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.157390s)
+[2018.01.04-14.30.13:424][553]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.30.13:438][553]LogInit: FAudioDevice initialized.
+[2018.01.04-14.30.13:528][553]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.01.04-14.30.13:542][553]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.01.04-06.30.13
+[2018.01.04-14.30.13:545][553]LogWorld: Bringing up level for play took: 0.015446
+[2018.01.04-14.30.13:567][553]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.01.04-14.30.13:567][553]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.30.13:567][553]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.30.13:567][553]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.30.13:569][553]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.30.13:577][553]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.419
+[2018.01.04-14.30.13:578][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.30.13:621][553]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2018.01.04-14.30.13:621][553]LogAudio:Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.01.04-14.30.14:484][627]LogBlueprintUserMessages: [BP_AI_Arrows_122] Castle Succesful
+[2018.01.04-14.30.16:406][798]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2018.01.04-14.30.17:759][919]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Castle Succesful
+[2018.01.04-14.30.19:012][ 31]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Castle Succesful
+[2018.01.04-14.30.20:563][170]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.30.20:706][170]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.30.53:206][ 96]LogTemp: Repeting last play command: VR Preview
+[2018.01.04-14.30.53:222][ 96]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.30.53:222][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-14.30.53:223][ 96]PIE: New page: PIE session: default (Jan 3, 2018, 10:30:53 PM)
+[2018.01.04-14.30.53:223][ 96]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.01.04-14.30.53:373][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149658s)
+[2018.01.04-14.30.53:373][ 96]LogAIModule: Creating AISystem for world default
+[2018.01.04-14.30.53:374][ 96]LogPlayLevel: PIE: World Init took: (0.001250s)
+[2018.01.04-14.30.53:375][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.152066s)
+[2018.01.04-14.30.53:392][ 96]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.30.53:405][ 96]LogInit: FAudioDevice initialized.
+[2018.01.04-14.30.53:480][ 96]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.01.04-14.30.53:497][ 96]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.01.04-06.30.53
+[2018.01.04-14.30.53:499][ 96]LogWorld: Bringing up level for play took: 0.018687
+[2018.01.04-14.30.53:500][ 96]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.30.53:500][ 96]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.30.53:500][ 96]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.30.53:501][ 96]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.30.53:508][ 96]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.351
+[2018.01.04-14.30.53:509][ 96]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.30.53:561][ 96]LogAudio:Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.01.04-14.30.54:128][148]LogBlueprintUserMessages: [BP_AI_Arrows_122] Castle Succesful
+[2018.01.04-14.30.56:063][321]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2018.01.04-14.30.57:422][443]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Castle Succesful
+[2018.01.04-14.30.58:664][554]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Castle Succesful
+[2018.01.04-14.31.01:064][769]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Cast Failed
+[2018.01.04-14.31.02:414][890]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Castle Succesful
+[2018.01.04-14.31.02:606][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.31.02:750][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.31.16:545][519]LogEditorViewport: Clicking on Actor (LMB): BP_Castle_C (BP_Castle)
+[2018.01.04-14.31.17:294][592]LogEditorViewport: Clicking on Actor (LMB): BP_HeavyArrowsPile_C (BP_HeavyArrowsPile)
+[2018.01.04-14.31.18:930][775]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_LightArrowsPile_C (BP_LightArrowsPile)
+[2018.01.04-14.31.21:218][ 41]LogEditorViewport: Clicking on Actor (LMB): BP_WaveTimer_C (BP_WaveTimer)
+[2018.01.04-14.31.25:492][507]LogEditorViewport: Clicking on Actor (LMB): Brazier_C (Brazier2)
+[2018.01.04-14.31.26:091][559]LogEditorViewport: Clicking on Actor (CTRL LMB): Brazier_C (Brazier3)
+[2018.01.04-14.31.33:149][338]LogEditorViewport: Clicking on Actor (LMB): BP_HeavyArrowsPile_C (BP_HeavyArrowsPile)
+[2018.01.04-14.31.34:712][517]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_LightArrowsPile_C (BP_LightArrowsPile)
+[2018.01.04-14.31.38:048][901]LogTemp: Repeting last play command: VR Preview
+[2018.01.04-14.31.38:066][901]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.31.38:067][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-14.31.38:067][901]PIE: New page: PIE session: default (Jan 3, 2018, 10:31:38 PM)
+[2018.01.04-14.31.38:067][901]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.01.04-14.31.38:222][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155561s)
+[2018.01.04-14.31.38:223][901]LogAIModule: Creating AISystem for world default
+[2018.01.04-14.31.38:224][901]LogPlayLevel: PIE: World Init took: (0.001440s)
+[2018.01.04-14.31.38:225][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.158215s)
+[2018.01.04-14.31.38:250][901]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.31.38:267][901]LogInit: FAudioDevice initialized.
+[2018.01.04-14.31.38:357][901]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.01.04-14.31.38:378][901]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.01.04-06.31.38
+[2018.01.04-14.31.38:381][901]LogWorld: Bringing up level for play took: 0.023623
+[2018.01.04-14.31.38:382][901]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.31.38:382][901]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.31.38:382][901]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.31.38:384][901]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.31.38:390][901]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 1.233
+[2018.01.04-14.31.38:391][901]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.31.38:439][901]LogAudio:Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.01.04-14.31.38:443][902]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.068982 > MaxSimulationTimeStep (0.050) for 'BP_SoldierAI_170', movement 'Falling'
+[2018.01.04-14.31.39:296][979]LogBlueprintUserMessages: [BP_AI_Arrows_122] Castle Succesful
+[2018.01.04-14.31.41:230][152]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2018.01.04-14.31.42:581][273]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Castle Succesful
+[2018.01.04-14.31.42:616][276]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.31.42:761][276]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.31.54:733][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catapult_Fire...
+[2018.01.04-14.31.54:782][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catsleguard_Voice__4050__01-03...
+[2018.01.04-14.31.54:802][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catsleguard_Voice__4050__01-05...
+[2018.01.04-14.31.54:816][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catsleguard_Voice__4050__01-08...
+[2018.01.04-14.31.54:832][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catsleguard_Voice__4050__01-11...
+[2018.01.04-14.31.54:847][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catsleguard_Voice__4050__01-15...
+[2018.01.04-14.31.54:863][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catsleguard_Voice__4050__01-17...
+[2018.01.04-14.31.54:881][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catsleguard_Voice__4050__01-21...
+[2018.01.04-14.31.54:897][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catsleguard_Voice__4050__01-25...
+[2018.01.04-14.31.54:915][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catsleguard_Voice__4050__01-29...
+[2018.01.04-14.31.54:932][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catsleguard_Voice__4050__01-33...
+[2018.01.04-14.31.54:949][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catsleguard_Voice__4050__01-35...
+[2018.01.04-14.31.54:965][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catsleguard_Voice__4050__01-37...
+[2018.01.04-14.31.54:983][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catsleguard_Voice__4050__01-41...
+[2018.01.04-14.31.54:999][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Catsleguard_Voice__4050__01-43...
+[2018.01.04-14.31.55:027][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Creak_1...
+[2018.01.04-14.31.55:047][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave Creak_2...
+[2018.01.04-14.31.55:067][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave DeathVoices_Matt-03...
+[2018.01.04-14.31.55:083][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave DeathVoices_Matt-05...
+[2018.01.04-14.31.55:100][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave DeathVoices_Matt-09...
+[2018.01.04-14.31.55:115][589]LogAudioDerivedData:Display: Building compressed audio format OGG wave DeathVoices_Matt-13...
+[2018.01.04-14.31.55:160][590]LogAudioDerivedData:Display: Building compressed audio format OGG wave DeathVoices_Matt-17...
+[2018.01.04-14.31.55:175][590]LogAudioDerivedData:Display: Building compressed audio format OGG wave DeathVoices_Matt-21...
+[2018.01.04-14.31.55:189][590]LogAudioDerivedData:Display: Building compressed audio format OGG wave DeathVoices_Matt-25...
+[2018.01.04-14.31.55:240][590]LogAudioDerivedData:Display: Building compressed audio format OGG wave Debris_1...
+[2018.01.04-14.31.55:355][590]LogAudioDerivedData:Display: Building compressed audio format OGG wave Debris_2...
+[2018.01.04-14.31.55:453][590]LogAudioDerivedData:Display: Building compressed audio format OGG wave Debris_3...
+[2018.01.04-14.31.55:577][590]LogAudioDerivedData:Display: Building compressed audio format OGG wave Debris_4...
+[2018.01.04-14.31.55:733][590]LogAudioDerivedData:Display: Building compressed audio format OGG wave Fanfare...
+[2018.01.04-14.31.59:290][698]LogAudioDerivedData:Display: Building compressed audio format OGG wave Heavy_Chain_Consistant_1...
+[2018.01.04-14.31.59:327][698]LogAudioDerivedData:Display: Building compressed audio format OGG wave Heavy_Chain_Consistent_2...
+[2018.01.04-14.31.59:362][698]LogAudioDerivedData:Display: Building compressed audio format OGG wave Heavy_Chain_Consistent_3...
+[2018.01.04-14.31.59:379][698]LogAudioDerivedData:Display: Building compressed audio format OGG wave Heavy_Chain_Consistent_4...
+[2018.01.04-14.31.59:420][698]LogAudioDerivedData:Display: Building compressed audio format OGG wave Heavy_Chain_Rattle_1...
+[2018.01.04-14.31.59:444][698]LogAudioDerivedData:Display: Building compressed audio format OGG wave Heavy_Chain_Rattle_2...
+[2018.01.04-14.31.59:476][698]LogAudioDerivedData:Display: Building compressed audio format OGG wave Heavy_Chain_Rattle_3...
+[2018.01.04-14.31.59:502][698]LogAudioDerivedData:Display: Building compressed audio format OGG wave Heavy_Chain_Rattle_4...
+[2018.01.04-14.31.59:520][698]LogAudioDerivedData:Display: Building compressed audio format OGG wave Heavy_Chain_Rattle_5...
+[2018.01.04-14.31.59:532][698]LogAudioDerivedData:Display: Building compressed audio format OGG wave Heavy_Chain_Rattle_6...
+[2018.01.04-14.31.59:546][698]LogAudioDerivedData:Display: Building compressed audio format OGG wave Heavy_Chain_Rattle_7...
+[2018.01.04-14.31.59:561][698]LogAudioDerivedData:Display: Building compressed audio format OGG wave Heavy_Chain_Rattle_8...
+[2018.01.04-14.32.45:624][146]LogTemp: Repeting last play command: VR Preview
+[2018.01.04-14.32.45:638][146]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.32.45:638][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-14.32.45:638][146]PIE: New page: PIE session: default (Jan 3, 2018, 10:32:45 PM)
+[2018.01.04-14.32.45:638][146]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.01.04-14.32.45:786][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.147009s)
+[2018.01.04-14.32.45:787][146]LogAIModule: Creating AISystem for world default
+[2018.01.04-14.32.45:787][146]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2018.01.04-14.32.45:787][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.148768s)
+[2018.01.04-14.32.45:806][146]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.32.45:824][146]LogInit: FAudioDevice initialized.
+[2018.01.04-14.32.45:913][146]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.01.04-14.32.45:932][146]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.01.04-06.32.45
+[2018.01.04-14.32.45:935][146]LogWorld: Bringing up level for play took: 0.021447
+[2018.01.04-14.32.45:936][146]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.32.45:936][146]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.32.45:936][146]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.32.45:938][146]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.32.45:947][146]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.79
+[2018.01.04-14.32.45:948][146]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.32.45:996][146]LogAudio:Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.01.04-14.32.46:873][226]LogBlueprintUserMessages: [BP_AI_Arrows_122] Castle Succesful
+[2018.01.04-14.32.48:804][398]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2018.01.04-14.32.50:167][520]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Castle Succesful
+[2018.01.04-14.32.51:407][631]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Castle Succesful
+[2018.01.04-14.32.53:811][846]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Cast Failed
+[2018.01.04-14.32.55:161][967]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Castle Succesful
+[2018.01.04-14.32.56:411][ 79]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Castle Succesful
+[2018.01.04-14.32.58:556][271]LogBlueprintUserMessages: [BP_AI_Arrows_C_8] Cast Failed
+[2018.01.04-14.32.58:802][293]LogBlueprintUserMessages: [BP_AI_Arrows_C_10] Cast Failed
+[2018.01.04-14.33.00:154][414]LogBlueprintUserMessages: [BP_AI_Arrows_C_10] Castle Succesful
+[2018.01.04-14.33.01:012][491]LogBlueprintUserMessages: [BP_AI_Arrows_C_5] Castle Succesful
+[2018.01.04-14.33.01:102][499]LogBlueprintUserMessages: [BP_AI_Arrows_C_7] Castle Succesful
+[2018.01.04-14.33.01:160][504]LogBlueprintUserMessages: [BP_AI_Arrows_C_9] Castle Succesful
+[2018.01.04-14.33.01:404][526]LogBlueprintUserMessages: [BP_AI_Arrows_C_11] Castle Succesful
+[2018.01.04-14.33.03:303][696]LogBlueprintUserMessages: [BP_AI_Arrows_C_13] Castle Succesful
+[2018.01.04-14.33.03:561][719]LogBlueprintUserMessages: [BP_AI_Arrows_C_14] Cast Failed
+[2018.01.04-14.33.03:631][725]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.03:779][725]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.05:029][864]LogTemp: Repeting last play command: VR Preview
+[2018.01.04-14.33.05:045][864]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.05:045][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-14.33.05:045][864]PIE: New page: PIE session: default (Jan 3, 2018, 10:33:05 PM)
+[2018.01.04-14.33.05:045][864]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.01.04-14.33.05:183][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137530s)
+[2018.01.04-14.33.05:183][864]LogAIModule: Creating AISystem for world default
+[2018.01.04-14.33.05:183][864]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2018.01.04-14.33.05:184][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.138851s)
+[2018.01.04-14.33.05:212][864]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.33.05:228][864]LogInit: FAudioDevice initialized.
+[2018.01.04-14.33.05:315][864]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.01.04-14.33.05:330][864]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.01.04-06.33.05
+[2018.01.04-14.33.05:333][864]LogWorld: Bringing up level for play took: 0.016880
+[2018.01.04-14.33.05:334][864]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.33.05:334][864]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.33.05:334][864]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.33.05:335][864]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.33.05:345][864]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.188
+[2018.01.04-14.33.05:345][864]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.05:397][864]LogAudio:Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.01.04-14.33.06:283][944]LogBlueprintUserMessages: [BP_AI_Arrows_122] Castle Succesful
+[2018.01.04-14.33.08:207][116]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2018.01.04-14.33.09:568][238]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Castle Succesful
+[2018.01.04-14.33.10:811][349]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Castle Succesful
+[2018.01.04-14.33.13:213][564]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Cast Failed
+[2018.01.04-14.33.14:140][647]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.14:295][647]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.15:131][740]LogTemp: Repeting last play command: VR Preview
+[2018.01.04-14.33.15:145][740]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.15:146][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-14.33.15:146][740]PIE: New page: PIE session: default (Jan 3, 2018, 10:33:15 PM)
+[2018.01.04-14.33.15:146][740]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.01.04-14.33.15:287][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140865s)
+[2018.01.04-14.33.15:287][740]LogAIModule: Creating AISystem for world default
+[2018.01.04-14.33.15:288][740]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2018.01.04-14.33.15:288][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.142275s)
+[2018.01.04-14.33.15:313][740]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.33.15:327][740]LogInit: FAudioDevice initialized.
+[2018.01.04-14.33.15:411][740]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.01.04-14.33.15:429][740]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.01.04-06.33.15
+[2018.01.04-14.33.15:432][740]LogWorld: Bringing up level for play took: 0.020092
+[2018.01.04-14.33.15:433][740]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.33.15:433][740]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.33.15:433][740]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.33.15:435][740]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.33.15:441][740]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.284
+[2018.01.04-14.33.15:442][740]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.15:493][740]LogAudio:Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.01.04-14.33.16:383][820]LogBlueprintUserMessages: [BP_AI_Arrows_122] Castle Succesful
+[2018.01.04-14.33.18:316][993]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2018.01.04-14.33.19:666][114]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Castle Succesful
+[2018.01.04-14.33.20:930][227]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Castle Succesful
+[2018.01.04-14.33.22:952][408]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.23:112][408]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.25:096][624]LogTemp: Repeting last play command: VR Preview
+[2018.01.04-14.33.25:111][624]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.25:111][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-14.33.25:111][624]PIE: New page: PIE session: default (Jan 3, 2018, 10:33:25 PM)
+[2018.01.04-14.33.25:111][624]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.01.04-14.33.25:253][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141709s)
+[2018.01.04-14.33.25:254][624]LogAIModule: Creating AISystem for world default
+[2018.01.04-14.33.25:254][624]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2018.01.04-14.33.25:255][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.143917s)
+[2018.01.04-14.33.25:281][624]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.33.25:296][624]LogInit: FAudioDevice initialized.
+[2018.01.04-14.33.25:385][624]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.01.04-14.33.25:406][624]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.01.04-06.33.25
+[2018.01.04-14.33.25:410][624]LogWorld: Bringing up level for play took: 0.024172
+[2018.01.04-14.33.25:411][624]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.33.25:411][624]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.33.25:411][624]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.33.25:413][624]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.33.25:420][624]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.262
+[2018.01.04-14.33.25:420][624]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.25:478][624]LogAudio:Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.01.04-14.33.26:346][701]LogBlueprintUserMessages: [BP_AI_Arrows_122] Castle Succesful
+[2018.01.04-14.33.28:280][874]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2018.01.04-14.33.29:376][972]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.29:519][972]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.36:268][259]LogTemp: Repeting last play command: VR Preview
+[2018.01.04-14.33.36:282][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.36:282][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-14.33.36:282][259]PIE: New page: PIE session: default (Jan 3, 2018, 10:33:36 PM)
+[2018.01.04-14.33.36:282][259]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.01.04-14.33.36:427][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143983s)
+[2018.01.04-14.33.36:427][259]LogAIModule: Creating AISystem for world default
+[2018.01.04-14.33.36:427][259]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2018.01.04-14.33.36:428][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.145236s)
+[2018.01.04-14.33.36:447][259]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.33.36:460][259]LogInit: FAudioDevice initialized.
+[2018.01.04-14.33.36:536][259]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.01.04-14.33.36:548][259]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.01.04-06.33.36
+[2018.01.04-14.33.36:551][259]LogWorld: Bringing up level for play took: 0.013995
+[2018.01.04-14.33.36:551][259]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.33.36:551][259]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.33.36:551][259]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.33.36:553][259]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.33.36:558][259]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.598
+[2018.01.04-14.33.36:559][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.36:599][259]LogAudio:Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.01.04-14.33.37:516][342]LogBlueprintUserMessages: [BP_AI_Arrows_122] Castle Succesful
+[2018.01.04-14.33.39:449][515]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2018.01.04-14.33.40:800][636]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Castle Succesful
+[2018.01.04-14.33.42:063][749]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Castle Succesful
+[2018.01.04-14.33.42:265][767]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.42:412][767]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.49:282][ 70]LogTemp: Repeting last play command: VR Preview
+[2018.01.04-14.33.49:296][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.49:297][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-14.33.49:297][ 70]PIE: New page: PIE session: default (Jan 3, 2018, 10:33:49 PM)
+[2018.01.04-14.33.49:297][ 70]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.01.04-14.33.49:437][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140713s)
+[2018.01.04-14.33.49:438][ 70]LogAIModule: Creating AISystem for world default
+[2018.01.04-14.33.49:438][ 70]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2018.01.04-14.33.49:439][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.142087s)
+[2018.01.04-14.33.49:462][ 70]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.33.49:477][ 70]LogInit: FAudioDevice initialized.
+[2018.01.04-14.33.49:560][ 70]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.01.04-14.33.49:578][ 70]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.01.04-06.33.49
+[2018.01.04-14.33.49:581][ 70]LogWorld: Bringing up level for play took: 0.020214
+[2018.01.04-14.33.49:581][ 70]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.33.49:581][ 70]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.33.49:581][ 70]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.33.49:583][ 70]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.33.49:589][ 70]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.432
+[2018.01.04-14.33.49:589][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.49:640][ 70]LogAudio:Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.01.04-14.33.50:528][149]LogBlueprintUserMessages: [BP_AI_Arrows_122] Castle Succesful
+[2018.01.04-14.33.52:461][322]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2018.01.04-14.33.53:812][443]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Castle Succesful
+[2018.01.04-14.33.55:075][556]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Castle Succesful
+[2018.01.04-14.33.55:098][558]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.33.55:247][558]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.34.01:855][ 55]LogEditorViewport: Clicking on Actor (LMB): BP_Castle_C (BP_Castle)
+[2018.01.04-14.34.02:577][134]LogEditorViewport: Clicking on Actor (LMB): BP_Castle_C (BP_Castle)
+[2018.01.04-14.34.03:145][196]LogEditorViewport: Clicking on Actor (LMB): BP_Castle_C (BP_Castle)
+[2018.01.04-14.34.03:438][224]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.01.04-14.34.03:939][279]LogEditorViewport: Clicking on Actor (LMB): BP_WaveTimer_C (BP_WaveTimer)
+[2018.01.04-14.34.05:926][462]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2018.01.04-14.34.06:653][462]LogSlate: Took 0.012958 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.04-14.34.30:114][163]LogSlate: Took 0.003821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.04-14.34.32:044][361]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2018.01.04-14.34.32:044][361]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2018.01.04-14.34.32:504][396]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.01.04-14.34.32:504][396]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_AI_Arrows_C /Engine/Transient.World_4:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00C8
+[2018.01.04-14.34.32:504][396]LogScript:Warning: Accessed None
+	BP_AI_Arrows_C /Engine/Transient.World_4:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00DD
+[2018.01.04-14.34.32:614][401]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.01.04-14.34.32:614][401]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_CatapultRock_C /Engine/Transient.World_10:PersistentLevel.BP_CatapultRock_C_0
+	Function /Game/Vive/Blueprints/CatapultProjectiles/BP_CatapultRock.BP_CatapultRock_C:UserConstructionScript:00D9
+[2018.01.04-14.34.47:443][969]LogUObjectArray:Warning: Other object in slot
+[2018.01.04-14.34.47:825][969]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.381 s
+[2018.01.04-14.34.47:825][969]LogOutputDevice:Error: === Handled ensure: ===
+[2018.01.04-14.34.47:825][969]LogOutputDevice:Error: 
+[2018.01.04-14.34.47:825][969]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2018.01.04-14.34.47:825][969]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.01.04-14.34.47:825][969]LogOutputDevice:Error: Stack: 
+[2018.01.04-14.34.47:825][969]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003FE3E2B6
+[2018.01.04-14.34.47:825][969]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003FBEB8C2
+[2018.01.04-14.34.47:825][969]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003FC01E86
+[2018.01.04-14.34.47:825][969]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000255B7556
+[2018.01.04-14.34.47:825][969]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000226FD27B
+[2018.01.04-14.34.47:825][969]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000217024AA
+[2018.01.04-14.34.47:825][969]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000215A72CC
+[2018.01.04-14.34.47:825][969]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000215AA6D9
+[2018.01.04-14.34.47:825][969]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000216C8035
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000268CDB57
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000268D4B61
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000026AF48D3
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002692F604
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000269077FC
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000268F814C
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003FE315B0
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003FE1B7D1
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003FE333DB
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003FE17B22
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: USER32.dll!0x00000000AC94BC50
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: USER32.dll!0x00000000AC94B5CF
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003FE33CE6
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor.exe!0x000000008474DB44
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor.exe!0x000000008473F0B0
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor.exe!0x000000008473F12A
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor.exe!0x0000000084750CF9
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: UE4Editor.exe!0x00000000847525F7
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: KERNEL32.DLL!0x00000000AA9E2774
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: ntdll.dll!0x00000000AD210D51
+[2018.01.04-14.34.47:826][969]LogOutputDevice:Error: 
+[2018.01.04-14.34.47:834][969]LogStats:                SubmitErrorReport -  0.000 s
+[2018.01.04-14.34.51:360][969]LogStats:                    SendNewReport -  3.526 s
+[2018.01.04-14.34.51:360][969]LogStats:             FDebug::EnsureFailed -  3.917 s
+[2018.01.04-14.34.51:360][969]LogUObjectArray:Warning: Other object in slot
+[2018.01.04-14.36.54:855][609]LogTemp: Repeting last play command: VR Preview
+[2018.01.04-14.36.54:873][609]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.36.54:874][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-14.36.54:874][609]PIE: New page: PIE session: default (Jan 3, 2018, 10:36:54 PM)
+[2018.01.04-14.36.54:874][609]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.01.04-14.36.55:012][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137960s)
+[2018.01.04-14.36.55:013][609]LogAIModule: Creating AISystem for world default
+[2018.01.04-14.36.55:013][609]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2018.01.04-14.36.55:014][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.139915s)
+[2018.01.04-14.36.55:050][609]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.36.55:064][609]LogInit: FAudioDevice initialized.
+[2018.01.04-14.36.55:149][609]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.01.04-14.36.55:167][609]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.01.04-06.36.55
+[2018.01.04-14.36.55:171][609]LogWorld: Bringing up level for play took: 0.021596
+[2018.01.04-14.36.55:172][609]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.36.55:172][609]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.36.55:172][609]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.36.55:174][609]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.36.55:179][609]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.022
+[2018.01.04-14.36.55:180][609]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.36.55:226][609]LogAudio:Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.01.04-14.36.56:103][689]LogBlueprintUserMessages: [BP_AI_Arrows_122] Castle Succesful
+[2018.01.04-14.36.56:204][698]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.36.56:396][698]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.37.10:830][372]BlueprintLog: New page: Compile BP_Overlord_Level02
+[2018.01.04-14.37.27:385][309]LogTemp: Repeting last play command: VR Preview
+[2018.01.04-14.37.27:398][309]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.37.27:398][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-14.37.27:399][309]PIE: New page: PIE session: default (Jan 3, 2018, 10:37:27 PM)
+[2018.01.04-14.37.27:399][309]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.01.04-14.37.27:537][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137965s)
+[2018.01.04-14.37.27:538][309]LogAIModule: Creating AISystem for world default
+[2018.01.04-14.37.27:538][309]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2018.01.04-14.37.27:539][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.139748s)
+[2018.01.04-14.37.27:573][309]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.37.27:591][309]LogInit: FAudioDevice initialized.
+[2018.01.04-14.37.27:669][309]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.01.04-14.37.27:686][309]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.01.04-06.37.27
+[2018.01.04-14.37.27:689][309]LogWorld: Bringing up level for play took: 0.019042
+[2018.01.04-14.37.27:690][309]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.37.27:690][309]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.37.27:690][309]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.37.27:692][309]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.37.27:697][309]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.54
+[2018.01.04-14.37.27:698][309]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.37.27:744][309]LogAudio:Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.01.04-14.37.28:351][365]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.37.28:516][365]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.37.40:274][731]BlueprintLog: New page: Compile BP_Overlord_Level02
+[2018.01.04-14.37.41:435][850]LogTemp: Repeting last play command: VR Preview
+[2018.01.04-14.37.41:451][850]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.37.41:452][850]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-14.37.41:452][850]PIE: New page: PIE session: default (Jan 3, 2018, 10:37:41 PM)
+[2018.01.04-14.37.41:452][850]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.01.04-14.37.41:586][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133946s)
+[2018.01.04-14.37.41:587][850]LogAIModule: Creating AISystem for world default
+[2018.01.04-14.37.41:587][850]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2018.01.04-14.37.41:588][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.135496s)
+[2018.01.04-14.37.41:619][850]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.37.41:632][850]LogInit: FAudioDevice initialized.
+[2018.01.04-14.37.41:717][850]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.01.04-14.37.41:731][850]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.01.04-06.37.41
+[2018.01.04-14.37.41:734][850]LogWorld: Bringing up level for play took: 0.015235
+[2018.01.04-14.37.41:734][850]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.37.41:734][850]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.37.41:734][850]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.37.41:736][850]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.37.41:742][850]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.585
+[2018.01.04-14.37.41:743][850]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.37.41:799][850]LogAudio:Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.01.04-14.37.42:691][931]LogBlueprintUserMessages: [BP_AI_Arrows_122] Castle Succesful
+[2018.01.04-14.37.44:613][103]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2018.01.04-14.37.44:614][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.37.44:782][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.37.49:018][319]LogTemp: Repeting last play command: VR Preview
+[2018.01.04-14.37.49:032][319]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.37.49:033][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-14.37.49:033][319]PIE: New page: PIE session: default (Jan 3, 2018, 10:37:49 PM)
+[2018.01.04-14.37.49:033][319]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.01.04-14.37.49:175][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141580s)
+[2018.01.04-14.37.49:176][319]LogAIModule: Creating AISystem for world default
+[2018.01.04-14.37.49:176][319]LogPlayLevel: PIE: World Init took: (0.001346s)
+[2018.01.04-14.37.49:177][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.144484s)
+[2018.01.04-14.37.49:204][319]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.37.49:218][319]LogInit: FAudioDevice initialized.
+[2018.01.04-14.37.49:296][319]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.01.04-14.37.49:313][319]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.01.04-06.37.49
+[2018.01.04-14.37.49:316][319]LogWorld: Bringing up level for play took: 0.018918
+[2018.01.04-14.37.49:316][319]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.37.49:317][319]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.04-14.37.49:317][319]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.37.49:318][319]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.04-14.37.49:324][319]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.167
+[2018.01.04-14.37.49:325][319]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.37.49:376][319]LogAudio:Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.01.04-14.37.50:276][401]LogBlueprintUserMessages: [BP_AI_Arrows_122] Castle Succesful
+[2018.01.04-14.37.52:197][573]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Cast Failed
+[2018.01.04-14.37.53:548][694]LogBlueprintUserMessages: [BP_AI_Arrows_C_0] Castle Succesful
+[2018.01.04-14.37.54:811][807]LogBlueprintUserMessages: [BP_AI_Arrows_C_1] Castle Succesful
+[2018.01.04-14.37.57:200][ 21]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Cast Failed
+[2018.01.04-14.37.58:552][142]LogBlueprintUserMessages: [BP_AI_Arrows_C_2] Castle Succesful
+[2018.01.04-14.37.59:815][255]LogBlueprintUserMessages: [BP_AI_Arrows_C_3] Castle Succesful
+[2018.01.04-14.38.02:205][469]LogBlueprintUserMessages: [BP_AI_Arrows_C_4] Cast Failed
+[2018.01.04-14.38.03:067][546]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.38.03:232][546]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.01.04-14.41.39:536][663]LogSavePackage: Save=2121.35ms
+[2018.01.04-14.41.39:536][663]LogSavePackage: Moving '../../../../CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Saved/default_Auto1ABB3EE164DD07D5F31CEEE839E73CE26.tmp' to '../../../../CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Saved/Autosaves/Game/VirtualRealityBP/Maps/default_Auto1.umap'
+[2018.01.04-14.41.39:537][663]LogSavePackage:Display: Finished SavePackage ../../../../CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Saved/Autosaves/Game/VirtualRealityBP/Maps/default_Auto1.umap
+[2018.01.04-14.41.39:553][663]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/default' took 2.261
+[2018.01.04-14.41.39:553][663]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.261
+[2018.01.04-14.41.39:556][663]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Vive/Blueprints/Overlords/BP_Overlord_Level02] ([1] browsable assets)...
+[2018.01.04-14.41.39:556][663]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vive/Blueprints/Overlords/BP_Overlord_Level02]
+[2018.01.04-14.41.39:578][663]LogSavePackage: Save=15.57ms
+[2018.01.04-14.41.39:578][663]LogSavePackage: Moving '../../../../CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Saved/BP_Overlord_Level02_Auto19BF71F7E4FF551F56B7D3DA15D6A8D13.tmp' to '../../../../CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Saved/Autosaves/Game/Vive/Blueprints/Overlords/BP_Overlord_Level02_Auto1.uasset'
+[2018.01.04-14.41.39:579][663]LogSavePackage:Display: Finished SavePackage ../../../../CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Saved/Autosaves/Game/Vive/Blueprints/Overlords/BP_Overlord_Level02_Auto1.uasset
+[2018.01.04-14.41.39:579][663]LogFileHelpers: Auto-saving content packages took 0.024
+[2018.01.04-14.47.28:185][871]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.04-14.47.28:262][871]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.04-14.47.28:626][872]Cmd: QUIT_EDITOR
+[2018.01.04-14.47.28:862][872]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.04-14.47.28:885][872]LogExit: Preparing to exit.
+[2018.01.04-14.47.29:609][872]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Content/' was aborted.
+[2018.01.04-14.47.29:777][872]LogExit: Editor shut down
+[2018.01.04-14.47.29:784][872]LogExit: Transaction tracking system shut down
+[2018.01.04-14.47.30:831][872]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.04-14.47.30:831][872]LogExit: Object subsystem successfully closed.
+[2018.01.04-14.47.30:966][872]LogD3D11RHI: Shutdown
+[2018.01.04-14.47.30:966][872]LogD3D11RHI: CleanupD3DDevice
+[2018.01.04-14.47.30:983][872]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.04-14.47.31:566][872]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2018.01.04-14.47.31:569][872]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2018.01.04-14.47.31:587][872]LogModuleManager: Shutting down and abandoning module DataTableEditor (530)
+[2018.01.04-14.47.31:588][872]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2018.01.04-14.47.31:588][872]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2018.01.04-14.47.31:594][872]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2018.01.04-14.47.31:594][872]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2018.01.04-14.47.31:594][872]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2018.01.04-14.47.31:609][872]LogDirectoryWatcher: A directory notification for 'D:/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.04-14.47.31:610][872]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2018.01.04-14.47.31:610][872]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2018.01.04-14.47.31:610][872]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2018.01.04-14.47.31:610][872]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Content/Collections/' was aborted.
+[2018.01.04-14.47.31:610][872]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Content/Developers/studentuser/Collections/' was aborted.
+[2018.01.04-14.47.31:610][872]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Saved/Collections/' was aborted.
+[2018.01.04-14.47.31:611][872]LogModuleManager: Shutting down and abandoning module WorldBrowser (512)
+[2018.01.04-14.47.31:622][872]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.01.04-14.47.31:626][872]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.01.04-14.47.31:627][872]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.01.04-14.47.31:652][872]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.01.04-14.47.31:652][872]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.01.04-14.47.31:652][872]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.01.04-14.47.31:652][872]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.01.04-14.47.31:652][872]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.01.04-14.47.31:652][872]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.01.04-14.47.31:656][872]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.01.04-14.47.31:664][872]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.01.04-14.47.31:672][872]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.01.04-14.47.31:676][872]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.01.04-14.47.31:683][872]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.01.04-14.47.31:725][872]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.01.04-14.47.31:725][872]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.01.04-14.47.31:725][872]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.01.04-14.47.31:725][872]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.01.04-14.47.31:725][872]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.01.04-14.47.31:725][872]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.01.04-14.47.31:725][872]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.01.04-14.47.31:725][872]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.01.04-14.47.31:725][872]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.01.04-14.47.31:725][872]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.01.04-14.47.31:728][872]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.01.04-14.47.31:741][872]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.01.04-14.47.31:741][872]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.01.04-14.47.31:741][872]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.01.04-14.47.31:741][872]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.01.04-14.47.31:741][872]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.01.04-14.47.31:762][872]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.01.04-14.47.31:779][872]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.01.04-14.47.31:797][872]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.01.04-14.47.31:812][872]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.01.04-14.47.31:812][872]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.01.04-14.47.31:819][872]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.01.04-14.47.31:819][872]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.01.04-14.47.31:819][872]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.01.04-14.47.32:332][872]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.01.04-14.47.32:332][872]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.01.04-14.47.32:332][872]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.01.04-14.47.32:344][872]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.01.04-14.47.32:356][872]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.01.04-14.47.32:356][872]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.01.04-14.47.32:362][872]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.01.04-14.47.32:366][872]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.01.04-14.47.32:387][872]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.01.04-14.47.32:392][872]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.01.04-14.47.32:392][872]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.01.04-14.47.32:403][872]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.01.04-14.47.32:410][872]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.01.04-14.47.32:410][872]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.01.04-14.47.32:415][872]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.01.04-14.47.32:418][872]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.01.04-14.47.32:418][872]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.01.04-14.47.32:419][872]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.01.04-14.47.32:419][872]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.01.04-14.47.32:430][872]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.01.04-14.47.32:437][872]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.01.04-14.47.32:444][872]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.01.04-14.47.32:450][872]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.01.04-14.47.32:456][872]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.01.04-14.47.32:525][872]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.01.04-14.47.32:531][872]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.01.04-14.47.32:544][872]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.01.04-14.47.32:559][872]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.01.04-14.47.32:559][872]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.01.04-14.47.32:563][872]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.01.04-14.47.32:563][872]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.01.04-14.47.32:593][872]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.01.04-14.47.32:593][872]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.01.04-14.47.32:593][872]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.01.04-14.47.32:601][872]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.01.04-14.47.32:601][872]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.01.04-14.47.32:609][872]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.01.04-14.47.32:618][872]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.01.04-14.47.32:634][872]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.01.04-14.47.32:634][872]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.01.04-14.47.32:639][872]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.01.04-14.47.32:639][872]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.01.04-14.47.32:639][872]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.01.04-14.47.32:639][872]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.01.04-14.47.32:639][872]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.01.04-14.47.32:674][872]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.01.04-14.47.32:674][872]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.01.04-14.47.32:674][872]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.01.04-14.47.32:674][872]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.01.04-14.47.32:674][872]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.01.04-14.47.32:674][872]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.01.04-14.47.32:679][872]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.01.04-14.47.32:679][872]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.01.04-14.47.32:688][872]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.01.04-14.47.32:731][872]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.01.04-14.47.32:740][872]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.01.04-14.47.32:740][872]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.01.04-14.47.32:740][872]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.01.04-14.47.32:740][872]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.01.04-14.47.32:746][872]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.01.04-14.47.32:746][872]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.01.04-14.47.32:746][872]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.01.04-14.47.32:746][872]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.01.04-14.47.32:746][872]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.01.04-14.47.32:746][872]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.01.04-14.47.32:746][872]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.01.04-14.47.32:746][872]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.01.04-14.47.32:762][872]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.01.04-14.47.32:762][872]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.01.04-14.47.32:768][872]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.01.04-14.47.32:768][872]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.01.04-14.47.32:779][872]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.01.04-14.47.32:779][872]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.01.04-14.47.32:779][872]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.01.04-14.47.32:779][872]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.01.04-14.47.32:779][872]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.01.04-14.47.32:787][872]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.01.04-14.47.32:808][872]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.01.04-14.47.32:808][872]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.01.04-14.47.32:808][872]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.01.04-14.47.32:808][872]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.01.04-14.47.32:815][872]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.01.04-14.47.32:821][872]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.01.04-14.47.32:831][872]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.01.04-14.47.32:835][872]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.01.04-14.47.32:835][872]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.01.04-14.47.32:835][872]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.01.04-14.47.32:835][872]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.01.04-14.47.32:851][872]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.01.04-14.47.32:860][872]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.01.04-14.47.32:871][872]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.01.04-14.47.32:883][872]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.01.04-14.47.32:892][872]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.01.04-14.47.32:904][872]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.01.04-14.47.32:913][872]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.01.04-14.47.32:913][872]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.01.04-14.47.32:913][872]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.01.04-14.47.32:913][872]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.01.04-14.47.32:919][872]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.01.04-14.47.33:019][872]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.01.04-14.47.33:126][872]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.01.04-14.47.33:141][872]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.01.04-14.47.33:141][872]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.01.04-14.47.33:141][872]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.01.04-14.47.33:154][872]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.01.04-14.47.33:154][872]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.01.04-14.47.33:154][872]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.01.04-14.47.33:154][872]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.01.04-14.47.33:166][872]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.01.04-14.47.33:166][872]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.01.04-14.47.33:166][872]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.01.04-14.47.33:166][872]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.01.04-14.47.33:175][872]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.01.04-14.47.33:175][872]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.01.04-14.47.33:180][872]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.01.04-14.47.33:184][872]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.01.04-14.47.33:198][872]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.01.04-14.47.33:198][872]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.01.04-14.47.33:216][872]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.01.04-14.47.33:216][872]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.01.04-14.47.33:234][872]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.01.04-14.47.33:234][872]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.01.04-14.47.33:261][872]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.01.04-14.47.33:281][872]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.01.04-14.47.33:303][872]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.01.04-14.47.33:303][872]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.01.04-14.47.33:303][872]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.01.04-14.47.33:315][872]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.01.04-14.47.33:315][872]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.01.04-14.47.33:326][872]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.01.04-14.47.33:327][872]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.01.04-14.47.33:327][872]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.01.04-14.47.33:327][872]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.01.04-14.47.33:327][872]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.01.04-14.47.33:327][872]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.01.04-14.47.33:493][872]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.04-14.47.33:493][872]LogDirectoryWatcher: A directory notification for '../../../../CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn 4.16/Content/' was aborted.
+[2018.01.04-14.47.33:493][872]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.04-14.47.33:493][872]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.04-14.47.33:586][872]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.01.04-14.47.33:587][872]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.01.04-14.47.33:587][872]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.01.04-14.47.33:587][872]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.04-14.47.33:587][872]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.04-14.47.33:602][872]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.04-14.47.33:610][872]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.04-14.47.33:610][872]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.04-14.47.33:615][872]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.04-14.47.33:619][872]LogDerivedDataCache: Shutdown
+[2018.01.04-14.47.33:619][872]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.04-14.47.33:619][872]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.04-14.47.33:634][872]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.04-14.47.33:640][872]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.04-14.47.33:644][872]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.04-14.47.33:644][872]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.04-14.47.33:663][872]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.04-14.47.33:663][872]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.04-14.47.33:663][872]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.04-14.47.33:663][872]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.04-14.47.33:663][872]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.04-14.47.33:663][872]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.04-14.47.33:663][872]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.04-14.47.33:663][872]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.04-14.47.33:664][872]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.04-14.47.33:675][872]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.04-14.47.33:675][872]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.04-14.47.33:687][872]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.04-14.47.33:687][872]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.04-14.47.33:687][872]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.04-14.47.33:687][872]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.04-14.47.33:705][872]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.04-14.47.33:719][872]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.04-14.47.33:719][872]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.04-14.47.33:728][872]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B896AC029-4837-1BF8-08DB-02948D43829B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=982011a7482c1cbdc2ce3cbeaef51dbe%7C13a931f21dd548b98826eed59eaa05dc%7C70012bb2-c253-4297-934e-6257f569ac01&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.04-14.47.33:747][872]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.04-14.47.33:759][872]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.04-14.47.33:772][872]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.04-14.47.33:778][872]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.04-14.47.33:778][872]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.04-14.47.33:795][872]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.04-14.47.33:795][872]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.04-14.47.33:795][872]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.04-14.47.33:795][872]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.04-14.47.33:801][872]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.04-14.47.33:818][872]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.04-14.47.33:818][872]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.04-14.47.33:818][872]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.04-14.47.33:818][872]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.04-14.47.33:818][872]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.04-14.47.33:818][872]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.04-14.47.33:818][872]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.04-14.47.33:818][872]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.04-14.47.33:818][872]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.04-14.47.33:822][872]LogExit: Exiting.
+[2018.01.04-14.47.33:833][872]Log file closed, 01/04/18 06:47:33

@@ -1,0 +1,494 @@
+﻿Log file open, 11/11/17 14:08:54
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-564278375) SRandInit(-564278375).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.082128
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.11-22.08.54:945][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.11-22.08.54:945][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.11-22.08.54:973][  0]LogInit: Computer: LCIVAN-238-00
+[2017.11.11-22.08.54:973][  0]LogInit: User: studentuser
+[2017.11.11-22.08.54:973][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.11-22.08.54:973][  0]LogInit: High frequency timer resolution =4.101561 MHz
+[2017.11.11-22.08.54:974][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.11-22.08.54:974][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.11-22.08.54:974][  0]LogMemory: Process Physical Memory: 275.56 MB used, 275.56 MB peak
+[2017.11.11-22.08.54:974][  0]LogMemory: Process Virtual Memory: 276.90 MB used, 276.90 MB peak
+[2017.11.11-22.08.54:974][  0]LogMemory: Physical Memory: 5080.42 MB used,  11203.03 MB free, 16283.45 MB total
+[2017.11.11-22.08.54:974][  0]LogMemory: Virtual Memory: 654.47 MB used,  11203.03 MB free, 134217728.00 MB total
+[2017.11.11-22.08.55:027][  0]LogInit: Using OS detected language (en-US).
+[2017.11.11-22.08.55:027][  0]LogInit: Using OS detected locale (en-CA).
+[2017.11.11-22.08.55:029][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.11-22.08.55:719][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.11-22.08.55:751][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.11-22.08.55:751][  0]LogD3D11RHI:       8115/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.11-22.08.55:756][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.11.11-22.08.55:756][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.11-22.08.55:757][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.11-22.08.55:757][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.11-22.08.55:757][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.11-22.08.55:763][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.11-22.08.55:763][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.11-22.08.55:763][  0]LogWindows: EnumDisplayDevices:
+[2017.11.11-22.08.55:763][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.11-22.08.55:763][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.11-22.08.55:764][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.11-22.08.55:764][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.11-22.08.55:764][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.11-22.08.55:764][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.11-22.08.55:764][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.11-22.08.55:764][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.11-22.08.55:764][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.11-22.08.55:764][  0]LogD3D11RHI:   Driver Version: 382.66 (internal:22.21.13.8266, unified:382.66)
+[2017.11.11-22.08.55:764][  0]LogD3D11RHI:      Driver Date: 6-25-2017
+[2017.11.11-22.08.55:764][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.11-22.08.55:788][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.11-22.08.55:796][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.11-22.08.55:845][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/6096/).
+[2017.11.11-22.08.55:845][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/4F0862CF4DD9D6AD23E0FFBDC31098C3/'.
+[2017.11.11-22.08.55:845][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.11-22.08.56:615][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.11-22.08.56:652][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.11-22.08.56:689][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.11-22.08.56:726][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.11-22.08.56:763][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.11-22.08.56:801][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.11-22.08.56:839][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.11-22.08.56:878][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.11-22.08.56:912][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.11-22.08.56:949][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.11-22.08.56:986][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.11-22.08.57:025][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.11-22.08.57:063][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.11-22.08.57:099][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.11-22.08.57:135][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.11-22.08.57:208][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.11-22.08.57:208][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.11-22.08.57:236][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.11-22.08.57:311][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.11-22.08.57:334][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.11-22.08.57:370][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.11-22.08.57:407][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.11-22.08.57:444][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.11-22.08.57:480][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.11-22.08.57:480][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.11-22.08.57:850][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.11-22.08.57:944][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.11-22.08.57:944][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.11-22.08.57:944][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.11-22.08.57:944][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.11-22.08.57:944][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.11-22.08.57:944][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.11-22.08.57:956][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.11-22.08.57:967][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.11-22.08.57:974][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.11-22.08.57:975][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.11-22.08.57:975][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.11-22.08.57:975][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.11-22.08.58:215][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.11-22.08.58:283][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.11-22.08.58:404][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.11-22.08.58:437][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.11-22.08.58:474][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.11-22.08.58:474][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.11-22.08.58:474][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.11-22.08.58:911][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.11.11-22.08.58:964][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2017.11.11-22.08.59:013][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.029484 seconds
+[2017.11.11-22.08.59:017][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.11-22.08.59:017][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.11.11-22.08.59:017][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.11-22.08.59:068][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.11-22.09.00:817][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.11-22.09.00:849][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.11-22.09.01:229][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.11-22.09.01:503][  0]SourceControl: Info Source control is disabled
+[2017.11.11-22.09.01:521][  0]SourceControl: Info Source control is disabled
+[2017.11.11-22.09.01:554][  0]SourceControl: Info Source control is disabled
+[2017.11.11-22.09.01:592][  0]SourceControl: Info Source control is disabled
+[2017.11.11-22.09.02:055][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.11-22.09.02:465][  0]LogEngine: Initializing Engine...
+[2017.11.11-22.09.05:004][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.11.11-22.09.05:203][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.11-22.09.05:203][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.11-22.09.05:301][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.11-22.09.05:312][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.11-22.09.05:330][  0]LogInit: FAudioDevice initialized.
+[2017.11.11-22.09.05:371][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.11-22.09.05:380][  0]LogInit: Texture streaming: Enabled
+[2017.11.11-22.09.05:450][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.11-22.09.05:604][  0]LogInit: Transaction tracking system initialized
+[2017.11.11-22.09.05:846][  0]BlueprintLog: New page: Editor Load
+[2017.11.11-22.09.06:623][  0]LocalizationService: Info Localization service is disabled
+[2017.11.11-22.09.07:105][  0]LogConsoleResponse:Display: 
+[2017.11.11-22.09.07:220][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.11-22.09.07:220][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.11-22.09.07:922][  0]SourceControl: Info Source control is disabled
+[2017.11.11-22.09.07:922][  0]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.11-22.09.07:923][  0]LightingResults: New page: Lighting Build
+[2017.11.11-22.09.07:951][  0]MapCheck: New page: Map Check
+[2017.11.11-22.09.07:951][  0]LightingResults: New page: Lighting Build
+[2017.11.11-22.09.10:449][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.11.11-22.09.10:579][  0]LogAIModule: Creating AISystem for world default
+[2017.11.11-22.09.11:471][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.11-22.09.11:549][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.11-22.09.11:592][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.698ms to complete.
+[2017.11.11-22.09.11:592][  0]LogFileHelpers: Loading map 'default' took 3.670
+[2017.11.11-22.09.11:650][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.11-22.09.11:742][  0]LogCollectionManager: Loaded 0 collections in 0.001804 seconds
+[2017.11.11-22.09.11:805][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.11.11-22.09.11:805][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.11.11-22.09.11:805][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.11.11-22.09.11:805][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.11-22.09.11:811][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2330 classes and 494 folders.
+[2017.11.11-22.09.11:857][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.11-22.09.11:880][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.11-22.09.11:910][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.11-22.09.11:940][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.11-22.09.11:946][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.11-22.09.11:948][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.11-22.09.11:951][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.11-22.09.12:020][  0]LogRenderer: Reallocating scene render targets to support 1196x576 NumSamples 1 (Frame:1).
+[2017.11.11-22.09.12:102][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.11-22.09.12:153][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.11-22.09.12:153][  0]LogLoad: (Engine Initialization) Total time: 18.68 seconds
+[2017.11.11-22.09.12:153][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.67 seconds
+[2017.11.11-22.09.12:153][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.11-22.09.12:153][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.11-22.09.12:165][  0]LogOcInput: OculusInput pre-init called
+[2017.11.11-22.09.12:165][  0]LogHMD: Starting GearVRController plugin
+[2017.11.11-22.09.12:165][  0]LogSteamVRController: Controller role for device 3 is 2 (invalid=0, left=1, right=2).
+[2017.11.11-22.09.12:165][  0]LogSteamVRController:Warning: Controller device 3 is being assigned to its prefered role 'right'.
+[2017.11.11-22.09.12:165][  0]LogSteamVRController: Controller device 3 is being assigned unreal hand 1 (left=0, right=1).
+[2017.11.11-22.09.12:165][  0]LogSteamVRController: Controller role for device 4 is 1 (invalid=0, left=1, right=2).
+[2017.11.11-22.09.12:165][  0]LogSteamVRController: Putting controller 4 on the left hand because there is already a controller for the right.
+[2017.11.11-22.09.12:165][  0]LogSteamVRController: Controller device 4 is being assigned unreal hand 0 (left=0, right=1).
+[2017.11.11-22.09.12:185][  0]LogAssetRegistry: Asset discovery search completed in 13.2436 seconds
+[2017.11.11-22.09.12:186][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.11-22.09.12:186][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2017.11.11-22.09.12:190][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.11-22.09.12:249][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.11-22.09.13:207][ 99]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.11-23.15.13:469][835]LogTemp: Repeting last play command: VR Preview
+[2017.11.11-23.15.13:524][835]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.11-23.15.13:524][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.11-23.15.13:524][835]PIE: New page: PIE session: default (Nov 11, 2017, 7:15:13 AM)
+[2017.11.11-23.15.13:525][835]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.11-23.15.13:683][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158217s)
+[2017.11.11-23.15.13:684][835]LogAIModule: Creating AISystem for world default
+[2017.11.11-23.15.13:684][835]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2017.11.11-23.15.13:685][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.159913s)
+[2017.11.11-23.15.13:701][835]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.11-23.15.13:707][835]LogInit: FAudioDevice initialized.
+[2017.11.11-23.15.13:793][835]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.11-23.15.13:806][835]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.11-15.15.13
+[2017.11.11-23.15.13:808][835]LogWorld: Bringing up level for play took: 0.013470
+[2017.11.11-23.15.13:839][835]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.11.11-23.15.13:839][835]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.11-23.15.13:839][835]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.11-23.15.13:839][835]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.11-23.15.13:843][835]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.11-23.15.13:848][835]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.281
+[2017.11.11-23.15.13:849][835]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.11-23.15.13:889][836]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.11.11-23.15.14:909][921]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.11-23.15.14:909][921]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.11-23.15.14:909][921]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.11-23.15.15:121][935]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.11-23.15.15:122][935]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_1
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.11-23.15.15:122][935]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.11-23.15.19:591][277]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.11.11-23.15.19:925][307]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.11.11-23.15.20:773][382]LogScript:Warning: Attempted to access ArcherAIArrow_C_0 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_0 is pending kill
+	BP_Castle_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Castle
+	Function /Game/Vive/Blueprints/WorldObjects/BP_Castle.BP_Castle_C:ExecuteUbergraph_BP_Castle:0069
+[2017.11.11-23.15.20:774][382]PIE:Error: Error Blueprint Runtime Error: Attempted to access ArcherAIArrow_C_0 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_0 is pending kill from function: 'ExecuteUbergraph_BP_Castle' from node: DestroyActor in graph: EventGraph in object: BP_Castle with description: Attempted to access ArcherAIArrow_C_0 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_0 is pending kill
+[2017.11.11-23.15.22:929][574]LogBlueprintUserMessages: [Catapult_C_1] Handle1
+[2017.11.11-23.15.22:929][574]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_4
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.11-23.15.22:929][574]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.11-23.15.23:130][592]LogBlueprintUserMessages: [Catapult_C_1] Handle2
+[2017.11.11-23.15.23:130][592]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_5
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.11-23.15.23:130][592]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.11-23.15.27:609][966]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle1
+[2017.11.11-23.15.27:945][996]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle2
+[2017.11.11-23.15.30:023][168]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AAD
+[2017.11.11-23.15.30:023][168]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.15.30:023][168]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AD1
+[2017.11.11-23.15.30:023][168]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.30:324][191]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AAD
+[2017.11.11-23.15.30:324][191]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.15.30:324][191]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AD1
+[2017.11.11-23.15.30:324][191]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.30:659][220]LogScript:Warning: Accessed None trying to read property LightArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AAD
+[2017.11.11-23.15.30:659][220]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.15.30:659][220]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AD1
+[2017.11.11-23.15.30:659][220]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.31:878][316]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AD1
+[2017.11.11-23.15.31:878][316]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.33:709][460]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AD1
+[2017.11.11-23.15.33:709][460]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.33:978][484]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AD1
+[2017.11.11-23.15.33:978][484]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.34:256][507]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AD1
+[2017.11.11-23.15.34:256][507]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.34:469][520]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AD1
+[2017.11.11-23.15.34:469][520]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.34:670][537]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AD1
+[2017.11.11-23.15.34:670][537]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.34:848][553]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AD1
+[2017.11.11-23.15.34:849][553]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.35:541][610]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AD1
+[2017.11.11-23.15.35:541][610]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.35:788][631]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AD1
+[2017.11.11-23.15.35:788][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.36:949][729]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AD1
+[2017.11.11-23.15.36:949][729]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.37:172][747]LogScript:Warning: Accessed None trying to read property HeavyArrow
+	Vive_Pawn_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_605
+	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:2AD1
+[2017.11.11-23.15.37:173][747]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.37:406][767]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.37:585][780]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.37:797][796]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.38:714][878]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HeavyArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property HeavyArrow
+[2017.11.11-23.15.43:129][244]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.11-23.15.43:280][244]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.11-23.15.45:591][513]LogTemp: Repeting last play command: VR Preview
+[2017.11.11-23.15.45:615][513]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.11-23.15.45:615][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.11-23.15.45:615][513]PIE: New page: PIE session: default (Nov 11, 2017, 7:15:45 AM)
+[2017.11.11-23.15.45:615][513]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.11.11-23.15.45:756][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140806s)
+[2017.11.11-23.15.45:756][513]LogAIModule: Creating AISystem for world default
+[2017.11.11-23.15.45:757][513]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2017.11.11-23.15.45:757][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.142441s)
+[2017.11.11-23.15.45:778][513]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.11-23.15.45:784][513]LogInit: FAudioDevice initialized.
+[2017.11.11-23.15.45:860][513]LogLoad: Game class is 'ViveGameMode_C'
+[2017.11.11-23.15.45:874][513]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.11-15.15.45
+[2017.11.11-23.15.45:875][513]LogWorld: Bringing up level for play took: 0.014679
+[2017.11.11-23.15.45:876][513]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.11-23.15.45:876][513]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.11-23.15.45:876][513]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.11-23.15.45:880][513]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.11-23.15.45:884][513]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.245
+[2017.11.11-23.15.45:885][513]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.11-23.15.47:011][610]LogBlueprintUserMessages: [Catapult_C_0] Handle1
+[2017.11.11-23.15.47:011][610]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_0
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.11-23.15.47:011][610]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.11-23.15.47:212][627]LogBlueprintUserMessages: [Catapult_C_0] Handle2
+[2017.11.11-23.15.47:212][627]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_1
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.11-23.15.47:212][627]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.11-23.15.51:457][984]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.15.51:457][984]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_0 via property HeavyArrow, but BP_HeavyArrow_C_0 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_0 via property HeavyArrow, but BP_HeavyArrow_C_0 is pending kill
+[2017.11.11-23.15.51:691][  5]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle1
+[2017.11.11-23.15.51:960][ 29]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.15.51:960][ 29]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_1 via property HeavyArrow, but BP_HeavyArrow_C_1 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_1 via property HeavyArrow, but BP_HeavyArrow_C_1 is pending kill
+[2017.11.11-23.15.52:027][ 35]LogBlueprintUserMessages: [BatteringRamOld_C_0] Handle2
+[2017.11.11-23.15.52:473][ 73]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_2 via property HeavyArrow, but BP_HeavyArrow_C_2 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: AttachTo (Deprecated) in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_2 via property HeavyArrow, but BP_HeavyArrow_C_2 is pending kill
+[2017.11.11-23.15.52:473][ 73]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: AttachTo (Deprecated) in graph: CustomEvents in object: Vive_Pawn with description: Accessed None
+[2017.11.11-23.15.52:887][108]LogScript:Warning: Attempted to access ArcherAIArrow_C_0 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_0 is pending kill
+	BP_Castle_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.BP_Castle
+	Function /Game/Vive/Blueprints/WorldObjects/BP_Castle.BP_Castle_C:ExecuteUbergraph_BP_Castle:0069
+[2017.11.11-23.15.52:887][108]PIE:Error: Error Blueprint Runtime Error: Attempted to access ArcherAIArrow_C_0 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_0 is pending kill from function: 'ExecuteUbergraph_BP_Castle' from node: DestroyActor in graph: EventGraph in object: BP_Castle with description: Attempted to access ArcherAIArrow_C_0 via property K2Node_DynamicCast_AsArcher_AIArrow, but ArcherAIArrow_C_0 is pending kill
+[2017.11.11-23.15.54:417][238]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_2 via property HeavyArrow, but BP_HeavyArrow_C_2 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Visibility in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_2 via property HeavyArrow, but BP_HeavyArrow_C_2 is pending kill
+[2017.11.11-23.15.54:417][238]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Visibility in graph: CustomEvents in object: Vive_Pawn with description: Accessed None
+[2017.11.11-23.15.54:417][238]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_2 via property HeavyArrow, but BP_HeavyArrow_C_2 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: DetachFromParent (Deprecated) in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_2 via property HeavyArrow, but BP_HeavyArrow_C_2 is pending kill
+[2017.11.11-23.15.54:417][238]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: DetachFromParent (Deprecated) in graph: CustomEvents in object: Vive_Pawn with description: Accessed None
+[2017.11.11-23.15.54:417][238]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_2 via property HeavyArrow, but BP_HeavyArrow_C_2 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Active in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_2 via property HeavyArrow, but BP_HeavyArrow_C_2 is pending kill
+[2017.11.11-23.15.54:417][238]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Active in graph: CustomEvents in object: Vive_Pawn with description: Accessed None
+[2017.11.11-23.15.54:417][238]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_2 via property HeavyArrow, but BP_HeavyArrow_C_2 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Actor Enable Collision in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_2 via property HeavyArrow, but BP_HeavyArrow_C_2 is pending kill
+[2017.11.11-23.15.54:417][238]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_2 via property HeavyArrow, but BP_HeavyArrow_C_2 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set InFlight in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_2 via property HeavyArrow, but BP_HeavyArrow_C_2 is pending kill
+[2017.11.11-23.15.54:417][238]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_2 via property HeavyArrow, but BP_HeavyArrow_C_2 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Velocity in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_2 via property HeavyArrow, but BP_HeavyArrow_C_2 is pending kill
+[2017.11.11-23.15.54:418][238]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Velocity in graph: CustomEvents in object: Vive_Pawn with description: Accessed None
+[2017.11.11-23.15.54:418][238]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Velocity in graph: CustomEvents in object: Vive_Pawn with description: Attempted to assign to None
+[2017.11.11-23.15.55:031][273]LogBlueprintUserMessages: [Catapult_C_1] Handle1
+[2017.11.11-23.15.55:031][273]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_4
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.11-23.15.55:031][273]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.11-23.15.55:243][287]LogBlueprintUserMessages: [Catapult_C_1] Handle2
+[2017.11.11-23.15.55:243][287]LogScript:Warning: Accessed None trying to read property Catapult
+	SoldierAI_C /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default:PersistentLevel.SoldierAI_C_5
+	Function /Game/Vive/Blueprints/AI/SoldierAIHeavy/SoldierAI.SoldierAI_C:ExecuteUbergraph_SoldierAI:0D92
+[2017.11.11-23.15.55:243][287]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Catapult from function: 'ExecuteUbergraph_SoldierAI' from node: Branch in graph: EventGraph in object: SoldierAI with description: Accessed None trying to read property Catapult
+[2017.11.11-23.15.59:734][598]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle1
+[2017.11.11-23.16.00:070][624]LogBlueprintUserMessages: [BatteringRamOld_C_1] Handle2
+[2017.11.11-23.16.00:194][635]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_3 via property HeavyArrow, but BP_HeavyArrow_C_3 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: AttachTo (Deprecated) in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_3 via property HeavyArrow, but BP_HeavyArrow_C_3 is pending kill
+[2017.11.11-23.16.00:195][635]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: AttachTo (Deprecated) in graph: CustomEvents in object: Vive_Pawn with description: Accessed None
+[2017.11.11-23.16.03:254][900]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_3 via property HeavyArrow, but BP_HeavyArrow_C_3 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Visibility in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_3 via property HeavyArrow, but BP_HeavyArrow_C_3 is pending kill
+[2017.11.11-23.16.03:254][900]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Visibility in graph: CustomEvents in object: Vive_Pawn with description: Accessed None
+[2017.11.11-23.16.03:254][900]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_3 via property HeavyArrow, but BP_HeavyArrow_C_3 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: DetachFromParent (Deprecated) in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_3 via property HeavyArrow, but BP_HeavyArrow_C_3 is pending kill
+[2017.11.11-23.16.03:254][900]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: DetachFromParent (Deprecated) in graph: CustomEvents in object: Vive_Pawn with description: Accessed None
+[2017.11.11-23.16.03:254][900]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_3 via property HeavyArrow, but BP_HeavyArrow_C_3 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Active in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_3 via property HeavyArrow, but BP_HeavyArrow_C_3 is pending kill
+[2017.11.11-23.16.03:254][900]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Active in graph: CustomEvents in object: Vive_Pawn with description: Accessed None
+[2017.11.11-23.16.03:254][900]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_3 via property HeavyArrow, but BP_HeavyArrow_C_3 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Actor Enable Collision in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_3 via property HeavyArrow, but BP_HeavyArrow_C_3 is pending kill
+[2017.11.11-23.16.03:254][900]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_3 via property HeavyArrow, but BP_HeavyArrow_C_3 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set InFlight in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_3 via property HeavyArrow, but BP_HeavyArrow_C_3 is pending kill
+[2017.11.11-23.16.03:254][900]PIE:Error: Error Blueprint Runtime Error: Attempted to access BP_HeavyArrow_C_3 via property HeavyArrow, but BP_HeavyArrow_C_3 is pending kill from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Velocity in graph: CustomEvents in object: Vive_Pawn with description: Attempted to access BP_HeavyArrow_C_3 via property HeavyArrow, but BP_HeavyArrow_C_3 is pending kill
+[2017.11.11-23.16.03:254][900]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Velocity in graph: CustomEvents in object: Vive_Pawn with description: Accessed None
+[2017.11.11-23.16.03:254][900]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Velocity in graph: CustomEvents in object: Vive_Pawn with description: Attempted to assign to None
+[2017.11.11-23.16.03:958][963]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.05:768][121]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.06:593][194]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.06:973][228]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.07:386][265]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.07:733][294]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.08:001][307]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.08:313][321]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.08:604][334]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.08:939][349]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.09:162][359]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.09:520][375]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.10:001][398]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.10:314][416]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.13:174][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.13:464][624]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.13:709][638]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property LightArrow from function: 'ExecuteUbergraph_Vive_Pawn' from node: DestroyActor in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property LightArrow
+[2017.11.11-23.16.18:112][993]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.11-23.16.18:262][993]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.11.11-23.17.25:700][ 71]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.11-23.17.25:990][ 71]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.11.11-23.17.26:508][ 71]LogSlate: Took 0.003948 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.11-23.17.26:766][ 72]LogSlate: Took 0.013061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.11-23.38.40:306][213]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.11.11-23.38.40:346][214]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CastleGuardReborn
+[2017.11.11-23.38.40:346][214]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.11-23.38.40:346][214]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.11.11-23.38.40:346][214]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.11-23.38.40:346][214]LogTemp: BranchPath = LCIVAN-238-00/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LCIVAN-238-00/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.11.11-23.38.40:356][215]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\studentuser\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.11-23.40.12:491][852]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.12-00.00.52:257][520]Cmd: DELETE
+[2017.11.12-00.00.52:257][520]Cmd: ACTOR DELETE
+[2017.11.12-00.00.52:281][520]LogEditorActor: Deleted Actor: Brush
+[2017.11.12-00.00.52:605][520]LogEditorActor: Deleted 1 Actors (0.335 secs)
+[2017.11.12-00.01.49:748][279]LogEditorViewport: Clicking on Actor (LMB): BP_HeavyArrowsPile_C (BP_HeavyArrowsPile)
+[2017.11.12-00.01.50:536][369]LogEditorViewport: Clicking on Actor (LMB): BP_LightArrowsPile_C (BP_LightArrowsPile)
+[2017.11.12-00.06.57:672][890]LogUObjectBase:Warning: Object is not registered
+[2017.11.12-00.07.04:200][890]LogStats: FPlatformStackWalk::StackWalkAndDump -  6.529 s
+[2017.11.12-00.07.04:200][890]LogOutputDevice:Error: === Handled ensure: ===
+[2017.11.12-00.07.04:200][890]LogOutputDevice:Error: 
+[2017.11.12-00.07.04:200][890]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.11.12-00.07.04:200][890]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.11.12-00.07.04:200][890]LogOutputDevice:Error: Stack: 
+[2017.11.12-00.07.04:200][890]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FKismetDebugUtilities::GetWatchText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetdebugutilities.cpp:1037]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!UK2Node::GetPinHoverText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\blueprintgraph\private\k2node.cpp:1251]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!SGraphPin::GetTooltipText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\grapheditor\private\sgraphpin.cpp:1085]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64>::operator()<>() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:165]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\templates\tuple.h:497]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TBaseSPMethodDelegateInstance<1,SGraphPin,0,FText __cdecl(void)>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-Slate.dll!TBaseDelegate<FText>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:537]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-Slate.dll!TAttribute<FText>::Get() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\misc\attribute.h:137]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-Slate.dll!SToolTip::IsEmpty() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\widgets\stooltip.cpp:87]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::UpdateToolTip() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3444]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseMoveEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5697]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseMove() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5647]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1742]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2127]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:867]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:714]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: USER32.dll!0x00000000B311BC50
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: USER32.dll!0x00000000B311B5CF
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:1009]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3058]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: KERNEL32.DLL!0x00000000B15A2774
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: ntdll.dll!0x00000000B3DB0D51
+[2017.11.12-00.07.04:201][890]LogOutputDevice:Error: 
+[2017.11.12-00.07.04:209][890]LogStats:                SubmitErrorReport -  0.000 s

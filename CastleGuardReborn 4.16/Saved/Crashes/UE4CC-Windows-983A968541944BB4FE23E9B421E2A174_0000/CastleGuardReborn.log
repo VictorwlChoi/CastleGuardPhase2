@@ -1,0 +1,582 @@
+﻿Log file open, 11/30/17 19:03:21
+LogInit:Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1828925087) SRandInit(-1828925087).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.078762
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.01-03.03.21:871][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.01-03.03.21:871][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.01-03.03.21:896][  0]LogInit: Computer: LCIVAN-238-00
+[2017.12.01-03.03.21:896][  0]LogInit: User: studentuser
+[2017.12.01-03.03.21:896][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.01-03.03.21:896][  0]LogInit: High frequency timer resolution =4.101571 MHz
+[2017.12.01-03.03.21:896][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.01-03.03.21:896][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.01-03.03.21:896][  0]LogMemory: Process Physical Memory: 274.89 MB used, 274.89 MB peak
+[2017.12.01-03.03.21:896][  0]LogMemory: Process Virtual Memory: 260.81 MB used, 260.81 MB peak
+[2017.12.01-03.03.21:896][  0]LogMemory: Physical Memory: 5913.58 MB used,  10369.87 MB free, 16283.45 MB total
+[2017.12.01-03.03.21:896][  0]LogMemory: Virtual Memory: 638.49 MB used,  10369.87 MB free, 134217728.00 MB total
+[2017.12.01-03.03.21:947][  0]LogInit: Using OS detected language (en-US).
+[2017.12.01-03.03.21:947][  0]LogInit: Using OS detected locale (en-CA).
+[2017.12.01-03.03.21:948][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.01-03.03.22:584][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.01-03.03.22:617][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.12.01-03.03.22:617][  0]LogD3D11RHI:       8115/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.01-03.03.22:623][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.12.01-03.03.22:624][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.01-03.03.22:624][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.01-03.03.22:624][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.01-03.03.22:624][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.01-03.03.22:630][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.01-03.03.22:630][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.01-03.03.22:630][  0]LogWindows: EnumDisplayDevices:
+[2017.12.01-03.03.22:630][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.12.01-03.03.22:630][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.01-03.03.22:630][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.01-03.03.22:630][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.01-03.03.22:630][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.01-03.03.22:631][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.01-03.03.22:631][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.12.01-03.03.22:631][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.01-03.03.22:631][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.12.01-03.03.22:631][  0]LogD3D11RHI:   Driver Version: 382.66 (internal:22.21.13.8266, unified:382.66)
+[2017.12.01-03.03.22:631][  0]LogD3D11RHI:      Driver Date: 6-25-2017
+[2017.12.01-03.03.22:631][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.01-03.03.22:660][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.01-03.03.22:672][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.01-03.03.22:721][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/12128/).
+[2017.12.01-03.03.22:721][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/087584264623D504A51368B71A6B680D/'.
+[2017.12.01-03.03.22:721][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.01-03.03.23:441][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.01-03.03.23:478][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.12.01-03.03.23:514][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.01-03.03.23:551][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.12.01-03.03.23:590][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.12.01-03.03.23:628][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.01-03.03.23:667][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.01-03.03.23:705][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.01-03.03.23:739][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.01-03.03.23:774][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.12.01-03.03.23:810][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.01-03.03.23:845][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.01-03.03.23:881][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.01-03.03.23:916][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.01-03.03.23:952][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.01-03.03.24:026][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.01-03.03.24:026][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.01-03.03.24:055][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.12.01-03.03.24:136][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.12.01-03.03.24:161][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.12.01-03.03.24:199][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.01-03.03.24:234][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.01-03.03.24:273][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.01-03.03.24:310][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.12.01-03.03.24:310][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.01-03.03.24:665][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.01-03.03.24:751][  0]LogDerivedDataCache: Loaded boot cache 0.09s 91MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.01-03.03.24:751][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.12.01-03.03.24:751][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.01-03.03.24:751][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.01-03.03.24:751][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.01-03.03.24:751][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.01-03.03.24:763][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.01-03.03.24:774][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.01-03.03.24:781][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.01-03.03.24:781][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.01-03.03.24:782][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.01-03.03.24:782][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.01-03.03.25:013][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.01-03.03.25:090][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.01-03.03.25:209][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.01-03.03.25:242][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.01-03.03.25:277][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.01-03.03.25:277][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.01-03.03.25:277][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.01-03.03.25:781][  0]LogNetVersion: CastleGuardReborn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2303850599)
+[2017.12.01-03.03.25:837][  0]LogAssetRegistry: FAssetRegistry took 0.0240 seconds to start up
+[2017.12.01-03.03.25:956][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.102578 seconds
+[2017.12.01-03.03.25:961][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.12.01-03.03.25:961][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.12.01-03.03.25:961][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.01-03.03.26:014][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.01-03.03.27:861][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.01-03.03.27:893][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.01-03.03.28:271][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.01-03.03.28:553][  0]SourceControl: Info Source control is disabled
+[2017.12.01-03.03.28:572][  0]SourceControl: Info Source control is disabled
+[2017.12.01-03.03.28:615][  0]SourceControl: Info Source control is disabled
+[2017.12.01-03.03.28:656][  0]SourceControl: Info Source control is disabled
+[2017.12.01-03.03.29:212][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.01-03.03.29:677][  0]LogEngine: Initializing Engine...
+[2017.12.01-03.03.33:228][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.12.01-03.03.33:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.01-03.03.33:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.01-03.03.33:527][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.01-03.03.33:540][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.01-03.03.33:556][  0]LogInit: FAudioDevice initialized.
+[2017.12.01-03.03.33:603][  0]LogDerivedDataCache: Saved boot cache 0.05s 91MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.01-03.03.33:626][  0]LogInit: Texture streaming: Enabled
+[2017.12.01-03.03.33:699][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.01-03.03.33:858][  0]LogInit: Transaction tracking system initialized
+[2017.12.01-03.03.34:100][  0]BlueprintLog: New page: Editor Load
+[2017.12.01-03.03.34:921][  0]LocalizationService: Info Localization service is disabled
+[2017.12.01-03.03.35:421][  0]LogConsoleResponse:Display: 
+[2017.12.01-03.03.35:519][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.01-03.03.35:520][  0]LogCook:Display: Mobile HDR setting 1
+[2017.12.01-03.03.36:253][  0]SourceControl: Info Source control is disabled
+[2017.12.01-03.03.36:253][  0]Cmd: MAP LOAD FILE="D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.01-03.03.36:254][  0]LightingResults: New page: Lighting Build
+[2017.12.01-03.03.36:287][  0]MapCheck: New page: Map Check
+[2017.12.01-03.03.36:287][  0]LightingResults: New page: Lighting Build
+[2017.12.01-03.03.42:972][  0]LogClass:Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.12.01-03.03.43:629][  0]LogAIModule: Creating AISystem for world default
+[2017.12.01-03.03.44:600][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.01-03.03.44:690][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.01-03.03.44:734][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.066ms to complete.
+[2017.12.01-03.03.44:734][  0]LogFileHelpers: Loading map 'default' took 8.481
+[2017.12.01-03.03.44:898][  0]LogCollectionManager: Loaded 0 collections in 0.001856 seconds
+[2017.12.01-03.03.44:964][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2017.12.01-03.03.44:964][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2017.12.01-03.03.44:964][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.01s
+[2017.12.01-03.03.44:964][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.01-03.03.44:970][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2330 classes and 494 folders.
+[2017.12.01-03.03.45:017][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.01-03.03.45:041][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.12.01-03.03.45:071][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.12.01-03.03.45:123][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.12.01-03.03.45:130][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.12.01-03.03.45:182][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.12.01-03.03.45:182][  0]LogLoad: (Engine Initialization) Total time: 24.89 seconds
+[2017.12.01-03.03.45:182][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.79 seconds
+[2017.12.01-03.03.45:182][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.01-03.03.45:182][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.01-03.03.45:521][  0]LogOcInput: OculusInput pre-init called
+[2017.12.01-03.03.45:521][  0]LogHMD: Starting GearVRController plugin
+[2017.12.01-03.03.45:521][  0]LogSteamVRController: Controller role for device 1 is 0 (invalid=0, left=1, right=2).
+[2017.12.01-03.03.45:521][  0]LogSteamVRController:Warning: Controller device 1 has no role set.  There is no 'right' controller according to steamvr, so we are pickign that.
+[2017.12.01-03.03.45:521][  0]LogSteamVRController: Controller device 1 is being assigned unreal hand 1 (left=0, right=1).
+[2017.12.01-03.03.45:556][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.01-03.03.45:557][  0]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.01-03.03.45:558][  0]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.01-03.03.45:562][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.01-03.03.45:703][  0]LogRenderer: Reallocating scene render targets to support 1188x564 NumSamples 1 (Frame:1).
+[2017.12.01-03.03.45:823][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.01-03.03.46:296][  1]LogAssetRegistry: Asset discovery search completed in 20.4804 seconds
+[2017.12.01-03.03.46:298][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.01-03.03.46:298][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2017.12.01-03.03.46:752][  3]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.01-03.03.49:890][301]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.01-03.03.50:318][301]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.12.01-03.03.51:926][301]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-03.03.51:926][301]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-03.03.51:926][301]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-03.03.51:946][301]LogSlate: Took 0.003887 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.01-03.03.56:936][788]LogSlate: Took 0.003886 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.01-03.03.58:788][940]LogRenderer: Reallocating scene render targets to support 1188x712 NumSamples 1 (Frame:1).
+[2017.12.01-03.04.00:374][ 71]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:1).
+[2017.12.01-03.05.31:341][730]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-03.05.31:341][730]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.BP_ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-03.05.31:341][730]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.BP_ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-03.05.53:151][265]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-03.05.53:151][265]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-03.05.53:151][265]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-03.19.58:296][394]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.19.59:359][434]LogSavePackage: Save=336.97ms
+[2017.12.01-03.19.59:359][434]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master5962DF554C1C15AD084D409CE6FEE1D8.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.19.59:360][434]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.20.05:124][124]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.20.06:076][162]LogSavePackage: Save=325.91ms
+[2017.12.01-03.20.06:076][162]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_MasterDF29EEE94A473272D879799277A60A78.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.20.06:077][162]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.20.49:223][317]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.20.50:051][339]LogSavePackage: Save=325.12ms
+[2017.12.01-03.20.50:051][339]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_MasterA6FDC29540F627AB511436AC954C3DC2.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.20.50:052][339]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.20.55:330][970]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.20.56:050][979]LogSavePackage: Save=324.56ms
+[2017.12.01-03.20.56:050][979]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master0C5876F3447F73D18551D6B406109421.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.20.56:052][979]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.21.06:837][897]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.01-03.21.07:349][897]LogSavePackage: Save=3478.09ms
+[2017.12.01-03.21.07:349][897]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/defaultE578D6FD4002E79BB22A33A0689D990D.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.01-03.21.07:352][897]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.01-03.21.07:398][897]LogFileHelpers: Saving map 'default' took 3.648
+[2017.12.01-03.21.07:728][897]LogSavePackage: Save=325.06ms
+[2017.12.01-03.21.07:728][897]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master1B8BD6D441202B8496706B812581D898.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.21.07:729][897]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.21.46:336][ 85]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.21.47:598][158]LogSavePackage: Save=330.29ms
+[2017.12.01-03.21.47:598][158]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master294D0C4C46F4695ED9921785F01E5841.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.21.47:599][158]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.25.08:130][126]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.25.09:190][168]LogSavePackage: Save=349.25ms
+[2017.12.01-03.25.09:190][168]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_MasterDAF14B134A80EF9FE53D8AA548EFE8C9.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.25.09:191][168]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.25.17:951][201]LogSlate: Took 0.003520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.12.01-03.26.00:304][222]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.26.00:829][222]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-03.26.00:829][222]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-03.26.00:829][222]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-03.26.00:829][222]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-03.26.00:829][222]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.BP_ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-03.26.00:829][222]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.BP_ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-03.26.01:534][251]LogSavePackage: Save=346.52ms
+[2017.12.01-03.26.01:534][251]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_MasterA7830FF848956D2BE3435A9FDFCC8DDC.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.26.01:535][251]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.26.25:701][113]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.26.26:718][154]LogSavePackage: Save=346.35ms
+[2017.12.01-03.26.26:718][154]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master2C30FF1D4C6DA919235B26A8F4ECED2D.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.26.26:719][154]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.27.00:751][184]LogEditorTransaction: Undo Move Node
+[2017.12.01-03.27.01:479][255]LogEditorTransaction: Undo Move Node
+[2017.12.01-03.27.02:543][368]LogEditorTransaction: Redo Move Node
+[2017.12.01-03.27.02:707][373]LogEditorTransaction: Redo Move Node
+[2017.12.01-03.28.46:919][853]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.28.47:446][853]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-03.28.47:446][853]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-03.28.47:446][853]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-03.28.47:447][853]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-03.28.47:447][853]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.BP_ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-03.28.47:447][853]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.BP_ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-03.28.48:049][871]LogSavePackage: Save=350.64ms
+[2017.12.01-03.28.48:049][871]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master72F9820B4D854911E5CA4495FB581C06.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.28.48:050][871]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.30.22:962][213]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.30.23:860][237]LogSavePackage: Save=354.37ms
+[2017.12.01-03.30.23:860][237]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_MasterBC1B86E7434EA1845F6F37B185E01A1B.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.30.23:861][237]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.30.37:111][400]LogSavePackage: Save=3425.50ms
+[2017.12.01-03.30.37:111][400]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default91AE117C45F912FDE33228AFEECB8BBE.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.01-03.30.37:114][400]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.01-03.30.37:163][400]LogFileHelpers: Saving map 'default' took 3.561
+[2017.12.01-03.30.37:510][400]LogSavePackage: Save=342.17ms
+[2017.12.01-03.30.37:510][400]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master44E09DDB4BDDBAF0666D04957E26B356.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.30.37:511][400]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.30.37:533][400]LogSavePackage: Save=13.00ms
+[2017.12.01-03.30.37:533][400]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Level0252E9F3B44858CAC8860D8894C829F380.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Level02.uasset'
+[2017.12.01-03.30.37:534][400]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Level02.uasset
+[2017.12.01-03.31.54:288][596]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.31.55:115][612]LogSavePackage: Save=348.36ms
+[2017.12.01-03.31.55:115][612]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master842B3360496715300C19ADACBFA8F3D0.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.31.55:117][612]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.33.08:644][425]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.33.09:626][460]LogSavePackage: Save=348.00ms
+[2017.12.01-03.33.09:626][460]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_MasterB4697AE645ACF35D3669639BE0DE62D6.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.33.09:627][460]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.33.23:523][ 82]LogSavePackage: Save=349.88ms
+[2017.12.01-03.33.23:523][ 82]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_MasterE05364704BF146347A750C82534D50AF.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.33.23:524][ 82]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.37.40:276][773]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.37.40:788][773]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-03.37.40:788][773]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-03.37.40:788][773]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-03.37.40:788][773]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-03.37.40:788][773]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.BP_ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-03.37.40:788][773]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.BP_ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-03.37.41:340][782]LogSavePackage: Save=351.05ms
+[2017.12.01-03.37.41:340][782]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master17B809BF4B8D950CDB6312A9C8B656AD.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.37.41:342][782]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.40.14:484][ 21]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.40.15:008][ 21]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-03.40.15:008][ 21]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-03.40.15:008][ 21]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-03.40.15:009][ 21]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-03.40.15:009][ 21]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.BP_ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-03.40.15:009][ 21]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.BP_ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-03.40.15:549][ 31]LogSavePackage: Save=350.17ms
+[2017.12.01-03.40.15:549][ 31]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_MasterA2225E1F4605B180DF59AF90D8AEC354.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.40.15:551][ 31]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.41.28:381][546]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.41.29:665][606]LogSavePackage: Save=353.07ms
+[2017.12.01-03.41.29:665][606]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master29D09D66468FC8C0CBCC7D8056F2ABC3.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.41.29:666][606]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.43.12:601][826]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.43.13:750][881]LogSavePackage: Save=351.20ms
+[2017.12.01-03.43.13:750][881]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master7AFA7A3B43865AA8B07F359D61B50E4B.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.43.13:751][881]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.43.30:048][834]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.43.31:325][904]LogSavePackage: Save=354.68ms
+[2017.12.01-03.43.31:325][904]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_MasterCBFABCE4479B7AC37EAD71BED035F1B0.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.43.31:326][904]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.44.33:618][358]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.44.34:656][400]LogSavePackage: Save=350.39ms
+[2017.12.01-03.44.34:656][400]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_MasterDA687731492CDF6AEEBF0590AD4D6EA6.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.44.34:657][400]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.44.53:964][280]LogSavePackage: Save=3438.40ms
+[2017.12.01-03.44.53:964][280]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default1FABFC5049A283316CEE0C9A372C3CCB.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.01-03.44.53:967][280]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.01-03.44.54:013][280]LogFileHelpers: Saving map 'default' took 3.584
+[2017.12.01-03.44.54:034][280]LogSavePackage: Save=12.27ms
+[2017.12.01-03.44.54:034][280]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Level0282D6FFD8487CAA3A475E70BBD474E38A.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Level02.uasset'
+[2017.12.01-03.44.54:035][280]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Level02.uasset
+[2017.12.01-03.45.01:762][204]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.45.02:887][255]LogSavePackage: Save=351.90ms
+[2017.12.01-03.45.02:887][255]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master7B8FBFE348D622CFECB490997CE8C76D.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.45.02:889][255]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.45.36:344][844]LogSavePackage: Save=3422.62ms
+[2017.12.01-03.45.36:344][844]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default47359F8B491972A3D0CEBEA6F673730E.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.01-03.45.36:348][844]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.01-03.45.36:394][844]LogFileHelpers: Saving map 'default' took 3.542
+[2017.12.01-03.45.36:750][844]LogSavePackage: Save=351.55ms
+[2017.12.01-03.45.36:750][844]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master44AC8B3C40DE1E8DC5AA8EABC4B42DF1.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.45.36:751][844]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.46.12:722][143]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.46.13:616][167]LogSavePackage: Save=351.34ms
+[2017.12.01-03.46.13:616][167]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master7AFEF3F145BF011E06D7B2AF16C991EF.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.46.13:617][167]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.46.44:616][833]LogSavePackage: Save=351.82ms
+[2017.12.01-03.46.44:616][833]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_MasterB8C02BFD467A46F4AF5BFDA6F07A73ED.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.46.44:617][833]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.46.44:760][848]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.46.46:857][ 60]LogTemp: Repeting last play command: VR Preview
+[2017.12.01-03.46.47:042][ 60]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.01-03.46.47:043][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.01-03.46.47:045][ 60]PIE: New page: PIE session: default (Nov 30, 2017, 11:46:47 AM)
+[2017.12.01-03.46.47:046][ 60]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2017.12.01-03.46.47:211][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.165331s)
+[2017.12.01-03.46.47:212][ 60]LogAIModule: Creating AISystem for world default
+[2017.12.01-03.46.47:212][ 60]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2017.12.01-03.46.47:213][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.166516s)
+[2017.12.01-03.46.47:238][ 60]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.01-03.46.47:251][ 60]LogInit: FAudioDevice initialized.
+[2017.12.01-03.46.47:333][ 60]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2017.12.01-03.46.47:352][ 60]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.11.30-19.46.47
+[2017.12.01-03.46.47:355][ 60]LogWorld: Bringing up level for play took: 0.016693
+[2017.12.01-03.46.47:357][ 60]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.01-03.46.47:390][ 60]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.12.01-03.46.47:390][ 60]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.01-03.46.47:390][ 60]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.01-03.46.47:390][ 60]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.01-03.46.47:393][ 60]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.01-03.46.47:399][ 60]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.257
+[2017.12.01-03.46.47:400][ 60]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.01-03.46.47:449][ 61]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.12.01-03.46.47:578][ 70]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.01-03.46.47:799][ 70]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2017.12.01-03.48.42:889][597]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.48.43:397][597]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-03.48.43:397][597]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-03.48.43:397][597]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-03.48.43:398][597]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-03.48.43:398][597]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.BP_ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-03.48.43:398][597]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.BP_ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-03.48.43:954][607]LogSavePackage: Save=353.69ms
+[2017.12.01-03.48.43:954][607]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master70EABCDE45B0798DF3FE7C9FE5418493.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.48.43:955][607]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.48.50:377][369]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.48.51:326][399]LogSavePackage: Save=355.07ms
+[2017.12.01-03.48.51:326][399]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master73176C4C47FCFC44EB026DB963B0574E.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.48.51:327][399]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.51.00:147][614]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.51.01:201][651]LogSavePackage: Save=368.65ms
+[2017.12.01-03.51.01:201][651]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master8E8F60CD402F21AD3FD7C0914C64AEF8.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.51.01:202][651]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.51.29:202][558]LogSavePackage: Save=3398.88ms
+[2017.12.01-03.51.29:202][558]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/defaultE1FADAE74739DE5935CB398D61DC38C9.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.01-03.51.29:205][558]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.01-03.51.29:254][558]LogFileHelpers: Saving map 'default' took 3.544
+[2017.12.01-03.51.29:275][558]LogSavePackage: Save=12.90ms
+[2017.12.01-03.51.29:276][558]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Level029D4741FD4655EA95C1ECD89A5CEE3F9B.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Level02.uasset'
+[2017.12.01-03.51.29:277][558]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Level02.uasset
+[2017.12.01-03.53.06:297][976]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.53.07:285][  7]LogSavePackage: Save=363.09ms
+[2017.12.01-03.53.07:285][  7]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master0699429D419867F2878E94B3ECBDB3BC.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.53.07:287][  7]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.53.46:083][609]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.53.47:293][668]LogSavePackage: Save=358.64ms
+[2017.12.01-03.53.47:293][668]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_MasterB6E86350477A73DAFB7F90B1F6B8FB4C.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.53.47:294][668]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.55.01:617][154]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.55.02:490][173]LogSavePackage: Save=360.38ms
+[2017.12.01-03.55.02:490][173]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master44344C82444763B83B20FCA92FD21131.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.55.02:492][173]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.55.09:034][946]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.55.09:922][967]LogSavePackage: Save=358.94ms
+[2017.12.01-03.55.09:922][967]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master0E64300645A7F65EF648808ADC994001.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.55.09:923][967]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.55.17:199][408]LogSavePackage: Save=3440.66ms
+[2017.12.01-03.55.17:199][408]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/default886B25ED4425221D273B1181E08E47F8.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.01-03.55.17:203][408]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.01-03.55.17:249][408]LogFileHelpers: Saving map 'default' took 3.561
+[2017.12.01-03.55.17:266][408]LogSavePackage: Save=12.63ms
+[2017.12.01-03.55.17:266][408]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Level026EA5A1274859D36C69756187719F0461.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Level02.uasset'
+[2017.12.01-03.55.17:267][408]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Level02.uasset
+[2017.12.01-03.55.26:369][494]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-03.55.27:348][525]LogSavePackage: Save=358.71ms
+[2017.12.01-03.55.27:348][525]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master5A1EFE444086C8CBD4340980AAF404B5.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-03.55.27:350][525]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-03.56.51:942][519]LogEditorTransaction: Undo Move Node
+[2017.12.01-03.56.52:163][526]LogEditorTransaction: Undo Move Node
+[2017.12.01-03.56.52:466][544]LogEditorTransaction: Undo Move Nodes
+[2017.12.01-03.56.53:018][592]LogEditorTransaction: Undo Move Node
+[2017.12.01-03.56.53:582][642]LogEditorTransaction: Undo Move Node
+[2017.12.01-03.56.54:071][683]LogEditorTransaction: Undo Create Pin Link
+[2017.12.01-03.56.57:265][ 18]LogEditorTransaction: Redo Create Pin Link
+[2017.12.01-03.56.57:419][ 19]LogEditorTransaction: Redo Move Node
+[2017.12.01-03.56.57:577][ 20]LogEditorTransaction: Redo Move Node
+[2017.12.01-03.56.57:729][ 21]LogEditorTransaction: Redo Move Nodes
+[2017.12.01-03.56.58:242][ 65]LogEditorTransaction: Redo Move Node
+[2017.12.01-03.56.58:628][ 94]LogEditorTransaction: Redo Move Node
+[2017.12.01-03.57.00:285][275]LogEditorTransaction: Undo Move Node
+[2017.12.01-03.58.38:564][927]LogEditorTransaction: Undo Create Reroute Node
+[2017.12.01-04.01.12:374][251]BlueprintLog: New page: Compile BP_Overlord_Master
+[2017.12.01-04.01.12:950][251]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-04.01.12:950][251]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-04.01.12:950][251]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_3:PersistentLevel.BP_ArcherAIArrow_C_0
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-04.01.12:950][251]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.12.01-04.01.12:950][251]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.BP_ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00C8
+[2017.12.01-04.01.12:950][251]LogScript:Warning: Accessed None
+	BP_ArcherAIArrow_C /Engine/Transient.World_9:PersistentLevel.BP_ArcherAIArrow_C_1
+	Function /Game/Vive/Blueprints/AI/BP_ArcherAIArrow.BP_ArcherAIArrow_C:UserConstructionScript:00DD
+[2017.12.01-04.01.13:433][251]LogSavePackage: Save=374.62ms
+[2017.12.01-04.01.13:433][251]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Master89633B4C4DBD501336E05CA65533B7DB.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset'
+[2017.12.01-04.01.13:435][251]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Master.uasset
+[2017.12.01-04.01.19:149][503]LogSavePackage: Save=3432.25ms
+[2017.12.01-04.01.19:149][503]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/defaultE47B5A2842095CEE4D4F57BE87777392.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2017.12.01-04.01.19:153][503]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2017.12.01-04.01.19:200][503]LogFileHelpers: Saving map 'default' took 3.576
+[2017.12.01-04.01.19:222][503]LogSavePackage: Save=12.63ms
+[2017.12.01-04.01.19:222][503]LogSavePackage: Moving 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Saved/BP_Overlord_Level0286EA562F41FCFE1CB6B4528B6CA3FB7F.tmp' to 'D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Level02.uasset'
+[2017.12.01-04.01.19:223][503]LogSavePackage:Display: Finished SavePackage D:/CastleGuardCurrent/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/Overlords/BP_Overlord_Level02.uasset
+[2017.12.01-04.01.22:490][869]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.12.01-04.01.29:831][869]LogStats: FPlatformStackWalk::StackWalkAndDump -  7.331 s
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: === Handled ensure: ===
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: 
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: Stack: 
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FKismetDebugUtilities::GetWatchText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetdebugutilities.cpp:1037]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!UK2Node::GetPinHoverText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\blueprintgraph\private\k2node.cpp:1251]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!SGraphPin::GetTooltipText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\grapheditor\private\sgraphpin.cpp:1085]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64>::operator()<>() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:165]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\templates\tuple.h:497]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TBaseSPMethodDelegateInstance<1,SGraphPin,0,FText __cdecl(void)>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-Slate.dll!TBaseDelegate<FText>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:537]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-Slate.dll!TAttribute<FText>::Get() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\misc\attribute.h:137]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-Slate.dll!SToolTip::IsEmpty() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\widgets\stooltip.cpp:87]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::UpdateToolTip() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3444]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseMoveEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5697]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseMove() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5647]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1742]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2127]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:867]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:714]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: USER32.dll!0x00000000ACFABC50
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: USER32.dll!0x00000000ACFAB5CF
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:1009]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3058]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: KERNEL32.DLL!0x00000000AEF72774
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: ntdll.dll!0x00000000AF850D51
+[2017.12.01-04.01.29:831][869]LogOutputDevice:Error: 
+[2017.12.01-04.01.29:832][869]LogStats:                SubmitErrorReport -  0.000 s
