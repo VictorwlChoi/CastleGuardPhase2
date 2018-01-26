@@ -73,3 +73,8 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+/CastleGuardReborn/Intermediate/*
+/CastleGuardReborn/Saved/*
+/CastleGuardReborn/Binaries/*
+/CastleGuardReborn/Build/*
