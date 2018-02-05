@@ -1,0 +1,1306 @@
+﻿Log file open, 02/02/18 22:03:07
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: CastleGuardReborn
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-838817560) SRandInit(-838817560).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3794801, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.151801
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3794801
+LogInit: Engine Version: 4.18.2-3794801+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Dec  8 2017 02:04:53
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.03-06.03.08:246][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.03-06.03.08:246][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.03-06.03.08:254][  0]LogInit: Computer: LCIVAN-238-00
+[2018.02.03-06.03.08:254][  0]LogInit: User: studentuser
+[2018.02.03-06.03.08:254][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.03-06.03.08:254][  0]LogInit: High frequency timer resolution =4.101567 MHz
+[2018.02.03-06.03.08:255][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.02.03-06.03.08:255][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.03-06.03.08:255][  0]LogMemory: Process Physical Memory: 273.98 MB used, 273.98 MB peak
+[2018.02.03-06.03.08:255][  0]LogMemory: Process Virtual Memory: 280.88 MB used, 280.88 MB peak
+[2018.02.03-06.03.08:255][  0]LogMemory: Physical Memory: 8359.43 MB used,  7924.02 MB free, 16283.45 MB total
+[2018.02.03-06.03.08:255][  0]LogMemory: Virtual Memory: 655.38 MB used,  7924.02 MB free, 134217728.00 MB total
+[2018.02.03-06.03.08:355][  0]LogInit: Using OS detected language (en-US).
+[2018.02.03-06.03.08:355][  0]LogInit: Using OS detected locale (en-CA).
+[2018.02.03-06.03.08:356][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.03-06.03.08:659][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.03-06.03.08:836][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.03-06.03.08:871][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.02.03-06.03.08:871][  0]LogD3D11RHI:       8096/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.03-06.03.08:876][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.02.03-06.03.08:876][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.03-06.03.08:877][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.03-06.03.08:877][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.03-06.03.08:877][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.03-06.03.08:885][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.03-06.03.08:885][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.03-06.03.08:885][  0]LogWindows: EnumDisplayDevices:
+[2018.02.03-06.03.08:885][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.02.03-06.03.08:885][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.03-06.03.08:885][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.03-06.03.08:885][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.03-06.03.08:885][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.02.03-06.03.08:885][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.02.03-06.03.08:885][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.02.03-06.03.08:885][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.02.03-06.03.08:885][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.02.03-06.03.08:885][  0]LogD3D11RHI:   Driver Version: 387.95 (internal:23.21.13.8795, unified:387.95)
+[2018.02.03-06.03.08:885][  0]LogD3D11RHI:      Driver Date: 10-9-2017
+[2018.02.03-06.03.08:885][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2018.02.03-06.03.08:911][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.03-06.03.08:926][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.03-06.03.08:975][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (D:/CastleGuardPhase2/CastleGuardReborn/Intermediate/Shaders/WorkingDirectory/20012/).
+[2018.02.03-06.03.08:975][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/BA5633A542835DCBBAEA4996A2778714/'.
+[2018.02.03-06.03.08:975][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.03-06.03.09:627][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.03-06.03.09:663][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.03-06.03.09:700][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.03-06.03.09:736][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.03-06.03.09:772][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.03-06.03.09:809][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.03-06.03.09:845][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.03-06.03.09:882][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.03-06.03.09:915][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.03-06.03.09:950][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.03-06.03.09:990][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.03-06.03.10:027][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.03-06.03.10:065][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.03-06.03.10:101][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.03-06.03.10:177][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.03-06.03.10:177][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.03-06.03.10:213][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.03-06.03.10:239][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.03-06.03.10:306][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.03-06.03.10:326][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.03-06.03.10:362][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.03-06.03.10:397][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.03-06.03.10:432][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.03-06.03.10:466][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.03-06.03.10:466][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.03-06.03.10:777][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.03-06.03.10:848][  0]LogDerivedDataCache: Loaded boot cache 0.07s 79MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.03-06.03.10:848][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.03-06.03.10:848][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.03-06.03.10:848][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.03-06.03.10:848][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CastleGuardPhase2/CastleGuardReborn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.03-06.03.10:848][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.03-06.03.10:859][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.03-06.03.10:871][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.03-06.03.10:880][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.03-06.03.10:880][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.03-06.03.10:881][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.03-06.03.10:881][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.03-06.03.11:139][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.03-06.03.11:367][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.03-06.03.11:395][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.03-06.03.11:395][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.03-06.03.11:395][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.03-06.03.11:395][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.03-06.03.11:395][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.03-06.03.11:415][  0]LogNetVersion: CastleGuardReborn , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2478525411)
+[2018.02.03-06.03.11:537][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
+[2018.02.03-06.03.11:936][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.047703 seconds
+[2018.02.03-06.03.11:941][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2018.02.03-06.03.11:941][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2018.02.03-06.03.11:941][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.03-06.03.11:981][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.03-06.03.14:064][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.03-06.03.14:095][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.03-06.03.14:564][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.03-06.03.14:863][  0]SourceControl: Source control is disabled
+[2018.02.03-06.03.14:863][  0]SourceControl: Source control is disabled
+[2018.02.03-06.03.14:898][  0]SourceControl: Source control is disabled
+[2018.02.03-06.03.14:932][  0]SourceControl: Source control is disabled
+[2018.02.03-06.03.15:488][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.03-06.03.15:672][  0]LogOcInput: OculusInput pre-init called
+[2018.02.03-06.03.15:872][  0]LogEngine: Initializing Engine...
+[2018.02.03-06.03.19:432][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2018.02.03-06.03.19:619][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.03-06.03.19:619][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.03-06.03.19:712][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.03-06.03.19:724][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.03-06.03.19:741][  0]LogInit: FAudioDevice initialized.
+[2018.02.03-06.03.19:797][  0]LogDerivedDataCache: Saved boot cache 0.06s 78MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.03-06.03.19:815][  0]LogInit: Texture streaming: Enabled
+[2018.02.03-06.03.19:885][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.03-06.03.19:976][  0]LogInit: Transaction tracking system initialized
+[2018.02.03-06.03.20:207][  0]BlueprintLog: New page: Editor Load
+[2018.02.03-06.03.20:818][  0]LocalizationService: Localization service is disabled
+[2018.02.03-06.03.21:332][  0]LogConsoleResponse: Display: 
+[2018.02.03-06.03.21:455][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.03-06.03.21:455][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.03-06.03.21:455][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.03-06.03.22:275][  0]SourceControl: Source control is disabled
+[2018.02.03-06.03.22:276][  0]Cmd: MAP LOAD FILE="D:/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.03-06.03.22:276][  0]LightingResults: New page: Lighting Build
+[2018.02.03-06.03.22:306][  0]MapCheck: New page: Map Check
+[2018.02.03-06.03.22:306][  0]LightingResults: New page: Lighting Build
+[2018.02.03-06.03.24:096][  0]LogClass: Warning: Enum '/Game/Vive/Blueprints/Enum_GameStatus.Enum_GameStatus' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.02.03-06.03.25:111][  0]LogAIModule: Creating AISystem for world default
+[2018.02.03-06.03.25:267][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.03-06.03.25:341][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.03-06.03.25:400][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 58.764ms to complete.
+[2018.02.03-06.03.25:400][  0]LogFileHelpers: Loading map 'default' took 3.124
+[2018.02.03-06.03.25:464][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.03-06.03.25:523][  0]LogCollectionManager: Loaded 0 collections in 0.001100 seconds
+[2018.02.03-06.03.25:590][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' took 0.01s
+[2018.02.03-06.03.25:590][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' took 0.01s
+[2018.02.03-06.03.25:590][  0]LogFileCache: Scanning file cache for directory 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' took 0.01s
+[2018.02.03-06.03.25:590][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.03-06.03.25:597][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2363 classes and 519 folders.
+[2018.02.03-06.03.25:642][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.03-06.03.25:667][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.03-06.03.25:698][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.03-06.03.25:712][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.03-06.03.25:714][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.03-06.03.25:718][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.03-06.03.25:791][  0]LogRenderer: Reallocating scene render targets to support 1280x632 Format 26 NumSamples 1 (Frame:1).
+[2018.02.03-06.03.25:826][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.03-06.03.25:935][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.03-06.03.25:935][  0]LogLoad: (Engine Initialization) Total time: 19.34 seconds
+[2018.02.03-06.03.25:935][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.03-06.03.25:935][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.03-06.03.25:935][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.03-06.03.25:969][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.03-06.03.26:071][  1]LogAssetRegistry: Asset discovery search completed in 14.5551 seconds
+[2018.02.03-06.03.26:073][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.03-06.03.26:073][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2018.02.03-06.03.26:985][ 71]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.03-06.07.14:554][882]LogTexture: Display: Building textures: D_ShieldKnight__2_ (AutoDXT, 4096X4096)
+[2018.02.03-06.07.14:554][882]LogMaterial: Missing cached shader map for material Test3, compiling. 
+[2018.02.03-06.07.18:962][882]LogTexture: Display: Building textures: D_ShieldKnight__1_ (AutoDXT, 4096X4096)
+[2018.02.03-06.07.18:962][882]LogMaterial: Missing cached shader map for material Test1, compiling. 
+[2018.02.03-06.07.27:997][413]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.03-06.07.32:518][413]LogMaterial: Missing cached shader map for material Test2, compiling. 
+[2018.02.03-06.07.32:518][413]LogMaterial: Warning: D:\CastleGuardPhase2\CastleGuardReborn\Content\Vive\Blueprints\AI\SoldierAI\Textures\Test2.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.03-06.07.32:518][413]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.02.03-06.07.32:522][413]LogMaterial: Missing cached shader map for material Test1, compiling. 
+[2018.02.03-06.07.32:522][413]LogMaterial: Warning: D:\CastleGuardPhase2\CastleGuardReborn\Content\Vive\Blueprints\AI\SoldierAI\Textures\Test1.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.03-06.07.32:522][413]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.02.03-06.07.32:525][413]LogMaterial: Missing cached shader map for material Test3, compiling. 
+[2018.02.03-06.07.32:525][413]LogMaterial: Warning: D:\CastleGuardPhase2\CastleGuardReborn\Content\Vive\Blueprints\AI\SoldierAI\Textures\Test3.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.03-06.07.32:525][413]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.02.03-06.07.42:382][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/AI/SoldierAI/SK_SoldierUnit" FILE="D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SK_SoldierUnit.uasset" SILENT=true
+[2018.02.03-06.07.42:403][502]LogSavePackage: Save=14.93ms
+[2018.02.03-06.07.42:403][502]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/SK_SoldierUnit74E5777D412A8364E06850BF5F2C727D.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SK_SoldierUnit.uasset'
+[2018.02.03-06.07.42:404][502]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SK_SoldierUnit.uasset
+[2018.02.03-06.16.50:485][  3]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript'!
+[2018.02.03-06.16.50:486][  3]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BP_AI_Arrows_C /Engine/Transient.World_10:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00C8
+[2018.02.03-06.16.50:486][  3]LogScript: Warning: Accessed None
+	BP_AI_Arrows_C /Engine/Transient.World_10:PersistentLevel.BP_AI_Arrows_C_0
+	Function /Game/Vive/Blueprints/AI/ArcherAI/BP_AI_Arrows.BP_AI_Arrows_C:UserConstructionScript:00DD
+[2018.02.03-06.17.05:981][738]LogBlueprint: Warning: [Compiler ABP_Soldier] OperateSiege to State  will never be taken, please connect something to  Can Enter Transition
+[2018.02.03-06.17.05:984][738]LogBlueprint: Warning: [Compiler ABP_Soldier] [0839.39] Compile of ABP_Soldier successful, but with 1 Warning(s) [in 10 ms] (/Game/Vive/Blueprints/AI/SoldierAI/ABP_Soldier.ABP_Soldier)
+[2018.02.03-06.17.05:987][738]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Pushing_In_Place.Pushing_In_Place
+[2018.02.03-06.17.05:988][738]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Pushing_In_Place.Pushing_In_Place) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.02.03-06.17.05:991][738]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Working_On_Device.Working_On_Device
+[2018.02.03-06.17.05:991][738]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Working_On_Device.Working_On_Device) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.02.03-06.17.05:996][738]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/sword_and_shield_idle.sword_and_shield_idle
+[2018.02.03-06.17.05:996][738]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/sword_and_shield_idle.sword_and_shield_idle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.02.03-06.17.06:008][738]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Sword_And_Shield_Run_In_Place.Sword_And_Shield_Run_In_Place
+[2018.02.03-06.17.06:008][738]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/Sword_And_Shield_Run_In_Place.Sword_And_Shield_Run_In_Place) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.02.03-06.17.06:009][738]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/sword_and_shield_slash.sword_and_shield_slash
+[2018.02.03-06.17.06:009][738]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimationAssets/Mixamo_J_Nordstrom/Animations/sword_and_shield_slash.sword_and_shield_slash) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.02.03-06.17.47:408][942]LogTexture: Display: Building textures: D_Archer01 (AutoDXT, 4096X4096)
+[2018.02.03-06.17.47:408][942]LogTexture: Display: Building textures: D_Archer02 (AutoDXT, 4096X4096)
+[2018.02.03-06.17.47:408][942]LogMaterial: Missing cached shader map for material M_Archer02, compiling. 
+[2018.02.03-06.17.47:473][942]LogMaterial: Missing cached shader map for material M_Archer01, compiling. 
+[2018.02.03-06.17.47:570][942]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.03-06.17.47:692][942]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.02.03-06.17.47:754][942]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.02.03-06.17.48:084][942]LogSlate: Took 0.006049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.03-06.17.48:146][942]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2018.02.03-06.17.48:205][943]LogRenderer: Reallocating scene render targets to support 1280x888 Format 26 NumSamples 1 (Frame:1).
+[2018.02.03-06.17.59:512][695]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.03-06.18.09:733][833]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2018.02.03-06.18.09:770][833]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2018.02.03-06.20.58:654][920]LogEditorFactories: Performing atomic reimport of [D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SK_SoldierUnit.fbx]
+[2018.02.03-06.20.58:677][920]LogFbx: Loading FBX Scene from D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SK_SoldierUnit.fbx
+[2018.02.03-06.20.58:714][920]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.03-06.20.58:716][920]LogFbx: =================================================
+[2018.02.03-06.20.58:716][920]LogFbx: Dumping Node START [Belt] 
+[2018.02.03-06.20.58:716][920]LogFbx: 	Total Deformer Count 279637024.
+[2018.02.03-06.20.58:716][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:716][920]LogFbx: =================================================
+[2018.02.03-06.20.58:716][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:716][920]LogFbx: 		[Node Attribute Child 1] Belt (Type Mesh).
+[2018.02.03-06.20.58:716][920]LogFbx: Dumping Node END [Belt]
+[2018.02.03-06.20.58:716][920]LogFbx: =================================================
+[2018.02.03-06.20.58:716][920]LogFbx: Dumping Node START [Shirt_Base] 
+[2018.02.03-06.20.58:716][920]LogFbx: 	Total Deformer Count 247190400.
+[2018.02.03-06.20.58:716][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:716][920]LogFbx: =================================================
+[2018.02.03-06.20.58:716][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:716][920]LogFbx: 		[Node Attribute Child 1] Shirt_Base (Type Mesh).
+[2018.02.03-06.20.58:716][920]LogFbx: Dumping Node END [Shirt_Base]
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node START [BootTop_R] 
+[2018.02.03-06.20.58:717][920]LogFbx: 	Total Deformer Count 247190400.
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node Attribute Child 1] BootTop_R (Type Mesh).
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node END [BootTop_R]
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node START [BootTop_L] 
+[2018.02.03-06.20.58:717][920]LogFbx: 	Total Deformer Count 247190400.
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node Attribute Child 1] BootTop_L (Type Mesh).
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node END [BootTop_L]
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node START [Base] 
+[2018.02.03-06.20.58:717][920]LogFbx: 	Total Deformer Count 279635056.
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node Attribute Child 1] Base (Type Mesh).
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node END [Base]
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node START [Arm_L] 
+[2018.02.03-06.20.58:717][920]LogFbx: 	Total Deformer Count 279635056.
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node Attribute Child 1] Arm_L (Type Mesh).
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node END [Arm_L]
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node START [Arm_R] 
+[2018.02.03-06.20.58:717][920]LogFbx: 	Total Deformer Count 279635056.
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node Attribute Child 1] Arm_R (Type Mesh).
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node END [Arm_R]
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node START [Underskirt] 
+[2018.02.03-06.20.58:717][920]LogFbx: 	Total Deformer Count 247188864.
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node Attribute Child 1] Underskirt (Type Mesh).
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node END [Underskirt]
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node START [Helmet] 
+[2018.02.03-06.20.58:717][920]LogFbx: 	Total Deformer Count 1524747136.
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node Attribute Child 1] Helmet (Type Mesh).
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node END [Helmet]
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node START [Shield] 
+[2018.02.03-06.20.58:717][920]LogFbx: 	Total Deformer Count 1524747136.
+[2018.02.03-06.20.58:717][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node Attribute Child 1] Shield (Type Mesh).
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node END [Shield]
+[2018.02.03-06.20.58:717][920]LogFbx: =================================================
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node START [Sword] 
+[2018.02.03-06.20.58:717][920]LogFbx: 	Total Deformer Count 279632224.
+[2018.02.03-06.20.58:717][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:717][920]LogFbx: 		[Node Attribute Child 1] Sword (Type Mesh).
+[2018.02.03-06.20.58:717][920]LogFbx: Dumping Node END [Sword]
+[2018.02.03-06.20.58:718][920]LogFbx: =================================================
+[2018.02.03-06.20.58:718][920]LogFbx: Dumping Node START [Belt] 
+[2018.02.03-06.20.58:718][920]LogFbx: 	Total Deformer Count 1825975808.
+[2018.02.03-06.20.58:718][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:718][920]LogFbx: =================================================
+[2018.02.03-06.20.58:718][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:718][920]LogFbx: 		[Node Attribute Child 1] Belt (Type Mesh).
+[2018.02.03-06.20.58:718][920]LogFbx: Dumping Node END [Belt]
+[2018.02.03-06.20.58:718][920]LogFbx: =================================================
+[2018.02.03-06.20.58:718][920]LogFbx: Dumping Node START [Shirt_Base] 
+[2018.02.03-06.20.58:718][920]LogFbx: 	Total Deformer Count 246593536.
+[2018.02.03-06.20.58:718][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:718][920]LogFbx: =================================================
+[2018.02.03-06.20.58:718][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:718][920]LogFbx: 		[Node Attribute Child 1] Shirt_Base (Type Mesh).
+[2018.02.03-06.20.58:718][920]LogFbx: Dumping Node END [Shirt_Base]
+[2018.02.03-06.20.58:718][920]LogFbx: =================================================
+[2018.02.03-06.20.58:718][920]LogFbx: Dumping Node START [BootTop_R] 
+[2018.02.03-06.20.58:718][920]LogFbx: 	Total Deformer Count 246593536.
+[2018.02.03-06.20.58:718][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:718][920]LogFbx: =================================================
+[2018.02.03-06.20.58:718][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:718][920]LogFbx: 		[Node Attribute Child 1] BootTop_R (Type Mesh).
+[2018.02.03-06.20.58:718][920]LogFbx: Dumping Node END [BootTop_R]
+[2018.02.03-06.20.58:718][920]LogFbx: =================================================
+[2018.02.03-06.20.58:718][920]LogFbx: Dumping Node START [BootTop_L] 
+[2018.02.03-06.20.58:718][920]LogFbx: 	Total Deformer Count 246593536.
+[2018.02.03-06.20.58:718][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:718][920]LogFbx: =================================================
+[2018.02.03-06.20.58:718][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:718][920]LogFbx: 		[Node Attribute Child 1] BootTop_L (Type Mesh).
+[2018.02.03-06.20.58:718][920]LogFbx: Dumping Node END [BootTop_L]
+[2018.02.03-06.20.58:718][920]LogFbx: =================================================
+[2018.02.03-06.20.58:718][920]LogFbx: Dumping Node START [Base] 
+[2018.02.03-06.20.58:718][920]LogFbx: 	Total Deformer Count 1825978832.
+[2018.02.03-06.20.58:718][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:718][920]LogFbx: =================================================
+[2018.02.03-06.20.58:718][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:718][920]LogFbx: 		[Node Attribute Child 1] Base (Type Mesh).
+[2018.02.03-06.20.58:718][920]LogFbx: Dumping Node END [Base]
+[2018.02.03-06.20.58:718][920]LogFbx: =================================================
+[2018.02.03-06.20.58:718][920]LogFbx: Dumping Node START [Arm_L] 
+[2018.02.03-06.20.58:718][920]LogFbx: 	Total Deformer Count 1825978832.
+[2018.02.03-06.20.58:718][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:718][920]LogFbx: =================================================
+[2018.02.03-06.20.58:718][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:718][920]LogFbx: 		[Node Attribute Child 1] Arm_L (Type Mesh).
+[2018.02.03-06.20.58:718][920]LogFbx: Dumping Node END [Arm_L]
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node START [Arm_R] 
+[2018.02.03-06.20.58:719][920]LogFbx: 	Total Deformer Count 1825978832.
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node Attribute Child 1] Arm_R (Type Mesh).
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node END [Arm_R]
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node START [Underskirt] 
+[2018.02.03-06.20.58:719][920]LogFbx: 	Total Deformer Count 246582016.
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node Attribute Child 1] Underskirt (Type Mesh).
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node END [Underskirt]
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node START [Helmet] 
+[2018.02.03-06.20.58:719][920]LogFbx: 	Total Deformer Count 1524749768.
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node Attribute Child 1] Helmet (Type Mesh).
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node END [Helmet]
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node START [Shield] 
+[2018.02.03-06.20.58:719][920]LogFbx: 	Total Deformer Count 1524749768.
+[2018.02.03-06.20.58:719][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node Attribute Child 1] Shield (Type Mesh).
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node END [Shield]
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node START [Sword] 
+[2018.02.03-06.20.58:719][920]LogFbx: 	Total Deformer Count 1825970864.
+[2018.02.03-06.20.58:719][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node Attribute Child 1] Sword (Type Mesh).
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node END [Sword]
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node START [Belt] 
+[2018.02.03-06.20.58:719][920]LogFbx: 	Total Deformer Count 1825970864.
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node Attribute Child 1] Belt (Type Mesh).
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node END [Belt]
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node START [Shirt_Base] 
+[2018.02.03-06.20.58:719][920]LogFbx: 	Total Deformer Count 1268039360.
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node Attribute Child 1] Shirt_Base (Type Mesh).
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node END [Shirt_Base]
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node START [BootTop_R] 
+[2018.02.03-06.20.58:719][920]LogFbx: 	Total Deformer Count 1268039360.
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node Attribute Child 1] BootTop_R (Type Mesh).
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node END [BootTop_R]
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node START [BootTop_L] 
+[2018.02.03-06.20.58:719][920]LogFbx: 	Total Deformer Count 1268039360.
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:719][920]LogFbx: 		[Node Attribute Child 1] BootTop_L (Type Mesh).
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node END [BootTop_L]
+[2018.02.03-06.20.58:719][920]LogFbx: =================================================
+[2018.02.03-06.20.58:719][920]LogFbx: Dumping Node START [Base] 
+[2018.02.03-06.20.58:719][920]LogFbx: 	Total Deformer Count 1825978688.
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node Attribute Child 1] Base (Type Mesh).
+[2018.02.03-06.20.58:720][920]LogFbx: Dumping Node END [Base]
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: Dumping Node START [Arm_L] 
+[2018.02.03-06.20.58:720][920]LogFbx: 	Total Deformer Count 1825978688.
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node Attribute Child 1] Arm_L (Type Mesh).
+[2018.02.03-06.20.58:720][920]LogFbx: Dumping Node END [Arm_L]
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: Dumping Node START [Arm_R] 
+[2018.02.03-06.20.58:720][920]LogFbx: 	Total Deformer Count 1825978688.
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node Attribute Child 1] Arm_R (Type Mesh).
+[2018.02.03-06.20.58:720][920]LogFbx: Dumping Node END [Arm_R]
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: Dumping Node START [Underskirt] 
+[2018.02.03-06.20.58:720][920]LogFbx: 	Total Deformer Count -1281894016.
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node Attribute Child 1] Underskirt (Type Mesh).
+[2018.02.03-06.20.58:720][920]LogFbx: Dumping Node END [Underskirt]
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: Dumping Node START [Helmet] 
+[2018.02.03-06.20.58:720][920]LogFbx: 	Total Deformer Count 1524745064.
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node Attribute Child 1] Helmet (Type Mesh).
+[2018.02.03-06.20.58:720][920]LogFbx: Dumping Node END [Helmet]
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: Dumping Node START [Belt] 
+[2018.02.03-06.20.58:720][920]LogFbx: 	Total Deformer Count 1825971152.
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node Attribute Child 1] Belt (Type Mesh).
+[2018.02.03-06.20.58:720][920]LogFbx: Dumping Node END [Belt]
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: Dumping Node START [Shirt_Base] 
+[2018.02.03-06.20.58:720][920]LogFbx: 	Total Deformer Count -1281896640.
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node Attribute Child 1] Shirt_Base (Type Mesh).
+[2018.02.03-06.20.58:720][920]LogFbx: Dumping Node END [Shirt_Base]
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: Dumping Node START [BootTop_R] 
+[2018.02.03-06.20.58:720][920]LogFbx: 	Total Deformer Count -1281896640.
+[2018.02.03-06.20.58:720][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:720][920]LogFbx: =================================================
+[2018.02.03-06.20.58:720][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node Attribute Child 1] BootTop_R (Type Mesh).
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node END [BootTop_R]
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node START [BootTop_L] 
+[2018.02.03-06.20.58:721][920]LogFbx: 	Total Deformer Count -1281896640.
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node Attribute Child 1] BootTop_L (Type Mesh).
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node END [BootTop_L]
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node START [Base] 
+[2018.02.03-06.20.58:721][920]LogFbx: 	Total Deformer Count 253439008.
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node Attribute Child 1] Base (Type Mesh).
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node END [Base]
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node START [Arm_L] 
+[2018.02.03-06.20.58:721][920]LogFbx: 	Total Deformer Count 253439008.
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node Attribute Child 1] Arm_L (Type Mesh).
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node END [Arm_L]
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node START [Arm_R] 
+[2018.02.03-06.20.58:721][920]LogFbx: 	Total Deformer Count 253439008.
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node Attribute Child 1] Arm_R (Type Mesh).
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node END [Arm_R]
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node START [Underskirt] 
+[2018.02.03-06.20.58:721][920]LogFbx: 	Total Deformer Count 1831432384.
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node Attribute Child 1] Underskirt (Type Mesh).
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node END [Underskirt]
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node START [Helmet] 
+[2018.02.03-06.20.58:721][920]LogFbx: 	Total Deformer Count 1524748536.
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node 1]  (Type Skin).
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node Attribute Child 1] Helmet (Type Mesh).
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node END [Helmet]
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node START [Shield] 
+[2018.02.03-06.20.58:721][920]LogFbx: 	Total Deformer Count 1524745064.
+[2018.02.03-06.20.58:721][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node Attribute Child 1] Shield (Type Mesh).
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node END [Shield]
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node START [Sword] 
+[2018.02.03-06.20.58:721][920]LogFbx: 	Total Deformer Count 253436608.
+[2018.02.03-06.20.58:721][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node Attribute Child 1] Sword (Type Mesh).
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node END [Sword]
+[2018.02.03-06.20.58:721][920]LogFbx: =================================================
+[2018.02.03-06.20.58:721][920]LogFbx: Dumping Node START [Shield] 
+[2018.02.03-06.20.58:721][920]LogFbx: 	Total Deformer Count 1524748536.
+[2018.02.03-06.20.58:721][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:721][920]LogFbx: 		[Node Attribute Child 1] Shield (Type Mesh).
+[2018.02.03-06.20.58:722][920]LogFbx: Dumping Node END [Shield]
+[2018.02.03-06.20.58:722][920]LogFbx: =================================================
+[2018.02.03-06.20.58:722][920]LogFbx: Dumping Node START [Sword] 
+[2018.02.03-06.20.58:722][920]LogFbx: 	Total Deformer Count 253435600.
+[2018.02.03-06.20.58:722][920]LogFbx: 	Attribute () Type (4).
+[2018.02.03-06.20.58:722][920]LogFbx: 		[Node Attribute Child 1] Sword (Type Mesh).
+[2018.02.03-06.20.58:722][920]LogFbx: Dumping Node END [Sword]
+[2018.02.03-06.20.58:722][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Belt : The relative matrices do not match
+[2018.02.03-06.20.58:722][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Shirt_Base : The relative matrices do not match
+[2018.02.03-06.20.58:722][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node BootTop_R : The relative matrices do not match
+[2018.02.03-06.20.58:722][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node BootTop_L : The relative matrices do not match
+[2018.02.03-06.20.58:722][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Base : The relative matrices do not match
+[2018.02.03-06.20.58:722][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Arm_L : The relative matrices do not match
+[2018.02.03-06.20.58:722][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Arm_R : The relative matrices do not match
+[2018.02.03-06.20.58:722][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Underskirt : The relative matrices do not match
+[2018.02.03-06.20.58:722][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Helmet : The relative matrices do not match
+[2018.02.03-06.20.58:722][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Belt : The relative matrices do not match
+[2018.02.03-06.20.58:723][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Shirt_Base : The relative matrices do not match
+[2018.02.03-06.20.58:723][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node BootTop_R : The relative matrices do not match
+[2018.02.03-06.20.58:723][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node BootTop_L : The relative matrices do not match
+[2018.02.03-06.20.58:723][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Base : The relative matrices do not match
+[2018.02.03-06.20.58:723][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Arm_L : The relative matrices do not match
+[2018.02.03-06.20.58:723][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Arm_R : The relative matrices do not match
+[2018.02.03-06.20.58:723][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Underskirt : The relative matrices do not match
+[2018.02.03-06.20.58:724][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Helmet : The relative matrices do not match
+[2018.02.03-06.20.58:724][920]LogFbx: Valid bind pose for Pose (skinCluster3) - Belt
+[2018.02.03-06.20.58:724][920]LogFbx: Valid bind pose for Pose (skinCluster4) - Belt
+[2018.02.03-06.20.58:724][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Belt : The relative matrices do not match
+[2018.02.03-06.20.58:724][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Shirt_Base : The relative matrices do not match
+[2018.02.03-06.20.58:724][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node BootTop_R : The relative matrices do not match
+[2018.02.03-06.20.58:725][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node BootTop_L : The relative matrices do not match
+[2018.02.03-06.20.58:725][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Base : The relative matrices do not match
+[2018.02.03-06.20.58:725][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Arm_L : The relative matrices do not match
+[2018.02.03-06.20.58:725][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Arm_R : The relative matrices do not match
+[2018.02.03-06.20.58:725][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Underskirt : The relative matrices do not match
+[2018.02.03-06.20.58:726][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Helmet : The relative matrices do not match
+[2018.02.03-06.20.58:726][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node Belt : The relative matrices do not match
+[2018.02.03-06.20.58:726][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node Shirt_Base : The relative matrices do not match
+[2018.02.03-06.20.58:726][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node BootTop_R : The relative matrices do not match
+[2018.02.03-06.20.58:726][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node BootTop_L : The relative matrices do not match
+[2018.02.03-06.20.58:726][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node Base : The relative matrices do not match
+[2018.02.03-06.20.58:726][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node Arm_L : The relative matrices do not match
+[2018.02.03-06.20.58:726][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node Arm_R : The relative matrices do not match
+[2018.02.03-06.20.58:726][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node Underskirt : The relative matrices do not match
+[2018.02.03-06.20.58:726][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node Helmet : The relative matrices do not match
+[2018.02.03-06.20.58:726][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node Belt : The relative matrices do not match
+[2018.02.03-06.20.58:726][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node Shirt_Base : The relative matrices do not match
+[2018.02.03-06.20.58:727][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node BootTop_R : The relative matrices do not match
+[2018.02.03-06.20.58:727][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node BootTop_L : The relative matrices do not match
+[2018.02.03-06.20.58:727][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node Base : The relative matrices do not match
+[2018.02.03-06.20.58:727][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node Arm_L : The relative matrices do not match
+[2018.02.03-06.20.58:727][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node Arm_R : The relative matrices do not match
+[2018.02.03-06.20.58:727][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node Underskirt : The relative matrices do not match
+[2018.02.03-06.20.58:727][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node Helmet : The relative matrices do not match
+[2018.02.03-06.20.58:727][920]LogFbx: Valid bind pose for Pose (skinCluster8) - Belt
+[2018.02.03-06.20.58:727][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Belt : The relative matrices do not match
+[2018.02.03-06.20.58:727][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Shirt_Base : The relative matrices do not match
+[2018.02.03-06.20.58:727][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node BootTop_R : The relative matrices do not match
+[2018.02.03-06.20.58:728][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node BootTop_L : The relative matrices do not match
+[2018.02.03-06.20.58:728][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Base : The relative matrices do not match
+[2018.02.03-06.20.58:728][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Arm_L : The relative matrices do not match
+[2018.02.03-06.20.58:728][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Arm_R : The relative matrices do not match
+[2018.02.03-06.20.58:728][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Underskirt : The relative matrices do not match
+[2018.02.03-06.20.58:728][920]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Helmet : The relative matrices do not match
+[2018.02.03-06.20.58:729][920]LogFbx: Triangulating skeletal mesh Belt
+[2018.02.03-06.20.58:729][920]LogFbx: Triangulating skeletal mesh Shirt_Base
+[2018.02.03-06.20.58:733][920]LogFbx: Triangulating skeletal mesh BootTop_R
+[2018.02.03-06.20.58:733][920]LogFbx: Triangulating skeletal mesh BootTop_L
+[2018.02.03-06.20.58:734][920]LogFbx: Triangulating skeletal mesh Base
+[2018.02.03-06.20.58:748][920]LogFbx: Triangulating skeletal mesh Arm_L
+[2018.02.03-06.20.58:750][920]LogFbx: Triangulating skeletal mesh Arm_R
+[2018.02.03-06.20.58:751][920]LogFbx: Triangulating skeletal mesh Underskirt
+[2018.02.03-06.20.58:751][920]LogFbx: Triangulating skeletal mesh Helmet
+[2018.02.03-06.20.58:760][920]LogFbx: Warning: Bones digested - 36  Depth of hierarchy - 12
+[2018.02.03-06.20.58:813][920]LogSkeletalMesh: Section 0: 993 vertices, 25 active bones
+[2018.02.03-06.20.58:813][920]LogSkeletalMesh: Section 1: 301 vertices, 18 active bones
+[2018.02.03-06.20.58:813][920]LogSkeletalMesh: Section 2: 346 vertices, 15 active bones
+[2018.02.03-06.20.58:817][920]LogSkeletalMesh: Section 0: Material=0, 1496 triangles
+[2018.02.03-06.20.58:817][920]LogSkeletalMesh: Section 1: Material=1, 440 triangles
+[2018.02.03-06.20.58:817][920]LogSkeletalMesh: Section 2: Material=2, 468 triangles
+[2018.02.03-06.20.58:820][920]LogEditorFactories: -- imported successfully
+[2018.02.03-06.20.58:827][920]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.03-06.20.58:827][920]FBXImport: Warning: The following bones are missing from the bind pose:
+SKN_spine2_jnt  
+SKN_spine3_jnt  
+SKN_neck1_jnt  
+SKN_neck2_jnt  
+SKN_head_endJnt  
+SKN_L_clavicle_jnt  
+SKN_L_shoulder_jnt  
+SKN_L_elbow_jnt  
+SKN_L_wrist_jnt  
+SKN_L_hand1_jnt  
+SKN_L_hand2_jnt  
+SKN_L_hand3_endJnt  
+SKN_L_thumb1_jnt  
+SKN_L_thumb2_endJnt  
+SKN_L_forearm_endJnt  
+SKN_R_clavicle_jnt  
+SKN_R_shoulder_jnt  
+SKN_R_elbow_jnt  
+SKN_R_wrist_jnt  
+SKN_R_hand1_jnt  
+SKN_R_hand2_jnt  
+SKN_R_hand3_endJnt  
+SKN_R_thumb1_jnt  
+SKN_R_thumb2_endJnt  
+SKN_R_forearm_endJnt  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2018.02.03-06.21.46:698][327]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\studentuser\Downloads\HeavyInfantryTextures\diffuse.heavyknight.1001.tga)
+[2018.02.03-06.21.47:133][327]LogTexture: Display: Building textures: diffuse_heavyknight_1001 (AutoDXT, 4096X4096)
+[2018.02.03-06.21.52:469][327]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\studentuser\Downloads\HeavyInfantryTextures\diffuse.heavyknight.1002.tga)
+[2018.02.03-06.21.52:860][327]LogTexture: Display: Building textures: diffuse_heavyknight_1002 (AutoDXT, 4096X4096)
+[2018.02.03-06.21.58:137][327]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\studentuser\Downloads\HeavyInfantryTextures\diffuse.heavyknight.1003.tga)
+[2018.02.03-06.21.58:503][327]LogTexture: Display: Building textures: diffuse_heavyknight_1003 (AutoDXT, 4096X4096)
+[2018.02.03-06.22.05:139][526]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.02.03-06.22.08:020][863]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_SoldierUnit)
+[2018.02.03-06.22.10:890][198]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_SoldierUnit)
+[2018.02.03-06.22.26:627][ 19]LogMaterial: Missing cached shader map for material diffuse_heavyknight_1002_Mat, compiling. 
+[2018.02.03-06.22.26:648][ 19]LogMaterial: Missing cached shader map for material diffuse_heavyknight_1003_Mat, compiling. 
+[2018.02.03-06.22.26:671][ 19]LogMaterial: Missing cached shader map for material diffuse_heavyknight_1001_Mat, compiling. 
+[2018.02.03-06.22.54:558][ 32]LogSavePackage: Save=15.97ms
+[2018.02.03-06.22.54:558][ 32]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_heavyknight_1003_Mat3D720C7B4D0E8C1C99D386AA33BE3DC5.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1003_Mat.uasset'
+[2018.02.03-06.22.54:560][ 32]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1003_Mat.uasset
+[2018.02.03-06.22.54:583][ 32]LogSavePackage: Save=12.75ms
+[2018.02.03-06.22.54:584][ 32]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_heavyknight_1001_Mat3C67E0344D2E13630582ED909EF42C31.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1001_Mat.uasset'
+[2018.02.03-06.22.54:586][ 32]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1001_Mat.uasset
+[2018.02.03-06.22.54:616][ 32]LogSavePackage: Save=12.54ms
+[2018.02.03-06.22.54:616][ 32]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_heavyknight_1002_Mat1D4D2FE8411A941AB08EB8ADFF86CA06.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1002_Mat.uasset'
+[2018.02.03-06.22.54:618][ 32]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1002_Mat.uasset
+[2018.02.03-06.23.03:979][105]LogMaterial: Warning: Material /Game/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1001_Mat.diffuse_heavyknight_1001_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2018.02.03-06.23.03:981][105]LogMaterial: Missing cached shader map for material diffuse_heavyknight_1001_Mat, compiling. 
+[2018.02.03-06.23.10:464][607]LogMaterial: Warning: Material /Game/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1002_Mat.diffuse_heavyknight_1002_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2018.02.03-06.23.10:466][607]LogMaterial: Missing cached shader map for material diffuse_heavyknight_1002_Mat, compiling. 
+[2018.02.03-06.23.12:185][710]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.02.03-06.23.14:177][828]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_SoldierUnit)
+[2018.02.03-06.23.18:643][276]LogMaterial: Warning: Material /Game/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1003_Mat.diffuse_heavyknight_1003_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2018.02.03-06.23.18:645][276]LogMaterial: Missing cached shader map for material diffuse_heavyknight_1003_Mat, compiling. 
+[2018.02.03-06.23.19:454][328]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.02.03-06.23.26:660][987]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_SoldierUnit)
+[2018.02.03-06.23.58:484][710]Cmd: DUPLICATE
+[2018.02.03-06.23.58:485][710]Cmd: ACTOR DUPLICATE
+[2018.02.03-06.24.10:148][297]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\studentuser\Downloads\LightInfantryTextures\diffuse.ShieldKnight_UV_done.1001.tga)
+[2018.02.03-06.24.10:615][297]LogTexture: Display: Building textures: diffuse_ShieldKnight_UV_done_1001 (AutoDXT, 4096X4096)
+[2018.02.03-06.24.14:675][297]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\studentuser\Downloads\LightInfantryTextures\diffuse.ShieldKnight_UV_done.1002.tga)
+[2018.02.03-06.24.15:059][297]LogTexture: Display: Building textures: diffuse_ShieldKnight_UV_done_1002 (AutoDXT, 4096X4096)
+[2018.02.03-06.24.18:532][297]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\studentuser\Downloads\LightInfantryTextures\diffuse.ShieldKnight_UV_done.1003.tga)
+[2018.02.03-06.24.18:928][297]LogTexture: Display: Building textures: diffuse_ShieldKnight_UV_done_1003 (AutoDXT, 4096X4096)
+[2018.02.03-06.24.25:199][660]LogMaterial: Missing cached shader map for material diffuse_ShieldKnight_UV_done_1001_Mat, compiling. 
+[2018.02.03-06.24.25:231][660]LogMaterial: Missing cached shader map for material diffuse_ShieldKnight_UV_done_1002_Mat, compiling. 
+[2018.02.03-06.24.25:260][660]LogMaterial: Missing cached shader map for material diffuse_ShieldKnight_UV_done_1003_Mat, compiling. 
+[2018.02.03-06.24.29:188][936]LogSavePackage: Save=16.09ms
+[2018.02.03-06.24.29:188][936]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_ShieldKnight_UV_done_100A89B6FB44052F6C62099E08D4D3133F6.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1001_Mat.uasset'
+[2018.02.03-06.24.29:190][936]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1001_Mat.uasset
+[2018.02.03-06.24.29:229][936]LogSavePackage: Save=16.08ms
+[2018.02.03-06.24.29:229][936]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_ShieldKnight_UV_done_100AF21CB634EFF4A4AC8E305AD835A5777.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1002_Mat.uasset'
+[2018.02.03-06.24.29:230][936]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1002_Mat.uasset
+[2018.02.03-06.24.29:640][936]LogSavePackage: Save=12.70ms
+[2018.02.03-06.24.29:640][936]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_ShieldKnight_UV_done_1005B762D844232344E5BA72C8511E9E35C.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1003_Mat.uasset'
+[2018.02.03-06.24.29:641][936]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1003_Mat.uasset
+[2018.02.03-06.24.33:032][311]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_SoldierUnit)
+[2018.02.03-06.24.40:777][221]LogMaterial: Warning: Material /Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1001_Mat.diffuse_ShieldKnight_UV_done_1001_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2018.02.03-06.24.40:779][221]LogMaterial: Missing cached shader map for material diffuse_ShieldKnight_UV_done_1001_Mat, compiling. 
+[2018.02.03-06.24.47:070][754]LogMaterial: Warning: Material /Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1002_Mat.diffuse_ShieldKnight_UV_done_1002_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2018.02.03-06.24.47:072][754]LogMaterial: Missing cached shader map for material diffuse_ShieldKnight_UV_done_1002_Mat, compiling. 
+[2018.02.03-06.24.51:277][ 34]LogMaterial: Warning: Material /Game/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1003_Mat.diffuse_ShieldKnight_UV_done_1003_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2018.02.03-06.24.51:279][ 34]LogMaterial: Missing cached shader map for material diffuse_ShieldKnight_UV_done_1003_Mat, compiling. 
+[2018.02.03-06.24.53:222][165]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.02.03-06.24.59:417][729]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_SoldierUnit)
+[2018.02.03-06.25.10:012][955]LogTemp: Repeating last play command: VR Preview
+[2018.02.03-06.25.10:093][955]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.02.03-06.25.10:093][955]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.03-06.25.10:148][955]LogPlayLevel: [PlayLevel] Compiling default before play...
+[2018.02.03-06.25.10:297][955]LogPlayLevel: PlayLevel: Blueprint regeneration took 203 ms (1 blueprints)
+[2018.02.03-06.25.10:309][955]PIE: New page: PIE session: default (Feb 2, 2018, 2:25:10 PM)
+[2018.02.03-06.25.10:309][955]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.02.03-06.25.10:396][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087243s)
+[2018.02.03-06.25.10:397][955]LogAIModule: Creating AISystem for world default
+[2018.02.03-06.25.10:397][955]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2018.02.03-06.25.10:397][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.088340s)
+[2018.02.03-06.25.10:412][955]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.03-06.25.10:426][955]LogInit: FAudioDevice initialized.
+[2018.02.03-06.25.10:515][955]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.02.03-06.25.10:527][955]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.02.02-22.25.10
+[2018.02.03-06.25.10:528][955]LogWorld: Bringing up level for play took: 0.013054
+[2018.02.03-06.25.10:557][955]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2018.02.03-06.25.10:557][955]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.03-06.25.10:557][955]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.03-06.25.10:557][955]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.03-06.25.10:559][955]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.03-06.25.10:563][955]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default -0.015
+[2018.02.03-06.25.10:564][955]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.02.03-06.25.10:608][955]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 26 NumSamples 1 (Frame:1).
+[2018.02.03-06.25.10:608][955]LogAudio: Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.02.03-06.25.15:144][360]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.02.03-06.25.15:318][360]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.02.03-06.25.16:784][517]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_SoldierUnit2)
+[2018.02.03-06.25.21:608][ 62]LogEditorViewport: Clicking on Actor (CTRL LMB): SkeletalMeshActor (SK_SoldierUnit)
+[2018.02.03-06.25.27:579][768]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_SoldierUnit2)
+[2018.02.03-06.25.34:623][602]LogEditorViewport: Clicking on Actor (CTRL LMB): SkeletalMeshActor (SK_SoldierUnit)
+[2018.02.03-06.25.35:542][707]LogEditorViewport: Clicking on Actor (CTRL LMB): SkeletalMeshActor (SK_ArcherUnit)
+[2018.02.03-06.25.38:794][ 87]LogTemp: Repeating last play command: VR Preview
+[2018.02.03-06.25.38:825][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.02.03-06.25.38:825][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.03-06.25.38:826][ 87]PIE: New page: PIE session: default (Feb 2, 2018, 2:25:38 PM)
+[2018.02.03-06.25.38:826][ 87]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_default
+[2018.02.03-06.25.38:910][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084277s)
+[2018.02.03-06.25.38:911][ 87]LogAIModule: Creating AISystem for world default
+[2018.02.03-06.25.38:911][ 87]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2018.02.03-06.25.38:911][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/default.default to /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default (0.085400s)
+[2018.02.03-06.25.38:926][ 87]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.03-06.25.38:938][ 87]LogInit: FAudioDevice initialized.
+[2018.02.03-06.25.39:016][ 87]LogLoad: Game class is 'GM_ViveGameMode_C'
+[2018.02.03-06.25.39:029][ 87]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2018.02.02-22.25.39
+[2018.02.03-06.25.39:030][ 87]LogWorld: Bringing up level for play took: 0.013053
+[2018.02.03-06.25.39:030][ 87]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.03-06.25.39:030][ 87]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.03-06.25.39:030][ 87]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.03-06.25.39:032][ 87]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.03-06.25.39:036][ 87]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_default 0.458
+[2018.02.03-06.25.39:037][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.02.03-06.25.39:088][ 87]LogAudio: Warning: Detected orphaned looping sound 'Battle_1_Cue'.
+[2018.02.03-06.26.44:235][740]LogCharacterMovement: BP_SoldierAI_C_5 is stuck and failed to move! Velocity: X=-203.21 Y=467.03 Z=0.00 Location: X=50257.12 Y=38956.82 Z=290.15 Normal: X=0.90 Y=0.43 Z=-0.00 PenetrationDepth:21.204 Actor:BP_SoldierAI_C_11 Component:Sword BoneName:None (0 other events since notify)
+[2018.02.03-06.26.48:650][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.02.03-06.26.48:818][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/VirtualRealityBP/Maps/default.default_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/default.default:PersistentLevel.default'
+[2018.02.03-06.26.51:381][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Maps/default" FILE="D:/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.03-06.26.53:252][426]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.03-06.26.53:290][426]LogSavePackage: Save=1891.25ms
+[2018.02.03-06.26.53:290][426]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/default3CFCB5744E87E365F56652BBB243197E.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap'
+[2018.02.03-06.26.53:292][426]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/VirtualRealityBP/Maps/default.umap
+[2018.02.03-06.26.53:352][426]LogFileHelpers: Saving map 'default' took 2.038
+[2018.02.03-06.26.53:364][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/AI/SoldierAI/SK_SoldierUnit" FILE="D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SK_SoldierUnit.uasset" SILENT=true
+[2018.02.03-06.26.53:392][426]LogSavePackage: Save=23.01ms
+[2018.02.03-06.26.53:392][426]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/SK_SoldierUnitF12FF5DF467E606222150BACADDDB882.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SK_SoldierUnit.uasset'
+[2018.02.03-06.26.53:394][426]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SK_SoldierUnit.uasset
+[2018.02.03-06.26.54:598][426]LogSavePackage: Save=1190.62ms
+[2018.02.03-06.26.54:598][426]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_heavyknight_1001BC1E9DF640598835A15266942CCE59CE.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Textures/diffuse_heavyknight_1001.uasset'
+[2018.02.03-06.26.54:599][426]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Textures/diffuse_heavyknight_1001.uasset
+[2018.02.03-06.26.55:546][426]LogSavePackage: Save=937.34ms
+[2018.02.03-06.26.55:546][426]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_heavyknight_100211F73C884B4A21DDFFF8CEA8516294FD.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Textures/diffuse_heavyknight_1002.uasset'
+[2018.02.03-06.26.55:547][426]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Textures/diffuse_heavyknight_1002.uasset
+[2018.02.03-06.26.56:542][426]LogSavePackage: Save=985.33ms
+[2018.02.03-06.26.56:542][426]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_heavyknight_1003D6360D6F4E62C23CCBF088BF6B076869.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Textures/diffuse_heavyknight_1003.uasset'
+[2018.02.03-06.26.56:543][426]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Textures/diffuse_heavyknight_1003.uasset
+[2018.02.03-06.26.57:810][426]LogSavePackage: Save=1254.89ms
+[2018.02.03-06.26.57:810][426]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_ShieldKnight_UV_done_100FC53914C448AEABB75560999BB4E6345.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Textures/diffuse_ShieldKnight_UV_done_1001.uasset'
+[2018.02.03-06.26.57:811][426]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Textures/diffuse_ShieldKnight_UV_done_1001.uasset
+[2018.02.03-06.26.58:861][426]LogSavePackage: Save=1040.43ms
+[2018.02.03-06.26.58:861][426]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_ShieldKnight_UV_done_10015DE5209438FA77BFDF07EB81BBA82D1.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Textures/diffuse_ShieldKnight_UV_done_1002.uasset'
+[2018.02.03-06.26.58:862][426]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Textures/diffuse_ShieldKnight_UV_done_1002.uasset
+[2018.02.03-06.26.59:942][426]LogSavePackage: Save=1070.10ms
+[2018.02.03-06.26.59:942][426]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_ShieldKnight_UV_done_1001F8C0B554C62BA54650507A0B7C2F887.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Textures/diffuse_ShieldKnight_UV_done_1003.uasset'
+[2018.02.03-06.26.59:943][426]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Textures/diffuse_ShieldKnight_UV_done_1003.uasset
+[2018.02.03-06.26.59:962][426]LogSavePackage: Save=7.53ms
+[2018.02.03-06.26.59:963][426]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_heavyknight_1003_Mat389221A746C03FD55946EAACF70F3D98.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1003_Mat.uasset'
+[2018.02.03-06.26.59:964][426]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1003_Mat.uasset
+[2018.02.03-06.26.59:975][426]LogSavePackage: Save=4.21ms
+[2018.02.03-06.26.59:975][426]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_heavyknight_1001_Mat0E71F9DB497EA994983BA5AF9A1DCEDB.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1001_Mat.uasset'
+[2018.02.03-06.26.59:976][426]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1001_Mat.uasset
+[2018.02.03-06.26.59:987][426]LogSavePackage: Save=4.09ms
+[2018.02.03-06.26.59:987][426]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_heavyknight_1002_Mat8F8C87304CCDD245F5CAA891CA4FA086.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1002_Mat.uasset'
+[2018.02.03-06.26.59:989][426]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/Materials/diffuse_heavyknight_1002_Mat.uasset
+[2018.02.03-06.27.00:010][426]LogSavePackage: Save=12.52ms
+[2018.02.03-06.27.00:010][426]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_ShieldKnight_UV_done_100BCFC0B664E08C314151B18B6448AE4BE.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1001_Mat.uasset'
+[2018.02.03-06.27.00:011][426]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1001_Mat.uasset
+[2018.02.03-06.27.00:024][426]LogSavePackage: Save=4.48ms
+[2018.02.03-06.27.00:024][426]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_ShieldKnight_UV_done_100A25FA4334B7B036F057D44972ABB6F2D.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1002_Mat.uasset'
+[2018.02.03-06.27.00:025][426]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1002_Mat.uasset
+[2018.02.03-06.27.00:039][426]LogSavePackage: Save=4.44ms
+[2018.02.03-06.27.00:039][426]LogSavePackage: Moving 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/diffuse_ShieldKnight_UV_done_100986AD47C405E684754719A91CC149247.tmp' to 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1003_Mat.uasset'
+[2018.02.03-06.27.00:040][426]LogSavePackage: Display: Finished SavePackage D:/CastleGuardPhase2/CastleGuardReborn/Content/Vive/Blueprints/AI/SoldierAI/SoldierAILight/Materials/diffuse_ShieldKnight_UV_done_1003_Mat.uasset
+[2018.02.03-06.27.02:354][675]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.03-06.27.02:561][676]Cmd: QUIT_EDITOR
+[2018.02.03-06.27.03:198][676]LogExit: Preparing to exit.
+[2018.02.03-06.27.03:594][676]LogExit: Editor shut down
+[2018.02.03-06.27.03:598][676]LogExit: Transaction tracking system shut down
+[2018.02.03-06.27.03:752][676]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.03-06.27.03:752][676]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardPhase2/CastleGuardReborn/Content/' was aborted.
+[2018.02.03-06.27.03:752][676]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.03-06.27.03:752][676]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.02.03-06.27.03:752][676]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.02.03-06.27.03:752][676]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.02.03-06.27.03:752][676]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.02.03-06.27.03:992][676]LogExit: Object subsystem successfully closed.
+[2018.02.03-06.27.04:015][676]LogD3D11RHI: Shutdown
+[2018.02.03-06.27.04:015][676]LogD3D11RHI: CleanupD3DDevice
+[2018.02.03-06.27.04:017][676]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.03-06.27.04:027][676]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
+[2018.02.03-06.27.04:027][676]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (552)
+[2018.02.03-06.27.04:027][676]LogModuleManager: Shutting down and abandoning module SkeletonEditor (550)
+[2018.02.03-06.27.04:027][676]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.02.03-06.27.04:027][676]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.02.03-06.27.04:027][676]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.02.03-06.27.04:027][676]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.02.03-06.27.04:028][676]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Collections/' was aborted.
+[2018.02.03-06.27.04:028][676]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardPhase2/CastleGuardReborn/Content/Developers/studentuser/Collections/' was aborted.
+[2018.02.03-06.27.04:028][676]LogDirectoryWatcher: A directory notification for 'D:/CastleGuardPhase2/CastleGuardReborn/Saved/Collections/' was aborted.
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.02.03-06.27.04:028][676]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.02.03-06.27.04:029][676]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.02.03-06.27.04:029][676]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.02.03-06.27.04:570][676]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.02.03-06.27.04:571][676]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.02.03-06.27.04:571][676]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.02.03-06.27.04:571][676]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.02.03-06.27.04:571][676]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.02.03-06.27.04:571][676]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.02.03-06.27.04:571][676]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.02.03-06.27.04:571][676]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.02.03-06.27.04:635][676]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.02.03-06.27.04:635][676]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.02.03-06.27.04:635][676]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.02.03-06.27.04:635][676]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.02.03-06.27.04:635][676]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.02.03-06.27.04:635][676]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.02.03-06.27.04:635][676]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.02.03-06.27.04:635][676]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.02.03-06.27.04:635][676]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.02.03-06.27.04:635][676]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.02.03-06.27.04:639][676]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.02.03-06.27.04:837][676]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.02.03-06.27.04:838][676]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.02.03-06.27.04:838][676]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.02.03-06.27.04:838][676]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.02.03-06.27.04:838][676]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.02.03-06.27.04:838][676]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.02.03-06.27.04:838][676]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.02.03-06.27.04:838][676]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.02.03-06.27.04:838][676]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.02.03-06.27.04:838][676]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.02.03-06.27.04:838][676]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.02.03-06.27.04:838][676]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.02.03-06.27.04:939][676]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.02.03-06.27.05:040][676]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.02.03-06.27.05:040][676]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.02.03-06.27.05:040][676]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.02.03-06.27.05:040][676]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.02.03-06.27.05:040][676]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.02.03-06.27.05:040][676]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.02.03-06.27.05:041][676]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.02.03-06.27.05:041][676]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.02.03-06.27.05:041][676]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.02.03-06.27.05:041][676]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.02.03-06.27.05:041][676]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.02.03-06.27.05:041][676]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.02.03-06.27.05:041][676]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.02.03-06.27.05:041][676]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.02.03-06.27.05:041][676]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.02.03-06.27.05:041][676]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.02.03-06.27.05:048][676]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.02.03-06.27.05:050][676]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.02.03-06.27.05:138][676]LogDerivedDataCache: Shutdown
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.02.03-06.27.05:138][676]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.02.03-06.27.05:139][676]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.02.03-06.27.05:139][676]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.02.03-06.27.05:139][676]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.02.03-06.27.05:139][676]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.02.03-06.27.05:139][676]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.02.03-06.27.05:139][676]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.02.03-06.27.05:139][676]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.02.03-06.27.05:139][676]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.02.03-06.27.05:139][676]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.03-06.27.05:139][676]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.03-06.27.05:139][676]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.03-06.27.05:139][676]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.03-06.27.05:139][676]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.03-06.27.05:139][676]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7FF277B0-45D5-7087-3D42-3980CB3D8DFB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.2-3794801%2B%2B%2BUE4%2BRelease-4.18&UserID=982011a7482c1cbdc2ce3cbeaef51dbe%7Ce0ca3295625c4184a95d26a3b9c858a2%7C70012bb2-c253-4297-934e-6257f569ac01&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.03-06.27.05:141][676]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.03-06.27.05:142][676]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.02.03-06.27.05:142][676]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.02.03-06.27.05:142][676]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.02.03-06.27.05:142][676]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.02.03-06.27.05:142][676]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.02.03-06.27.05:142][676]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.02.03-06.27.05:142][676]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.02.03-06.27.05:143][676]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.02.03-06.27.05:143][676]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.02.03-06.27.05:143][676]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.02.03-06.27.05:143][676]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.02.03-06.27.05:143][676]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.02.03-06.27.05:143][676]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.02.03-06.27.05:143][676]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.02.03-06.27.05:143][676]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.02.03-06.27.05:143][676]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.03-06.27.05:143][676]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.03-06.27.05:143][676]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.03-06.27.05:145][676]LogExit: Exiting.
+[2018.02.03-06.27.05:172][676]Log file closed, 02/02/18 22:27:05
